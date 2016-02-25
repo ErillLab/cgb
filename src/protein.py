@@ -29,3 +29,9 @@ class Protein:
     def sequence(self):
         """Returns the amino acid sequence of the protein."""
         return str(self.record.seq)
+
+    def to_fasta(self):
+        """Returns the protein record as a string in FASTA format."""
+        output = cStringIO.StringIO()
+        SeqIO.write(self.record, output, 'fasta')
+        return output.getvalue()
