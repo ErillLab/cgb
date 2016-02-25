@@ -1,4 +1,6 @@
 from Bio.motifs.matrix import PositionWeightMatrix
+import numpy as np
+import scipy.stats
 
 import bio_utils
 import misc
@@ -71,6 +73,36 @@ class BindingModel:
     def self_score(self):
         """Returns the list of scores of the sites that the model has."""
         return [self.score_seq(site) for site in self.sites]
+
+    def bayesian_estimator(self, bg_scores, prior_m, alpha=1.0/350):
+        """Returns a Bayesian estimator of the probability of regulation.
+
+        The returned Bayesian estimator is a function that takes a list of PSSM
+        scores of a sequence and returns the probability of binding to that
+        sequence.
+
+        Args:
+            bg_scores (list): List of PSSM scores of sequences from background.
+            prior_m (float): The prior probability of regulation.
+            alpha (float): The mixing ratio.
+        """
+        prior_g = 1.0 - prior_m  # prior probability of the background
+
+        # Estimate the mean/std of functional site scores.
+        pssm_scores = self.score_self()
+        mu_m, std_m = np.mean(pssm_scores), np.std(pssm_scores)
+        # Estimate the mean/std of the background scores.
+        mu_g, std_g = np.mean(bg_scores), np.std(bg_scores)
+        # Distributions
+        pdf_m = scipy.stats.distributions.norm(mu_m, std_m).pdf
+        pdf_g = scipy.stats.distributions.norm(mu_g, std_g).pdf
+        # Likelihoods
+        lh_g = lambda scores: pdf_g(scores)
+        lh_m = lambda scores: alpha * pdf_m(scores) + (1-alpha) * pdf_g(scores)
+        lh_ratio = lambda scores: np.exp(
+            np.sum(np.log(lh_g(scores)) - np.log(lh_m(scores))))
+
+        return lambda scores: 1 / (1 + lh_ratio(scores) * prior_m / prior_g)
 
     @staticmethod
     def _combine_pwms(pwms, weights):
