@@ -35,3 +35,6 @@ class Protein:
         output = cStringIO.StringIO()
         SeqIO.write(self.record, output, 'fasta')
         return output.getvalue()
+
+    def __repr__(self):
+        return self.accession_number + ': ' + self.description
