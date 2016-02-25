@@ -1,7 +1,6 @@
 """Methods for multiple sequence alignment and tree construction."""
-
-
 from Bio.Align.Applications import ClustalOmegaCommandline
+from Bio import AlignIO
 
 
 def proteins_to_fasta_file(proteins, filename):
@@ -14,7 +13,13 @@ def proteins_to_fasta_file(proteins, filename):
 def clustalo(proteins, infile='/tmp/input.fasta', outfile='/tmp/output.aln'):
     """Performs Clustal-Omega multiple sequence alignment.
 
-    The output of the alignment is written to outfile.
+    Args:
+        proteins (list): List of Protein objects to be aligned
+        infile (string): Clustal input file name
+        outfile (string): Clustal output file name
+
+    Returns:
+        MultipleSeqAlignment: A Bio.Align.MultipleSeqAlignment object.
     """
     proteins_to_fasta_file(proteins, infile)
     clustalo_cline = ClustalOmegaCommandline(
@@ -25,6 +30,8 @@ def clustalo(proteins, infile='/tmp/input.fasta', outfile='/tmp/output.aln'):
         verbose=True,           # verbose output
         auto=True,              # set options automatically
         force=True)             # force file overwriting
-
     stdout, stderr = clustalo_cline()
     print stderr
+
+    align = AlignIO.read(outfile, 'clustal')
+    return align
