@@ -27,6 +27,10 @@ class Genome:
         """Returns all genes of the genome."""
         return [g for chromid in self.chromids for g in chromid.genes]
 
+    def genes_to_fasta(self):
+        """Returns the sequences of all genes in FASTA format."""
+        return '\n'.join(c.genes_to_fasta() for c in self.chromids)
+
     def __repr__(self):
         return (self.strain_name + ': ' +
                 str([c.accession_number for c in self.chromids]))
