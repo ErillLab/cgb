@@ -20,6 +20,16 @@ class Gene:
         return self._seq_feature.strand
 
     @property
+    def sequence(self):
+        """Returns the gene sequence."""
+        return self.chromid.subsequence(self.start, self.end, self.strand)
+
+    @property
+    def length(self):
+        """Returns the length of the genome."""
+        return self.end - self.start
+
+    @property
     def is_forward_strand(self):
         """Returns true if the gene is on the forward strand."""
         return self.strand == 1
@@ -57,6 +67,16 @@ class Gene:
         Used to compute the intergenic distance between two neighboring genes.
         """
         return max(self.start, other.start) - min(self.end, other.end)
+
+    def to_fasta(self):
+        """Returns the gene sequence as a string in FASTA format."""
+        description = '>%s|%s|%s\n' % (self.locus_tag,
+                                       self.chromid.accession_number,
+                                       self.genome.strain_name)
+        line_length = 60
+        sequence = '\n'.join(self.sequence[i:i+line_length]
+                             for i in range(0, self.length, line_length))
+        return description + sequence
 
     def __repr__(self):
         return self.locus_tag
