@@ -48,11 +48,16 @@ class Genome:
         """
         return BLAST(self.genes_to_fasta(), 'nucl')
 
+    def get_gene_by_locus_tag(self, locus_tag):
+        """Returns the gene with the given locus tag."""
+        gene, = [g for g in self.genes if g.locus_tag == locus_tag]
+        return gene
+
     def find_gene_homolog(self, gene):
         """Returns the homolog gene of the genome."""
         blast_record = self.blast_client.tblastx(gene.to_fasta())
         locus_tag = self.blast_client.get_best_hit(blast_record)
-        return locus_tag
+        return self.get_gene_by_locus_tag(locus_tag)
 
     def find_protein_homolog(self, protein):
         """Returns the homolog protein of the given protein."""

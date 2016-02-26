@@ -67,6 +67,10 @@ class Gene:
         """Returns the product type of the gene."""
         return self._product_feature.type if self._product_feature else ''
 
+    def find_homolog_in_genome(self, genome):
+        """Returns the homolog gene in the given genome."""
+        return genome.find_gene_homolog(self)
+
     def distance(self, other):
         """Returns the distance between two genes.
 
