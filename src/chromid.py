@@ -62,12 +62,16 @@ class Chromid:
     @cached_property
     def genes(self):
         """Returns the list of genes of the chromosome/plasmid."""
-        return [Gene(f, self) for f in self.record.features if f.type=='gene']
+        return [Gene(f, self) for f in self.record.features if f.type == 'gene']
 
     @cached_property
     def operons(self):
         """Returns the list of operons of the chromosome/plasmid."""
         return self._operon_prediction()
+
+    def genes_to_fasta(self):
+        """Returns the sequences of all genes in FASTA format."""
+        return '\n'.join(g.to_fasta() for g in self.genes)
 
     def _directons(self):
         """Returns the list of directons.
