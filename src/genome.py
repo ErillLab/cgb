@@ -1,4 +1,7 @@
+from cached_property import cached_property
+
 from chromid import Chromid
+from blast import BLAST
 
 
 class Genome:
@@ -27,9 +30,34 @@ class Genome:
         """Returns all genes of the genome."""
         return [g for chromid in self.chromids for g in chromid.genes]
 
+    @property
+    def protein_coding_genes(self):
+        """Returns the protein coding genes of the genome."""
+        return [g for chromid in self.chromids
+                for g in chromid.protein_coding_genes]
+
     def genes_to_fasta(self):
         """Returns the sequences of all genes in FASTA format."""
         return '\n'.join(c.genes_to_fasta() for c in self.chromids)
+
+    @cached_property
+    def blast_client(self):
+        """Returns the BLAST client.
+
+        The target database is created with genes of the genome.
+        """
+        return BLAST(self.genes_to_fasta(), 'nucl')
+
+    def find_gene_homolog(self, gene):
+        """Returns the homolog gene of the genome."""
+        blast_record = self.blast_client.tblastx(gene.to_fasta())
+        locus_tag = self.blast_client.get_best_hit(blast_record)
+        return locus_tag
+
+    def find_protein_homolog(self, protein):
+        """Returns the homolog protein of the given protein."""
+        blast_record = self.blast_client.tblastn(protein.to_fasta())
+        return blast_record
 
     def __repr__(self):
         return (self.strain_name + ': ' +

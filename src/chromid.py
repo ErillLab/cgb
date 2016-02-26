@@ -62,7 +62,19 @@ class Chromid:
     @cached_property
     def genes(self):
         """Returns the list of genes of the chromosome/plasmid."""
-        return [Gene(f, self) for f in self.record.features if f.type == 'gene']
+        gene_list = []
+        for f, next_f in zip(self.record.features, self.record.features[1:]):
+            if f.type == 'gene':
+                locus_tag = f.qualifiers['locus_tag']
+                next_locus_tag = next_f.qualifiers.get('locus_tag')
+                product_f = next_f if locus_tag == next_locus_tag else None
+                gene_list.append(Gene(self, f, product_f))
+        return gene_list
+
+    @cached_property
+    def protein_coding_genes(self):
+        """Returns the protein coding genes of the chromosome/plasmid."""
+        return [g for g in self.genes if g.product_type == 'CDS']
 
     @cached_property
     def operons(self):

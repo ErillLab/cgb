@@ -1,7 +1,8 @@
 class Gene:
-    def __init__(self, seq_feature, chromid):
+    def __init__(self, chromid, seq_feature, product_feature=None):
         """Initializes Gene instance with the given Biopython SeqFeature."""
         self._seq_feature = seq_feature
+        self._product_feature = product_feature
         self._chromid = chromid
 
     @property
@@ -61,6 +62,11 @@ class Gene:
         assert len(locus_tags) == 1
         return locus_tags[0]
 
+    @property
+    def product_type(self):
+        """Returns the product type of the gene."""
+        return self._product_feature.type if self._product_feature else ''
+
     def distance(self, other):
         """Returns the distance between two genes.
 
@@ -70,9 +76,7 @@ class Gene:
 
     def to_fasta(self):
         """Returns the gene sequence as a string in FASTA format."""
-        description = '>%s|%s|%s\n' % (self.locus_tag,
-                                       self.chromid.accession_number,
-                                       self.genome.strain_name)
+        description = '>%s\n' % self.locus_tag
         line_length = 60
         sequence = '\n'.join(self.sequence[i:i+line_length]
                              for i in range(0, self.length, line_length))

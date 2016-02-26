@@ -18,6 +18,7 @@ class BLAST:
         self._log_file = '/tmp/makeblastdb.log'
         self._seq_fasta = seq_fasta
         self._db_type = db_type
+        self.makeblastdb()      # Create BLAST database.
 
     def makeblastdb(self):
         """Creates a BLAST database."""
@@ -29,13 +30,24 @@ class BLAST:
         print cmd
         os.system(cmd)
 
-    def tblastx(self, query, eval=10**-3):
-        output_file = '/tmp/tblastx.out'
+    def search(self, blast_program, query, eval):
+        """Runs BLAST to search query sequence in the target database.
+
+        Args:
+            blast_program (string): BLAST flavor to run. 'tblastx' or 'tblastn'
+            query (string): query sequence in FASTA format
+            eval (float): E-value threshold
+        Returns:
+            Bio.Blast.Record.Blast object
+        """
+        assert blast_program in ['tblastn', 'tblastx']
+        output_file = '/tmp/blast_program.out'
         query_file = '/tmp/query.fasta'
         with open(query_file, 'w') as f:
             f.write(query)
-        cmd = 'tblastx -query {q} -db {db} -evalue {e} -out {out} -outfmt 5'.format(
-            q=query_file, db=self._db_file, e=eval, out=output_file)
+        cmd = '{prog} -query {q} -db {db} -evalue {e} -out {out} -outfmt 5'.format(
+            prog=blast_program, q=query_file, db=self._db_file, e=eval,
+            out=output_file)
         print cmd
         os.system(cmd)
 
@@ -43,3 +55,16 @@ class BLAST:
         with open(output_file) as results_handle:
             blast_record = NCBIXML.read(results_handle)
         return blast_record
+
+    def tblastx(self, query, eval=10**-3):
+        """Runs tblastx."""
+        return self.search('tblastx', query, eval)
+
+    def tblastn(self, query, eval=10**-3):
+        """Runs tblastn."""
+        return self.search('tblastn', query, eval)
+
+    @staticmethod
+    def get_best_hit(blast_record):
+        """Returns the locus_tag of the best BLAST hit."""
+        return blast_record.alignments[0].hit_def
