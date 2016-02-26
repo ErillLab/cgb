@@ -1,37 +1,75 @@
 """Methods for multiple sequence alignment and tree construction."""
 from Bio.Align.Applications import ClustalOmegaCommandline
 from Bio import AlignIO
+from Bio import Phylo as BioPhylo
+from Bio.Phylo.TreeConstruction import DistanceCalculator
+from Bio.Phylo.TreeConstruction import DistanceTreeConstructor
+from cached_property import cached_property
 
 
-def proteins_to_fasta_file(proteins, filename):
-    """Writes proteins to a temporary FASTA file."""
-    with open(filename, 'w') as f:
-        for protein in proteins:
-            f.write(protein.to_fasta())
+class Phylo:
+    def __init__(self, proteins, distance_model='identity',
+                 tree_algorithm='nj'):
+        """Initializes a Phylo object.
 
+        Args:
+            proteins (list): list of Protein objects
+            distance_model (string): see DistanceCalculator.protein_models
+            tree_algorithm (string): 'nj' or 'upgma'
+        """
+        self._proteins = proteins
+        self._distance_model = distance_model
+        self._tree_algorithm = tree_algorithm
 
-def clustalo(proteins, infile='/tmp/input.fasta', outfile='/tmp/output.aln'):
-    """Performs Clustal-Omega multiple sequence alignment.
+    @property
+    def proteins(self):
+        """Returns Protein objects."""
+        return self._proteins
 
-    Args:
-        proteins (list): List of Protein objects to be aligned
-        infile (string): Clustal input file name
-        outfile (string): Clustal output file name
+    @cached_property
+    def alignment(self):
+        """Returns the multiple sequence alignment."""
+        return self._clustalo()
 
-    Returns:
-        MultipleSeqAlignment: A Bio.Align.MultipleSeqAlignment object.
-    """
-    proteins_to_fasta_file(proteins, infile)
-    clustalo_cline = ClustalOmegaCommandline(
-        'clustalo',             # executable
-        infile=infile,          # input file name
-        outfile=outfile,        # output file name
-        outfmt='clustal',       # output format
-        verbose=True,           # verbose output
-        auto=True,              # set options automatically
-        force=True)             # force file overwriting
-    stdout, stderr = clustalo_cline()
-    print stderr
+    def proteins_to_fasta_file(self, filename):
+        """Writes proteins to a temporary FASTA file."""
+        with open(filename, 'w') as f:
+            for protein in self.proteins:
+                f.write(protein.to_fasta())
 
-    align = AlignIO.read(outfile, 'clustal')
-    return align
+    def _clustalo(self):
+        """Performs Clustal-Omega multiple sequence alignment.
+
+        Args:
+            proteins (list): List of Protein objects to be aligned
+        Returns:
+            MultipleSeqAlignment: A Bio.Align.MultipleSeqAlignment object.
+        """
+        infile = '/tmp/input.fasta'
+        outfile = '/tmp/output.aln'
+        self.proteins_to_fasta_file(infile)
+        clustalo_cline = ClustalOmegaCommandline(
+            'clustalo',             # executable
+            infile=infile,          # input file name
+            outfile=outfile,        # output file name
+            outfmt='clustal',       # output format
+            verbose=True,           # verbose output
+            auto=True,              # set options automatically
+            force=True)             # force file overwriting
+        stdout, stderr = clustalo_cline()
+        print stderr
+
+        align = AlignIO.read(outfile, 'clustal')
+        return align
+
+    @cached_property
+    def tree(self):
+        """Returns a phylogenetic tree constructed from the given alignment."""
+        calculator = DistanceCalculator(self._distance_model)
+        constructor = DistanceTreeConstructor(calculator, self._tree_algorithm)
+        tree = constructor.build_tree(self.alignment)
+        return tree
+
+    def draw_ascii(self):
+        """Draws the tree in ASCII format."""
+        BioPhylo.draw_ascii(self.tree)
