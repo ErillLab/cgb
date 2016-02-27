@@ -1,0 +1,34 @@
+{
+    "motifs": [
+        {
+            "sites": [
+                "AACTGGTTTTATATACAGTA",
+                "TGCTGTGAGTATATACAGCA",
+                "TACTGTTTTTATATACAGTA",
+                "GGCTGTGGTTTTATACAGTC",
+                "TGCTGGATAGATATCCAGCG",
+                "TACTGTATGGATGTACAGTA",
+                "TACTGTTTATTTATACAGTA",
+                "TACTGTTTTTATATACAGTA",
+                "AACTGTATTTATATACAGTT",
+                "AACTGGTTTTATATACAGTA",
+                "AACTGTGATTTTATACAGTA",
+                "TGCTGTGAGTATATACAGCA",
+                "TACTGGTTATTTATACAGGT",
+                "AACTGTCGATACGTACAGTA",
+                "TACTGATGATATATACAGGT",
+                "TACTGTTTTTATATACAGTA"
+            ],
+            "protein_accession": "NP_418467.1"
+        }
+    ],
+
+    "genomes": [
+        {
+            "name": "eco",
+            "accession_numbers": ["NC_000913"]
+        }
+    ],
+
+    "configuration": {}
+}
