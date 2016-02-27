@@ -1,5 +1,6 @@
 import cStringIO
 import random
+import logging
 
 from Bio import SeqIO
 from cached_property import cached_property
@@ -14,8 +15,11 @@ from misc import mean
 class Chromid:
     """Class for chromosomes and plasmids."""
     def __init__(self, accession_number, genome):
+        log_msg = "create chromid - %s" % accession_number
+        logging.info("Started: " + log_msg)
         self._record = entrez_utils.get_genome_record(accession_number)
         self._genome = genome
+        logging.info("Finished: " + log_msg)
 
     @property
     def genome(self):

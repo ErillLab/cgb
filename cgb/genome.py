@@ -1,3 +1,5 @@
+import logging
+
 from cached_property import cached_property
 
 from chromid import Chromid
@@ -7,8 +9,11 @@ from blast import BLAST
 class Genome:
     def __init__(self, strain_name, accession_numbers):
         """Initializes the Genome object."""
+        log_msg = "create genome %s %s" % (strain_name, accession_numbers)
+        logging.info("Started: " + log_msg)
         self._strain_name = strain_name
         self._chromids = [Chromid(acc, self) for acc in accession_numbers]
+        logging.info("Finished: " + log_msg)
 
     @property
     def strain_name(self):
