@@ -18,8 +18,8 @@ def get_genome_record(accession):
         with open(genbank_file, 'w') as f:
             f.write(handle.read())
 
-    record = SeqIO.read(open(genbank_file), 'gb')
-    return record
+    handle = open(genbank_file)
+    return handle.read()
 
 
 
