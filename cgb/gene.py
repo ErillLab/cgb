@@ -1,3 +1,5 @@
+from protein import Protein
+
 class Gene:
     def __init__(self, chromid, seq_feature, product_feature=None):
         """Initializes Gene instance with the given Biopython SeqFeature."""
@@ -66,6 +68,21 @@ class Gene:
     def product_type(self):
         """Returns the product type of the gene."""
         return self._product_feature.type if self._product_feature else ''
+
+    @property
+    def is_protein_coding_gene(self):
+        """Returns true if the gene is a protein coding gene."""
+        return self.product_type == 'CDS'
+
+    @property
+    def protein_accession_number(self):
+        """Returns the accession number of the protein coded by this gene."""
+        # TODO(sefa): throw execption if not protein coding gene
+        return self._product_feature.qualifiers['protein_id'][0]
+
+    def to_protein(self):
+        """Returns the protein object for the gene."""
+        return Protein(self.protein_accession_number)
 
     def find_homolog_in_genome(self, genome):
         """Returns the homologous gene in the given genome."""

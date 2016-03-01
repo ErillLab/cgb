@@ -68,3 +68,8 @@ class BLAST:
     def get_best_hit(blast_record):
         """Returns the locus_tag of the best BLAST hit."""
         return blast_record.alignments[0].hit_def
+
+    @staticmethod
+    def get_e_value(blast_record):
+        """Returns the e-value of the best BLAST hit."""
+        return blast_record.descriptions[0].e

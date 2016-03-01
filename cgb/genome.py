@@ -1,5 +1,3 @@
-import logging
-
 from cached_property import cached_property
 
 from chromid import Chromid
@@ -9,11 +7,8 @@ from blast import BLAST
 class Genome:
     def __init__(self, strain_name, accession_numbers):
         """Initializes the Genome object."""
-        log_msg = "create genome %s %s" % (strain_name, accession_numbers)
-        logging.info("Started: " + log_msg)
         self._strain_name = strain_name
         self._chromids = [Chromid(acc, self) for acc in accession_numbers]
-        logging.info("Finished: " + log_msg)
 
     @property
     def strain_name(self):
@@ -62,12 +57,28 @@ class Genome:
         """Returns the homolog gene of the genome."""
         blast_record = self.blast_client.tblastx(gene.to_fasta())
         locus_tag = self.blast_client.get_best_hit(blast_record)
-        return self.get_gene_by_locus_tag(locus_tag)
+        evalue = self.blast_client.get_e_value(blast_record)
+        return self.get_gene_by_locus_tag(locus_tag), evalue
 
     def find_protein_homolog(self, protein):
         """Returns the homolog protein of the given protein."""
         blast_record = self.blast_client.tblastn(protein.to_fasta())
-        return blast_record
+        locus_tag = self.blast_client.get_best_hit(blast_record)
+        gene = self.get_gene_by_locus_tag(locus_tag)
+        evalue = self.blast_client.get_e_value(blast_record)
+        return gene.to_protein(), evalue
+
+    def identify_TF_instance(self, proteins):
+        """Finds the homolog of the given transcription factors.
+
+        Args:
+            proteins (list): List of proteins.
+        Returns:
+            protein: the homologous gene with the lowest evalue.
+            None: if there are no homologs.
+        """
+        pass
+
 
     def __repr__(self):
         return (self.strain_name + ': ' +
