@@ -1,6 +1,7 @@
 """Class for performing BLAST."""
 
 import os
+import logging
 
 from Bio.Blast import NCBIXML
 
@@ -27,7 +28,7 @@ class BLAST:
         cmd = 'makeblastdb -in {inp} -out {out} -logfile {log} -dbtype {db_type}'.format(
             inp=self._in_file, out=self._db_file, log=self._log_file,
             db_type=self._db_type)
-        print cmd
+        logging.debug(cmd)
         os.system(cmd)
 
     def search(self, blast_program, query, eval):
@@ -48,7 +49,7 @@ class BLAST:
         cmd = '{prog} -query {q} -db {db} -evalue {e} -out {out} -outfmt 5'.format(
             prog=blast_program, q=query_file, db=self._db_file, e=eval,
             out=output_file)
-        print cmd
+        logging.debug(cmd)
         os.system(cmd)
 
         # Parse results
