@@ -1,3 +1,5 @@
+import logging
+
 from Bio.motifs.matrix import PositionWeightMatrix
 import numpy as np
 import scipy.stats
@@ -92,13 +94,18 @@ class BindingModel:
             prior_m (float): The prior probability of regulation.
             alpha (float): The mixing ratio.
         """
+        logging.debug("Building Bayesian estimator.")
+        logging.debug("prior_m: %.2f" % prior_m)
         prior_g = 1.0 - prior_m  # prior probability of the background
 
         # Estimate the mean/std of functional site scores.
         pssm_scores = self.score_self()
         mu_m, std_m = np.mean(pssm_scores), np.std(pssm_scores)
+        logging.debug("pssm_scores - mean: %.2f, std: %.2f" % (mu_m, std_m))
         # Estimate the mean/std of the background scores.
         mu_g, std_g = np.mean(bg_scores), np.std(bg_scores)
+        logging.debug("bg_scores - mean: %.2f, std: %.2f" % (mu_g, std_g))
+
         # Distributions
         pdf_m = scipy.stats.distributions.norm(mu_m, std_m).pdf
         pdf_g = scipy.stats.distributions.norm(mu_g, std_g).pdf
@@ -108,7 +115,7 @@ class BindingModel:
         lh_ratio = lambda scores: np.exp(
             np.sum(np.log(lh_g(scores)) - np.log(lh_m(scores))))
 
-        fun = lambda scores: 1 / (1 + lh_ratio(scores) * prior_m / prior_g)
+        fun = lambda scores: 1 / (1 + lh_ratio(scores) * prior_g / prior_m)
         self._bayesian_estimator = fun
 
     def binding_probability(self, seq):
