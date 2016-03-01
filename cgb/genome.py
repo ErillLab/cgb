@@ -62,6 +62,7 @@ class Genome:
 
     def find_protein_homolog(self, protein):
         """Returns the homolog protein of the given protein."""
+        # TODO(sefa): use blast database of protein coding genes only
         blast_record = self.blast_client.tblastn(protein.to_fasta())
         locus_tag = self.blast_client.get_best_hit(blast_record)
         gene = self.get_gene_by_locus_tag(locus_tag)
