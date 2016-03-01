@@ -1,3 +1,6 @@
+import logging
+
+
 class Operon:
     def __init__(self, genes):
         assert len(genes) > 0
@@ -50,24 +53,17 @@ class Operon:
             loc_end = self.first_gene.start+down
         else:
             loc_start = self.first_gene.end-down
-            loc_end = min(self.genome.length, self.first_gene.end-up)
+            loc_end = min(self.chromid.length, self.first_gene.end-up)
 
-        return self.genome.subsequence(loc_start, loc_end)
+        return self.chromid.subsequence(loc_start, loc_end)
 
-    def regulation_probability(self, motif, prior_m):
+    def regulation_probability(self, motif):
         """Returns the probability of regulation of the operon.
 
         Args:
             motif (BindingModel): the model that is used to score the promoter.
-            prior_m (float): the prior probability of regulation of the operon.
         """
-        random_seqs = self.genome.random_seqs(length=motif.length, count=10**5)
-        estimator = motif.bayesian_estimator(bg_scores=random_seqs,
-                                             prior_m=prior_m)
-        promoter = self.promoter_region()
-        promoter_pssm_scores = [motif.score_seq(promoter[i:i+motif.length])
-                                for i in xrange(len(promoter)-motif.length+1)]
-        return estimator(promoter_pssm_scores, prior_m)
+        return motif.binding_probability(self.promoter_region())
 
     def __repr__(self):
         return str([g.locus_tag for g in self._genes])

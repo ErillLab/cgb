@@ -42,10 +42,14 @@ class Chromid:
         """Returns the chromosome/plasmid sequence."""
         return str(self.record.seq)
 
+    def random_seq(self, length):
+        """Returns a random sequence drawn from the chromid sequence."""
+        start = random.randint(0, self.length-length)
+        return self.sequence[start:start+length]
+
     def random_seqs(self, length, count):
-        """Returns random sequences drawn from the genome."""
-        starts = [random.randint(0, self.length-length) for _ in xrange(count)]
-        return [self.sequence[start:start+length] for start in starts]
+        """Returns random sequences drawn from the chromid."""
+        return [self.random_seq(length) for _ in xrange(count)]
 
     @cached_property
     def length(self):

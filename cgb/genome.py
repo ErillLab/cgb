@@ -1,14 +1,23 @@
+import logging
+
 from cached_property import cached_property
+from tqdm import tqdm
 
 from chromid import Chromid
 from blast import BLAST
+from binding_model import BindingModel
+from misc import weighted_choice
 
 
 class Genome:
     def __init__(self, strain_name, accession_numbers):
         """Initializes the Genome object."""
+        logging.debug('Creating genome: %s %s' %
+                      (strain_name, str(accession_numbers)))
         self._strain_name = strain_name
         self._chromids = [Chromid(acc, self) for acc in accession_numbers]
+        self._TF_instance = None
+        self._TF_binding_model = None
 
     @property
     def strain_name(self):
@@ -19,6 +28,11 @@ class Genome:
     def chromids(self):
         """Returns all chromosome/plasmid objects of the genome."""
         return self._chromids
+
+    @property
+    def num_chromids(self):
+        """Returns the number of chromosome/plasmid objects."""
+        return len(self.chromids)
 
     @property
     def operons(self):
@@ -47,6 +61,52 @@ class Genome:
         The target database is created with genes of the genome.
         """
         return BLAST(self.genes_to_fasta(), 'nucl')
+
+    @property
+    def TF_instance(self):
+        """Returns the instance of the TF in this genome.
+
+        The TF-instance is identified through BLAST.
+        """
+        # TODO(sefa): make sure setter called before getter.
+        return self._TF_instance
+
+    @TF_instance.setter
+    def TF_instance(self, value):
+        """Sets the TF-instance attribute of the genome.
+
+        Args:
+            value (Protein): the transcription factor instance.
+        """
+        self._TF_instance = value
+
+    @property
+    def TF_binding_model(self):
+        """Returns the TF-binding model inferred for this genome."""
+        # TODO(sefa): make sure setter called before getter.
+        return self._TF_binding_model
+
+    def build_TF_binding_model(self, collections, weights, prior_reg):
+        """Builds a BindingModel and sets the _TF_binding_model attribute.
+
+        Args:
+            collections ([SiteCollection]): list of site collections
+            weights ([float]): list of weights, one per site collection
+            prior_reg: prior probability of regulation of an operon
+        Returns: None. Sets the _TF_binding_model attribute to the built model.
+        """
+        model = BindingModel(collections, weights)
+        random_seqs = self.random_seqs(length=model.length, count=100)
+        bg_scores = [model.score_seq(random_seq) for random_seq in random_seqs]
+        model.build_bayesian_estimator(bg_scores, prior_reg)
+        self._TF_binding_model = model
+
+    def random_seqs(self, length, count):
+        """Returns random sequences drawn from the genome."""
+        chromids = weighted_choice(self.chromids,
+                                   weights=[c.length for c in self.chromids],
+                                   count=count)
+        return [c.random_seq(length=length) for c in chromids]
 
     def get_gene_by_locus_tag(self, locus_tag):
         """Returns the gene with the given locus tag."""
@@ -82,6 +142,19 @@ class Genome:
         """
         blast_hits = [self.find_protein_homolog(p) for p in proteins]
         return min(blast_hits, key=lambda x: x[1]) if blast_hits else None
+
+    def scan_genome(self):
+        """Scans upstream regions of all operons for binding sites.
+
+        Returns:
+            [(Operon, float)]: List of operons and their regulation
+            probabilities, sorted by the probability.
+        """
+        search_results = []
+        for opr in tqdm(self.operons):
+            p = opr.regulation_probability(self.TF_binding_model)
+            search_results.append((opr, p))
+        return sorted(search_results, key=lambda x: x[1])
 
     def __repr__(self):
         return (self.strain_name + ': ' +

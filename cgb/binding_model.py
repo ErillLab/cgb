@@ -17,6 +17,7 @@ class BindingModel:
         self._background = background
         self._pwm = self._combine_pwms([c.pwm for c in collections], weights)
         self._collection_set = collections
+        self._bayesian_estimator = None
 
     @property
     def pwm(self):
@@ -70,16 +71,21 @@ class BindingModel:
                          for i in range(len(seq)))
         return pssm_score
 
-    def self_score(self):
+    def score_self(self):
         """Returns the list of scores of the sites that the model has."""
         return [self.score_seq(site) for site in self.sites]
 
-    def bayesian_estimator(self, bg_scores, prior_m, alpha=1.0/350):
-        """Returns a Bayesian estimator of the probability of regulation.
+    @property
+    def bayesian_estimator(self):
+        """Returns the Bayesian estimator for computing P(regulation)."""
+        return self._bayesian_estimator
 
-        The returned Bayesian estimator is a function that takes a list of PSSM
-        scores of a sequence and returns the probability of binding to that
-        sequence.
+    def build_bayesian_estimator(self, bg_scores, prior_m, alpha=1.0/350):
+        """Builds a Bayesian estimator of the probability of regulation.
+
+        The attribute '_bayesian_estimator' is set to a function that takes a
+        list of PSSM scores of a sequence and returns the probability of
+        binding to that sequence.
 
         Args:
             bg_scores (list): List of PSSM scores of sequences from background.
@@ -102,7 +108,14 @@ class BindingModel:
         lh_ratio = lambda scores: np.exp(
             np.sum(np.log(lh_g(scores)) - np.log(lh_m(scores))))
 
-        return lambda scores: 1 / (1 + lh_ratio(scores) * prior_m / prior_g)
+        fun = lambda scores: 1 / (1 + lh_ratio(scores) * prior_m / prior_g)
+        self._bayesian_estimator = fun
+
+    def binding_probability(self, seq):
+        """Returns the probability of binding to the given seq."""
+        pssm_scores = [self.score_seq(seq[i:i+self.length])
+                       for i in xrange(len(seq)-self.length+1)]
+        return self.bayesian_estimator(pssm_scores)
 
     @staticmethod
     def _combine_pwms(pwms, weights):
