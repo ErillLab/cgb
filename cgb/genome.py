@@ -56,6 +56,7 @@ class Genome:
     def find_gene_homolog(self, gene):
         """Returns the homolog gene of the genome."""
         blast_record = self.blast_client.tblastx(gene.to_fasta())
+        # TODO(sefa): exception when there are no hits
         locus_tag = self.blast_client.get_best_hit(blast_record)
         evalue = self.blast_client.get_e_value(blast_record)
         return self.get_gene_by_locus_tag(locus_tag), evalue
@@ -64,6 +65,7 @@ class Genome:
         """Returns the homolog protein of the given protein."""
         # TODO(sefa): use blast database of protein coding genes only
         blast_record = self.blast_client.tblastn(protein.to_fasta())
+        # TODO(sefa): exception when there are no hits
         locus_tag = self.blast_client.get_best_hit(blast_record)
         gene = self.get_gene_by_locus_tag(locus_tag)
         evalue = self.blast_client.get_e_value(blast_record)
@@ -78,8 +80,8 @@ class Genome:
             protein: the homologous gene with the lowest evalue.
             None: if there are no homologs.
         """
-        pass
-
+        blast_hits = [self.find_protein_homolog(p) for p in proteins]
+        return min(blast_hits, key=lambda x: x[1]) if blast_hits else None
 
     def __repr__(self):
         return (self.strain_name + ': ' +
