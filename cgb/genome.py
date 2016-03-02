@@ -34,17 +34,17 @@ class Genome:
         """Returns the number of chromosome/plasmid objects."""
         return len(self.chromids)
 
-    @property
+    @cached_property
     def operons(self):
         """Returns all operons of the genome."""
         return [opr for chromid in self.chromids for opr in chromid.operons]
 
-    @property
+    @cached_property
     def genes(self):
         """Returns all genes of the genome."""
         return [g for chromid in self.chromids for g in chromid.genes]
 
-    @property
+    @cached_property
     def protein_coding_genes(self):
         """Returns the protein coding genes of the genome."""
         return [g for chromid in self.chromids
@@ -154,7 +154,7 @@ class Genome:
         for opr in tqdm(self.operons):
             p = opr.regulation_probability(self.TF_binding_model)
             search_results.append((opr, p))
-        return sorted(search_results, key=lambda x: x[1])
+        return sorted(search_results, key=lambda x: x[1], reverse=True)
 
     def __repr__(self):
         return (self.strain_name + ': ' +

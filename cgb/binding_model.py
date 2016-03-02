@@ -1,11 +1,13 @@
 import logging
 
 from Bio.motifs.matrix import PositionWeightMatrix
+from Bio.Seq import Seq
 import numpy as np
 import scipy.stats
+from cached_property import cached_property
 
 import bio_utils
-import misc
+from misc import log2
 
 
 class BindingModel:
@@ -21,32 +23,42 @@ class BindingModel:
         self._collection_set = collections
         self._bayesian_estimator = None
 
-    @property
+    @cached_property
     def pwm(self):
         """Returns the position-weight-matrix."""
         return self._pwm
 
-    @property
+    @cached_property
     def length(self):
         """Returns the length of the combined PWM."""
-        return self._pwm.length
+        return self.pwm.length
 
-    @property
+    @cached_property
     def pssm(self):
         """Returns the position-specific scoring matrix."""
         return self._pwm.log_odds(self.background)
 
-    @property
+    @cached_property
+    def reverse_complement_pssm(self):
+        """Returns the reverse complement of the PSSM."""
+        return self.pssm.reverse_complement()
+
+    @cached_property
     def background(self):
         """Returns the background distribution of the model."""
         return self._background
 
     @property
+    def alphabet(self):
+        """Returns the alphabet of the motif."""
+        return self.pwm.alphabet
+
+    @cached_property
     def IC(self):
         """Returns the information content of the PSSM."""
         return self.pssm.mean()
 
-    @property
+    @cached_property
     def patser_threshold(self):
         """Returns the threshold as used in Hertz, Stormo 1999.
 
@@ -56,22 +68,31 @@ class BindingModel:
         dist = self.pssm.distribution(precision=10**3)
         return dist.threshold_patser()
 
-    @property
+    @cached_property
     def sites(self):
         """Returns the binding sites of the motifs used to build the model."""
         return [site for coll in self._collection_set for site in coll.sites]
 
     def score_seq(self, seq):
-        """Returns the PSSM score a given sequence.
+        """Returns the PSSM score for a given sequence for all positions.
 
         The scores from both strands are combined with the soft-max function.
+
+        Args:
+            seq (string): the sequence to be scored
+        Returns:
+            [float]: list of scores of all positions.
         """
-        assert self.length == len(seq)
-        complement_seq = bio_utils.complement(seq)
-        pssm_score = sum(misc.log2(2**self.pssm[seq[i]][i] +
-                                   2**self.pssm[complement_seq[i]][i])
-                         for i in range(len(seq)))
-        return pssm_score
+        seq = Seq(seq, self.alphabet)
+        scores = self.pssm.calculate(seq)
+        rc_scores = self.reverse_complement_pssm.calculate(seq)
+
+        if self.length == len(seq):
+            # Biopython returns single number if len(seq)==len(pssm)
+            scores, rc_scores = [scores], [rc_scores]
+
+        return [log2(2**score + 2**rc_score)
+                for score, rc_score in zip(scores, rc_scores)]
 
     def score_self(self):
         """Returns the list of scores of the sites that the model has."""
@@ -120,8 +141,7 @@ class BindingModel:
 
     def binding_probability(self, seq):
         """Returns the probability of binding to the given seq."""
-        pssm_scores = [self.score_seq(seq[i:i+self.length])
-                       for i in xrange(len(seq)-self.length+1)]
+        pssm_scores = self.score_seq(seq)
         return self.bayesian_estimator(pssm_scores)
 
     @staticmethod
