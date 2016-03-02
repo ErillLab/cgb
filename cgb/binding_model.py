@@ -10,14 +10,38 @@ import bio_utils
 from misc import log2
 
 
-class BindingModel:
+class TFBindingModel:
     """Class definition for TF-binding model.
-
-    A TF-binding model is constructed from the collection of PWMs and their
-    associated weights.
+    
+    The TFBindingModel class supports arbitrary models for TF-binding estimated from the data,
+    using a variety of ML paradigms. The TFBindingModel defines an energy function for specific binding
+    of a TF to a DNA sequence, together with a Bayesian statistical model for assessing the posterior
+    probability of TF regulation for specific sequences.
+    
+    As such, it incorporates the following main methods:
+    - A default constructor with known binding sites/regions and background sequences
+    - A scoring function to score sequences
+    - A method to report the score of known binding sites/regions
+    - A method to define a threshold for score reporting
+    - A method to set up the Bayesian estimator
+    - A method to report posterior probabilies of TF regulation on sequences
+    
+    Its primary specification is the PSSM_TFBindingModel, based on the ubiquitous PSSM model for TF-binding
+    analysis. The PSSM method assumes positional independence in the TF-binding motif and computes a 
+    sum-of-log-likehood ratios as a reasonable approximation to the TF-binding energy contribution of any
+    given sequence. The likelihood ratio is based on a position-independent probability model (the PSWM)
+    and a background model. To make the model generic, a uniform background is assumed by default.
+    
+    The PSSM_TFBindingModel subclass incorporates a constructor based on the weighted mixing of collections 
+    of PSWMs that allows instantiating species-specific PSSM models based on available evidence in different 
+    species and a phylogenetic model of these species relationship with the target species.
     """
+    
+    
     def __init__(self, collections, weights,
                  background={'A': 0.25, 'C': 0.25, 'G': 0.25, 'T': 0.25}):
+        """Default constructor for the PSSM_TFBindingModel class"""
+        """Combines multiple PSWMs using phylogenetic weighting to derive a species-specific PWM"""
         self._background = background
         self._pwm = self._combine_pwms([c.pwm for c in collections], weights)
         self._collection_set = collections
