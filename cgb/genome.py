@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 from chromid import Chromid
 from blast import BLAST
-from binding_model import BindingModel
+from pssm_model import PSSMModel
 from misc import weighted_choice
 
 
@@ -86,8 +86,8 @@ class Genome:
         # TODO(sefa): make sure setter called before getter.
         return self._TF_binding_model
 
-    def build_TF_binding_model(self, collections, weights, prior_reg):
-        """Builds a BindingModel and sets the _TF_binding_model attribute.
+    def build_PSSM_model(self, collections, weights, prior_reg):
+        """Builds a PSSM_model and sets the _TF_binding_model attribute.
 
         Args:
             collections ([SiteCollection]): list of site collections
@@ -95,7 +95,7 @@ class Genome:
             prior_reg: prior probability of regulation of an operon
         Returns: None. Sets the _TF_binding_model attribute to the built model.
         """
-        model = BindingModel(collections, weights)
+        model = PSSMModel(collections, weights)
         random_seqs = self.random_seqs(length=model.length, count=100)
         bg_scores = [model.score_seq(random_seq) for random_seq in random_seqs]
         model.build_bayesian_estimator(bg_scores, prior_reg)
