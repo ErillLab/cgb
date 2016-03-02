@@ -20,13 +20,33 @@
                 "TACTGTTTTTATATACAGTA"
             ],
             "protein_accession": "NP_418467.1"
+        },
+        {
+            "sites": [
+                "AACTGTGTTTAAAAACAGTA",
+                "TGCTGTATTGATGTACAGTA",
+                "TACTGACTTAATTTACAGGT",
+                "TTCTGTATGAAATATCAGTA",
+                "AACTGTATTGATGTACAGCA",
+                "TGCTGGATGTTCGTCCAGGT",
+                "GGCTGTATTGATGTACAGGT"
+            ],
+            "protein_accession": "NP_438908.2"
         }
     ],
 
     "genomes": [
         {
-            "name": "eco",
-            "accession_numbers": ["NC_000913"]
+            "name": "ecoli",
+            "accession_numbers": ["NC_000913.2"]
+        },
+        {
+            "name": "paerugionsa",
+            "accession_numbers": ["NC_002516.2"]
+        },
+        {
+            "name": "vibrio_parahaemolyticus",
+            "accession_numbers": ["NC_004603.1", "NC_004605.1"]
         }
     ],
 
