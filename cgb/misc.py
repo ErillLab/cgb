@@ -1,5 +1,6 @@
 import math
 import numpy as np
+import tempfile
 
 
 def mean(xs):
@@ -26,3 +27,12 @@ def unique(xs, f):
     """Makes the list xs unique by comparing elements with f(x)."""
     d = {f(x): x for x in xs}
     return d.values()
+
+
+def temp_file_name(dir='/tmp', prefix='', suffix=''):
+    """Creates a unique file and return its name."""
+    tmpfile = tempfile.NamedTemporaryFile(dir=dir, prefix=prefix,
+                                          suffix=suffix, delete=False)
+    name = tmpfile.name
+    tmpfile.close()
+    return name

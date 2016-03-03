@@ -80,7 +80,7 @@ class Genome:
 
         The target database is created with genes of the genome.
         """
-        return BLAST(self.genes_to_fasta(), 'nucl')
+        return BLAST(self.genes_to_fasta(), 'nucl', prefix=self.strain_name)
 
     @property
     def TF_instance(self):
@@ -144,7 +144,6 @@ class Genome:
     def find_gene_homolog(self, gene):
         """Returns the homolog gene of the genome."""
         blast_record = self.blast_client.tblastx(gene.to_fasta())
-        # TODO(sefa): exception when there are no hits
         locus_tag = self.blast_client.get_best_hit(blast_record)
         evalue = self.blast_client.get_e_value(blast_record)
         return self.get_gene_by_locus_tag(locus_tag), evalue

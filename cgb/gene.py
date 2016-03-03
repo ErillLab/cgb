@@ -1,4 +1,7 @@
+from my_logger import my_logger
 from protein import Protein
+from blast import BlastNoHitFoundException
+
 
 class Gene:
     def __init__(self, chromid, seq_feature, product_feature=None):
@@ -99,6 +102,19 @@ class Gene:
     def find_homolog_in_genome(self, genome):
         """Returns the homologous gene in the given genome."""
         return genome.find_gene_homolog(self)
+
+    def reciprocal_blast_hit(self, genome):
+        """Returns the reciprocal best hit of the gene in the given genome."""
+        try:
+            # Find the best hit in the other genome
+            best_hit, _ = self.find_homolog_in_genome(genome)
+            # Check if it is the best reciprocal hit
+            reciprocal_hit, _ = best_hit.find_homolog_in_genome(self.genome)
+            if self == reciprocal_hit:
+                return best_hit
+        except BlastNoHitFoundException:
+            my_logger.debug("No reciprocal BLAST hit for %s." % self.locus_tag)
+            return None
 
     def distance(self, other):
         """Returns the distance between two genes.

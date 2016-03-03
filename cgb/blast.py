@@ -5,18 +5,21 @@ import logging
 
 from Bio.Blast import NCBIXML
 
+from misc import temp_file_name
+
 
 class BLAST:
-    def __init__(self, seq_fasta, db_type):
+    def __init__(self, seq_fasta, db_type, prefix=""):
         """Creates a BLAST database from the given fasta string.
 
         Args:
             seq_fasta (string): collection of sequences in FASTA format.
             db_type (string): 'nucl' or 'prot'
         """
-        self._in_file = '/tmp/input.fasta'
-        self._db_file = '/tmp/blast.db'
-        self._log_file = '/tmp/makeblastdb.log'
+        prefix = prefix + '_'
+        self._in_file = temp_file_name(prefix=prefix, suffix='_input.fasta')
+        self._db_file = temp_file_name(prefix=prefix, suffix='_blast.db')
+        self._log_file = temp_file_name(prefix=prefix, suffix='_makeblastdb.log')
         self._seq_fasta = seq_fasta
         self._db_type = db_type
         self.makeblastdb()      # Create BLAST database.
@@ -42,8 +45,8 @@ class BLAST:
             Bio.Blast.Record.Blast object
         """
         assert blast_program in ['tblastn', 'tblastx']
-        output_file = '/tmp/blast_program.out'
-        query_file = '/tmp/query.fasta'
+        output_file = temp_file_name()
+        query_file = temp_file_name()
         with open(query_file, 'w') as f:
             f.write(query)
         cmd = '{prog} -query {q} -db {db} -evalue {e} -out {out} -outfmt 5'.format(
@@ -68,9 +71,17 @@ class BLAST:
     @staticmethod
     def get_best_hit(blast_record):
         """Returns the locus_tag of the best BLAST hit."""
-        return blast_record.alignments[0].hit_def
+        try:
+            return blast_record.alignments[0].hit_def
+        except IndexError:
+            # no blast hits
+            raise BlastNoHitFoundException
 
     @staticmethod
     def get_e_value(blast_record):
         """Returns the e-value of the best BLAST hit."""
         return blast_record.descriptions[0].e
+
+
+class BlastNoHitFoundException(Exception):
+    pass
