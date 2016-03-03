@@ -7,7 +7,8 @@ import entrez_utils
 
 
 class Protein:
-    def __init__(self, accession_number):
+    def __init__(self, accession_number, name):
+        self._name = name
         self._record = entrez_utils.get_protein_record(accession_number)
 
     @cached_property
@@ -19,6 +20,11 @@ class Protein:
     def accession_number(self):
         """Returns the accession number of the protein."""
         return self.record.id
+
+    @property
+    def name(self):
+        """Returns the name of the protein."""
+        return self._name
 
     @property
     def description(self):

@@ -55,7 +55,7 @@ class Gene:
     @property
     def name(self):
         """Returns the name of the gene."""
-        return self._seq_feature.qualifiers['gene']
+        return self._seq_feature.qualifiers['gene'][0]
 
     @property
     def locus_tag(self):
@@ -82,7 +82,7 @@ class Gene:
 
     def to_protein(self):
         """Returns the protein object for the gene."""
-        return Protein(self.protein_accession_number)
+        return Protein(self.protein_accession_number, self.name)
 
     def find_homolog_in_genome(self, genome):
         """Returns the homologous gene in the given genome."""

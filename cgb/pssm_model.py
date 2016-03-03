@@ -2,6 +2,7 @@ from cached_property import cached_property
 from Bio.Seq import Seq
 from Bio.motifs.matrix import PositionWeightMatrix
 
+
 from binding_model import TFBindingModel
 from misc import log2
 

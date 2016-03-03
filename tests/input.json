@@ -1,4 +1,5 @@
 {
+    "TF": "LexA",
     "motifs": [
         {
             "sites": [
@@ -50,5 +51,7 @@
         }
     ],
 
-    "configuration": {}
+    "configuration": {
+        "log_dir": "/Users/sefa/Dropbox/cgb/logs"
+    }
 }
