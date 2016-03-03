@@ -9,6 +9,7 @@ from chromid import Chromid
 from blast import BLAST
 from pssm_model import PSSMModel
 from misc import weighted_choice
+from my_logger import my_logger
 
 
 class Genome:
@@ -45,14 +46,17 @@ class Genome:
         """Writes all operons to the file in csv format."""
         with open(filename, 'w') as csvfile:
             csv_writer = csv.writer(csvfile)
-            header_row = ['chromid', 'start', 'end', 'strand', 'locus_tags']
+            header_row = ['chromid', 'start', 'end', 'strand', 'locus_tags',
+                          'products']
             csv_writer.writerow(header_row)
             for opr in self.operons:
                 row = [opr.chromid.accession_number,
                        opr.start,
                        opr.end,
                        opr.strand,
-                       ', '.join(g.locus_tag for g in opr.genes)]
+                       ', '.join(g.locus_tag for g in opr.genes),
+                       ', '.join(g.locus_tag + ' (%s)' % g.product
+                                 for g in opr.genes)]
                 csv_writer.writerow(row)
 
     @cached_property
@@ -165,20 +169,44 @@ class Genome:
             None: if there are no homologs.
         """
         blast_hits = [self.find_protein_homolog(p) for p in proteins]
-        return min(blast_hits, key=lambda x: x[1]) if blast_hits else None
+        if blast_hits:
+            TF, _ = min(blast_hits, key=lambda x: x[1])
+        else:
+            my_logger.warning("No TF-instance found for %s. " %
+                              self.strain_name)
+        self._TF_instance = TF
 
-    def scan_genome(self):
+    def scan_genome(self, filename=None):
         """Scans upstream regions of all operons for binding sites.
+
+        Args:
+            filename: csv filename to write results
 
         Returns:
             [(Operon, float)]: List of operons and their regulation
             probabilities, sorted by the probability.
         """
-        search_results = []
+        scan_results = []
         for opr in tqdm(self.operons):
             p = opr.regulation_probability(self.TF_binding_model)
-            search_results.append((opr, p))
-        return sorted(search_results, key=lambda x: x[1], reverse=True)
+            scan_results.append((opr, p))
+        scan_results.sort(key=lambda x: x[1], reverse=True)
+        if filename:
+            self._output_posterior_probabilities(scan_results, filename)
+
+    def _output_posterior_probabilities(self, scan_results, filename):
+        with open(filename, 'w') as csvfile:
+            csv_writer = csv.writer(csvfile)
+            header_row = ['probability', 'operon_start', 'operon_end',
+                          'operon_strand', 'genes', 'products']
+            csv_writer.writerow(header_row)
+            for opr, prob in scan_results:
+                gene_names = ', '.join(g.locus_tag for g in opr.genes)
+                products = ', '.join(g.locus_tag + ' (%s)' % g.product
+                                     for g in opr.genes)
+                row = [prob, opr.start, opr.end, opr.strand, gene_names,
+                       products]
+                csv_writer.writerow(row)
 
     def __repr__(self):
         return (self.strain_name + ': ' +

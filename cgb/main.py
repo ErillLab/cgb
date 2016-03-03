@@ -1,4 +1,3 @@
-import json
 import os
 
 from genome import Genome
@@ -6,47 +5,69 @@ from protein import Protein
 from site_collection import SiteCollection
 from my_logger import my_logger
 from phylo import Phylo
+from user_input import UserInput
 
-def parse_input(filename):
-    """Parses the input file and returns a parameter dictionary."""
-    my_logger.info("Reading input from %s." % filename)
-    with open(filename) as f:
-        data = json.load(f)
-    return data
 
-def create_genomes(genome_input):
+def directory(*paths):
+    d = os.path.join(*paths)
+    if not os.path.exists(d):
+        os.makedirs(d)
+    return d
+
+
+def create_genomes(user_input):
     my_logger.info("Started: create genomes")
-    genomes = [Genome(g['name'], g['accession_numbers']) for g in genome_input]
+    genomes = [Genome(name, accessions)
+               for name, accessions in user_input.genome_name_and_accessions]
+    # write operons to files
+    log_dir = directory(user_input.log_dir, 'operons')
+    for g in genomes:
+        g.operons_to_csv(os.path.join(log_dir, g.strain_name+'_operons.csv'))
     my_logger.info("Finished: create genomes")
     return genomes
 
 
-def create_proteins(input):
+def identify_TF_instance_in_genomes(genomes, proteins):
+    """Identifies TF instance for each genome based on given proteins."""
+    for g in genomes:
+        g.identify_TF_instance(proteins)
+
+
+def set_TF_binding_models(user_input, genomes, site_collections, weights):
+    """Sets the TF-binding model for each genome."""
+    prior_reg = 0.01            # TODO(sefa): get it from input file
+    for g in genomes:
+        g.build_PSSM_model(site_collections, weights, prior_reg)
+        log_dir = directory(user_input.log_dir, 'derived_PSWM')
+        g.PSSM_model_to_jaspar(os.path.join(log_dir, g.strain_name+'.jaspar'))
+
+
+def genome_scoring(user_input, genomes):
+    """Scans genomes for TF-binding sites and writes results to csv files."""
+    log_dir = directory(user_input.log_dir, 'posterior_probs')
+    for g in genomes:
+        g.scan_genome(filename=os.path.join(log_dir, g.strain_name+'.csv'))
+
+
+def create_proteins(user_input):
     my_logger.info("Started: create proteins")
-    proteins = [Protein(m['protein_accession'], input['TF'])
-                for m in input['motifs']]
+    proteins = [Protein(accession, user_input.TF_name)
+                for accession in user_input.protein_accessions]
     my_logger.info("Finished: create proteins")
     return proteins
 
 
-def get_site_lists(motif_input):
-    return [m['sites'] for m in motif_input]
-
-
-def create_site_collections(proteins, input):
+def create_site_collections(user_input, proteins):
     my_logger.info("Started: create site collections")
-    collections = get_site_lists(input['motifs'])
-    site_collections = [SiteCollection(sites, protein)
-                        for sites, protein in zip(collections, proteins)]
+    collections = [SiteCollection(sites, protein)
+                   for sites, protein in zip(user_input.sites_list, proteins)]
     my_logger.debug("Writing site collections.")
-    log_dir = os.path.join(input['configuration']['log_dir'], 'user_PSWM')
-    if not os.path.exists(log_dir):
-        os.makedirs(log_dir)
-    for collection in site_collections:
+    log_dir = directory(user_input.log_dir, 'user_PSWM')
+    for collection in collections:
         collection.to_jaspar(
             os.path.join(log_dir, collection.TF.accession_number+'.jaspar'))
     my_logger.info("Finished: create site collections")
-    return site_collections
+    return collections
 
 
 def simple_motif_weighting(site_collections):
@@ -75,31 +96,28 @@ def compute_motif_weights(site_collections, weighting_scheme):
         return uniform_weighting(site_collections)
 
 
-def main():
-    # Input collection
-    input = parse_input('../tests/input.json')
-    # Create proteins
-    proteins = create_proteins(input)
-    # Create genomes
-    genomes = create_genomes(input['genomes'])
-    # Create binding evidence
-    site_collections = create_site_collections(proteins, input)
-    collection_weights = compute_motif_weights(site_collections, 'simple')
-    for g in genomes:
-        # Identify TF instances.
-        g.TF_instance, e_val = g.identify_TF_instance(proteins)
-        # Set TF-binding model for each genome.
-        prior_reg = 0.01
-        g.build_PSSM_model(site_collections, collection_weights, prior_reg)
-        log_dir = os.path.join(input['configuration']['log_dir'], 'derived_PSWM')
-        if not os.path.exists(log_dir):
-            os.makedirs(log_dir)
-        g.PSSM_model_to_jaspar(os.path.join(log_dir, g.strain_name+'.jaspar'))
-        # Compute operons
-        log_dir = os.path.join(input['configuration']['log_dir'], 'operons')
-        if not os.path.exists(log_dir):
-            os.makedirs(log_dir)
-        g.operons_to_csv(os.path.join(log_dir, g.strain_name+'_operons.csv'))
-
+def create_phylogeny(genomes, proteins, user_input):
     phylo = Phylo(proteins + [g.TF_instance for g in genomes])
-    phylo.to_newick(os.path.join(input['configuration']['log_dir'], 'phylogeny.nwk'))
+    phylo.to_newick(os.path.join(user_input.log_dir, 'phylogeny.nwk'))
+    return phylo
+
+
+def main():
+    # Read user input
+    user_input = UserInput('../tests/input.json')
+    # Create proteins
+    proteins = create_proteins(user_input)
+    # Create genomes
+    genomes = create_genomes(user_input)
+    # Identify TF instances for each genome.
+    identify_TF_instance_in_genomes(genomes, proteins)
+    # Create binding evidence
+    site_collections = create_site_collections(user_input, proteins)
+    collection_weights = compute_motif_weights(site_collections, 'simple')
+    # Set TF-binding model for each genome.
+    set_TF_binding_models(user_input, genomes, site_collections,
+                          collection_weights)
+    # Score genomes
+    genome_scoring(user_input, genomes)
+    # Create phylogeny
+    phylo = create_phylogeny(genomes, proteins, user_input)

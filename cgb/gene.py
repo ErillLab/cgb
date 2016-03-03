@@ -73,6 +73,15 @@ class Gene:
         return self._product_feature.type if self._product_feature else ''
 
     @property
+    def product(self):
+        """Returns the product. Returns None if no product."""
+        try:
+            p = self._product_feature.qualifiers['product'][0]
+        except (AttributeError, KeyError):
+            p = ''
+        return p
+
+    @property
     def is_protein_coding_gene(self):
         """Returns true if the gene is a protein coding gene."""
         return self.product_type == 'CDS'
