@@ -204,7 +204,7 @@ class Genome:
                 gene_names = ', '.join(g.locus_tag for g in opr.genes)
                 products = ', '.join(g.locus_tag + ' (%s)' % g.product
                                      for g in opr.genes)
-                row = [prob, opr.start, opr.end, opr.strand, gene_names,
+                row = ['%.3f' % prob, opr.start, opr.end, opr.strand, gene_names,
                        products]
                 csv_writer.writerow(row)
 
