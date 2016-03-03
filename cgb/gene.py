@@ -55,7 +55,10 @@ class Gene:
     @property
     def name(self):
         """Returns the name of the gene."""
-        return self._seq_feature.qualifiers['gene'][0]
+        try:
+            return self._seq_feature.qualifiers['gene'][0]
+        except KeyError:
+            return self.locus_tag
 
     @property
     def locus_tag(self):
