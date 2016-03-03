@@ -20,3 +20,9 @@ def weighted_choice(xs, weights, count=1):
     """
     ps = [float(w)/sum(weights) for w in weights]
     return np.random.choice(xs, size=count, p=ps)
+
+
+def unique(xs, f):
+    """Makes the list xs unique by comparing elements with f(x)."""
+    d = {f(x): x for x in xs}
+    return d.values()

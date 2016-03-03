@@ -5,6 +5,7 @@ from genome import Genome
 from protein import Protein
 from site_collection import SiteCollection
 from my_logger import my_logger
+from phylo import Phylo
 
 
 def parse_input(filename):
@@ -96,3 +97,6 @@ def main():
         if not os.path.exists(log_dir):
             os.makedirs(log_dir)
         g.PSSM_model_to_jaspar(os.path.join(log_dir, g.strain_name+'.jaspar'))
+
+    phylo = Phylo(proteins + [g.TF_instance for g in genomes])
+    phylo.to_newick(os.path.join(input['configuration']['log_dir'], 'phylogeny.nwk'))

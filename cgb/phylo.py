@@ -6,6 +6,8 @@ from Bio.Phylo.TreeConstruction import DistanceCalculator
 from Bio.Phylo.TreeConstruction import DistanceTreeConstructor
 from cached_property import cached_property
 
+from misc import unique
+
 
 class Phylo:
     def __init__(self, proteins, distance_model='identity',
@@ -17,7 +19,7 @@ class Phylo:
             distance_model (string): see DistanceCalculator.protein_models
             tree_algorithm (string): 'nj' or 'upgma'
         """
-        self._proteins = proteins
+        self._proteins = unique(proteins, lambda p: p.accession_number)
         self._distance_model = distance_model
         self._tree_algorithm = tree_algorithm
 
@@ -73,3 +75,7 @@ class Phylo:
     def draw_ascii(self):
         """Draws the tree in ASCII format."""
         BioPhylo.draw_ascii(self.tree)
+
+    def to_newick(self, filename):
+        """Writes the tree to the given file in newick format."""
+        BioPhylo.write(self.tree, filename, 'newick')
