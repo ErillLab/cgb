@@ -175,7 +175,7 @@ class Genome:
                               self.strain_name)
         self._TF_instance = TF
 
-    def scan_genome(self, filename=None):
+    def scan_genome(self, threshold=0.5, filename=None):
         """Scans upstream regions of all operons for binding sites.
 
         Args:
@@ -188,7 +188,8 @@ class Genome:
         scan_results = []
         for opr in tqdm(self.operons):
             p = opr.regulation_probability(self.TF_binding_model)
-            scan_results.append((opr, p))
+            if p >= threshold:
+                scan_results.append((opr, p))
         scan_results.sort(key=lambda x: x[1], reverse=True)
         if filename:
             self._output_posterior_probabilities(scan_results, filename)
