@@ -1,4 +1,5 @@
 import logging
+import csv
 
 from cached_property import cached_property
 from tqdm import tqdm
@@ -39,6 +40,20 @@ class Genome:
     def operons(self):
         """Returns all operons of the genome."""
         return [opr for chromid in self.chromids for opr in chromid.operons]
+
+    def operons_to_csv(self, filename):
+        """Writes all operons to the file in csv format."""
+        with open(filename, 'w') as csvfile:
+            csv_writer = csv.writer(csvfile)
+            header_row = ['chromid', 'start', 'end', 'strand', 'locus_tags']
+            csv_writer.writerow(header_row)
+            for opr in self.operons:
+                row = [opr.chromid.accession_number,
+                       opr.start,
+                       opr.end,
+                       opr.strand,
+                       ', '.join(g.locus_tag for g in opr.genes)]
+                csv_writer.writerow(row)
 
     @cached_property
     def genes(self):

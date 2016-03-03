@@ -1,6 +1,3 @@
-import logging
-
-
 class Operon:
     def __init__(self, genes):
         assert len(genes) > 0
@@ -12,6 +9,11 @@ class Operon:
     def chromid(self):
         """Returns the chromosome/plasmid that the operon belongs to."""
         return self.first_gene.chromid
+
+    @property
+    def genes(self):
+        """Returns the list of genes of the operon."""
+        return self._genes
 
     @property
     def genome(self):

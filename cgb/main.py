@@ -7,14 +7,12 @@ from site_collection import SiteCollection
 from my_logger import my_logger
 from phylo import Phylo
 
-
 def parse_input(filename):
     """Parses the input file and returns a parameter dictionary."""
     my_logger.info("Reading input from %s." % filename)
     with open(filename) as f:
         data = json.load(f)
     return data
-
 
 def create_genomes(genome_input):
     my_logger.info("Started: create genomes")
@@ -97,6 +95,11 @@ def main():
         if not os.path.exists(log_dir):
             os.makedirs(log_dir)
         g.PSSM_model_to_jaspar(os.path.join(log_dir, g.strain_name+'.jaspar'))
+        # Compute operons
+        log_dir = os.path.join(input['configuration']['log_dir'], 'operons')
+        if not os.path.exists(log_dir):
+            os.makedirs(log_dir)
+        g.operons_to_csv(os.path.join(log_dir, g.strain_name+'_operons.csv'))
 
     phylo = Phylo(proteins + [g.TF_instance for g in genomes])
     phylo.to_newick(os.path.join(input['configuration']['log_dir'], 'phylogeny.nwk'))
