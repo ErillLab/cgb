@@ -175,25 +175,26 @@ class Genome:
                               self.strain_name)
         self._TF_instance = TF
 
-    def scan_genome(self, threshold=0.5, filename=None):
+    def infer_regulation(self, threshold=0.5, filename=None):
         """Scans upstream regions of all operons for binding sites.
 
         Args:
-            filename: csv filename to write results
+            filename: csv filename to write posterior probabilities
 
         Returns:
             [(Operon, float)]: List of operons and their regulation
             probabilities, sorted by the probability.
         """
-        scan_results = []
+        # Find regulated operons
+        regulons = []
         for opr in tqdm(self.operons):
             p = opr.regulation_probability(self.TF_binding_model)
             if p >= threshold:
-                scan_results.append((opr, p))
-        scan_results.sort(key=lambda x: x[1], reverse=True)
+                regulons.append((opr, p))
+        regulons.sort(key=lambda x: x[1], reverse=True)
         if filename:
-            self._output_posterior_probabilities(scan_results, filename)
-        return scan_results
+            self._output_posterior_probabilities(regulons, filename)
+        return regulons
 
     def _output_posterior_probabilities(self, scan_results, filename):
         with open(filename, 'w') as csvfile:

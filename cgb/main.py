@@ -96,14 +96,14 @@ def genome_scan_results_to_genes(genome_scan):
     return [g for opr, _ in genome_scan for g in opr.genes]
 
 
-def genome_scoring(user_input, genomes):
+def infer_regulations(user_input, genomes):
     """Scans genomes for TF-binding sites and writes results to csv files."""
     log_dir = directory(user_input.log_dir, 'posterior_probs')
     threshold = 0.5             # TODO(sefa): read this from input file
     all_regulated_genes = []
     for g in genomes:
         report_filename = os.path.join(log_dir, g.strain_name+'.csv')
-        genome_scan = g.scan_genome(threshold, report_filename)
+        genome_scan = g.infer_regulation(threshold, report_filename)
         all_regulated_genes.extend(genome_scan_results_to_genes(genome_scan))
     return all_regulated_genes
 
@@ -138,7 +138,7 @@ def main():
     set_TF_binding_models(user_input, genomes, site_collections,
                           collection_weights)
     # Score genomes
-    all_regulated_genes = genome_scoring(user_input, genomes)
+    all_regulated_genes = infer_regulations(user_input, genomes)
     # Create orthologous groups
     grps = create_orthologous_groups(user_input, all_regulated_genes, genomes)
     # Create phylogeny
