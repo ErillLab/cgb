@@ -6,6 +6,8 @@ from site_collection import SiteCollection
 from my_logger import my_logger
 from phylo import Phylo
 from user_input import UserInput
+from orthologous_group import construct_orthologous_groups
+from orthologous_group import orthologous_groups_to_csv
 
 
 def directory(*paths):
@@ -40,13 +42,6 @@ def set_TF_binding_models(user_input, genomes, site_collections, weights):
         g.build_PSSM_model(site_collections, weights, prior_reg)
         log_dir = directory(user_input.log_dir, 'derived_PSWM')
         g.PSSM_model_to_jaspar(os.path.join(log_dir, g.strain_name+'.jaspar'))
-
-
-def genome_scoring(user_input, genomes):
-    """Scans genomes for TF-binding sites and writes results to csv files."""
-    log_dir = directory(user_input.log_dir, 'posterior_probs')
-    for g in genomes:
-        g.scan_genome(filename=os.path.join(log_dir, g.strain_name+'.csv'))
 
 
 def create_proteins(user_input):
@@ -96,6 +91,31 @@ def compute_motif_weights(site_collections, weighting_scheme):
         return uniform_weighting(site_collections)
 
 
+def genome_scan_results_to_genes(genome_scan):
+    """Returns the list of regulated genes."""
+    return [g for opr, _ in genome_scan for g in opr.genes]
+
+
+def genome_scoring(user_input, genomes):
+    """Scans genomes for TF-binding sites and writes results to csv files."""
+    log_dir = directory(user_input.log_dir, 'posterior_probs')
+    threshold = 0.5             # TODO(sefa): read this from input file
+    all_regulated_genes = []
+    for g in genomes:
+        report_filename = os.path.join(log_dir, g.strain_name+'.csv')
+        genome_scan = g.scan_genome(threshold, report_filename)
+        all_regulated_genes.extend(genome_scan_results_to_genes(genome_scan))
+    return all_regulated_genes
+
+
+def create_orthologous_groups(user_input, genes, genomes):
+    groups = construct_orthologous_groups(genes, genomes)
+    # Write groups to file
+    log_dir = directory(user_input.log_dir)
+    orthologous_groups_to_csv(groups, os.path.join(log_dir, 'orthologs.csv'))
+    return groups
+
+
 def create_phylogeny(genomes, proteins, user_input):
     phylo = Phylo(proteins + [g.TF_instance for g in genomes])
     phylo.to_newick(os.path.join(user_input.log_dir, 'phylogeny.nwk'))
@@ -118,6 +138,8 @@ def main():
     set_TF_binding_models(user_input, genomes, site_collections,
                           collection_weights)
     # Score genomes
-    genome_scoring(user_input, genomes)
+    all_regulated_genes = genome_scoring(user_input, genomes)
+    # Create orthologous groups
+    grps = create_orthologous_groups(user_input, all_regulated_genes, genomes)
     # Create phylogeny
     phylo = create_phylogeny(genomes, proteins, user_input)

@@ -193,6 +193,7 @@ class Genome:
         scan_results.sort(key=lambda x: x[1], reverse=True)
         if filename:
             self._output_posterior_probabilities(scan_results, filename)
+        return scan_results
 
     def _output_posterior_probabilities(self, scan_results, filename):
         with open(filename, 'w') as csvfile:
