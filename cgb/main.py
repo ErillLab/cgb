@@ -108,6 +108,14 @@ def infer_regulations(user_input, genomes):
     return all_regulated_genes
 
 
+def search_sites(user_input, genomes):
+    log_dir = directory(user_input.log_dir, 'identified_sites')
+    for g in genomes:
+        my_logger.debug("threshold: %.2f" % g.TF_binding_model.threshold())
+        report_filename = os.path.join(log_dir, g.strain_name+'.csv')
+        sites = g.search_sites(report_filename)
+    return sites
+
 def create_orthologous_groups(user_input, genes, genomes):
     groups = construct_orthologous_groups(genes, genomes)
     # Write groups to file
@@ -139,6 +147,7 @@ def main():
                           collection_weights)
     # Score genomes
     all_regulated_genes = infer_regulations(user_input, genomes)
+    sites = search_sites(user_input, genomes)
     # Create orthologous groups
     grps = create_orthologous_groups(user_input, all_regulated_genes, genomes)
     # Create phylogeny

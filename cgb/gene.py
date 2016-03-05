@@ -1,3 +1,5 @@
+from cached_property import cached_property
+
 from my_logger import my_logger
 from protein import Protein
 from blast import BlastNoHitFoundException
@@ -10,32 +12,32 @@ class Gene:
         self._product_feature = product_feature
         self._chromid = chromid
 
-    @property
+    @cached_property
     def start(self):
         """Returns the start position of the gene."""
         return self._seq_feature.location.start.position
 
-    @property
+    @cached_property
     def end(self):
         """Returns the end position of the gene."""
         return self._seq_feature.location.end.position
 
-    @property
+    @cached_property
     def strand(self):
         """Returns the DNA strand that the gene is on."""
         return self._seq_feature.strand
 
-    @property
+    @cached_property
     def sequence(self):
         """Returns the gene sequence."""
         return self.chromid.subsequence(self.start, self.end, self.strand)
 
-    @property
+    @cached_property
     def length(self):
         """Returns the length of the genome."""
         return self.end - self.start
 
-    @property
+    @cached_property
     def is_forward_strand(self):
         """Returns true if the gene is on the forward strand."""
         return self.strand == 1
@@ -55,7 +57,7 @@ class Gene:
         """Returns the list of db_xrefs."""
         return self._seq_feature.qualifiers['db_xref']
 
-    @property
+    @cached_property
     def name(self):
         """Returns the name of the gene."""
         try:
@@ -63,19 +65,19 @@ class Gene:
         except KeyError:
             return self.locus_tag
 
-    @property
+    @cached_property
     def locus_tag(self):
         """Returns the locus tag of the gene."""
         locus_tags = self._seq_feature.qualifiers['locus_tag']
         assert len(locus_tags) == 1
         return locus_tags[0]
 
-    @property
+    @cached_property
     def product_type(self):
         """Returns the product type of the gene."""
         return self._product_feature.type if self._product_feature else ''
 
-    @property
+    @cached_property
     def product(self):
         """Returns the product. Returns None if no product."""
         try:
@@ -84,12 +86,12 @@ class Gene:
             p = ''
         return p
 
-    @property
+    @cached_property
     def is_protein_coding_gene(self):
         """Returns true if the gene is a protein coding gene."""
         return self.product_type == 'CDS'
 
-    @property
+    @cached_property
     def protein_accession_number(self):
         """Returns the accession number of the protein coded by this gene."""
         # TODO(sefa): throw execption if not protein coding gene

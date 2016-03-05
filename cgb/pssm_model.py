@@ -55,7 +55,14 @@ class PSSMModel(TFBindingModel):
         dist = self.pssm.distribution(precision=10**3)
         return dist.threshold_patser()
 
-    def score_seq(self, seq):
+    def threshold(self, threshold_type='patser'):
+        if threshold_type == 'patser':
+            thr = self.patser_threshold
+        else:
+            raise ValueError
+        return thr
+
+    def score_seq(self, seq, both=True):
         """Returns the PSSM score for a given sequence for all positions.
 
         The scores from both strands are combined with the soft-max function.
@@ -73,8 +80,10 @@ class PSSMModel(TFBindingModel):
             # Biopython returns single number if len(seq)==len(pssm)
             scores, rc_scores = [scores], [rc_scores]
 
-        return [log2(2**score + 2**rc_score)
-                for score, rc_score in zip(scores, rc_scores)]
+        if both:
+            scores = [log2(2**score + 2**rc_score)
+                      for score, rc_score in zip(scores, rc_scores)]
+        return scores
 
     @staticmethod
     def _combine_pwms(pwms, weights):

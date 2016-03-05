@@ -137,5 +137,15 @@ class Chromid:
                     directons_rest.append(directon[i:])
         return [Operon(opr) for opr in operons]
 
+    def find_closest_gene(self, pos):
+        """Returns the closest gene and its distance to the pos.
+
+        Negative distance means that the pos is downstream of the gene.
+        """
+        dist = (lambda gene: gene.start-pos if gene.strand == 1
+                else pos-gene.end)
+        dists = ((g, dist(g)) for g in self.genes)
+        return min(dists, key=lambda x: abs(x[1]))
+
     def __repr__(self):
         return self.accession_number + ': ' + self.description

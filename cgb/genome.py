@@ -1,5 +1,6 @@
 import logging
 import csv
+from collections import namedtuple
 
 from cached_property import cached_property
 from tqdm import tqdm
@@ -10,6 +11,9 @@ from blast import BLAST
 from pssm_model import PSSMModel
 from misc import weighted_choice
 from my_logger import my_logger
+from bio_utils import reverse_complement
+
+Site = namedtuple('Site', 'chromid start end strand score')
 
 
 class Genome:
@@ -206,8 +210,60 @@ class Genome:
                 gene_names = ', '.join(g.locus_tag for g in opr.genes)
                 products = ', '.join(g.locus_tag + ' (%s)' % g.product
                                      for g in opr.genes)
-                row = ['%.3f' % prob, opr.start, opr.end, opr.strand, gene_names,
-                       products]
+                row = ['%.3f' % prob, opr.start, opr.end, opr.strand,
+                       gene_names, products]
+                csv_writer.writerow(row)
+
+    def search_sites(self, filename=None):
+        """Scans the genome to identify binding sites."""
+        threshold = self.TF_binding_model.threshold()
+        site_len = self.TF_binding_model.length   # length of binding sites
+        sites = []
+        for chromid in self.chromids:
+            seq = chromid.sequence
+            scores = self.TF_binding_model.score_seq(seq, both=False)
+            for i, score in enumerate(scores):
+                if score >= threshold:
+                    sites.append(Site(chromid, i, i+site_len, 1, score))
+
+            rc_seq = reverse_complement(seq)
+            rc_scores = self.TF_binding_model.score_seq(rc_seq, both=False)
+            for i, score in enumerate(reversed(rc_scores)):
+                if score >= threshold:
+                    sites.append(Site(chromid, i, i+site_len, -1, score))
+
+        if filename:
+            self._output_identified_sites(sites, filename)
+        return sites
+
+    def _site_category(self, site, up=-300, down=50):
+        """Returns the category of site: operator, intergenic or intragenic."""
+        closest_gene, distance = site.chromid.find_closest_gene(site.start)
+        if up <= distance <= down:
+            category = 'operator'
+        elif (site.start >= closest_gene.start and
+              site.start < closest_gene.end):
+            category = 'intragenic'
+        else:
+            category = 'intergenic'
+        return closest_gene, distance, category
+
+    def _output_identified_sites(self, sites, filename):
+        with open(filename, 'w') as csvfile:
+            csv_writer = csv.writer(csvfile)
+            header_row = ['score', 'site', 'chromid', 'start', 'end', 'strand',
+                          'distance', 'category', 'gene_strand', 'gene_start',
+                          'gene_end', 'gene_locus_tag', 'gene_product']
+            csv_writer.writerow(header_row)
+            for site in sites:
+                closest_gene, distance, category = self._site_category(site)
+                site_seq = site.chromid.subsequence(site.start, site.end,
+                                                    site.strand)
+                row = [site.score, site_seq, site.chromid.accession_number,
+                       site.start, site.end, site.strand, distance, category,
+                       closest_gene.strand, closest_gene.start,
+                       closest_gene.end, closest_gene.locus_tag,
+                       closest_gene.product]
                 csv_writer.writerow(row)
 
     def __repr__(self):
