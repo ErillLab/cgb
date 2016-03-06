@@ -3,36 +3,21 @@ probability,operon_start,operon_end,operon_strand,genes,products
 1.000,3149696,3150317,-1,VP2945,VP2945 (LexA repressor)
 1.000,3150363,3150468,1,VP2946,VP2946 (hypothetical protein)
 1.000,2132071,2137253,1,"VP2034, VP2035, VP2036","VP2034 (hypothetical protein), VP2035 (hypothetical protein), VP2036 (DNA polymerase III alpha chain)"
-1.000,1338889,1339282,-1,VP1264,VP1264 (hypothetical protein)
-1.000,2867537,2872206,1,"VP2712, VP2713","VP2712 (excinuclease ABC subunit A), VP2713 (hypothetical protein)"
-1.000,2495319,2495616,1,VP2379,"VP2379 (DNA damage-inducible gene in SOS regulon, dependent on cyclic AMP and H-NS)"
-1.000,1569401,1569656,1,VPA1469,VPA1469 (outer membrane lipoprotein)
-0.999,168534,170616,-1,VP0157,VP0157 (ATP-dependent DNA helicase RecG)
-0.999,2038611,2040975,1,VP1946,VP1946 (DNA polymerase II)
-0.998,2098714,2099248,1,VP2004,VP2004 (hypothetical protein)
-0.998,2095899,2098364,-1,"VP2000, VP2001, VP2002, VP2003","VP2000 (ribosomal-protein-alanine N-acetyltransferase), VP2001 (hypothetical protein), VP2002 (hypothetical protein), VP2003 (hypothetical protein)"
-0.991,2454530,2455595,-1,VP2342,VP2342 (DNA polymerase IV)
-0.984,2693308,2694352,-1,VP2550,VP2550 (recombinase A)
-0.979,2611401,2624081,1,"VP2480, VP2481, VP2482, VP2483, VP2484, VP2485, VP2486, VP2487, VP2488","VP2480 (peptide ABC transporter permease), VP2481 (peptide ABC transporter permease), VP2482 (peptide ABC transporter ATP-binding protein), VP2483 (peptide ABC transporter ATP-binding protein), VP2484 (endoglucanase-like protein), VP2485 (N-acetylglucosamine kinase), VP2486 (beta-N-hexosaminidase), VP2487 (N,N'-diacetylchitobiose phosphorylase), VP2488 (phosphoglucomutase/phosphomannomutase)"
-0.972,1947585,1947999,-1,VP1864,VP1864 (hypothetical protein)
-0.972,1948280,1949243,1,VP1865,VP1865 (site-specific recombinase IntIA)
-0.971,1047214,1048003,-1,VPA0994,VPA0994 (hypothetical protein)
-0.956,2207589,2209620,-1,VP2100,VP2100 (excinuclease ABC subunit B)
-0.941,3216339,3218514,-1,VP3013,VP3013 (DNA-dependent helicase II)
-0.941,3218795,3221228,1,"VP3014, VP3015, VP3016, VP3017","VP3014 (signal peptide protein), VP3015 (hypothetical protein), VP3016 (hypothetical protein), VP3017 (transmembrane protein)"
-0.936,1066909,1069538,1,"VPA1014, VPA1015","VPA1014 (hypothetical protein), VPA1015 (succinate dehydrogenase subunit Sdh)"
-0.912,779357,779894,-1,VPA0747,VPA0747 (MSHA pilin protein MshA)
-0.844,1998431,1999097,1,VP1913,VP1913 (hypothetical protein)
-0.844,1997771,1998161,-1,VP1912,VP1912 (hypothetical protein)
-0.763,49960,50242,1,VPA0058,VPA0058 (hypothetical protein)
-0.749,2682992,2686210,-1,"VP2543, VP2544, VP2545","VP2543 (oxaloacetate decarboxylase, beta subunit), VP2544 (oxaloacetate decarboxylase), VP2545 (oxaloacetate decarboxylase subunit gamma)"
-0.718,2695119,2697681,1,VP2552,VP2552 (DNA mismatch repair protein MutS)
-0.632,437899,439549,-1,VPA0447,VPA0447 (hypothetical protein)
-0.609,1698718,1699360,-1,VPA1600,VPA1600 (hypothetical protein)
-0.609,1699555,1700278,1,VPA1601,VPA1601 (nitroreductase A)
-0.602,744549,748642,1,"VPA0715, VPA0716","VPA0715 (hypothetical protein), VPA0716 (transcriptional regulator)"
-0.602,103297,109483,1,"VP0094, VP0095, VP0096, VP0097, VP0098, VP0099, VP0100","VP0094 (hypothetical protein), VP0095 (ubiquinone/menaquinone biosynthesis methyltransferase), VP0096 (hypothetical protein), VP0097 (ubiquinone biosynthesis protein UbiB), VP0098 (twin arginine translocase protein A), VP0099 (sec-independent translocase), VP0100 (hypothetical protein)"
-0.602,102219,103128,-1,VP0093,VP0093 (hypothetical protein)
-0.602,742109,744227,-1,VPA0714,VPA0714 (collagenase)
-0.580,2074995,2077092,-1,VP1981,VP1981 (methyl-accepting chemotaxis protein)
-0.574,1620669,1621185,1,VPA1514,"VPA1514 (superoxide dismutase, Cu-Zn)"
+0.998,1338889,1339282,-1,VP1264,VP1264 (hypothetical protein)
+0.997,2867537,2872206,1,"VP2712, VP2713","VP2712 (excinuclease ABC subunit A), VP2713 (hypothetical protein)"
+0.996,2495319,2495616,1,VP2379,"VP2379 (DNA damage-inducible gene in SOS regulon, dependent on cyclic AMP and H-NS)"
+0.992,1569401,1569656,1,VPA1469,VPA1469 (outer membrane lipoprotein)
+0.988,168534,170616,-1,VP0157,VP0157 (ATP-dependent DNA helicase RecG)
+0.962,2098714,2099248,1,VP2004,VP2004 (hypothetical protein)
+0.960,2095899,2098364,-1,"VP2000, VP2001, VP2002, VP2003","VP2000 (ribosomal-protein-alanine N-acetyltransferase), VP2001 (hypothetical protein), VP2002 (hypothetical protein), VP2003 (hypothetical protein)"
+0.952,2038611,2040975,1,VP1946,VP1946 (DNA polymerase II)
+0.874,2454530,2455595,-1,VP2342,VP2342 (DNA polymerase IV)
+0.812,2693308,2694352,-1,VP2550,VP2550 (recombinase A)
+0.772,2611401,2624081,1,"VP2480, VP2481, VP2482, VP2483, VP2484, VP2485, VP2486, VP2487, VP2488","VP2480 (peptide ABC transporter permease), VP2481 (peptide ABC transporter permease), VP2482 (peptide ABC transporter ATP-binding protein), VP2483 (peptide ABC transporter ATP-binding protein), VP2484 (endoglucanase-like protein), VP2485 (N-acetylglucosamine kinase), VP2486 (beta-N-hexosaminidase), VP2487 (N,N'-diacetylchitobiose phosphorylase), VP2488 (phosphoglucomutase/phosphomannomutase)"
+0.726,1947585,1947999,-1,VP1864,VP1864 (hypothetical protein)
+0.726,1948280,1949243,1,VP1865,VP1865 (site-specific recombinase IntIA)
+0.719,1047214,1048003,-1,VPA0994,VPA0994 (hypothetical protein)
+0.633,2207589,2209620,-1,VP2100,VP2100 (excinuclease ABC subunit B)
+0.549,1066909,1069538,1,"VPA1014, VPA1015","VPA1014 (hypothetical protein), VPA1015 (succinate dehydrogenase subunit Sdh)"
+0.502,3216339,3218514,-1,VP3013,VP3013 (DNA-dependent helicase II)
+0.502,3218795,3221228,1,"VP3014, VP3015, VP3016, VP3017","VP3014 (signal peptide protein), VP3015 (hypothetical protein), VP3016 (hypothetical protein), VP3017 (transmembrane protein)"
