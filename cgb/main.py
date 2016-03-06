@@ -11,6 +11,15 @@ from orthologous_group import orthologous_groups_to_csv
 
 
 def directory(*paths):
+    """Makes a directory.
+
+    Creates the directory if it doesn't exist.
+
+    Args:
+        paths (list(string)): the full path for the directory
+    Returns:
+        string: the full path for the directory
+    """
     d = os.path.join(*paths)
     if not os.path.exists(d):
         os.makedirs(d)
@@ -18,6 +27,10 @@ def directory(*paths):
 
 
 def create_genomes(user_input):
+    """Creates all genomes used in the analysis.
+
+    For each genome, it writes operons to csv files.
+    """
     my_logger.info("Started: create genomes")
     genomes = [Genome(name, accessions)
                for name, accessions in user_input.genome_name_and_accessions]
@@ -36,7 +49,19 @@ def identify_TF_instance_in_genomes(genomes, proteins):
 
 
 def set_TF_binding_models(user_input, genomes, site_collections, weights):
-    """Sets the TF-binding model for each genome."""
+    """Sets the TF-binding model for each genome.
+
+    The TF_binding_models are genome-specific and built using the collections
+    of sites and their associated weights.
+
+    For each genome, built models are written to corresponding CSV files.
+
+    Args:
+        user_input (UserInput): options provided by the user
+        genomes (list(Genome)): list of genomes of interest
+        site_collections (list(SiteCollection)): list of collections
+        weights (list(float)): weights used for combining evidence
+    """
     prior_reg = user_input.prior_regulation_probability
     for g in genomes:
         g.build_PSSM_model(site_collections, weights, prior_reg)
@@ -45,6 +70,7 @@ def set_TF_binding_models(user_input, genomes, site_collections, weights):
 
 
 def create_proteins(user_input):
+    """Creates all proteins used in the analysis."""
     my_logger.info("Started: create proteins")
     proteins = [Protein(accession, user_input.TF_name)
                 for accession in user_input.protein_accessions]
@@ -53,6 +79,7 @@ def create_proteins(user_input):
 
 
 def create_site_collections(user_input, proteins):
+    """Creates SiteCollection objects from the user-provided collections."""
     my_logger.info("Started: create site collections")
     collections = [SiteCollection(sites, protein)
                    for sites, protein in zip(user_input.sites_list, proteins)]
@@ -109,6 +136,11 @@ def infer_regulations(user_input, genomes):
 
 
 def search_sites(user_input, genomes):
+    """Searches for putative binding sites.
+
+    It uses each genome's TF-binding model for binding site search and outputs
+    the results into a CSV file accordingly.
+    """
     log_dir = directory(user_input.log_dir, 'identified_sites')
     for g in genomes:
         my_logger.debug("threshold: %.2f" % g.TF_binding_model.threshold())
@@ -118,6 +150,11 @@ def search_sites(user_input, genomes):
 
 
 def create_orthologous_groups(user_input, genes, genomes):
+    """Creates orthologous groups from the given list of genes.
+
+    For each gene in the list, it searches for orthologs in other genomes and
+    outputs results to the CSV file.
+    """
     groups = construct_orthologous_groups(genes, genomes)
     # Write groups to file
     log_dir = directory(user_input.log_dir)
@@ -126,12 +163,19 @@ def create_orthologous_groups(user_input, genes, genomes):
 
 
 def create_phylogeny(genomes, proteins, user_input):
+    """Creates a phylogeny from the given proteins.
+
+    In addition to transcription factors with binding evidence, their
+    homologous counterparts in the analyzed genomes are used to build the
+    phylogeny.
+    """
     phylo = Phylo(proteins + [g.TF_instance for g in genomes])
     phylo.to_newick(os.path.join(user_input.log_dir, 'phylogeny.nwk'))
     return phylo
 
 
 def main():
+    """The entry-point for the pipeline."""
     # Read user input
     user_input = UserInput('../tests/input.json', '../tests/config.json')
     # Create proteins

@@ -66,7 +66,7 @@ class UserInput:
           is the more sites a motif has, the more its contribution to the final
           PSFM.
         - phylogenetic weighting. The weight of each motif will be determined
-          by its phylogenetic distance to target species’ TFs.
+          by its phylogenetic distance to target species' TFs.
 
         The default value is 'simple'.
         """
