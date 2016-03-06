@@ -255,6 +255,7 @@ class Genome:
             for i, score in enumerate(reversed(rc_scores)):
                 if score >= threshold:
                     sites.append(Site(chromid, i, i+site_len, -1, score))
+        sites.sort(key=lambda site: site.score, reverse=True)
 
         if filename:
             self._output_identified_sites(sites, filename)

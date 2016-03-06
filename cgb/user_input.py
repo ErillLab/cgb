@@ -39,3 +39,39 @@ class UserInput:
         """Returns the directory to be used for logging."""
         directory = self._input['config']['log_dir']
         return directory
+
+    @property
+    def prior_regulation_probability(self):
+        """Returns the prior probability of regulation.
+
+        It is used by the Bayesian estimator of operon regulation as the prior
+        probability of an operon being regulated.
+
+        The default value is set to 0.05 which is the ratio of the predicted
+        number of TFs (268) to the predicted number of genes (4501) in E. coli.
+        (http://bionumbers.hms.harvard.edu/)
+        """
+        try:
+            value = self._input['config']['prior_regulation_probability']
+        except KeyError:
+            value = 0.05
+        return value
+
+    @property
+    def motif_combining_method(self):
+        """Returns the option for motif combining.
+
+        Options are
+        - simple concatenation: Two collections will simply be combined. That
+          is the more sites a motif has, the more its contribution to the final
+          PSFM.
+        - phylogenetic weighting. The weight of each motif will be determined
+          by its phylogenetic distance to target species’ TFs.
+
+        The default value is 'simple'.
+        """
+        try:
+            value = self._input['config']['motif_combining_method']
+        except KeyError:
+            value = 'simple'
+        return value

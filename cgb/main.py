@@ -37,7 +37,7 @@ def identify_TF_instance_in_genomes(genomes, proteins):
 
 def set_TF_binding_models(user_input, genomes, site_collections, weights):
     """Sets the TF-binding model for each genome."""
-    prior_reg = 0.01            # TODO(sefa): get it from input file
+    prior_reg = user_input.prior_regulation_probability
     for g in genomes:
         g.build_PSSM_model(site_collections, weights, prior_reg)
         log_dir = directory(user_input.log_dir, 'derived_PSWM')
@@ -142,7 +142,8 @@ def main():
     identify_TF_instance_in_genomes(genomes, proteins)
     # Create binding evidence
     site_collections = create_site_collections(user_input, proteins)
-    collection_weights = compute_motif_weights(site_collections, 'simple')
+    collection_weights = compute_motif_weights(
+        site_collections, user_input.motif_combining_method)
     # Set TF-binding model for each genome.
     set_TF_binding_models(user_input, genomes, site_collections,
                           collection_weights)
