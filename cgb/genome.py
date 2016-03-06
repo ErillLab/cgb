@@ -110,14 +110,6 @@ class Genome:
         # TODO(sefa): make sure setter called before getter.
         return self._TF_binding_model
 
-    def PSSM_model_to_jaspar(self, filename):
-        """Writes the PSSM to the given file in jaspar format."""
-        header = "genome: %s, TF: %s" % (self.strain_name, self.TF_instance.name)
-        jaspar_motif = jaspar.Motif(matrix_id='', name=header,
-                                    counts=self.TF_binding_model.pwm)
-        with open(filename, 'w') as f:
-            f.write(jaspar.write([jaspar_motif], 'jaspar'))
-
     def build_PSSM_model(self, collections, weights, prior_reg):
         """Builds a PSSM_model and sets the _TF_binding_model attribute.
 
@@ -265,6 +257,18 @@ class Genome:
                        closest_gene.end, closest_gene.locus_tag,
                        closest_gene.product]
                 csv_writer.writerow(row)
+
+    def output_TF_binding_model(self, filename):
+        """Writes the model to the given file."""
+        self._PSSM_model_to_jaspar(filename)
+
+    def _PSSM_model_to_jaspar(self, filename):
+        """Writes the PSSM to the given file in jaspar format."""
+        header = "genome: %s, TF: %s" % (self.strain_name, self.TF_instance.name)
+        jaspar_motif = jaspar.Motif(matrix_id='', name=header,
+                                    counts=self.TF_binding_model.pwm)
+        with open(filename, 'w') as f:
+            f.write(jaspar.write([jaspar_motif], 'jaspar'))
 
     def __repr__(self):
         return (self.strain_name + ': ' +

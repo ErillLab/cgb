@@ -1,18 +1,19 @@
 import logging
+from abc import ABCMeta, abstractmethod, abstractproperty
 
 import numpy as np
 import scipy.stats
 from cached_property import cached_property
 
 
-class TFBindingModel(object):
-    """Class definition for TF-binding model.
+class TFBindingModel():
+    """Definition for base class TFBindingModel.
 
-    The TFBindingModel class supports arbitrary models for TF-binding estimated
-    from the data, using a variety of ML paradigms. The TFBindingModel defines
-    an energy function for specific binding of a TF to a DNA sequence, together
-    with a Bayesian statistical model for assessing the posterior probability
-    of TF regulation for specific sequences.
+    The TFBindingModel is an abstract class that supports arbitrary models for
+    TF-binding estimated from the data, using a variety of ML paradigms. The
+    TFBindingModel defines a scoring function for specific binding of a TF to a
+    DNA sequence, together with a Bayesian statistical model for assessing the
+    posterior probability of TF regulation for specific sequences.
 
     As such, it incorporates the following main methods:
     - A default constructor with known binding sites/regions and background
@@ -21,25 +22,14 @@ class TFBindingModel(object):
     - A method to report the score of known binding sites/regions
     - A method to define a threshold for score reporting
     - A method to set up the Bayesian estimator
-    - A method to report posterior probabilies of TF regulation on sequences
+    - A method to report posterior probabilities of TF regulation on sequences
 
-    Its primary specification is the PSSM_TFBindingModel, based on the
-    ubiquitous PSSM model for TF-binding analysis. The PSSM method assumes
-    positional independence in the TF-binding motif and computes a
-    sum-of-log-likehood ratios as a reasonable approximation to the TF-binding
-    energy contribution of any given sequence. The likelihood ratio is based on
-    a position-independent probability model (the PSWM) and a background
-    model. To make the model generic, a uniform background is assumed by
-    default.
-
-    The PSSM_TFBindingModel subclass incorporates a constructor based on the
-    weighted mixing of collections of PSWMs that allows instantiating
-    species-specific PSSM models based on available evidence in different
-    species and a phylogenetic model of these species relationship with the
-    target species.
+    Its primary specification is the PSSMModel. See pssm_model.py
     """
 
-    def __init__(self, collections, weights,
+    __metaclass__ = ABCMeta
+
+    def __init__(self, collections,
                  background={'A': 0.25, 'C': 0.25, 'G': 0.25, 'T': 0.25}):
         """Constructor for the TFBindingModel class.
 
@@ -54,15 +44,6 @@ class TFBindingModel(object):
     def background(self):
         """Returns the background distribution of the model."""
         return self._background
-
-    @cached_property
-    def sites(self):
-        """Returns the binding sites of the motifs used to build the model."""
-        return [site for coll in self._collection_set for site in coll.sites]
-
-    def score_self(self):
-        """Returns the list of scores of the sites that the model has."""
-        return [self.score_seq(site) for site in self.sites]
 
     @property
     def bayesian_estimator(self):
@@ -109,3 +90,16 @@ class TFBindingModel(object):
         """Returns the probability of binding to the given seq."""
         pssm_scores = self.score_seq(seq)
         return self.bayesian_estimator(pssm_scores)
+
+    # All of the following methods should be overridden in the subclass.
+    @abstractmethod
+    def threshold():
+        pass
+
+    @abstractmethod
+    def score_seq():
+        pass
+
+    @abstractproperty
+    def length():
+        pass

@@ -8,11 +8,26 @@ from misc import log2
 
 
 class PSSMModel(TFBindingModel):
-    """Class definition for PSSM model for TF-binding analysis."""
+    """Class definition for PSSM model for TF-binding analysis.
+
+    PSSMModel class based on the ubiquitous PSSM model for TF-binding
+    analysis. The PSSM method assumes positional independence in the TF-binding
+    motif and computes a sum-of-log-likehood ratios as a reasonable
+    approximation to the TF-binding energy contribution of any given
+    sequence. The likelihood ratio is based on a position-independent
+    probability model (the PSWM) and a background model. To make the model
+    generic, a uniform background is assumed by default.
+
+    The PSSMModel subclass incorporates a constructor based on the
+    weighted mixing of collections of PSWMs that allows instantiating
+    species-specific PSSM models based on available evidence in different
+    species and a phylogenetic model of these species relationship with the
+    target species.
+    """
     def __init__(self, collections, weights,
                  background={'A': 0.25, 'C': 0.25, 'G': 0.25, 'T': 0.25}):
         """Constructor for the PSSMModel class."""
-        super(PSSMModel, self).__init__(collections, weights, background)
+        super(PSSMModel, self).__init__(collections, background)
         self._pwm = self._combine_pwms([c.pwm for c in collections], weights)
 
     @cached_property
@@ -61,6 +76,15 @@ class PSSMModel(TFBindingModel):
         else:
             raise ValueError
         return thr
+
+    @cached_property
+    def sites(self):
+        """Returns the binding sites of the motifs used to build the model."""
+        return [site for coll in self._collection_set for site in coll.sites]
+
+    def score_self(self):
+        """Returns the list of scores of the sites that the model has."""
+        return [self.score_seq(site) for site in self.sites]
 
     def score_seq(self, seq, both=True):
         """Returns the PSSM score for a given sequence for all positions.

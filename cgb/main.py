@@ -41,7 +41,7 @@ def set_TF_binding_models(user_input, genomes, site_collections, weights):
     for g in genomes:
         g.build_PSSM_model(site_collections, weights, prior_reg)
         log_dir = directory(user_input.log_dir, 'derived_PSWM')
-        g.PSSM_model_to_jaspar(os.path.join(log_dir, g.strain_name+'.jaspar'))
+        g.output_TF_binding_model(os.path.join(log_dir, g.strain_name+'.jaspar'))
 
 
 def create_proteins(user_input):
@@ -115,6 +115,7 @@ def search_sites(user_input, genomes):
         report_filename = os.path.join(log_dir, g.strain_name+'.csv')
         sites = g.search_sites(report_filename)
     return sites
+
 
 def create_orthologous_groups(user_input, genes, genomes):
     groups = construct_orthologous_groups(genes, genomes)
