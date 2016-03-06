@@ -1,10 +1,11 @@
 import os
+import tempfile
 
 from Bio import Entrez
 
 Entrez.email = 'sefa1@umbc.edu'
 
-ENTREZ_DIRECTORY = '/Users/sefa/Downloads/'
+ENTREZ_DIRECTORY = tempfile.gettempdir()
 
 
 def get_genome_record(accession):
