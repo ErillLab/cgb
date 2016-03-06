@@ -49,9 +49,5 @@
             "name": "vibrio_parahaemolyticus",
             "accession_numbers": ["NC_004603.1", "NC_004605.1"]
         }
-    ],
-
-    "configuration": {
-        "log_dir": "/Users/sefa/Dropbox/cgb/tests/logs"
-    }
+    ]
 }

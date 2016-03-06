@@ -2,14 +2,16 @@ import json
 
 
 class UserInput:
-    def __init__(self, filename):
-        """Constructs Input object using the input file.
-
-        Args:
-            filename (string): path to a file in JSON format.
-        """
-        with open(filename) as f:
-            self._input = json.load(f)
+    def __init__(self, input_filename, config_filename=None):
+        """Constructs Input object using the input file."""
+        self._input = {}
+        with open(input_filename) as f:
+            for k, v in json.load(f).items():
+                self._input[k] = v
+        with open(config_filename) as f:
+            self._input['config'] = {}
+            for k, v in json.load(f).items():
+                self._input['config'][k] = v
 
     @property
     def genome_name_and_accessions(self):
@@ -35,5 +37,5 @@ class UserInput:
     @property
     def log_dir(self):
         """Returns the directory to be used for logging."""
-        directory = self._input['configuration']['log_dir']
+        directory = self._input['config']['log_dir']
         return directory

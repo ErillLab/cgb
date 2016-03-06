@@ -132,7 +132,7 @@ def create_phylogeny(genomes, proteins, user_input):
 
 def main():
     # Read user input
-    user_input = UserInput('../tests/input.json')
+    user_input = UserInput('../tests/input.json', '../tests/config.json')
     # Create proteins
     proteins = create_proteins(user_input)
     # Create genomes
