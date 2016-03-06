@@ -18,7 +18,13 @@ Site = namedtuple('Site', 'chromid start end strand score')
 
 class Genome:
     def __init__(self, strain_name, accession_numbers):
-        """Initializes the Genome object."""
+        """Initializes the Genome object.
+
+        Args:
+            strain_name (string): User-provided name for the strain
+            accession_numbers (list): List of corresponding accession numbers.
+        """
+
         logging.debug('Creating genome: %s %s' %
                       (strain_name, str(accession_numbers)))
         self._strain_name = strain_name
@@ -138,14 +144,26 @@ class Genome:
         return gene
 
     def find_gene_homolog(self, gene):
-        """Returns the homolog gene of the genome."""
+        """Returns the homolog gene of the genome.
+
+        Args:
+            gene (Gene): the query gene.
+        Returns:
+            (Gene, float): The homologous gene and the BLAST e-value.
+        """
         blast_record = self.blast_client.tblastx(gene.to_fasta())
         locus_tag = self.blast_client.get_best_hit(blast_record)
         evalue = self.blast_client.get_e_value(blast_record)
         return self.get_gene_by_locus_tag(locus_tag), evalue
 
     def find_protein_homolog(self, protein):
-        """Returns the homolog protein of the given protein."""
+        """Returns the homolog protein of the given protein.
+
+        Args:
+            protein (Protein): the query protein.
+        Returns:
+            (Protein, float): The homologous protein and the BLAST e-value.
+        """
         # TODO(sefa): use blast database of protein coding genes only
         blast_record = self.blast_client.tblastn(protein.to_fasta())
         # TODO(sefa): exception when there are no hits
@@ -193,6 +211,12 @@ class Genome:
         return regulons
 
     def _output_posterior_probabilities(self, scan_results, filename):
+        """Outputs posterior probabilities to a csv file.
+
+        Args:
+            scan_results (list): List of (Operon, probability) pairs.
+            filename (string): the path to the output CSV file.
+        """
         with open(filename, 'w') as csvfile:
             csv_writer = csv.writer(csvfile)
             header_row = ['probability', 'operon_start', 'operon_end',
@@ -207,7 +231,15 @@ class Genome:
                 csv_writer.writerow(row)
 
     def search_sites(self, filename=None):
-        """Scans the genome to identify binding sites."""
+        """Scans the genome to identify binding sites.
+
+        It also outputs identified sites to the file if provided.
+
+        Args:
+            filename (string): the path to the output CSV file.
+        Returns:
+            List of Site namedtuples.
+        """
         threshold = self.TF_binding_model.threshold()
         site_len = self.TF_binding_model.length   # length of binding sites
         sites = []

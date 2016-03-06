@@ -1,7 +1,6 @@
 import os
 
 from Bio import Entrez
-from Bio import SeqIO
 
 Entrez.email = 'sefa1@umbc.edu'
 
@@ -20,7 +19,6 @@ def get_genome_record(accession):
 
     handle = open(genbank_file)
     return handle.read()
-
 
 
 def get_protein_record(accession):

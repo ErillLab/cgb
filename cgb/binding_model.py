@@ -94,12 +94,24 @@ class TFBindingModel():
     # All of the following methods should be overridden in the subclass.
     @abstractmethod
     def threshold():
+        """Returns the threshold for site scores.
+
+        It is an abstract method and should be overridden by the subclass.
+        """
         pass
 
     @abstractmethod
     def score_seq():
+        """Returns the score of the given sequence.
+
+        It is an abstract method and should be overridden by the subclass.
+        """
         pass
 
     @abstractproperty
     def length():
+        """Returns the length of the binding sites that the model identifies.
+
+        It is an abstract method and should be overridden by the subclass.
+        """
         pass

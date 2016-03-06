@@ -70,7 +70,15 @@ class BLAST:
 
     @staticmethod
     def get_best_hit(blast_record):
-        """Returns the locus_tag of the best BLAST hit."""
+        """Returns the locus_tag of the best BLAST hit.
+
+        Args:
+            blast_record (Bio.Blast.Record)
+        Returns:
+            string: the identifier of the best hit
+        Raises:
+            BlastNoHitFoundException: if there is no BLAST hit.
+        """
         try:
             return blast_record.alignments[0].hit_def
         except IndexError:
