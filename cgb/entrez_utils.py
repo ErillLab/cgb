@@ -1,3 +1,10 @@
+"""Module containing functions using NCBI Entrez utility.
+
+See NCBI Entrez page (http://www.ncbi.nlm.nih.gov/books/NBK3837/) and Biopython
+(http://biopython.org/DIST/docs/tutorial/Tutorial.html) tutorial for more
+information.
+"""
+
 import os
 import tempfile
 
@@ -5,6 +12,7 @@ from Bio import Entrez
 
 Entrez.email = 'sefa1@umbc.edu'
 
+# The directory used to save NCBI records for later use.
 ENTREZ_DIRECTORY = tempfile.gettempdir()
 
 

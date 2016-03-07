@@ -12,7 +12,21 @@ from misc import mean
 
 
 class Chromid:
-    """Class for chromosomes and plasmids."""
+    """Definition for Chromid (chromosome//plasmid) class.
+
+    Chromid class holds attributes and methods related to chromosome or plasmid
+    of a genome.
+
+    Given the accession number for the chromosome/plasmid, the corresponding
+    NCBI GenBank record is fetched and parsed using the Biopython library. The
+    record contains gene annotations (the location, locus tag, product, etc.)
+    which are used to create Gene objects.
+
+    The class implements a distance-based operon prediction method which is
+    adaptive to the distribution of intergenic distances. See related method
+    for more details.
+    """
+
     def __init__(self, accession_number, genome):
         self._record = entrez_utils.get_genome_record(accession_number)
         self._genome = genome

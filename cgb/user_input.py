@@ -2,6 +2,19 @@ import json
 
 
 class UserInput:
+    """Class definition for UserInput.
+
+    UserInput class gives an interface to access the run parameters provided by
+    the user. It allows us to make changes in the input format relatively
+    easily. It also checks the content of the input and sets default values for
+    parameters not specified by the user.
+
+    The user feeds the program with two files:
+    - the required input file which contains
+      - the names and accession numbers for the analyzed genomes
+      - the TF protein accession number and the collection of its binding sites
+    - the optional configuration file that specifies other parameters.
+    """
     def __init__(self, input_filename, config_filename=None):
         """Constructs Input object using the input file."""
         self._input = {}

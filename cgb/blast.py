@@ -1,4 +1,4 @@
-"""Class for performing BLAST."""
+"""Class for performing BLAST search."""
 
 import os
 import logging
@@ -9,6 +9,20 @@ from misc import temp_file_name
 
 
 class BLAST:
+    """Definition for BLAST class.
+
+    The BLAST class provides an interface for querying different flavors of
+    BLAST against a database built with the sequences provided during the
+    initialization.
+
+    The target database is constructed from the provided sequences using the
+    command-line BLAST utility 'makeblastdb'.
+
+    As for database searches, the class supports two flavors of BLAST: tblastx
+    and tblastn. The class also provides methods that parses BLAST output and
+    returns the best BLAST hit and its e-value.
+    """
+
     def __init__(self, seq_fasta, db_type, prefix=""):
         """Creates a BLAST database from the given fasta string.
 

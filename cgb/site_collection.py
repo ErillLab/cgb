@@ -5,7 +5,13 @@ from Bio.Alphabet.IUPAC import unambiguous_dna
 
 
 class SiteCollection:
-    """The class definition for the collection of binding sites"""
+    """The class definition for the collection of binding sites.
+
+    SiteCollection encapsulates the transcription factor and its binding sites
+    and constructs a position-independent probability model (PWM) which is used
+    to build the TF binding model (see binding_model.py)
+
+    """
     def __init__(self, sites, TF, pseudocounts=1):
         self._TF = TF
         instances = [Seq(site, unambiguous_dna) for site in sites]

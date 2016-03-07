@@ -6,6 +6,13 @@ from blast import BlastNoHitFoundException
 
 
 class Gene:
+    """Definition for Gene class.
+
+    Gene class represents the physical and functional units of the genome:
+    genes. The class provides access to primary gene features such as the start
+    and end position, the strand that it is lying on.
+    """
+
     def __init__(self, chromid, seq_feature, product_feature=None):
         """Initializes Gene instance with the given Biopython SeqFeature."""
         self._seq_feature = seq_feature

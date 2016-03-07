@@ -1,3 +1,5 @@
+"""The protein module"""
+
 import cStringIO
 
 from cached_property import cached_property
@@ -7,6 +9,14 @@ import entrez_utils
 
 
 class Protein:
+    """Definition for Protein class.
+
+    Protein class contains attributes and methods to represent a protein. The
+    constructor queries the given accession number and fetches the record from
+    NCBI Protein database. The class provides methods to access the protein
+    features such as its description and amino acid sequence.
+    """
+
     def __init__(self, accession_number, name):
         self._name = name
         self._record = entrez_utils.get_protein_record(accession_number)

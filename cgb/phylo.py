@@ -10,9 +10,25 @@ from misc import unique
 
 
 class Phylo:
+    """Class for phylogeny.
+
+    The class Phylogeny contains the phylogenetic tree initialized with the
+    given collection of proteins. For the construction of the tree following
+    are used:
+
+    - Clustal Omega command-line tool for multiple sequence alignment
+    - Distance matrix to compute the distance between two proteins
+      (e.g. BLOSUM62, identity matrix)
+    - Tree construction algorithm: UPGMA (Unweighted Pair Group Method with
+      Arithmetic Mean) or NJ (Neighbor Joining)
+
+    The class also provides methods for outputting the built phylogenetic tree,
+    such as drawing it as a string as well as exporting it to a Newick file.
+    """
     def __init__(self, proteins, distance_model='identity',
                  tree_algorithm='nj'):
-        """Initializes a Phylo object.
+
+    """Initializes a Phylo object.
 
         Args:
             proteins (list): list of Protein objects

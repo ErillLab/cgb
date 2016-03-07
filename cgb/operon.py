@@ -1,4 +1,21 @@
+"""The operon module."""
+
+
 class Operon:
+    """Definition for Operon class.
+
+    An operon is a functional unit that is under the control of a single
+    promoter.
+
+    For analysis of bacterial gene regulation, it is the basic class which
+    contains attributes of genes as well as operon start/end position and
+    strand. The class also includes a method to extract promoter region for the
+    operon.
+
+    Finally, the class has a method to compute the binding probability of the
+    TF to the promoter region. See binding_model.py for details on the Bayesian
+    estimator the regulation probability.
+    """
     def __init__(self, genes):
         assert len(genes) > 0
         assert all(gene.strand == genes[0].strand for gene in genes)

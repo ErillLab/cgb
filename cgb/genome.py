@@ -17,6 +17,20 @@ Site = namedtuple('Site', 'chromid start end strand score')
 
 
 class Genome:
+    """Definition for Genome class.
+
+    Genome class encapsulates all chromosomes and plasmids of a species.
+
+    In addition to providing access to all chromid attributes and methods, it
+    holds a BLAST client to query the database constructed with all the genes
+    in the genome.
+
+    The class also contains a genome-specific TF-binding model, which is used
+    to identify individual binding sites on the genome, as well as to infer the
+    posterior probabilities of regulation for each operon. It also provides
+    methods to output predicted binding sites and posterior probability
+    estimations to corresponding comma separated value (CSV) files.
+    """
     def __init__(self, strain_name, accession_numbers):
         """Initializes the Genome object.
 

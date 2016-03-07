@@ -1,3 +1,5 @@
+"""Module for orthologous groups."""
+
 import csv
 
 from my_logger import my_logger
@@ -6,7 +8,9 @@ from my_logger import my_logger
 class OrthologousGroup:
     """Class definition for OrthologousGroup.
 
-    The OrthologousGroup class contains the group of orthologous genes.
+    The OrthologousGroup class holds a group of genes which are orthologous to
+    each other. Two genes are determined as orthologs if they are best BLAST
+    hits for each other (reciprocal best BLAST hits).
     """
     def __init__(self, gene):
         self._genes = gene

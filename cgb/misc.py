@@ -1,3 +1,5 @@
+"""The module for miscellaneous functions."""
+
 import math
 import numpy as np
 import tempfile
