@@ -106,11 +106,13 @@ class Chromid:
     def _directons(self):
         """Returns the list of directons.
 
-        A directon is a set of consecutive genes on one strand of DNA.
+        A directon is a set of consecutive genes on the same DNA strand.
         """
         genes = sorted(self.genes, key=lambda g: g.start)
         directons = []
         cur_directon = [genes[0]]
+        #scan genes in sorted gene list, appending to current directon
+        #if in the same strand, starting a new directon if in opposite strand
         for cur_gene in genes[1:]:
             if cur_directon[-1].strand == cur_gene.strand:
                 cur_directon.append(cur_gene)
@@ -118,15 +120,20 @@ class Chromid:
                 directons.append(cur_directon)
                 cur_directon = [cur_gene]
         directons.append(cur_directon)
+        #return directon list, flipping reverse strand directon genes
         return [directon if directon[0].is_forward_strand else directon[::-1]
                 for directon in directons]
 
     def _operon_prediction(self):
         """Identifies all operons of the chromosome/plasmid.
 
-        Two neighboring genes are in the same operon if their intergenic
-        distance, which is defined as the mean intergenic distance between the
-        first two genes of all opposite directons.
+        Two neighboring genes in the same strand are considered to be in the
+        same operon if their intergenic distance is less or equal to the
+        genome mean operon intergenic distance. The mean operon intergenic
+        distance is estimated as the mean intergenic distance X between the
+        first two genes of all opposite directons (2<-(x)<-1<- ->1->(x)->2).
+        This provides an adaptive threshold that takes into account the
+        intergenic compression of different genomes.
         """
         operons = []
         directons = self._directons()
