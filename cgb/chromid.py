@@ -111,8 +111,8 @@ class Chromid:
         genes = sorted(self.genes, key=lambda g: g.start)
         directons = []
         cur_directon = [genes[0]]
-        #scan genes in sorted gene list, appending to current directon
-        #if in the same strand, starting a new directon if in opposite strand
+        # Scan genes in sorted gene list, appending to current directon if in
+        # the same strand, starting a new directon if in opposite strand
         for cur_gene in genes[1:]:
             if cur_directon[-1].strand == cur_gene.strand:
                 cur_directon.append(cur_gene)
@@ -120,7 +120,7 @@ class Chromid:
                 directons.append(cur_directon)
                 cur_directon = [cur_gene]
         directons.append(cur_directon)
-        #return directon list, flipping reverse strand directon genes
+        # return directon list, flipping reverse strand directon genes
         return [directon if directon[0].is_forward_strand else directon[::-1]
                 for directon in directons]
 
