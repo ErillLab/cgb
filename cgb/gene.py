@@ -63,7 +63,6 @@ class Gene:
             return genes[index+1]
         return None
 
-    @cached_property
     def upstream_noncoding_region(self, up=None, down=50):
         """Returns the upstream non-coding region.
 
