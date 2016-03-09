@@ -49,6 +49,56 @@ class Gene:
         """Returns true if the gene is on the forward strand."""
         return self.strand == 1
 
+    @cached_property
+    def upstream_gene(self):
+        """Returns the gene upstream.
+
+        Returns None if there is no such genes.
+        """
+        genes = self.chromid.genes
+        index = genes.find(self)
+        if self.is_forward_strand and index > 0:
+            return genes[index-1]
+        elif not self.is_forward_strand and index < len(genes)-1:
+            return genes[index+1]
+        return None
+
+    @cached_property
+    def upstream_noncoding_region(self, up=None, down=50):
+        """Returns the upstream non-coding region.
+
+        Args:
+            up (int): the relative start position of the upstream region. If
+            none, the returned region is up to the previous gene.
+            down (int): the relative end position of the returned region.
+        """
+        def upstream_forward_strand_gene():
+            """Returns the upstream region of a gene in forward strand."""
+            if up:
+                loc_start = max(0, self.start-up)
+            elif self.upstream_gene:
+                loc_start = self.upstream_gene.end
+            else:
+                loc_start = 0
+            loc_end = self.start + down
+            return loc_start, loc_end
+
+        def upstream_reverse_strand_gene():
+            """Returns the upstream region of a gene in reverse strand."""
+            if up:
+                loc_end = min(self.chromid.length, self.end+up)
+            elif self.upstream_gene:
+                loc_end = self.upstream.start
+            else:
+                loc_end = self.chromid.length
+            loc_start = self.end - down
+            return loc_start, loc_end
+
+        loc_start, loc_end = (upstream_forward_strand_gene()
+                              if self.is_forward_strand
+                              else upstream_reverse_strand_gene())
+        return self.chromid.subsequence(loc_start, loc_end)
+
     @property
     def chromid(self):
         """Returns the Chromid that the gene belongs to."""
