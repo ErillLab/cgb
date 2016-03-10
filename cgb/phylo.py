@@ -87,6 +87,19 @@ class Phylo:
         tree = constructor.build_tree(self.alignment)
         return tree
 
+    @cached_property
+    def tree_lookup(self):
+        lookup = {}
+        for clade in self.tree.get_terminals():
+            lookup[clade.name] = clade
+        return lookup
+
+    def distance(self, pa, pb):
+        """Finds the phylogenetic distance between two proteins."""
+        clade_a = self.tree_lookup[pa.accession_number]
+        clade_b = self.tree_lookup[pb.accession_number]
+        return self.tree.distance(clade_a, clade_b)
+
     def draw_ascii(self):
         """Draws the tree in ASCII format."""
         BioPhylo.draw_ascii(self.tree)
