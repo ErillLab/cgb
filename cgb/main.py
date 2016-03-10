@@ -34,12 +34,15 @@ def create_genomes(user_input):
     my_logger.info("Started: create genomes")
     genomes = [Genome(name, accessions)
                for name, accessions in user_input.genome_name_and_accessions]
+    return genomes
+
+
+def output_operons(user_input, genomes):
     # write operons to files
     log_dir = directory(user_input.log_dir, 'operons')
     for g in genomes:
         g.operons_to_csv(os.path.join(log_dir, g.strain_name+'_operons.csv'))
     my_logger.info("Finished: create genomes")
-    return genomes
 
 
 def identify_TF_instance_in_genomes(genomes, proteins):
@@ -145,7 +148,7 @@ def search_sites(user_input, genomes):
     for g in genomes:
         my_logger.debug("threshold: %.2f" % g.TF_binding_model.threshold())
         report_filename = os.path.join(log_dir, g.strain_name+'.csv')
-        sites = g.search_sites(report_filename)
+        sites = g.identify_sites(filename=report_filename)
     return sites
 
 
@@ -192,9 +195,13 @@ def main():
     set_TF_binding_models(user_input, genomes, site_collections,
                           collection_weights)
     # Score genomes
-    all_regulated_genes = infer_regulations(user_input, genomes)
     sites = search_sites(user_input, genomes)
+    all_regulated_genes = infer_regulations(user_input, genomes)
+
     # Create orthologous groups
-    grps = create_orthologous_groups(user_input, all_regulated_genes, genomes)
+    #grps = create_orthologous_groups(user_input, all_regulated_genes, genomes)
     # Create phylogeny
-    phylo = create_phylogeny(genomes, proteins, user_input)
+    #phylo = create_phylogeny(genomes, proteins, user_input)
+
+
+    output_operons(user_input, genomes)

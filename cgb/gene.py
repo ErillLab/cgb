@@ -13,8 +13,9 @@ class Gene:
     and end position, the strand that it is lying on.
     """
 
-    def __init__(self, chromid, seq_feature, product_feature=None):
+    def __init__(self, index, chromid, seq_feature, product_feature=None):
         """Initializes Gene instance with the given Biopython SeqFeature."""
+        self._index = index
         self._seq_feature = seq_feature
         self._product_feature = product_feature
         self._chromid = chromid
@@ -56,11 +57,10 @@ class Gene:
         Returns None if there is no such genes.
         """
         genes = self.chromid.genes
-        index = genes.find(self)
-        if self.is_forward_strand and index > 0:
-            return genes[index-1]
-        elif not self.is_forward_strand and index < len(genes)-1:
-            return genes[index+1]
+        if self.is_forward_strand and self._index > 0:
+            return genes[self._index-1]
+        elif not self.is_forward_strand and self._index < len(genes)-1:
+            return genes[self._index+1]
         return None
 
     def upstream_noncoding_region(self, up=None, down=50):
@@ -70,13 +70,14 @@ class Gene:
             up (int): the relative start position of the upstream region. If
             none, the returned region is up to the previous gene.
             down (int): the relative end position of the returned region.
+        Returns: (int, int) start and end position of the region
         """
         def upstream_forward_strand_gene():
             """Returns the upstream region of a gene in forward strand."""
             if up:
                 loc_start = max(0, self.start-up)
             elif self.upstream_gene:
-                loc_start = self.upstream_gene.end
+                loc_start = min(self.upstream_gene.end, self.start)
             else:
                 loc_start = 0
             loc_end = self.start + down
@@ -87,16 +88,14 @@ class Gene:
             if up:
                 loc_end = min(self.chromid.length, self.end+up)
             elif self.upstream_gene:
-                loc_end = self.upstream.start
+                loc_end = max(self.upstream_gene.start, self.end)
             else:
                 loc_end = self.chromid.length
             loc_start = self.end - down
             return loc_start, loc_end
 
-        loc_start, loc_end = (upstream_forward_strand_gene()
-                              if self.is_forward_strand
-                              else upstream_reverse_strand_gene())
-        return self.chromid.subsequence(loc_start, loc_end)
+        return (upstream_forward_strand_gene() if self.is_forward_strand
+                else upstream_reverse_strand_gene())
 
     @property
     def chromid(self):
@@ -180,6 +179,10 @@ class Gene:
         Used to compute the intergenic distance between two neighboring genes.
         """
         return max(self.start, other.start) - min(self.end, other.end)
+
+    def distance_to_region(self, region_start, region_end):
+        """Returns the distance to the region given its location."""
+        return max(self.start, region_start) - min(self.end, region_end)
 
     def to_fasta(self):
         """Returns the gene sequence as a string in FASTA format."""

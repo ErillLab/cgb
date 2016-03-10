@@ -13,7 +13,7 @@ from misc import weighted_choice
 from my_logger import my_logger
 from bio_utils import reverse_complement
 
-Site = namedtuple('Site', 'chromid start end strand score')
+Site = namedtuple('Site', 'chromid start end strand score gene')
 
 
 class Genome:
@@ -244,50 +244,54 @@ class Genome:
                        gene_names, products]
                 csv_writer.writerow(row)
 
-    def search_sites(self, filename=None):
-        """Scans the genome to identify binding sites.
+    @property
+    def putative_sites(self):
+        """Returns the lsit of putative sites in non-coding regions."""
+        return self._putative_sites
 
-        It also outputs identified sites to the file if provided.
+    def identify_sites(self, promoter_up=300, filename=None):
+        """Returns the list of sites in non-coding regions..
 
-        Args:
-            filename (string): the path to the output CSV file.
-        Returns:
-            List of Site namedtuples.
+        It searches exclusively the [up to previous gene, +50] for all genes in
+        the genome. It returns all sites with a score over threshold, and tags
+        the found sites as operator or intergenic (if distance is >300, or
+        whatever the user specifies). Finally, it reports identified sites to a
+        CSV file if filename is provided.
         """
-        threshold = self.TF_binding_model.threshold()
-        site_len = self.TF_binding_model.length   # length of binding sites
-        sites = []
-        for chromid in self.chromids:
-            seq = chromid.sequence
-            scores = self.TF_binding_model.score_seq(seq, both=False)
-            for i, score in enumerate(scores):
-                if score >= threshold:
-                    sites.append(Site(chromid, i, i+site_len, 1, score))
+        if hasattr(self, '_putative_sites' ):
+            return self._putative_sites
 
+        threshold = self.TF_binding_model.threshold()  # score threshold
+        site_len = self.TF_binding_model.length  # Length of the binding sites
+        sites = []
+        my_logger.debug("Identifying sites in %s" % self.strain_name)
+        for gene in tqdm(self.genes):
+            start, end = gene.upstream_noncoding_region()
+            # Score forward strand
+            seq = gene.chromid.subsequence(start, end)
+            scores = self.TF_binding_model.score_seq(seq, both=False)
+            for i, score in enumerate(scores, start=start):
+                if score >= threshold:
+                    sites.append(
+                        Site(gene.chromid, i, i+site_len, 1, score, gene))
+            # Score reverse strand
             rc_seq = reverse_complement(seq)
             rc_scores = self.TF_binding_model.score_seq(rc_seq, both=False)
-            for i, score in enumerate(reversed(rc_scores)):
+            for i, score in enumerate(reversed(rc_scores), start=start):
                 if score >= threshold:
-                    sites.append(Site(chromid, i, i+site_len, -1, score))
+                    sites.append(
+                        Site(gene.chromid, i, i+site_len, -1, score, gene))
         sites.sort(key=lambda site: site.score, reverse=True)
+        self._putative_sites = sites
 
         if filename:
-            self._output_identified_sites(sites, filename)
-        return sites
+            self._output_identified_sites(sites, promoter_up, filename)
 
-    def _site_category(self, site, up=-300, down=50):
-        """Returns the category of site: operator, intergenic or intragenic."""
-        closest_gene, distance = site.chromid.find_closest_gene(site.start)
-        if up <= distance <= down:
-            category = 'operator'
-        elif (site.start >= closest_gene.start and
-              site.start < closest_gene.end):
-            category = 'intragenic'
-        else:
-            category = 'intergenic'
-        return closest_gene, distance, category
-
-    def _output_identified_sites(self, sites, filename):
+    def _output_identified_sites(self, sites, promoter_up, filename):
+        """Reports the idenitied sites to a CSV file.
+        Args:
+           TODO(sefa)
+        """
         with open(filename, 'w') as csvfile:
             csv_writer = csv.writer(csvfile)
             header_row = ['score', 'site', 'chromid', 'start', 'end', 'strand',
@@ -295,14 +299,15 @@ class Genome:
                           'gene_end', 'gene_locus_tag', 'gene_product']
             csv_writer.writerow(header_row)
             for site in sites:
-                closest_gene, distance, category = self._site_category(site)
-                site_seq = site.chromid.subsequence(site.start, site.end,
-                                                    site.strand)
+                dist = site.gene.distance_to_region(site.start, site.end)
+                category = 'operator' if dist < promoter_up else 'intergenic'
+                site_seq = site.chromid.subsequence(
+                    site.start, site.end, site.strand)
                 row = [site.score, site_seq, site.chromid.accession_number,
-                       site.start, site.end, site.strand, distance, category,
-                       closest_gene.strand, closest_gene.start,
-                       closest_gene.end, closest_gene.locus_tag,
-                       closest_gene.product]
+                       site.start, site.end, site.strand, dist, category,
+                       site.gene.strand, site.gene.start,
+                       site.gene.end, site.gene.locus_tag,
+                       site.gene.product]
                 csv_writer.writerow(row)
 
     def output_TF_binding_model(self, filename):

@@ -27,8 +27,7 @@ class Phylo:
     """
     def __init__(self, proteins, distance_model='identity',
                  tree_algorithm='nj'):
-
-    """Initializes a Phylo object.
+        """Initializes a Phylo object.
 
         Args:
             proteins (list): list of Protein objects
