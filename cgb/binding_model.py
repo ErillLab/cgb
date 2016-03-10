@@ -46,26 +46,27 @@ class TFBindingModel():
         return self._background
 
     @property
+    def site_collections(self):
+        """Returns the site collections used to build the model."""
+        return self._collection_set
+
+    @property
     def bayesian_estimator(self):
         """Returns the Bayesian estimator for computing P(regulation)."""
         return self._bayesian_estimator
 
-    def build_bayesian_estimator(self, bg_scores, prior_m, alpha=1.0/350):
+    def build_bayesian_estimator(self, bg_scores, alpha=1.0/350):
         """Builds a Bayesian estimator of the probability of regulation.
 
         The attribute '_bayesian_estimator' is set to a function that takes a
         list of PSSM scores of a sequence and returns the probability of
         binding to that sequence.
 
-        Args:
+        Ar gs:
             bg_scores (list): List of PSSM scores of sequences from background.
-            prior_m (float): The prior probability of regulation.
             alpha (float): The mixing ratio.
         """
         logging.debug("Building Bayesian estimator.")
-        logging.debug("prior_m: %.2f" % prior_m)
-        prior_g = 1.0 - prior_m  # prior probability of the background
-
         # Estimate the mean/std of functional site scores.
         pssm_scores = self.score_self()
         mu_m, std_m = np.mean(pssm_scores), np.std(pssm_scores)
@@ -82,14 +83,13 @@ class TFBindingModel():
         lh_m = lambda scores: alpha * pdf_m(scores) + (1-alpha) * pdf_g(scores)
         lh_ratio = lambda scores: np.exp(
             np.sum(np.log(lh_g(scores)) - np.log(lh_m(scores))))
+        self._bayesian_estimator = lh_ratio
 
-        fun = lambda scores: 1 / (1 + lh_ratio(scores) * prior_g / prior_m)
-        self._bayesian_estimator = fun
-
-    def binding_probability(self, seq):
+    def binding_probability(self, seq, pm):
         """Returns the probability of binding to the given seq."""
         pssm_scores = self.score_seq(seq)
-        return self.bayesian_estimator(pssm_scores)
+        pb = 1.0 - pm
+        return 1 / (1 + self.bayesian_estimator(pssm_scores) * pb / pm)
 
     # All of the following methods should be overridden in the subclass.
     @abstractmethod

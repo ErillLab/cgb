@@ -76,13 +76,15 @@ class Operon:
 
         return self.chromid.subsequence(loc_start, loc_end)
 
-    def regulation_probability(self, motif):
+    def regulation_probability(self, binding_model, prior_regulation):
         """Returns the probability of regulation of the operon.
 
         Args:
-            motif (BindingModel): the model that is used to score the promoter.
+            model (BindingModel): the model that is used to score the promoter.
+            prior_regulation (float): the prior probability of regulation
         """
-        return motif.binding_probability(self.promoter_region())
+        return binding_model.binding_probability(
+            self.promoter_region(), prior_regulation)
 
     def __repr__(self):
         return str([g.locus_tag for g in self._genes])

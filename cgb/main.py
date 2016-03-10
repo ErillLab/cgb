@@ -65,9 +65,8 @@ def set_TF_binding_models(user_input, genomes, site_collections, weights):
         site_collections (list(SiteCollection)): list of collections
         weights (list(float)): weights used for combining evidence
     """
-    prior_reg = user_input.prior_regulation_probability
     for g in genomes:
-        g.build_PSSM_model(site_collections, weights, prior_reg)
+        g.build_PSSM_model(site_collections, weights)
         log_dir = directory(user_input.log_dir, 'derived_PSWM')
         g.output_TF_binding_model(os.path.join(log_dir, g.strain_name+'.jaspar'))
 
@@ -114,11 +113,13 @@ def compute_motif_weights(site_collections, weighting_scheme):
                     weighting_scheme)
     assert weighting_scheme in ['simple', 'phylogenetic']
     if weighting_scheme == 'simple':
-        return simple_motif_weighting(site_collections)
+        weights = simple_motif_weighting(site_collections)
     elif weighting_scheme == 'phylogenetic':
-        return phylogenetic_weighting(site_collections)
+        weights = phylogenetic_weighting(site_collections)
     else:
-        return uniform_weighting(site_collections)
+        weights = uniform_weighting(site_collections)
+    # Normalize weights
+    return [float(w)/sum(weights) for w in weights]
 
 
 def genome_scan_results_to_genes(genome_scan):
@@ -126,14 +127,43 @@ def genome_scan_results_to_genes(genome_scan):
     return [g for opr, _ in genome_scan for g in opr.genes]
 
 
+def infer_prior(genome, user_input):
+    """Infers the prior probability of binding.
+
+    This is done by predicting operons in the genome of the TF for which the
+    motif is provided and dividing the number of sites in the motif (
+    assuming that there is one site per operon) by the number of operons. For
+    instance, if 30 sites are available for LexA in E. coli, then the prior for
+    regulation is 30/~2300 operons.
+
+    Then it is assigned to genome using the same strategy defined for mixing
+    the TF-binding models. That is, simple combination (arithmetic mean of
+    priors) or weighted combination (with phylogenetic distances).
+    """
+    my_logger.info("Prior probability not provided, "
+                   "inferring from the provided motifs. /%s"
+                   % genome.strain_name)
+    site_collections = genome.TF_binding_model.site_collections
+    weights = compute_motif_weights(
+        site_collections, user_input.weighting_scheme)
+    priors = [float(collection.site_count)/genome.num_operons
+              for collection in site_collections]
+    return sum(p*w for p, w in zip(priors, weights))
+
+
 def infer_regulations(user_input, genomes):
     """Scans genomes for TF-binding sites and writes results to csv files."""
     log_dir = directory(user_input.log_dir, 'posterior_probs')
-    threshold = 0.5             # TODO(sefa): read this from input file
+    threshold = user_input.probability_threshold
+    my_logger.info("Regulation probability threshold: %.2f" % threshold)
     all_regulated_genes = []
     for g in genomes:
+        my_logger.info("Inferring regulations for /%s/." % g.strain_name)
+        prior = (user_input.prior_regulation_probability or
+                 infer_prior(g, user_input))
+        my_logger.info("Prior probability of regulation: %f" % prior)
         report_filename = os.path.join(log_dir, g.strain_name+'.csv')
-        genome_scan = g.infer_regulation(threshold, report_filename)
+        genome_scan = g.infer_regulation(prior, threshold, report_filename)
         all_regulated_genes.extend(genome_scan_results_to_genes(genome_scan))
     return all_regulated_genes
 
@@ -146,7 +176,9 @@ def search_sites(user_input, genomes):
     """
     log_dir = directory(user_input.log_dir, 'identified_sites')
     for g in genomes:
-        my_logger.debug("threshold: %.2f" % g.TF_binding_model.threshold())
+        my_logger.info("Scoring genome /%s/." % g.strain_name)
+        my_logger.info(
+            "Site score threshold: %.2f" % g.TF_binding_model.threshold())
         report_filename = os.path.join(log_dir, g.strain_name+'.csv')
         sites = g.identify_sites(filename=report_filename)
     return sites
@@ -190,18 +222,20 @@ def main():
     # Create binding evidence
     site_collections = create_site_collections(user_input, proteins)
     collection_weights = compute_motif_weights(
-        site_collections, user_input.motif_combining_method)
+        site_collections, user_input.weighting_scheme)
     # Set TF-binding model for each genome.
     set_TF_binding_models(user_input, genomes, site_collections,
                           collection_weights)
     # Score genomes
-    sites = search_sites(user_input, genomes)
-    all_regulated_genes = infer_regulations(user_input, genomes)
+    #search_sites(user_input, genomes)
+
+    # Infer regulons
+    #all_regulated_genes = infer_regulations(user_input, genomes)
 
     # Create orthologous groups
     #grps = create_orthologous_groups(user_input, all_regulated_genes, genomes)
     # Create phylogeny
-    #phylo = create_phylogeny(genomes, proteins, user_input)
+    phylo = create_phylogeny(genomes, proteins, user_input)
 
 
-    output_operons(user_input, genomes)
+    #output_operons(user_input, genomes)

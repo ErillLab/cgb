@@ -13,6 +13,7 @@ from misc import weighted_choice
 from my_logger import my_logger
 from bio_utils import reverse_complement
 
+
 Site = namedtuple('Site', 'chromid start end strand score gene')
 
 
@@ -65,6 +66,11 @@ class Genome:
     def operons(self):
         """Returns all operons of the genome."""
         return [opr for chromid in self.chromids for opr in chromid.operons]
+
+    @property
+    def num_operons(self):
+        """Returns the number of operons of the genome."""
+        return len(self.operons)
 
     def operons_to_csv(self, filename):
         """Writes all operons to the file in csv format."""
@@ -130,19 +136,18 @@ class Genome:
         # TODO(sefa): make sure setter called before getter.
         return self._TF_binding_model
 
-    def build_PSSM_model(self, collections, weights, prior_reg):
+    def build_PSSM_model(self, collections, weights):
         """Builds a PSSM_model and sets the _TF_binding_model attribute.
 
         Args:
             collections ([SiteCollection]): list of site collections
             weights ([float]): list of weights, one per site collection
-            prior_reg: prior probability of regulation of an operon
         Returns: None. Sets the _TF_binding_model attribute to the built model.
         """
         model = PSSMModel(collections, weights)
         random_seqs = self.random_seqs(length=model.length, count=100)
         bg_scores = [model.score_seq(random_seq) for random_seq in random_seqs]
-        model.build_bayesian_estimator(bg_scores, prior_reg)
+        model.build_bayesian_estimator(bg_scores)
         self._TF_binding_model = model
 
     def random_seqs(self, length, count):
@@ -203,7 +208,7 @@ class Genome:
                               self.strain_name)
         self._TF_instance = TF
 
-    def infer_regulation(self, threshold=0.5, filename=None):
+    def infer_regulation(self, prior, threshold=0.5, filename=None):
         """Scans upstream regions of all operons for binding sites.
 
         Args:
@@ -216,7 +221,7 @@ class Genome:
         # Find regulated operons
         regulons = []
         for opr in tqdm(self.operons):
-            p = opr.regulation_probability(self.TF_binding_model)
+            p = opr.regulation_probability(self.TF_binding_model, prior)
             if p >= threshold:
                 regulons.append((opr, p))
         regulons.sort(key=lambda x: x[1], reverse=True)

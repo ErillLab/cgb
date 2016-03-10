@@ -67,11 +67,29 @@ class UserInput:
         try:
             value = self._input['config']['prior_regulation_probability']
         except KeyError:
-            value = 0.05
+            value = None
         return value
 
     @property
-    def motif_combining_method(self):
+    def has_prior_probability_set(self):
+        """Returns true if the prior probability of regulation is provided."""
+        return 'prior_regulation_probability' in self._input['config']
+
+    @property
+    def probability_threshold(self):
+        """Returns the threshold for regulation probabilities.
+
+        Only the operons with a regulation probability above the threshold will
+        be reported.
+        """
+        try:
+            value = self._input['config']['probability_threshold']
+        except KeyError:
+            value = 0.5
+        return value
+
+    @property
+    def weighting_scheme(self):
         """Returns the option for motif combining.
 
         Options are
@@ -84,7 +102,7 @@ class UserInput:
         The default value is 'simple'.
         """
         try:
-            value = self._input['config']['motif_combining_method']
+            value = self._input['config']['weighting_scheme']
         except KeyError:
             value = 'simple'
         return value
