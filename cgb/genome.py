@@ -290,7 +290,11 @@ class Genome:
     def _output_identified_sites(self, sites, promoter_up, filename):
         """Reports the idenitied sites to a CSV file.
         Args:
-           TODO(sefa)
+            sites (list(Site)): List of Site tuples to be reported
+            promoter_up (float): the distance threshold for operator region. If
+            the distance to the gene is <threshold, the site is in operator
+            region. Otherwise, it is in intergenic region.
+            filename (string): the path to csv file.
         """
         with open(filename, 'w') as csvfile:
             csv_writer = csv.writer(csvfile)
