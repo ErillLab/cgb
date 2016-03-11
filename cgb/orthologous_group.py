@@ -2,6 +2,8 @@
 
 import csv
 
+from tqdm import tqdm
+
 from my_logger import my_logger
 
 
@@ -48,9 +50,7 @@ def construct_orthologous_groups(genes, genomes):
     genomes and adds them to the orthologous groups as well.
     """
     groups = []
-    for i, gene in enumerate(genes):
-        my_logger.debug("Constructing ortholgoous groups: %d/%d" %
-                        (i, len(genes)))
+    for gene in tqdm(genes):
         if any(gene in grp.genes for grp in groups):
             continue
         rbhs = [gene.reciprocal_blast_hit(other_genome)
