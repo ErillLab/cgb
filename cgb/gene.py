@@ -51,6 +51,12 @@ class Gene:
         return self.strand == 1
 
     @cached_property
+    def operon(self):
+        """Return the operon that the gene belongs to."""
+        opr, = [o for o in self.chromid.operons if self in o.genes]
+        return opr
+
+    @cached_property
     def upstream_gene(self):
         """Returns the gene upstream.
 

@@ -221,7 +221,7 @@ class Genome:
         # Find regulated operons
         regulons = []
         for opr in tqdm(self.operons):
-            p = opr.regulation_probability(self.TF_binding_model, prior)
+            p = opr.calculate_regulation_probability(prior)
             if p >= threshold:
                 regulons.append((opr, p))
         regulons.sort(key=lambda x: x[1], reverse=True)

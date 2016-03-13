@@ -64,7 +64,8 @@ def orthologous_groups_to_csv(groups, filename):
     with open(filename, 'w') as csvfile:
         csv_writer = csv.writer(csvfile)
         header_row = [field for genome in genomes
-                      for field in ['locus_tag (%s)' % genome.strain_name,
+                      for field in ['probability (%s)' % genome.strain_name,
+                                    'locus_tag (%s)' % genome.strain_name,
                                     'product (%s)' % genome.strain_name]]
         csv_writer.writerow(header_row)
         for group in groups:
@@ -72,7 +73,8 @@ def orthologous_groups_to_csv(groups, filename):
             for genome in genomes:
                 gene = group.member_from_genome(genome)
                 if gene:
-                    row.extend([gene.locus_tag, gene.product])
+                    row.extend([gene.operon.regulation_probability,
+                                gene.locus_tag, gene.product])
                 else:
-                    row.extend(['', ''])
+                    row.extend(['', '', ''])
             csv_writer.writerow(row)
