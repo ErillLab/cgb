@@ -48,7 +48,7 @@ def output_operons(user_input, genome):
 def identify_TF_instance_in_genomes(genomes, proteins):
     """Identifies TF instance for each genome based on given proteins."""
     for g in genomes:
-        my_logger.info("Idenifying TF instance for /%s/" % g.strain_name)
+        my_logger.info("Identifying TF instance for /%s/" % g.strain_name)
         g.identify_TF_instance(proteins)
 
 

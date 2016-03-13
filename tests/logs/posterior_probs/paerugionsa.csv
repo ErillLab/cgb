@@ -4,17 +4,17 @@ probability,operon_start,operon_end,operon_strand,genes,products
 1.000,2516020,2516308,-1,PA2288,PA2288 (hypothetical protein)
 1.000,3367902,3369014,1,"PA3007, PA3008","PA3007 (LexA repressor), PA3008 (cell division inhibitor SulA)"
 1.000,3366969,3367671,-1,PA3006,PA3006 (transcriptional regulator PsrA)
-1.000,81115,82174,1,PA0069,PA0069 (hypothetical protein)
-1.000,514774,514984,1,PA0456,PA0456 (cold-shock protein)
-1.000,513050,514427,-1,PA0455,PA0455 (ATP-dependent RNA helicase DbpA)
-0.994,4051096,4052604,-1,"PA3616, PA3617","PA3616 (recombination regulator RecX), PA3617 (recombinase A)"
-0.984,3819526,3819796,-1,PA3412,PA3412 (hypothetical protein)
-0.984,3820005,3820892,1,"PA3413, PA3414","PA3413 (hypothetical protein), PA3414 (hypothetical protein)"
-0.982,5347197,5349761,-1,"PA4761, PA4762","PA4761 (molecular chaperone DnaK), PA4762 (heat shock protein GrpE)"
-0.982,5349928,5351605,1,PA4763,PA4763 (DNA repair protein RecN)
-0.976,1007233,1007548,-1,PA0922,PA0922 (hypothetical protein)
-0.929,2023280,2023931,-1,PA1864,PA1864 (transcriptional regulator)
-0.929,2024064,2028312,1,"PA1865, PA1866, PA1866a","PA1865 (Fanconi-associated nuclease), PA1866 (hypothetical protein), PA1866a (hypothetical protein)"
-0.880,1474390,1478825,1,"PA1362, PA1363, PA1364, PA1365","PA1362 (hypothetical protein), PA1363 (ECF subfamily sigma-70 factor), PA1364 (transmembrane sensor), PA1365 (siderophore receptor)"
-0.880,1472546,1473980,-1,PA1361,PA1361 (multidrug resistance protein PmpM)
-0.812,2705772,2706087,1,PA2422,PA2422 (hypothetical protein)
+0.999,81115,82174,1,PA0069,PA0069 (hypothetical protein)
+0.999,514774,514984,1,PA0456,PA0456 (cold-shock protein)
+0.999,513050,514427,-1,PA0455,PA0455 (ATP-dependent RNA helicase DbpA)
+0.989,4051096,4052604,-1,"PA3616, PA3617","PA3616 (recombination regulator RecX), PA3617 (recombinase A)"
+0.974,3819526,3819796,-1,PA3412,PA3412 (hypothetical protein)
+0.974,3820005,3820892,1,"PA3413, PA3414","PA3413 (hypothetical protein), PA3414 (hypothetical protein)"
+0.969,5347197,5349761,-1,"PA4761, PA4762","PA4761 (molecular chaperone DnaK), PA4762 (heat shock protein GrpE)"
+0.969,5349928,5351605,1,PA4763,PA4763 (DNA repair protein RecN)
+0.960,1007233,1007548,-1,PA0922,PA0922 (hypothetical protein)
+0.886,2023280,2023931,-1,PA1864,PA1864 (transcriptional regulator)
+0.886,2024064,2028312,1,"PA1865, PA1866, PA1866a","PA1865 (Fanconi-associated nuclease), PA1866 (hypothetical protein), PA1866a (hypothetical protein)"
+0.818,1474390,1478825,1,"PA1362, PA1363, PA1364, PA1365","PA1362 (hypothetical protein), PA1363 (ECF subfamily sigma-70 factor), PA1364 (transmembrane sensor), PA1365 (siderophore receptor)"
+0.818,1472546,1473980,-1,PA1361,PA1361 (multidrug resistance protein PmpM)
+0.728,2705772,2706087,1,PA2422,PA2422 (hypothetical protein)

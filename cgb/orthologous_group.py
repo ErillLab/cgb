@@ -73,7 +73,7 @@ def orthologous_groups_to_csv(groups, filename):
             for genome in genomes:
                 gene = group.member_from_genome(genome)
                 if gene:
-                    row.extend([gene.operon.regulation_probability,
+                    row.extend(['%.3f' % gene.operon.regulation_probability,
                                 gene.locus_tag, gene.product])
                 else:
                     row.extend(['', '', ''])
