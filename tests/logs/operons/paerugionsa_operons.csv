@@ -23,9 +23,9 @@ NC_002516.2,71729,73923,1,"PA0057, PA0058, PA0059","PA0057 (hypothetical protein
 NC_002516.2,74278,75189,-1,"PA0061, PA0062","PA0061 (hypothetical protein), PA0062 (hypothetical protein)"
 NC_002516.2,75280,76408,1,PA0063,PA0063 (hypothetical protein)
 NC_002516.2,76415,78632,-1,"PA0064, PA0065, PA0066","PA0064 (hypothetical protein), PA0065 (5'-nucleotidase), PA0066 (hypothetical protein)"
-NC_002516.2,78709,82174,1,"PA0067, PA0068, PA0069","PA0067 (oligopeptidase A), PA0068 (hypothetical protein), PA0069 (hypothetical protein)"
+NC_002516.2,78709,81027,1,"PA0067, PA0068","PA0067 (oligopeptidase A), PA0068 (hypothetical protein)"
 NC_002516.2,95047,99756,-1,"PA0078, PA0079, PA0080, PA0081","PA0078 (hypothetical protein), PA0079 (hypothetical protein), PA0080 (hypothetical protein), PA0081 (Fha domain-containing protein)"
-NC_002516.2,100123,103838,1,"PA0082, PA0083, PA0084, PA0085","PA0082 (hypothetical protein), PA0083 (hypothetical protein), PA0084 (hypothetical protein), PA0085 (protein secretion apparatus assembly protein)"
+NC_002516.2,100123,103274,1,"PA0082, PA0083, PA0084","PA0082 (hypothetical protein), PA0083 (hypothetical protein), PA0084 (hypothetical protein)"
 NC_002516.2,113021,115045,-1,"PA0092, PA0093, PA0094","PA0092 (hypothetical protein), PA0093 (hypothetical protein), PA0094 (hypothetical protein)"
 NC_002516.2,115298,123495,1,"PA0095, PA0096, PA0097, PA0098, PA0099, PA0100, PA0101","PA0095 (hypothetical protein), PA0096 (hypothetical protein), PA0097 (hypothetical protein), PA0098 (3-oxoacyl-ACP synthase), PA0099 (hypothetical protein), PA0100 (hypothetical protein), PA0101 (hypothetical protein)"
 NC_002516.2,126367,127006,-1,PA0103a,PA0103a (hypothetical protein)
@@ -648,7 +648,7 @@ NC_002516.2,2311332,2312766,-1,PA2100,PA2100 (transcriptional regulator)
 NC_002516.2,2312898,2314249,1,"PA2101, PA2102","PA2101 (hypothetical protein), PA2102 (hypothetical protein)"
 NC_002516.2,2318225,2318624,-1,PA2107,PA2107 (hypothetical protein)
 NC_002516.2,2318794,2320567,1,PA2108,PA2108 (thiamine pyrophosphate protein)
-NC_002516.2,2320585,2326079,-1,"PA2109, PA2110, PA2111, PA2112, PA2113, PA2114","PA2109 (hypothetical protein), PA2110 (hypothetical protein), PA2111 (hypothetical protein), PA2112 (hypothetical protein), PA2113 (pyroglutatmate porin OpdO), PA2114 (major facilitator superfamily transporter)"
+NC_002516.2,2323553,2326079,-1,"PA2113, PA2114","PA2113 (pyroglutatmate porin OpdO), PA2114 (major facilitator superfamily transporter)"
 NC_002516.2,2326333,2327287,1,PA2115,PA2115 (transcriptional regulator)
 NC_002516.2,2328175,2329156,-1,PA2117,PA2117 (hypothetical protein)
 NC_002516.2,2329347,2330424,1,PA2118,PA2118 (O6-methylguanine-DNA methyltransferase)
@@ -693,7 +693,7 @@ NC_002516.2,2500484,2501598,1,"PA2270, PA2271","PA2270 (transcriptional regulato
 NC_002516.2,2503424,2503895,-1,PA2273,PA2273 (redox-sensitive transcriptional activator SoxR)
 NC_002516.2,2503972,2504350,1,PA2274,PA2274 (hypothetical protein)
 NC_002516.2,2504374,2505436,-1,PA2275,PA2275 (alcohol dehydrogenase)
-NC_002516.2,2505644,2509467,1,"PA2276, PA2277, PA2278, PA2279, PA2280","PA2276 (transcriptional regulator), PA2277 (ArsR family transcriptional regulator), PA2278 (arsenite-antimonite efflux pump ArsB), PA2279 (low molecular weight phosphatase), PA2280 (hypothetical protein)"
+NC_002516.2,2505644,2506535,1,PA2276,PA2276 (transcriptional regulator)
 NC_002516.2,2509479,2510334,-1,PA2281,PA2281 (transcriptional regulator)
 NC_002516.2,2510621,2516008,1,"PA2282, PA2283, PA2284, PA2285, PA2286, PA2287","PA2282 (hypothetical protein), PA2283 (hypothetical protein), PA2284 (hypothetical protein), PA2285 (hypothetical protein), PA2286 (hypothetical protein), PA2287 (hypothetical protein)"
 NC_002516.2,2545768,2549458,-1,"PA2307, PA2308, PA2309, PA2310","PA2307 (ABC transporter permease), PA2308 (ABC transporter ATP-binding protein), PA2309 (hypothetical protein), PA2310 (hypothetical protein)"
@@ -886,7 +886,7 @@ NC_002516.2,3207289,3209278,-1,"PA2854, PA2855, PA2856","PA2854 (hypothetical pr
 NC_002516.2,3209288,3213031,1,"PA2857, PA2858, PA2859","PA2857 (ABC transporter ATP-binding protein), PA2858 (hypothetical protein), PA2859 (transcription elongation factor GreB)"
 NC_002516.2,3213043,3213484,-1,PA2860,PA2860 (hypothetical protein)
 NC_002516.2,3213537,3214086,1,PA2861,PA2861 (2'-5' RNA ligase)
-NC_002516.2,3216455,3218419,-1,"PA2864, PA2865","PA2864 (hypothetical protein), PA2865 (glycosylase)"
+NC_002516.2,3216988,3218419,-1,PA2865,PA2865 (glycosylase)
 NC_002516.2,3218665,3219469,1,PA2866,PA2866 (secretion protein MttC)
 NC_002516.2,3229483,3231172,-1,"PA2876, PA2877","PA2876 (orotidine 5'-phosphate decarboxylase), PA2877 (transcriptional regulator)"
 NC_002516.2,3231217,3231859,1,PA2878,PA2878 (hypothetical protein)
@@ -919,7 +919,7 @@ NC_002516.2,3306311,3308262,1,"PA2946, PA2947, PA2948","PA2946 (hypothetical pro
 NC_002516.2,3310791,3312470,-1,"PA2951, PA2952","PA2951 (electron transfer flavoprotein subunit alpha), PA2952 (electron transfer flavoprotein subunit beta)"
 NC_002516.2,3312790,3314446,1,PA2953,PA2953 (electron transfer flavoprotein-ubiquinone oxidoreductase)
 NC_002516.2,3316799,3317438,-1,PA2957,PA2957 (transcriptional regulator)
-NC_002516.2,3317523,3318859,1,"PA2958, PA2958.1","PA2958 (hypothetical protein), PA2958.1 (RgsA)"
+NC_002516.2,3317523,3318657,1,PA2958,PA2958 (hypothetical protein)
 NC_002516.2,3327188,3328935,-1,"PA2969, PA2970, PA2971","PA2969 (phosphate acyltransferase), PA2970 (50S ribosomal protein L32), PA2971 (hypothetical protein)"
 NC_002516.2,3329044,3329623,1,PA2972,PA2972 (hypothetical protein)
 NC_002516.2,3329689,3332304,-1,"PA2973, PA2974, PA2975","PA2973 (peptidase), PA2974 (hydrolase), PA2975 (ribosomal large subunit pseudouridine synthase C)"
@@ -974,7 +974,7 @@ NC_002516.2,3520547,3522560,-1,PA3138,PA3138 (excinuclease ABC subunit B)
 NC_002516.2,3522747,3524087,1,"PA3139, PA3139.1","PA3139 (aspartate aminotransferase), PA3139.1 (tRNA-Asn)"
 NC_002516.2,3559434,3560511,-1,PA3169,PA3169 (methylthioribose-1-phosphate isomerase)
 NC_002516.2,3560620,3561955,1,PA3170,PA3170 (N-ethylammeline chlorohydrolase)
-NC_002516.2,3568635,3570266,-1,"PA3178, PA3179","PA3178 (hypothetical protein), PA3179 (ribosomal large subunit pseudouridine synthase B)"
+NC_002516.2,3569105,3570266,-1,PA3179,PA3179 (ribosomal large subunit pseudouridine synthase B)
 NC_002516.2,3570413,3570851,1,PA3180,PA3180 (hypothetical protein)
 NC_002516.2,3570940,3573793,-1,"PA3181, PA3182, PA3183","PA3181 (keto-hydroxyglutarate-aldolase/keto-deoxy- phosphogluconate aldolase), PA3182 (6-phosphogluconolactonase), PA3183 (glucose-6-phosphate 1-dehydrogenase)"
 NC_002516.2,3573979,3574837,1,PA3184,PA3184 (HTH-type transcriptional regulator)
@@ -997,7 +997,7 @@ NC_002516.2,3630764,3632684,1,"PA3243, PA3244, PA3245","PA3243 (septum formation
 NC_002516.2,3634923,3636257,-1,"PA3248, PA3249","PA3248 (hypothetical protein), PA3249 (transcriptional regulator)"
 NC_002516.2,3636620,3641811,1,"PA3250, PA3251, PA3252, PA3253, PA3254, PA3255","PA3250 (hypothetical protein), PA3251 (hypothetical protein), PA3252 (ABC transporter permease), PA3253 (ABC transporter permease), PA3254 (ABC transporter ATP-binding protein), PA3255 (hypothetical protein)"
 NC_002516.2,3641871,3642834,-1,PA3256,PA3256 (oxidoreductase)
-NC_002516.2,3642963,3646904,1,"PA3257, PA3258","PA3257 (tail-specific protease), PA3258 (hypothetical protein)"
+NC_002516.2,3642963,3645060,1,PA3257,PA3257 (tail-specific protease)
 NC_002516.2,3647754,3648066,-1,PA3260,PA3260 (transcriptional regulator)
 NC_002516.2,3648169,3648916,1,PA3261,PA3261 (hypothetical protein)
 NC_002516.2,3650721,3650890,-1,"PA3262.1, PA3262.2","PA3262.1 (tRNA-Asp), PA3262.2 (tRNA-Val)"
@@ -1481,7 +1481,7 @@ NC_002516.2,5468408,5469023,1,PA4871,PA4871 (hypothetical protein)
 NC_002516.2,5469114,5469978,-1,PA4872,PA4872 (hypothetical protein)
 NC_002516.2,5470185,5471451,1,PA4873,PA4873 (heat-shock protein)
 NC_002516.2,5471625,5472042,-1,PA4874,PA4874 (hypothetical protein)
-NC_002516.2,5472196,5473168,1,"PA4875, PA4876","PA4875 (), PA4876 (OsmE family transcriptional regulator)"
+NC_002516.2,5472196,5472735,1,PA4875,PA4875 ()
 NC_002516.2,5473211,5473619,-1,PA4877,PA4877 (hypothetical protein)
 NC_002516.2,5473765,5474578,1,PA4878,PA4878 (transcriptional regulator)
 NC_002516.2,5474579,5476649,-1,PA4879,PA4879 (hypothetical protein)
@@ -1588,7 +1588,7 @@ NC_002516.2,5891108,5891528,-1,PA5233,PA5233 (flagellar basal body protein FliL)
 NC_002516.2,5891682,5892660,1,PA5234,PA5234 (oxidoreductase)
 NC_002516.2,5900368,5900695,-1,PA5240,PA5240 (thioredoxin)
 NC_002516.2,5900878,5902399,1,PA5241,PA5241 (exopolyphosphatase)
-NC_002516.2,5902385,5905627,-1,"PA5242, PA5243","PA5242 (polyphosphate kinase), PA5243 (delta-aminolevulinic acid dehydratase)"
+NC_002516.2,5904613,5905627,-1,PA5243,PA5243 (delta-aminolevulinic acid dehydratase)
 NC_002516.2,5905870,5906461,1,PA5244,PA5244 (hypothetical protein)
 NC_002516.2,5911261,5914521,-1,"PA5250, PA5251, PA5252","PA5250 (hypothetical protein), PA5251 (hypothetical protein), PA5252 (ABC transporter ATP-binding protein)"
 NC_002516.2,5914593,5915046,1,PA5252a,PA5252a (hypothetical protein)
@@ -1623,9 +1623,9 @@ NC_002516.2,6000316,6000781,1,PA5329,PA5329 (hypothetical protein)
 NC_002516.2,6000760,6002040,-1,"PA5330, PA5331","PA5330 (hypothetical protein), PA5331 (orotate phosphoribosyltransferase)"
 NC_002516.2,6002120,6002900,1,PA5332,PA5332 (catabolite repression control protein)
 NC_002516.2,6002958,6004096,-1,"PA5333, PA5334","PA5333 (hypothetical protein), PA5334 (ribonuclease PH)"
-NC_002516.2,6004276,6009564,1,"PA5335, PA5336, PA5337, PA5338, PA5339, PA5340","PA5335 (hypothetical protein), PA5336 (guanylate kinase), PA5337 (DNA-directed RNA polymerase subunit omega), PA5338 (guanosine-3',5'-bis(diphosphate) 3'-pyrophosphohydrolase), PA5339 (hypothetical protein), PA5340 (hypothetical protein)"
+NC_002516.2,6004276,6005140,1,PA5335,PA5335 (hypothetical protein)
 NC_002516.2,6009570,6011909,-1,"PA5341, PA5342, PA5343","PA5341 (hypothetical protein), PA5342 (transcriptional regulator), PA5343 (hypothetical protein)"
-NC_002516.2,6012046,6016550,1,"PA5344, PA5345, PA5346","PA5344 (transcriptional regulator), PA5345 (ATP-dependent DNA helicase RecG), PA5346 (hypothetical protein)"
+NC_002516.2,6012046,6015051,1,"PA5344, PA5345","PA5344 (transcriptional regulator), PA5345 (ATP-dependent DNA helicase RecG)"
 NC_002516.2,6019481,6023702,-1,"PA5352, PA5353, PA5354, PA5355","PA5352 (hypothetical protein), PA5353 (glycolate oxidase iron-sulfur subunit), PA5354 (glycolate oxidase FAD binding subunit), PA5355 (glycolate oxidase subunit GlcD)"
 NC_002516.2,6023906,6026195,1,"PA5356, PA5357, PA5358","PA5356 (DNA-binding transcriptional regulator GlcC), PA5357 (hypothetical protein), PA5358 (4-hydroxybenzoate octaprenyltransferase)"
 NC_002516.2,6026218,6026674,-1,PA5359,PA5359 (hypothetical protein)
@@ -1663,7 +1663,7 @@ NC_002516.2,6145398,6151151,1,"PA5455, PA5456, PA5457, PA5458, PA5459","PA5455 (
 NC_002516.2,6154783,6155203,-1,PA5465,PA5465 (hypothetical protein)
 NC_002516.2,6155270,6156574,1,"PA5466, PA5467","PA5466 (hypothetical protein), PA5467 (hypothetical protein)"
 NC_002516.2,6161066,6161867,-1,PA5472,PA5472 (hypothetical protein)
-NC_002516.2,6162220,6165411,1,"PA5473, PA5474","PA5473 (hypothetical protein), PA5474 (metalloprotease)"
+NC_002516.2,6162220,6163969,1,PA5473,PA5473 (hypothetical protein)
 NC_002516.2,6166119,6167409,-1,PA5476,PA5476 (citrate transporter)
 NC_002516.2,6167782,6168823,1,PA5477,PA5477 (hypothetical protein)
 NC_002516.2,6172222,6172873,-1,"PA5481, PA5482","PA5481 (hypothetical protein), PA5482 (hypothetical protein)"
@@ -1703,8 +1703,9 @@ NC_002516.2,60655,61726,1,"PA0045, PA0046","PA0045 (hypothetical protein), PA004
 NC_002516.2,62402,62786,-1,PA0048,PA0048 (transcriptional regulator)
 NC_002516.2,66302,68135,1,PA0051,PA0051 (phenazine-modifying protein)
 NC_002516.2,74033,74267,1,PA0060,PA0060 (hypothetical protein)
-NC_002516.2,82403,94826,-1,"PA0070, PA0071, PA0072, PA0073, PA0074, PA0075, PA0076, PA0077","PA0070 (hypothetical protein), PA0071 (hypothetical protein), PA0072 (hypothetical protein), PA0073 (ABC transporter ATP-binding protein), PA0074 (serine/threonine protein kinase PpkA), PA0075 (serine/threonine phosphatase), PA0076 (hypothetical protein), PA0077 (type VI secretion protein IcmF)"
-NC_002516.2,104005,112907,1,"PA0086, PA0087, PA0088, PA0089, PA0090, PA0091","PA0086 (hypothetical protein), PA0087 (hypothetical protein), PA0088 (hypothetical protein), PA0089 (hypothetical protein), PA0090 (secretion protein ClpV1), PA0091 (type VI secretion system protein VgrG)"
+NC_002516.2,81115,82174,1,PA0069,PA0069 (hypothetical protein)
+NC_002516.2,83379,94826,-1,"PA0071, PA0072, PA0073, PA0074, PA0075, PA0076, PA0077","PA0071 (hypothetical protein), PA0072 (hypothetical protein), PA0073 (ABC transporter ATP-binding protein), PA0074 (serine/threonine protein kinase PpkA), PA0075 (serine/threonine phosphatase), PA0076 (hypothetical protein), PA0077 (type VI secretion protein IcmF)"
+NC_002516.2,103349,103838,1,PA0085,PA0085 (protein secretion apparatus assembly protein)
 NC_002516.2,123870,124599,1,PA0102,PA0102 (carbonic anhydrase)
 NC_002516.2,137247,138588,1,"PA0117, PA0118","PA0117 (short-chain dehydrogenase), PA0118 (hypothetical protein)"
 NC_002516.2,143566,144072,-1,"PA0124, PA0125","PA0124 (hypothetical protein), PA0125 (hypothetical protein)"
@@ -1777,7 +1778,7 @@ NC_002516.2,722095,723876,1,"PA0668.1, PA0668.2, PA0668.3","PA0668.1 (16S riboso
 NC_002516.2,747469,749774,1,"PA0688, PA0689","PA0688 (alkaline phosphatase L), PA0689 (hypothetical protein)"
 NC_002516.2,779462,780973,-1,"PA0706, PA0707","PA0706 (chloramphenicol acetyltransferase), PA0707 (transcriptional regulator ToxR)"
 NC_002516.2,784697,785174,1,PA0714,PA0714 (hypothetical protein)
-NC_002516.2,799278,801139,-1,"PA0731, PA0732","PA0731 (hypothetical protein), PA0732 (hypothetical protein)"
+NC_002516.2,800095,801139,-1,PA0732,PA0732 (hypothetical protein)
 NC_002516.2,805227,805473,1,PA0738,PA0738 (hypothetical protein)
 NC_002516.2,809573,811171,-1,"PA0742, PA0743","PA0742 (hypothetical protein), PA0743 (NAD-dependent L-serine dehydrogenase)"
 NC_002516.2,818002,818698,1,PA0750,PA0750 (uracil-DNA glycosylase)
@@ -1950,6 +1951,7 @@ NC_002516.2,2287522,2288929,-1,PA2079,PA2079 (amino acid permease)
 NC_002516.2,2291790,2304215,1,"PA2083, PA2084, PA2085, PA2086, PA2087, PA2088, PA2089, PA2090, PA2091, PA2092","PA2083 (ring-hydroxylating dioxygenase subunit), PA2084 (asparagine synthetase), PA2085 (ring-hydroxylating dioxygenase small subunit), PA2086 (epoxide hydrolase), PA2087 (hypothetical protein), PA2088 (hypothetical protein), PA2089 (hypothetical protein), PA2090 (hypothetical protein), PA2091 (hypothetical protein), PA2092 (major facilitator superfamily transporter)"
 NC_002516.2,2305781,2306627,-1,PA2095,PA2095 (hypothetical protein)
 NC_002516.2,2314511,2318134,1,"PA2103, PA2104, PA2105, PA2106","PA2103 (molybdopterin biosynthesis protein MoeB), PA2104 (cysteine synthase), PA2105 (acetyltransferase), PA2106 (hypothetical protein)"
+NC_002516.2,2320585,2323521,-1,"PA2109, PA2110, PA2111, PA2112","PA2109 (hypothetical protein), PA2110 (hypothetical protein), PA2111 (hypothetical protein), PA2112 (hypothetical protein)"
 NC_002516.2,2327393,2328191,1,PA2116,PA2116 (hypothetical protein)
 NC_002516.2,2332391,2332820,-1,PA2120,PA2120 (hypothetical protein)
 NC_002516.2,2336208,2339316,1,"PA2124, PA2125","PA2124 (dehydrogenase), PA2125 (aldehyde dehydrogenase)"
@@ -1971,6 +1973,7 @@ NC_002516.2,2453666,2469099,1,"PA2231, PA2232, PA2233, PA2234, PA2235, PA2236, P
 NC_002516.2,2480843,2481830,1,PA2253,PA2253 (L-asparaginase I)
 NC_002516.2,2493217,2497043,1,"PA2264, PA2265, PA2266","PA2264 (hypothetical protein), PA2265 (gluconate dehydrogenase), PA2266 (cytochrome C)"
 NC_002516.2,2501719,2503417,1,PA2272,PA2272 (penicillin-binding protein 3A)
+NC_002516.2,2506613,2508261,1,"PA2277, PA2278","PA2277 (ArsR family transcriptional regulator), PA2278 (arsenite-antimonite efflux pump ArsB)"
 NC_002516.2,2532058,2545659,-1,"PA2301, PA2302, PA2303, PA2304, PA2305, PA2306","PA2301 (hypothetical protein), PA2302 (protein AmbE), PA2303 (protein AmbD), PA2304 (protein AmbC), PA2305 (protein AmbB), PA2306 (protein AmbA)"
 NC_002516.2,2550618,2551122,-1,PA2312a,PA2312a (hypothetical protein)
 NC_002516.2,2554961,2556658,1,"PA2317, PA2318","PA2317 (oxidoreductase), PA2318 (hypothetical protein)"
@@ -1986,7 +1989,7 @@ NC_002516.2,2638927,2640259,-1,PA2386,PA2386 (L-ornithine N5-oxygenase)
 NC_002516.2,2642130,2646727,1,"PA2389, PA2390, PA2391","PA2389 (pyoverdine biosynthesis protein PvdR), PA2390 (pyoverdine biosynthesis protein PvdT), PA2391 (hypothetical protein)"
 NC_002516.2,2655186,2657634,1,PA2398,PA2398 (ferripyoverdine receptor)
 NC_002516.2,2657797,2671629,-1,"PA2399, PA2400","PA2399 (pyoverdine synthetase D), PA2400 (pyoverdine biosynthesis protein PvdJ)"
-NC_002516.2,2693780,2696251,-1,"PA2411, PA2412, PA2413","PA2411 (thioesterase), PA2412 (hypothetical protein), PA2413 (diaminobutyrate--2-oxoglutarate aminotransferase)"
+NC_002516.2,2694841,2696251,-1,PA2413,PA2413 (diaminobutyrate--2-oxoglutarate aminotransferase)
 NC_002516.2,2705772,2706087,1,PA2422,PA2422 (hypothetical protein)
 NC_002516.2,2724766,2725771,-1,PA2430,PA2430 (hypothetical protein)
 NC_002516.2,2729570,2729840,1,PA2433,PA2433 (hypothetical protein)
@@ -2012,7 +2015,7 @@ NC_002516.2,2923221,2926432,-1,"PA2583.1, PA2584, PA2585, PA2586","PA2583.1 (tRN
 NC_002516.2,2929582,2933462,-1,"PA2589, PA2590","PA2589 (hypothetical protein), PA2590 (hypothetical protein)"
 NC_002516.2,2935850,2936423,1,PA2593,PA2593 (quorum threshold expression protein QteE)
 NC_002516.2,2939645,2943915,-1,"PA2597, PA2598, PA2599, PA2600","PA2597 (hypothetical protein), PA2598 (hypothetical protein), PA2599 (hypothetical protein), PA2600 (hypothetical protein)"
-NC_002516.2,2948581,2952012,1,"PA2605, PA2606, PA2607, PA2608, PA2609, PA2610","PA2605 (sulfurtransferase TusD), PA2606 (sulfur relay protein TusC), PA2607 (hypothetical protein), PA2608 (hypothetical protein), PA2609 (hypothetical protein), PA2610 (hypothetical protein)"
+NC_002516.2,2948581,2950950,1,"PA2605, PA2606, PA2607, PA2608, PA2609","PA2605 (sulfurtransferase TusD), PA2606 (sulfur relay protein TusC), PA2607 (hypothetical protein), PA2608 (hypothetical protein), PA2609 (hypothetical protein)"
 NC_002516.2,2952016,2954696,-1,"PA2611, PA2612","PA2611 (siroheme synthase), PA2612 (serine--tRNA ligase)"
 NC_002516.2,2962002,2962221,1,PA2619,PA2619 (translation initiation factor IF-1)
 NC_002516.2,2977755,2979351,1,PA2634,PA2634 (isocitrate lyase)
@@ -2051,6 +2054,7 @@ NC_002516.2,3187545,3193519,1,"PA2835, PA2836, PA2837, PA2838, PA2839","PA2835 (
 NC_002516.2,3203997,3204426,1,PA2850,PA2850 (organic hydroperoxide resistance protein)
 NC_002516.2,3206914,3207166,1,PA2853,PA2853 (outer membrane lipoprotein OprI)
 NC_002516.2,3214281,3215217,1,PA2862,PA2862 (lactonizing lipase)
+NC_002516.2,3216455,3216890,-1,PA2864,PA2864 (hypothetical protein)
 NC_002516.2,3219607,3221080,1,PA2867,PA2867 (chemotaxis transducer)
 NC_002516.2,3223735,3229254,-1,"PA2871, PA2872, PA2873, PA2874, PA2875","PA2871 (hypothetical protein), PA2872 (hypothetical protein), PA2873 (protein-glutamine gamma-glutamyltransferase), PA2874 (hypothetical protein), PA2875 (hypothetical protein)"
 NC_002516.2,3236193,3236958,1,PA2884,PA2884 (hypothetical protein)
@@ -2064,6 +2068,7 @@ NC_002516.2,3299491,3300586,1,PA2943,PA2943 (phospho-2-dehydro-3-deoxyheptonate 
 NC_002516.2,3308390,3309338,1,PA2949,PA2949 (lipase)
 NC_002516.2,3309410,3310607,-1,PA2950,PA2950 (reductase)
 NC_002516.2,3314494,3316650,-1,"PA2954, PA2955, PA2956","PA2954 (hypothetical protein), PA2955 (hypothetical protein), PA2956 (hypothetical protein)"
+NC_002516.2,3318662,3318859,1,PA2958.1,PA2958.1 (RgsA)
 NC_002516.2,3325378,3327083,-1,"PA2967, PA2968","PA2967 (3-oxoacyl-[acyl-carrier-protein] reductase FabG), PA2968 (malonyl CoA-ACP transacylase)"
 NC_002516.2,3348072,3348795,1,PA2990,PA2990 (phosphodiesterase)
 NC_002516.2,3357757,3359167,-1,PA3000,PA3000 (aromatic amino acid transporter AroP)
@@ -2085,6 +2090,7 @@ NC_002516.2,3498373,3499384,-1,PA3116,PA3116 (aspartate-semialdehyde dehydrogena
 NC_002516.2,3514722,3515213,-1,"PA3133.1, PA3133.2, PA3133.3, PA3133.4","PA3133.1 (tRNA-Glu), PA3133.2 (tRNA-Ala), PA3133.3 (tRNA-Glu), PA3133.4 (tRNA-Ala)"
 NC_002516.2,3550056,3559198,-1,"PA3163, PA3164, PA3165, PA3166, PA3167, PA3168","PA3163 (cytidylate kinase), PA3164 (), PA3165 (histidinol-phosphate aminotransferase), PA3166 (bifunctional chorismate mutase/prephenate dehydratase), PA3167 (phosphoserine aminotransferase), PA3168 (DNA gyrase subunit A)"
 NC_002516.2,3562105,3564286,1,"PA3171, PA3172, PA3173","PA3171 (ubiquinone biosynthesis O-methyltransferase), PA3172 (phosphoglycolate phosphatase), PA3173 (short-chain dehydrogenase)"
+NC_002516.2,3568635,3569013,-1,PA3178,PA3178 (hypothetical protein)
 NC_002516.2,3582170,3585374,-1,"PA3191, PA3192, PA3193","PA3191 (two-component sensor), PA3192 (two-component response regulator GltR), PA3193 (glucokinase)"
 NC_002516.2,3590489,3591242,-1,PA3198,PA3198 (hypothetical protein)
 NC_002516.2,3594207,3595258,1,"PA3203, PA3204","PA3203 (hypothetical protein), PA3204 (two-component response regulator)"
@@ -2094,6 +2100,7 @@ NC_002516.2,3617043,3617310,1,PA3229,PA3229 (hypothetical protein)
 NC_002516.2,3618992,3623468,-1,"PA3232, PA3233, PA3234, PA3235","PA3232 (DNA polymerase III subunit epsilon), PA3233 (hypothetical protein), PA3234 (acetate permease), PA3235 (hypothetical protein)"
 NC_002516.2,3625200,3627369,1,"PA3238, PA3239","PA3238 (hypothetical protein), PA3239 (hypothetical protein)"
 NC_002516.2,3632787,3633423,1,PA3246,PA3246 (pseudouridine synthase)
+NC_002516.2,3645098,3646904,1,PA3258,PA3258 (hypothetical protein)
 NC_002516.2,3646917,3647397,-1,PA3259,PA3259 (hypothetical protein)
 NC_002516.2,3649704,3650466,-1,PA3262,PA3262 (FkbP-type peptidyl-prolyl cis-trans isomerase)
 NC_002516.2,3653137,3653452,1,PA3265,PA3265 (transporter)
@@ -2276,7 +2283,7 @@ NC_002516.2,5282731,5283004,1,PA4703,PA4703 (hypothetical protein)
 NC_002516.2,5291613,5292554,1,"PA4711, PA4712","PA4711 (hypothetical protein), PA4712 (hypothetical protein)"
 NC_002516.2,5311463,5315340,1,"PA4729, PA4730, PA4731, PA4732","PA4729 (3-methyl-2-oxobutanoate hydroxymethyltransferase), PA4730 (pantoate--beta-alanine ligase), PA4731 (aspartate alpha-decarboxylase), PA4732 (glucose-6-phosphate isomerase)"
 NC_002516.2,5332086,5337701,-1,"PA4746.1, PA4746.2, PA4747, PA4748, PA4749, PA4750, PA4751","PA4746.1 (tRNA-Met), PA4746.2 (tRNA-Leu), PA4747 (preprotein translocase subunit SecG), PA4748 (triosephosphate isomerase), PA4749 (phosphoglucosamine mutase), PA4750 (dihydropteroate synthase), PA4751 (cell division protein FtsH)"
-NC_002516.2,5338972,5347082,-1,"PA4754, PA4755, PA4756, PA4757, PA4758, PA4758.1, PA4759, PA4760","PA4754 (hypothetical protein), PA4755 (transcription elongation factor GreA), PA4756 (carbamoyl phosphate synthase large subunit), PA4757 (leucine export protein LeuE), PA4758 (carbamoyl phosphate synthase small subunit), PA4758.1 (P32), PA4759 (dihydrodipicolinate reductase), PA4760 (molecular chaperone DnaJ)"
+NC_002516.2,5344949,5347082,-1,"PA4758.1, PA4759, PA4760","PA4758.1 (P32), PA4759 (dihydrodipicolinate reductase), PA4760 (molecular chaperone DnaJ)"
 NC_002516.2,5357229,5361258,1,"PA4771, PA4772","PA4771 (L-lactate dehydrogenase), PA4772 (ferredoxin)"
 NC_002516.2,5369186,5370368,-1,PA4781,PA4781 (cyclic di-GMP phosphodiesterase)
 NC_002516.2,5384697,5386073,-1,"PA4799, PA4800","PA4799 (hypothetical protein), PA4800 (hypothetical protein)"
@@ -2286,11 +2293,12 @@ NC_002516.2,5405558,5406008,1,PA4815,PA4815 (hypothetical protein)
 NC_002516.2,5418350,5418569,-1,PA4826,PA4826 (hypothetical protein)
 NC_002516.2,5433540,5433912,-1,PA4840,PA4840 (translation initiation factor Sui1)
 NC_002516.2,5439917,5441693,1,PA4845,PA4845 (thiol:disulfide interchange protein)
+NC_002516.2,5472823,5473168,1,PA4876,PA4876 (OsmE family transcriptional regulator)
 NC_002516.2,5477753,5478095,1,PA4881,PA4881 (hypothetical protein)
 NC_002516.2,5482451,5483768,-1,PA4887,PA4887 (major facilitator superfamily transporter)
 NC_002516.2,5487214,5489613,1,"PA4891, PA4892, PA4893, PA4894","PA4891 (urease accessory protein UreE), PA4892 (urease accessory protein UreF), PA4893 (urease accessory protein UreG), PA4894 (hypothetical protein)"
 NC_002516.2,5494459,5495713,-1,PA4898,PA4898 (vanillate porin OpdK)
-NC_002516.2,5506965,5511753,-1,"PA4908, PA4909, PA4910, PA4911, PA4912","PA4908 (ornithine cyclodeaminase), PA4909 (ABC transporter ATP-binding protein), PA4910 (branched-chain amino acid ABC transporter ATP-binding protein), PA4911 (branched-chain amino acid ABC transporter permease), PA4912 (branched-chain amino acid ABC transporter)"
+NC_002516.2,5507968,5511753,-1,"PA4909, PA4910, PA4911, PA4912","PA4909 (ABC transporter ATP-binding protein), PA4910 (branched-chain amino acid ABC transporter ATP-binding protein), PA4911 (branched-chain amino acid ABC transporter permease), PA4912 (branched-chain amino acid ABC transporter)"
 NC_002516.2,5520671,5521595,1,PA4921,PA4921 (hypothetical protein)
 NC_002516.2,5524969,5528397,-1,"PA4926, PA4927","PA4926 (hypothetical protein), PA4927 (hypothetical protein)"
 NC_002516.2,5535684,5537738,-1,"PA4932, PA4933, PA4934, PA4935","PA4932 (50S ribosomal protein L9), PA4933 (hypothetical protein), PA4934 (30S ribosomal protein S18), PA4935 (30S ribosomal protein S6)"
@@ -2329,6 +2337,7 @@ NC_002516.2,5885485,5885944,1,PA5229,PA5229 (hypothetical protein)
 NC_002516.2,5885953,5890902,-1,"PA5230, PA5231, PA5232","PA5230 (ABC transporter permease), PA5231 (ABC transporter ATP-binding protein/permease), PA5232 (hypothetical protein)"
 NC_002516.2,5892909,5894256,1,PA5235,PA5235 (sn-glycerol-3-phosphate transporter)
 NC_002516.2,5894292,5900124,-1,"PA5236, PA5237, PA5238, PA5239","PA5236 (CDP-6-deoxy-delta-3,4-glucoseen reductase), PA5237 (hypothetical protein), PA5238 (O-antigen acetylase), PA5239 (transcription termination factor Rho)"
+NC_002516.2,5902385,5904596,-1,PA5242,PA5242 (polyphosphate kinase)
 NC_002516.2,5906625,5907863,1,"PA5245, PA5246","PA5245 (glutamine amidotransferase), PA5246 (hypothetical protein)"
 NC_002516.2,5910402,5911032,-1,PA5249,PA5249 (hypothetical protein)
 NC_002516.2,5918349,5922435,-1,"PA5257, PA5258, PA5259, PA5260","PA5257 (hypothetical protein), PA5258 (hypothetical protein), PA5259 (uroporphyrinogen-III synthase), PA5260 (porphobilinogen deaminase)"
@@ -2343,6 +2352,8 @@ NC_002516.2,5970685,5973476,-1,"PA5302, PA5303, PA5304","PA5302 (alanine racemas
 NC_002516.2,5977788,5980783,1,"PA5309, PA5310","PA5309 (oxidoreductase), PA5310 (hypothetical protein)"
 NC_002516.2,5980786,5981950,-1,PA5311,PA5311 (major facilitator superfamily transporter)
 NC_002516.2,5986474,5988629,1,"PA5317, PA5318","PA5317 (dipeptide ABC transporter substrate-binding protein), PA5318 (hypothetical protein)"
+NC_002516.2,6005198,6009564,1,"PA5336, PA5337, PA5338, PA5339, PA5340","PA5336 (guanylate kinase), PA5337 (DNA-directed RNA polymerase subunit omega), PA5338 (guanosine-3',5'-bis(diphosphate) 3'-pyrophosphohydrolase), PA5339 (hypothetical protein), PA5340 (hypothetical protein)"
+NC_002516.2,6015140,6016550,1,PA5346,PA5346 (hypothetical protein)
 NC_002516.2,6019180,6019348,-1,PA5351,PA5351 (rubredoxin)
 NC_002516.2,6028975,6030316,1,PA5362,PA5362 (hypothetical protein)
 NC_002516.2,6042962,6044743,-1,"PA5369.3, PA5369.4, PA5369.5","PA5369.3 (tRNA-Ala), PA5369.4 (tRNA-Ile), PA5369.5 (16S ribosomal RNA)"
@@ -2361,6 +2372,7 @@ NC_002516.2,6135708,6135912,1,PA5446,PA5446 (hypothetical protein)
 NC_002516.2,6151313,6151939,1,"PA5460, PA5461","PA5460 (hypothetical protein), PA5461 (hypothetical protein)"
 NC_002516.2,6156853,6158943,1,"PA5468, PA5469","PA5468 (citrate transporter), PA5469 (hypothetical protein)"
 NC_002516.2,6158948,6160699,-1,"PA5470, PA5471","PA5470 (peptide chain release factor-like protein), PA5471 (hypothetical protein)"
+NC_002516.2,6164037,6165411,1,PA5474,PA5474 (metalloprotease)
 NC_002516.2,6165416,6165977,-1,PA5475,PA5475 (hypothetical protein)
 NC_002516.2,6170175,6171510,-1,PA5479,PA5479 (glutamate/aspartate:proton symporter)
 NC_002516.2,6178035,6181577,-1,"PA5487, PA5488, PA5489","PA5487 (hypothetical protein), PA5488 (hypothetical protein), PA5489 (thiol:disulfide interchange protein DsbA)"
@@ -2376,6 +2388,8 @@ NC_002516.2,15619,16273,1,PA0013,PA0013 (hypothetical protein)
 NC_002516.2,16334,16607,-1,PA0014,PA0014 (hypothetical protein)
 NC_002516.2,40588,40816,1,PA0039,PA0039 (hypothetical protein)
 NC_002516.2,61878,62388,1,PA0047,PA0047 (hypothetical protein)
+NC_002516.2,82403,83318,-1,PA0070,PA0070 (hypothetical protein)
+NC_002516.2,104005,112907,1,"PA0086, PA0087, PA0088, PA0089, PA0090, PA0091","PA0086 (hypothetical protein), PA0087 (hypothetical protein), PA0088 (hypothetical protein), PA0089 (hypothetical protein), PA0090 (secretion protein ClpV1), PA0091 (type VI secretion system protein VgrG)"
 NC_002516.2,124809,126381,1,PA0103,PA0103 (sulfate transporter)
 NC_002516.2,138817,140902,1,"PA0119, PA0120","PA0119 (C4-dicarboxylate transporter DctA), PA0120 (transcriptional regulator)"
 NC_002516.2,142358,143267,-1,PA0123,PA0123 (transcriptional regulator)
@@ -2413,7 +2427,7 @@ NC_002516.2,724102,726993,1,PA0668.4,PA0668.4 (23S ribosomal RNA)
 NC_002516.2,749956,762499,1,PA0690,PA0690 (hypothetical protein)
 NC_002516.2,778308,779208,-1,PA0705,"PA0705 (alpha-1,6-rhamnosyltransferase MigA)"
 NC_002516.2,785497,785570,1,PA0714.1,PA0714.1 (PhrD)
-NC_002516.2,797924,798827,-1,PA0730,PA0730 ((R)-3-hydroxydecanoyl-ACP:CoA transacylase)
+NC_002516.2,799278,800016,-1,PA0731,PA0731 (hypothetical protein)
 NC_002516.2,808815,809457,-1,PA0741,PA0741 (hypothetical protein)
 NC_002516.2,838350,841825,1,"PA0769, PA0770, PA0771, PA0772, PA0773","PA0769 (hypothetical protein), PA0770 (ribonuclease III), PA0771 (GTPase Era), PA0772 (DNA repair protein RecO), PA0773 (pyridoxine 5'-phosphate synthase)"
 NC_002516.2,843722,844295,-1,PA0776,PA0776 (hypothetical protein)
@@ -2495,12 +2509,14 @@ NC_002516.2,2415660,2416245,1,PA2196,PA2196 (transcriptional regulator)
 NC_002516.2,2433747,2437299,1,"PA2214, PA2215, PA2216","PA2214 (major facilitator superfamily transporter), PA2215 (hypothetical protein), PA2216 (hypothetical protein)"
 NC_002516.2,2469285,2472076,1,"PA2243, PA2244","PA2243 (FAD-binding dehydrogenase), PA2244 (hypothetical protein)"
 NC_002516.2,2482044,2486118,1,"PA2254, PA2255, PA2256, PA2257","PA2254 (paerucumarin biosynthesis protein PvcA), PA2255 (paerucumarin biosynthesis protein PvcB), PA2256 (paerucumarin biosynthesis protein PvcC), PA2257 (paerucumarin biosynthesis protein PvcD)"
+NC_002516.2,2508292,2509467,1,"PA2279, PA2280","PA2279 (low molecular weight phosphatase), PA2280 (hypothetical protein)"
 NC_002516.2,2530388,2531840,-1,PA2300,PA2300 (chitinase)
 NC_002516.2,2556947,2557964,1,PA2319,PA2319 (transposase)
 NC_002516.2,2564289,2566815,1,"PA2324, PA2325","PA2324 (hypothetical protein), PA2325 (hypothetical protein)"
 NC_002516.2,2582096,2590387,1,"PA2338, PA2339, PA2340, PA2341, PA2342, PA2343, PA2344","PA2338 (maltose/mannitol ABC transporter substrate-binding protein), PA2339 (binding-protein-dependent maltose/mannitol transport protein), PA2340 (binding-protein-dependent maltose/mannitol transport protein), PA2341 (maltose ABC transporter ATP-binding protein), PA2342 (mannitol dehydrogenase), PA2343 (xylulose kinase), PA2344 (fructokinase)"
 NC_002516.2,2605434,2605824,-1,PA2358,PA2358 (hypothetical protein)
 NC_002516.2,2636516,2638805,-1,PA2385,PA2385 (acyl-homoserine lactone acylase PvdQ)
+NC_002516.2,2693780,2694764,-1,"PA2411, PA2412","PA2411 (thioesterase), PA2412 (hypothetical protein)"
 NC_002516.2,2706386,2707181,1,PA2423,PA2423 (hypothetical protein)
 NC_002516.2,2739761,2743657,-1,"PA2442, PA2443, PA2444","PA2442 (glycine cleavage system protein T2), PA2443 (L-serine dehydratase), PA2444 (serine hydroxymethyltransferase)"
 NC_002516.2,2758060,2759182,1,PA2458,PA2458 (hypothetical protein)
@@ -2512,6 +2528,7 @@ NC_002516.2,2864169,2870027,-1,"PA2536, PA2537, PA2538, PA2539, PA2540, PA2541",
 NC_002516.2,2905181,2905550,-1,PA2570,PA2570 (PA-I galactophilic lectin)
 NC_002516.2,2918966,2922569,-1,"PA2582, PA2583","PA2582 (hypothetical protein), PA2583 (sensor/response regulator hybrid protein)"
 NC_002516.2,2937584,2939539,-1,"PA2595, PA2596","PA2595 (hypothetical protein), PA2596 (hypothetical protein)"
+NC_002516.2,2951037,2952012,1,PA2610,PA2610 (hypothetical protein)
 NC_002516.2,2979529,2982181,1,"PA2635, PA2636","PA2635 (hypothetical protein), PA2636 (hypothetical protein)"
 NC_002516.2,2998855,2999914,-1,PA2651,PA2651 (hypothetical protein)
 NC_002516.2,3016245,3016599,1,PA2667,PA2667 (hypothetical protein)
@@ -2558,7 +2575,7 @@ NC_002516.2,3851919,3852513,-1,PA3446,PA3446 (NAD(P)H-dependent FMN reductase)
 NC_002516.2,3858543,3859209,-1,PA3453,PA3453 (hypothetical protein)
 NC_002516.2,3890774,3893008,-1,"PA3478, PA3479","PA3478 (rhamnosyltransferase subunit B), PA3479 (rhamnosyltransferase subunit A)"
 NC_002516.2,3907267,3913767,1,"PA3489, PA3490, PA3491, PA3492, PA3493, PA3494, PA3495","PA3489 (electron transport complex subunit A), PA3490 (electron transport complex subunit B), PA3491 (electron transport complex subunit C), PA3492 (electron transport complex subunit D), PA3493 (electron transport complex subunit G), PA3494 (electron transport complex subunit E), PA3495 (endonuclease III)"
-NC_002516.2,3930742,3936837,-1,"PA3515, PA3516, PA3517, PA3518, PA3519","PA3515 (hypothetical protein), PA3516 (adenylosuccinate lyase), PA3517 (adenylosuccinate lyase), PA3518 (hypothetical protein), PA3519 (hypothetical protein)"
+NC_002516.2,3931865,3936837,-1,"PA3516, PA3517, PA3518, PA3519","PA3516 (adenylosuccinate lyase), PA3517 (adenylosuccinate lyase), PA3518 (hypothetical protein), PA3519 (hypothetical protein)"
 NC_002516.2,3962824,3964135,1,PA3540,PA3540 (GDP-mannose 6-dehydrogenase AlgD)
 NC_002516.2,4008937,4009051,-1,PA3577,PA3577 (hypothetical protein)
 NC_002516.2,4016440,4017979,1,PA3584,PA3584 (glycerol-3-phosphate dehydrogenase)
@@ -2618,15 +2635,16 @@ NC_002516.2,5247621,5248772,-1,"PA4678, PA4679","PA4678 (peptide n-acetyltransfe
 NC_002516.2,5267478,5269259,-1,"PA4690.3, PA4690.4, PA4690.5","PA4690.3 (tRNA-Ala), PA4690.4 (tRNA-Ile), PA4690.5 (16S ribosomal RNA)"
 NC_002516.2,5283108,5284319,1,"PA4704, PA4704.1, PA4704.2","PA4704 (cAMP-binding protein A), PA4704.1 (regulatory RNA PrrF1), PA4704.2 (regulatory RNA PrrF2)"
 NC_002516.2,5315533,5318450,1,"PA4733, PA4734","PA4733 (acetyl-CoA synthetase), PA4734 (hypothetical protein)"
-NC_002516.2,5327426,5331961,-1,"PA4744, PA4745, PA4746","PA4744 (translation initiation factor IF-2), PA4745 (transcription elongation factor NusA), PA4746 (hypothetical protein)"
+NC_002516.2,5331502,5331961,-1,PA4746,PA4746 (hypothetical protein)
+NC_002516.2,5338972,5344903,-1,"PA4754, PA4755, PA4756, PA4757, PA4758","PA4754 (hypothetical protein), PA4755 (transcription elongation factor GreA), PA4756 (carbamoyl phosphate synthase large subunit), PA4757 (leucine export protein LeuE), PA4758 (carbamoyl phosphate synthase small subunit)"
 NC_002516.2,5361585,5366655,1,"PA4773, PA4774, PA4775, PA4776, PA4777, PA4778","PA4773 (hypothetical protein), PA4774 (hypothetical protein), PA4775 (hypothetical protein), PA4776 (two-component regulator system response regulator PmrA), PA4777 (two-component regulator system signal sensor kinase PmrB), PA4778 (protein CueR)"
 NC_002516.2,5367186,5369063,-1,"PA4779, PA4780","PA4779 (hypothetical protein), PA4780 (hypothetical protein)"
 NC_002516.2,5392522,5396859,-1,"PA4807, PA4808, PA4809","PA4807 (selenocysteine-specific elongation factor), PA4808 (selenocysteine synthase), PA4809 (formate dehydrogenase subunit epsilon)"
 NC_002516.2,5406164,5407870,1,"PA4816, PA4817","PA4816 (hypothetical protein), PA4817 (hypothetical protein)"
 NC_002516.2,5412568,5418124,-1,"PA4822, PA4823, PA4824, PA4825","PA4822 (hypothetical protein), PA4823 (hypothetical protein), PA4824 (hypothetical protein), PA4825 (Mg(2+) transport ATPase)"
 NC_002516.2,5431380,5433291,-1,PA4839,PA4839 (arginine decarboxylase)
-NC_002516.2,5441836,5444141,1,"PA4846, PA4847, PA4848","PA4846 (3-dehydroquinate dehydratase), PA4847 (acetyl-CoA carboxylase biotin carboxyl carrier protein subunit), PA4848 (acetyl-CoA carboxylase biotin carboxylase subunit)"
-NC_002516.2,5505070,5506609,-1,"PA4906, PA4907","PA4906 (transcriptional regulator), PA4907 (short-chain dehydrogenase)"
+NC_002516.2,5441836,5442280,1,PA4846,PA4846 (3-dehydroquinate dehydratase)
+NC_002516.2,5506965,5507898,-1,PA4908,PA4908 (ornithine cyclodeaminase)
 NC_002516.2,5523867,5524719,-1,PA4925,PA4925 (hypothetical protein)
 NC_002516.2,5533016,5535556,-1,"PA4930, PA4931","PA4930 (biosynthetic alanine racemase), PA4931 (replicative DNA helicase)"
 NC_002516.2,5572221,5578549,-1,"PA4964, PA4965, PA4966, PA4967, PA4968","PA4964 (DNA topoisomerase IV subunit A), PA4965 (hypothetical protein), PA4966 (hypothetical protein), PA4967 (DNA topoisomerase IV subunit B), PA4968 (hypothetical protein)"
@@ -2684,7 +2702,7 @@ NC_002516.2,727135,727255,1,PA0668.5,PA0668.5 (5S ribosomal RNA)
 NC_002516.2,762890,763493,1,PA0691,PA0691 (hypothetical protein)
 NC_002516.2,774415,778181,-1,"PA0702, PA0703, PA0704","PA0702 (hypothetical protein), PA0703 (major facilitator superfamily transporter), PA0704 (amidase)"
 NC_002516.2,785968,788253,1,"PA0715, PA0716","PA0715 (hypothetical protein), PA0716 (hypothetical protein)"
-NC_002516.2,797720,797794,-1,PA0729.1,PA0729.1 (tRNA-Gly)
+NC_002516.2,797924,798827,-1,PA0730,PA0730 ((R)-3-hydroxydecanoyl-ACP:CoA transacylase)
 NC_002516.2,841912,843618,-1,"PA0774, PA0775","PA0774 (tRNA (mo5U34)-methyltransferase), PA0775 (tRNA (cmo5U34)-methyltransferase)"
 NC_002516.2,867323,868808,-1,PA0792,PA0792 (2-methylcitrate dehydratase)
 NC_002516.2,898907,899656,-1,"PA0823, PA0824","PA0823 (hypothetical protein), PA0824 (hypothetical protein)"
@@ -2752,7 +2770,7 @@ NC_002516.2,3835578,3836349,-1,PA3426,PA3426 (enoyl-CoA hydratase)
 NC_002516.2,3847717,3851801,-1,"PA3441, PA3442, PA3443, PA3444, PA3445","PA3441 (molybdopterin-binding protein), PA3442 (aliphatic sulfonates ABC transporter ATP-binding subunit), PA3443 (aliphatic sulfonates ABC transporter permease), PA3444 (alkanesulfonate monooxygenase), PA3445 (hypothetical protein)"
 NC_002516.2,3889924,3890650,-1,PA3477,PA3477 (transcriptional regulator RhlR)
 NC_002516.2,3913875,3914055,1,PA3496,PA3496 (hypothetical protein)
-NC_002516.2,3915806,3930230,-1,"PA3498, PA3499, PA3500, PA3501, PA3502, PA3503, PA3504, PA3505, PA3506, PA3507, PA3508, PA3509, PA3510, PA3511, PA3512, PA3513, PA3514","PA3498 (oxidoreductase), PA3499 (hypothetical protein), PA3500 (hypothetical protein), PA3501 (hypothetical protein), PA3502 (hypothetical protein), PA3503 (), PA3504 (aldehyde dehydrogenase), PA3505 (L-aspartate dehydrogenase), PA3506 (hypothetical protein), PA3507 (short-chain dehydrogenase), PA3508 (transcriptional regulator), PA3509 (hydrolase), PA3510 (hypothetical protein), PA3511 (short-chain dehydrogenase), PA3512 (ABC transporter permease), PA3513 (hypothetical protein), PA3514 (ABC transporter ATP-binding protein)"
+NC_002516.2,3930742,3931816,-1,PA3515,PA3515 (hypothetical protein)
 NC_002516.2,3964274,3974117,1,"PA3541, PA3542, PA3543, PA3544, PA3545, PA3546, PA3547","PA3541 (glycosyltransferase alg8), PA3542 (alginate biosynthesis protein Alg44), PA3543 (alginate biosynthesis protein AlgK), PA3544 (alginate production protein AlgE), PA3545 (alginate-c5-mannuronan-epimerase AlgG), PA3546 (alginate biosynthesis protein AlgX), PA3547 (alginate lyase)"
 NC_002516.2,4018111,4018441,1,PA3585,PA3585 (membrane protein GlpM)
 NC_002516.2,4078807,4080223,-1,PA3641,PA3641 (amino acid permease)
@@ -2780,8 +2798,9 @@ NC_002516.2,5197880,5198324,1,PA4630,PA4630 (hypothetical protein)
 NC_002516.2,5245475,5247423,-1,"PA4676, PA4677","PA4676 (carbonic anhydrase), PA4677 (hypothetical protein)"
 NC_002516.2,5264361,5267252,-1,PA4690.2,PA4690.2 (23S ribosomal RNA)
 NC_002516.2,5318574,5322450,1,"PA4735, PA4736, PA4737","PA4735 (hypothetical protein), PA4736 (hypothetical protein), PA4737 (hypothetical protein)"
-NC_002516.2,5325652,5327324,-1,"PA4741, PA4742, PA4743","PA4741 (30S ribosomal protein S15), PA4742 (tRNA pseudouridine synthase B), PA4743 (ribosome-binding factor A)"
-NC_002516.2,5444251,5447444,1,"PA4849, PA4850, PA4851","PA4849 (hypothetical protein), PA4850 (50S ribosomal protein L11 methyltransferase), PA4851 (hypothetical protein)"
+NC_002516.2,5327426,5331458,-1,"PA4744, PA4745","PA4744 (translation initiation factor IF-2), PA4745 (transcription elongation factor NusA)"
+NC_002516.2,5442303,5444141,1,"PA4847, PA4848","PA4847 (acetyl-CoA carboxylase biotin carboxyl carrier protein subunit), PA4848 (acetyl-CoA carboxylase biotin carboxylase subunit)"
+NC_002516.2,5505070,5506609,-1,"PA4906, PA4907","PA4906 (transcriptional regulator), PA4907 (short-chain dehydrogenase)"
 NC_002516.2,5522985,5523681,-1,PA4924,PA4924 (hypothetical protein)
 NC_002516.2,5571218,5571929,-1,PA4963,PA4963 (hypothetical protein)
 NC_002516.2,5593682,5595095,-1,PA4981,PA4981 (amino acid permease)
@@ -2812,6 +2831,7 @@ NC_002516.2,668460,669291,1,PA0606,PA0606 (ABC transporter permease)
 NC_002516.2,689536,698696,1,"PA0633, PA0634, PA0635, PA0636, PA0637, PA0638, PA0639, PA0640, PA0641","PA0633 (hypothetical protein), PA0634 (hypothetical protein), PA0635 (hypothetical protein), PA0636 (hypothetical protein), PA0637 (hypothetical protein), PA0638 (bacteriophage protein), PA0639 (hypothetical protein), PA0640 (bacteriophage protein), PA0641 (bacteriophage protein)"
 NC_002516.2,763656,774433,1,"PA0692, PA0693, PA0694, PA0695, PA0696, PA0697, PA0698, PA0699, PA0700, PA0701, PA0701a","PA0692 (hypothetical protein), PA0693 (transporter ExbB), PA0694 (transporter ExbD), PA0695 (hypothetical protein), PA0696 (hypothetical protein), PA0697 (hypothetical protein), PA0698 (hypothetical protein), PA0699 (PpiC-type peptidyl-prolyl cis-trans isomerase), PA0700 (hypothetical protein), PA0701 (transcriptional regulator), PA0701a (AraC family transcriptional regulator)"
 NC_002516.2,789359,790031,1,"PA0718, PA0719","PA0718 (hypothetical protein), PA0719 (hypothetical protein)"
+NC_002516.2,797720,797794,-1,PA0729.1,PA0729.1 (tRNA-Gly)
 NC_002516.2,897334,898423,-1,PA0821,PA0821 (hypothetical protein)
 NC_002516.2,916345,917305,1,PA0841,PA0841 (hypothetical protein)
 NC_002516.2,972165,972945,1,PA0888,PA0888 (arginine/ornithine ABC transporter substrate-binding protein AotJ)
@@ -2843,7 +2863,7 @@ NC_002516.2,3574845,3575697,-1,PA3185,PA3185 (hypothetical protein)
 NC_002516.2,3670758,3671058,-1,PA3278,PA3278 (hypothetical protein)
 NC_002516.2,3749718,3751767,-1,PA3340,PA3340 (hypothetical protein)
 NC_002516.2,3889138,3889744,-1,PA3476,PA3476 (acyl-homoserine-lactone synthase)
-NC_002516.2,3914116,3915337,-1,PA3497,PA3497 (hypothetical protein)
+NC_002516.2,3915806,3930230,-1,"PA3498, PA3499, PA3500, PA3501, PA3502, PA3503, PA3504, PA3505, PA3506, PA3507, PA3508, PA3509, PA3510, PA3511, PA3512, PA3513, PA3514","PA3498 (oxidoreductase), PA3499 (hypothetical protein), PA3500 (hypothetical protein), PA3501 (hypothetical protein), PA3502 (hypothetical protein), PA3503 (), PA3504 (aldehyde dehydrogenase), PA3505 (L-aspartate dehydrogenase), PA3506 (hypothetical protein), PA3507 (short-chain dehydrogenase), PA3508 (transcriptional regulator), PA3509 (hydrolase), PA3510 (hypothetical protein), PA3511 (short-chain dehydrogenase), PA3512 (ABC transporter permease), PA3513 (hypothetical protein), PA3514 (ABC transporter ATP-binding protein)"
 NC_002516.2,3974358,3977834,1,"PA3548, PA3549, PA3550","PA3548 (alginate o-acetylase AlgI), PA3549 (alginate o-acetylase AlgJ), PA3550 (alginate o-acetyltransferase AlgF)"
 NC_002516.2,4075156,4078678,-1,PA3640,PA3640 (DNA polymerase III subunit alpha)
 NC_002516.2,4142569,4143665,-1,PA3701,PA3701 (peptide chain release factor 1)
@@ -2856,8 +2876,8 @@ NC_002516.2,4864664,4865578,-1,"PA4335, PA4336","PA4335 (hypothetical protein), 
 NC_002516.2,5059573,5059999,-1,PA4518,PA4518 (hypothetical protein)
 NC_002516.2,5137416,5138754,-1,PA4588,PA4588 (glutamate dehydrogenase)
 NC_002516.2,5264099,5264219,-1,PA4690.1,PA4690.1 (5S ribosomal RNA)
-NC_002516.2,5323373,5325479,-1,PA4740,PA4740 (polynucleotide phosphorylase)
-NC_002516.2,5447647,5450653,1,"PA4852, PA4853, PA4854","PA4852 (hypothetical protein), PA4853 (Fis family transcriptional regulator), PA4854 (bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/IMP cyclohydrolase)"
+NC_002516.2,5325652,5327324,-1,"PA4741, PA4742, PA4743","PA4741 (30S ribosomal protein S15), PA4742 (tRNA pseudouridine synthase B), PA4743 (ribosome-binding factor A)"
+NC_002516.2,5444251,5447444,1,"PA4849, PA4850, PA4851","PA4849 (hypothetical protein), PA4850 (50S ribosomal protein L11 methyltransferase), PA4851 (hypothetical protein)"
 NC_002516.2,5585614,5593424,-1,"PA4975, PA4976, PA4977, PA4978, PA4979, PA4980","PA4975 (NAD(P)H quinone oxidoreductase), PA4976 (arginine:pyruvate transaminase AruH), PA4977 (hypothetical protein), PA4978 (hypothetical protein), PA4979 (acyl-CoA dehydrogenase), PA4980 (enoyl-CoA hydratase)"
 NC_002516.2,5657580,5658396,1,PA5027,PA5027 (hypothetical protein)
 NC_002516.2,5697197,5698055,1,PA5057,PA5057 (poly(3-hydroxyalkanoic acid) depolymerase)
@@ -2890,6 +2910,7 @@ NC_002516.2,3088659,3089613,-1,PA2730,PA2730 (hypothetical protein)
 NC_002516.2,3535215,3545074,-1,"PA3151, PA3152, PA3153, PA3154, PA3155, PA3156, PA3157, PA3158, PA3159","PA3151 (imidazole glycerol phosphate synthase subunit HisF), PA3152 (imidazole glycerol phosphate synthase subunit HisH), PA3153 (O-antigen translocase), PA3154 (B-band O-antigen polymerase), PA3155 (UDP-2-acetamido-2-deoxy-3-oxo-D-glucuronate aminotransferase), PA3156 (UDP-2-acetamido-3-amino-2, 3-dideoxy-D-glucuronate N-acetyltransferase), PA3157 (acetyltransferase), PA3158 (UDP-N-acetyl-2-amino-2-deoxy-D-glucuronate oxidase), PA3159 (UDP-N-acetyl-d-glucosamine 6-dehydrogenase)"
 NC_002516.2,3669820,3670633,-1,PA3277,PA3277 (short-chain dehydrogenase)
 NC_002516.2,3886327,3888984,-1,"PA3473, PA3474, PA3475","PA3473 (chloramphenicol-sensitive protein RarD), PA3474 (hypothetical protein), PA3475 (cyclohexadienyl dehydratase)"
+NC_002516.2,3914116,3915337,-1,PA3497,PA3497 (hypothetical protein)
 NC_002516.2,3978030,3979476,1,PA3551,PA3551 (bifunctional mannose-1-phosphate guanylyltransferase/mannose-6-phosphate isomerase)
 NC_002516.2,4072658,4075007,-1,"PA3638, PA3639","PA3638 (tRNA(Ile)-lysidine synthase), PA3639 (acetyl-CoA carboxylase carboxyltransferase subunit alpha)"
 NC_002516.2,4140883,4142389,-1,PA3700,PA3700 (lysine--tRNA ligase)
@@ -2898,8 +2919,8 @@ NC_002516.2,4756978,4760872,-1,"PA4242, PA4243, PA4244, PA4245, PA4246, PA4247, 
 NC_002516.2,4781984,4783111,-1,"PA4273, PA4274","PA4273 (50S ribosomal protein L1), PA4274 (50S ribosomal protein L11)"
 NC_002516.2,4863272,4864529,-1,PA4334,PA4334 (manganese transporter MntH)
 NC_002516.2,5260342,5263956,-1,"PA4689, PA4690, PA4690a","PA4689 (hypothetical protein), PA4690 (hypothetical protein), PA4690a (paraquat-inducible protein A)"
-NC_002516.2,5322509,5323101,-1,"PA4738, PA4739","PA4738 (hypothetical protein), PA4739 (hypothetical protein)"
-NC_002516.2,5450756,5452046,1,PA4855,PA4855 (phosphoribosylamine--glycine ligase)
+NC_002516.2,5323373,5325479,-1,PA4740,PA4740 (polynucleotide phosphorylase)
+NC_002516.2,5447647,5450653,1,"PA4852, PA4853, PA4854","PA4852 (hypothetical protein), PA4853 (Fis family transcriptional regulator), PA4854 (bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/IMP cyclohydrolase)"
 NC_002516.2,5698358,5700714,1,"PA5058, PA5059","PA5058 (poly(3-hydroxyalkanoic acid) synthase), PA5059 (transcriptional regulator)"
 NC_002516.2,5725478,5731845,-1,"PA5087, PA5088, PA5089, PA5090","PA5087 (hypothetical protein), PA5088 (hypothetical protein), PA5089 (hypothetical protein), PA5090 (hypothetical protein)"
 NC_002516.2,5820909,5825719,1,"PA5170, PA5171, PA5172, PA5173","PA5170 (arginine/ornithine antiporter), PA5171 (arginine deiminase), PA5172 (ornithine carbamoyltransferase), PA5173 (carbamate kinase)"
@@ -2916,13 +2937,14 @@ NC_002516.2,1189171,1191806,1,"PA1098, PA1099","PA1098 (two-component sensor), P
 NC_002516.2,2080660,2084267,-1,"PA1909, PA1910","PA1909 (hypothetical protein), PA1910 (ferric-mycobactin receptor FemA)"
 NC_002516.2,2518692,2521104,-1,PA2290,PA2290 (glucose dehydrogenase)
 NC_002516.2,2760322,2760619,-1,PA2460,PA2460 (hypothetical protein)
-NC_002516.2,3528427,3535081,-1,"PA3145, PA3146, PA3147, PA3148, PA3149, PA3150","PA3145 (glycosyltransferase WbpL), PA3146 (NAD-dependent epimerase/dehydratase), PA3147 (glycosyl transferase WbpJ), PA3148 (UDP-2,3-diacetamido-2,3-dideoxy-D-glucuronate 2-epimeras), PA3149 (glycosyltransferase WbpH), PA3150 (LPS biosynthesis protein WbpG)"
+NC_002516.2,3531750,3535081,-1,"PA3148, PA3149, PA3150","PA3148 (UDP-2,3-diacetamido-2,3-dideoxy-D-glucuronate 2-epimeras), PA3149 (glycosyltransferase WbpH), PA3150 (LPS biosynthesis protein WbpG)"
 NC_002516.2,3668839,3669588,-1,"PA3275, PA3276","PA3275 (hypothetical protein), PA3276 (hypothetical protein)"
 NC_002516.2,3979859,3988684,1,"PA3552, PA3553, PA3554, PA3555, PA3556, PA3557, PA3558, PA3559","PA3552 (UDP-4-amino-4-deoxy-L-arabinose--oxoglutarate aminotransferase), PA3553 (undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase), PA3554 (bifunctional UDP-glucuronic acid decarboxylase/UDP-4-amino-4-deoxy-L-arabinose formyltransferase), PA3555 (4-deoxy-4-formamido-L-arabinose- phosphoundecaprenol deformylase ArnD), PA3556 (undecaprenyl phosphate-alpha-4-amino-4-deoxy-L-arabinose arabinosyl transferase), PA3557 (4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnE), PA3558 (4-amino-4-deoxy-L-arabinose-phosphoundecaprenol flippase subunit ArnF), PA3559 (nucleotide sugar dehydrogenase)"
 NC_002516.2,4067603,4072488,-1,"PA3633, PA3634, PA3635, PA3636, PA3637","PA3633 (2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase), PA3634 (cell division protein FtsB), PA3635 (enolase), PA3636 (2-dehydro-3-deoxyphosphooctonate aldolase), PA3637 (CTP synthetase)"
 NC_002516.2,4135451,4140672,-1,"PA3693, PA3694, PA3695, PA3696, PA3697, PA3698, PA3699","PA3693 (hypothetical protein), PA3694 (hypothetical protein), PA3695 (hypothetical protein), PA3696 (hypothetical protein), PA3697 (hypothetical protein), PA3698 (hypothetical protein), PA3699 (transcriptional regulator)"
 NC_002516.2,4753989,4756848,-1,"PA4237, PA4238, PA4239, PA4240, PA4241","PA4237 (50S ribosomal protein L17), PA4238 (DNA-directed RNA polymerase subunit alpha), PA4239 (30S ribosomal protein S4), PA4240 (30S ribosomal protein S11), PA4241 (30S ribosomal protein S13)"
-NC_002516.2,5452149,5454978,1,PA4856,PA4856 (sensor histidine kinase MifS)
+NC_002516.2,5322509,5323101,-1,"PA4738, PA4739","PA4738 (hypothetical protein), PA4739 (hypothetical protein)"
+NC_002516.2,5450756,5452046,1,PA4855,PA4855 (phosphoribosylamine--glycine ligase)
 NC_002516.2,5826134,5828039,1,PA5174,PA5174 (beta-ketoacyl synthase)
 NC_002516.2,6031365,6032268,-1,PA5364,PA5364 (two-component response regulator)
 NC_002516.2,177306,182569,1,"PA0156, PA0157, PA0158","PA0156 (resistance-nodulation-cell division (RND) efflux membrane fusion protein), PA0157 (resistance-nodulation-cell division (RND) efflux membrane fusion protein), PA0158 (resistance-nodulation-cell division (RND) efflux transporter)"
@@ -2933,21 +2955,23 @@ NC_002516.2,1192052,1197833,1,"PA1100, PA1101, PA1102, PA1103, PA1104, PA1105","
 NC_002516.2,2077046,2080474,-1,"PA1906, PA1907, PA1908","PA1906 (hypothetical protein), PA1907 (hypothetical protein), PA1908 (major facilitator superfamily transporter)"
 NC_002516.2,2516428,2518561,-1,PA2289,PA2289 (hypothetical protein)
 NC_002516.2,2759481,2760087,-1,PA2459,PA2459 (hypothetical protein)
-NC_002516.2,3527428,3528212,-1,"PA3142, PA3143","PA3142 (hypothetical protein), PA3143 (hypothetical protein)"
+NC_002516.2,3528427,3531708,-1,"PA3145, PA3146, PA3147","PA3145 (glycosyltransferase WbpL), PA3146 (NAD-dependent epimerase/dehydratase), PA3147 (glycosyl transferase WbpJ)"
 NC_002516.2,4752259,4753708,-1,PA4236,PA4236 (catalase)
-NC_002516.2,5455433,5456027,1,PA4857,PA4857 (hypothetical protein)
+NC_002516.2,5452149,5454978,1,PA4856,PA4856 (sensor histidine kinase MifS)
 NC_002516.2,6030350,6031250,-1,PA5363,PA5363 (hypothetical protein)
 NC_002516.2,182767,183706,1,PA0159,PA0159 (transcriptional regulator)
 NC_002516.2,282911,283553,-1,PA0251,PA0251 (hypothetical protein)
 NC_002516.2,797250,797598,1,PA0729,PA0729 (hypothetical protein)
 NC_002516.2,2516020,2516308,-1,PA2288,PA2288 (hypothetical protein)
-NC_002516.2,3524680,3526678,-1,PA3141,PA3141 (nucleotide sugar epimerase/dehydratase WbpM)
+NC_002516.2,3527428,3528212,-1,"PA3142, PA3143","PA3142 (hypothetical protein), PA3143 (hypothetical protein)"
 NC_002516.2,4751664,4752129,-1,PA4235,PA4235 (bacterioferritin)
-NC_002516.2,5456451,5457717,1,PA4858,PA4858 (hypothetical protein)
+NC_002516.2,5455433,5456027,1,PA4857,PA4857 (hypothetical protein)
 NC_002516.2,183821,184007,1,PA0160,PA0160 (hypothetical protein)
 NC_002516.2,281798,282757,-1,"PA0249, PA0250","PA0249 (acetyltransferase), PA0250 (hypothetical protein)"
+NC_002516.2,3524680,3526678,-1,PA3141,PA3141 (nucleotide sugar epimerase/dehydratase WbpM)
+NC_002516.2,5456451,5457717,1,PA4858,PA4858 (hypothetical protein)
+NC_002516.2,184593,185928,1,PA0162,PA0162 (histidine porin OpdC)
 NC_002516.2,3524160,3524490,-1,PA3140,PA3140 (hypothetical protein)
 NC_002516.2,5457863,5461383,1,"PA4859, PA4860, PA4861","PA4859 (ABC transporter permease), PA4860 (ABC transporter permease), PA4861 (ABC transporter ATP-binding protein)"
-NC_002516.2,184593,185928,1,PA0162,PA0162 (histidine porin OpdC)
 NC_002516.2,5461519,5466521,1,"PA4862, PA4863, PA4864, PA4865, PA4866, PA4867, PA4868","PA4862 (ABC transporter ATP-binding protein), PA4863 (hypothetical protein), PA4864 (urease accessory protein), PA4865 (urease subunit gamma), PA4866 (hypothetical protein), PA4867 (urease subunit beta), PA4868 (urease subunit alpha)"
 NC_002516.2,5466789,5468007,1,PA4869,PA4869 (hypothetical protein)

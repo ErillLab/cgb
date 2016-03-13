@@ -61,7 +61,7 @@ NC_000913.2,243542,244121,1,b0222,b0222 (D-sedoheptulose 7-phosphate isomerase)
 NC_000913.2,245960,246502,-1,"b0225, b0226","b0225 (translation inhibitor toxin of toxin-antitoxin pair YafQ/DinJ), b0226 (antitoxin of YafQ-DinJ toxin-antitoxin system)"
 NC_000913.2,246711,247461,1,b0227,b0227 (putative lipoprotein and C40 family peptidase)
 NC_000913.2,248357,250070,-1,b0229,b0229 ()
-NC_000913.2,250071,253161,1,"b0230, b0231, b0232, b0233, b0234","b0230 (), b0231 (DNA polymerase IV), b0232 (antitoxin of the YafO-YafN toxin-antitoxin system), b0233 (mRNA interferase toxin of the YafO-YafN toxin-antitoxin system), b0234 (putative acyltransferase with acyl-CoA N-acyltransferase domain)"
+NC_000913.2,250071,250827,1,b0230,b0230 ()
 NC_000913.2,254258,255716,-1,b0237,b0237 (aminoacyl-histidine dipeptidase (peptidase D))
 NC_000913.2,255976,258230,1,"b0238, b0239, b0240","b0238 (guanine-hypoxanthine phosphoribosyltransferase), b0239 (fermentation-respiration switch protein; PTS Enzyme IIA(Glc)-binding protein; pNP-butyrate esterase activity), b0240 (sigma factor-binding protein, stimulates RNA polymerase holoenzyme formation)"
 NC_000913.2,258268,259324,-1,b0241,b0241 (outer membrane phosphoporin protein E)
@@ -823,7 +823,7 @@ NC_000913.2,2739381,2739747,1,b2602,b2602 (lipoprotein)
 NC_000913.2,2744455,2745817,-1,b2610,b2610 (Signal Recognition Particle (SRP) component with 4.5S RNA (ffs))
 NC_000913.2,2745983,2748082,1,"b2611, b4461","b2611 (putative inner membrane protein), b4461 (inner membrane protein, UPF0053 family)"
 NC_000913.2,2748136,2748730,-1,b2614,b2614 (heat shock protein)
-NC_000913.2,2748852,2751478,1,"b2615, b2616","b2615 (NAD kinase), b2616 (recombination and repair protein)"
+NC_000913.2,2748852,2749731,1,b2615,b2615 (NAD kinase)
 NC_000913.2,2752029,2752786,-1,"b2618, b2619","b2618 (conserved protein, UPF0125 family), b2619 (toxic UPF0083 family protein inhibitor of 70S ribosome formation)"
 NC_000913.2,2752917,2753400,1,b2620,b2620 (trans-translation protein)
 NC_000913.2,2755665,2756622,-1,b2623,b2623 (CP4-57 prophage; putative protein)
@@ -1118,7 +1118,7 @@ NC_000913.2,3782606,3783038,-1,b3611,b3611 (putative rhodanese-related sulfurtra
 NC_000913.2,3783282,3787083,1,"b3612, b3613, b3614","b3612 (phosphoglycero mutase III, cofactor-independent), b3613 (activator of AmiB,C murein hydrolases, septal ring factor), b3614 (putative polysaccharide deacetylase)"
 NC_000913.2,3790848,3791706,-1,b3618,"b3618 (conserved protein, pfam09612 family)"
 NC_000913.2,3792009,3796230,1,"b3619, b3620, b3621, b3622","b3619 (ADP-L-glycero-D-mannoheptose-6-epimerase, NAD(P)-binding), b3620 (ADP-heptose:LPS heptosyltransferase II), b3621 (ADP-heptose:LPS heptosyl transferase I), b3622 (O-antigen ligase)"
-NC_000913.2,3796261,3806121,-1,"b3623, b3624, b3625, b3626, b3627, b3628, b3629, b3630, b3631, b3632","b3623 (lipopolysaccharide core biosynthesis), b3624 (lipopolysaccharide core biosynthesis protein), b3625 (lipopolysaccharide core biosynthesis protein), b3626 (UDP-D-glucose:(galactosyl)lipopolysaccharide glucosyltransferase), b3627 (UDP-D-galactose:(glucosyl)lipopolysaccharide- alpha-1,3-D-galactosyltransferase), b3628 (UDP-D-galactose:(glucosyl)lipopolysaccharide-1, 6-D-galactosyltransferase), b3629 (lipopolysaccharide core biosynthesis protein), b3630 (kinase that phosphorylates core heptose of lipopolysaccharide), b3631 (glucosyltransferase I), b3632 (lipopolysaccharide core biosynthesis protein)"
+NC_000913.2,3800061,3806121,-1,"b3627, b3628, b3629, b3630, b3631, b3632","b3627 (UDP-D-galactose:(glucosyl)lipopolysaccharide- alpha-1,3-D-galactosyltransferase), b3628 (UDP-D-galactose:(glucosyl)lipopolysaccharide-1, 6-D-galactosyltransferase), b3629 (lipopolysaccharide core biosynthesis protein), b3630 (kinase that phosphorylates core heptose of lipopolysaccharide), b3631 (glucosyltransferase I), b3632 (lipopolysaccharide core biosynthesis protein)"
 NC_000913.2,3806562,3808327,1,"b3633, b3634","b3633 (3-deoxy-D-manno-octulosonic-acid transferase (KDO transferase)), b3634 (pantetheine-phosphate adenylyltransferase)"
 NC_000913.2,3809913,3810582,-1,b3638,"b3638 (conserved protein, UPF0758 family)"
 NC_000913.2,3810753,3812410,1,"b3639, b3640","b3639 (fused 4'-phosphopantothenoylcysteine decarboxylase/phosphopantothenoylcysteine synthetase, FMN-binding), b3640 (deoxyuridinetriphosphatase)"
@@ -1161,7 +1161,7 @@ NC_000913.2,3939830,3941533,1,"b3756, b3757","b3756 (16S ribosomal RNA of rrnC o
 NC_000913.2,3945150,3945990,-1,b4480,b4480 (DNA-binding transcriptional regulator)
 NC_000913.2,3946108,3946447,1,b3764,"b3764 (conserved protein, UPF0438 family)"
 NC_000913.2,3946471,3947992,-1,b3765,b3765 (putative bifunctional enzyme and transcriptional regulator)
-NC_000913.2,3948344,3954898,1,"b3766, b4669, b4488, b3769, b3770, b3771, b3772","b3766 (ilvG operon leader peptide), b4669 (hypothetical protein), b4488 (), b3769 (acetolactate synthase II, small subunit), b3770 (branched-chain amino-acid aminotransferase), b3771 (dihydroxyacid dehydratase), b3772 (threonine deaminase)"
+NC_000913.2,3948344,3951436,1,"b3766, b4669, b4488, b3769, b3770","b3766 (ilvG operon leader peptide), b4669 (hypothetical protein), b4488 (), b3769 (acetolactate synthase II, small subunit), b3770 (branched-chain amino-acid aminotransferase)"
 NC_000913.2,3954949,3955843,-1,b3773,b3773 (DNA-binding transcriptional dual regulator)
 NC_000913.2,3955992,3957468,1,b3774,"b3774 (ketol-acid reductoisomerase, NAD(P)-binding)"
 NC_000913.2,3958034,3958483,-1,b3777,b3777 ()
@@ -1173,7 +1173,7 @@ NC_000913.2,3984454,3984661,1,b4456,"b4456 (sRNA antisense activator of glmS mRN
 NC_000913.2,3984708,3988789,-1,"b3802, b3803, b3804, b3805","b3802 (putative protoheme IX synthesis protein), b3803 (putative uroporphyrinogen III methyltransferase), b3804 (uroporphyrinogen III synthase), b3805 (hydroxymethylbilane synthase)"
 NC_000913.2,3989175,3991722,1,b3806,b3806 (adenylate cyclase)
 NC_000913.2,3991761,3992082,-1,b3807,b3807 (iron-dependent inhibitor of iron-sulfur cluster formation; frataxin; iron-binding and oxidizing protein)
-NC_000913.2,3992544,3998168,1,"b4558, b3809, b3810, b3811, b3812, b3813","b4558 (putative lipoprotein), b3809 (diaminopimelate epimerase), b3810 (conserved protein, DUF484 family), b3811 (site-specific tyrosine recombinase), b3812 (FMN phosphatase), b3813 (DNA-dependent ATPase I and helicase II)"
+NC_000913.2,3992544,3995922,1,"b4558, b3809, b3810, b3811, b3812","b4558 (putative lipoprotein), b3809 (diaminopimelate epimerase), b3810 (conserved protein, DUF484 family), b3811 (site-specific tyrosine recombinase), b3812 (FMN phosphatase)"
 NC_000913.2,3998314,3999079,-1,b4482,"b4482 (putative protein, DUF2233 family)"
 NC_000913.2,3999448,4000399,1,b3816,b3816 (magnesium/nickel/cobalt transporter)
 NC_000913.2,4000441,4002720,-1,"b3817, b3818, b3819, b3820","b3817 (putative inner membrane protein), b3818 (conserved inner membrane protein), b3819 (putative chloramphenical resistance permease), b3820 (conserved protein, 4HBT family of thioesterases)"
@@ -1382,7 +1382,7 @@ NC_000913.2,25825,28207,1,"b0028, b0029, b0030","b0028 (FKBP-type peptidyl-proly
 NC_000913.2,36270,39115,-1,"b0037, b0038","b0037 (putative crotonobetaine/carnitine-CoA ligase), b0038 (crotonobetainyl CoA:carnitine CoA transferase)"
 NC_000913.2,47245,49631,1,"b0046, b0047","b0046 (potassium-efflux system ancillary protein for KefC, glutathione-regulated; quinone oxidoreductase, FMN-dependent), b0047 (potassium:proton antiporter)"
 NC_000913.2,58473,59269,1,b4659,b4659 ()
-NC_000913.2,63428,66550,-1,"b0060, b0061","b0060 (DNA polymerase II), b0061 (L-ribulose-5-phosphate 4-epimerase)"
+NC_000913.2,65854,66550,-1,b0061,b0061 (L-ribulose-5-phosphate 4-epimerase)
 NC_000913.2,72228,75480,-1,"b0066, b0067, b0068","b0066 (thiamin transporter subunit), b0067 (fused thiamin transporter subunits of ABC superfamily: membrane components), b0068 (thiamin transporter subunit)"
 NC_000913.2,85629,87848,1,"b0077, b0078","b0077 (acetolactate synthase III, large subunit), b0078 (acetolactate synthase III, thiamin-dependent, small subunit)"
 NC_000913.2,114521,117549,-1,"b0106, b0107, b0108","b0106 (assembly protein in type IV pilin biogenesis, transmembrane protein), b0107 (conserved protein with nucleoside triphosphate hydrolase domain), b0108 (putative major pilin subunit)"
@@ -1401,7 +1401,7 @@ NC_000913.2,236930,237007,1,b0216,b0216 (tRNA-Asp)
 NC_000913.2,244326,245094,1,b0223,b0223 (putative amidotransfease)
 NC_000913.2,245064,245805,-1,b0224,b0224 (hypothetical protein)
 NC_000913.2,247636,248134,1,b0228,b0228 (RAYT REP element-mobilizing transposase; TnpA(REP))
-NC_000913.2,253478,254202,1,"b0235, b0236","b0235 (), b0236 ()"
+NC_000913.2,250897,253161,1,"b0231, b0232, b0233, b0234","b0231 (DNA polymerase IV), b0232 (antitoxin of the YafO-YafN toxin-antitoxin system), b0233 (mRNA interferase toxin of the YafO-YafN toxin-antitoxin system), b0234 (putative acyltransferase with acyl-CoA N-acyltransferase domain)"
 NC_000913.2,262094,262170,1,b0244,b0244 (tRNA-Thr)
 NC_000913.2,266407,268184,-1,"b0252, b0253","b0252 (CP4-6 prophage; conserved protein), b0253 (CP4-6 prophage; predicted GTP-binding protein)"
 NC_000913.2,271803,271878,1,b4690,"b4690 (novel sRNA, function unknown, CP4-6 propahge)"
@@ -1571,7 +1571,7 @@ NC_000913.2,1642674,1642926,-1,b1561,b1561 (Qin prophage; putative protein)
 NC_000913.2,1644428,1644761,1,b1566,b1566 (Qin prophage; putative protein)
 NC_000913.2,1646531,1647065,1,"b1571, b1572, b1573","b1571 (Qin prophage; putative protein), b1572 (Qin prophage; putative protein), b1573 (conserved protein, Qin prophage)"
 NC_000913.2,1650919,1653165,-1,"b1580, b1581","b1580 (putative oxidoreductase, Zn-dependent and NAD(P)-binding), b1581 (bifunctional D-altronate/D-mannonate dehydratase)"
-NC_000913.2,1656092,1663144,1,"b1587, b1588, b1589, b1590, b1591","b1587 (putative selenate reductase, periplasmic), b1588 (S- and N-oxide reductase, A subunit, periplasmic), b1589 (oxidoreductase, Fe-S subunit), b1590 (oxidoreductase, membrane subunit), b1591 (twin-argninine leader-binding protein for DmsA and TorA)"
+NC_000913.2,1656092,1661631,1,"b1587, b1588, b1589","b1587 (putative selenate reductase, periplasmic), b1588 (S- and N-oxide reductase, A subunit, periplasmic), b1589 (oxidoreductase, Fe-S subunit)"
 NC_000913.2,1665367,1666588,-1,b1594,b1594 (global DNA-binding transcriptional repressor; autorepressor; required for anaerobic growth on glucosamine)
 NC_000913.2,1669399,1670805,1,"b1597, b4601, b1598","b1597 (acid shock-inducible periplasmic protein), b4601 (hypothetical protein), b1598 (putative peptidase)"
 NC_000913.2,1677580,1679722,1,"b1605, b1606","b1605 (putative arginine/ornithine antiporter transporter), b1606 (dihydromonapterin reductase, NADPH-dependent; dihydrofolate reductase isozyme)"
@@ -1700,7 +1700,7 @@ NC_000913.2,2727637,2729179,-1,b2591,b2591 (16S ribosomal RNA of rrnG operon)
 NC_000913.2,2735175,2735517,1,b2597,b2597 (cold shock protein associated with 30S ribosomal subunit)
 NC_000913.2,2739896,2742129,1,"b2603, b2604, b2605","b2603 (putative periplasmic inhibitor of YfiN activity), b2604 (putative membrane-anchored diguanylate cyclase with an N-terminal periplasmic domain), b2605 (putative positive effector of YfiN activity, OM lipoprotein)"
 NC_000913.2,2742204,2744207,-1,"b2606, b2607, b2608, b2609","b2606 (50S ribosomal subunit protein L19), b2607 (tRNA m(1)G37 methyltransferase, SAM-dependent), b2608 (16S rRNA processing protein), b2609 (30S ribosomal subunit protein S16)"
-NC_000913.2,2751626,2751968,1,b2617,b2617 (lipoprotein component of BamABCDE OM biogenesis complex)
+NC_000913.2,2749816,2751478,1,b2616,b2616 (recombination and repair protein)
 NC_000913.2,2753614,2753977,1,b2621,"b2621 (tmRNA, 10Sa RNA)"
 NC_000913.2,2757006,2758416,1,b2625,b2625 (CP4-57 prophage; putative protein)
 NC_000913.2,2759372,2763175,-1,"b2627, b2628","b2627 (CP4-57 prophage; conserved protein), b2628 (CP4-57 prophage; putative protein)"
@@ -1709,7 +1709,7 @@ NC_000913.2,2773566,2775804,1,"b4644, b2643, b2644, b4548, b2645, b2646","b4644 
 NC_000913.2,2781659,2783033,-1,b2650,b2650 ()
 NC_000913.2,2787006,2792037,1,"b2659, b2660, b2661, b2662","b2659 (carbon starvation protein), b2660 (L-2-hydroxyglutarate oxidase), b2661 (succinate-semialdehyde dehydrogenase I, NADP-dependent), b2662 (4-aminobutyrate aminotransferase, PLP-dependent)"
 NC_000913.2,2798744,2802483,1,"b2673, b2674, b2675, b2676","b2673 (hydrogen donor for NrdEF electron transport system; glutaredoxin-like protein), b2674 (flavodoxin required for NrdEF cluster assembly), b2675 (ribonucleoside-diphosphate reductase 2, alpha subunit), b2676 (ribonucleoside-diphosphate reductase 2, beta subunit, ferritin-like protein)"
-NC_000913.2,2820160,2822368,-1,"b2698, b2699, b2700","b2698 (regulatory protein for RecA), b2699 (DNA strand exchange and recombination protein with protease and nuclease activity), b2700 (NMN amidohydrolase)"
+NC_000913.2,2821870,2822368,-1,b2700,b2700 (NMN amidohydrolase)
 NC_000913.2,2826642,2828800,1,"b2706, b2707, b2708","b2706 (DNA-binding transcriptional activator of glucitol operon), b2707 (DNA-bindng transcriptional repressor), b2708 (D-arabinose 5-phosphate isomerase)"
 NC_000913.2,2835599,2836127,-1,b2713,"b2713 (formate dehydrogenase-H, [4Fe-4S] ferredoxin subunit)"
 NC_000913.2,2840594,2847871,-1,"b2717, b2718, b2719, b2720, b2721, b2722, b2723, b2724","b2717 (protease involved in processing C-terminal end of HycE), b2718 (protein required for maturation of hydrogenase 3), b2719 (hydrogenase 3 and formate hydrogenase complex, HycG subunit), b2720 (formate hydrogenlyase complex iron-sulfur protein), b2721 (hydrogenase 3, large subunit), b2722 (hydrogenase 3, membrane subunit), b2723 (hydrogenase 3, membrane subunit), b2724 (hydrogenase 3, Fe-S subunit)"
@@ -1778,7 +1778,7 @@ NC_000913.2,3446335,3451292,-1,"b3311, b3312, b3313, b3314, b3315, b3316, b3317,
 NC_000913.2,3472699,3474462,-1,"b3343, b3344, b3345, b3346","b3343 (protein required for 2-thiolation step of mnm(5)-s(2)U34-tRNA synthesis), b3344 (protein required for 2-thiolation step of mnm(5)-s(2)U34-tRNA synthesis), b3345 (sulfurtransferase for 2-thiolation step of mnm(5)-s(2)U34-tRNA synthesis), b3346 (hypothetical protein)"
 NC_000913.2,3486981,3489642,-1,"b3359, b3360, b3361, b3362","b3359 (bifunctional acetylornithine aminotransferase/ succinyldiaminopimelate aminotransferase), b3360 (aminodeoxychorismate synthase, subunit II), b3361 (stationary-phase adenosine monophosphate-protein transferase domain protein), b3362 (putative Fic-binding protein)"
 NC_000913.2,3492032,3494899,1,"b3365, b3366","b3365 (nitrite reductase, large subunit, NAD(P)H-binding), b3366 (nitrite reductase, NAD(P)H-binding, small subunit)"
-NC_000913.2,3514041,3517086,-1,"b3388, b3389, b3390","b3388 (cell division protein that binds to the septal ring), b3389 (3-dehydroquinate synthase), b3390 (shikimate kinase I)"
+NC_000913.2,3516564,3517086,-1,b3390,b3390 (shikimate kinase I)
 NC_000913.2,3538184,3540986,1,"b3408, b3409, b3410","b3408 (ferrous iron transporter, protein A), b3409 (fused ferrous iron transporter, protein B: GTP-binding protein/membrane protein), b3410 (putative DNA-binding transcriptional regulator)"
 NC_000913.2,3544580,3545897,1,b3415,"b3415 (gluconate transporter, high-affinity GNT I system)"
 NC_000913.2,3562156,3571525,-1,"b3428, b3429, b3430, b3431, b3432","b3428 (glycogen phosphorylase), b3429 (glycogen synthase), b3430 (glucose-1-phosphate adenylyltransferase), b3431 (glycogen debranching enzyme), b3432 (1,4-alpha-glucan branching enzyme)"
@@ -1809,6 +1809,7 @@ NC_000913.2,3772446,3774182,1,"b3600, b3601","b3600 (mannitol-1-phosphate dehydr
 NC_000913.2,3775421,3779040,1,"b3603, b3604, b3605","b3603 (L-lactate permease), b3604 (dual role activator/repressor for lldPRD operon), b3605 (L-lactate dehydrogenase, FMN-linked)"
 NC_000913.2,3779763,3782465,-1,"b3607, b3608, b3609, b3610","b3607 (serine acetyltransferase), b3608 (glycerol-3-phosphate dehydrogenase (NAD+)), b3609 (protein export chaperone), b3610 (glutaredoxin 3)"
 NC_000913.2,3788342,3790574,-1,"b3616, b3617","b3616 (threonine 3-dehydrogenase, NAD(P)-binding), b3617 (glycine C-acetyltransferase)"
+NC_000913.2,3796261,3800022,-1,"b3623, b3624, b3625, b3626","b3623 (lipopolysaccharide core biosynthesis), b3624 (lipopolysaccharide core biosynthesis protein), b3625 (lipopolysaccharide core biosynthesis protein), b3626 (UDP-D-glucose:(galactosyl)lipopolysaccharide glucosyltransferase)"
 NC_000913.2,3808365,3809697,-1,"b3635, b3636, b3637","b3635 (formamidopyrimidine/5-formyluracil/ 5-hydroxymethyluracil DNA glycosylase), b3636 (50S ribosomal subunit protein L33), b3637 (50S ribosomal subunit protein L28)"
 NC_000913.2,3812516,3813113,1,b3641,b3641 (DNA-binding anti-FtsZ division inhibitor)
 NC_000913.2,3815782,3816607,1,b3645,b3645 (DNA-damage-inducible protein)
@@ -1824,9 +1825,11 @@ NC_000913.2,3884850,3886215,1,b3706,b3706 (GTPase required for 5-methylaminometh
 NC_000913.2,3921079,3923656,-1,"b3740, b3741","b3740 (16S rRNA m(7)G527 methyltransferase, SAM-dependent; glucose-inhibited cell-division protein), b3741 (5-methylaminomethyl-2-thiouridine modification at tRNA U34)"
 NC_000913.2,3931373,3935191,1,"b3748, b3749, b3750, b3751","b3748 (putative cytoplasmic sugar-binding protein), b3749 (fused D-ribose transporter subunits of ABC superfamily: ATP-binding components), b3750 (D-ribose transporter subunit), b3751 (D-ribose transporter subunit)"
 NC_000913.2,3941726,3945055,1,"b3758, b3759, b3760, b3761","b3758 (23S ribosomal RNA of rrnC operon), b3759 (5S ribosomal RNA of rrnC operon), b3760 (tRNA-Asp), b3761 (tRNA-Trp)"
+NC_000913.2,3951500,3954898,1,"b3771, b3772","b3771 (dihydroxyacid dehydratase), b3772 (threonine deaminase)"
 NC_000913.2,3957554,3957836,-1,b3775,b3775 (peptidyl-prolyl cis-trans isomerase C (rotamase C))
 NC_000913.2,3960767,3962252,-1,b3779,b3779 (guanosine pentaphosphatase/exopolyphosphatase)
 NC_000913.2,3964439,3965699,1,b3783,b3783 (transcription termination factor)
+NC_000913.2,3996005,3998168,1,b3813,b3813 (DNA-dependent ATPase I and helicase II)
 NC_000913.2,4003886,4006400,1,"b3822, b3823","b3822 (ATP-dependent DNA helicase), b3823 (threonine efflux pump)"
 NC_000913.2,4015355,4022359,1,"b3832, b3833, b3834, b4707, b3835, b3836, b3838, b3839, b4483","b3832 (putative recombination limiting protein), b3833 (bifunctional 2-octaprenyl-6-methoxy-1,4-benzoquinone methylase/ S-adenosylmethionine:2-DMK methyltransferase), b3834 (conserved protein, SCP2 family), b4707 (essential sRNA of unknown function), b3835 (2-octaprenylphenol hydroxylase), b3836 (TatABCE protein translocation system subunit), b3838 (TatABCE protein translocation system subunit), b3839 (TatABCE protein translocation system subunit), b4483 (quality control of Tat-exported FeS proteins; Mg-dependent cytoplasmic DNase)"
 NC_000913.2,4033553,4035358,1,"b3851, b3852, b3853","b3851 (16S ribosomal RNA of rrnA operon), b3852 (tRNA-Ile), b3853 (tRNA-Ala)"
@@ -1913,7 +1916,7 @@ NC_000913.2,4638964,4639651,1,b4403,b4403 (putative methyltransferase)
 NC_000913.2,28373,29195,1,b0031,b0031 (dihydrodipicolinate reductase)
 NC_000913.2,34780,36162,-1,"b0035, b0036","b0035 (stimulator of CaiD and CaiB enzyme activities), b0036 (carnitinyl-CoA dehydratase)"
 NC_000913.2,49822,50302,1,b0048,b0048 (dihydrofolate reductase)
-NC_000913.2,59686,63264,-1,"b0058, b0059","b0058 (dual specificity 23S rRNA pseudouridine(746), tRNA pseudouridine(32) synthase, SAM-dependent), b0059 (RNA polymerase-associated helicase protein (ATPase and RNA polymerase recycling factor))"
+NC_000913.2,63428,65780,-1,b0060,b0060 (DNA polymerase II)
 NC_000913.2,88027,89032,1,b0080,b0080 (DNA-binding transcriptional repressor-activator for carbon metabolism)
 NC_000913.2,127911,129336,1,b0116,"b0116 (lipoamide dehydrogenase, E3 component is part of three enzyme complexes)"
 NC_000913.2,149714,156883,-1,"b0135, b0136, b0137, b0138, b0139, b0140, b0141","b0135 (putative fimbrial-like adhesin protein), b0136 (putative fimbrial-like adhesin protein), b0137 (putative fimbrial-like adhesin protein), b0138 (putative fimbrial-like adhesin protein), b0139 (putative outer membrane usher protein), b0140 (putative periplasmic pilin chaperone), b0141 (putative fimbrial-like adhesin protein)"
@@ -1923,6 +1926,7 @@ NC_000913.2,191854,192580,1,b0171,b0171 (uridylate kinase)
 NC_000913.2,216178,218775,-1,"b0193, b0194","b0193 (putative lipoprotein), b0194 (prolyl-tRNA synthetase)"
 NC_000913.2,225758,229004,1,"b0204, b0205, b0206","b0204 (23S ribosomal RNA of rrnH operon), b0205 (5S ribosomal RNA of rrnH operon), b0206 (tRNA-Asp)"
 NC_000913.2,237334,238120,1,b0217,b0217 (lipoprotein)
+NC_000913.2,253478,254202,1,"b0235, b0236","b0235 (), b0236 ()"
 NC_000913.2,262551,266191,-1,"b0245, b0246, b4504, b0247, b0248, b0249, b0250, b0251, b4627, b4628","b0245 (CP4-6 prophage; toxin of the YkfI-YafW toxin-antitoxin system), b0246 (CP4-6 prophage; antitoxin of the YkfI-YafW toxin-antitoxin system), b4504 (hypothetical protein), b0247 (CP4-6 prophage; predicted DNA repair protein), b0248 (CP4-6 prophage; putative protein), b0249 (CP4-6 prophage; putative protein), b0250 (CP4-6 prophage; putative protein), b0251 (lipoprotein, inner membrane; overproduction stimulates degP expression; CP4-6 prophage), b4627 (), b4628 ()"
 NC_000913.2,272070,273178,1,b0258,b0258 ()
 NC_000913.2,292443,294023,-1,"b0278, b0279","b0278 (CP4-6 prophage; DNA-binding protein), b0279 (CP4-6 prophage; putative protein)"
@@ -1967,7 +1971,7 @@ NC_000913.2,985116,986205,-1,b0929,b0929 (outer membrane porin 1a (Ia;b;F))
 NC_000913.2,1005174,1005717,1,b0946,b0946 (FtsZ stabilizer)
 NC_000913.2,1014937,1015105,1,b0953,b0953 (ribosome modulation factor)
 NC_000913.2,1084214,1085279,1,b1020,b1020 (conserved protein with nucleoside triphosphate hydrolase domain)
-NC_000913.2,1120464,1121830,-1,"b1061, b1062","b1061 (DNA damage-inducible protein I), b1062 (dihydro-orotase)"
+NC_000913.2,1120783,1121830,-1,b1062,b1062 (dihydro-orotase)
 NC_000913.2,1152522,1156797,1,"b1096, b1097, b1098, b1099, b1100","b1096 (4-amino-4-deoxychorismate lyase component of para-aminobenzoate synthase multienzyme complex), b1097 (septation protein, ampicillin sensitivity), b1098 (thymidylate kinase), b1099 (DNA polymerase III, delta prime subunit), b1100 (putative DNAse)"
 NC_000913.2,1166821,1167361,1,b1110,b1110 (hypothetical protein)
 NC_000913.2,1168634,1169597,-1,b1113,"b1113 (L,D-transpeptidase linking Lpp to murein)"
@@ -1995,7 +1999,7 @@ NC_000913.2,1607252,1608704,-1,b1521,"b1521 (altronate oxidoreductase, NAD-depen
 NC_000913.2,1637053,1637551,-1,"b1553, b4689","b1553 (Rz-like protein, Qin prophage), b4689 (putative Rz1-like lipoprotein, Qin prophage)"
 NC_000913.2,1640512,1642328,-1,"b1559, b1560","b1559 (Qin prophage; predicted antitermination protein Q), b1560 (Qin prophage; putative protein)"
 NC_000913.2,1647405,1647458,1,b1574,"b1574 (sRNA antisense regulator, inhibits ftsZ, Hfq-dependent; Qin prophage)"
-NC_000913.2,1663338,1664595,1,b1592,b1592 (H(+)/Cl(-) exchange transporter)
+NC_000913.2,1661632,1663144,1,"b1590, b1591","b1590 (oxidoreductase, membrane subunit), b1591 (twin-argninine leader-binding protein for DmsA and TorA)"
 NC_000913.2,1664547,1665243,-1,b1593,b1593 (putative dethiobiotin synthetase)
 NC_000913.2,1694485,1695076,-1,b1618,b1618 (DNA-binding transcriptional repressor)
 NC_000913.2,1710792,1712295,1,b1634,b1634 (dipeptide and tripeptide permease A)
@@ -2051,6 +2055,7 @@ NC_000913.2,2685091,2687528,-1,"b2553, b2554, b2555","b2553 (regulatory protein 
 NC_000913.2,2698639,2702085,-1,"b2563, b2564, b2565, b2566, b2567","b2563 (holo-[acyl-carrier-protein] synthase 1), b2564 (pyridoxine 5'-phosphate synthase), b2565 (gap repair protein), b2566 (membrane-associated, 16S rRNA-binding GTPase), b2567 (RNase III)"
 NC_000913.2,2727390,2727466,-1,b2590,b2590 (tRNA-Glu)
 NC_000913.2,2735620,2736927,1,"b2598, b2599","b2598 (pheA gene leader peptide), b2599 (fused chorismate mutase P/prephenate dehydratase)"
+NC_000913.2,2751626,2751968,1,b2617,b2617 (lipoprotein component of BamABCDE OM biogenesis complex)
 NC_000913.2,2754180,2755422,1,b2622,b2622 (CP4-57 prophage; integrase)
 NC_000913.2,2758568,2759195,1,b2626,b2626 (CP4-57 prophage; putative protein)
 NC_000913.2,2767724,2769637,1,"b2634, b2635, b2636, b2637","b2634 (CP4-57 prophage; predicted DNA-binding transcriptional regulator), b2635 (CP4-57 prophage; predicted inner membrane protein), b2636 (CP4-57 prophage; putative protein), b2637 (CP4-57 prophage; putative protein)"
@@ -2058,7 +2063,7 @@ NC_000913.2,2775993,2776007,1,b4645,b4645 ()
 NC_000913.2,2781086,2781326,-1,b2648,b2648 ()
 NC_000913.2,2792274,2794358,1,"b2663, b2664","b2663 (gamma-aminobutyrate transporter), b2664 (DNA-binding transcriptional repressor of csiD)"
 NC_000913.2,2802836,2806146,1,"b2677, b2678, b2679","b2677 (glycine betaine transporter subunit), b2678 (glycine betaine transporter subunit), b2679 (glycine betaine transporter subunit)"
-NC_000913.2,2817402,2820033,-1,b2697,b2697 (alanyl-tRNA synthetase)
+NC_000913.2,2820160,2821791,-1,"b2698, b2699","b2698 (regulatory protein for RecA), b2699 (DNA strand exchange and recombination protein with protease and nuclease activity)"
 NC_000913.2,2833194,2835447,-1,b2712,b2712 (carbamoyl phosphate phosphatase and maturation protein for [NiFe] hydrogenases)
 NC_000913.2,2864580,2866775,-1,"b2741, b2742","b2741 (RNA polymerase, sigma S (sigma 38) factor), b2742 (activator of AmiC murein hydrolase activity, lipoprotein)"
 NC_000913.2,2916066,2920122,-1,"b2787, b2788, b2789","b2787 ((D)-glucarate dehydratase 1), b2788 (glucarate dehydratase-related protein, substrate unknown), b2789 (putative D-glucarate transporter)"
@@ -2098,7 +2103,7 @@ NC_000913.2,3417063,3421216,1,"b3268, b3269, b3270, b3271","b3268 (), b3269 (put
 NC_000913.2,3440639,3446171,-1,"b3299, b3300, b3301, b3302, b3303, b3304, b3305, b3306, b3307, b3308, b3309, b3310","b3299 (50S ribosomal subunit protein L36), b3300 (preprotein translocase membrane subunit), b3301 (50S ribosomal subunit protein L15), b3302 (50S ribosomal subunit protein L30), b3303 (30S ribosomal subunit protein S5), b3304 (50S ribosomal subunit protein L18), b3305 (50S ribosomal subunit protein L6), b3306 (30S ribosomal subunit protein S8), b3307 (30S ribosomal subunit protein S14), b3308 (50S ribosomal subunit protein L5), b3309 (50S ribosomal subunit protein L24), b3310 (50S ribosomal subunit protein L14)"
 NC_000913.2,3468166,3472574,-1,"b3339, b3340, b3341, b3342","b3339 (protein chain elongation factor EF-Tu (duplicate of tufB)), b3340 (protein chain elongation factor EF-G, GTP-binding), b3341 (30S ribosomal subunit protein S7), b3342 (30S ribosomal subunit protein S12)"
 NC_000913.2,3495024,3497223,1,"b3367, b3368","b3367 (nitrite transporter), b3368 (fused siroheme synthase 1,3-dimethyluroporphyriongen III dehydrogenase and siroheme ferrochelatase/uroporphyrinogen methyltransferase)"
-NC_000913.2,3510655,3513935,-1,"b3384, b3385, b3386, b3387","b3384 (tryptophanyl-tRNA synthetase), b3385 (phosphoglycolate phosphatase), b3386 (D-ribulose-5-phosphate 3-epimerase), b3387 (DNA adenine methyltransferase)"
+NC_000913.2,3514041,3516508,-1,"b3388, b3389","b3388 (cell division protein that binds to the septal ring), b3389 (3-dehydroquinate synthase)"
 NC_000913.2,3541188,3542067,1,b3411,b3411 (putative transposase)
 NC_000913.2,3561809,3562028,-1,b3427,b3427 ()
 NC_000913.2,3576972,3577668,-1,b3439,b3439 (quercetinase activity in vitro)
@@ -2162,6 +2167,7 @@ NC_000913.2,4595172,4597464,-1,b4359,b4359 (phosphoglycerol transferases I and I
 NC_000913.2,4610150,4610312,1,b4568,b4568 (hypothetical protein)
 NC_000913.2,4619791,4621123,1,b4385,b4385 (putative protein kinase)
 NC_000913.2,29650,34038,1,"b0032, b0033","b0032 (carbamoyl phosphate synthetase small subunit, glutamine amidotransferase), b0033 (carbamoyl-phosphate synthase large subunit)"
+NC_000913.2,59686,63264,-1,"b0058, b0059","b0058 (dual specificity 23S rRNA pseudouridine(746), tRNA pseudouridine(32) synthase, SAM-dependent), b0059 (RNA polymerase-associated helicase protein (ATPase and RNA polymerase recycling factor))"
 NC_000913.2,89633,107474,1,"b0081, b0082, b0083, b0084, b0085, b0086, b0087, b0088, b0089, b0090, b0091, b0092, b0093, b0094, b0095, b0096","b0081 (RsmH methytransferase inhibitor), b0082 (16S rRNA m(4)C1402 methyltransferase, SAM-dependent), b0083 (membrane bound cell division protein at septum containing leucine zipper motif), b0084 (transpeptidase involved in septal peptidoglycan synthesis (penicillin-binding protein 3)), b0085 (UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:meso- diaminopimelate ligase), b0086 (UDP-N-acetylmuramoyl-tripeptide:D-alanyl-D- alanine ligase), b0087 (phospho-N-acetylmuramoyl-pentapeptide transferase), b0088 (UDP-N-acetylmuramoyl-L-alanine:D-glutamate ligase), b0089 (lipid II flippase; integral membrane protein involved in stabilizing FstZ ring during cell division), b0090 (N-acetylglucosaminyl transferase), b0091 (UDP-N-acetylmuramate:L-alanine ligase), b0092 (D-alanine:D-alanine ligase), b0093 (divisome assembly protein, membrane anchored protein involved in growth of wall at septum), b0094 (ATP-binding cell division protein involved in recruitment of FtsK to Z ring), b0095 (GTP-binding tubulin-like cell division protein), b0096 (UDP-3-O-acyl N-acetylglucosamine deacetylase)"
 NC_000913.2,147943,149601,-1,"b0133, b0134","b0133 (pantothenate synthetase), b0134 (3-methyl-2-oxobutanoate hydroxymethyltransferase)"
 NC_000913.2,192871,194717,1,"b0172, b0173","b0172 (ribosome recycling factor), b0173 (1-deoxy-D-xylulose 5-phosphate reductoisomerase)"
@@ -2185,7 +2191,7 @@ NC_000913.2,925106,925194,-1,b0883,b0883 (tRNA-Ser)
 NC_000913.2,940181,944119,1,"b0894, b0895, b0896","b0894 (dimethyl sulfoxide reductase, anaerobic, subunit A), b0895 (dimethyl sulfoxide reductase, anaerobic, subunit B), b0896 (dimethyl sulfoxide reductase, anaerobic, subunit C)"
 NC_000913.2,960423,961107,1,b0910,b0910 (cytidylate kinase)
 NC_000913.2,983741,984932,-1,b0928,"b0928 (aspartate aminotransferase, PLP-dependent)"
-NC_000913.2,1119923,1120178,-1,b1060,b1060 (biofilm regulator)
+NC_000913.2,1120464,1120710,-1,b1061,b1061 (DNA damage-inducible protein I)
 NC_000913.2,1157091,1158525,1,b1101,b1101 (fused glucose-specific PTS enzymes: IIB component/IIC component)
 NC_000913.2,1210902,1211226,-1,b1160,"b1160 (RpoS stabilzer during Mg starvation, anti-RssB factor)"
 NC_000913.2,1218205,1218424,1,b4520,b4520 (inner membrane division septum protein)
@@ -2199,6 +2205,7 @@ NC_000913.2,1588357,1588560,-1,b1506,b1506 ()
 NC_000913.2,1606131,1607046,-1,b1520,"b1520 (putative inner membrane protein, bestrophin family)"
 NC_000913.2,1636478,1636691,-1,b1552,b1552 (Qin prophage; cold shock protein)
 NC_000913.2,1647632,1650732,1,"b1575, b1576, b1577, b1578, b1579","b1575 (Qin prophage; cell division inhibition protein), b1576 (Qin prophage; putative protein), b1577 (), b1578 (), b1579 ()"
+NC_000913.2,1663338,1664595,1,b1592,b1592 (H(+)/Cl(-) exchange transporter)
 NC_000913.2,1689609,1694095,-1,"b1615, b1616, b1617","b1615 (putative outer membrane porin protein), b1616 (glucuronide transporter), b1617 (beta-D-glucuronidase)"
 NC_000913.2,1712400,1713006,1,b1635,b1635 (glutathionine S-transferase)
 NC_000913.2,1755744,1756749,-1,b1678,"b1678 (murein L,D-transpeptidase)"
@@ -2228,7 +2235,7 @@ NC_000913.2,2653096,2654380,-1,b2523,b2523 (aminopeptidase B)
 NC_000913.2,2724090,2727206,-1,"b2588, b2589","b2588 (5S ribosomal RNA of rrnG operon), b2589 (23S ribosomal RNA of rrnG operon)"
 NC_000913.2,2776167,2780748,-1,b2647,b2647 (adhesin-like autotransporter)
 NC_000913.2,2806337,2807515,1,b2681,b2681 ()
-NC_000913.2,2816982,2817168,-1,b2696,b2696 (pleiotropic regulatory protein for carbon source metabolism)
+NC_000913.2,2817402,2820033,-1,b2697,b2697 (alanyl-tRNA synthetase)
 NC_000913.2,2929076,2929832,1,b2798,"b2798 (Ssb-binding protein, misidentified as ExoIX)"
 NC_000913.2,2948656,2956906,-1,"b2819, b2820, b2821","b2819 (exonuclease V (RecBCD complex), alpha chain), b2820 (exonuclease V (RecBCD complex), beta subunit), b2821 (protease III)"
 NC_000913.2,2977964,2978657,-1,b2840,"b2840 (conserved protein, Asp/Glu_racemase family)"
@@ -2248,7 +2255,7 @@ NC_000913.2,3408301,3410822,1,"b3260, b3261, b3262, b3263","b3260 (tRNA-dihydrou
 NC_000913.2,3437637,3440493,-1,"b3294, b3295, b3296, b3297, b3298","b3294 (50S ribosomal subunit protein L17), b3295 (RNA polymerase, alpha subunit), b3296 (30S ribosomal subunit protein S4), b3297 (30S ribosomal subunit protein S11), b3298 (30S ribosomal subunit protein S13)"
 NC_000913.2,3465181,3467875,-1,b3338,b3338 (periplasmic endochitinase)
 NC_000913.2,3497469,3497637,1,b3369,b3369 (small lipoprotein)
-NC_000913.2,3502956,3510366,-1,"b3376, b3377, b3378, b3379, b3380, b3381, b3382, b3383","b3376 (hypothetical protein), b3377 (putative inner membrane protein), b3378 (hypothetical protein), b3379 (putative hydrolase), b3380 (putative mutase), b3381 (putative amino acid racemase), b3382 (hypothetical protein), b3383 (hypothetical protein)"
+NC_000913.2,3510655,3513935,-1,"b3384, b3385, b3386, b3387","b3384 (tryptophanyl-tRNA synthetase), b3385 (phosphoglycolate phosphatase), b3386 (D-ribulose-5-phosphate 3-epimerase), b3387 (DNA adenine methyltransferase)"
 NC_000913.2,3575753,3576749,-1,b3438,b3438 (DNA-binding transcriptional repressor)
 NC_000913.2,3582781,3583066,1,b3446,b3446 (stable heat shock chaperone)
 NC_000913.2,3621909,3622260,1,b4552,b4552 ()
@@ -2287,7 +2294,7 @@ NC_000913.2,737314,738076,1,b0706,b0706 (hypothetical protein)
 NC_000913.2,779776,779852,1,b0743,b0743 (tRNA-Lys)
 NC_000913.2,842477,844703,-1,b0808,"b0808 (mechanosensitive channel protein, intermediate conductance)"
 NC_000913.2,961217,962891,1,b0911,b0911 (30S ribosomal subunit protein S1)
-NC_000913.2,1118529,1119809,-1,"b1058, b1059","b1058 (hypothetical protein), b1059 (N-methyltryptophan oxidase, FAD-binding)"
+NC_000913.2,1119923,1120178,-1,b1060,b1060 (biofilm regulator)
 NC_000913.2,1218823,1221471,1,b4491,b4491 ()
 NC_000913.2,1348274,1349063,-1,b1288,"b1288 (enoyl-[acyl-carrier-protein] reductase, NADH-dependent)"
 NC_000913.2,1431107,1431698,-1,b1374,b1374 (Rac prophage; predicted site-specific recombinase)
@@ -2303,7 +2310,7 @@ NC_000913.2,2635495,2638597,-1,"b2512, b2513, b2514","b2512 (lipoprotein require
 NC_000913.2,2652178,2652955,-1,b2522,"b2522 (rhodanase-like enzyme, sulfur transfer from thiosulfate)"
 NC_000913.2,2722469,2723768,-1,b2587,b2587 (alpha-ketoglutarate transporter)
 NC_000913.2,2807638,2809322,1,"b2682, b2683, b2684","b2682 (putative L-valine exporter, norvaline resistance), b2683 (putative L-valine exporter, norvaline resistance), b2684 (DNA-binding transcriptional repressor of microcin B17 synthesis and multidrug efflux)"
-NC_000913.2,2816494,2816667,-1,"b2694, b2695","b2694 (tRNA-Arg), b2695 (tRNA-Ser)"
+NC_000913.2,2816982,2817168,-1,b2696,b2696 (pleiotropic regulatory protein for carbon source metabolism)
 NC_000913.2,3066968,3067829,-1,b2924,"b2924 (mechanosensitive channel protein, small conductance)"
 NC_000913.2,3108611,3110963,-1,"b2968, b2969, b2970","b2968 (putative secretion pathway M-type protein, membrane anchored), b2969 (), b2970 ()"
 NC_000913.2,3159278,3161503,-1,"b3017, b3018","b3017 (septal ring component that protects the divisome from stress; multicopy suppressor of ftsI(Ts)), b3018 (1-acyl-sn-glycerol-3-phosphate acyltransferase)"
@@ -2311,6 +2318,7 @@ NC_000913.2,3248583,3250032,1,"b3101, b3102","b3101 (putative quinol oxidase sub
 NC_000913.2,3436452,3437531,-1,"b4550, b3292, b3293","b4550 (alternate ribosome-rescue factor A), b3292 (DNA-binding transcriptional activator in response to Zn(II)), b3293 (conserved protein, DUF1992 family)"
 NC_000913.2,3464270,3465013,-1,"b3336, b3337","b3336 (bacterioferritin, iron storage and detoxification protein), b3337 (bacterioferritin-associated ferredoxin)"
 NC_000913.2,3497931,3502805,1,"b3370, b3371, b4474, b3374, b3375","b3370 (putative fructoselysine transporter), b3371 (fructoselysine-6-P-deglycase), b4474 (fructoselysine 3-epimerase), b3374 (fructoselysine 6-kinase), b3375 (putative DNA-binding transcriptional regulator)"
+NC_000913.2,3502956,3510366,-1,"b3376, b3377, b3378, b3379, b3380, b3381, b3382, b3383","b3376 (hypothetical protein), b3377 (putative inner membrane protein), b3378 (hypothetical protein), b3379 (putative hydrolase), b3380 (putative mutase), b3381 (putative amino acid racemase), b3382 (hypothetical protein), b3383 (hypothetical protein)"
 NC_000913.2,3573743,3575615,-1,"b4476, b3437","b4476 (gluconate transporter, low affinity GNT 1 system), b3437 (gluconate kinase 2)"
 NC_000913.2,3622400,3623537,1,b3484,b3484 (putative transposase)
 NC_000913.2,3699886,3703813,-1,"b3540, b3541, b3542, b3543","b3540 (dipeptide transporter), b3541 (dipeptide/heme transporter), b3542 (dipeptide/heme transporter), b3543 (dipeptide/heme transporter)"
@@ -2320,7 +2328,7 @@ NC_000913.2,3980980,3982216,1,b3800,b3800 (putative regulator of arylsulfatase a
 NC_000913.2,4107952,4108708,1,b3918,b3918 (CDP-diacylglycerol phosphotidylhydrolase)
 NC_000913.2,4170079,4172070,1,"b3972, b3973","b3972 (UDP-N-acetylenolpyruvoylglucosamine reductase, FAD-binding), b3973 (bifunctional biotin-[acetylCoA carboxylase] holoenzyme synthetase/ DNA-binding transcriptional repressor, bio-5'-AMP-binding)"
 NC_000913.2,4176469,4177606,1,"b3983, b3984","b3983 (50S ribosomal subunit protein L11), b3984 (50S ribosomal subunit protein L1)"
-NC_000913.2,4294458,4297389,-1,"b4078, b4079","b4078 (hypothetical protein), b4079 (formate dehydrogenase-H, selenopolypeptide subunit)"
+NC_000913.2,4295241,4297389,-1,b4079,"b4079 (formate dehydrogenase-H, selenopolypeptide subunit)"
 NC_000913.2,4312366,4315918,-1,"b4092, b4093, b4094, b4095, b4096","b4092 (5-phospho-alpha-D-ribosyl 1,2-cyclic phosphate phosphodiesterase), b4093 (putative aminoalkylphosphonic acid N-acetyltransferase), b4094 (ribose 1,5-bisphosphokinase), b4095 (ribophosphonate triphosphate hydrolase), b4096 (ribophosphonate triphosphate synthase subunit; predicted ATP transporter ATP-binding protein)"
 NC_000913.2,4330203,4333613,-1,"b4112, b4113, b4114","b4112 (sensory histidine kinase in two-component regulatory system with BasR), b4113 (DNA-binding response regulator in two-component regulatory system with BasS), b4114 (lipid A phosphoethanolamine transferase)"
 NC_000913.2,4360213,4360376,-1,b4654,b4654 ()
@@ -2333,7 +2341,7 @@ NC_000913.2,680945,683635,-1,"b0650, b0651","b0650 (Hsp70 family chaperone Hsc62
 NC_000913.2,738223,740148,1,"b0707, b0708","b0707 (conserved protein, DUF1722 family), b0708 (deoxyribodipyrimidine photolyase, FAD-binding)"
 NC_000913.2,779987,780141,1,"b0744, b0745","b0744 (tRNA-Val), b0745 (tRNA-Lys)"
 NC_000913.2,963050,963335,1,b0912,"b0912 (integration host factor (IHF), DNA-binding protein, beta subunit)"
-NC_000913.2,1117123,1118269,-1,"b1056, b1057","b1056 (secreted protein), b1057 (putative cytochrome b561)"
+NC_000913.2,1118529,1119809,-1,"b1058, b1059","b1058 (hypothetical protein), b1059 (N-methyltryptophan oxidase, FAD-binding)"
 NC_000913.2,1345001,1348131,-1,"b1286, b1287","b1286 (ribonuclease II), b1287 (putative oxidoreductase)"
 NC_000913.2,1582230,1584510,-1,b1501,b1501 (putative oxidoreductase)
 NC_000913.2,1635632,1635806,-1,b1550,b1550 (Qin prophage; multicopy suppressor of secG(Cs) and fabA6(Ts))
@@ -2342,21 +2350,23 @@ NC_000913.2,2420670,2421561,-1,b2305,b2305 (hypothetical protein)
 NC_000913.2,2562544,2563354,1,b2450,b2450 (CPZ-55 prophage; putative protein)
 NC_000913.2,2633620,2635378,-1,"b2510, b2511","b2510 (conserved protein, DUF1407 family), b2511 (GTPase; multicopy suppressor of ftsJ)"
 NC_000913.2,2809448,2812176,1,"b2685, b2686","b2685 (multidrug efflux system), b2686 (multidrug efflux system protein)"
-NC_000913.2,2816080,2816296,-1,"b2692, b2693","b2692 (tRNA-Arg), b2693 (tRNA-Arg)"
+NC_000913.2,2816494,2816667,-1,"b2694, b2695","b2694 (tRNA-Arg), b2695 (tRNA-Ser)"
 NC_000913.2,3065361,3066830,-1,"b2922, b2923","b2922 (oxidative stress defense protein), b2923 (arginine transporter)"
 NC_000913.2,3156948,3159168,-1,b4469,b4469 (Radical SAM superfamily protein)
 NC_000913.2,3250325,3250691,1,b3103,"b3103 (inner membrane protein, DUF805 family)"
 NC_000913.2,3891903,3893241,1,"b3712, b3713","b3712 (putative phosphopantetheinyl transferase, COG2091 family), b3713 (chromate reductase, Class I, flavoprotein)"
 NC_000913.2,3906571,3909548,-1,"b3726, b3727, b3728","b3726 (phosphate transporter subunit), b3727 (phosphate transporter subunit), b3728 (periplasmic phosphate binding protein, high-affinity)"
 NC_000913.2,4178018,4178948,1,"b3985, b3986","b3985 (50S ribosomal subunit protein L10), b3986 (50S ribosomal subunit protein L7/L12)"
+NC_000913.2,4294458,4295148,-1,b4078,b4078 (hypothetical protein)
 NC_000913.2,4358418,4359957,-1,b4133,b4133 (DNA-binding transcriptional activator)
 NC_000913.2,202100,213629,1,"b0180, b0181, b0182, b0183, b0184, b0185, b0186, b0187, b0188","b0180 ((3R)-hydroxymyristol acyl carrier protein dehydratase), b0181 (UDP-N-acetylglucosamine acetyltransferase), b0182 (tetraacyldisaccharide-1-P synthase), b0183 (ribonuclease HII, degrades RNA of DNA-RNA hybrids), b0184 (DNA polymerase III alpha subunit), b0185 (acetyl-CoA carboxylase, carboxytransferase, alpha subunit), b0186 (lysine decarboxylase 2, constitutive), b0187 (putative lyase), b0188 (tRNA(Ile)-lysidine synthetase)"
 NC_000913.2,461138,463010,1,b0441,"b0441 (periplasmic folding chaperone, has an inactive PPIase domain)"
 NC_000913.2,780290,780445,1,"b0746, b0747","b0746 (tRNA-Val), b0747 (tRNA-Lys)"
 NC_000913.2,963542,970821,1,"b0913, b0914, b0915, b0916, b0917, b0918","b0913 (inner membrane protein, ComEC family of competence proteins), b0914 (fused lipid transporter subunits of ABC superfamily: membrane component/ATP-binding component), b0915 (lipid A 4'kinase), b0916 (hypothetical protein), b0917 (peroxide and acid resistance protein, UPF0434 family), b0918 (3-deoxy-manno-octulosonate cytidylyltransferase)"
+NC_000913.2,1117123,1118269,-1,"b1056, b1057","b1056 (secreted protein), b1057 (putative cytochrome b561)"
 NC_000913.2,1580949,1581983,-1,"b1499, b1500","b1499 (UV-inducible global regulator, EvgA-, GadE-dependent), b1500 (two-component system connector membrane protein, EvgSA to PhoQP)"
 NC_000913.2,2097885,2099292,-1,b2029,"b2029 (6-phosphogluconate dehydrogenase, decarboxylating)"
-NC_000913.2,2815805,2815882,-1,b2691,b2691 (tRNA-Arg)
+NC_000913.2,2816080,2816296,-1,"b2692, b2693","b2692 (tRNA-Arg), b2693 (tRNA-Arg)"
 NC_000913.2,3064298,3065195,-1,b2921,b2921 (putative DNA-binding transcriptional regulator)
 NC_000913.2,3250932,3251289,1,b3104,"b3104 (inner membrane protein, DUF805 family)"
 NC_000913.2,3904875,3906389,-1,"b3724, b3725","b3724 (negative regulator of PhoR/PhoB two-component regulator), b3725 (phosphate transporter subunit)"
@@ -2367,13 +2377,14 @@ NC_000913.2,780591,780667,1,b0748,b0748 (tRNA-Lys)
 NC_000913.2,970974,971868,1,b0919,b0919 (hypothetical protein)
 NC_000913.2,1577656,1580548,-1,"b1497, b1498","b1497 (hypothetical protein), b1498 (hypothetical protein)"
 NC_000913.2,2096470,2097637,-1,b2028,b2028 (UDP-glucose 6-dehydrogenase)
-NC_000913.2,2812904,2815525,-1,"b2688, b2689, b2690","b2688 (glutamate-cysteine ligase), b2689 (inner membrane protein, COG1238 family), b2690 (fructose-1-P and 6-phosphogluconate phosphatase)"
+NC_000913.2,2815805,2815882,-1,b2691,b2691 (tRNA-Arg)
 NC_000913.2,3903753,3904590,-1,b3723,b3723 (transcriptional antiterminator of the bgl operon)
 NC_000913.2,4187808,4188348,1,b3989,b3989 (stationary phase growth adaptation protein)
 NC_000913.2,4351222,4352740,-1,b4129,"b4129 (lysine tRNA synthetase, inducible)"
 NC_000913.2,780799,780875,1,b0749,b0749 (tRNA-Lys)
 NC_000913.2,1570430,1577366,-1,"b1494, b1495, b1496","b1494 (putative peptidase), b1495 (putative porin protein), b1496 (fused predicted multidrug transporter subunits of ABC superfamily: membrane component/ATP-binding component)"
 NC_000913.2,2095344,2096325,-1,b2027,b2027 (regulator of length of O-antigen component of lipopolysaccharide chains)
+NC_000913.2,2812904,2815525,-1,"b2688, b2689, b2690","b2688 (glutamate-cysteine ligase), b2689 (inner membrane protein, COG1238 family), b2690 (fructose-1-P and 6-phosphogluconate phosphatase)"
 NC_000913.2,3896693,3903620,-1,"b3718, b3719, b3720, b3721, b3722","b3718 (putative 6-phosphogluconolactonase), b3719 (putative xylanase), b3720 (carbohydrate-specific outer membrane porin, cryptic), b3721 (cryptic phospho-beta-glucosidase B), b3722 (fused beta-glucoside-specific PTS enzymes: IIA component/IIB component/IIC component)"
 NC_000913.2,781307,783108,1,"b0750, b0751","b0750 (quinolinate synthase, subunit A), b0751 (nicotinamide riboside transporter)"
 NC_000913.2,1568668,1570069,-1,b1493,"b1493 (glutamate decarboxylase B, PLP-dependent)"

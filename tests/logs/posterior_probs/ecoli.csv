@@ -1,30 +1,29 @@
 probability,operon_start,operon_end,operon_strand,genes,products
+1.000,2749816,2751478,1,b2616,b2616 (recombination and repair protein)
 1.000,4255137,4257144,1,"b4043, b4044","b4043 (DNA-binding transcriptional repressor of SOS regulon), b4044 (oxidative stress resistance protein; predicted MATE family efflux pump; UV and mitomycin C inducible protein)"
 1.000,1229989,1231677,1,"b1183, b1184","b1183 (DNA polymerase V, subunit D), b1184 (DNA polymerase V, subunit C)"
 1.000,2078812,2079286,-1,b2009,b2009 (DNA gyrase inhibitor)
-1.000,3815782,3816607,1,b3645,b3645 (DNA-damage-inducible protein)
 1.000,3851575,3851665,1,b4618,"b4618 (toxic membrane persister formation peptide, LexA-regulated)"
 1.000,3851140,3851280,-1,b4616,"b4616 (sRNA antisense regulators IstR-1 and IstR-2, affectr tisB, Hfq-dependent)"
-1.000,1020360,1020990,1,b0959,b0959 (required for expression of CRP-S-dependent promoters)
-1.000,1019632,1020142,-1,b0958,b0958 (SOS cell division inhibitor)
-0.999,1928904,1930083,1,b1849,b1849 (phosphoribosylglycinamide formyltransferase 2)
-0.999,1928057,1928771,-1,"b1847, b1848","b1847 (extracellular Colicin M immunity family protein), b1848 (conserved protein regulated by LexA)"
-0.999,812748,814770,1,b0779,"b0779 (excinulease of nucleotide excision repair, DNA damage recognition component)"
-0.999,3645727,3645856,-1,b4613,b4613 (damage inducible protein)
-0.996,1808234,1808825,1,b1728,b1728 (inner membrane protein regulated by LexA)
-0.991,603993,606606,-1,"b0578, b0579, b0580, b0581","b0578 (dihydropteridine reductase, NAD(P)H-dependent, oxygen-insensitive), b0579 (hypothetical protein), b0580 (putative inner membrane protein), b0581 (weak gamma-glutamyl:cysteine ligase)"
-0.991,606956,608400,1,"b4700, b4415, b0582","b4700 (sRNA at remnant mokE/hokE locus), b4415 (toxic polypeptide, small), b0582 (IS186 transposase)"
-0.987,4577521,4577863,-1,b4347,b4347 (toxic peptide regulated by antisense sRNA symR)
-0.963,245960,246502,-1,"b0225, b0226","b0225 (translation inhibitor toxin of toxin-antitoxin pair YafQ/DinJ), b0226 (antitoxin of YafQ-DinJ toxin-antitoxin system)"
-0.963,246711,247461,1,b0227,b0227 (putative lipoprotein and C40 family peptidase)
-0.946,1223501,1225303,-1,"b1174, b1175, b1176","b1174 (cell division topological specificity factor), b1175 (membrane ATPase of the MinC-MinD-MinE system), b1176 (cell division inhibitor)"
-0.946,1225822,1226191,1,b1177,b1177 (hypothetical protein)
-0.897,832292,835433,1,"b0799, b0800","b0799 (ATP-dependent DNA helicase), b0800 (putative family 3 glycosyltransferase)"
-0.897,831690,832173,-1,b0798,"b0798 (conserved protein, DUF1768 family)"
-0.888,4272147,4272684,1,b4059,b4059 (single-stranded DNA-binding protein)
-0.888,4269071,4271894,-1,b4058,b4058 (ATPase and DNA damage recognition protein of nucleotide excision repair excinuclease UvrABC)
-0.786,3212988,3213495,-1,b3068,b3068 (G/U mismatch-specific DNA glycosylase; xanthine DNA glycosylase)
-0.786,3213619,3213695,1,b3069,b3069 (tRNA-Ile)
-0.775,932446,936436,1,b0890,b0890 (DNA translocase at septal ring sorting daughter chromsomes)
-0.550,1952601,1956156,-1,"b1872, b1873","b1872 (trimethylamine N-oxide reductase system III, catalytic subunit), b1873 (TMAO reductase III (TorYZ), cytochrome c-type subunit)"
-0.520,4015355,4022359,1,"b3832, b3833, b3834, b4707, b3835, b3836, b3838, b3839, b4483","b3832 (putative recombination limiting protein), b3833 (bifunctional 2-octaprenyl-6-methoxy-1,4-benzoquinone methylase/ S-adenosylmethionine:2-DMK methyltransferase), b3834 (conserved protein, SCP2 family), b4707 (essential sRNA of unknown function), b3835 (2-octaprenylphenol hydroxylase), b3836 (TatABCE protein translocation system subunit), b3838 (TatABCE protein translocation system subunit), b3839 (TatABCE protein translocation system subunit), b4483 (quality control of Tat-exported FeS proteins; Mg-dependent cytoplasmic DNase)"
+0.999,3815782,3816607,1,b3645,b3645 (DNA-damage-inducible protein)
+0.998,1928904,1930083,1,b1849,b1849 (phosphoribosylglycinamide formyltransferase 2)
+0.998,1928057,1928771,-1,"b1847, b1848","b1847 (extracellular Colicin M immunity family protein), b1848 (conserved protein regulated by LexA)"
+0.997,812748,814770,1,b0779,"b0779 (excinulease of nucleotide excision repair, DNA damage recognition component)"
+0.994,1808234,1808825,1,b1728,b1728 (inner membrane protein regulated by LexA)
+0.990,603993,606606,-1,"b0578, b0579, b0580, b0581","b0578 (dihydropteridine reductase, NAD(P)H-dependent, oxygen-insensitive), b0579 (hypothetical protein), b0580 (putative inner membrane protein), b0581 (weak gamma-glutamyl:cysteine ligase)"
+0.990,606956,608400,1,"b4700, b4415, b0582","b4700 (sRNA at remnant mokE/hokE locus), b4415 (toxic polypeptide, small), b0582 (IS186 transposase)"
+0.990,1120464,1120710,-1,b1061,b1061 (DNA damage-inducible protein I)
+0.989,1020360,1020990,1,b0959,b0959 (required for expression of CRP-S-dependent promoters)
+0.989,1019632,1020142,-1,b0958,b0958 (SOS cell division inhibitor)
+0.981,4577521,4577863,-1,b4347,b4347 (toxic peptide regulated by antisense sRNA symR)
+0.976,3645727,3645856,-1,b4613,b4613 (damage inducible protein)
+0.859,832292,835433,1,"b0799, b0800","b0799 (ATP-dependent DNA helicase), b0800 (putative family 3 glycosyltransferase)"
+0.859,831690,832173,-1,b0798,"b0798 (conserved protein, DUF1768 family)"
+0.855,3996005,3998168,1,b3813,b3813 (DNA-dependent ATPase I and helicase II)
+0.855,63428,65780,-1,b0060,b0060 (DNA polymerase II)
+0.824,2820160,2821791,-1,"b2698, b2699","b2698 (regulatory protein for RecA), b2699 (DNA strand exchange and recombination protein with protease and nuclease activity)"
+0.749,245960,246502,-1,"b0225, b0226","b0225 (translation inhibitor toxin of toxin-antitoxin pair YafQ/DinJ), b0226 (antitoxin of YafQ-DinJ toxin-antitoxin system)"
+0.749,246711,247461,1,b0227,b0227 (putative lipoprotein and C40 family peptidase)
+0.716,1952601,1956156,-1,"b1872, b1873","b1872 (trimethylamine N-oxide reductase system III, catalytic subunit), b1873 (TMAO reductase III (TorYZ), cytochrome c-type subunit)"
+0.714,1225822,1226191,1,b1177,b1177 (hypothetical protein)
+0.714,1223501,1225303,-1,"b1174, b1175, b1176","b1174 (cell division topological specificity factor), b1175 (membrane ATPase of the MinC-MinD-MinE system), b1176 (cell division inhibitor)"

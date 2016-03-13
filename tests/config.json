@@ -1,5 +1,4 @@
 {
     "log_dir": "/Users/sefa/Dropbox/cgb/tests/logs",
-    "prior_regulation_probability": 0.05,
-    "motif_combining_method": "simple"
+    "weighting_scheme": "phylogenetic"
 }

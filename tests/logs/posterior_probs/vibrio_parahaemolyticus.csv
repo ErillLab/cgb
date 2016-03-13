@@ -1,23 +1,12 @@
 probability,operon_start,operon_end,operon_strand,genes,products
 1.000,676919,678584,-1,VP0648,VP0648 (recombination and repair protein)
-1.000,3149696,3150317,-1,VP2945,VP2945 (LexA repressor)
-1.000,3150363,3150468,1,VP2946,VP2946 (hypothetical protein)
-1.000,2132071,2137253,1,"VP2034, VP2035, VP2036","VP2034 (hypothetical protein), VP2035 (hypothetical protein), VP2036 (DNA polymerase III alpha chain)"
-0.998,1338889,1339282,-1,VP1264,VP1264 (hypothetical protein)
-0.997,2867537,2872206,1,"VP2712, VP2713","VP2712 (excinuclease ABC subunit A), VP2713 (hypothetical protein)"
-0.996,2495319,2495616,1,VP2379,"VP2379 (DNA damage-inducible gene in SOS regulon, dependent on cyclic AMP and H-NS)"
-0.992,1569401,1569656,1,VPA1469,VPA1469 (outer membrane lipoprotein)
-0.988,168534,170616,-1,VP0157,VP0157 (ATP-dependent DNA helicase RecG)
-0.962,2098714,2099248,1,VP2004,VP2004 (hypothetical protein)
-0.960,2095899,2098364,-1,"VP2000, VP2001, VP2002, VP2003","VP2000 (ribosomal-protein-alanine N-acetyltransferase), VP2001 (hypothetical protein), VP2002 (hypothetical protein), VP2003 (hypothetical protein)"
-0.952,2038611,2040975,1,VP1946,VP1946 (DNA polymerase II)
-0.874,2454530,2455595,-1,VP2342,VP2342 (DNA polymerase IV)
-0.812,2693308,2694352,-1,VP2550,VP2550 (recombinase A)
-0.772,2611401,2624081,1,"VP2480, VP2481, VP2482, VP2483, VP2484, VP2485, VP2486, VP2487, VP2488","VP2480 (peptide ABC transporter permease), VP2481 (peptide ABC transporter permease), VP2482 (peptide ABC transporter ATP-binding protein), VP2483 (peptide ABC transporter ATP-binding protein), VP2484 (endoglucanase-like protein), VP2485 (N-acetylglucosamine kinase), VP2486 (beta-N-hexosaminidase), VP2487 (N,N'-diacetylchitobiose phosphorylase), VP2488 (phosphoglucomutase/phosphomannomutase)"
-0.726,1947585,1947999,-1,VP1864,VP1864 (hypothetical protein)
-0.726,1948280,1949243,1,VP1865,VP1865 (site-specific recombinase IntIA)
-0.719,1047214,1048003,-1,VPA0994,VPA0994 (hypothetical protein)
-0.633,2207589,2209620,-1,VP2100,VP2100 (excinuclease ABC subunit B)
-0.549,1066909,1069538,1,"VPA1014, VPA1015","VPA1014 (hypothetical protein), VPA1015 (succinate dehydrogenase subunit Sdh)"
-0.502,3216339,3218514,-1,VP3013,VP3013 (DNA-dependent helicase II)
-0.502,3218795,3221228,1,"VP3014, VP3015, VP3016, VP3017","VP3014 (signal peptide protein), VP3015 (hypothetical protein), VP3016 (hypothetical protein), VP3017 (transmembrane protein)"
+0.998,3149696,3150317,-1,VP2945,VP2945 (LexA repressor)
+0.998,3150363,3150468,1,VP2946,VP2946 (hypothetical protein)
+0.997,1534678,1534976,1,"VP1428, VP1429","VP1428 (hypothetical protein), VP1429 (hypothetical protein)"
+0.990,2132071,2137253,1,"VP2034, VP2035, VP2036","VP2034 (hypothetical protein), VP2035 (hypothetical protein), VP2036 (DNA polymerase III alpha chain)"
+0.908,1338889,1339282,-1,VP1264,VP1264 (hypothetical protein)
+0.899,2867537,2872206,1,"VP2712, VP2713","VP2712 (excinuclease ABC subunit A), VP2713 (hypothetical protein)"
+0.862,2495319,2495616,1,VP2379,"VP2379 (DNA damage-inducible gene in SOS regulon, dependent on cyclic AMP and H-NS)"
+0.827,168534,170616,-1,VP0157,VP0157 (ATP-dependent DNA helicase RecG)
+0.752,2258902,2260867,-1,VP2149,VP2149 (DNA topoisomerase III)
+0.720,1569401,1569656,1,VPA1469,VPA1469 (outer membrane lipoprotein)

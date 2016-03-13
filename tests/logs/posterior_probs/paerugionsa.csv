@@ -1,50 +1,20 @@
 probability,operon_start,operon_end,operon_strand,genes,products
-1.000,3367902,3369014,1,"PA3007, PA3008","PA3007 (LexA repressor), PA3008 (cell division inhibitor SulA)"
-1.000,3366969,3367671,-1,PA3006,PA3006 (transcriptional regulator PsrA)
 1.000,732958,733555,1,PA0672,PA0672 (heme oxygenase)
 1.000,727607,732653,-1,"PA0669, PA0670, PA0671","PA0669 (error-prone DNA polymerase), PA0670 (hypothetical protein), PA0671 (hypothetical protein)"
 1.000,2516020,2516308,-1,PA2288,PA2288 (hypothetical protein)
+1.000,3367902,3369014,1,"PA3007, PA3008","PA3007 (LexA repressor), PA3008 (cell division inhibitor SulA)"
+1.000,3366969,3367671,-1,PA3006,PA3006 (transcriptional regulator PsrA)
+1.000,81115,82174,1,PA0069,PA0069 (hypothetical protein)
 1.000,514774,514984,1,PA0456,PA0456 (cold-shock protein)
 1.000,513050,514427,-1,PA0455,PA0455 (ATP-dependent RNA helicase DbpA)
-1.000,4051096,4052604,-1,"PA3616, PA3617","PA3616 (recombination regulator RecX), PA3617 (recombinase A)"
-1.000,5347197,5349761,-1,"PA4761, PA4762","PA4761 (molecular chaperone DnaK), PA4762 (heat shock protein GrpE)"
-1.000,5349928,5351605,1,PA4763,PA4763 (DNA repair protein RecN)
-1.000,3819526,3819796,-1,PA3412,PA3412 (hypothetical protein)
-1.000,3820005,3820892,1,"PA3413, PA3414","PA3413 (hypothetical protein), PA3414 (hypothetical protein)"
-1.000,1007233,1007548,-1,PA0922,PA0922 (hypothetical protein)
-1.000,1474390,1478825,1,"PA1362, PA1363, PA1364, PA1365","PA1362 (hypothetical protein), PA1363 (ECF subfamily sigma-70 factor), PA1364 (transmembrane sensor), PA1365 (siderophore receptor)"
-1.000,1472546,1473980,-1,PA1361,PA1361 (multidrug resistance protein PmpM)
-1.000,2023280,2023931,-1,PA1864,PA1864 (transcriptional regulator)
-1.000,2024064,2028312,1,"PA1865, PA1866, PA1866a","PA1865 (Fanconi-associated nuclease), PA1866 (hypothetical protein), PA1866a (hypothetical protein)"
-1.000,2705772,2706087,1,PA2422,PA2422 (hypothetical protein)
-0.996,2036440,2048462,1,"PA1874, PA1875, PA1876, PA1877","PA1874 (hypothetical protein), PA1875 (hypothetical protein), PA1876 (ABC transporter ATP-binding protein/permease), PA1877 (secretion protein)"
-0.993,536141,537869,-1,PA0476,PA0476 (permease)
-0.986,4465488,4466754,-1,"PA3985, PA3986","PA3985 (hypothetical protein), PA3986 (hypothetical protein)"
-0.983,6088192,6090706,-1,PA5412,PA5412 (hypothetical protein)
-0.978,1129450,1135202,1,"PA1045, PA1046, PA1047","PA1045 (ATP-dependent DNA helicase DinG), PA1046 (hypothetical protein), PA1047 (esterase)"
-0.978,1128856,1129321,-1,PA1044,PA1044 (hypothetical protein)
-0.971,3625200,3627369,1,"PA3238, PA3239","PA3238 (hypothetical protein), PA3239 (hypothetical protein)"
-0.965,542169,544347,-1,PA0482,PA0482 (malate synthase G)
-0.965,544653,545644,1,"PA0483, PA0484","PA0483 (acetyltransferase), PA0484 (hypothetical protein)"
-0.947,5128562,5130768,-1,"PA4580, PA4581","PA4580 (hypothetical protein), PA4581 (transcriptional regulator RtcR)"
-0.947,5131081,5131155,1,PA4581.1,PA4581.1 (tRNA-Arg)
-0.879,6219286,6219688,-1,PA5527,PA5527 (hypothetical protein)
-0.875,5224889,5225873,1,PA4657,PA4657 (hypothetical protein)
-0.870,720356,721556,1,PA0668,PA0668 (tyrosine--tRNA ligase)
-0.870,717634,720072,-1,"PA0666, PA0667","PA0666 (anhydro-N-acetylmuramic acid kinase), PA0667 (hypothetical protein)"
-0.866,4418302,4418584,1,PA3940,PA3940 (DNA binding protein)
-0.839,4417013,4417934,-1,PA3939,PA3939 (hypothetical protein)
-0.837,4568276,4569623,-1,"PA4085, PA4086","PA4085 (chaperone CupB2), PA4086 (fimbrial subunit CupB1)"
-0.834,1515336,1515927,-1,PA1393,PA1393 (adenylyl-sulfate kinase)
-0.741,3535215,3545074,-1,"PA3151, PA3152, PA3153, PA3154, PA3155, PA3156, PA3157, PA3158, PA3159","PA3151 (imidazole glycerol phosphate synthase subunit HisF), PA3152 (imidazole glycerol phosphate synthase subunit HisH), PA3153 (O-antigen translocase), PA3154 (B-band O-antigen polymerase), PA3155 (UDP-2-acetamido-2-deoxy-3-oxo-D-glucuronate aminotransferase), PA3156 (UDP-2-acetamido-3-amino-2, 3-dideoxy-D-glucuronate N-acetyltransferase), PA3157 (acetyltransferase), PA3158 (UDP-N-acetyl-2-amino-2-deoxy-D-glucuronate oxidase), PA3159 (UDP-N-acetyl-d-glucosamine 6-dehydrogenase)"
-0.734,1034037,1035075,1,PA0946,PA0946 (hypothetical protein)
-0.734,1031385,1033824,-1,"PA0943, PA0944, PA0945","PA0943 (hypothetical protein), PA0944 (phosphoribosylglycinamide formyltransferase), PA0945 (phosphoribosylformylglycinamidine cyclo-ligase)"
-0.725,3316799,3317438,-1,PA2957,PA2957 (transcriptional regulator)
-0.725,3317523,3318859,1,"PA2958, PA2958.1","PA2958 (hypothetical protein), PA2958.1 (RgsA)"
-0.674,1613233,1617085,-1,"PA1487, PA1488, PA1489","PA1487 (carbohydrate kinase), PA1488 (hypothetical protein), PA1489 (hypothetical protein)"
-0.660,1645210,1649555,-1,"PA1513, PA1514, PA1515, PA1516, PA1517","PA1513 (hypothetical protein), PA1514 (ureidoglycolate hydrolase), PA1515 (allantoicase), PA1516 (hypothetical protein), PA1517 (hypothetical protein)"
-0.660,1649927,1650308,1,PA1518,PA1518 (5-hydroxyisourate hydrolase)
-0.647,5973832,5976969,-1,"PA5305, PA5306, PA5307","PA5305 (hypothetical protein), PA5306 (hypothetical protein), PA5307 (hypothetical protein)"
-0.647,5977122,5977611,1,PA5308,PA5308 (leucine-responsive regulatory protein)
-0.617,5322509,5323101,-1,"PA4738, PA4739","PA4738 (hypothetical protein), PA4739 (hypothetical protein)"
-0.558,3098625,3098979,-1,PA2736,PA2736 (hypothetical protein)
+0.994,4051096,4052604,-1,"PA3616, PA3617","PA3616 (recombination regulator RecX), PA3617 (recombinase A)"
+0.984,3819526,3819796,-1,PA3412,PA3412 (hypothetical protein)
+0.984,3820005,3820892,1,"PA3413, PA3414","PA3413 (hypothetical protein), PA3414 (hypothetical protein)"
+0.982,5347197,5349761,-1,"PA4761, PA4762","PA4761 (molecular chaperone DnaK), PA4762 (heat shock protein GrpE)"
+0.982,5349928,5351605,1,PA4763,PA4763 (DNA repair protein RecN)
+0.976,1007233,1007548,-1,PA0922,PA0922 (hypothetical protein)
+0.929,2023280,2023931,-1,PA1864,PA1864 (transcriptional regulator)
+0.929,2024064,2028312,1,"PA1865, PA1866, PA1866a","PA1865 (Fanconi-associated nuclease), PA1866 (hypothetical protein), PA1866a (hypothetical protein)"
+0.880,1474390,1478825,1,"PA1362, PA1363, PA1364, PA1365","PA1362 (hypothetical protein), PA1363 (ECF subfamily sigma-70 factor), PA1364 (transmembrane sensor), PA1365 (siderophore receptor)"
+0.880,1472546,1473980,-1,PA1361,PA1361 (multidrug resistance protein PmpM)
+0.812,2705772,2706087,1,PA2422,PA2422 (hypothetical protein)

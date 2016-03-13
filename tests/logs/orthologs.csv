@@ -1,169 +1,77 @@
-locus_tag (vibrio_parahaemolyticus),product (vibrio_parahaemolyticus),locus_tag (ecoli),product (ecoli),locus_tag (paerugionsa),product (paerugionsa)
-VP2945,LexA repressor,b4043,DNA-binding transcriptional repressor of SOS regulon,PA3007,LexA repressor
-VP2943,DNA-damage-inducible protein F,b4044,oxidative stress resistance protein; predicted MATE family efflux pump; UV and mitomycin C inducible protein,PA4821,transporter
-,,b1183,"DNA polymerase V, subunit D",,
-,,b1184,"DNA polymerase V, subunit C",,
-,,b2009,DNA gyrase inhibitor,,
-,,b3645,DNA-damage-inducible protein,,
-,,b4618,"toxic membrane persister formation peptide, LexA-regulated",,
-,,b4616,"sRNA antisense regulators IstR-1 and IstR-2, affectr tisB, Hfq-dependent",,
-VP1028,hypothetical protein,b0959,required for expression of CRP-S-dependent promoters,,
-,,b0958,SOS cell division inhibitor,PA3008,cell division inhibitor SulA
-VP1297,phosphoribosylglycinamide formyltransferase 2,b1849,phosphoribosylglycinamide formyltransferase 2,PA3751,phosphoribosylglycinamide formyltransferase
-,,b1847,extracellular Colicin M immunity family protein,,
-VP2379,"DNA damage-inducible gene in SOS regulon, dependent on cyclic AMP and H-NS",b1848,conserved protein regulated by LexA,,
-VP2100,excinuclease ABC subunit B,b0779,"excinulease of nucleotide excision repair, DNA damage recognition component",PA3138,excinuclease ABC subunit B
-,,b4613,damage inducible protein,,
-,,b1728,inner membrane protein regulated by LexA,,
-VPA1591,dihydropteridine reductase,b0578,"dihydropteridine reductase, NAD(P)H-dependent, oxygen-insensitive",,
-,,b0579,hypothetical protein,,
-,,b0580,putative inner membrane protein,,
-,,b0581,weak gamma-glutamyl:cysteine ligase,PA2181,glutamate--cysteine ligase
-,,b4700,sRNA at remnant mokE/hokE locus,,
-,,b4415,"toxic polypeptide, small",,
-,,b0582,IS186 transposase,,
-,,b4347,toxic peptide regulated by antisense sRNA symR,,
-,,b0225,translation inhibitor toxin of toxin-antitoxin pair YafQ/DinJ,,
-,,b0226,antitoxin of YafQ-DinJ toxin-antitoxin system,,
-,,b0227,putative lipoprotein and C40 family peptidase,,
-VP0872,cell division topological specificity factor MinE,b1174,cell division topological specificity factor,PA3245,cell division topological specificity factor MinE
-VP0873,septum site-determining protein MinD,b1175,membrane ATPase of the MinC-MinD-MinE system,PA3244,cell division inhibitor MinD
-VP0874,septum formation inhibitor,b1176,cell division inhibitor,PA3243,septum formation inhibitor
-,,b1177,hypothetical protein,,
-VP1007,ATP-dependent DNA helicase DinG,b0799,ATP-dependent DNA helicase,PA1045,ATP-dependent DNA helicase DinG
-VPA1063,hypothetical protein,b0800,putative family 3 glycosyltransferase,PA2609,hypothetical protein
-,,b0798,"conserved protein, DUF1768 family",PA4580,hypothetical protein
-VP2709,single-stranded DNA-binding protein,b4059,single-stranded DNA-binding protein,PA4232,single-stranded DNA-binding protein
-VP2712,excinuclease ABC subunit A,b4058,ATPase and DNA damage recognition protein of nucleotide excision repair excinuclease UvrABC,PA4234,excinuclease ABC subunit A
-,,b3068,G/U mismatch-specific DNA glycosylase; xanthine DNA glycosylase,,
-VPt009,tRNA-Met,b3069,tRNA-Ile,,
-VP1105,DNA translocase FtsK,b0890,DNA translocase at septal ring sorting daughter chromsomes,PA2615,DNA translocase FtsK
-VPA0128,biotin sulfoxide reductase,b1872,"trimethylamine N-oxide reductase system III, catalytic subunit",,
-VPA0127,cytochrome c-type protein YecK,b1873,"TMAO reductase III (TorYZ), cytochrome c-type subunit",,
-VP0094,hypothetical protein,b3832,putative recombination limiting protein,PA1031,DNA recombination protein RmuC
-VP0095,ubiquinone/menaquinone biosynthesis methyltransferase,b3833,"bifunctional 2-octaprenyl-6-methoxy-1,4-benzoquinone methylase/ S-adenosylmethionine:2-DMK methyltransferase",PA5063,ubiquinone/menaquinone biosynthesis methyltransferase
-VP0096,hypothetical protein,b3834,"conserved protein, SCP2 family",,
-,,b4707,essential sRNA of unknown function,,
-VP0097,ubiquinone biosynthesis protein UbiB,b3835,2-octaprenylphenol hydroxylase,PA5065,ubiquinone biosynthetic protein UbiB
-VP0098,twin arginine translocase protein A,b3836,TatABCE protein translocation system subunit,,
-VP0099,sec-independent translocase,b3838,TatABCE protein translocation system subunit,PA5069,sec-independent translocase
-VP0100,hypothetical protein,b3839,TatABCE protein translocation system subunit,PA5070,transporter TatC
-,,b4483,quality control of Tat-exported FeS proteins; Mg-dependent cytoplasmic DNase,PA2866,secretion protein MttC
-VP1229,Na+/H+-antiporter protein,,,PA3006,transcriptional regulator PsrA
-,,,,PA0672,heme oxygenase
-VP2036,DNA polymerase III alpha chain,,,PA0669,error-prone DNA polymerase
-VP2035,hypothetical protein,,,PA0670,hypothetical protein
-VP2034,hypothetical protein,,,PA0671,hypothetical protein
-,,,,PA2288,hypothetical protein
-VPA0552,cold shock DNA-binding domain-containing protein,b1823,"stress protein, member of the CspA-family",PA0456,cold-shock protein
-VP0288,ATP-dependent RNA helicase DbpA,b1343,"ATP-dependent RNA helicase, specific for 23S rRNA",PA0455,ATP-dependent RNA helicase DbpA
-VP2549,recombination regulator RecX,b2698,regulatory protein for RecA,PA3616,recombination regulator RecX
-VP2550,recombinase A,b2699,DNA strand exchange and recombination protein with protease and nuclease activity,PA3617,recombinase A
-VP0653,molecular chaperone DnaK,b0014,"chaperone Hsp70, co-chaperone with DnaJ",PA4761,molecular chaperone DnaK
-VP0651,heat shock protein GrpE,b2614,heat shock protein,PA4762,heat shock protein GrpE
-VP0648,recombination and repair protein,b2616,recombination and repair protein,PA4763,DNA repair protein RecN
-,,,,PA3412,hypothetical protein
-VP2379,"DNA damage-inducible gene in SOS regulon, dependent on cyclic AMP and H-NS",,,PA3413,hypothetical protein
-,,,,PA3414,hypothetical protein
-,,,,PA0922,hypothetical protein
-,,,,PA1362,hypothetical protein
-,,,,PA1363,ECF subfamily sigma-70 factor
-,,,,PA1364,transmembrane sensor
-,,,,PA1365,siderophore receptor
-VP1479,multidrug efflux protein,b1663,multidrug efflux system transporter,PA1361,multidrug resistance protein PmpM
-,,,,PA1864,transcriptional regulator
-VPA0700,hypothetical protein,,,PA1865,Fanconi-associated nuclease
-,,,,PA1866,hypothetical protein
-,,,,PA1866a,hypothetical protein
-,,,,PA2422,hypothetical protein
-,,,,PA1874,hypothetical protein
-VP1634,agglutination protein,,,PA1875,hypothetical protein
-VPA1736,toxin secretion ATP-binding protein,,,PA1876,ABC transporter ATP-binding protein/permease
-VPA1733,HlyD family secretion protein,,,PA1877,secretion protein
-,,,,PA0476,permease
-VP1033,hypothetical protein,,,PA3985,hypothetical protein
-,,,,PA3986,hypothetical protein
-,,,,PA5412,hypothetical protein
-,,,,PA1046,hypothetical protein
-,,,,PA1047,esterase
-,,,,PA1044,hypothetical protein
-,,,,PA3238,hypothetical protein
-VP2214,VacJ lipoprotein,,,PA3239,hypothetical protein
-VPA0201,malate synthase,b2976,malate synthase G,PA0482,malate synthase G
-,,,,PA0483,acetyltransferase
-,,,,PA0484,hypothetical protein
-,,b3422,sigma 54-dependent transcriptional regulator of rtcBA expression,PA4581,transcriptional regulator RtcR
-,,,,PA4581.1,tRNA-Arg
-,,,,PA5527,hypothetical protein
-,,,,PA4657,hypothetical protein
-VP2470,tyrosyl-tRNA synthetase,,,PA0668,tyrosine--tRNA ligase
-VP0544,anhydro-N-acetylmuramic acid kinase,b1640,anhydro-N-acetylmuramic acid kinase,PA0666,anhydro-N-acetylmuramic acid kinase
-VP2471,hypothetical protein,b1856,putative peptidase,PA0667,hypothetical protein
-,,,,PA3940,DNA binding protein
-,,,,PA3939,hypothetical protein
-,,b0140,putative periplasmic pilin chaperone,PA4085,chaperone CupB2
-,,,,PA4086,fimbrial subunit CupB1
-VP0296,adenylylsulfate kinase,b2750,adenosine 5'-phosphosulfate kinase,PA1393,adenylyl-sulfate kinase
-,,,,PA3151,imidazole glycerol phosphate synthase subunit HisF
-VP1141,imidazole glycerol phosphate synthase subunit HisH,b2023,"imidazole glycerol phosphate synthase, glutamine amidotransferase subunit with HisF",PA3152,imidazole glycerol phosphate synthase subunit HisH
-,,,,PA3153,O-antigen translocase
-,,,,PA3154,B-band O-antigen polymerase
-VP0234,pilin glycosylation protein,,,PA3155,UDP-2-acetamido-2-deoxy-3-oxo-D-glucuronate aminotransferase
-VP1758,galactoside O-acetyltransferase,,,PA3156,"UDP-2-acetamido-3-amino-2, 3-dideoxy-D-glucuronate N-acetyltransferase"
-,,,,PA3157,acetyltransferase
-,,b1315,"putative oxidoreductase, NADH-binding",PA3158,UDP-N-acetyl-2-amino-2-deoxy-D-glucuronate oxidase
-,,b3787,UDP-N-acetyl-D-mannosaminuronic acid dehydrogenase,PA3159,UDP-N-acetyl-d-glucosamine 6-dehydrogenase
-VP2282,hypothetical protein,,,PA0946,hypothetical protein
-,,,,PA0943,hypothetical protein
-VP2286,phosphoribosylglycinamide formyltransferase,b2500,phosphoribosylglycinamide formyltransferase 1,PA0944,phosphoribosylglycinamide formyltransferase
-VP2285,phosphoribosylaminoimidazole synthetase,b2499,phosphoribosylaminoimidazole synthetase,PA0945,phosphoribosylformylglycinamidine cyclo-ligase
-,,,,PA2957,transcriptional regulator
-,,,,PA2958,hypothetical protein
-,,,,PA2958.1,RgsA
-,,,,PA1487,carbohydrate kinase
-,,,,PA1488,hypothetical protein
-,,,,PA1489,hypothetical protein
-,,,,PA1513,hypothetical protein
-,,b0505,ureidoglycolate hydrolase,PA1514,ureidoglycolate hydrolase
-,,,,PA1515,allantoicase
-,,,,PA1516,hypothetical protein
-,,,,PA1517,hypothetical protein
-,,b1970,hydroxyisourate hydrolase,PA1518,5-hydroxyisourate hydrolase
-,,b1383,hypothetical protein,PA5305,hypothetical protein
-,,b1382,lipoprotein,PA5306,hypothetical protein
-,,,,PA5307,hypothetical protein
-VP1104,leucine-responsive transcriptional regulator,b0889,"DNA-binding transcriptional dual regulator, leucine-binding",PA5308,leucine-responsive regulatory protein
-,,b4045,"stress-induced protein, UPF0337 family",PA4738,hypothetical protein
-VP0081,hyperosmotically inducible periplasmic protein,b4376,periplasmic protein,PA4739,hypothetical protein
-,,,,PA2736,hypothetical protein
-VP2946,hypothetical protein,,,,
-VP1264,hypothetical protein,,,,
-VP2713,hypothetical protein,,,,
-VPA1469,outer membrane lipoprotein,,,,
-VP0157,ATP-dependent DNA helicase RecG,b3652,ATP-dependent DNA helicase,PA5345,ATP-dependent DNA helicase RecG
-VP2004,hypothetical protein,,,,
-VP2000,ribosomal-protein-alanine N-acetyltransferase,,,,
-VP2001,hypothetical protein,,,,
-VP2002,hypothetical protein,,,,
-VP2003,hypothetical protein,,,,
-VP1946,DNA polymerase II,b0060,DNA polymerase II,PA1886,DNA polymerase II
-VP2342,DNA polymerase IV,b0231,DNA polymerase IV,PA0923,DNA polymerase IV
-VP2480,peptide ABC transporter permease,,,,
-VP2481,peptide ABC transporter permease,,,,
-VP2482,peptide ABC transporter ATP-binding protein,,,,
-VP2483,peptide ABC transporter ATP-binding protein,,,,
-VP2484,endoglucanase-like protein,,,,
-VP2485,N-acetylglucosamine kinase,,,,
-VP2486,beta-N-hexosaminidase,,,,
-VP2487,"N,N'-diacetylchitobiose phosphorylase",,,,
-VP2488,phosphoglucomutase/phosphomannomutase,,,,
-VP1864,hypothetical protein,,,,
-VP1865,site-specific recombinase IntIA,,,,
-VPA0994,hypothetical protein,,,,
-VPA1014,hypothetical protein,b2298,putative inner membrane protein,,
-VPA1015,succinate dehydrogenase subunit Sdh,,,,
-VP3013,DNA-dependent helicase II,b3813,DNA-dependent ATPase I and helicase II,PA5443,DNA-dependent helicase II
-VP3014,signal peptide protein,,,,
-VP3015,hypothetical protein,,,PA3283,hypothetical protein
-VP3016,hypothetical protein,,,,
-VP3017,transmembrane protein,,,,
+probability (paerugionsa),locus_tag (paerugionsa),product (paerugionsa),probability (vibrio_parahaemolyticus),locus_tag (vibrio_parahaemolyticus),product (vibrio_parahaemolyticus),probability (ecoli),locus_tag (ecoli),product (ecoli)
+0.9817297742523754,PA4763,DNA repair protein RecN,0.99996778243795204,VP0648,recombination and repair protein,0.999999999977913,b2616,recombination and repair protein
+0.99992551683820197,PA3007,LexA repressor,0.99833939043745079,VP2945,LexA repressor,0.99998253766196166,b4043,DNA-binding transcriptional repressor of SOS regulon
+0.0015177224244386025,PA4821,transporter,0.0015870827215947448,VP2943,DNA-damage-inducible protein F,0.99998253766196166,b4044,oxidative stress resistance protein; predicted MATE family efflux pump; UV and mitomycin C inducible protein
+,,,,,,0.99994747482816049,b1183,"DNA polymerase V, subunit D"
+,,,,,,0.99994747482816049,b1184,"DNA polymerase V, subunit C"
+,,,,,,0.99994736492499159,b2009,DNA gyrase inhibitor
+,,,,,,0.99978147012302632,b4618,"toxic membrane persister formation peptide, LexA-regulated"
+,,,,,,0.99978146967525039,b4616,"sRNA antisense regulators IstR-1 and IstR-2, affectr tisB, Hfq-dependent"
+,,,,,,0.99927978322435207,b3645,DNA-damage-inducible protein
+0.0015225428707825249,PA3751,phosphoribosylglycinamide formyltransferase,0.0015875258345037348,VP1297,phosphoribosylglycinamide formyltransferase 2,0.99838082691984809,b1849,phosphoribosylglycinamide formyltransferase 2
+,,,,,,0.99838041213759798,b1847,extracellular Colicin M immunity family protein
+,,,0.86235072370871768,VP2379,"DNA damage-inducible gene in SOS regulon, dependent on cyclic AMP and H-NS",0.99838041213759798,b1848,conserved protein regulated by LexA
+0.0015177029250817143,PA3138,excinuclease ABC subunit B,0.081133983799625248,VP2100,excinuclease ABC subunit B,0.99719590143441295,b0779,"excinulease of nucleotide excision repair, DNA damage recognition component"
+,,,,,,0.99427161089567717,b1728,inner membrane protein regulated by LexA
+,,,0.0015873117998192585,VPA1591,dihydropteridine reductase,0.99019048764619355,b0578,"dihydropteridine reductase, NAD(P)H-dependent, oxygen-insensitive"
+,,,,,,0.99019048764619355,b0579,hypothetical protein
+,,,,,,0.99019048764619355,b0580,putative inner membrane protein
+0.0015177002334402728,PA2181,glutamate--cysteine ligase,,,,0.99019048764619355,b0581,weak gamma-glutamyl:cysteine ligase
+,,,,,,0.99018413213090772,b4700,sRNA at remnant mokE/hokE locus
+,,,,,,0.99018413213090772,b4415,"toxic polypeptide, small"
+,,,,,,0.99018413213090772,b0582,IS186 transposase
+,,,,,,0.99006246677628651,b1061,DNA damage-inducible protein I
+,,,0.0015871576679631499,VP1028,hypothetical protein,0.98899807709513921,b0959,required for expression of CRP-S-dependent promoters
+0.99992551683820197,PA3008,cell division inhibitor SulA,,,,0.98899807555485497,b0958,SOS cell division inhibitor
+,,,,,,0.98113029110374805,b4347,toxic peptide regulated by antisense sRNA symR
+,,,,,,0.97571370433983684,b4613,damage inducible protein
+0.21025263524952412,PA1045,ATP-dependent DNA helicase DinG,0.0015882059024465386,VP1007,ATP-dependent DNA helicase DinG,0.85897324490481153,b0799,ATP-dependent DNA helicase
+0.001517700164298237,PA2609,hypothetical protein,0.0015879660009188857,VPA1063,hypothetical protein,0.85897324490481153,b0800,putative family 3 glycosyltransferase
+0.1515005809105717,PA4580,hypothetical protein,,,,0.85892211739456825,b0798,"conserved protein, DUF1768 family"
+0.0015177029021393939,PA5443,DNA-dependent helicase II,0.022523691338598224,VP3013,DNA-dependent helicase II,0.85517384648733896,b3813,DNA-dependent ATPase I and helicase II
+0.0015177004135923991,PA1886,DNA polymerase II,0.25958200265322118,VP1946,DNA polymerase II,0.85452402617601619,b0060,DNA polymerase II
+0.9939413271327846,PA3616,recombination regulator RecX,0.0015871451023405118,VP2549,recombination regulator RecX,0.82410404875924814,b2698,regulatory protein for RecA
+0.9939413271327846,PA3617,recombinase A,0.094811400740558965,VP2550,recombinase A,0.82410404875924814,b2699,DNA strand exchange and recombination protein with protease and nuclease activity
+,,,,,,0.74917451861467654,b0225,translation inhibitor toxin of toxin-antitoxin pair YafQ/DinJ
+,,,,,,0.74917451861467654,b0226,antitoxin of YafQ-DinJ toxin-antitoxin system
+,,,,,,0.74914600985526036,b0227,putative lipoprotein and C40 family peptidase
+,,,0.0015871127731476866,VPA0128,biotin sulfoxide reductase,0.71586579352349555,b1872,"trimethylamine N-oxide reductase system III, catalytic subunit"
+,,,0.0015871127731476866,VPA0127,cytochrome c-type protein YecK,0.71586579352349555,b1873,"TMAO reductase III (TorYZ), cytochrome c-type subunit"
+,,,,,,0.71387705111118338,b1177,hypothetical protein
+0.0015189290520894883,PA3245,cell division topological specificity factor MinE,0.0015870595596807421,VP0872,cell division topological specificity factor MinE,0.71387148886767926,b1174,cell division topological specificity factor
+0.0015189290520894883,PA3244,cell division inhibitor MinD,0.0015870595596807421,VP0873,septum site-determining protein MinD,0.71387148886767926,b1175,membrane ATPase of the MinC-MinD-MinE system
+0.0015189290520894883,PA3243,septum formation inhibitor,0.0015870595596807421,VP0874,septum formation inhibitor,0.71387148886767926,b1176,cell division inhibitor
+0.99999642976981173,PA0672,heme oxygenase,,,,,,
+0.99999642976934566,PA0669,error-prone DNA polymerase,0.99018632414202901,VP2036,DNA polymerase III alpha chain,,,
+0.99999642976934566,PA0670,hypothetical protein,0.99018632414202901,VP2035,hypothetical protein,,,
+0.99999642976934566,PA0671,hypothetical protein,0.99018632414202901,VP2034,hypothetical protein,,,
+0.99997421330806191,PA2288,hypothetical protein,,,,,,
+0.99992551683303132,PA3006,transcriptional regulator PsrA,0.0016955658008056555,VP1229,Na+/H+-antiporter protein,,,
+0.99972969993557614,PA0069,hypothetical protein,,,,,,
+0.99971162167602479,PA0456,cold-shock protein,0.0015872186500533957,VPA0552,cold shock DNA-binding domain-containing protein,0.002712974797419351,b1823,"stress protein, member of the CspA-family"
+0.99971162167007832,PA0455,ATP-dependent RNA helicase DbpA,0.0015902001611457226,VP0288,ATP-dependent RNA helicase DbpA,0.0026040851703073658,b1343,"ATP-dependent RNA helicase, specific for 23S rRNA"
+0.98437368448600437,PA3412,hypothetical protein,,,,,,
+0.98437368398803415,PA3413,hypothetical protein,0.86235072370871768,VP2379,"DNA damage-inducible gene in SOS regulon, dependent on cyclic AMP and H-NS",,,
+0.98437368398803415,PA3414,hypothetical protein,,,,,,
+0.98172996181729211,PA4761,molecular chaperone DnaK,0.0015870739154075256,VP0653,molecular chaperone DnaK,0.0026637285665722385,b0014,"chaperone Hsp70, co-chaperone with DnaJ"
+0.98172996181729211,PA4762,heat shock protein GrpE,0.0015885737171245841,VP0651,heat shock protein GrpE,0.0026040798843517034,b2614,heat shock protein
+0.97592066417879875,PA0922,hypothetical protein,,,,,,
+0.92858397583469299,PA1864,transcriptional regulator,,,,,,
+0.92858397399030612,PA1865,Fanconi-associated nuclease,0.0022078999123348103,VPA0700,hypothetical protein,,,
+0.92858397399030612,PA1866,hypothetical protein,,,,,,
+0.92858397399030612,PA1866a,hypothetical protein,,,,,,
+0.88000951325468679,PA1362,hypothetical protein,,,,,,
+0.88000951325468679,PA1363,ECF subfamily sigma-70 factor,,,,,,
+0.88000951325468679,PA1364,transmembrane sensor,,,,,,
+0.88000951325468679,PA1365,siderophore receptor,,,,,,
+0.88000934456972657,PA1361,multidrug resistance protein PmpM,0.0015877757647542823,VP1479,multidrug efflux protein,0.0026230405968731326,b1663,multidrug efflux system transporter
+0.81208469820162232,PA2422,hypothetical protein,,,,,,
+,,,0.99833852235691334,VP2946,hypothetical protein,,,
+,,,0.99659514721122389,VP1428,hypothetical protein,,,
+,,,0.99659514721122389,VP1429,hypothetical protein,,,
+,,,0.90783607319346959,VP1264,hypothetical protein,,,
+0.0015452888393845889,PA4234,excinuclease ABC subunit A,0.89890676345094545,VP2712,excinuclease ABC subunit A,0.39158727165203522,b4058,ATPase and DNA damage recognition protein of nucleotide excision repair excinuclease UvrABC
+,,,0.89890676345094545,VP2713,hypothetical protein,,,
+0.0015177041711393316,PA5345,ATP-dependent DNA helicase RecG,0.82674700862485673,VP0157,ATP-dependent DNA helicase RecG,0.0026092330717295484,b3652,ATP-dependent DNA helicase
+,,,0.75232845754091637,VP2149,DNA topoisomerase III,0.0026136268798782948,b1763,DNA topoisomerase III
+,,,0.72041861046452182,VPA1469,outer membrane lipoprotein,,,
