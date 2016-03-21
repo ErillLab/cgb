@@ -18,7 +18,7 @@ class BLAST:
     The target database is constructed from the provided sequences using the
     command-line BLAST utility 'makeblastdb'.
     
-    For this application, databases are created for genomes containing all
+    For this application, databases are created for genomes using the list of all
     the sequences tagged as "gene" in the GenBank-formatted file. This allows
     TLBASTX and TBLASTN searches to return hits against specific sequences
     withing a genome.
