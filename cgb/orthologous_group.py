@@ -43,11 +43,11 @@ class OrthologousGroup:
         return str(self.genes)
 
 
-"""Class-associated functions
-   The following functions provide the means to instantiate orthologous
-   groups from a pre-defined subset of genes in all genomes under analysis
-   and to export them in CSV format.
-"""
+#Class-associated functions
+#   The following functions provide the means to instantiate orthologous
+#   groups from a pre-defined subset of genes in all genomes under analysis
+#   and to export them in CSV format.
+
 
 def construct_orthologous_groups(genes, genomes):
     """Constructs orthologous groups starting with the given list of genes.
