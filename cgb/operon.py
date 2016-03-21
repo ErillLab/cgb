@@ -78,12 +78,16 @@ class Operon:
 
     def calculate_regulation_probability(self, prior_regulation):
         """Returns the probability of regulation of the operon.
+        This is the posterior probability of regulation given the string
+        of TF-binding model scores along the promoter region mapping to the operon.
 
         Args:
-            model (BindingModel): the model that is used to score the promoter.
             prior_regulation (float): the prior probability of regulation
         """
+        #get the TF-binding model adapted to the genome to which the operon belongs
         binding_model = self.genome.TF_binding_model
+        #invoke the binding_model method that returns the binding probability for
+        #promoter regions assigned to this operon, using the provided prior
         self._regulation_probability = binding_model.binding_probability(
             self.promoter_region(), prior_regulation)
         return self._regulation_probability
