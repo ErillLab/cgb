@@ -107,8 +107,9 @@ class Genome:
     @cached_property
     def blast_client(self):
         """Returns the BLAST client.
-
-        The target database is created with genes of the genome.
+        Uses the list of genes in the current genome to invoke the BLAST
+        object constructor, which will call BLAST to create a genome-specific
+        database and provides access to BLAST methods.
         """
         return BLAST(self.genes_to_fasta(), 'nucl', prefix=self.strain_name)
 
@@ -163,7 +164,7 @@ class Genome:
         return gene
 
     def find_gene_homolog(self, gene):
-        """Invokes BLASTX to identify the best hit of the query gene
+        """Invokes TBLASTX to identify the best hit of the query gene
         in the genome and returns the gene object.
         
         Requires the BLAST package to be installed and that the
@@ -172,9 +173,14 @@ class Genome:
         Args:
             gene (Gene): the query gene.
         Returns:
-            (Gene, float): The homologous gene and the BLAST e-value.
+            (Gene, float): The best BLAST hit in the genome 
+            for the query and its BLAST e-value.
         """
+        #performs a tblastx search with the given gene against the genome
+        #the blast_client returns a biopython blast_record
         blast_record = self.blast_client.tblastx(gene.to_fasta())
+        #calls the get_best_hit method to get the locus_tag and e-value
+        #of the first BLAST hit
         locus_tag = self.blast_client.get_best_hit(blast_record)
         evalue = self.blast_client.get_e_value(blast_record)
         return self.get_gene_by_locus_tag(locus_tag), evalue
