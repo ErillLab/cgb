@@ -186,7 +186,7 @@ class Genome:
         return self.get_gene_by_locus_tag(locus_tag), evalue
 
     def find_protein_homolog(self, protein):
-        """Returns the homolog protein of the given protein.
+        """Returns the homolog protein of the query protein in this genome.
 
         Args:
             protein (Protein): the query protein.
@@ -203,6 +203,13 @@ class Genome:
 
     def identify_TF_instance(self, proteins):
         """Finds the homolog of the given transcription factors.
+        Given a list of proteins corresponding to the TF of interest
+        (provided by the user; the list of TFs for which binding motifs
+        are provided), it uses find_protein_homolog to identify the 
+        homologous protein in this genome. Among the returned BLAST
+        hits, it picks the lowest e-value result to define the orthologous
+        TF in the genome. If the lowest e-value does not meet the threshold,
+        this is reported to the user and the genome is excluded from analysis.
 
         Args:
             proteins (list): List of proteins.
