@@ -167,14 +167,18 @@ class Gene:
         return genome.find_gene_homolog(self)
 
     def reciprocal_blast_hit(self, genome):
-        """Returns the reciprocal best hit of the gene in the given genome."""
+        """Returns the reciprocal best hit of the gene against a provided genome."""
         try:
             # Find the best hit in the other genome
             best_hit, _ = self.find_homolog_in_genome(genome)
             # Check if it is the best reciprocal hit
             reciprocal_hit, _ = best_hit.find_homolog_in_genome(self.genome)
+            #if the reciprocal hit is the very own gene, return the target
+            #genome hit as the best_reciprocal BLAST hit for the gene
             if self == reciprocal_hit:
                 return best_hit
+        #handle lack of significant results from the BLAST search (in either 
+        #direction)        
         except BlastNoHitFoundException:
             my_logger.debug("No reciprocal BLAST hit for %s." % self.locus_tag)
             return None
