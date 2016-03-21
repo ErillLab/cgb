@@ -43,18 +43,42 @@ class OrthologousGroup:
         return str(self.genes)
 
 
+"""Class-associated functions
+   The following functions provide the means to instantiate orthologous
+   groups from a pre-defined subset of genes in all genomes under analysis
+   and to export them in CSV format.
+"""
+
 def construct_orthologous_groups(genes, genomes):
     """Constructs orthologous groups starting with the given list of genes.
-
+    
+    For each genome, candidate genes that are identified as likely to be
+    regulated are tagged for orthology detection.
+    
+    This constructor function receives the genome objects and the list
+    of genes from each of these genomes on which reciprocal BLAST will be
+    applied to infer orhtologs.
+    
     For each gene, it identifies the reciprocal best BLAST hits in other
-    genomes and adds them to the orthologous groups as well.
+    genomes and adds the gene and its orthologs to the orthologous group.
+    Each orthologous group is a list of gene objects that have been found
+    to be best-reciprocal BLAST hits.
+    
+    The function returns a list of orthologous groups
     """
     groups = []
     for gene in tqdm(genes):
+        #checks whether gene is already in a group, if it is, it skips
+        #the gene (continue goes back to for loop beginning)
         if any(gene in grp.genes for grp in groups):
             continue
+        #if gene not in any group, create list of orthologous genes
+        #by performing reciprocal BLAST against all genomes that
+        #are not the gene's own genome
         rbhs = [gene.reciprocal_blast_hit(other_genome)
                 for other_genome in genomes if gene.genome != other_genome]
+        #create the orthologous group with gene + orthologs on all other genomes
+        #[if there are orthologs in the respective genomes]
         groups.append(OrthologousGroup([gene] + [rbh for rbh in rbhs if rbh]))
     return groups
 
