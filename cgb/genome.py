@@ -163,7 +163,11 @@ class Genome:
         return gene
 
     def find_gene_homolog(self, gene):
-        """Returns the homolog gene of the genome.
+        """Invokes BLASTX to identify the best hit of the query gene
+        in the genome and returns the gene object.
+        
+        Requires the BLAST package to be installed and that the
+        BLAST package binaries are in the path.
 
         Args:
             gene (Gene): the query gene.
