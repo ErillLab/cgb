@@ -1,4 +1,6 @@
 import logging
+
+#enforces the definition of virtual methods in derived classess
 from abc import ABCMeta, abstractmethod, abstractproperty
 
 import numpy as np
@@ -52,7 +54,7 @@ class TFBindingModel():
 
     @property
     def bayesian_estimator(self):
-        """Returns the Bayesian estimator for computing P(regulation)."""
+        """Returns the Bayesian estimator for computing P(regulation|data)."""
         return self._bayesian_estimator
 
     def build_bayesian_estimator(self, bg_scores, alpha=1.0/350):
