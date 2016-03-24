@@ -22,6 +22,16 @@ class OrthologousGroup:
         """Returns the list of orthologous genes."""
         return self._genes
 
+    def member_from_genome(self, genome):
+        """Returns the member of the group from the given genome.
+
+        Returns None if the specified genome has no genes in the group.
+        """
+        genes = [g for g in self.genes if g.genome == genome]
+        if genes:
+            return genes[0]
+        return None
+
     def __repr__(self):
         return str(self.genes)
 
