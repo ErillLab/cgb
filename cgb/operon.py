@@ -84,10 +84,12 @@ class Operon:
         Args:
             prior_regulation (float): the prior probability of regulation
         """
-        #get the TF-binding model adapted to the genome to which the operon belongs
+        # Get the TF-binding model adapted to the genome to which the operon
+        # belongs.
         binding_model = self.genome.TF_binding_model
-        #invoke the binding_model method that returns the binding probability for
-        #promoter regions assigned to this operon, using the provided prior
+        # Invoke the binding_model method that returns the binding probability
+        # for promoter regions assigned to this operon, using the provided
+        # prior
         self._regulation_probability = binding_model.binding_probability(
             self.promoter_region(), prior_regulation)
         return self._regulation_probability

@@ -1,6 +1,6 @@
 import logging
 
-#enforces the definition of virtual methods in derived classess
+# Enforces the definition of virtual methods in derived classes
 from abc import ABCMeta, abstractmethod, abstractproperty
 
 import numpy as np
@@ -54,7 +54,12 @@ class TFBindingModel():
 
     @property
     def bayesian_estimator(self):
-        """Returns the Bayesian estimator for computing P(regulation|data)."""
+        """Returns the Bayesian estimator for computing P(regulation|data).
+
+        The Bayesian estimator is set at "build_bayesian_estimator" method. It
+        is a function that takes a list of scores as the argument, and returns
+        the probability of binding.
+        """
         return self._bayesian_estimator
 
     def build_bayesian_estimator(self, bg_scores, alpha=1.0/350):
@@ -64,7 +69,7 @@ class TFBindingModel():
         list of PSSM scores of a sequence and returns the probability of
         binding to that sequence.
 
-        Ar gs:
+        Args:
             bg_scores (list): List of PSSM scores of sequences from background.
             alpha (float): The mixing ratio.
         """
@@ -88,7 +93,14 @@ class TFBindingModel():
         self._bayesian_estimator = lh_ratio
 
     def binding_probability(self, seq, pm):
-        """Returns the probability of binding to the given seq."""
+        """Returns the probability of binding to the given seq.
+
+        Args:
+            seq (string): the sequence to compute the probability of TF-binding
+            pm (float): prior probability of binding.
+        Returns:
+            float: the probability of TF-binding to the sequence.
+        """
         pssm_scores = self.score_seq(seq)
         pb = 1.0 - pm
         return 1 / (1 + self.bayesian_estimator(pssm_scores) * pb / pm)

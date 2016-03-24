@@ -6,6 +6,8 @@ def complement(seq):
 
     Args:
         seq (string): the DNA sequence.
+    Returns:
+        string: the complement sequence
     """
     complement_dict = {'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C'}
     return ''.join([complement_dict[b] for b in seq])
@@ -16,6 +18,8 @@ def reverse_complement(seq):
 
     Args:
         seq (string): the DNA sequence.
+    Returns:
+        string: the reverse complement sequence
     """
     complement_dict = {'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C'}
     return ''.join([complement_dict[b] for b in reversed(seq)])

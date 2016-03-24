@@ -166,21 +166,21 @@ class Genome:
     def find_gene_homolog(self, gene):
         """Invokes TBLASTX to identify the best hit of the query gene
         in the genome and returns the gene object.
-        
+
         Requires the BLAST package to be installed and that the
         BLAST package binaries are in the path.
 
         Args:
             gene (Gene): the query gene.
         Returns:
-            (Gene, float): The best BLAST hit in the genome 
+            (Gene, float): The best BLAST hit in the genome
             for the query and its BLAST e-value.
         """
-        #performs a tblastx search with the given gene against the genome
-        #the blast_client returns a biopython blast_record
+        # Perform a tblastx search with the given gene against the genome.
+        # The blast_client returns a Biopython blast_record.
         blast_record = self.blast_client.tblastx(gene.to_fasta())
-        #calls the get_best_hit method to get the locus_tag and e-value
-        #of the first BLAST hit
+        # Call the get_best_hit method to get the locus_tag and e-value of the
+        # first BLAST hit.
         locus_tag = self.blast_client.get_best_hit(blast_record)
         evalue = self.blast_client.get_e_value(blast_record)
         return self.get_gene_by_locus_tag(locus_tag), evalue
@@ -205,7 +205,7 @@ class Genome:
         """Finds the homolog of the given transcription factors.
         Given a list of proteins corresponding to the TF of interest
         (provided by the user; the list of TFs for which binding motifs
-        are provided), it uses find_protein_homolog to identify the 
+        are provided), it uses find_protein_homolog to identify the
         homologous protein in this genome. Among the returned BLAST
         hits, it picks the lowest e-value result to define the orthologous
         TF in the genome. If the lowest e-value does not meet the threshold,

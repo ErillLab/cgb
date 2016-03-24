@@ -17,11 +17,11 @@ class BLAST:
 
     The target database is constructed from the provided sequences using the
     command-line BLAST utility 'makeblastdb'.
-    
-    For this application, databases are created for genomes using the list of all
-    the sequences tagged as "gene" in the GenBank-formatted file. This allows
-    TLBASTX and TBLASTN searches to return hits against specific sequences
-    withing a genome.
+
+    For this application, databases are created for genomes using the list of
+    all the sequences tagged as "gene" in the GenBank-formatted file. This
+    allows TLBASTX and TBLASTN searches to return hits against specific
+    sequences withing a genome.
 
     As for database searches, the class supports two flavors of BLAST: tblastx
     and tblastn. The class also provides methods that parses BLAST output and
@@ -64,8 +64,10 @@ class BLAST:
             Bio.Blast.Record.Blast object
         """
         assert blast_program in ['tblastn', 'tblastx']
-        output_file = temp_file_name()  #temporary file in temp directory, automatically named
-        query_file = temp_file_name()   #temporary file in temp directory, automatically named
+        # temporary file in temp directory,automatically named
+        output_file = temp_file_name()
+        # temporary file in temp directory,automatically named
+        query_file = temp_file_name()
         with open(query_file, 'w') as f:
             f.write(query)
         cmd = '{prog} -query {q} -db {db} -evalue {e} -out {out} -outfmt 5'.format(
