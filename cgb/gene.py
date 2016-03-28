@@ -60,7 +60,7 @@ class Gene:
     def upstream_gene(self):
         """Returns the gene upstream.
 
-        Returns None if there is no such genes.
+        Returns None if there is no such gene.
         """
         genes = self.chromid.genes
         if self.is_forward_strand and self._index > 0:
@@ -74,7 +74,7 @@ class Gene:
 
         Args:
             up (int): the relative start position of the upstream region. If
-            none, the returned region is up to the previous gene.
+                none, the returned region is up to the previous gene.
             down (int): the relative end position of the returned region.
         Returns: (int, int) start and end position of the region
         """
@@ -120,7 +120,10 @@ class Gene:
 
     @cached_property
     def name(self):
-        """Returns the name of the gene."""
+        """Returns the name of the gene.
+
+        If the gene has no name, the locus tag is returned.
+        """
         try:
             return self._seq_feature.qualifiers['gene'][0]
         except KeyError:
@@ -135,7 +138,10 @@ class Gene:
 
     @cached_property
     def product_type(self):
-        """Returns the product type of the gene."""
+        """Returns the product type of the gene.
+
+        If the gene has no product information, empty string is returned.
+        """
         return self._product_feature.type if self._product_feature else ''
 
     @cached_property
@@ -167,9 +173,10 @@ class Gene:
         return genome.find_gene_homolog(self)
 
     def reciprocal_blast_hit(self, genome):
-        """Returns the reciprocal best hit of the gene against a provided genome.
-           The function uses find_homolog_in_genome, which calls the find_gene_homolog
-           in the respective genome to search using BLAST.
+        """Returns the reciprocal best hit against a provided genome.
+
+        The function uses "find_homolog_in_genome", which calls the
+        "find_gene_homolog" in the respective genome to search using BLAST.
         """
         try:
             # Find the best hit in the other genome

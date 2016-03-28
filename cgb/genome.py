@@ -44,8 +44,8 @@ class Genome:
                       (strain_name, str(accession_numbers)))
         self._strain_name = strain_name
         self._chromids = [Chromid(acc, self) for acc in accession_numbers]
-        self._TF_instance = None
-        self._TF_binding_model = None
+        self._TF_instance = None   # TF-instance in this genome
+        self._TF_binding_model = None  # binding model tailored for the genome
 
     @property
     def strain_name(self):
@@ -73,7 +73,11 @@ class Genome:
         return len(self.operons)
 
     def operons_to_csv(self, filename):
-        """Writes all operons to the file in csv format."""
+        """Writes all operons to the file in csv format.
+
+        Args:
+            filename (string): the CSV filename to write all operons to
+        """
         with open(filename, 'w') as csvfile:
             csv_writer = csv.writer(csvfile)
             header_row = ['chromid', 'start', 'end', 'strand', 'locus_tags',
@@ -107,6 +111,7 @@ class Genome:
     @cached_property
     def blast_client(self):
         """Returns the BLAST client.
+
         Uses the list of genes in the current genome to invoke the BLAST
         object constructor, which will call BLAST to create a genome-specific
         database and provides access to BLAST methods.
@@ -117,9 +122,8 @@ class Genome:
     def TF_instance(self):
         """Returns the instance of the TF in this genome.
 
-        The TF-instance is identified through BLAST.
+        The TF-instance should be identified through BLAST before calling.
         """
-        # TODO(sefa): make sure setter called before getter.
         return self._TF_instance
 
     @TF_instance.setter
@@ -133,8 +137,11 @@ class Genome:
 
     @property
     def TF_binding_model(self):
-        """Returns the TF-binding model inferred for this genome."""
-        # TODO(sefa): make sure setter called before getter.
+        """Returns the TF-binding model inferred for this genome.
+
+        The TF-binding model tailored for this genome is set via
+        "build_PSSM_model" method.
+        """
         return self._TF_binding_model
 
     def build_PSSM_model(self, collections, weights):
@@ -145,30 +152,40 @@ class Genome:
             weights ([float]): list of weights, one per site collection
         Returns: None. Sets the _TF_binding_model attribute to the built model.
         """
+        # Create a PSSM model using site collections and associated weights.
         model = PSSMModel(collections, weights)
+        # Generate and PSSM-score random sequences to estimate background
+        # PSSM-score distribution.
         random_seqs = self.random_seqs(length=model.length, count=100)
         bg_scores = [model.score_seq(random_seq) for random_seq in random_seqs]
+        # Create a Bayesian estimator which is used to compute the probability
+        # of TF-binding of any given sequence.
         model.build_bayesian_estimator(bg_scores)
         self._TF_binding_model = model
 
     def random_seqs(self, length, count):
         """Returns random sequences drawn from the genome."""
+        # Choose the chromosomes randomly, weighted by the length.
         chromids = weighted_choice(self.chromids,
                                    weights=[c.length for c in self.chromids],
                                    count=count)
         return [c.random_seq(length=length) for c in chromids]
 
     def get_gene_by_locus_tag(self, locus_tag):
-        """Returns the gene with the given locus tag."""
+        """Returns the gene with the given locus tag.
+
+        Args:
+            locus_tag (string): the locus_tag of the gene.
+        """
         gene, = [g for g in self.genes if g.locus_tag == locus_tag]
         return gene
 
     def find_gene_homolog(self, gene):
-        """Invokes TBLASTX to identify the best hit of the query gene
-        in the genome and returns the gene object.
+        """Returns the Gene object that is homologous to the given gene.
 
-        Requires the BLAST package to be installed and that the
-        BLAST package binaries are in the path.
+        Invokes TBLASTX to identify the best hit of the query gene in the
+        genome. Requires the BLAST package to be installed and that the BLAST
+        package binaries are in the path.
 
         Args:
             gene (Gene): the query gene.
@@ -188,39 +205,52 @@ class Genome:
     def find_protein_homolog(self, protein):
         """Returns the homolog protein of the query protein in this genome.
 
+        Invokes TBLASTN to identify the best hit of the query protein in the
+        genome. Requires the BLAST package to be installed and that the BLAST
+        binaries are in the path.
+
         Args:
             protein (Protein): the query protein.
         Returns:
             (Protein, float): The homologous protein and the BLAST e-value.
         """
-        # TODO(sefa): use blast database of protein coding genes only
+        # Perform a tblastn search with the given protein against the genome.
+        # The blast_client returns a Biopython blast_record.
         blast_record = self.blast_client.tblastn(protein.to_fasta())
-        # TODO(sefa): exception when there are no hits
+        # Get the best hit to get the locus_tag and e-value of the first BLAST
+        # hit.
         locus_tag = self.blast_client.get_best_hit(blast_record)
         gene = self.get_gene_by_locus_tag(locus_tag)
         evalue = self.blast_client.get_e_value(blast_record)
         return gene.to_protein(), evalue
 
     def identify_TF_instance(self, proteins):
-        """Finds the homolog of the given transcription factors.
-        Given a list of proteins corresponding to the TF of interest
-        (provided by the user; the list of TFs for which binding motifs
-        are provided), it uses find_protein_homolog to identify the
-        homologous protein in this genome. Among the returned BLAST
-        hits, it picks the lowest e-value result to define the orthologous
-        TF in the genome. If the lowest e-value does not meet the threshold,
-        this is reported to the user and the genome is excluded from analysis.
+        """Finds the instance of the transcription factor of interest.
+
+        Given a list of proteins corresponding to the TF of interest (provided
+        by the user; the list of proteins for which binding motifs are
+        provided), it calls "find_protein_homolog" method to identify the
+        homologous protein in this genome. Among the returned BLAST hits, it
+        picks the lowest e-value result to define the orthologous TF in the
+        genome. If the lowest e-value does not meet the threshold, this is
+        reported to the user and the genome is excluded from analysis.
 
         Args:
-            proteins (list): List of proteins.
+            proteins (list): List of TF-instances provided by the user.
         Returns:
             protein: the homologous gene with the lowest evalue.
             None: if there are no homologs.
+
         """
+        # Find best BLAST hit for each given protein.
         blast_hits = [self.find_protein_homolog(p) for p in proteins]
         if blast_hits:
+            # If there are BLAST hits, return the one with the best e-value.
             TF, _ = min(blast_hits, key=lambda x: x[1])
         else:
+            # Otherwise, set the TF-instance to None.
+            # The genome will be dropped from the analysis.
+            TF = None
             my_logger.warning("No TF-instance found for %s. " %
                               self.strain_name)
         self._TF_instance = TF
@@ -229,7 +259,14 @@ class Genome:
         """Scans upstream regions of all operons for binding sites.
 
         Args:
-            filename: csv filename to write posterior probabilities
+            prior (float): The prior probability of TF-binding to any promoter
+                region. It is set by the user or estimated based on the number
+                of operons and the size of the provided TF-binding motif.
+            threshold (float): The threshold for posterior probability of
+                binding. Only the operons with a TF-binding probability higher
+                than the threshold are reported.
+            filename (sting): The CSV file to write the computed posterior
+                probabilities, one line per operon.
 
         Returns:
             [(Operon, float)]: List of operons and their regulation
@@ -241,7 +278,9 @@ class Genome:
             p = opr.calculate_regulation_probability(prior)
             if p >= threshold:
                 regulons.append((opr, p))
+        # Sort regulons by their posterior TF-binding probabilities.
         regulons.sort(key=lambda x: x[1], reverse=True)
+        # Output results to the CSV file, if filename is provided.
         if filename:
             self._output_posterior_probabilities(regulons, filename)
         return regulons
@@ -274,12 +313,24 @@ class Genome:
     def identify_sites(self, promoter_up=300, filename=None):
         """Returns the list of sites in non-coding regions..
 
-        It searches exclusively the [up to previous gene, +50] for all genes in
-        the genome. It returns all sites with a score over threshold, and tags
-        the found sites as operator or intergenic (if distance is >300, or
-        whatever the user specifies). Finally, it reports identified sites to a
-        CSV file if filename is provided.
+        It searches exclusively the [-promoter_up, +50] for all genes in the
+        genome. It returns all sites with a score over threshold, and tags the
+        found sites as operator or intergenic (if distance is >300, or whatever
+        the user specifies). Finally, it reports identified sites to a CSV file
+        if filename is provided.
+
+        The reason to identify binding sites upstream of all genes, rather than
+        only of operons, is that the binding site predictions are used to
+        improve the operon prediction. That is, if there is a putative binding
+        site upstream of an in-between gene in an operon, the operon is split
+        into two by the gene.
+
+        Args:
+            promoter_up (int): the max-distance from the start of the gene to
+                report binding sites.
+            filename (string): the CSV file to report putative binding sites.
         """
+        # If already computed, return the stored results.
         if hasattr(self, '_putative_sites' ):
             return self._putative_sites
 
@@ -288,6 +339,7 @@ class Genome:
         sites = []
         my_logger.debug("Identifying sites in %s" % self.strain_name)
         for gene in tqdm(self.genes):
+            # Locate the upstream non-coding region.
             start, end = gene.upstream_noncoding_region()
             # Score forward strand
             seq = gene.chromid.subsequence(start, end)
@@ -303,7 +355,9 @@ class Genome:
                 if score >= threshold:
                     sites.append(
                         Site(gene.chromid, i, i+site_len, -1, score, gene))
+        # Sort the identified sites by their scores.
         sites.sort(key=lambda site: site.score, reverse=True)
+        # Store the results in a private attribute.
         self._putative_sites = sites
 
         if filename:
@@ -312,7 +366,7 @@ class Genome:
     def _output_identified_sites(self, sites, promoter_up, filename):
         """Reports the idenitied sites to a CSV file.
         Args:
-            sites (list(Site)): List of Site tuples to be reported
+            sites ([Site]): List of Site tuples to be reported
             promoter_up (float): the distance threshold for operator region. If
             the distance to the gene is <threshold, the site is in operator
             region. Otherwise, it is in intergenic region.

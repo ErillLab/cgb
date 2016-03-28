@@ -37,6 +37,7 @@ def create_genomes(user_input):
         [Genome]: list of created genomes
     """
     my_logger.info("Started: create genomes")
+    # Create genomes with given names and accession numbers.
     genomes = [Genome(name, accessions)
                for name, accessions in user_input.genome_name_and_accessions]
     my_logger.info("Finished: create genomes")
@@ -66,6 +67,12 @@ def identify_TF_instance_in_genomes(genomes, proteins):
     for g in genomes:
         my_logger.info("Identifying TF instance for /%s/" % g.strain_name)
         g.identify_TF_instance(proteins)
+
+
+def remove_genomes_with_no_TF_instance(genomes):
+    """Removes the genomes with no identified TF-instance from the analysis."""
+    genomes_with_TF = [genome for genome in genomes if genome.TF_instance]
+    return genomes_with_TF
 
 
 def set_TF_binding_model(user_input, genome, site_collections, weights):
@@ -337,6 +344,8 @@ def main():
 
     # Identify TF instances for each genome.
     identify_TF_instance_in_genomes(genomes, proteins)
+    # Remove genomes with no TF-instance from the analysis.
+    genomes = remove_genomes_with_no_TF_instance(genomes)
 
     # Create phylogeny
     phylogeny = create_phylogeny(genomes, proteins, user_input)

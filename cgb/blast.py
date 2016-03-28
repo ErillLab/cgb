@@ -36,6 +36,7 @@ class BLAST:
             db_type (string): 'nucl' or 'prot'
         """
         prefix = prefix + '_'
+        # temporary files in temp directory, automatically named.
         self._in_file = temp_file_name(prefix=prefix, suffix='_input.fasta')
         self._db_file = temp_file_name(prefix=prefix, suffix='_blast.db')
         self._log_file = temp_file_name(prefix=prefix, suffix='_makeblastdb.log')
@@ -44,7 +45,10 @@ class BLAST:
         self.makeblastdb()      # Create BLAST database.
 
     def makeblastdb(self):
-        """Creates a BLAST database."""
+        """Creates a BLAST database.
+
+        Runs BLAST 'makeblastdb' utility to build the database.
+        """
         with open(self._in_file, 'w') as f:
             f.write(self._seq_fasta)
         cmd = 'makeblastdb -in {inp} -out {out} -logfile {log} -dbtype {db_type}'.format(
@@ -64,9 +68,9 @@ class BLAST:
             Bio.Blast.Record.Blast object
         """
         assert blast_program in ['tblastn', 'tblastx']
-        # temporary file in temp directory,automatically named
+        # temporary file in temp directory, automatically named
         output_file = temp_file_name()
-        # temporary file in temp directory,automatically named
+        # temporary file in temp directory, automatically named
         query_file = temp_file_name()
         with open(query_file, 'w') as f:
             f.write(query)
