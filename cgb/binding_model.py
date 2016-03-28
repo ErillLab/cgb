@@ -90,6 +90,9 @@ class TFBindingModel():
         lh_m = lambda scores: alpha * pdf_m(scores) + (1-alpha) * pdf_g(scores)
         lh_ratio = lambda scores: np.exp(
             np.sum(np.log(lh_g(scores)) - np.log(lh_m(scores))))
+        # "lh_ratio" is a function that takes a single argument (PSSM scores of
+        # all kmers of a sequence) and returns the likelihood ratio of
+        # TF-binding to the sequence.
         self._bayesian_estimator = lh_ratio
 
     def binding_probability(self, seq, pm):
