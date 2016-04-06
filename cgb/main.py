@@ -325,8 +325,9 @@ def create_phylogeny(genomes, proteins, user_input):
         Phylo: the phylogeny object. See phylo.py
     """
     phylo = Phylo(proteins + [g.TF_instance for g in genomes])
-    # Output the phylogenetic tree in newick format.
+    # Output the phylogenetic tree in newick and nexus formats.
     phylo.to_newick(os.path.join(user_input.log_dir, 'phylogeny.nwk'))
+    phylo.to_nexus(os.path.join(user_input.log_dir, 'phylogeny.nex'))
     phylo.draw_ascii()
     return phylo
 

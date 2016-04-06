@@ -1,13 +1,27 @@
 """Methods for multiple sequence alignment and tree construction."""
+import copy
+
 from Bio.Align.Applications import ClustalOmegaCommandline
 from Bio import AlignIO
 from Bio import Phylo as BioPhylo
+from Bio.Phylo import NewickIO
 from Bio.Phylo.TreeConstruction import DistanceCalculator
 from Bio.Phylo.TreeConstruction import DistanceTreeConstructor
 from cached_property import cached_property
 
 from misc import unique
 
+# Structure of a Nexus tree-only file
+NEX_TEMPLATE = """\
+#NEXUS
+
+BEGIN_TREES;
+ TRANSLATE
+%(translate)s
+  ;
+Tree tree=%(tree)s
+END;
+"""
 
 class Phylo:
     """Class for phylogeny.
@@ -85,6 +99,9 @@ class Phylo:
         calculator = DistanceCalculator(self._distance_model)
         constructor = DistanceTreeConstructor(calculator, self._tree_algorithm)
         tree = constructor.build_tree(self.alignment)
+        # Make the tree rooted.
+        # TODO: support rooting with a given outgroup.
+        tree.root_at_midpoint()
         return tree
 
     @cached_property
@@ -107,3 +124,32 @@ class Phylo:
     def to_newick(self, filename):
         """Writes the tree to the given file in newick format."""
         BioPhylo.write(self.tree, filename, 'newick')
+
+    def to_nexus(self, filename):
+        """Writes the tree to the given file in nexus format.
+
+        This method doesn't call Bio.Phylo.NexusIO as BayesTraitsV2 requires a
+        different dialect of Nexus format.
+        """
+        # Copy the tree before making any changes on it.
+        tree = copy.deepcopy(self.tree)
+        # BayesTraits requires the Nexus file to have a "Translate" block which
+        # declares a number->taxon mapping so that numbers, not long taxa
+        # names, are used in the tree descriptions.
+        names_to_ints = dict((clade.name, i) for i, clade in enumerate(
+            tree.get_terminals(), start=1))
+        # Assign numbers to terminal clades
+        for node in tree.get_terminals():
+            node.name = str(names_to_ints[node.name])
+        # Drop names of the inner nodes
+        for n in tree.get_nonterminals():
+            n.name = None
+        # Tree to string
+        writer = NewickIO.Writer([tree])
+        nexus_tree = NEX_TEMPLATE % {
+            'translate': ',\n'.join('%d %s' % (name, id)
+                                    for id, name in names_to_ints.items()),
+            'tree': next(writer.to_strings(plain=False, plain_newick=True))}
+        # Write string to file
+        with open(filename, 'w') as handle:
+            handle.write(nexus_tree)
