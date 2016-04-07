@@ -1,5 +1,8 @@
 """Miscellaneous bioinformatics utility functions."""
 
+from Bio.Seq import Seq
+from Bio.Alphabet import generic_dna
+
 
 def complement(seq):
     """Returns the complement of the seq.
@@ -9,8 +12,7 @@ def complement(seq):
     Returns:
         string: the complement sequence
     """
-    complement_dict = {'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C'}
-    return ''.join([complement_dict[b] for b in seq])
+    return str(Seq(seq, generic_dna).complement())
 
 
 def reverse_complement(seq):
@@ -21,5 +23,4 @@ def reverse_complement(seq):
     Returns:
         string: the reverse complement sequence
     """
-    complement_dict = {'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C'}
-    return ''.join([complement_dict[b] for b in reversed(seq)])
+    return str(Seq(seq, generic_dna).reverse_complement())
