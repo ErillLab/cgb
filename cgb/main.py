@@ -160,6 +160,9 @@ def phylogenetic_weighting(site_collections, genome, phylogeny):
     Returns:
         [float]: list of weights, not normalized.
     """
+    if len(site_collections) == 1:
+        # Single collection, no need to compute weights
+        return [1]
     dists = [phylogeny.distance(collection.TF, genome.TF_instance)
              for collection in site_collections]
     normalized_dists = [float(d)/sum(dists) for d in dists]
