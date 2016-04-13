@@ -4,6 +4,7 @@ import cStringIO
 
 from cached_property import cached_property
 from Bio import SeqIO
+from Bio.SeqRecord import SeqRecord
 
 import entrez_utils
 
@@ -46,10 +47,17 @@ class Protein:
         """Returns the amino acid sequence of the protein."""
         return str(self.record.seq)
 
-    def to_fasta(self):
-        """Returns the protein record as a string in FASTA format."""
+    def to_fasta(self, description=None):
+        """Returns the protein record as a string in FASTA format.
+
+        Args:
+            description (string): the description line in FASTA file. If it is
+                None, the description in the NCBI record is used.
+        """
         output = cStringIO.StringIO()
-        SeqIO.write(self.record, output, 'fasta')
+        record = (SeqRecord(self.record.seq, description) if description
+                  else self.record)
+        SeqIO.write(record, output, 'fasta')
         return output.getvalue()
 
     def __repr__(self):
