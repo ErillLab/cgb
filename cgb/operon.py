@@ -1,5 +1,7 @@
 """The operon module."""
 
+from random import random
+
 
 class Operon:
     """Definition for Operon class.
@@ -77,12 +79,13 @@ class Operon:
         return self.chromid.subsequence(loc_start, loc_end)
 
     def calculate_regulation_probability(self, prior_regulation):
-        """Returns the probability of regulation of the operon.
-        This is the posterior probability of regulation given the string
-        of TF-binding model scores along the promoter region mapping to the operon.
+        """Returns the probability of regulation of the operon.  This is the
+        posterior probability of regulation given the string of TF-binding
+        model scores along the promoter region mapping to the operon.
 
         Args:
             prior_regulation (float): the prior probability of regulation
+
         """
         # Get the TF-binding model adapted to the genome to which the operon
         # belongs.
@@ -98,6 +101,17 @@ class Operon:
     def regulation_probability(self):
         """Returns the regulation probability of the operon."""
         return self._regulation_probability
+
+    @property
+    def is_probably_regulated(self):
+        """Discretizes the regulation probability and returns True or False,
+        randomly chosen and weighted by the posterior probability of
+        regulation.
+
+        For example, if the P(regulation)=0.9, this method returns True (the
+        gene is regulated) 9 out of 10 times.
+        """
+        return random() <= self.regulation_probability
 
     def __repr__(self):
         return str([g.locus_tag for g in self._genes])
