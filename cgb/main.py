@@ -1,4 +1,6 @@
 import os
+import pickle
+import dill
 
 from genome import Genome
 from protein import Protein
@@ -8,6 +10,8 @@ from phylo import Phylo
 from user_input import UserInput
 from orthologous_group import construct_orthologous_groups
 from orthologous_group import orthologous_groups_to_csv
+from orthologous_group import ancestral_state_reconstruction
+from orthologous_group import ancestral_states_to_csv
 
 
 def directory(*paths):
@@ -328,6 +332,7 @@ def create_phylogeny(genomes, proteins, user_input):
         Phylo: the phylogeny object. See phylo.py
     """
     phylo = Phylo(proteins + [g.TF_instance for g in genomes])
+    print phylo.tree
     # Output the phylogenetic tree in newick and nexus formats.
     phylo.to_newick(os.path.join(user_input.log_dir, 'phylogeny.nwk'))
     phylo.to_nexus(os.path.join(user_input.log_dir, 'phylogeny.nex'))
@@ -335,10 +340,44 @@ def create_phylogeny(genomes, proteins, user_input):
     return phylo
 
 
+def perform_ancestral_state_reconstruction(user_input, genomes,
+                                           orthologous_grps):
+    """Performs ancestral state reconstruction
+
+    It uses BayesTraitsV2 (http://www.evolution.rdg.ac.uk/BayesTraits.html) to
+    estimate trait probabilities on intermediate nodes of the given
+    phylogenetic tree.
+
+    It outputs the estimated state probabilities to a CSV file.
+
+    It draws the phylogenetic tree of target genomes to a file.
+
+    Args:
+        user_input (UserInput): the parameters provided by the user
+        genomes ([Genome]): the list of target genomes
+        orthologous_grps ([OrthologousGroup]): the list of orthologous groups
+            for which the ancestral state reconstruction is performed. Each
+            group consists of genes that are orthologous to each other.
+    """
+    # Create a phylogeny using target genomes only.
+    phylo = Phylo([g.TF_instance for g in genomes],
+                  names=[g.strain_name for g in genomes])
+    # Perform ancestral state reconstruction
+    ancestral_state_reconstruction(orthologous_grps, phylo)
+
+    log_dir = directory(user_input.log_dir)
+    # Write ancestral state reconstruction to a csv file
+    ancestral_states_to_csv(orthologous_grps, phylo,
+                            os.path.join(log_dir, 'ancestral_states.csv'))
+    # Save phylogeny
+    phylo.draw(os.path.join(log_dir, "phylogeny.png"))
+
+
 def main():
     """The entry-point for the pipeline."""
     # Read user input and configuration from two files
-    user_input = UserInput('../tests/input.json', '../tests/config.json')
+    user_input = UserInput('../tests/test2/input.json',
+                           '../tests/test2/config.json')
 
     # Create proteins
     proteins = create_proteins(user_input)
@@ -374,4 +413,9 @@ def main():
         output_operons(user_input, genome)
 
     # Create orthologous groups
-    create_orthologous_groups(user_input, all_regulated_genes, genomes)
+    ortholog_groups = create_orthologous_groups(
+        user_input, all_regulated_genes, genomes)
+
+    # Ancestral state reconstruction step
+    perform_ancestral_state_reconstruction(
+        user_input, genomes, ortholog_groups)

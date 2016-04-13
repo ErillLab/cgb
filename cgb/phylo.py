@@ -1,5 +1,6 @@
 """Methods for multiple sequence alignment and tree construction."""
 import copy
+import pylab
 
 from Bio.Align.Applications import ClustalOmegaCommandline
 from Bio import AlignIO
@@ -15,13 +16,14 @@ from misc import unique
 NEX_TEMPLATE = """\
 #NEXUS
 
-BEGIN_TREES;
- TRANSLATE
+BEGIN TREES;
+TRANSLATE
 %(translate)s
   ;
-Tree tree=%(tree)s
+Tree tree= %(tree)s
 END;
 """
+
 
 class Phylo:
     """Class for phylogeny.
@@ -39,16 +41,22 @@ class Phylo:
     The class also provides methods for outputting the built phylogenetic tree,
     such as drawing it as a string as well as exporting it to a Newick file.
     """
-    def __init__(self, proteins, distance_model='identity',
+    def __init__(self, proteins, names=None, distance_model='identity',
                  tree_algorithm='nj'):
         """Initializes a Phylo object.
 
         Args:
-            proteins (list): list of Protein objects
+            proteins ([Protein]): list of Protein objects
+            names ([String]): list of names to be used for each species on the
+                tree. By default, its value is None. If not provided, the
+                protein accession numbers are used.
             distance_model (string): see DistanceCalculator.protein_models
             tree_algorithm (string): 'nj' or 'upgma'
         """
         self._proteins = unique(proteins, lambda p: p.accession_number)
+        self._names = names
+        if names:
+            assert len(proteins) == len(names)
         self._distance_model = distance_model
         self._tree_algorithm = tree_algorithm
 
@@ -65,8 +73,9 @@ class Phylo:
     def proteins_to_fasta_file(self, filename):
         """Writes proteins to a temporary FASTA file."""
         with open(filename, 'w') as f:
-            for protein in self.proteins:
-                f.write(protein.to_fasta())
+            for i, protein in enumerate(self.proteins):
+                prot_desc = self._names[i] if self._names else None
+                f.write(protein.to_fasta(prot_desc))
 
     def _clustalo(self):
         """Performs Clustal-Omega multiple sequence alignment.
@@ -100,8 +109,8 @@ class Phylo:
         constructor = DistanceTreeConstructor(calculator, self._tree_algorithm)
         tree = constructor.build_tree(self.alignment)
         # Make the tree rooted.
-        # TODO: support rooting with a given outgroup.
         tree.root_at_midpoint()
+        tree.root.name = 'Root'
         return tree
 
     @cached_property
@@ -153,3 +162,8 @@ class Phylo:
         # Write string to file
         with open(filename, 'w') as handle:
             handle.write(nexus_tree)
+
+    def draw(self, filename):
+        """Draws tree and saves it into the given file."""
+        BioPhylo.draw(self.tree, do_show=False)
+        pylab.savefig(filename)
