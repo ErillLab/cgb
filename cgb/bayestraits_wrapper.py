@@ -119,8 +119,6 @@ def bayes_traits(phylo, trait):
     command_file = generate_command_file(phylo)
 
     run_bayes_traits(tree_file, data_file, command_file)
-    # Check whether all traits have the same state. If so, all ancestral states
-    # would have the same trait with probability 1.0
     try:
         log_file = data_file + '.log.txt'
         ancestral_states = parse_bayes_trait_output(log_file)
