@@ -31,7 +31,7 @@ def unique(xs, f):
     return d.values()
 
 
-def temp_file_name(dir='/tmp', prefix='', suffix=''):
+def temp_file_name(dir=tempfile.gettempdir(), prefix='', suffix=''):
     """Creates a unique file and return its name."""
     tmpfile = tempfile.NamedTemporaryFile(dir=dir, prefix=prefix,
                                           suffix=suffix, delete=False)
