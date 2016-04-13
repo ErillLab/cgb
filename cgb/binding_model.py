@@ -40,7 +40,6 @@ class TFBindingModel():
         """
         self._background = background
         self._collection_set = collections
-        self._bayesian_estimator = None
 
     @cached_property
     def background(self):
@@ -62,16 +61,16 @@ class TFBindingModel():
         """
         return self._bayesian_estimator
 
-    def build_bayesian_estimator(self, bg_scores, alpha=1.0/350):
+    def build_bayesian_estimator(self, bg_scores):
         """Builds a Bayesian estimator of the probability of regulation.
 
-        The attribute '_bayesian_estimator' is set to a function that takes a
-        list of PSSM scores of a sequence and returns the probability of
-        binding to that sequence.
+        It computes probability distributions for PSSM scores of binding sites
+        and background sequences. The probability distributions are stored for
+        later use to compute posterior probability of binding on a given
+        sequence.
 
         Args:
             bg_scores (list): List of PSSM scores of sequences from background.
-            alpha (float): The mixing ratio.
         """
         logging.debug("Building Bayesian estimator.")
         # Estimate the mean/std of functional site scores.
@@ -79,34 +78,32 @@ class TFBindingModel():
         mu_m, std_m = np.mean(pssm_scores), np.std(pssm_scores)
         logging.debug("pssm_scores - mean: %.2f, std: %.2f" % (mu_m, std_m))
         # Estimate the mean/std of the background scores.
-        mu_g, std_g = np.mean(bg_scores), np.std(bg_scores)
-        logging.debug("bg_scores - mean: %.2f, std: %.2f" % (mu_g, std_g))
+        mu_bg, std_bg = np.mean(bg_scores), np.std(bg_scores)
+        logging.debug("bg_scores - mean: %.2f, std: %.2f" % (mu_bg, std_bg))
 
-        # Distributions
-        pdf_m = scipy.stats.distributions.norm(mu_m, std_m).pdf
-        pdf_g = scipy.stats.distributions.norm(mu_g, std_g).pdf
-        # Likelihoods
-        lh_g = lambda scores: pdf_g(scores)
-        lh_m = lambda scores: alpha * pdf_m(scores) + (1-alpha) * pdf_g(scores)
-        lh_ratio = lambda scores: np.exp(
-            np.sum(np.log(lh_g(scores)) - np.log(lh_m(scores))))
-        # "lh_ratio" is a function that takes a single argument (PSSM scores of
-        # all kmers of a sequence) and returns the likelihood ratio of
-        # TF-binding to the sequence.
-        self._bayesian_estimator = lh_ratio
+        # Probability density functions
+        self._pdf_m = scipy.stats.distributions.norm(mu_m, std_m).pdf
+        self._pdf_bg = scipy.stats.distributions.norm(mu_bg, std_bg).pdf
 
-    def binding_probability(self, seq, pm):
+    def binding_probability(self, seq, p_motif, alpha=1/350.0):
         """Returns the probability of binding to the given seq.
 
         Args:
             seq (string): the sequence to compute the probability of TF-binding
-            pm (float): prior probability of binding.
+            p_motif (float): prior probability of binding
+            alpha (float): The mixing ratio.
         Returns:
             float: the probability of TF-binding to the sequence.
         """
         pssm_scores = self.score_seq(seq)
-        pb = 1.0 - pm
-        return 1 / (1 + self.bayesian_estimator(pssm_scores) * pb / pm)
+        p_bg = 1.0 - p_motif
+        # Compute the likelihood of the seq from motif and background
+        lh_m = (alpha * self._pdf_m(pssm_scores) +
+                (1-alpha) * self._pdf_bg(pssm_scores))
+        lh_bg = self._pdf_bg(pssm_scores)
+        # Compute the likelihood ratio
+        lh_ratio = np.exp(np.sum(np.log(lh_bg) - np.log(lh_m)))
+        return 1 / (1 + lh_ratio * p_bg / p_motif)
 
     # All of the following methods should be overridden in the subclass.
     @abstractmethod
