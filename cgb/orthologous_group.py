@@ -3,9 +3,7 @@
 import csv
 
 from tqdm import tqdm
-from Bio import Phylo as BioPhylo
 
-from phylo import Phylo
 from misc import weighted_choice
 import bayestraits_wrapper
 from my_logger import my_logger
