@@ -75,15 +75,9 @@ class TFBindingModel():
         logging.debug("Building Bayesian estimator.")
         # Estimate the mean/std of functional site scores.
         pssm_scores = self.score_self()
-        mu_m, std_m = np.mean(pssm_scores), np.std(pssm_scores)
-        logging.debug("pssm_scores - mean: %.2f, std: %.2f" % (mu_m, std_m))
+        self._mu_m, self._std_m = np.mean(pssm_scores), np.std(pssm_scores)
         # Estimate the mean/std of the background scores.
-        mu_bg, std_bg = np.mean(bg_scores), np.std(bg_scores)
-        logging.debug("bg_scores - mean: %.2f, std: %.2f" % (mu_bg, std_bg))
-
-        # Probability density functions
-        self._pdf_m = scipy.stats.distributions.norm(mu_m, std_m).pdf
-        self._pdf_bg = scipy.stats.distributions.norm(mu_bg, std_bg).pdf
+        self._mu_bg, self._std_bg = np.mean(bg_scores), np.std(bg_scores)
 
     def binding_probability(self, seq, p_motif, alpha=1/350.0):
         """Returns the probability of binding to the given seq.
@@ -97,10 +91,12 @@ class TFBindingModel():
         """
         pssm_scores = self.score_seq(seq)
         p_bg = 1.0 - p_motif
+        # Probability density functions
+        pdf_m = scipy.stats.distributions.norm(self._mu_m, self._std_m).pdf
+        pdf_bg = scipy.stats.distributions.norm(self._mu_bg, self._std_bg).pdf
         # Compute the likelihood of the seq from motif and background
-        lh_m = (alpha * self._pdf_m(pssm_scores) +
-                (1-alpha) * self._pdf_bg(pssm_scores))
-        lh_bg = self._pdf_bg(pssm_scores)
+        lh_m = (alpha * pdf_m(pssm_scores) + (1-alpha) * pdf_bg(pssm_scores))
+        lh_bg = pdf_bg(pssm_scores)
         # Compute the likelihood ratio
         lh_ratio = np.exp(np.sum(np.log(lh_bg) - np.log(lh_m)))
         return 1 / (1 + lh_ratio * p_bg / p_motif)
