@@ -1,0 +1,29 @@
+probability,operon_start,operon_end,operon_strand,genes,products
+1.000,1659727,1659985,-1,ACEL_RS07610,ACEL_RS07610 (hypothetical protein)
+1.000,1660254,1661082,1,ACEL_RS07615,ACEL_RS07615 (LexA repressor)
+1.000,1092419,1097989,1,"ACEL_RS05115, ACEL_RS05120, ACEL_RS05125","ACEL_RS05115 (hypothetical protein), ACEL_RS05120 (hypothetical protein), ACEL_RS05125 (error-prone DNA polymerase)"
+1.000,1091733,1092225,-1,ACEL_RS05110,ACEL_RS05110 (aminoacyl-tRNA deacylase)
+1.000,1098436,1098835,1,ACEL_RS05130,ACEL_RS05130 (hypothetical protein)
+1.000,1357996,1358998,-1,ACEL_RS06265,ACEL_RS06265 (hypothetical protein)
+1.000,1359015,1360020,1,ACEL_RS06270,ACEL_RS06270 (radical SAM protein)
+0.998,1496369,1499061,-1,"ACEL_RS11510, ACEL_RS06910, ACEL_RS06915, ACEL_RS06920","ACEL_RS11510 (preprotein translocase subunit YajC), ACEL_RS06910 (Holliday junction DNA helicase RuvB), ACEL_RS06915 (Holliday junction ATP-dependent DNA helicase RuvA), ACEL_RS06920 (crossover junction endodeoxyribonuclease RuvC)"
+0.998,498895,499246,1,ACEL_RS02405,ACEL_RS02405 (hypothetical protein)
+0.988,1612748,1614896,1,"ACEL_RS07440, ACEL_RS07445","ACEL_RS07440 (DNA polymerase IV), ACEL_RS07445 (carboxymethylenebutenolidase)"
+0.988,1609086,1612591,-1,"ACEL_RS07415, ACEL_RS07420, ACEL_RS07425, ACEL_RS07430, ACEL_RS07435","ACEL_RS07415 (oxidoreductase FAD-binding subunit), ACEL_RS07420 (phenylacetate-CoA oxygenase subunit PaaJ), ACEL_RS07425 (phenylacetate-CoA oxygenase subunit PaaI), ACEL_RS07430 (phenylacetate-CoA oxygenase subunit PaaB), ACEL_RS07435 (phenylacetate-CoA oxygenase subunit PaaA)"
+0.960,1724262,1724559,-1,ACEL_RS07870,ACEL_RS07870 (hypothetical protein)
+0.876,516282,518456,1,"ACEL_RS02495, ACEL_RS02500","ACEL_RS02495 (3-beta hydroxysteroid dehydrogenase), ACEL_RS02500 (MFS transporter)"
+0.876,515536,516172,-1,ACEL_RS02490,ACEL_RS02490 (TetR family transcriptional regulator)
+0.872,1468311,1468761,-1,ACEL_RS06785,ACEL_RS06785 (prepilin-type N-terminal cleavage/methylation domain-containing protein)
+0.837,1832013,1833728,-1,"ACEL_RS08400, ACEL_RS08405","ACEL_RS08400 (hypothetical protein), ACEL_RS08405 (xanthine dehydrogenase)"
+0.836,686215,688246,1,ACEL_RS03260,ACEL_RS03260 (transcription termination factor Rho)
+0.791,1797033,1797104,1,ACEL_RS08220,ACEL_RS08220 (tRNA-Gly)
+0.768,1316034,1316346,-1,ACEL_RS06085,ACEL_RS06085 (ferredoxin)
+0.767,2282304,2282574,1,ACEL_RS10370,ACEL_RS10370 (hypothetical protein)
+0.757,2281580,2282227,-1,"ACEL_RS10360, ACEL_RS10365","ACEL_RS10360 (tRNA-Pro), ACEL_RS10365 (DNA starvation/stationary phase protection protein)"
+0.714,1000050,1004748,1,"ACEL_RS04685, ACEL_RS04690, ACEL_RS04695, ACEL_RS04700, ACEL_RS04705","ACEL_RS04685 (hypothetical protein), ACEL_RS04690 (ABC transporter permease), ACEL_RS04695 (inner-membrane translocator), ACEL_RS04700 (ABC transporter ATP-binding protein), ACEL_RS04705 (ABC transporter ATP-binding protein)"
+0.704,887142,891874,1,"ACEL_RS04135, ACEL_RS04140, ACEL_RS04145, ACEL_RS04150","ACEL_RS04135 (ferredoxin), ACEL_RS04140 (hypothetical protein), ACEL_RS04145 (phenazine biosynthesis protein PhzF), ACEL_RS04150 (DNA primase)"
+0.669,1316600,1318352,1,ACEL_RS06090,ACEL_RS06090 (proteasome-associated ATPase)
+0.653,760256,762725,1,"ACEL_RS03590, ACEL_RS03595","ACEL_RS03590 (aspartyl/glutamyl-tRNA amidotransferase subunit B), ACEL_RS03595 (dihydrofolate reductase)"
+0.648,1877066,1877998,1,"ACEL_RS08600, ACEL_RS08605","ACEL_RS08600 (hypothetical protein), ACEL_RS08605 (hypothetical protein)"
+0.634,1796876,1796952,-1,ACEL_RS08215,ACEL_RS08215 (tRNA-Pro)
+0.587,2386773,2388663,-1,"ACEL_RS10935, ACEL_RS11770","ACEL_RS10935 (hypothetical protein), ACEL_RS11770 (hypothetical protein)"

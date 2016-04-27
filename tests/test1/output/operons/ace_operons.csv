@@ -1,0 +1,1124 @@
+chromid,start,end,strand,locus_tags,products
+NC_008578.1,74,1517,1,ACEL_RS00005,ACEL_RS00005 (chromosomal replication initiation protein DnaA)
+NC_008578.1,12205,12589,-1,ACEL_RS00065,ACEL_RS00065 (hypothetical protein)
+NC_008578.1,12859,14272,1,"ACEL_RS00070, ACEL_RS00075","ACEL_RS00070 (cyclophilin), ACEL_RS00075 (rhomboid family intramembrane serine protease)"
+NC_008578.1,14415,14658,-1,ACEL_RS00080,ACEL_RS00080 (hypothetical protein)
+NC_008578.1,14803,17351,1,"ACEL_RS00085, ACEL_RS00090, ACEL_RS00095, ACEL_RS00100","ACEL_RS00085 (hypothetical protein), ACEL_RS00090 (class E sortase), ACEL_RS00095 (hypothetical protein), ACEL_RS00100 (glutamine amidotransferase)"
+NC_008578.1,17342,24542,-1,"ACEL_RS00105, ACEL_RS00110, ACEL_RS00115, ACEL_RS00120, ACEL_RS00125, ACEL_RS00130","ACEL_RS00105 (hypothetical protein), ACEL_RS00110 (cell division protein FtsI), ACEL_RS00115 (cell division protein), ACEL_RS00120 (protein-serine/threonine phosphatase), ACEL_RS00125 (FHA domain-containing protein), ACEL_RS00130 (phosphopeptide-binding protein)"
+NC_008578.1,24697,24783,1,ACEL_RS00135,ACEL_RS00135 (tRNA-Leu)
+NC_008578.1,30611,31544,-1,ACEL_RS00155,ACEL_RS00155 (hypothetical protein)
+NC_008578.1,31757,33425,1,ACEL_RS00160,ACEL_RS00160 (glycerol-3-phosphate dehydrogenase)
+NC_008578.1,33417,38034,-1,"ACEL_RS00165, ACEL_RS00170, ACEL_RS00175, ACEL_RS00180","ACEL_RS00165 (nitrilase/cyanide hydratase and apolipoprotein N-acyltransferase), ACEL_RS00170 (dehydrogenase catalytic domain-containing protein), ACEL_RS00175 (2-oxoisovalerate dehydrogenase subunit beta), ACEL_RS00180 (pyruvate dehydrogenase (acetyl-transferring) E1 component subunit alpha)"
+NC_008578.1,38618,38894,1,ACEL_RS00185,ACEL_RS00185 (hypothetical protein)
+NC_008578.1,39358,40534,-1,ACEL_RS00190,ACEL_RS00190 (aminotransferase)
+NC_008578.1,40834,40924,1,ACEL_RS00195,ACEL_RS00195 (tRNA-Ser)
+NC_008578.1,42852,43101,-1,ACEL_RS00210,ACEL_RS00210 (hypothetical protein)
+NC_008578.1,44328,44760,1,ACEL_RS00215,ACEL_RS00215 (hypothetical protein)
+NC_008578.1,44860,45496,-1,ACEL_RS11235,ACEL_RS11235 (TetR family transcriptional regulator)
+NC_008578.1,45634,48028,1,"ACEL_RS00225, ACEL_RS00230","ACEL_RS00225 (chloride channel protein), ACEL_RS00230 (hypothetical protein)"
+NC_008578.1,49227,49467,-1,ACEL_RS00240,ACEL_RS00240 (hypothetical protein)
+NC_008578.1,49735,50989,1,ACEL_RS00245,ACEL_RS00245 (MFS transporter)
+NC_008578.1,51536,52334,-1,ACEL_RS00255,ACEL_RS00255 (hypothetical protein)
+NC_008578.1,53028,57081,1,"ACEL_RS00260, ACEL_RS00265, ACEL_RS00270, ACEL_RS00275","ACEL_RS00260 (bifunctional D-altronate/D-mannonate dehydratase), ACEL_RS00265 (ferric reductase), ACEL_RS00270 (FMN-binding domain-containing protein), ACEL_RS00275 (thiamine biosynthesis protein ApbE)"
+NC_008578.1,59131,62593,-1,"ACEL_RS00285, ACEL_RS00290, ACEL_RS11245, ACEL_RS00300","ACEL_RS00285 (magnesium transporter), ACEL_RS00290 (hypothetical protein), ACEL_RS11245 (hypothetical protein), ACEL_RS00300 (hypothetical protein)"
+NC_008578.1,62539,63741,1,"ACEL_RS00305, ACEL_RS11250","ACEL_RS00305 (RNA polymerase sigma factor SigL), ACEL_RS11250 (putative transmembrane anti-sigma factor)"
+NC_008578.1,65461,65659,-1,ACEL_RS00325,ACEL_RS00325 (hypothetical protein)
+NC_008578.1,65785,67167,1,"ACEL_RS00330, ACEL_RS00335","ACEL_RS00330 (transcriptional repressor), ACEL_RS00335 (folate-binding protein)"
+NC_008578.1,67267,70503,-1,"ACEL_RS00340, ACEL_RS00345","ACEL_RS00340 (D-tyrosyl-tRNA(Tyr) deacylase), ACEL_RS00345 (hypothetical protein)"
+NC_008578.1,70758,71334,1,ACEL_RS00350,ACEL_RS00350 (AmfC protein)
+NC_008578.1,71405,73028,-1,ACEL_RS00355,ACEL_RS00355 (tripeptidyl-peptidase B)
+NC_008578.1,73204,73606,1,ACEL_RS00360,ACEL_RS00360 (hypothetical protein)
+NC_008578.1,76149,77826,-1,ACEL_RS00385,ACEL_RS00385 (beta-N-acetylhexosaminidase)
+NC_008578.1,78011,79358,1,ACEL_RS00390,ACEL_RS00390 (D-inositol-3-phosphate glycosyltransferase)
+NC_008578.1,80860,82207,-1,"ACEL_RS00405, ACEL_RS11255","ACEL_RS00405 (hypothetical protein), ACEL_RS11255 (hypothetical protein)"
+NC_008578.1,82504,82987,1,ACEL_RS00415,ACEL_RS00415 (CarD family transcriptional regulator)
+NC_008578.1,87823,89080,-1,ACEL_RS00445,ACEL_RS00445 (LPS kinase)
+NC_008578.1,89584,89660,1,ACEL_RS00450,ACEL_RS00450 (tRNA-Thr)
+NC_008578.1,92152,93301,-1,ACEL_RS00475,ACEL_RS00475 (two-component sensor histidine kinase)
+NC_008578.1,93450,94113,1,ACEL_RS00480,ACEL_RS00480 (phosphate transport system regulatory protein PhoU)
+NC_008578.1,98083,100591,-1,"ACEL_RS00505, ACEL_RS11260","ACEL_RS00505 (penicillin-binding protein), ACEL_RS11260 (diguanylate cyclase)"
+NC_008578.1,100987,101299,1,ACEL_RS00515,ACEL_RS00515 (hypothetical protein)
+NC_008578.1,106654,107026,-1,ACEL_RS00540,ACEL_RS00540 (hypothetical protein)
+NC_008578.1,107308,108007,1,ACEL_RS00545,ACEL_RS00545 (hypothetical protein)
+NC_008578.1,108666,111748,-1,"ACEL_RS00555, ACEL_RS00560, ACEL_RS00565","ACEL_RS00555 (1,4-dihydroxy-6-naphthoate synthase), ACEL_RS00560 (hypothetical protein), ACEL_RS00565 (hypothetical protein)"
+NC_008578.1,111953,112754,1,ACEL_RS00570,ACEL_RS00570 (hypothetical protein)
+NC_008578.1,119080,120187,-1,ACEL_RS00605,ACEL_RS00605 (citrate synthase)
+NC_008578.1,120427,121102,1,ACEL_RS00610,ACEL_RS00610 (pyridoxine/pyridoxamine 5'-phosphate oxidase)
+NC_008578.1,121301,122755,-1,"ACEL_RS00615, ACEL_RS00620","ACEL_RS00615 (hypothetical protein), ACEL_RS00620 (uracil-DNA glycosylase)"
+NC_008578.1,122842,124276,1,ACEL_RS00630,ACEL_RS00630 (hypothetical protein)
+NC_008578.1,126308,126494,-1,ACEL_RS00655,ACEL_RS00655 (hypothetical protein)
+NC_008578.1,126706,127102,1,ACEL_RS00660,ACEL_RS00660 (membrane protein)
+NC_008578.1,127131,127437,-1,ACEL_RS00665,ACEL_RS00665 (hypothetical protein)
+NC_008578.1,127619,128795,1,ACEL_RS00670,ACEL_RS00670 (hypothetical protein)
+NC_008578.1,130608,132018,-1,ACEL_RS00680,"ACEL_RS00680 (endo-1,3-beta-glucanase)"
+NC_008578.1,132512,133901,1,ACEL_RS00685,ACEL_RS00685 (ABC transporter substrate-binding protein)
+NC_008578.1,137756,138788,-1,ACEL_RS00705,ACEL_RS00705 (LacI family transcriptional regulator)
+NC_008578.1,139081,140491,1,ACEL_RS00710,ACEL_RS00710 (glycosyl hydrolase family 5)
+NC_008578.1,141399,142050,-1,ACEL_RS00720,ACEL_RS00720 (phosphoribosyltransferase)
+NC_008578.1,142162,143176,1,ACEL_RS00725,ACEL_RS00725 (alcohol dehydrogenase)
+NC_008578.1,148561,149173,-1,ACEL_RS00750,ACEL_RS00750 (hypothetical protein)
+NC_008578.1,149264,150323,1,ACEL_RS00755,ACEL_RS00755 (hypothetical protein)
+NC_008578.1,155479,156475,-1,ACEL_RS00785,ACEL_RS00785 (hypothetical protein)
+NC_008578.1,156743,158177,1,ACEL_RS00790,ACEL_RS00790 (hypothetical protein)
+NC_008578.1,161494,162346,-1,ACEL_RS00815,ACEL_RS00815 (formyltetrahydrofolate deformylase)
+NC_008578.1,162564,162948,1,ACEL_RS00820,ACEL_RS00820 (antitoxin VapB)
+NC_008578.1,163741,165387,-1,"ACEL_RS00830, ACEL_RS00835","ACEL_RS00830 (hypothetical protein), ACEL_RS00835 (5'-methylthioadenosine phosphorylase)"
+NC_008578.1,165667,168126,1,"ACEL_RS00840, ACEL_RS00845","ACEL_RS00840 (ATP-dependent zinc metalloprotease FtsH), ACEL_RS00845 (heat-shock protein Hsp20)"
+NC_008578.1,168748,171395,-1,"ACEL_RS00855, ACEL_RS00860, ACEL_RS00865","ACEL_RS00855 (hypothetical protein), ACEL_RS00860 (K+/H+ antiporter), ACEL_RS00865 (5-formyltetrahydrofolate cyclo-ligase)"
+NC_008578.1,171602,173735,1,ACEL_RS00870,ACEL_RS00870 (GAF sensor-containing diguanylate cyclase)
+NC_008578.1,179158,182006,-1,"ACEL_RS00905, ACEL_RS00910, ACEL_RS11275","ACEL_RS00905 (tRNA-Ala), ACEL_RS00910 (glycosyl transferase family protein), ACEL_RS11275 (hypothetical protein)"
+NC_008578.1,182222,182951,1,ACEL_RS00920,ACEL_RS00920 (rRNA (cytidine-2'-O-)-methyltransferase)
+NC_008578.1,195237,196191,-1,ACEL_RS00970,ACEL_RS00970 (dehydrogenase)
+NC_008578.1,196889,203336,1,"ACEL_RS00975, ACEL_RS00980, ACEL_RS00985, ACEL_RS00990, ACEL_RS00995, ACEL_RS01000, ACEL_RS01005","ACEL_RS00975 (hypothetical protein), ACEL_RS00980 (hypothetical protein), ACEL_RS00985 (hypothetical protein), ACEL_RS00990 (hypothetical protein), ACEL_RS00995 (membrane protein), ACEL_RS01000 (hypothetical protein), ACEL_RS01005 (peroxidase)"
+NC_008578.1,208056,208320,-1,ACEL_RS01035,ACEL_RS01035 (hypothetical protein)
+NC_008578.1,208419,209907,1,ACEL_RS01040,ACEL_RS01040 (PhoH family protein)
+NC_008578.1,211503,211989,-1,ACEL_RS01050,ACEL_RS01050 (inorganic pyrophosphatase)
+NC_008578.1,212191,213682,1,ACEL_RS01055,ACEL_RS01055 (D-alanyl-D-alanine carboxypeptidase/D-alanyl-D-alanine-endopeptidase)
+NC_008578.1,236386,237286,-1,ACEL_RS01155,ACEL_RS01155 (adenine glycosylase)
+NC_008578.1,237615,242193,1,"ACEL_RS01160, ACEL_RS11280, ACEL_RS01170, ACEL_RS01175","ACEL_RS01160 (chemotaxis response regulator protein-glutamate methylesterase), ACEL_RS11280 (CheR-type MCP methyltransferase), ACEL_RS01170 (hypothetical protein), ACEL_RS01175 (membrane protein)"
+NC_008578.1,243008,245939,-1,ACEL_RS01180,ACEL_RS01180 (hypothetical protein)
+NC_008578.1,246008,249979,1,"ACEL_RS01195, ACEL_RS01200, ACEL_RS01205","ACEL_RS01195 (DNA repair protein RadA), ACEL_RS01200 (dna integrity scanning protein disa), ACEL_RS01205 (aspartate aminotransferase family protein)"
+NC_008578.1,260449,262008,-1,"ACEL_RS01255, ACEL_RS01260","ACEL_RS01255 (hypothetical protein), ACEL_RS01260 (glutaredoxin)"
+NC_008578.1,262114,262942,1,ACEL_RS11290,ACEL_RS11290 (Allergen V5/Tpx-1 family protein)
+NC_008578.1,263733,268378,-1,"ACEL_RS01275, ACEL_RS01280, ACEL_RS01285, ACEL_RS01290, ACEL_RS01295","ACEL_RS01275 (hypothetical protein), ACEL_RS01280 (acetoin utilization protein AcuC), ACEL_RS01285 (pyrroline-5-carboxylate reductase), ACEL_RS01290 (proline dehydrogenase), ACEL_RS01295 (hypothetical protein)"
+NC_008578.1,268413,276686,1,"ACEL_RS01300, ACEL_RS01305, ACEL_RS01310, ACEL_RS01315, ACEL_RS01320, ACEL_RS01325, ACEL_RS01330, ACEL_RS01335","ACEL_RS01300 (hypothetical protein), ACEL_RS01305 (redoxin domain-containing protein), ACEL_RS01310 (cytochrome C biogenesis protein CcdA), ACEL_RS01315 (ResB family protein), ACEL_RS01320 (c-type cytochrome biogenesis protein CcsB), ACEL_RS01325 (menaquinone biosynthesis decarboxylase), ACEL_RS01330 (4-hydroxybenzoate octaprenyltransferase), ACEL_RS01335 (aromatic acid decarboxylase)"
+NC_008578.1,276739,276964,-1,ACEL_RS01340,ACEL_RS01340 (excisionase)
+NC_008578.1,277522,280510,1,"ACEL_RS01345, ACEL_RS11295, ACEL_RS01355, ACEL_RS01360","ACEL_RS01345 (aminofutalosine synthase MqnE), ACEL_RS11295 (hypothetical protein), ACEL_RS01355 (menaquinone biosynthesis protein), ACEL_RS01360 (response regulator receiver protein)"
+NC_008578.1,301924,307460,-1,"ACEL_RS01460, ACEL_RS01465, ACEL_RS01470, ACEL_RS01475, ACEL_RS01480","ACEL_RS01460 (hypothetical protein), ACEL_RS01465 (2-oxoacid:ferredoxin oxidoreductase subunit beta), ACEL_RS01470 (2-oxoglutarate ferredoxin oxidoreductase subunit alpha), ACEL_RS01475 (twin-arginine translocation pathway signal protein), ACEL_RS01480 (YajQ family cyclic di-GMP-binding protein)"
+NC_008578.1,307543,307629,1,ACEL_RS01485,ACEL_RS01485 (tRNA-Tyr)
+NC_008578.1,311892,313095,-1,ACEL_RS01525,ACEL_RS01525 (aspartate aminotransferase)
+NC_008578.1,313371,315040,1,"ACEL_RS01530, ACEL_RS01535, ACEL_RS01540, ACEL_RS01545","ACEL_RS01530 (tRNA-Trp), ACEL_RS01535 (preprotein translocase subunit SecE), ACEL_RS01540 (transcription termination/antitermination protein NusG), ACEL_RS01545 (50S ribosomal protein L11)"
+NC_008578.1,347863,349216,-1,"ACEL_RS01750, ACEL_RS01755","ACEL_RS01750 (hypothetical protein), ACEL_RS01755 (CopG family transcriptional regulator)"
+NC_008578.1,349435,351309,1,"ACEL_RS01760, ACEL_RS01765","ACEL_RS01760 (daunorubicin resistance protein DrrA family ABC transporter ATP-binding protein), ACEL_RS01765 (ABC transporter)"
+NC_008578.1,357531,357945,-1,ACEL_RS11305,ACEL_RS11305 (transcriptional regulator)
+NC_008578.1,358337,360479,1,ACEL_RS01800,ACEL_RS01800 (membrane protein)
+NC_008578.1,361354,361948,-1,ACEL_RS01810,ACEL_RS01810 (hypothetical protein)
+NC_008578.1,362109,363599,1,"ACEL_RS01815, ACEL_RS01820","ACEL_RS01815 (hypothetical protein), ACEL_RS01820 (anti-sigma factor)"
+NC_008578.1,363785,366795,-1,"ACEL_RS01825, ACEL_RS01830, ACEL_RS01835","ACEL_RS01825 (hypothetical protein), ACEL_RS01830 (sugar ABC transporter ATPase), ACEL_RS01835 (simple sugar transport system substrate-binding protein)"
+NC_008578.1,367494,369883,1,"ACEL_RS01840, ACEL_RS01845, ACEL_RS01850","ACEL_RS01840 (alanine racemase), ACEL_RS01845 (DNA polymerase), ACEL_RS01850 (tRNA threonylcarbamoyladenosine biosynthesis protein TsaE)"
+NC_008578.1,379853,381152,-1,ACEL_RS01905,ACEL_RS01905 (UDP-N-acetylglucosamine 1-carboxyvinyltransferase)
+NC_008578.1,381214,382231,1,ACEL_RS01910,ACEL_RS01910 (oxidoreductase)
+NC_008578.1,382227,382581,-1,ACEL_RS01915,ACEL_RS01915 (chorismate mutase)
+NC_008578.1,382792,384361,1,ACEL_RS01920,ACEL_RS01920 (GMP synthetase)
+NC_008578.1,386129,387377,-1,"ACEL_RS01930, ACEL_RS01935","ACEL_RS01930 (hypothetical protein), ACEL_RS01935 (GlcNAc-PI de-N-acetylase)"
+NC_008578.1,387450,389742,1,ACEL_RS01940,ACEL_RS01940 (ATP-dependent DNA helicase PcrA)
+NC_008578.1,389826,390642,-1,ACEL_RS01945,ACEL_RS01945 (peptidase M23B)
+NC_008578.1,390876,391272,1,ACEL_RS01950,ACEL_RS01950 (methylmalonyl-CoA mutase)
+NC_008578.1,392437,392992,-1,ACEL_RS01960,ACEL_RS01960 (hypothetical protein)
+NC_008578.1,393186,395269,1,"ACEL_RS01965, ACEL_RS01970","ACEL_RS01965 (succinyl-CoA ligase subunit beta), ACEL_RS01970 (succinate--CoA ligase subunit alpha)"
+NC_008578.1,406374,407535,-1,ACEL_RS02030,ACEL_RS02030 (hypothetical protein)
+NC_008578.1,407746,409138,1,ACEL_RS02035,ACEL_RS02035 (pyridine nucleotide-disulfide oxidoreductase)
+NC_008578.1,410677,411025,-1,ACEL_RS11320,ACEL_RS11320 (hypothetical protein)
+NC_008578.1,411074,417248,1,"ACEL_RS02050, ACEL_RS02055, ACEL_RS02060, ACEL_RS02065, ACEL_RS02070","ACEL_RS02050 (phosphoenolpyruvate carboxylase), ACEL_RS02055 (biotin--[acetyl-CoA-carboxylase] ligase), ACEL_RS02060 (membrane-flanked domain-containing protein), ACEL_RS02065 (enoyl-CoA hydratase), ACEL_RS02070 (hydroxymethylglutaryl-CoA lyase)"
+NC_008578.1,417372,418629,-1,ACEL_RS02075,ACEL_RS02075 (hypothetical protein)
+NC_008578.1,418648,420568,1,"ACEL_RS02080, ACEL_RS02085","ACEL_RS02080 (hypothetical protein), ACEL_RS02085 (carboxylase)"
+NC_008578.1,420663,421182,-1,ACEL_RS02090,ACEL_RS02090 (polysaccharide synthesis protein GtrA)
+NC_008578.1,421310,424257,1,"ACEL_RS02095, ACEL_RS02100, ACEL_RS02105","ACEL_RS02095 (acyl-CoA dehydrogenase), ACEL_RS02100 (5-(carboxyamino)imidazole ribonucleotide synthase), ACEL_RS02105 (5-(carboxyamino)imidazole ribonucleotide mutase)"
+NC_008578.1,424260,425520,-1,ACEL_RS02110,ACEL_RS02110 (UDP-glucose 6-dehydrogenase)
+NC_008578.1,425687,427398,1,"ACEL_RS02115, ACEL_RS02120","ACEL_RS02115 (acyl-CoA dehydrogenase), ACEL_RS02120 (acyl-CoA thioesterase)"
+NC_008578.1,429155,430706,-1,ACEL_RS02130,ACEL_RS02130 (hypothetical protein)
+NC_008578.1,430730,431798,1,ACEL_RS02135,ACEL_RS02135 (glucose-1-phosphate thymidylyltransferase)
+NC_008578.1,439832,440945,-1,ACEL_RS02170,ACEL_RS02170 (group 1 glycosyl transferase)
+NC_008578.1,441064,447023,1,"ACEL_RS02175, ACEL_RS02180, ACEL_RS02185","ACEL_RS02175 (hypothetical protein), ACEL_RS02180 (ABC transporter-like protein), ACEL_RS02185 (glycosyl transferase)"
+NC_008578.1,453422,454589,-1,ACEL_RS02210,ACEL_RS02210 (hypothetical protein)
+NC_008578.1,454822,455953,1,ACEL_RS02215,ACEL_RS02215 (glycosyl transferase family 1)
+NC_008578.1,458806,460629,-1,"ACEL_RS02225, ACEL_RS02230","ACEL_RS02225 (hypothetical protein), ACEL_RS02230 (hypothetical protein)"
+NC_008578.1,460781,469380,1,"ACEL_RS11335, ACEL_RS02240, ACEL_RS02245, ACEL_RS02250, ACEL_RS02255, ACEL_RS02260, ACEL_RS02265","ACEL_RS11335 (hypothetical protein), ACEL_RS02240 (hypothetical protein), ACEL_RS02245 (dihydroxy-acid dehydratase), ACEL_RS02250 (hypothetical protein), ACEL_RS02255 (binding-protein-dependent transport system inner membrane protein), ACEL_RS02260 (hypothetical protein), ACEL_RS02265 (aldehyde dehydrogenase)"
+NC_008578.1,472199,474565,-1,"ACEL_RS11340, ACEL_RS02300","ACEL_RS11340 (hypothetical protein), ACEL_RS02300 (hypothetical protein)"
+NC_008578.1,474765,476523,1,ACEL_RS02305,ACEL_RS02305 (hypothetical protein)
+NC_008578.1,478964,483429,-1,"ACEL_RS02320, ACEL_RS11345, ACEL_RS02330, ACEL_RS02335","ACEL_RS02320 (glycosyltransferase WbuB), ACEL_RS11345 (group 1 glycosyl transferase), ACEL_RS02330 (group 1 glycosyl transferase), ACEL_RS02335 (GDP-mannose 4,6-dehydratase)"
+NC_008578.1,483598,486251,1,"ACEL_RS02340, ACEL_RS02345, ACEL_RS02350","ACEL_RS02340 (GDP-fucose synthetase), ACEL_RS02345 (GDP-mannose pyrophosphorylase), ACEL_RS02350 (AsnC family transcriptional regulator)"
+NC_008578.1,488567,489740,-1,ACEL_RS02365,ACEL_RS02365 (2-phospho-L-lactate transferase)
+NC_008578.1,490110,490407,1,ACEL_RS02370,ACEL_RS02370 (transcription factor WhiB)
+NC_008578.1,497781,498171,-1,ACEL_RS02395,ACEL_RS02395 (peptidase)
+NC_008578.1,498287,498641,1,ACEL_RS02400,ACEL_RS02400 (hypothetical protein)
+NC_008578.1,503916,505737,-1,"ACEL_RS02430, ACEL_RS02435","ACEL_RS02430 (RNA methyltransferase), ACEL_RS02435 (hydrolase)"
+NC_008578.1,505898,507531,1,"ACEL_RS02440, ACEL_RS02445","ACEL_RS02440 (NAD-dependent dehydratase), ACEL_RS02445 (molybdopterin synthase)"
+NC_008578.1,515536,516172,-1,ACEL_RS02490,ACEL_RS02490 (TetR family transcriptional regulator)
+NC_008578.1,516282,518456,1,"ACEL_RS02495, ACEL_RS02500","ACEL_RS02495 (3-beta hydroxysteroid dehydrogenase), ACEL_RS02500 (MFS transporter)"
+NC_008578.1,522234,522483,-1,ACEL_RS11355,ACEL_RS11355 (hypothetical protein)
+NC_008578.1,522466,524358,1,"ACEL_RS02520, ACEL_RS02525, ACEL_RS02530","ACEL_RS02520 (hypothetical protein), ACEL_RS02525 (undecaprenyl-diphosphatase), ACEL_RS02530 (type 12 methyltransferase)"
+NC_008578.1,527790,528558,-1,ACEL_RS02550,ACEL_RS02550 (hemerythrin)
+NC_008578.1,528711,530378,1,"ACEL_RS02555, ACEL_RS11360","ACEL_RS02555 (hemerythrin HHE cation binding domain-containing protein), ACEL_RS11360 (hypothetical protein)"
+NC_008578.1,530461,530797,-1,ACEL_RS02565,ACEL_RS02565 (LuxR family transcriptional regulator)
+NC_008578.1,530909,531254,1,ACEL_RS02570,ACEL_RS02570 (alkylhydroperoxidase)
+NC_008578.1,545128,545741,-1,"ACEL_RS02635, ACEL_RS02640","ACEL_RS02635 (hemerythrin), ACEL_RS02640 (hypothetical protein)"
+NC_008578.1,545911,547186,1,ACEL_RS02645,ACEL_RS02645 (hypothetical protein)
+NC_008578.1,548290,548824,-1,ACEL_RS02655,ACEL_RS02655 (hypothetical protein)
+NC_008578.1,548921,550100,1,ACEL_RS02660,ACEL_RS02660 (signal transduction histidine kinase)
+NC_008578.1,550177,550774,-1,ACEL_RS02665,ACEL_RS02665 (hypothetical protein)
+NC_008578.1,551039,551717,1,ACEL_RS02670,ACEL_RS02670 (DNA-binding response regulator)
+NC_008578.1,552659,555395,-1,ACEL_RS02680,ACEL_RS02680 (GNAT family N-acetyltransferase)
+NC_008578.1,555554,558976,1,"ACEL_RS02685, ACEL_RS02690","ACEL_RS02685 (phosphoketolase), ACEL_RS02690 (acetate kinase)"
+NC_008578.1,559122,560980,-1,"ACEL_RS02695, ACEL_RS02700, ACEL_RS02705","ACEL_RS02695 (pyridine nucleotide-disulfide oxidoreductase), ACEL_RS02700 (preprotein translocase subunit TatB), ACEL_RS02705 (hypothetical protein)"
+NC_008578.1,561421,562042,1,ACEL_RS02710,ACEL_RS02710 (hypothetical protein)
+NC_008578.1,562207,562939,-1,ACEL_RS02715,ACEL_RS02715 (hypothetical protein)
+NC_008578.1,563503,563683,1,ACEL_RS02720,ACEL_RS02720 (hypothetical protein)
+NC_008578.1,565142,565703,-1,ACEL_RS02730,ACEL_RS02730 (polyisoprenoid-binding protein)
+NC_008578.1,566038,566463,1,ACEL_RS02735,ACEL_RS02735 (MarR family transcriptional regulator)
+NC_008578.1,566675,570318,-1,"ACEL_RS02740, ACEL_RS02745, ACEL_RS02750, ACEL_RS02755","ACEL_RS02740 (histidine kinase), ACEL_RS02745 (histidinol-phosphatase), ACEL_RS02750 (ribosome small subunit-dependent GTPase A), ACEL_RS02755 (3-phosphoshikimate 1-carboxyvinyltransferase)"
+NC_008578.1,570491,571244,1,ACEL_RS02760,ACEL_RS02760 (hypothetical protein)
+NC_008578.1,571337,571730,-1,ACEL_RS02765,ACEL_RS02765 (hypothetical protein)
+NC_008578.1,572014,572922,1,"ACEL_RS02770, ACEL_RS02775","ACEL_RS02770 (RNA polymerase sigma factor RpoE), ACEL_RS02775 (mycothiol system anti-sigma-R factor)"
+NC_008578.1,573004,574326,-1,"ACEL_RS02780, ACEL_RS02785, ACEL_RS02790","ACEL_RS02780 (ABC transporter ATP-binding protein), ACEL_RS02785 (osmotically inducible protein OsmC), ACEL_RS02790 (thiol reductase thioredoxin)"
+NC_008578.1,574467,574725,1,ACEL_RS02795,ACEL_RS02795 (hypothetical protein)
+NC_008578.1,574777,575967,-1,"ACEL_RS02800, ACEL_RS02805","ACEL_RS02800 (hypothetical protein), ACEL_RS02805 (hypothetical protein)"
+NC_008578.1,576565,582008,1,"ACEL_RS02810, ACEL_RS02815, ACEL_RS02820, ACEL_RS02825, ACEL_RS02830","ACEL_RS02810 (hypothetical protein), ACEL_RS02815 (putative lipoprotein), ACEL_RS02820 (biotin carboxylase), ACEL_RS02825 (acetyl-CoA carboxylase biotin carboxyl carrier protein subunit), ACEL_RS02830 (twitching motility protein PilT)"
+NC_008578.1,582063,582870,-1,ACEL_RS02835,ACEL_RS02835 (GntR family transcriptional regulator)
+NC_008578.1,583252,588457,1,"ACEL_RS02840, ACEL_RS02845, ACEL_RS02850, ACEL_RS11365, ACEL_RS02860","ACEL_RS02840 (ABC transporter substrate-binding protein), ACEL_RS02845 (hypothetical protein), ACEL_RS02850 (sugar ABC transporter permease), ACEL_RS11365 (ATPase), ACEL_RS02860 (glucosamine-6-phosphate deaminase)"
+NC_008578.1,588502,589681,-1,ACEL_RS02865,ACEL_RS02865 (N-acetylglucosamine-6-phosphate deacetylase)
+NC_008578.1,590167,592829,1,"ACEL_RS02870, ACEL_RS02875","ACEL_RS02870 (sugar ABC transporter ATP-binding protein), ACEL_RS02875 (ATPase)"
+NC_008578.1,593362,595212,-1,"ACEL_RS02885, ACEL_RS02890","ACEL_RS02885 (diacylglycerol kinase catalytic subunit), ACEL_RS02890 (hypothetical protein)"
+NC_008578.1,595346,595865,1,ACEL_RS11370,ACEL_RS11370 (hypothetical protein)
+NC_008578.1,597388,597796,-1,ACEL_RS02910,"ACEL_RS02910 (superoxide dismutase, Ni)"
+NC_008578.1,597995,598319,1,ACEL_RS02915,ACEL_RS02915 (S26 family signal peptidase)
+NC_008578.1,598291,598897,-1,ACEL_RS02920,"ACEL_RS02920 (dTDP-4-dehydrorhamnose 3,5-epimerase)"
+NC_008578.1,599122,601455,1,"ACEL_RS02925, ACEL_RS02930","ACEL_RS02925 (fumarate reductase), ACEL_RS02930 (hypothetical protein)"
+NC_008578.1,604830,606093,-1,ACEL_RS02945,ACEL_RS02945 (sugar kinase)
+NC_008578.1,606430,607279,1,ACEL_RS02950,ACEL_RS02950 (SIS domain-containing protein)
+NC_008578.1,614277,615468,-1,ACEL_RS02985,ACEL_RS02985 (oxidoreductase)
+NC_008578.1,615613,616582,1,ACEL_RS02990,ACEL_RS02990 (quinone oxidoreductase)
+NC_008578.1,616656,620586,-1,"ACEL_RS02995, ACEL_RS03000","ACEL_RS02995 (hypothetical protein), ACEL_RS03000 (alpha-ketoglutarate decarboxylase)"
+NC_008578.1,621004,622156,1,ACEL_RS11375,ACEL_RS11375 (hypothetical protein)
+NC_008578.1,625948,626416,-1,ACEL_RS03025,ACEL_RS03025 (signal transduction protein)
+NC_008578.1,626717,629084,1,"ACEL_RS03030, ACEL_RS03035, ACEL_RS03040","ACEL_RS03030 (hypothetical protein), ACEL_RS03035 (hypothetical protein), ACEL_RS03040 (hypothetical protein)"
+NC_008578.1,639807,641226,-1,ACEL_RS03085,ACEL_RS03085 (glycoside hydrolase family protein)
+NC_008578.1,641480,643264,1,"ACEL_RS03090, ACEL_RS03095","ACEL_RS03090 (gluconolactonase), ACEL_RS03095 (zinc permease)"
+NC_008578.1,652199,652778,-1,ACEL_RS03135,ACEL_RS03135 (hypothetical protein)
+NC_008578.1,653209,654898,1,ACEL_RS03140,ACEL_RS03140 (endoglucanase)
+NC_008578.1,670520,673179,-1,"ACEL_RS11390, ACEL_RS03190","ACEL_RS11390 (diguanylate cyclase), ACEL_RS03190 (hypothetical protein)"
+NC_008578.1,673276,674437,1,ACEL_RS11395,ACEL_RS11395 (FKBP-type peptidylprolyl isomerase)
+NC_008578.1,674474,674843,-1,ACEL_RS03200,ACEL_RS03200 (hypothetical protein)
+NC_008578.1,674963,675905,1,ACEL_RS03205,ACEL_RS03205 (ribokinase)
+NC_008578.1,677123,678476,-1,"ACEL_RS03220, ACEL_RS03225","ACEL_RS03220 (tRNA-Arg), ACEL_RS03225 (acetyl-CoA acetyltransferase)"
+NC_008578.1,678659,682208,1,"ACEL_RS03230, ACEL_RS03235, ACEL_RS03240","ACEL_RS03230 (response regulator), ACEL_RS03235 (arginine--tRNA ligase), ACEL_RS03240 (diaminopimelate decarboxylase)"
+NC_008578.1,707146,707734,-1,ACEL_RS03380,"ACEL_RS03380 (cob(I)yrinic acid a,c-diamide adenosyltransferase)"
+NC_008578.1,707853,710126,1,"ACEL_RS03385, ACEL_RS03390","ACEL_RS03385 (UDP-N-acetylglucosamine 1-carboxyvinyltransferase), ACEL_RS03390 (3-hydroxybutyryl-CoA dehydrogenase)"
+NC_008578.1,717648,718308,-1,ACEL_RS03420,ACEL_RS03420 (endonuclease)
+NC_008578.1,718494,719223,1,ACEL_RS11405,ACEL_RS11405 (molybdopterin-guanine dinucleotide biosynthesis protein A-like protein)
+NC_008578.1,719373,719592,-1,ACEL_RS03430,ACEL_RS03430 (hypothetical protein)
+NC_008578.1,719680,720616,1,ACEL_RS03435,ACEL_RS03435 (sufurtransferase FdhD)
+NC_008578.1,721051,722410,-1,ACEL_RS03440,ACEL_RS03440 (Xaa-Pro aminopeptidase)
+NC_008578.1,722774,723557,1,ACEL_RS03445,ACEL_RS03445 (hypothetical protein)
+NC_008578.1,723528,723795,-1,ACEL_RS03450,ACEL_RS03450 (hypothetical protein)
+NC_008578.1,723894,727794,1,"ACEL_RS03455, ACEL_RS03460, ACEL_RS03465","ACEL_RS03455 (acetyl-CoA acetyltransferase), ACEL_RS03460 (transporter), ACEL_RS03465 (methylmalonyl-CoA mutase)"
+NC_008578.1,728910,736135,-1,"ACEL_RS03475, ACEL_RS03480, ACEL_RS03485, ACEL_RS03490","ACEL_RS03475 (1,4-alpha-glucan branching enzyme), ACEL_RS03480 (hypothetical protein), ACEL_RS03485 (trehalose synthase), ACEL_RS03490 (alpha-1,4-glucan--maltose-1-phosphate maltosyltransferase)"
+NC_008578.1,736187,739151,1,"ACEL_RS03495, ACEL_RS03500","ACEL_RS03495 (hypothetical protein), ACEL_RS03500 (alpha-glucan phosphorylase)"
+NC_008578.1,739201,741304,-1,ACEL_RS03505,ACEL_RS03505 (glycogen debranching enzyme)
+NC_008578.1,741437,742295,1,ACEL_RS03510,ACEL_RS03510 (enoyl-CoA hydratase)
+NC_008578.1,742316,743825,-1,ACEL_RS03515,ACEL_RS03515 (hypothetical protein)
+NC_008578.1,743986,745791,1,"ACEL_RS03520, ACEL_RS03525","ACEL_RS03520 (electron transfer flavoprotein subunit beta), ACEL_RS03525 (electron transfer flavoprotein subunit alpha)"
+NC_008578.1,745875,747688,-1,"ACEL_RS03530, ACEL_RS03535","ACEL_RS03530 (threonine aldolase), ACEL_RS03535 (short-chain dehydrogenase)"
+NC_008578.1,747995,750294,1,"ACEL_RS03540, ACEL_RS03545","ACEL_RS03540 (cysteine desulfurase), ACEL_RS03545 (tRNA 2-thiouridine(34) synthase MnmA)"
+NC_008578.1,752095,752752,-1,ACEL_RS03555,ACEL_RS03555 (TetR family transcriptional regulator)
+NC_008578.1,752811,753303,1,ACEL_RS03560,ACEL_RS03560 (cupin)
+NC_008578.1,784349,787949,-1,"ACEL_RS03690, ACEL_RS03695, ACEL_RS03700, ACEL_RS03705","ACEL_RS03690 (nucleoside/nucleotide kinase family protein), ACEL_RS03695 (sugar ABC transporter ATP-binding protein), ACEL_RS03700 (ABC transporter permease), ACEL_RS03705 (sugar ABC transporter)"
+NC_008578.1,788207,791310,1,"ACEL_RS03710, ACEL_RS03715, ACEL_RS03720","ACEL_RS03710 (D-beta-D-heptose 1-phosphate adenosyltransferase), ACEL_RS03715 (hypothetical protein), ACEL_RS03720 (carbohydrate kinase)"
+NC_008578.1,791461,803926,-1,"ACEL_RS03725, ACEL_RS03730, ACEL_RS03735, ACEL_RS03740, ACEL_RS03745, ACEL_RS03750, ACEL_RS03755, ACEL_RS03760, ACEL_RS03765","ACEL_RS03725 (FAD-binding protein), ACEL_RS03730 (MFS transporter), ACEL_RS03735 (hypothetical protein), ACEL_RS03740 (NADH/ubiquinone/plastoquinone (complex I)), ACEL_RS03745 (NADH ubiquinone oxidoreductase), ACEL_RS03750 (NADH-quinone oxidoreductase subunit D), ACEL_RS03755 (NADH dehydrogenase), ACEL_RS03760 (hydrogenase), ACEL_RS03765 (NADH dehydrogenase subunit 1)"
+NC_008578.1,804265,804748,1,ACEL_RS03770,ACEL_RS03770 (hypothetical protein)
+NC_008578.1,804882,805686,-1,ACEL_RS03775,ACEL_RS03775 (hypothetical protein)
+NC_008578.1,805976,808954,1,"ACEL_RS03780, ACEL_RS03785","ACEL_RS03780 (DNA mismatch repair protein MutS), ACEL_RS03785 (DNA mismatch repair protein MutS domain-containing protein)"
+NC_008578.1,813729,815157,-1,ACEL_RS03810,ACEL_RS03810 (hypothetical protein)
+NC_008578.1,815217,819560,1,"ACEL_RS03815, ACEL_RS03820, ACEL_RS03825","ACEL_RS03815 (valine--tRNA ligase), ACEL_RS03820 (dihydrofolate synthase), ACEL_RS03825 (hypothetical protein)"
+NC_008578.1,844502,845333,-1,ACEL_RS03945,ACEL_RS03945 (undecaprenyl-diphosphatase)
+NC_008578.1,845457,846845,1,"ACEL_RS03950, ACEL_RS03955","ACEL_RS03950 (hypothetical protein), ACEL_RS03955 (esterase)"
+NC_008578.1,848385,850950,-1,ACEL_RS03965,ACEL_RS03965 (FO synthase)
+NC_008578.1,851332,854959,1,"ACEL_RS03970, ACEL_RS03975, ACEL_RS03980","ACEL_RS03970 (hypothetical protein), ACEL_RS03975 (leucine--tRNA ligase), ACEL_RS03980 (fatty acid-binding protein DegV)"
+NC_008578.1,858988,859249,-1,ACEL_RS04000,ACEL_RS04000 (30S ribosomal protein S20)
+NC_008578.1,859293,862115,1,"ACEL_RS04005, ACEL_RS04010, ACEL_RS04015","ACEL_RS04005 (hypothetical protein), ACEL_RS04010 (elongation factor 4), ACEL_RS04015 (sulfurase)"
+NC_008578.1,862141,862378,-1,ACEL_RS04020,ACEL_RS04020 (hypothetical protein)
+NC_008578.1,862650,863808,1,ACEL_RS04025,ACEL_RS04025 (coproporphyrinogen III oxidase)
+NC_008578.1,868095,869798,-1,"ACEL_RS04050, ACEL_RS04055","ACEL_RS04050 (hypothetical protein), ACEL_RS04055 (RNA polymerase subunit sigma-24)"
+NC_008578.1,870042,873293,1,"ACEL_RS04060, ACEL_RS04065, ACEL_RS04070, ACEL_RS04075","ACEL_RS04060 (histidine triad nucleotide-binding protein), ACEL_RS04065 (phosphate starvation protein PhoH), ACEL_RS04070 (endoribonuclease YbeY), ACEL_RS04075 (hypothetical protein)"
+NC_008578.1,878425,879592,-1,ACEL_RS04105,ACEL_RS04105 (hypothetical protein)
+NC_008578.1,880161,881571,1,ACEL_RS04110,ACEL_RS04110 (glycine--tRNA ligase)
+NC_008578.1,881557,882669,-1,"ACEL_RS04115, ACEL_RS04120","ACEL_RS04115 (hypothetical protein), ACEL_RS04120 (hypothetical protein)"
+NC_008578.1,882700,885391,1,ACEL_RS04125,"ACEL_RS04125 (pyruvate, phosphate dikinase)"
+NC_008578.1,892219,892552,-1,ACEL_RS04155,ACEL_RS04155 (secreted protein)
+NC_008578.1,893342,893418,1,ACEL_RS04160,ACEL_RS04160 (tRNA-Asn)
+NC_008578.1,919498,920777,-1,"ACEL_RS04255, ACEL_RS04260, ACEL_RS04265","ACEL_RS04255 (hypothetical protein), ACEL_RS04260 (hypothetical protein), ACEL_RS04265 (hypothetical protein)"
+NC_008578.1,921139,921213,1,ACEL_RS04270,ACEL_RS04270 (tRNA-Met)
+NC_008578.1,922540,923335,-1,ACEL_RS04280,ACEL_RS04280 (rhomboid family intramembrane serine protease)
+NC_008578.1,923618,924845,1,ACEL_RS04285,ACEL_RS04285 (hypothetical protein)
+NC_008578.1,925378,928678,-1,"ACEL_RS04295, ACEL_RS04300, ACEL_RS04305, ACEL_RS04310","ACEL_RS04295 (flagellar assembly protein FliW), ACEL_RS04300 (flagellar hook-associated protein 3), ACEL_RS04305 (flagellar hook-associated protein FlgK), ACEL_RS04310 (flagellar biosynthesis protein FlgN)"
+NC_008578.1,928910,932922,1,"ACEL_RS04315, ACEL_RS04320, ACEL_RS04325, ACEL_RS04330","ACEL_RS04315 (flagellin domain-containing protein), ACEL_RS04320 (flagellar hook-associated 2 domain-containing protein), ACEL_RS04325 (flagellar export chaperone FliS), ACEL_RS04330 (hypothetical protein)"
+NC_008578.1,955669,956218,-1,ACEL_RS04475,ACEL_RS04475 (TIGR03085 family protein)
+NC_008578.1,956383,958646,1,"ACEL_RS04480, ACEL_RS04485","ACEL_RS04480 (ferredoxin--NADP(+) reductase), ACEL_RS04485 (hypothetical protein)"
+NC_008578.1,960617,961604,-1,ACEL_RS04500,ACEL_RS04500 (LacI family transcriptional regulator)
+NC_008578.1,962163,966047,1,"ACEL_RS04505, ACEL_RS04510, ACEL_RS04515","ACEL_RS04505 (ribulokinase), ACEL_RS04510 (L-ribulose-5-phosphate 4-epimerase), ACEL_RS04515 (L-arabinose isomerase)"
+NC_008578.1,972779,973226,-1,ACEL_RS04550,ACEL_RS04550 (hypothetical protein)
+NC_008578.1,973490,974678,1,"ACEL_RS11415, ACEL_RS04560","ACEL_RS11415 (hypothetical protein), ACEL_RS04560 (hypothetical protein)"
+NC_008578.1,976177,976462,-1,ACEL_RS04575,ACEL_RS04575 (hypothetical protein)
+NC_008578.1,976719,979937,1,"ACEL_RS04580, ACEL_RS04585, ACEL_RS11420, ACEL_RS04595","ACEL_RS04580 (hypothetical protein), ACEL_RS04585 (hypothetical protein), ACEL_RS11420 (hypothetical protein), ACEL_RS04595 (ABC transporter-like protein)"
+NC_008578.1,983372,985535,-1,"ACEL_RS04615, ACEL_RS04620","ACEL_RS04615 (LacI family transcription regulator), ACEL_RS04620 (nitrate ABC transporter substrate-binding protein)"
+NC_008578.1,985592,990104,1,"ACEL_RS04625, ACEL_RS11425, ACEL_RS04635, ACEL_RS04640","ACEL_RS04625 (hypothetical protein), ACEL_RS11425 (hypothetical protein), ACEL_RS04635 (oxidoreductase), ACEL_RS04640 (molybdopterin binding aldehyde oxidase and xanthine dehydrogenase)"
+NC_008578.1,995096,996236,-1,ACEL_RS04670,ACEL_RS04670 (arsenical pump membrane protein)
+NC_008578.1,996308,999917,1,"ACEL_RS04675, ACEL_RS04680, ACEL_RS11790, ACEL_RS11780","ACEL_RS04675 (hypothetical protein), ACEL_RS04680 (mannitol dehydrogenase), ACEL_RS11790 (bacterial RNase P), ACEL_RS11780 (RNA component of RNaseP)"
+NC_008578.1,1007634,1011026,-1,"ACEL_RS04735, ACEL_RS04740, ACEL_RS04745","ACEL_RS04735 (hypothetical protein), ACEL_RS04740 (3-methyl-2-oxobutanoate hydroxymethyltransferase), ACEL_RS04745 (NAD+ synthase)"
+NC_008578.1,1011260,1016951,1,"ACEL_RS04750, ACEL_RS04755, ACEL_RS04760","ACEL_RS04750 (type I glutamate--ammonia ligase), ACEL_RS04755 (bifunctional glutamine-synthetase adenylyltransferase/deadenyltransferase), ACEL_RS04760 (MFS transporter)"
+NC_008578.1,1018046,1019471,-1,ACEL_RS04770,ACEL_RS04770 (type I glutamate--ammonia ligase)
+NC_008578.1,1019604,1020087,1,ACEL_RS04775,ACEL_RS04775 (hypothetical protein)
+NC_008578.1,1022968,1025915,-1,"ACEL_RS04795, ACEL_RS04800, ACEL_RS04805","ACEL_RS04795 (ABC transporter permease), ACEL_RS04800 (multidrug ABC transporter ATP-binding protein), ACEL_RS04805 (hypothetical protein)"
+NC_008578.1,1026009,1029697,1,"ACEL_RS04810, ACEL_RS11435, ACEL_RS04820","ACEL_RS04810 (serine/threonine protein kinase), ACEL_RS11435 (diguanylate cyclase), ACEL_RS04820 (membrane protein)"
+NC_008578.1,1029756,1035216,-1,"ACEL_RS04825, ACEL_RS04830, ACEL_RS04835, ACEL_RS04840","ACEL_RS04825 (epimerase), ACEL_RS04830 (dihydrolipoamide succinyltransferase), ACEL_RS04835 (dihydrolipoyl dehydrogenase), ACEL_RS04840 (leucyl aminopeptidase)"
+NC_008578.1,1035286,1035886,1,ACEL_RS04845,ACEL_RS04845 (hypothetical protein)
+NC_008578.1,1035967,1044467,-1,"ACEL_RS04850, ACEL_RS04855, ACEL_RS04860, ACEL_RS04865, ACEL_RS04870, ACEL_RS04875, ACEL_RS11440, ACEL_RS04885","ACEL_RS04850 (cobalamin synthase), ACEL_RS04855 (nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase), ACEL_RS04860 (adenosylcobinamide kinase), ACEL_RS04865 (ABC transporter permease), ACEL_RS04870 (cobalt ABC transporter ATP-binding protein), ACEL_RS04875 (cobalt transport protein), ACEL_RS11440 (hypothetical protein), ACEL_RS04885 (cell wall anchor domain-containing protein)"
+NC_008578.1,1044931,1045138,1,ACEL_RS04890,ACEL_RS04890 (hypothetical protein)
+NC_008578.1,1046394,1046973,-1,ACEL_RS04900,ACEL_RS04900 (integral membrane protein)
+NC_008578.1,1047373,1050447,1,"ACEL_RS04905, ACEL_RS04910, ACEL_RS04915, ACEL_RS04920, ACEL_RS04925","ACEL_RS04905 (phage-shock protein), ACEL_RS04910 (hypothetical protein), ACEL_RS04915 (zinc metalloprotease HtpX), ACEL_RS04920 (hypothetical protein), ACEL_RS04925 (iron-sulfur cluster insertion protein ErpA)"
+NC_008578.1,1054853,1055507,-1,ACEL_RS04950,ACEL_RS04950 (S26 family signal peptidase)
+NC_008578.1,1055661,1056936,1,ACEL_RS04955,ACEL_RS04955 (hypothetical protein)
+NC_008578.1,1057064,1061271,-1,"ACEL_RS04960, ACEL_RS04965, ACEL_RS04970, ACEL_RS04975","ACEL_RS04960 (menaquinol-cytochrome c reductase cytochrome b subunit), ACEL_RS04965 ((2Fe-2S)-binding protein), ACEL_RS04970 (cystathionine beta-lyase), ACEL_RS04975 (cytochrome b)"
+NC_008578.1,1061565,1063055,1,"ACEL_RS04980, ACEL_RS04985","ACEL_RS04980 (hypothetical protein), ACEL_RS04985 (anthranilate phosphoribosyltransferase)"
+NC_008578.1,1063531,1065232,-1,ACEL_RS04995,ACEL_RS04995 (hypothetical protein)
+NC_008578.1,1065237,1065707,1,"ACEL_RS11445, ACEL_RS05000","ACEL_RS11445 (hypothetical protein), ACEL_RS05000 (hypothetical protein)"
+NC_008578.1,1065839,1068524,-1,ACEL_RS05005,ACEL_RS05005 (glycoside hydrolase family protein)
+NC_008578.1,1069322,1071581,1,"ACEL_RS11450, ACEL_RS05015","ACEL_RS11450 (NLP/P60 protein), ACEL_RS05015 (glycosyl transferase family 1)"
+NC_008578.1,1071851,1077383,-1,"ACEL_RS05020, ACEL_RS05025, ACEL_RS05030, ACEL_RS05035","ACEL_RS05020 (DNA-binding response regulator), ACEL_RS05025 (two-component sensor histidine kinase), ACEL_RS05030 (hypothetical protein), ACEL_RS05035 (long-chain-fatty-acid--CoA ligase)"
+NC_008578.1,1077691,1080107,1,"ACEL_RS05040, ACEL_RS05045, ACEL_RS05050","ACEL_RS05040 (hypothetical protein), ACEL_RS05045 (glucokinase), ACEL_RS05050 (endonuclease/exonuclease/phosphatase)"
+NC_008578.1,1080119,1080860,-1,ACEL_RS05055,ACEL_RS05055 (hypothetical protein)
+NC_008578.1,1081057,1081858,1,ACEL_RS05060,ACEL_RS05060 (1-acyl-sn-glycerol-3-phosphate acyltransferase)
+NC_008578.1,1087563,1089831,-1,"ACEL_RS05085, ACEL_RS05090, ACEL_RS05095","ACEL_RS05085 (thiazole synthase), ACEL_RS05090 (thiamine biosynthesis protein ThiS), ACEL_RS05095 (glycine oxidase ThiO)"
+NC_008578.1,1090148,1091796,1,"ACEL_RS05100, ACEL_RS05105","ACEL_RS05100 (thiamine phosphate synthase), ACEL_RS05105 (5,10-methylenetetrahydrofolate reductase)"
+NC_008578.1,1091733,1092225,-1,ACEL_RS05110,ACEL_RS05110 (aminoacyl-tRNA deacylase)
+NC_008578.1,1092419,1097989,1,"ACEL_RS05115, ACEL_RS05120, ACEL_RS05125","ACEL_RS05115 (hypothetical protein), ACEL_RS05120 (hypothetical protein), ACEL_RS05125 (error-prone DNA polymerase)"
+NC_008578.1,1100092,1104626,-1,"ACEL_RS05140, ACEL_RS05145, ACEL_RS05150","ACEL_RS05140 (transglutaminase), ACEL_RS05145 (hypothetical protein), ACEL_RS05150 (ATPase)"
+NC_008578.1,1105189,1105624,1,ACEL_RS05155,ACEL_RS05155 (division/cell wall cluster transcriptional repressor MraZ)
+NC_008578.1,1130539,1131514,-1,ACEL_RS11455,ACEL_RS11455 (hypothetical protein)
+NC_008578.1,1131736,1133156,1,"ACEL_RS05285, ACEL_RS11460, ACEL_RS05295","ACEL_RS05285 (membrane protein), ACEL_RS11460 (DivIVA domain-containing protein), ACEL_RS05295 (hypothetical protein)"
+NC_008578.1,1137674,1138139,-1,ACEL_RS11465,ACEL_RS11465 (hypothetical protein)
+NC_008578.1,1138269,1139333,1,"ACEL_RS11470, ACEL_RS05315","ACEL_RS11470 (hypothetical protein), ACEL_RS05315 (signal peptidase)"
+NC_008578.1,1146654,1151002,-1,"ACEL_RS05355, ACEL_RS05360, ACEL_RS05365, ACEL_RS05370","ACEL_RS05355 (short-chain dehydrogenase), ACEL_RS05360 (cupin), ACEL_RS05365 (hypothetical protein), ACEL_RS05370 (aminopeptidase)"
+NC_008578.1,1151144,1151783,1,ACEL_RS05375,ACEL_RS05375 (XRE family transcriptional regulator)
+NC_008578.1,1151797,1152682,-1,ACEL_RS05380,ACEL_RS05380 (hypothetical protein)
+NC_008578.1,1152865,1155116,1,"ACEL_RS05385, ACEL_RS05390, ACEL_RS05395","ACEL_RS05385 (acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit alpha), ACEL_RS05390 (TPP-dependent acetoin dehydrogenase complex, E1 protein subunit beta), ACEL_RS05395 (biotin attachment protein)"
+NC_008578.1,1159519,1161457,-1,"ACEL_RS05415, ACEL_RS05420","ACEL_RS05415 (dethiobiotin synthase), ACEL_RS05420 (8-amino-7-oxononanoate synthase)"
+NC_008578.1,1161763,1172350,1,"ACEL_RS05425, ACEL_RS05430, ACEL_RS05435, ACEL_RS11475, ACEL_RS05445, ACEL_RS05450, ACEL_RS05455, ACEL_RS05460, ACEL_RS05465","ACEL_RS05425 (DNA polymerase III subunit alpha), ACEL_RS05430 (ABC transporter ATP-binding protein), ACEL_RS05435 (transporter), ACEL_RS11475 (hypothetical protein), ACEL_RS05445 (histidinol dehydrogenase), ACEL_RS05450 (histidinol-phosphate transaminase), ACEL_RS05455 (imidazoleglycerol-phosphate dehydratase), ACEL_RS05460 (imidazole glycerol phosphate synthase, glutamine amidotransferase subunit), ACEL_RS05465 (bifunctional 1-(5-phosphoribosyl)-5-((5- phosphoribosylamino)methylideneamino)imidazole-4- carboxamide isomerase/phosphoribosylanthranilate isomerase PriA)"
+NC_008578.1,1174280,1176561,-1,"ACEL_RS05475, ACEL_RS05480, ACEL_RS05485","ACEL_RS05475 (integral membrane protein), ACEL_RS05480 (DNA-binding response regulator), ACEL_RS05485 (hypothetical protein)"
+NC_008578.1,1176972,1177521,1,ACEL_RS05490,ACEL_RS05490 (hypothetical protein)
+NC_008578.1,1195797,1195870,-1,ACEL_RS05560,ACEL_RS05560 (tRNA-Leu)
+NC_008578.1,1196045,1196621,1,ACEL_RS05565,ACEL_RS05565 (hypothetical protein)
+NC_008578.1,1212864,1215503,-1,"ACEL_RS05635, ACEL_RS05640","ACEL_RS05635 (cytochrome), ACEL_RS05640 (L-glutamine synthetase)"
+NC_008578.1,1215642,1217067,1,"ACEL_RS05645, ACEL_RS05650","ACEL_RS05645 (acetoacetate decarboxylase), ACEL_RS05650 (MarR family transcriptional regulator)"
+NC_008578.1,1217020,1217752,-1,ACEL_RS05655,ACEL_RS05655 (peptidase C26)
+NC_008578.1,1217859,1222619,1,"ACEL_RS05660, ACEL_RS05665, ACEL_RS05670, ACEL_RS05675, ACEL_RS05680","ACEL_RS05660 (betaine-aldehyde dehydrogenase), ACEL_RS05665 (catecholic dioxygenase), ACEL_RS05670 (5-carboxymethyl-2-hydroxymuconate isomerase), ACEL_RS05675 (ferredoxin), ACEL_RS05680 (hypothetical protein)"
+NC_008578.1,1226808,1228705,-1,"ACEL_RS05695, ACEL_RS05700","ACEL_RS05695 (hypothetical protein), ACEL_RS05700 (Zn-dependent hydrolase)"
+NC_008578.1,1228828,1236562,1,"ACEL_RS05705, ACEL_RS05710, ACEL_RS05715, ACEL_RS05720, ACEL_RS05725","ACEL_RS05705 (excinuclease ABC subunit A), ACEL_RS05710 (UvrABC system protein C), ACEL_RS05715 (RNase adaptor protein RapZ), ACEL_RS05720 (hypothetical protein), ACEL_RS05725 (sporulation protein)"
+NC_008578.1,1246286,1254402,-1,"ACEL_RS05770, ACEL_RS05775, ACEL_RS05780, ACEL_RS05785, ACEL_RS05790, ACEL_RS05795","ACEL_RS05770 (6-phosphogluconolactonase), ACEL_RS05775 (oxidoreductase), ACEL_RS05780 (glucose-6-phosphate dehydrogenase), ACEL_RS05785 (glucose-6-phosphate isomerase), ACEL_RS05790 (transaldolase), ACEL_RS05795 (transketolase)"
+NC_008578.1,1254633,1255557,1,ACEL_RS05800,ACEL_RS05800 (protoheme IX farnesyltransferase)
+NC_008578.1,1260618,1261677,-1,ACEL_RS05825,ACEL_RS05825 (hypothetical protein)
+NC_008578.1,1261825,1268188,1,"ACEL_RS05830, ACEL_RS05835, ACEL_RS05840, ACEL_RS05845, ACEL_RS05850, ACEL_RS05855, ACEL_RS05860","ACEL_RS05830 (transcriptional regulator), ACEL_RS05835 (Fe-S cluster assembly protein SufB), ACEL_RS05840 (Fe-S cluster assembly protein SufD), ACEL_RS05845 (ABC transporter ATP-binding protein), ACEL_RS05850 (cysteine desulfurase), ACEL_RS05855 (iron-sulfur cluster assembly scaffold protein NifU), ACEL_RS05860 (metal-sulfur cluster biosynthetic enzyme)"
+NC_008578.1,1271104,1272988,-1,ACEL_RS05875,ACEL_RS05875 (glucoamylase)
+NC_008578.1,1273151,1273478,1,ACEL_RS05880,ACEL_RS05880 (hypothetical protein)
+NC_008578.1,1273484,1274826,-1,"ACEL_RS05885, ACEL_RS11490","ACEL_RS05885 (quinolinate synthetase), ACEL_RS11490 (hypothetical protein)"
+NC_008578.1,1274919,1275132,1,ACEL_RS05895,ACEL_RS05895 (hypothetical protein)
+NC_008578.1,1278236,1278623,-1,ACEL_RS05910,ACEL_RS05910 (anti-sigma factor antagonist)
+NC_008578.1,1278891,1280363,1,"ACEL_RS05915, ACEL_RS05920","ACEL_RS05915 (beta-ketoacyl-ACP reductase), ACEL_RS05920 (enoyl-[acyl-carrier-protein] reductase)"
+NC_008578.1,1283875,1285078,-1,ACEL_RS11495,ACEL_RS11495 (lytic transglycosylase catalytic subunit)
+NC_008578.1,1285218,1285986,1,ACEL_RS05950,ACEL_RS05950 (membrane protein)
+NC_008578.1,1286219,1286432,-1,ACEL_RS05955,ACEL_RS05955 (hypothetical protein)
+NC_008578.1,1286714,1287539,1,ACEL_RS05960,ACEL_RS05960 (rRNA methyltransferase)
+NC_008578.1,1289478,1291181,-1,"ACEL_RS05970, ACEL_RS05975","ACEL_RS05970 (transporter), ACEL_RS05975 (hypothetical protein)"
+NC_008578.1,1293473,1294097,1,ACEL_RS05980,ACEL_RS05980 (hypothetical protein)
+NC_008578.1,1294228,1294313,-1,ACEL_RS05985,ACEL_RS05985 (tRNA-Leu)
+NC_008578.1,1294990,1296280,1,ACEL_RS05990,ACEL_RS05990 (peptidase M20)
+NC_008578.1,1296922,1299099,-1,"ACEL_RS06000, ACEL_RS06005","ACEL_RS06000 (hypothetical protein), ACEL_RS06005 (aldo/keto reductase)"
+NC_008578.1,1299244,1302675,1,"ACEL_RS06010, ACEL_RS06015, ACEL_RS06020, ACEL_RS06025, ACEL_RS06030","ACEL_RS06010 (hypothetical protein), ACEL_RS06015 (phosphoglycerate mutase), ACEL_RS06020 (hypothetical protein), ACEL_RS06025 (hypothetical protein), ACEL_RS06030 (L-cysteine:1D-myo-inositol 2-amino-2-deoxy-alpha-D-glucopyranoside ligase)"
+NC_008578.1,1302771,1303623,-1,ACEL_RS06035,ACEL_RS06035 (carboxylate--amine ligase)
+NC_008578.1,1303819,1307296,1,ACEL_RS06040,ACEL_RS06040 (methionine synthase)
+NC_008578.1,1313010,1313811,-1,ACEL_RS06070,ACEL_RS06070 (recombinase RecB)
+NC_008578.1,1313975,1316020,1,"ACEL_RS06075, ACEL_RS06080","ACEL_RS06075 (peptidase M50), ACEL_RS06080 (SAM-dependent methyltransferase)"
+NC_008578.1,1316034,1316346,-1,ACEL_RS06085,ACEL_RS06085 (ferredoxin)
+NC_008578.1,1316600,1318352,1,ACEL_RS06090,ACEL_RS06090 (proteasome-associated ATPase)
+NC_008578.1,1318437,1318896,-1,ACEL_RS06095,ACEL_RS06095 (NUDIX hydrolase)
+NC_008578.1,1319198,1320698,1,ACEL_RS06100,ACEL_RS06100 (proteasome accessory factor PafA2)
+NC_008578.1,1329284,1331561,-1,ACEL_RS06140,ACEL_RS06140 (DNA-binding protein)
+NC_008578.1,1331876,1334436,1,"ACEL_RS06145, ACEL_RS06150","ACEL_RS06145 (periplasmic sensor signal transduction histidine kinase), ACEL_RS06150 (DNA-binding response regulator)"
+NC_008578.1,1346027,1347002,-1,ACEL_RS06200,ACEL_RS06200 (5'-3' exonuclease)
+NC_008578.1,1347015,1349001,1,"ACEL_RS06205, ACEL_RS06210","ACEL_RS06205 (acyl-CoA dehydrogenase), ACEL_RS06210 (hypothetical protein)"
+NC_008578.1,1351895,1352240,-1,ACEL_RS06225,ACEL_RS06225 (membrane protein)
+NC_008578.1,1352352,1353983,1,"ACEL_RS06230, ACEL_RS06235","ACEL_RS06230 (2-dehydro-3-deoxy-phosphogluconate aldolase), ACEL_RS06235 (ribokinase-like domain-containing protein)"
+NC_008578.1,1354817,1355447,-1,ACEL_RS06245,ACEL_RS06245 (hypothetical protein)
+NC_008578.1,1355726,1356188,1,ACEL_RS06250,ACEL_RS06250 (hypothetical protein)
+NC_008578.1,1357996,1358998,-1,ACEL_RS06265,ACEL_RS06265 (hypothetical protein)
+NC_008578.1,1359015,1360020,1,ACEL_RS06270,ACEL_RS06270 (radical SAM protein)
+NC_008578.1,1387516,1389475,-1,"ACEL_RS06405, ACEL_RS06410, ACEL_RS11500","ACEL_RS06405 (NAD kinase), ACEL_RS06410 (cytochrome-c peroxidase), ACEL_RS11500 (hypothetical protein)"
+NC_008578.1,1389570,1389909,1,ACEL_RS06420,ACEL_RS06420 (hypothetical protein)
+NC_008578.1,1389939,1391423,-1,"ACEL_RS06425, ACEL_RS06430","ACEL_RS06425 (haloacid dehalogenase), ACEL_RS06430 (hypothetical protein)"
+NC_008578.1,1391510,1392791,1,ACEL_RS06435,ACEL_RS06435 (hypothetical protein)
+NC_008578.1,1427139,1434134,-1,"ACEL_RS06590, ACEL_RS06595, ACEL_RS06600, ACEL_RS06605, ACEL_RS06610, ACEL_RS06615","ACEL_RS06590 (FAD-dependent oxidoreductase), ACEL_RS06595 (ABC transporter permease), ACEL_RS06600 (ABC transporter permease), ACEL_RS06605 (ABC transporter substrate-binding protein), ACEL_RS06610 (spermidine/putrescine ABC transporter ATP-binding protein), ACEL_RS06615 (gamma-aminobutyraldehyde dehydrogenase)"
+NC_008578.1,1434323,1437394,1,"ACEL_RS06620, ACEL_RS06625, ACEL_RS06630","ACEL_RS06620 (AsnC family transcriptional regulator), ACEL_RS06625 (aspartate aminotransferase family protein), ACEL_RS06630 (alanine dehydrogenase)"
+NC_008578.1,1443622,1453657,-1,"ACEL_RS06665, ACEL_RS06670, ACEL_RS06675, ACEL_RS06680, ACEL_RS06685, ACEL_RS06690, ACEL_RS06695, ACEL_RS06700","ACEL_RS06665 (orotidine 5'-phosphate decarboxylase), ACEL_RS06670 (dihydroorotate dehydrogenase), ACEL_RS06675 (dihydroorotate oxidase), ACEL_RS06680 (carbamoyl phosphate synthase large subunit), ACEL_RS06685 (carbamoyl-phosphate synthase small subunit), ACEL_RS06690 (dihydroorotase), ACEL_RS06695 (aspartate carbamoyltransferase), ACEL_RS06700 (uracil phosphoribosyltransferase)"
+NC_008578.1,1454146,1454638,1,ACEL_RS06705,ACEL_RS06705 (transcriptional regulator)
+NC_008578.1,1475925,1476261,-1,ACEL_RS06815,ACEL_RS06815 (hypothetical protein)
+NC_008578.1,1476477,1477452,1,ACEL_RS06820,ACEL_RS06820 (hypothetical protein)
+NC_008578.1,1477484,1489377,-1,"ACEL_RS06825, ACEL_RS06830, ACEL_RS06835, ACEL_RS06840, ACEL_RS06845, ACEL_RS06850, ACEL_RS06855, ACEL_RS06860, ACEL_RS06865, ACEL_RS06870, ACEL_RS06875","ACEL_RS06825 (shikimate dehydrogenase), ACEL_RS06830 (aminodeoxychorismate lyase), ACEL_RS06835 (crossover junction endodeoxyribonuclease RuvA), ACEL_RS06840 (alanine--tRNA ligase), ACEL_RS06845 (hypothetical protein), ACEL_RS06850 (hypothetical protein), ACEL_RS06855 (AAA family ATPase), ACEL_RS06860 (aspartate--tRNA ligase), ACEL_RS06865 (histidine--tRNA ligase), ACEL_RS06870 (hydrolase), ACEL_RS06875 (hypothetical protein)"
+NC_008578.1,1489408,1489807,1,ACEL_RS06880,ACEL_RS06880 (hypothetical protein)
+NC_008578.1,1499233,1501515,-1,"ACEL_RS06925, ACEL_RS06930, ACEL_RS06935","ACEL_RS06925 (transcriptional regulator), ACEL_RS06930 (pyridoxal 5'-phosphate synthase subunit PdxT), ACEL_RS06935 (pyridoxal biosynthesis lyase PdxS)"
+NC_008578.1,1502318,1503712,1,"ACEL_RS06940, ACEL_RS06945","ACEL_RS06940 (hypothetical protein), ACEL_RS06945 (hypothetical protein)"
+NC_008578.1,1503720,1507234,-1,"ACEL_RS06950, ACEL_RS06955, ACEL_RS06960, ACEL_RS06965","ACEL_RS06950 (membrane protein), ACEL_RS06955 (GDP-mannose-dependent alpha-(1-2)-phosphatidylinositol mannosyltransferase), ACEL_RS06960 (phosphatidylinositol mannoside acyltransferase), ACEL_RS06965 (CDP-alcohol phosphatidyltransferase)"
+NC_008578.1,1507672,1509832,1,ACEL_RS06970,ACEL_RS06970 (elongation factor G)
+NC_008578.1,1513158,1514211,-1,ACEL_RS06985,ACEL_RS06985 (LacI family transcriptional regulator)
+NC_008578.1,1514433,1518754,1,"ACEL_RS06995, ACEL_RS07000, ACEL_RS07005, ACEL_RS07010","ACEL_RS06995 (ABC transporter substrate-binding protein), ACEL_RS07000 (sugar ABC transporter permease), ACEL_RS07005 (sugar ABC transporter permease), ACEL_RS07010 (glycosyl hydrolase family 32 protein)"
+NC_008578.1,1518866,1519439,-1,ACEL_RS07015,ACEL_RS07015 (phage repressor)
+NC_008578.1,1519938,1520358,1,ACEL_RS07020,ACEL_RS07020 (hypothetical protein)
+NC_008578.1,1520764,1521472,-1,ACEL_RS07025,ACEL_RS07025 (TetR family transcriptional regulator)
+NC_008578.1,1521964,1523586,1,"ACEL_RS07030, ACEL_RS07035","ACEL_RS07030 (multidrug ABC transporter ATPase), ACEL_RS07035 (ABC-2 type transporter)"
+NC_008578.1,1523648,1523720,-1,ACEL_RS07040,ACEL_RS07040 (tRNA-Val)
+NC_008578.1,1524043,1524430,1,ACEL_RS07045,ACEL_RS07045 (sporulation and cell division protein SsgA)
+NC_008578.1,1525255,1527222,-1,"ACEL_RS07065, ACEL_RS07070","ACEL_RS07065 (sulfite oxidase), ACEL_RS07070 (ErfK/YbiS/YcfS/YnhG family protein)"
+NC_008578.1,1527512,1536624,1,"ACEL_RS07075, ACEL_RS07080, ACEL_RS07085, ACEL_RS07090, ACEL_RS07095, ACEL_RS07100","ACEL_RS07075 (glycogen debranching enzyme), ACEL_RS07080 (malto-oligosyltrehalose synthase), ACEL_RS07085 (malto-oligosyltrehalose trehalohydrolase), ACEL_RS07090 (hypothetical protein), ACEL_RS07095 (ATP-dependent DNA ligase), ACEL_RS07100 (hypothetical protein)"
+NC_008578.1,1536668,1537688,-1,ACEL_RS07105,ACEL_RS07105 (ATP-dependent DNA ligase)
+NC_008578.1,1537787,1538189,1,ACEL_RS07110,ACEL_RS07110 (peptide-methionine (R)-S-oxide reductase)
+NC_008578.1,1538194,1544503,-1,"ACEL_RS07115, ACEL_RS07120, ACEL_RS07125, ACEL_RS07130, ACEL_RS07135, ACEL_RS07140","ACEL_RS07115 (chlorite dismutase), ACEL_RS07120 (protoporphyrinogen oxidase), ACEL_RS07125 (uroporphyrinogen decarboxylase), ACEL_RS07130 (hypothetical protein), ACEL_RS07135 (ABC transporter permease), ACEL_RS07140 (ABC transporter ATP-binding protein)"
+NC_008578.1,1544672,1545290,1,ACEL_RS07145,ACEL_RS07145 (hypothetical protein)
+NC_008578.1,1545332,1549674,-1,"ACEL_RS07150, ACEL_RS07155, ACEL_RS07160","ACEL_RS07150 (signal transduction histidine kinase), ACEL_RS07155 (hypothetical protein), ACEL_RS07160 (peptidase S8)"
+NC_008578.1,1550178,1550796,1,ACEL_RS07165,ACEL_RS07165 (DNA-binding response regulator)
+NC_008578.1,1558570,1562216,-1,"ACEL_RS07190, ACEL_RS07195, ACEL_RS07200","ACEL_RS07190 (hypothetical protein), ACEL_RS07195 (RNA methyltransferase), ACEL_RS07200 (DNA-binding protein)"
+NC_008578.1,1562488,1563955,1,"ACEL_RS07205, ACEL_RS07210","ACEL_RS07205 (potassium transporter TrkA), ACEL_RS07210 (potassium transporter TrkA)"
+NC_008578.1,1564005,1565687,-1,"ACEL_RS07215, ACEL_RS07220, ACEL_RS07225","ACEL_RS07215 (nucleic acid-binding protein), ACEL_RS07220 (hypothetical protein), ACEL_RS07225 (deoxyuridine 5'-triphosphate nucleotidohydrolase)"
+NC_008578.1,1565879,1566431,1,ACEL_RS07230,ACEL_RS07230 (hypothetical protein)
+NC_008578.1,1566961,1570954,-1,"ACEL_RS07240, ACEL_RS07245, ACEL_RS07250","ACEL_RS07240 (inositol monophosphatase), ACEL_RS07245 (peptidase S9), ACEL_RS07250 (ferrochelatase)"
+NC_008578.1,1571199,1572141,1,ACEL_RS11515,ACEL_RS11515 (DNA-binding protein)
+NC_008578.1,1583708,1587562,-1,"ACEL_RS07310, ACEL_RS07315, ACEL_RS07320","ACEL_RS07310 (phosphodiesterase), ACEL_RS07315 (GGDEF domain-containing protein), ACEL_RS07320 (peptidase M48)"
+NC_008578.1,1587609,1590042,1,ACEL_RS07325,ACEL_RS07325 (DNA topoisomerase IV subunit A)
+NC_008578.1,1593206,1595273,-1,ACEL_RS07350,ACEL_RS07350 (DNA topoisomerase IV subunit B)
+NC_008578.1,1595671,1595899,1,ACEL_RS07355,ACEL_RS07355 (hypothetical protein)
+NC_008578.1,1600234,1602828,-1,"ACEL_RS07375, ACEL_RS07380, ACEL_RS07385","ACEL_RS07375 (hypothetical protein), ACEL_RS07380 (hypothetical protein), ACEL_RS07385 ((Fe-S)-cluster assembly protein)"
+NC_008578.1,1602923,1605164,1,ACEL_RS07390,ACEL_RS07390 (GAF sensor-containing diguanylate cyclase/phosphodiesterase)
+NC_008578.1,1609086,1612591,-1,"ACEL_RS07415, ACEL_RS07420, ACEL_RS07425, ACEL_RS07430, ACEL_RS07435","ACEL_RS07415 (oxidoreductase FAD-binding subunit), ACEL_RS07420 (phenylacetate-CoA oxygenase subunit PaaJ), ACEL_RS07425 (phenylacetate-CoA oxygenase subunit PaaI), ACEL_RS07430 (phenylacetate-CoA oxygenase subunit PaaB), ACEL_RS07435 (phenylacetate-CoA oxygenase subunit PaaA)"
+NC_008578.1,1612748,1614896,1,"ACEL_RS07440, ACEL_RS07445","ACEL_RS07440 (DNA polymerase IV), ACEL_RS07445 (carboxymethylenebutenolidase)"
+NC_008578.1,1616297,1619295,-1,"ACEL_RS11520, ACEL_RS07460, ACEL_RS07465","ACEL_RS11520 (hypothetical protein), ACEL_RS07460 (two-component sensor histidine kinase), ACEL_RS07465 (DNA-binding response regulator)"
+NC_008578.1,1619631,1624136,1,"ACEL_RS11525, ACEL_RS07480, ACEL_RS07485, ACEL_RS11530","ACEL_RS11525 (RND family efflux transporter MFP subunit), ACEL_RS07480 (macrolide ABC transporter ATP-binding protein), ACEL_RS07485 (macrolide ABC transporter permease), ACEL_RS11530 (hypothetical protein)"
+NC_008578.1,1624231,1625886,-1,"ACEL_RS07495, ACEL_RS07500","ACEL_RS07495 (oxidoreductase), ACEL_RS07500 (glyoxalase)"
+NC_008578.1,1625910,1627149,1,ACEL_RS07505,ACEL_RS07505 (hypothetical protein)
+NC_008578.1,1629665,1629899,-1,ACEL_RS11535,ACEL_RS11535 (hypothetical protein)
+NC_008578.1,1630087,1630306,1,ACEL_RS11540,ACEL_RS11540 (hypothetical protein)
+NC_008578.1,1632119,1634411,-1,ACEL_RS07520,ACEL_RS07520 (glycoside hydrolase)
+NC_008578.1,1634834,1639279,1,"ACEL_RS07525, ACEL_RS07530","ACEL_RS07525 (cell wall-binding repeat 2-containing protein), ACEL_RS07530 (hypothetical protein)"
+NC_008578.1,1646463,1649304,-1,ACEL_RS07570,ACEL_RS07570 (oxidoreductase)
+NC_008578.1,1649545,1650808,1,ACEL_RS07575,ACEL_RS07575 (major facilitator transporter)
+NC_008578.1,1652293,1653316,-1,ACEL_RS07585,ACEL_RS07585 (IMP dehydrogenase)
+NC_008578.1,1653857,1654313,1,ACEL_RS07590,ACEL_RS07590 (heat-shock protein Hsp20)
+NC_008578.1,1659727,1659985,-1,ACEL_RS07610,ACEL_RS07610 (hypothetical protein)
+NC_008578.1,1660254,1661082,1,ACEL_RS07615,ACEL_RS07615 (LexA repressor)
+NC_008578.1,1666311,1670552,-1,"ACEL_RS07630, ACEL_RS07635, ACEL_RS07640, ACEL_RS07645","ACEL_RS07630 (GTPase HflX), ACEL_RS07635 (diaminopimelate epimerase), ACEL_RS07640 (tRNA dimethylallyltransferase), ACEL_RS07645 (hypothetical protein)"
+NC_008578.1,1670720,1671944,1,ACEL_RS07650,ACEL_RS07650 (hypothetical protein)
+NC_008578.1,1673945,1675331,-1,ACEL_RS07660,ACEL_RS07660 (tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase MiaB)
+NC_008578.1,1675568,1677509,1,ACEL_RS07665,ACEL_RS07665 (peptidase S9)
+NC_008578.1,1679841,1681444,-1,"ACEL_RS07680, ACEL_RS07685, ACEL_RS07690","ACEL_RS07680 (DNA recombination/repair protein RecA), ACEL_RS07685 (hypothetical protein), ACEL_RS07690 (hypothetical protein)"
+NC_008578.1,1682142,1684055,1,"ACEL_RS07700, ACEL_RS07705","ACEL_RS07700 (RNA polymerase subunit sigma-24), ACEL_RS07705 (glycosyl hydrolase)"
+NC_008578.1,1705976,1706246,-1,ACEL_RS07780,ACEL_RS07780 (30S ribosomal protein S15)
+NC_008578.1,1706400,1706982,1,ACEL_RS07785,ACEL_RS07785 (epimerase)
+NC_008578.1,1729694,1730633,-1,ACEL_RS07895,ACEL_RS07895 (oxidoreductase domain-containing protein)
+NC_008578.1,1730910,1733184,1,"ACEL_RS07900, ACEL_RS07905, ACEL_RS07910","ACEL_RS07900 (2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase), ACEL_RS07905 (phosphate transporter), ACEL_RS07910 (hypothetical protein)"
+NC_008578.1,1733249,1734542,-1,ACEL_RS07915,ACEL_RS07915 (50S rRNA methyltransferase)
+NC_008578.1,1734668,1735952,1,ACEL_RS07920,ACEL_RS07920 (serine hydroxymethyltransferase)
+NC_008578.1,1736144,1740225,-1,"ACEL_RS07925, ACEL_RS07930, ACEL_RS07935, ACEL_RS07940, ACEL_RS07945","ACEL_RS07925 (phosphatidate cytidylyltransferase), ACEL_RS07930 (ribosome recycling factor), ACEL_RS07935 (UMP kinase), ACEL_RS07940 (elongation factor Ts), ACEL_RS07945 (30S ribosomal protein S2)"
+NC_008578.1,1740845,1744353,1,"ACEL_RS11560, ACEL_RS07955, ACEL_RS07960","ACEL_RS11560 (hypothetical protein), ACEL_RS07955 (hypothetical protein), ACEL_RS07960 (metal ABC transporter ATPase)"
+NC_008578.1,1766191,1767433,-1,ACEL_RS08070,ACEL_RS08070 (signal recognition particle-docking protein FtsY)
+NC_008578.1,1767667,1769548,1,"ACEL_RS08075, ACEL_RS08080","ACEL_RS08075 (hypothetical protein), ACEL_RS08080 (hypothetical protein)"
+NC_008578.1,1778221,1782081,-1,"ACEL_RS08125, ACEL_RS08130, ACEL_RS08135","ACEL_RS08125 (methyltransferase), ACEL_RS08130 (ATP-dependent DNA helicase RecG), ACEL_RS08135 (Dak phosphatase)"
+NC_008578.1,1782258,1782447,1,ACEL_RS08140,ACEL_RS08140 (50S ribosomal protein L28)
+NC_008578.1,1782547,1784373,-1,"ACEL_RS08145, ACEL_RS08150","ACEL_RS08145 (hydroxymethylpyrimidine/phosphomethylpyrimidine kinase), ACEL_RS08150 (thiamine-monophosphate kinase)"
+NC_008578.1,1784462,1784705,1,ACEL_RS08155,ACEL_RS08155 (AsnC family transcriptional regulator)
+NC_008578.1,1788828,1790885,-1,"ACEL_RS08180, ACEL_RS08185","ACEL_RS08180 (3-isopropylmalate dehydratase small subunit), ACEL_RS08185 (3-isopropylmalate dehydratase large subunit)"
+NC_008578.1,1790941,1791658,1,ACEL_RS08190,ACEL_RS08190 (IclR family transcriptional regulator)
+NC_008578.1,1796876,1796952,-1,ACEL_RS08215,ACEL_RS08215 (tRNA-Pro)
+NC_008578.1,1797033,1797104,1,ACEL_RS08220,ACEL_RS08220 (tRNA-Gly)
+NC_008578.1,1800239,1804590,-1,"ACEL_RS08245, ACEL_RS08250, ACEL_RS08255","ACEL_RS08245 (4-alpha-glucanotransferase), ACEL_RS08250 (amidase), ACEL_RS08255 (HNH endonuclease)"
+NC_008578.1,1804685,1806857,1,ACEL_RS08260,ACEL_RS08260 (peptidase S9)
+NC_008578.1,1809119,1809374,-1,ACEL_RS08275,ACEL_RS08275 (hypothetical protein)
+NC_008578.1,1809567,1809861,1,ACEL_RS08280,ACEL_RS08280 (hypothetical protein)
+NC_008578.1,1809906,1810335,-1,ACEL_RS08285,ACEL_RS08285 (peroxiredoxin)
+NC_008578.1,1810626,1812378,1,"ACEL_RS08295, ACEL_RS08300","ACEL_RS08295 (globin), ACEL_RS08300 (major facilitator transporter)"
+NC_008578.1,1812544,1813681,-1,ACEL_RS08305,ACEL_RS08305 (hypothetical protein)
+NC_008578.1,1814724,1815861,1,ACEL_RS08310,ACEL_RS08310 (diguanylate cyclase)
+NC_008578.1,1823837,1824377,-1,ACEL_RS08350,ACEL_RS08350 (single-strand binding protein)
+NC_008578.1,1824618,1824691,1,ACEL_RS08355,ACEL_RS08355 (tRNA-Arg)
+NC_008578.1,1841869,1844352,-1,"ACEL_RS08450, ACEL_RS08455","ACEL_RS08450 (polar amino acid ABC transporter permease), ACEL_RS08455 (hypothetical protein)"
+NC_008578.1,1844350,1844539,1,ACEL_RS08460,ACEL_RS08460 (hypothetical protein)
+NC_008578.1,1845096,1850124,-1,"ACEL_RS08465, ACEL_RS08470, ACEL_RS08475, ACEL_RS08480","ACEL_RS08465 (xanthine dehydrogenase), ACEL_RS08470 (CoA-transferase), ACEL_RS08475 (glutaconate CoA-transferase), ACEL_RS08480 (F420-dependent oxidoreductase)"
+NC_008578.1,1850458,1851148,1,ACEL_RS08485,ACEL_RS08485 (NADPH-dependent F420 reductase)
+NC_008578.1,1868945,1869440,-1,ACEL_RS08565,ACEL_RS08565 (phenylacetic acid degradation protein PaaD)
+NC_008578.1,1869607,1871571,1,"ACEL_RS08570, ACEL_RS08575","ACEL_RS08570 (hypothetical protein), ACEL_RS08575 (hypothetical protein)"
+NC_008578.1,1873705,1874368,-1,ACEL_RS08585,ACEL_RS08585 (transcriptional regulator)
+NC_008578.1,1874495,1875068,1,ACEL_RS08590,ACEL_RS08590 (GTP cyclohydrolase)
+NC_008578.1,1880043,1880652,-1,ACEL_RS08615,ACEL_RS08615 (acetyl-CoA carboxylase)
+NC_008578.1,1880800,1881340,1,ACEL_RS08620,ACEL_RS08620 (carbonic anhydrase)
+NC_008578.1,1881503,1884136,-1,"ACEL_RS08625, ACEL_RS08630","ACEL_RS08625 (EmrB/QacA family drug resistance transporter), ACEL_RS08630 (hypothetical protein)"
+NC_008578.1,1884468,1887742,1,"ACEL_RS08635, ACEL_RS08640, ACEL_RS08645","ACEL_RS08635 (galactose-1-phosphate uridylyltransferase), ACEL_RS08640 (UDP-glucose 4-epimerase GalE), ACEL_RS08645 (galactokinase)"
+NC_008578.1,1887933,1888443,-1,ACEL_RS08650,ACEL_RS08650 (membrane protein)
+NC_008578.1,1888868,1891955,1,ACEL_RS08655,ACEL_RS08655 (hypothetical protein)
+NC_008578.1,1892060,1893542,-1,"ACEL_RS08660, ACEL_RS08665","ACEL_RS08660 (chaperonin), ACEL_RS08665 (threonine dehydrogenase)"
+NC_008578.1,1893945,1894422,1,ACEL_RS08670,ACEL_RS08670 (peroxiredoxin)
+NC_008578.1,1900611,1901523,-1,"ACEL_RS08715, ACEL_RS08720","ACEL_RS08715 (hypothetical protein), ACEL_RS08720 (ATP-dependent Clp protease adaptor ClpS)"
+NC_008578.1,1901588,1902878,1,ACEL_RS08725,ACEL_RS08725 (nicotinate phosphoribosyltransferase)
+NC_008578.1,1912656,1916070,-1,ACEL_RS11580,ACEL_RS11580 (glycoside hydrolase family protein)
+NC_008578.1,1916483,1917554,1,ACEL_RS08780,ACEL_RS08780 (secreted protein)
+NC_008578.1,1922062,1922737,-1,ACEL_RS08815,ACEL_RS08815 (TetR family transcriptional regulator)
+NC_008578.1,1922861,1924137,1,"ACEL_RS08820, ACEL_RS08825","ACEL_RS08820 (hypothetical protein), ACEL_RS08825 (short-chain dehydrogenase/reductase SDR)"
+NC_008578.1,1930076,1932333,-1,"ACEL_RS08845, ACEL_RS08850","ACEL_RS08845 (glyceraldehyde 3-phosphate reductase), ACEL_RS08850 (hypothetical protein)"
+NC_008578.1,1932683,1933307,1,ACEL_RS08855,ACEL_RS08855 (nicotinamidase)
+NC_008578.1,1935975,1937520,-1,ACEL_RS08865,ACEL_RS08865 (MFS transporter)
+NC_008578.1,1937889,1939182,1,ACEL_RS08870,ACEL_RS08870 (glycosyl transferase family protein)
+NC_008578.1,1950929,1952557,-1,"ACEL_RS08910, ACEL_RS08915","ACEL_RS08910 (cell division protein FtsX), ACEL_RS08915 (cell division ATP-binding protein FtsE)"
+NC_008578.1,1952914,1953109,1,ACEL_RS08920,ACEL_RS08920 (hypothetical protein)
+NC_008578.1,1959869,1962281,-1,ACEL_RS08965,ACEL_RS08965 (hypothetical protein)
+NC_008578.1,1962905,1967360,1,ACEL_RS11585,ACEL_RS11585 (FHA domain-containing protein)
+NC_008578.1,1971780,1975316,-1,"ACEL_RS09005, ACEL_RS09010","ACEL_RS09005 (pyridine nucleotide-disulfide oxidoreductase), ACEL_RS09010 (nitrite reductase)"
+NC_008578.1,1975696,1976923,1,ACEL_RS09020,ACEL_RS09020 (hypothetical protein)
+NC_008578.1,1978169,1985219,-1,"ACEL_RS09035, ACEL_RS09040, ACEL_RS09045","ACEL_RS09035 (glutamate dehydrogenase), ACEL_RS09040 (1-pyrroline-5-carboxylate dehydrogenase), ACEL_RS09045 (hypothetical protein)"
+NC_008578.1,1985321,1986512,1,ACEL_RS09050,ACEL_RS09050 (hypothetical protein)
+NC_008578.1,1986552,1988569,-1,"ACEL_RS09055, ACEL_RS11590","ACEL_RS09055 (chromosome partitioning ATPase-like protein), ACEL_RS11590 (hypothetical protein)"
+NC_008578.1,1988708,1988948,1,ACEL_RS09065,ACEL_RS09065 (transcriptional regulator)
+NC_008578.1,1988990,1989566,-1,ACEL_RS09070,ACEL_RS09070 (hypothetical protein)
+NC_008578.1,1989764,1990493,1,ACEL_RS09075,ACEL_RS09075 (hypothetical protein)
+NC_008578.1,1997248,1997959,-1,ACEL_RS09105,ACEL_RS09105 (hypothetical protein)
+NC_008578.1,1998050,1998233,1,ACEL_RS09110,ACEL_RS09110 (hypothetical protein)
+NC_008578.1,1998220,2003082,-1,"ACEL_RS09115, ACEL_RS09120, ACEL_RS09125, ACEL_RS09130","ACEL_RS09115 (hypothetical protein), ACEL_RS09120 (two-component sensor histidine kinase), ACEL_RS09125 (DNA-binding response regulator), ACEL_RS09130 (metal-dependent hydrolase)"
+NC_008578.1,2003638,2003818,1,ACEL_RS09135,ACEL_RS09135 (hypothetical protein)
+NC_008578.1,2007389,2008922,-1,ACEL_RS09155,ACEL_RS09155 (hypothetical protein)
+NC_008578.1,2009132,2009402,1,ACEL_RS09160,ACEL_RS09160 (NrdH-redoxin)
+NC_008578.1,2009514,2010924,-1,ACEL_RS09165,ACEL_RS09165 (peptidase M20)
+NC_008578.1,2011319,2011703,1,ACEL_RS09170,ACEL_RS09170 (hypothetical protein)
+NC_008578.1,2018752,2022581,-1,"ACEL_RS09185, ACEL_RS09190, ACEL_RS09195, ACEL_RS09200","ACEL_RS09185 (adenylyltransferase/sulfurtransferase MoeZ), ACEL_RS09190 (hypothetical protein), ACEL_RS09195 (hypothetical protein), ACEL_RS09200 (hypothetical protein)"
+NC_008578.1,2022780,2024616,1,ACEL_RS09205,ACEL_RS09205 (cytochrome b6)
+NC_008578.1,2025298,2025973,-1,ACEL_RS09220,ACEL_RS09220 (hypothetical protein)
+NC_008578.1,2026177,2026528,1,ACEL_RS09225,ACEL_RS09225 (hypothetical protein)
+NC_008578.1,2031587,2037367,-1,"ACEL_RS09260, ACEL_RS09265, ACEL_RS09270, ACEL_RS09275, ACEL_RS09280, ACEL_RS09285","ACEL_RS09260 (chemotaxis protein CheW), ACEL_RS09265 (chemotaxis protein CheA), ACEL_RS09270 (heat-shock protein HtpX), ACEL_RS09275 (antibiotic resistance protein MarC), ACEL_RS09280 (phosphatase), ACEL_RS09285 (hypothetical protein)"
+NC_008578.1,2037868,2038903,1,ACEL_RS09295,ACEL_RS09295 (LacI family transcriptional regulator)
+NC_008578.1,2039067,2045356,-1,"ACEL_RS09300, ACEL_RS09305, ACEL_RS09310, ACEL_RS09315, ACEL_RS09320","ACEL_RS09300 (methylmalonate-semialdehyde dehydrogenase (acylating)), ACEL_RS09305 (3D-(3,5/4)-trihydroxycyclohexane-1,2-dione acylhydrolase (decyclizing)), ACEL_RS09310 (5-deoxy-glucuronate isomerase), ACEL_RS09315 (hypothetical protein), ACEL_RS09320 (5-dehydro-2-deoxygluconokinase)"
+NC_008578.1,2045532,2046273,1,ACEL_RS09325,ACEL_RS09325 (GntR family transcriptional regulator)
+NC_008578.1,2059128,2059674,-1,ACEL_RS09390,ACEL_RS09390 (hypothetical protein)
+NC_008578.1,2060002,2061974,1,"ACEL_RS09395, ACEL_RS09400","ACEL_RS09395 (magnesium transporter), ACEL_RS09400 (hypothetical protein)"
+NC_008578.1,2062005,2064334,-1,"ACEL_RS09405, ACEL_RS09410","ACEL_RS09405 (6-phosphogluconate dehydrogenase), ACEL_RS09410 (glucose-1-phosphate adenylyltransferase)"
+NC_008578.1,2064482,2065679,1,ACEL_RS09415,ACEL_RS09415 (glycosyl transferase family 1)
+NC_008578.1,2069457,2070667,-1,"ACEL_RS11595, ACEL_RS09440","ACEL_RS11595 (hypothetical protein), ACEL_RS09440 (RNA polymerase sigma factor SigE)"
+NC_008578.1,2070736,2073033,1,"ACEL_RS09445, ACEL_RS09450","ACEL_RS09445 (O-methyltransferase), ACEL_RS09450 (hypothetical protein)"
+NC_008578.1,2073771,2076472,-1,"ACEL_RS11600, ACEL_RS09465, ACEL_RS09470","ACEL_RS11600 (hypothetical protein), ACEL_RS09465 (periplasmic sensor signal transduction histidine kinase), ACEL_RS09470 (DNA-binding response regulator)"
+NC_008578.1,2076676,2077162,1,ACEL_RS11605,ACEL_RS11605 (hypothetical protein)
+NC_008578.1,2077339,2078836,-1,ACEL_RS09480,ACEL_RS09480 (hypothetical protein)
+NC_008578.1,2079219,2080032,1,ACEL_RS09485,ACEL_RS09485 (enoyl-CoA hydratase)
+NC_008578.1,2080064,2081148,-1,"ACEL_RS09490, ACEL_RS11610","ACEL_RS09490 (DNA-3-methyladenine glycosylase), ACEL_RS11610 (DivIVA domain-containing protein)"
+NC_008578.1,2081281,2082145,1,ACEL_RS09500,ACEL_RS09500 (dihydropteroate synthase)
+NC_008578.1,2082169,2086171,-1,"ACEL_RS09505, ACEL_RS09510, ACEL_RS09515, ACEL_RS09520, ACEL_RS09525","ACEL_RS09505 (hypothetical protein), ACEL_RS09510 (TIGR00730 family Rossman fold protein), ACEL_RS09515 (Rossman fold protein, TIGR00730 family), ACEL_RS09520 (succinyl-diaminopimelate desuccinylase), ACEL_RS09525 (2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase)"
+NC_008578.1,2086169,2087192,1,ACEL_RS09530,ACEL_RS09530 (hypothetical protein)
+NC_008578.1,2098279,2099712,-1,"ACEL_RS09580, ACEL_RS09585","ACEL_RS09580 (succinyldiaminopimelate transaminase), ACEL_RS09585 (ferredoxin)"
+NC_008578.1,2099854,2102007,1,"ACEL_RS09590, ACEL_RS09595","ACEL_RS09590 (N-acetyltransferase GCN5), ACEL_RS09595 (4-hydroxy-3-methylbut-2-enyl diphosphate reductase)"
+NC_008578.1,2102173,2104154,-1,"ACEL_RS09600, ACEL_RS09605","ACEL_RS09600 (hypothetical protein), ACEL_RS09605 (hypothetical protein)"
+NC_008578.1,2104330,2105422,1,ACEL_RS09610,ACEL_RS09610 (GTP-binding protein YchF)
+NC_008578.1,2105557,2105857,-1,ACEL_RS09615,ACEL_RS09615 (4a-hydroxytetrahydrobiopterin dehydratase)
+NC_008578.1,2106017,2106425,1,ACEL_RS09620,ACEL_RS09620 (DNA mismatch repair protein MutT)
+NC_008578.1,2106421,2109895,-1,"ACEL_RS09625, ACEL_RS09630, ACEL_RS09635","ACEL_RS09625 (succinate dehydrogenase/fumarate reductase iron-sulfur subunit), ACEL_RS09630 (fumarate reductase/succinate dehydrogenase flavoprotein subunit), ACEL_RS09635 (membrane protein)"
+NC_008578.1,2110291,2114743,1,"ACEL_RS09640, ACEL_RS09645, ACEL_RS09650, ACEL_RS11620, ACEL_RS11625","ACEL_RS09640 (hypothetical protein), ACEL_RS09645 (1D-myo-inositol 2-acetamido-2-deoxy-alpha-D-glucopyranoside deacetylase), ACEL_RS09650 (ATPase), ACEL_RS11620 (hypothetical protein), ACEL_RS11625 (CheW protein)"
+NC_008578.1,2129726,2133520,-1,"ACEL_RS09720, ACEL_RS09725, ACEL_RS09730, ACEL_RS09735","ACEL_RS09720 (hypothetical protein), ACEL_RS09725 (hypothetical protein), ACEL_RS09730 (hypothetical protein), ACEL_RS09735 (mycothiol conjugate amidase Mca)"
+NC_008578.1,2133561,2134050,1,ACEL_RS09740,ACEL_RS09740 (transcription elongation factor GreA)
+NC_008578.1,2134071,2135313,-1,ACEL_RS09745,ACEL_RS09745 (threonine ammonia-lyase)
+NC_008578.1,2135555,2137840,1,"ACEL_RS11655, ACEL_RS09755","ACEL_RS11655 (MarR family transcriptional regulator), ACEL_RS09755 (multidrug MFS transporter)"
+NC_008578.1,2137782,2138958,-1,ACEL_RS09760,ACEL_RS09760 (histidine kinase)
+NC_008578.1,2139156,2145824,1,"ACEL_RS09765, ACEL_RS09770, ACEL_RS09775, ACEL_RS09780, ACEL_RS09785, ACEL_RS11660","ACEL_RS09765 (magnesium chelatase), ACEL_RS09770 (hypothetical protein), ACEL_RS09775 (major facilitator transporter), ACEL_RS09780 (hypothetical protein), ACEL_RS09785 (histidine kinase), ACEL_RS11660 (hypothetical protein)"
+NC_008578.1,2146616,2147096,-1,ACEL_RS09800,ACEL_RS09800 (hypothetical protein)
+NC_008578.1,2147190,2147415,1,ACEL_RS09805,ACEL_RS09805 (hypothetical protein)
+NC_008578.1,2149367,2150306,-1,ACEL_RS09825,ACEL_RS09825 (uracil-DNA glycosylase)
+NC_008578.1,2150491,2154710,1,"ACEL_RS09830, ACEL_RS11665","ACEL_RS09830 (hypothetical protein), ACEL_RS11665 (diguanylate cyclase/phosphodiesterase)"
+NC_008578.1,2154690,2159752,-1,"ACEL_RS09840, ACEL_RS09845, ACEL_RS09850, ACEL_RS09855, ACEL_RS09860, ACEL_RS11670","ACEL_RS09840 (exopolyphosphatase), ACEL_RS09845 (hypothetical protein), ACEL_RS09850 (hypothetical protein), ACEL_RS09855 (enolase), ACEL_RS09860 (nucleoside triphosphate pyrophosphohydrolase), ACEL_RS11670 (PpiC-type peptidyl-prolyl cis-trans isomerase)"
+NC_008578.1,2159841,2160831,1,ACEL_RS09870,ACEL_RS09870 (glycosyl transferase)
+NC_008578.1,2160856,2164402,-1,ACEL_RS09875,ACEL_RS09875 (transcription-repair coupling factor)
+NC_008578.1,2164677,2164947,1,ACEL_RS09880,ACEL_RS09880 (hypothetical protein)
+NC_008578.1,2171371,2173692,-1,"ACEL_RS09915, ACEL_RS09920","ACEL_RS09915 (hypothetical protein), ACEL_RS09920 (MFS transporter)"
+NC_008578.1,2173913,2174666,1,ACEL_RS09925,ACEL_RS09925 (hypothetical protein)
+NC_008578.1,2198848,2201541,-1,"ACEL_RS10020, ACEL_RS10025, ACEL_RS10030","ACEL_RS10020 (acetyltransferase), ACEL_RS10025 (hydroxyglutarate oxidase), ACEL_RS10030 (glycosyl transferase family protein)"
+NC_008578.1,2201574,2202429,1,ACEL_RS11695,ACEL_RS11695 (4'-phosphopantetheinyl transferase)
+NC_008578.1,2215153,2216782,-1,ACEL_RS10085,ACEL_RS10085 (hypothetical protein)
+NC_008578.1,2216841,2220979,1,"ACEL_RS10090, ACEL_RS10095, ACEL_RS10100","ACEL_RS10090 (trehalose-6-phosphate synthase), ACEL_RS10095 (FAD-dependent oxidoreductase), ACEL_RS10100 (integral membrane protein)"
+NC_008578.1,2223967,2224744,-1,ACEL_RS11700,ACEL_RS11700 (MarR family transcriptional regulator)
+NC_008578.1,2224837,2226292,1,ACEL_RS10120,ACEL_RS10120 (EmrB/QacA family drug resistance transporter)
+NC_008578.1,2226777,2228849,-1,"ACEL_RS10130, ACEL_RS10135","ACEL_RS10130 (2-phospho-L-lactate guanylyltransferase), ACEL_RS10135 (coenzyme F420-0:L-glutamate ligase)"
+NC_008578.1,2229423,2230458,1,ACEL_RS10140,ACEL_RS10140 (membrane protein)
+NC_008578.1,2233716,2238365,-1,"ACEL_RS10155, ACEL_RS10160","ACEL_RS10155 (helicase), ACEL_RS10160 (hypothetical protein)"
+NC_008578.1,2240268,2240727,1,ACEL_RS10165,ACEL_RS10165 (pyridoxine 5'-phosphate oxidase)
+NC_008578.1,2250489,2250831,-1,ACEL_RS10195,ACEL_RS10195 (anti-sigma B factor antagonist)
+NC_008578.1,2251040,2253557,1,ACEL_RS10200,ACEL_RS10200 (DEAD/DEAH box helicase)
+NC_008578.1,2255046,2258906,-1,"ACEL_RS10220, ACEL_RS11710, ACEL_RS10230, ACEL_RS10235","ACEL_RS10220 (type II secretion system protein), ACEL_RS11710 (hypothetical protein), ACEL_RS10230 (pilus assembly protein CpaF), ACEL_RS10235 (hypothetical protein)"
+NC_008578.1,2259256,2259538,1,ACEL_RS10240,ACEL_RS10240 (hypothetical protein)
+NC_008578.1,2263196,2265118,-1,"ACEL_RS11715, ACEL_RS11720","ACEL_RS11715 (electron transport protein SCO1/SenC), ACEL_RS11720 (hypothetical protein)"
+NC_008578.1,2265319,2266507,1,ACEL_RS10265,ACEL_RS10265 (serine protease)
+NC_008578.1,2266687,2270167,-1,"ACEL_RS10270, ACEL_RS10275, ACEL_RS10280, ACEL_RS10285, ACEL_RS10290","ACEL_RS10270 (hypothetical protein), ACEL_RS10275 (alpha/beta hydrolase), ACEL_RS10280 (coenzyme A pyrophosphatase), ACEL_RS10285 (hypothetical protein), ACEL_RS10290 (endonuclease III)"
+NC_008578.1,2270278,2271870,1,"ACEL_RS11725, ACEL_RS10300, ACEL_RS10305","ACEL_RS11725 (hypothetical protein), ACEL_RS10300 (Crp/Fnr family transcriptional regulator), ACEL_RS10305 (hypothetical protein)"
+NC_008578.1,2272090,2274420,-1,"ACEL_RS10310, ACEL_RS10315, ACEL_RS10320, ACEL_RS10325","ACEL_RS10310 (MBL fold hydrolase), ACEL_RS10315 (NUDIX domain-containing protein), ACEL_RS10320 (LysR family transcriptional regulator), ACEL_RS10325 (hypothetical protein)"
+NC_008578.1,2274486,2275527,1,ACEL_RS10330,ACEL_RS10330 (ATPase)
+NC_008578.1,2276911,2277220,-1,ACEL_RS10340,ACEL_RS10340 (transcriptional regulator)
+NC_008578.1,2277484,2279947,1,ACEL_RS10345,ACEL_RS10345 (glycosyl transferase family protein)
+NC_008578.1,2279952,2280507,-1,ACEL_RS10350,ACEL_RS10350 (GatB/YqeY domain-containing protein)
+NC_008578.1,2280645,2281545,1,ACEL_RS10355,ACEL_RS10355 (metallophosphoesterase)
+NC_008578.1,2281580,2282227,-1,"ACEL_RS10360, ACEL_RS10365","ACEL_RS10360 (tRNA-Pro), ACEL_RS10365 (DNA starvation/stationary phase protection protein)"
+NC_008578.1,2282304,2282574,1,ACEL_RS10370,ACEL_RS10370 (hypothetical protein)
+NC_008578.1,2285964,2288321,-1,"ACEL_RS10390, ACEL_RS10395","ACEL_RS10390 (aspartate-semialdehyde dehydrogenase), ACEL_RS10395 (aspartate kinase)"
+NC_008578.1,2288417,2289167,1,ACEL_RS11735,ACEL_RS11735 (hypothetical protein)
+NC_008578.1,2289199,2292519,-1,"ACEL_RS10410, ACEL_RS10415, ACEL_RS10420, ACEL_RS11785","ACEL_RS10410 (hypothetical protein), ACEL_RS10415 (recombination protein RecR), ACEL_RS10420 (DNA polymerase III subunit gamma and tau), ACEL_RS11785 (SRP RNA; RNA component of signal recognition particle)"
+NC_008578.1,2292584,2292671,1,ACEL_RS10425,ACEL_RS10425 (tRNA-Ser)
+NC_008578.1,2294648,2298487,-1,"ACEL_RS10450, ACEL_RS10455, ACEL_RS10460, ACEL_RS10465, ACEL_RS10470","ACEL_RS10450 (NAD(P) transhydrogenase subunit beta), ACEL_RS10455 (NAD(+) kinase), ACEL_RS10460 (NAD(P) transhydrogenase subunit alpha), ACEL_RS10465 (hypothetical protein), ACEL_RS10470 (molybdopterin synthase sulfur carrier subunit)"
+NC_008578.1,2298560,2300334,1,"ACEL_RS10475, ACEL_RS10480","ACEL_RS10475 (transcriptional regulator), ACEL_RS10480 (mycothiol synthase)"
+NC_008578.1,2303039,2303887,-1,"ACEL_RS10500, ACEL_RS10505","ACEL_RS10500 (hypothetical protein), ACEL_RS10505 (hypothetical protein)"
+NC_008578.1,2304163,2305057,1,ACEL_RS10510,ACEL_RS10510 (RNA polymerase sigma 70)
+NC_008578.1,2307498,2308995,-1,ACEL_RS10520,ACEL_RS10520 (hypothetical protein)
+NC_008578.1,2309087,2309705,1,ACEL_RS10525,ACEL_RS10525 (type IV pilus assembly PilZ)
+NC_008578.1,2313725,2314124,-1,ACEL_RS10555,ACEL_RS10555 (MerR family transcriptional regulator)
+NC_008578.1,2314316,2315752,1,"ACEL_RS10560, ACEL_RS10565","ACEL_RS10560 (hypothetical protein), ACEL_RS10565 (hypothetical protein)"
+NC_008578.1,2317412,2321761,-1,"ACEL_RS10580, ACEL_RS10585, ACEL_RS10590, ACEL_RS10595","ACEL_RS10580 (LacI family transcriptional regulator), ACEL_RS10585 (thiamine ABC transporter ATP-binding protein), ACEL_RS10590 (sugar ABC transporter permease), ACEL_RS10595 (sugar ABC transporter substrate-binding protein)"
+NC_008578.1,2322144,2324598,1,ACEL_RS10600,ACEL_RS10600 (beta-glucosidase)
+NC_008578.1,2331233,2333029,-1,"ACEL_RS10630, ACEL_RS10635","ACEL_RS10630 (sodium:solute symporter), ACEL_RS10635 (hypothetical protein)"
+NC_008578.1,2333636,2334475,1,"ACEL_RS10640, ACEL_RS10645","ACEL_RS10640 (hypothetical protein), ACEL_RS10645 (ECF subfamily RNA polymerase sigma-24 factor)"
+NC_008578.1,2334865,2335411,-1,"ACEL_RS11750, ACEL_RS11755","ACEL_RS11750 (hypothetical protein), ACEL_RS11755 (hypothetical protein)"
+NC_008578.1,2335409,2336171,1,ACEL_RS10650,ACEL_RS10650 (hypothetical protein)
+NC_008578.1,2336245,2336318,-1,ACEL_RS10655,ACEL_RS10655 (tRNA-Lys)
+NC_008578.1,2336459,2337734,1,ACEL_RS10660,ACEL_RS10660 (peptidase S1)
+NC_008578.1,2337846,2338263,-1,ACEL_RS10665,ACEL_RS10665 (hypothetical protein)
+NC_008578.1,2338375,2338846,1,ACEL_RS10670,ACEL_RS10670 (Rrf2 family transcriptional regulator)
+NC_008578.1,2338987,2339329,-1,ACEL_RS10675,ACEL_RS10675 (hypothetical protein)
+NC_008578.1,2339525,2339879,1,"ACEL_RS10680, ACEL_RS10685, ACEL_RS10690","ACEL_RS10680 (tRNA-Glu), ACEL_RS10685 (tRNA-Asp), ACEL_RS10690 (tRNA-Phe)"
+NC_008578.1,2339899,2340535,-1,ACEL_RS10695,ACEL_RS10695 (S-adenosylmethionine-binding protein)
+NC_008578.1,2340703,2343400,1,"ACEL_RS10700, ACEL_RS10705","ACEL_RS10700 (xylose isomerase), ACEL_RS10705 (xylulokinase)"
+NC_008578.1,2345743,2345983,-1,ACEL_RS10725,ACEL_RS10725 (hypothetical protein)
+NC_008578.1,2346287,2346533,1,ACEL_RS10730,ACEL_RS10730 (hypothetical protein)
+NC_008578.1,2349885,2353106,-1,"ACEL_RS10750, ACEL_RS10755, ACEL_RS10760","ACEL_RS10750 (phosphoribosylformylglycinamidine synthase II), ACEL_RS10755 (phosphoribosylformylglycinamidine synthase I), ACEL_RS10760 (phosphoribosylformylglycinamidine synthase subunit PurS)"
+NC_008578.1,2353551,2357586,1,"ACEL_RS10765, ACEL_RS10770, ACEL_RS10775, ACEL_RS10780","ACEL_RS10765 (hypothetical protein), ACEL_RS10770 (hypothetical protein), ACEL_RS10775 (ATP-binding protein), ACEL_RS10780 (MFS transporter)"
+NC_008578.1,2357666,2357981,-1,ACEL_RS10785,ACEL_RS10785 (hypothetical protein)
+NC_008578.1,2358612,2359965,1,ACEL_RS10790,ACEL_RS10790 (replicative DNA helicase)
+NC_008578.1,2360796,2361219,-1,ACEL_RS10800,ACEL_RS10800 (transcriptional repressor)
+NC_008578.1,2361344,2366695,1,"ACEL_RS10805, ACEL_RS10810, ACEL_RS10815, ACEL_RS10820, ACEL_RS10825","ACEL_RS10805 (ABC transporter substrate-binding protein), ACEL_RS10810 (metal ABC transporter ATP-binding protein), ACEL_RS10815 (ABC-3 protein), ACEL_RS10820 (ABC-3 protein), ACEL_RS10825 (type II secretory protein GspE)"
+NC_008578.1,2371727,2372795,-1,ACEL_RS10855,ACEL_RS10855 (hypothetical protein)
+NC_008578.1,2373277,2373739,1,ACEL_RS10860,ACEL_RS10860 (hypothetical protein)
+NC_008578.1,2373717,2374914,-1,ACEL_RS10865,"ACEL_RS10865 (mannose-6-phosphate isomerase, class I)"
+NC_008578.1,2374947,2375032,1,ACEL_RS10870,ACEL_RS10870 (tRNA-Ser)
+NC_008578.1,2375191,2378378,-1,"ACEL_RS10875, ACEL_RS11765","ACEL_RS10875 (transcriptional regulator), ACEL_RS11765 (hybrid sensor histidine kinase/response regulator)"
+NC_008578.1,2378553,2380175,1,"ACEL_RS10885, ACEL_RS10890","ACEL_RS10885 (NADPH:quinone oxidoreductase), ACEL_RS10890 (peptidyl-prolyl cis-trans isomerase)"
+NC_008578.1,2383997,2384537,-1,ACEL_RS10915,ACEL_RS10915 (PAS domain-containing protein)
+NC_008578.1,2384569,2384782,1,ACEL_RS10920,ACEL_RS10920 (hypothetical protein)
+NC_008578.1,2385228,2385666,-1,ACEL_RS10925,ACEL_RS10925 (hypothetical protein)
+NC_008578.1,2386223,2386550,1,ACEL_RS10930,ACEL_RS10930 (hypothetical protein)
+NC_008578.1,2386773,2388663,-1,"ACEL_RS10935, ACEL_RS11770","ACEL_RS10935 (hypothetical protein), ACEL_RS11770 (hypothetical protein)"
+NC_008578.1,2388831,2389035,1,ACEL_RS10950,ACEL_RS10950 (hypothetical protein)
+NC_008578.1,2389253,2389324,-1,ACEL_RS10955,ACEL_RS10955 (tRNA-Gly)
+NC_008578.1,2389646,2390222,1,ACEL_RS10960,ACEL_RS10960 (deoxycytidine triphosphate deaminase)
+NC_008578.1,2392416,2393631,-1,ACEL_RS10970,ACEL_RS10970 (hypothetical protein)
+NC_008578.1,2393733,2398021,1,"ACEL_RS10975, ACEL_RS10980, ACEL_RS10990, ACEL_RS10995","ACEL_RS10975 (molecular chaperone DnaK), ACEL_RS10980 (nucleotide exchange factor GrpE), ACEL_RS10990 (molecular chaperone DnaJ), ACEL_RS10995 (heat-shock protein HspR)"
+NC_008578.1,2400851,2402983,-1,"ACEL_RS11005, ACEL_RS11010","ACEL_RS11005 (ribokinase-like domain-containing protein), ACEL_RS11010 (aminotransferase)"
+NC_008578.1,2403073,2403823,1,ACEL_RS11015,ACEL_RS11015 (short-chain dehydrogenase/reductase SDR)
+NC_008578.1,2404631,2405243,-1,ACEL_RS11025,ACEL_RS11025 (hypothetical protein)
+NC_008578.1,2405523,2410582,1,"ACEL_RS11030, ACEL_RS11035, ACEL_RS11040, ACEL_RS11045","ACEL_RS11030 (class II fructose-bisphosphate aldolase), ACEL_RS11035 (adenylosuccinate synthetase), ACEL_RS11040 (phosphoribosylamine--glycine ligase), ACEL_RS11045 (adenylosuccinate lyase)"
+NC_008578.1,2411614,2417315,-1,"ACEL_RS11055, ACEL_RS11060, ACEL_RS11065, ACEL_RS11070, ACEL_RS11075, ACEL_RS11080, ACEL_RS11085","ACEL_RS11055 (50S ribosomal protein L9), ACEL_RS11060 (30S ribosomal protein S18), ACEL_RS11065 (single-stranded DNA-binding protein), ACEL_RS11070 (30S ribosomal protein S6), ACEL_RS11075 (transmembrane protein), ACEL_RS11080 (hypothetical protein), ACEL_RS11085 (hypothetical protein)"
+NC_008578.1,2417419,2419196,1,"ACEL_RS11090, ACEL_RS11095","ACEL_RS11090 (PadR family transcriptional regulator), ACEL_RS11095 (inositol 1-phosphate synthase)"
+NC_008578.1,2419354,2420908,-1,ACEL_RS11100,ACEL_RS11100 (CCA tRNA nucleotidyltransferase)
+NC_008578.1,2421135,2425949,1,"ACEL_RS11105, ACEL_RS11110, ACEL_RS11115","ACEL_RS11105 (hypothetical protein), ACEL_RS11110 (hypothetical protein), ACEL_RS11115 (lipid II flippase MurJ)"
+NC_008578.1,2434116,2434728,-1,ACEL_RS11160,ACEL_RS11160 (GCN5 family acetyltransferase)
+NC_008578.1,2434871,2437123,1,"ACEL_RS11165, ACEL_RS11170","ACEL_RS11165 (GntR family transcriptional regulator), ACEL_RS11170 (D-alanine--D-alanine ligase)"
+NC_008578.1,2441235,2442862,-1,"ACEL_RS11195, ACEL_RS11200, ACEL_RS11205","ACEL_RS11195 (hypothetical protein), ACEL_RS11200 (membrane protein insertion efficiency factor YidD), ACEL_RS11205 (ribonuclease P protein component)"
+NC_008578.1,1920,4212,1,"ACEL_RS00010, ACEL_RS00015","ACEL_RS00010 (DNA polymerase III subunit beta), ACEL_RS00015 (DNA recombination protein RecF)"
+NC_008578.1,29817,30420,-1,ACEL_RS00150,ACEL_RS00150 (hypothetical protein)
+NC_008578.1,41077,41153,1,ACEL_RS00200,ACEL_RS00200 (tRNA-Arg)
+NC_008578.1,48158,49064,1,ACEL_RS11240,ACEL_RS11240 (alpha/beta hydrolase fold protein)
+NC_008578.1,51142,51544,1,ACEL_RS00250,ACEL_RS00250 (hypothetical protein)
+NC_008578.1,57211,58969,-1,ACEL_RS00280,ACEL_RS00280 (phosphomethylpyrimidine synthase ThiC)
+NC_008578.1,64186,65316,1,"ACEL_RS00315, ACEL_RS00320","ACEL_RS00315 (thiosulfate sulfurtransferase), ACEL_RS00320 (hypothetical protein)"
+NC_008578.1,73874,76201,1,"ACEL_RS00365, ACEL_RS00370, ACEL_RS00375, ACEL_RS00380","ACEL_RS00365 (hypothetical protein), ACEL_RS00370 (aldo/keto reductase), ACEL_RS00375 (hypothetical protein), ACEL_RS00380 (RNase III inhibitor)"
+NC_008578.1,79547,79778,1,ACEL_RS00395,ACEL_RS00395 (transcriptional regulator)
+NC_008578.1,83231,87832,1,"ACEL_RS00420, ACEL_RS00425, ACEL_RS00430, ACEL_RS00435, ACEL_RS00440","ACEL_RS00420 (PilT domain-containing protein), ACEL_RS00425 (4-diphosphocytidyl-2C-methyl-D-erythritol synthase), ACEL_RS00430 (2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase), ACEL_RS00435 (cysteine--tRNA ligase), ACEL_RS00440 (23S rRNA (guanosine(2251)-2'-O)-methyltransferase RlmB)"
+NC_008578.1,91332,92016,-1,ACEL_RS00470,ACEL_RS00470 (DNA-binding response regulator)
+NC_008578.1,94452,98050,1,"ACEL_RS00485, ACEL_RS00490, ACEL_RS00495, ACEL_RS00500","ACEL_RS00485 (phosphate ABC transporter substrate-binding protein PstS), ACEL_RS00490 (phosphate ABC transporter permease subunit PstC), ACEL_RS00495 (phosphate ABC transporter, permease protein PstA), ACEL_RS00500 (phosphate ABC transporter ATP-binding protein)"
+NC_008578.1,101678,102827,1,"ACEL_RS00520, ACEL_RS00525","ACEL_RS00520 (hypothetical protein), ACEL_RS00525 (trehalose-phosphatase)"
+NC_008578.1,108202,108592,1,ACEL_RS00550,ACEL_RS00550 (cold-shock protein)
+NC_008578.1,113136,115534,1,"ACEL_RS00575, ACEL_RS00580, ACEL_RS00585","ACEL_RS00575 (MarR family transcriptional regulator), ACEL_RS00580 (MFS transporter), ACEL_RS00585 (2'-5' RNA ligase)"
+NC_008578.1,115555,118920,-1,"ACEL_RS00590, ACEL_RS00595, ACEL_RS00600","ACEL_RS00590 (oxidoreductase), ACEL_RS00595 (MFS transporter), ACEL_RS00600 (phosphoserine aminotransferase)"
+NC_008578.1,124629,126241,1,"ACEL_RS00635, ACEL_RS00640, ACEL_RS00645, ACEL_RS00650","ACEL_RS00635 (hypothetical protein), ACEL_RS00640 (hypothetical protein), ACEL_RS00645 (hypothetical protein), ACEL_RS00650 (hypothetical protein)"
+NC_008578.1,129120,130548,1,ACEL_RS00675,ACEL_RS00675 (glycoside hydrolase family 3)
+NC_008578.1,134025,137314,1,"ACEL_RS00690, ACEL_RS00695, ACEL_RS00700","ACEL_RS00690 (ABC transporter permease), ACEL_RS00695 (sugar ABC transporter permease), ACEL_RS00700 (beta-galactosidase)"
+NC_008578.1,140554,141232,-1,ACEL_RS00715,ACEL_RS00715 (hypothetical protein)
+NC_008578.1,143459,145589,1,ACEL_RS00730,"ACEL_RS00730 (amylo-alpha-1,6-glucosidase)"
+NC_008578.1,147836,148394,-1,ACEL_RS11265,ACEL_RS11265 (hypothetical protein)
+NC_008578.1,150558,151704,1,ACEL_RS11270,ACEL_RS11270 (Rieske (2Fe-2S) domain-containing protein)
+NC_008578.1,154745,155330,-1,ACEL_RS00780,ACEL_RS00780 (TIGR03086 family protein)
+NC_008578.1,160720,160793,-1,ACEL_RS00810,ACEL_RS00810 (tRNA-Arg)
+NC_008578.1,163161,163578,-1,ACEL_RS00825,ACEL_RS00825 (large conductance mechanosensitive channel protein MscL)
+NC_008578.1,168343,168652,-1,ACEL_RS00850,ACEL_RS00850 (FmdB family transcriptional regulator)
+NC_008578.1,173872,176495,1,"ACEL_RS00875, ACEL_RS00880, ACEL_RS00885","ACEL_RS00875 (UTP--glucose-1-phosphate uridylyltransferase), ACEL_RS00880 (molybdopterin molybdenumtransferase MoeA), ACEL_RS00885 (cyclic pyranopterin monophosphate synthase accessory protein)"
+NC_008578.1,183133,185601,1,"ACEL_RS00925, ACEL_RS00930","ACEL_RS00925 (methionine--tRNA ligase), ACEL_RS00930 (AraC family transcriptional regulator)"
+NC_008578.1,194120,195044,-1,ACEL_RS00965,ACEL_RS00965 (ECF subfamily RNA polymerase sigma-24 factor)
+NC_008578.1,203506,204274,1,ACEL_RS01010,ACEL_RS01010 (DtxR family transcriptional regulator)
+NC_008578.1,210092,211385,1,ACEL_RS01045,ACEL_RS01045 (hypothetical protein)
+NC_008578.1,213828,214932,1,ACEL_RS01060,ACEL_RS01060 (hypothetical protein)
+NC_008578.1,258175,260322,-1,"ACEL_RS01245, ACEL_RS01250","ACEL_RS01245 (hypothetical protein), ACEL_RS01250 (redox-sensing transcriptional repressor Rex)"
+NC_008578.1,263200,263413,-1,ACEL_RS01270,ACEL_RS01270 (hypothetical protein)
+NC_008578.1,280692,283624,1,"ACEL_RS01365, ACEL_RS01370, ACEL_RS01375","ACEL_RS01365 (dehypoxanthine futalosine cyclase), ACEL_RS01370 (aminodeoxyfutalosine deaminase), ACEL_RS01375 (bifunctional demethylmenaquinone methyltransferase/2-methoxy-6-polyprenyl-1,4-benzoquinol methylase)"
+NC_008578.1,308348,308509,1,"ACEL_RS01490, ACEL_RS01495","ACEL_RS01490 (tRNA-Thr), ACEL_RS01495 (tRNA-Met)"
+NC_008578.1,315211,315931,1,ACEL_RS01550,ACEL_RS01550 (50S ribosomal protein L1)
+NC_008578.1,351475,353846,1,"ACEL_RS01770, ACEL_RS01775, ACEL_RS01780","ACEL_RS01770 (50S ribosomal protein L13), ACEL_RS01775 (30S ribosomal protein S9), ACEL_RS01780 (phosphoglucosamine mutase)"
+NC_008578.1,360475,361120,-1,ACEL_RS01805,ACEL_RS01805 (class F sortase)
+NC_008578.1,370115,371253,1,"ACEL_RS01855, ACEL_RS01860","ACEL_RS01855 (tRNA threonylcarbamoyladenosine biosynthesis protein TsaB), ACEL_RS01860 (hypothetical protein)"
+NC_008578.1,384508,385678,-1,ACEL_RS01925,"ACEL_RS01925 (endo-1,4-beta-xylanase)"
+NC_008578.1,391316,392225,-1,ACEL_RS11315,ACEL_RS11315 (hypothetical protein)
+NC_008578.1,395430,399802,1,"ACEL_RS01975, ACEL_RS01980, ACEL_RS01985, ACEL_RS01990","ACEL_RS01975 (hypothetical protein), ACEL_RS01980 (phosphoribosylglycinamide formyltransferase), ACEL_RS01985 (bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/inosine monophosphate cyclohydrolase), ACEL_RS01990 (bifunctional 5,10-methylene-tetrahydrofolate dehydrogenase/5,10-methylene-tetrahydrofolate cyclohydrolase)"
+NC_008578.1,405800,406007,-1,ACEL_RS02025,ACEL_RS02025 (cold-shock protein)
+NC_008578.1,409254,410517,-1,ACEL_RS02040,ACEL_RS02040 (serine/threonine protein kinase)
+NC_008578.1,427402,428965,-1,ACEL_RS02125,ACEL_RS02125 (cell envelope-related transcriptional attenuator)
+NC_008578.1,432063,435381,1,"ACEL_RS02140, ACEL_RS02145, ACEL_RS02150","ACEL_RS02140 (hypothetical protein), ACEL_RS02145 (dTDP-glucose 4,6-dehydratase), ACEL_RS02150 (NAD(P)-dependent oxidoreductase)"
+NC_008578.1,447252,453378,1,"ACEL_RS02190, ACEL_RS11330, ACEL_RS02205","ACEL_RS02190 (hypothetical protein), ACEL_RS11330 (glycoside hydrolase family protein), ACEL_RS02205 (hypothetical protein)"
+NC_008578.1,456140,458675,1,ACEL_RS02220,ACEL_RS02220 (hypothetical protein)
+NC_008578.1,469557,472252,1,"ACEL_RS02270, ACEL_RS02275, ACEL_RS02280","ACEL_RS02270 (glycosyl transferase family 2), ACEL_RS02275 (hypothetical protein), ACEL_RS02280 (hypothetical protein)"
+NC_008578.1,476739,477915,1,ACEL_RS02310,ACEL_RS02310 (NAD-dependent dehydratase)
+NC_008578.1,486468,488552,1,"ACEL_RS02355, ACEL_RS02360","ACEL_RS02355 (amidinotransferase), ACEL_RS02360 (ornithine--oxo-acid transaminase)"
+NC_008578.1,490712,492873,1,"ACEL_RS02375, ACEL_RS02380","ACEL_RS02375 (MFS transporter), ACEL_RS02380 (hypothetical protein)"
+NC_008578.1,498895,499246,1,ACEL_RS02405,ACEL_RS02405 (hypothetical protein)
+NC_008578.1,507660,507975,1,ACEL_RS02450,ACEL_RS02450 (hypothetical protein)
+NC_008578.1,518636,521740,1,"ACEL_RS11350, ACEL_RS02510","ACEL_RS11350 (hypothetical protein), ACEL_RS02510 (putative integral membrane protein)"
+NC_008578.1,521830,522088,-1,ACEL_RS02515,ACEL_RS02515 (hypothetical protein)
+NC_008578.1,524659,527691,1,"ACEL_RS02535, ACEL_RS02540, ACEL_RS02545","ACEL_RS02535 (cytochrome ubiquinol oxidase subunit I), ACEL_RS02540 (hypothetical protein), ACEL_RS02545 (hypothetical protein)"
+NC_008578.1,538129,544846,-1,"ACEL_RS02615, ACEL_RS02620, ACEL_RS02625, ACEL_RS02630","ACEL_RS02615 (respiratory nitrate reductase subunit gamma), ACEL_RS02620 (nitrate reductase molybdenum cofactor assembly chaperone), ACEL_RS02625 (nitrate reductase subunit beta), ACEL_RS02630 (nitrate reductase)"
+NC_008578.1,547693,547909,1,ACEL_RS02650,ACEL_RS02650 (hypothetical protein)
+NC_008578.1,552026,552593,1,ACEL_RS02675,ACEL_RS02675 (UspA domain-containing protein)
+NC_008578.1,563975,565112,1,ACEL_RS02725,ACEL_RS02725 (diguanylate phosphodiesterase)
+NC_008578.1,592845,593097,-1,ACEL_RS02880,ACEL_RS02880 (WhiB family transcriptional regulator)
+NC_008578.1,595877,597154,-1,"ACEL_RS02900, ACEL_RS02905","ACEL_RS02900 (RNA polymerase sigma factor), ACEL_RS02905 (anti-sigma regulatory factor)"
+NC_008578.1,602317,604050,1,"ACEL_RS02935, ACEL_RS02940","ACEL_RS02935 (2-deoxyribose-5-phosphate aldolase), ACEL_RS02940 (RpiR family transcriptional regulator)"
+NC_008578.1,607453,612055,1,"ACEL_RS02955, ACEL_RS02960, ACEL_RS02965, ACEL_RS02970","ACEL_RS02955 (LacI family transcriptional regulator), ACEL_RS02960 (ABC transporter), ACEL_RS02965 (inner-membrane translocator), ACEL_RS02970 (ABC transporter permease)"
+NC_008578.1,622312,625808,-1,"ACEL_RS03010, ACEL_RS03015, ACEL_RS03020","ACEL_RS03010 (pyruvate dehydrogenase complex dihydrolipoamide acetyltransferase), ACEL_RS03015 (pyruvate dehydrogenase subunit beta), ACEL_RS03020 (pyruvate dehydrogenase (acetyl-transferring) E1 component subunit alpha)"
+NC_008578.1,629346,630603,1,ACEL_RS03045,ACEL_RS03045 (hypothetical protein)
+NC_008578.1,639181,639526,-1,ACEL_RS03080,ACEL_RS03080 (hypothetical protein)
+NC_008578.1,651273,651861,-1,ACEL_RS03130,ACEL_RS03130 (hypothetical protein)
+NC_008578.1,657499,658639,1,ACEL_RS03150,ACEL_RS03150 (cellulose-binding protein)
+NC_008578.1,676468,676729,-1,ACEL_RS03215,ACEL_RS03215 (hypothetical protein)
+NC_008578.1,682383,685782,1,"ACEL_RS03245, ACEL_RS03250, ACEL_RS03255","ACEL_RS03245 (homoserine dehydrogenase), ACEL_RS03250 (threonine synthase), ACEL_RS03255 (homoserine kinase)"
+NC_008578.1,710272,714458,1,"ACEL_RS03395, ACEL_RS03400, ACEL_RS03405","ACEL_RS03395 (ATPase), ACEL_RS03400 (hypothetical protein), ACEL_RS03405 (hypothetical protein)"
+NC_008578.1,727922,728816,1,ACEL_RS03470,ACEL_RS03470 (hypothetical protein)
+NC_008578.1,750470,751877,-1,ACEL_RS03550,ACEL_RS03550 (mercury(II) reductase)
+NC_008578.1,753437,758591,1,"ACEL_RS03565, ACEL_RS03570, ACEL_RS03575, ACEL_RS03580","ACEL_RS03565 (methionine synthase vitamin-B12 independent), ACEL_RS03570 (DNA ligase (NAD(+)) LigA), ACEL_RS03575 (hypothetical protein), ACEL_RS03580 (aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit C)"
+NC_008578.1,783592,784096,-1,ACEL_RS03685,ACEL_RS03685 (hypothetical protein)
+NC_008578.1,809182,810532,1,ACEL_RS03790,ACEL_RS03790 (trigger factor)
+NC_008578.1,819735,820650,1,ACEL_RS03830,ACEL_RS03830 (ABC transporter)
+NC_008578.1,846973,848062,-1,ACEL_RS03960,ACEL_RS03960 (nickel transporter)
+NC_008578.1,855184,858647,1,"ACEL_RS03985, ACEL_RS03990, ACEL_RS03995","ACEL_RS03985 (helix-hairpin-helix DNA-binding motif-containing protein), ACEL_RS03990 (ComEC/Rec2-like protein), ACEL_RS03995 (DNA polymerase III subunit delta)"
+NC_008578.1,864004,867953,1,"ACEL_RS04030, ACEL_RS04035, ACEL_RS04040, ACEL_RS04045","ACEL_RS04030 (hypothetical protein), ACEL_RS04035 (HrcA family transcriptional regulator), ACEL_RS04040 (molecular chaperone DnaJ), ACEL_RS04045 (16S rRNA (uracil(1498)-N(3))-methyltransferase)"
+NC_008578.1,873448,874718,1,"ACEL_RS04080, ACEL_RS04085","ACEL_RS04080 (cytidine deaminase), ACEL_RS04085 (GTPase Era)"
+NC_008578.1,885658,887014,1,ACEL_RS04130,ACEL_RS04130 (deoxyguanosinetriphosphate triphosphohydrolase)
+NC_008578.1,893769,894243,1,ACEL_RS04170,ACEL_RS04170 (hypothetical protein)
+NC_008578.1,917848,919312,-1,ACEL_RS04250,ACEL_RS04250 (hypothetical protein)
+NC_008578.1,921600,922092,-1,ACEL_RS04275,ACEL_RS04275 (PIN domain-containing protein)
+NC_008578.1,924871,925171,-1,ACEL_RS04290,ACEL_RS04290 (carbon storage regulator)
+NC_008578.1,933182,940370,1,"ACEL_RS04335, ACEL_RS04340, ACEL_RS04345, ACEL_RS04350, ACEL_RS04355, ACEL_RS04365, ACEL_RS04370, ACEL_RS04375, ACEL_RS04380","ACEL_RS04335 (flagellar biosynthesis protein FlgB), ACEL_RS04340 (flagellar basal body rod protein FlgG), ACEL_RS04345 (flagellar hook-basal body complex subunit FliE), ACEL_RS04350 (flagellar M-ring protein FliF), ACEL_RS04355 (flagellar motor switch protein FliG), ACEL_RS04365 (hypothetical protein), ACEL_RS04370 (ATP synthase), ACEL_RS04375 (hypothetical protein), ACEL_RS04380 (lytic transglycosylase)"
+NC_008578.1,958983,960700,1,"ACEL_RS04490, ACEL_RS11775, ACEL_RS04495","ACEL_RS04490 (hypothetical protein), ACEL_RS11775 (RNA component of RNaseP), ACEL_RS04495 (tellurium resistance protein TerC)"
+NC_008578.1,971499,972654,-1,ACEL_RS04545,ACEL_RS04545 (PucR family transcriptional regulator)
+NC_008578.1,974814,974886,1,ACEL_RS04565,ACEL_RS04565 (tRNA-Val)
+NC_008578.1,980212,981106,1,ACEL_RS04600,ACEL_RS04600 (hypothetical protein)
+NC_008578.1,990320,991214,1,ACEL_RS04645,ACEL_RS04645 (6-phosphogluconate dehydrogenase)
+NC_008578.1,1000050,1004748,1,"ACEL_RS04685, ACEL_RS04690, ACEL_RS04695, ACEL_RS04700, ACEL_RS04705","ACEL_RS04685 (hypothetical protein), ACEL_RS04690 (ABC transporter permease), ACEL_RS04695 (inner-membrane translocator), ACEL_RS04700 (ABC transporter ATP-binding protein), ACEL_RS04705 (ABC transporter ATP-binding protein)"
+NC_008578.1,1017014,1017815,-1,ACEL_RS04765,ACEL_RS04765 (hypothetical protein)
+NC_008578.1,1022084,1022750,-1,ACEL_RS04790,ACEL_RS04790 (octanoyltransferase)
+NC_008578.1,1045229,1046231,-1,ACEL_RS04895,ACEL_RS04895 (aldo/keto reductase)
+NC_008578.1,1050608,1051628,1,ACEL_RS04930,ACEL_RS04930 (ribokinase)
+NC_008578.1,1063082,1063370,-1,ACEL_RS04990,ACEL_RS04990 (AsnC family transcriptional regulator)
+NC_008578.1,1082057,1084502,1,"ACEL_RS05065, ACEL_RS05070","ACEL_RS05065 (6-phosphofructokinase), ACEL_RS05070 (3-deoxy-7-phosphoheptulonate synthase)"
+NC_008578.1,1085567,1087406,-1,ACEL_RS05080,ACEL_RS05080 (serine/threonine protein kinase)
+NC_008578.1,1098436,1098835,1,ACEL_RS05130,ACEL_RS05130 (hypothetical protein)
+NC_008578.1,1105769,1107469,1,"ACEL_RS05160, ACEL_RS05165","ACEL_RS05160 (ribosomal RNA small subunit methyltransferase H), ACEL_RS05165 (hypothetical protein)"
+NC_008578.1,1134069,1137216,-1,ACEL_RS05305,ACEL_RS05305 (isoleucine--tRNA ligase)
+NC_008578.1,1139471,1142514,1,"ACEL_RS05320, ACEL_RS05325, ACEL_RS05330, ACEL_RS05335","ACEL_RS05320 (pseudouridine synthase), ACEL_RS05325 (ACT domain-containing protein), ACEL_RS05330 (hypothetical protein), ACEL_RS05335 (biotin synthase)"
+NC_008578.1,1145229,1146360,-1,ACEL_RS05350,ACEL_RS05350 (oxidoreductase)
+NC_008578.1,1155375,1158997,-1,"ACEL_RS05400, ACEL_RS05405, ACEL_RS05410","ACEL_RS05400 (ABC transporter permease), ACEL_RS05405 (ABC transporter), ACEL_RS05410 (hypothetical protein)"
+NC_008578.1,1172426,1174127,-1,ACEL_RS05470,ACEL_RS05470 (sodium:solute symporter)
+NC_008578.1,1177644,1179690,1,ACEL_RS05495,ACEL_RS05495 (acetyl-CoA synthetase)
+NC_008578.1,1196820,1201861,1,"ACEL_RS05570, ACEL_RS05575, ACEL_RS05580, ACEL_RS05585, ACEL_RS05590","ACEL_RS05570 (branched chain amino acid ABC transporter substrate-binding protein), ACEL_RS05575 (branched-chain amino acid ABC transporter permease), ACEL_RS05580 (ABC transporter permease), ACEL_RS05585 (ABC transporter ATP-binding protein), ACEL_RS05590 (ABC transporter ATP-binding protein)"
+NC_008578.1,1222859,1224380,1,ACEL_RS05685,ACEL_RS05685 (DNA topoisomerase)
+NC_008578.1,1236785,1239021,1,"ACEL_RS05730, ACEL_RS11485","ACEL_RS05730 (type I glyceraldehyde-3-phosphate dehydrogenase), ACEL_RS11485 (hypothetical protein)"
+NC_008578.1,1259305,1260478,-1,ACEL_RS05820,ACEL_RS05820 (sugar ABC transporter substrate-binding protein)
+NC_008578.1,1268493,1268712,1,ACEL_RS05865,ACEL_RS05865 (transcriptional regulator)
+NC_008578.1,1275162,1278100,-1,"ACEL_RS05900, ACEL_RS05905","ACEL_RS05900 (peptidase), ACEL_RS05905 (hypothetical protein)"
+NC_008578.1,1280686,1281394,1,ACEL_RS05925,ACEL_RS05925 (hypothetical protein)
+NC_008578.1,1288005,1289328,1,ACEL_RS05965,ACEL_RS05965 (diguanylate cyclase)
+NC_008578.1,1296527,1296824,1,ACEL_RS05995,ACEL_RS05995 (hypothetical protein)
+NC_008578.1,1307445,1308054,1,ACEL_RS06045,ACEL_RS06045 (hypothetical protein)
+NC_008578.1,1309557,1312862,-1,"ACEL_RS06060, ACEL_RS06065","ACEL_RS06060 (hypothetical protein), ACEL_RS06065 (peptide ABC transporter ATP-binding protein)"
+NC_008578.1,1320845,1322831,1,"ACEL_RS06105, ACEL_RS06110, ACEL_RS06115","ACEL_RS06105 (prokaryotic ubiquitin-like protein Pup), ACEL_RS06110 (proteasome subunit beta), ACEL_RS06115 (proteasome subunit alpha)"
+NC_008578.1,1334677,1340917,1,"ACEL_RS06155, ACEL_RS06160, ACEL_RS06165, ACEL_RS06170, ACEL_RS06175","ACEL_RS06155 (short-chain dehydrogenase), ACEL_RS06160 (2,4-dienoyl-CoA reductase), ACEL_RS06165 (beta-ketoacyl-[acyl-carrier-protein] synthase II), ACEL_RS06170 (WYL domain-containing protein), ACEL_RS06175 (WYL domain-containing protein)"
+NC_008578.1,1349381,1351752,1,"ACEL_RS06215, ACEL_RS06220","ACEL_RS06215 (apolipoprotein N-acyltransferase), ACEL_RS06220 (dolichol-phosphate mannosyltransferase)"
+NC_008578.1,1354088,1354679,-1,ACEL_RS06240,ACEL_RS06240 (hypothetical protein)
+NC_008578.1,1356368,1357655,1,ACEL_RS06255,ACEL_RS06255 (hypothetical protein)
+NC_008578.1,1384353,1387380,-1,"ACEL_RS06395, ACEL_RS06400","ACEL_RS06395 (hypothetical protein), ACEL_RS06400 (DNA repair protein RecN)"
+NC_008578.1,1423354,1426976,-1,"ACEL_RS06570, ACEL_RS06575, ACEL_RS06580, ACEL_RS06585","ACEL_RS06570 (ribulose-phosphate 3-epimerase), ACEL_RS06575 (rRNA cytosine-C5-methyltransferase), ACEL_RS06580 (methionyl-tRNA formyltransferase), ACEL_RS06585 (peptide deformylase)"
+NC_008578.1,1437425,1443409,-1,"ACEL_RS06635, ACEL_RS06640, ACEL_RS06645, ACEL_RS06650, ACEL_RS06655, ACEL_RS06660","ACEL_RS06635 (primosomal protein N'), ACEL_RS06640 (methionine adenosyltransferase), ACEL_RS06645 (phosphopantothenoylcysteine decarboxylase), ACEL_RS06650 (DNA-directed RNA polymerase subunit omega), ACEL_RS06655 (guanylate kinase), ACEL_RS06660 (integration host factor MihF)"
+NC_008578.1,1471853,1475522,-1,"ACEL_RS06800, ACEL_RS06805, ACEL_RS06810","ACEL_RS06800 (type II secretion system protein E), ACEL_RS06805 (GTP-binding protein), ACEL_RS06810 (hypothetical protein)"
+NC_008578.1,1496369,1499061,-1,"ACEL_RS11510, ACEL_RS06910, ACEL_RS06915, ACEL_RS06920","ACEL_RS11510 (preprotein translocase subunit YajC), ACEL_RS06910 (Holliday junction DNA helicase RuvB), ACEL_RS06915 (Holliday junction ATP-dependent DNA helicase RuvA), ACEL_RS06920 (crossover junction endodeoxyribonuclease RuvC)"
+NC_008578.1,1510743,1512693,-1,ACEL_RS06980,ACEL_RS06980 (threonine--tRNA ligase)
+NC_008578.1,1524761,1525074,1,"ACEL_RS07050, ACEL_RS07055, ACEL_RS07060","ACEL_RS07050 (tRNA-Gly), ACEL_RS07055 (tRNA-Cys), ACEL_RS07060 (tRNA-Val)"
+NC_008578.1,1550961,1552212,1,ACEL_RS07170,ACEL_RS07170 (3'-5' exonuclease)
+NC_008578.1,1555627,1558408,-1,ACEL_RS07185,ACEL_RS07185 (aconitate hydratase)
+NC_008578.1,1566397,1566700,-1,ACEL_RS07235,ACEL_RS07235 (dUTPase)
+NC_008578.1,1572898,1574086,1,ACEL_RS07260,ACEL_RS07260 (peptidase S8/S53 subtilisin kexin sedolisin)
+NC_008578.1,1581483,1583556,-1,"ACEL_RS07300, ACEL_RS07305","ACEL_RS07300 (3-mercaptopyruvate sulfurtransferase), ACEL_RS07305 (hypothetical protein)"
+NC_008578.1,1590234,1591281,1,"ACEL_RS07330, ACEL_RS07335","ACEL_RS07330 (carboxymethylenebutenolidase), ACEL_RS07335 (hypothetical protein)"
+NC_008578.1,1592741,1593044,-1,ACEL_RS07345,ACEL_RS07345 (hypothetical protein)
+NC_008578.1,1598532,1600020,-1,ACEL_RS07370,ACEL_RS07370 (RNA polymerase sigma factor)
+NC_008578.1,1605445,1608996,1,"ACEL_RS07395, ACEL_RS07400, ACEL_RS07405, ACEL_RS07410","ACEL_RS07395 (phenylacetic acid degradation protein PaaN), ACEL_RS07400 (TetR family transcriptional regulator), ACEL_RS07405 (hypothetical protein), ACEL_RS07410 (hypothetical protein)"
+NC_008578.1,1614966,1616010,-1,ACEL_RS07450,ACEL_RS07450 (cysteine--tRNA ligase)
+NC_008578.1,1627211,1629116,-1,ACEL_RS07510,ACEL_RS07510 (hypothetical protein)
+NC_008578.1,1644844,1646301,-1,"ACEL_RS07560, ACEL_RS07565","ACEL_RS07560 (GCN5 family acetyltransferase), ACEL_RS07565 (exodeoxyribonuclease III)"
+NC_008578.1,1650967,1652209,1,ACEL_RS07580,ACEL_RS07580 (hypothetical protein)
+NC_008578.1,1654589,1655525,1,ACEL_RS07595,ACEL_RS07595 (inosine/uridine-preferring nucleoside hydrolase)
+NC_008578.1,1655558,1659430,-1,"ACEL_RS07600, ACEL_RS07605","ACEL_RS07600 (vitamin B12-dependent ribonucleotide reductase), ACEL_RS07605 (NrdR family transcriptional regulator)"
+NC_008578.1,1661159,1666138,-1,"ACEL_RS07620, ACEL_RS11550","ACEL_RS07620 (ATP-dependent helicase), ACEL_RS11550 (GGDEF domain-containing protein)"
+NC_008578.1,1672208,1673864,1,ACEL_RS07655,ACEL_RS07655 (cell wall-binding repeat 2-containing protein)
+NC_008578.1,1679293,1679677,-1,ACEL_RS07675,ACEL_RS07675 (regulatory protein RecX)
+NC_008578.1,1684200,1688805,1,ACEL_RS07710,ACEL_RS07710 (DEAD/DEAH box helicase)
+NC_008578.1,1699668,1705723,-1,"ACEL_RS07760, ACEL_RS07765, ACEL_RS07770, ACEL_RS07775","ACEL_RS07760 (FAD-dependent oxidoreductase), ACEL_RS07765 (4-hydroxy-tetrahydrodipicolinate reductase), ACEL_RS07770 (zinc protease), ACEL_RS07775 (polyribonucleotide nucleotidyltransferase)"
+NC_008578.1,1728896,1729532,-1,ACEL_RS07890,ACEL_RS07890 (amino acid-binding ACT domain-containing protein)
+NC_008578.1,1759325,1766021,-1,"ACEL_RS08045, ACEL_RS08050, ACEL_RS08055, ACEL_RS08060, ACEL_RS08065","ACEL_RS08045 (hypothetical protein), ACEL_RS08050 (signal recognition particle protein), ACEL_RS08055 ([protein-PII] uridylyltransferase), ACEL_RS08060 (nitrogen regulatory protein P-II 1), ACEL_RS08065 (ammonia channel protein)"
+NC_008578.1,1777072,1778093,-1,"ACEL_RS08115, ACEL_RS08120","ACEL_RS08115 (hypothetical protein), ACEL_RS08120 (phosphopantetheine adenylyltransferase)"
+NC_008578.1,1788133,1788625,-1,ACEL_RS08175,ACEL_RS08175 (DNA-binding protein)
+NC_008578.1,1795753,1796689,-1,ACEL_RS08210,ACEL_RS08210 (aldo/keto reductase)
+NC_008578.1,1798732,1800058,-1,"ACEL_RS08230, ACEL_RS08235, ACEL_RS08240","ACEL_RS08230 (ribose-5-phosphate isomerase), ACEL_RS08235 (hypothetical protein), ACEL_RS08240 (hypothetical protein)"
+NC_008578.1,1806884,1808883,-1,"ACEL_RS08265, ACEL_RS08270","ACEL_RS08265 (two-component sensor histidine kinase), ACEL_RS08270 (DNA-binding response regulator)"
+NC_008578.1,1822849,1823428,-1,ACEL_RS08345,ACEL_RS08345 (adenylylsulfate kinase)
+NC_008578.1,1825580,1825841,1,ACEL_RS08360,ACEL_RS08360 (hypothetical protein)
+NC_008578.1,1836678,1841652,-1,"ACEL_RS08420, ACEL_RS08425, ACEL_RS11575, ACEL_RS08435, ACEL_RS08440, ACEL_RS08445","ACEL_RS08420 (hypothetical protein), ACEL_RS08425 (pyridoxal-5'-phosphate-dependent protein subunit beta), ACEL_RS11575 (carbon monoxide dehydrogenase subunit G), ACEL_RS08435 (ferredoxin), ACEL_RS08440 (carbon monoxide dehydrogenase), ACEL_RS08445 (Asp/Glu racemase)"
+NC_008578.1,1852076,1854708,1,"ACEL_RS08490, ACEL_RS08495","ACEL_RS08490 (malate dehydrogenase), ACEL_RS08495 (cyclic pyranopterin monophosphate synthase)"
+NC_008578.1,1871824,1873699,1,ACEL_RS08580,ACEL_RS08580 (hypothetical protein)
+NC_008578.1,1875407,1876659,1,ACEL_RS08595,ACEL_RS08595 (transposase)
+NC_008578.1,1894563,1894636,1,ACEL_RS08675,ACEL_RS08675 (tRNA-Leu)
+NC_008578.1,1897211,1900486,-1,"ACEL_RS08690, ACEL_RS08695, ACEL_RS08700, ACEL_RS08705, ACEL_RS08710","ACEL_RS08690 (hypothetical protein), ACEL_RS08695 (glutamate racemase), ACEL_RS08700 (cysteine synthase), ACEL_RS08705 (molybdopterin synthase sulfur carrier subunit), ACEL_RS08710 (peptidase)"
+NC_008578.1,1903039,1912317,1,"ACEL_RS08730, ACEL_RS08735, ACEL_RS08740, ACEL_RS08745, ACEL_RS08750, ACEL_RS08755, ACEL_RS08760, ACEL_RS08765","ACEL_RS08730 (squalene synthase HpnC), ACEL_RS08735 (squalene synthase HpnD), ACEL_RS08740 (hypothetical protein), ACEL_RS08745 (dimethylallyltransferase), ACEL_RS08750 (squalene-hopene cyclase), ACEL_RS08755 (hypothetical protein), ACEL_RS08760 (hopanoid biosynthesis associated radical SAM protein HpnH), ACEL_RS08765 (AI-2E family transporter)"
+NC_008578.1,1917650,1921515,-1,"ACEL_RS08785, ACEL_RS08790, ACEL_RS08795, ACEL_RS08800, ACEL_RS08805, ACEL_RS08810","ACEL_RS08785 (hypothetical protein), ACEL_RS08790 (hypothetical protein), ACEL_RS08795 (glutamine amidotransferase), ACEL_RS08800 (hypothetical protein), ACEL_RS08805 (hypothetical protein), ACEL_RS08810 (hypothetical protein)"
+NC_008578.1,1924701,1925646,1,ACEL_RS08830,ACEL_RS08830 (hypothetical protein)
+NC_008578.1,1927962,1929927,-1,ACEL_RS08840,ACEL_RS08840 (acetoacetyl-CoA synthetase)
+NC_008578.1,1933639,1935544,1,ACEL_RS08860,ACEL_RS08860 (adenylyl cyclase)
+NC_008578.1,1939463,1941818,1,ACEL_RS08875,ACEL_RS08875 (5-methyltetrahydropteroyltriglutamate-- homocysteine S-methyltransferase)
+NC_008578.1,1948960,1950636,-1,"ACEL_RS08900, ACEL_RS08905","ACEL_RS08900 (SsrA-binding protein), ACEL_RS08905 (carboxyl-terminal protease)"
+NC_008578.1,1956511,1959548,-1,"ACEL_RS08950, ACEL_RS08955, ACEL_RS08960","ACEL_RS08950 (type II secretion system protein), ACEL_RS08955 (type II secretion system protein F), ACEL_RS08960 (pilus assembly protein CpaF)"
+NC_008578.1,1967558,1968293,1,ACEL_RS08990,ACEL_RS08990 (hypothetical protein)
+NC_008578.1,1968441,1971478,-1,"ACEL_RS08995, ACEL_RS09000","ACEL_RS08995 (nitrite reductase small subunit), ACEL_RS09000 (nitrite reductase large subunit)"
+NC_008578.1,1977226,1977496,1,ACEL_RS09025,ACEL_RS09025 (hypothetical protein)
+NC_008578.1,1990662,1991647,1,"ACEL_RS09080, ACEL_RS09085","ACEL_RS09080 (hypothetical protein), ACEL_RS09085 (hypothetical protein)"
+NC_008578.1,1996136,1996829,-1,ACEL_RS09100,ACEL_RS09100 (hypothetical protein)
+NC_008578.1,2004129,2006665,1,"ACEL_RS09140, ACEL_RS09145","ACEL_RS09140 (hypothetical protein), ACEL_RS09145 (ABC transporter ATP-binding protein)"
+NC_008578.1,2006767,2007052,-1,ACEL_RS09150,ACEL_RS09150 (WhiB family transcriptional regulator)
+NC_008578.1,2011692,2018562,-1,"ACEL_RS09175, ACEL_RS09180","ACEL_RS09175 (hypothetical protein), ACEL_RS09180 (hypothetical protein)"
+NC_008578.1,2024761,2025238,1,"ACEL_RS09210, ACEL_RS09215","ACEL_RS09210 (hypothetical protein), ACEL_RS09215 (ATP-binding protein)"
+NC_008578.1,2030498,2031398,-1,ACEL_RS09255,ACEL_RS09255 (hypothetical protein)
+NC_008578.1,2046614,2048662,1,"ACEL_RS09330, ACEL_RS09335","ACEL_RS09330 (dehydrogenase), ACEL_RS09335 (sugar ABC transporter substrate-binding protein)"
+NC_008578.1,2054865,2058795,-1,"ACEL_RS09370, ACEL_RS09375, ACEL_RS09380, ACEL_RS09385","ACEL_RS09370 (phytanoyl-CoA dioxygenase), ACEL_RS09375 (dehydrogenase), ACEL_RS09380 (short-chain dehydrogenase), ACEL_RS09385 (xylose isomerase)"
+NC_008578.1,2065807,2068085,1,"ACEL_RS09420, ACEL_RS09425","ACEL_RS09420 (hypothetical protein), ACEL_RS09425 (type II secretory protein GspE)"
+NC_008578.1,2072995,2073601,-1,ACEL_RS09455,ACEL_RS09455 (DSBA oxidoreductase)
+NC_008578.1,2097138,2098047,-1,ACEL_RS11615,ACEL_RS11615 (hypothetical protein)
+NC_008578.1,2114870,2119065,1,"ACEL_RS11630, ACEL_RS11635","ACEL_RS11630 (methyl-accepting chemotaxis sensory transducer), ACEL_RS11635 (hybrid sensor histidine kinase/response regulator)"
+NC_008578.1,2127447,2129541,-1,ACEL_RS11650,ACEL_RS11650 (hypothetical protein)
+NC_008578.1,2145948,2146587,1,ACEL_RS09795,ACEL_RS09795 (peptide-methionine (S)-S-oxide reductase)
+NC_008578.1,2147459,2149152,-1,"ACEL_RS09810, ACEL_RS09815, ACEL_RS09820","ACEL_RS09810 (tRNA-Leu), ACEL_RS09815 (hypothetical protein), ACEL_RS09820 (NADH dehydrogenase)"
+NC_008578.1,2165279,2167489,1,"ACEL_RS09885, ACEL_RS11675, ACEL_RS09895","ACEL_RS09885 (hypothetical protein), ACEL_RS11675 (group 1 glycosyl transferase), ACEL_RS09895 (polysaccharide deacetylase)"
+NC_008578.1,2168614,2171212,-1,"ACEL_RS09905, ACEL_RS09910","ACEL_RS09905 (hypothetical protein), ACEL_RS09910 (glycosyltransferase WbuB)"
+NC_008578.1,2194650,2198413,-1,"ACEL_RS10005, ACEL_RS10010, ACEL_RS10015","ACEL_RS10005 (oxidoreductase), ACEL_RS10010 (glutamine--scyllo-inositol aminotransferase), ACEL_RS10015 (undecaprenyl-phosphate galactose phosphotransferase)"
+NC_008578.1,2210163,2214840,-1,"ACEL_RS10070, ACEL_RS10075, ACEL_RS10080","ACEL_RS10070 (CRISPR-associated endonuclease Cas2), ACEL_RS10075 (subtype II CRISPR-associated endonuclease Cas1), ACEL_RS10080 (hypothetical protein)"
+NC_008578.1,2222585,2223509,-1,ACEL_RS10110,ACEL_RS10110 (permease)
+NC_008578.1,2226374,2226578,-1,ACEL_RS10125,ACEL_RS10125 (hypothetical protein)
+NC_008578.1,2230554,2231546,-1,"ACEL_RS10145, ACEL_RS10150","ACEL_RS10145 (tRNA-Thr), ACEL_RS10150 (hypothetical protein)"
+NC_008578.1,2249727,2250225,-1,ACEL_RS10190,ACEL_RS10190 (anti-sigma regulatory factor)
+NC_008578.1,2254165,2254881,-1,"ACEL_RS10210, ACEL_RS10215","ACEL_RS10210 (hypothetical protein), ACEL_RS10215 (hypothetical protein)"
+NC_008578.1,2259824,2261798,1,ACEL_RS10245,ACEL_RS10245 (acetyl-coenzyme A synthetase)
+NC_008578.1,2275769,2276879,1,ACEL_RS10335,ACEL_RS10335 (ATPase)
+NC_008578.1,2282700,2284557,1,ACEL_RS10375,ACEL_RS10375 (peptide hydrolase)
+NC_008578.1,2284626,2285664,-1,ACEL_RS11730,ACEL_RS11730 (hypothetical protein)
+NC_008578.1,2292936,2293134,1,ACEL_RS10430,ACEL_RS10430 (cold-shock protein)
+NC_008578.1,2293393,2294513,-1,"ACEL_RS10435, ACEL_RS10440, ACEL_RS10445","ACEL_RS10435 (tRNA-Ser), ACEL_RS10440 (tRNA-specific adenosine deaminase), ACEL_RS10445 (hypothetical protein)"
+NC_008578.1,2302252,2302438,-1,ACEL_RS10495,ACEL_RS10495 (hypothetical protein)
+NC_008578.1,2305540,2306734,1,ACEL_RS10515,ACEL_RS10515 (chitinase)
+NC_008578.1,2310914,2313562,-1,"ACEL_RS10540, ACEL_RS10545, ACEL_RS10550","ACEL_RS10540 (ABC transporter ATP-binding protein), ACEL_RS10545 (molybdenum ABC transporter permease), ACEL_RS10550 (hypothetical protein)"
+NC_008578.1,2315729,2317177,-1,"ACEL_RS10570, ACEL_RS10575","ACEL_RS10570 (NTP pyrophosphohydrolase), ACEL_RS10575 (acetylxylan esterase)"
+NC_008578.1,2324742,2327553,1,"ACEL_RS11740, ACEL_RS11745","ACEL_RS11740 (methyl-accepting chemotaxis sensory transducer), ACEL_RS11745 (cysteinyl-tRNA synthetase)"
+NC_008578.1,2327629,2330804,-1,"ACEL_RS10615, ACEL_RS10620, ACEL_RS10625","ACEL_RS10615 (hypothetical protein), ACEL_RS10620 (phosphoadenosine phosphosulfate reductase), ACEL_RS10625 (ferredoxin--nitrite reductase)"
+NC_008578.1,2345000,2345150,-1,ACEL_RS10720,ACEL_RS10720 (DNA-binding protein)
+NC_008578.1,2346672,2349598,-1,"ACEL_RS10735, ACEL_RS10740, ACEL_RS10745","ACEL_RS10735 (phosphoribosylformylglycinamidine cyclo-ligase), ACEL_RS10740 (amidophosphoribosyltransferase), ACEL_RS10745 (hypothetical protein)"
+NC_008578.1,2360276,2360663,1,ACEL_RS10795,ACEL_RS10795 (MarR family transcriptional regulator)
+NC_008578.1,2366859,2367765,1,ACEL_RS10830,ACEL_RS10830 (membrane protein)
+NC_008578.1,2369540,2371486,-1,"ACEL_RS10845, ACEL_RS10850","ACEL_RS10845 (catalase), ACEL_RS10850 (transcriptional repressor)"
+NC_008578.1,2383324,2383783,-1,ACEL_RS10910,ACEL_RS10910 (hypothetical protein)
+NC_008578.1,2390228,2392280,-1,ACEL_RS10965,ACEL_RS10965 (Fe-S oxidoreductase)
+NC_008578.1,2398218,2400813,1,ACEL_RS11000,ACEL_RS11000 (ATP-dependent chaperone ClpB)
+NC_008578.1,2404011,2404512,1,ACEL_RS11020,ACEL_RS11020 (orotate phosphoribosyltransferase)
+NC_008578.1,2410707,2411562,1,ACEL_RS11050,ACEL_RS11050 (phosphoribosylaminoimidazolesuccinocarboxamide synthase)
+NC_008578.1,2426174,2427724,1,"ACEL_RS11120, ACEL_RS11125","ACEL_RS11120 (hypothetical protein), ACEL_RS11125 (hypothetical protein)"
+NC_008578.1,2439871,2441084,-1,"ACEL_RS11185, ACEL_RS11190","ACEL_RS11185 (ribosomal RNA small subunit methyltransferase G), ACEL_RS11190 (single-stranded DNA-binding protein)"
+NC_008578.1,4372,4696,1,ACEL_RS00020,ACEL_RS00020 (hypothetical protein)
+NC_008578.1,24804,29221,-1,"ACEL_RS11230, ACEL_RS00145","ACEL_RS11230 (hypothetical protein), ACEL_RS00145 (ATPase P)"
+NC_008578.1,41318,42208,1,ACEL_RS00205,ACEL_RS00205 (restriction endonuclease)
+NC_008578.1,79932,80691,1,ACEL_RS00400,ACEL_RS00400 (phosphoglyceromutase)
+NC_008578.1,90550,91045,-1,"ACEL_RS00460, ACEL_RS00465","ACEL_RS00460 (hydrophobic protein), ACEL_RS00465 (hypothetical protein)"
+NC_008578.1,103431,104688,1,ACEL_RS00530,ACEL_RS00530 (threonine synthase)
+NC_008578.1,145874,147008,1,ACEL_RS00735,ACEL_RS00735 (glycosyl transferase)
+NC_008578.1,146983,147709,-1,ACEL_RS00740,ACEL_RS00740 (peptidase C60 sortase A and B)
+NC_008578.1,152102,153345,1,"ACEL_RS00765, ACEL_RS00770","ACEL_RS00765 (hypothetical protein), ACEL_RS00770 (3-hydroxybutyryl-CoA dehydrogenase)"
+NC_008578.1,158326,160086,-1,"ACEL_RS00795, ACEL_RS00800","ACEL_RS00795 (hypothetical protein), ACEL_RS00800 (hypothetical protein)"
+NC_008578.1,176630,177143,1,ACEL_RS00890,ACEL_RS00890 (molybdenum cofactor biosynthesis protein)
+NC_008578.1,185955,188055,1,"ACEL_RS00935, ACEL_RS00940","ACEL_RS00935 (hypothetical protein), ACEL_RS00940 (dimethyladenosine transferase)"
+NC_008578.1,204481,208062,1,"ACEL_RS01015, ACEL_RS01020, ACEL_RS01025, ACEL_RS01030","ACEL_RS01015 (ABC transporter ATP-binding protein), ACEL_RS01020 (ABC-2 type transporter), ACEL_RS01025 (two-component sensor histidine kinase), ACEL_RS01030 (DNA-binding response regulator)"
+NC_008578.1,215068,216934,1,"ACEL_RS01065, ACEL_RS01070","ACEL_RS01065 (tRNA(Ile)-lysidine synthetase), ACEL_RS01070 (hypoxanthine phosphoribosyltransferase)"
+NC_008578.1,250042,258035,-1,"ACEL_RS01210, ACEL_RS01215, ACEL_RS01220, ACEL_RS11285, ACEL_RS01230, ACEL_RS01235, ACEL_RS01240","ACEL_RS01210 (glutamate-1-semialdehyde 2,1-aminomutase), ACEL_RS01215 (hypothetical protein), ACEL_RS01220 (hypothetical protein), ACEL_RS11285 (hypothetical protein), ACEL_RS01230 (delta-aminolevulinic acid dehydratase), ACEL_RS01235 (bifunctional uroporphyrinogen-III C-methyltransferase/uroporphyrinogen-III synthase), ACEL_RS01240 (hydroxymethylbilane synthase)"
+NC_008578.1,283849,301870,1,"ACEL_RS01380, ACEL_RS01385, ACEL_RS01390, ACEL_RS01395, ACEL_RS01400, ACEL_RS01405, ACEL_RS01410, ACEL_RS01415, ACEL_RS01420, ACEL_RS01425, ACEL_RS01430, ACEL_RS01435, ACEL_RS01440, ACEL_RS01445, ACEL_RS01450, ACEL_RS01455","ACEL_RS01380 (drug:proton antiporter), ACEL_RS01385 (NADH-quinone oxidoreductase subunit A), ACEL_RS01390 (NADH-quinone oxidoreductase subunit B), ACEL_RS01395 (NADH-quinone oxidoreductase subunit C), ACEL_RS01400 (NADH-quinone oxidoreductase subunit D), ACEL_RS01405 (NADH-quinone oxidoreductase subunit E), ACEL_RS01410 (NADH-quinone oxidoreductase subunit F), ACEL_RS01415 (NADH-quinone oxidoreductase subunit G), ACEL_RS01420 (NADH-quinone oxidoreductase subunit H), ACEL_RS01425 (NADH-quinone oxidoreductase subunit I), ACEL_RS01430 (NADH:ubiquinone oxidoreductase subunit J), ACEL_RS01435 (NADH-quinone oxidoreductase subunit K), ACEL_RS01440 (NADH-quinone oxidoreductase subunit L), ACEL_RS01445 (NADH-quinone oxidoreductase subunit M), ACEL_RS01450 (NADH-quinone oxidoreductase subunit N), ACEL_RS01455 (geranylgeranyl pyrophosphate synthase)"
+NC_008578.1,308697,309866,1,"ACEL_RS01500, ACEL_RS01505, ACEL_RS01510","ACEL_RS01500 (50S ribosomal protein L33), ACEL_RS01505 (hypothetical protein), ACEL_RS01510 (MaoC family dehydratase)"
+NC_008578.1,316150,317119,1,"ACEL_RS01555, ACEL_RS01560","ACEL_RS01555 (50S ribosomal protein L10), ACEL_RS01560 (50S ribosomal protein L7/L12)"
+NC_008578.1,353971,355918,1,ACEL_RS01785,ACEL_RS01785 (glutamine--fructose-6-phosphate aminotransferase)
+NC_008578.1,371429,372768,1,"ACEL_RS01865, ACEL_RS01870","ACEL_RS01865 (tRNA N6-adenosine(37)-threonylcarbamoyltransferase complex transferase subunit TsaD), ACEL_RS01870 (hypothetical protein)"
+NC_008578.1,399958,402531,1,"ACEL_RS01995, ACEL_RS02000, ACEL_RS02005","ACEL_RS01995 (hypothetical protein), ACEL_RS02000 (malate dehydrogenase), ACEL_RS02005 (isocitrate dehydrogenase)"
+NC_008578.1,435610,439808,1,"ACEL_RS11325, ACEL_RS02165","ACEL_RS11325 (N-acetylmuramoyl-L-alanine amidase), ACEL_RS02165 (hypothetical protein)"
+NC_008578.1,478077,478968,1,ACEL_RS02315,ACEL_RS02315 (hypothetical protein)
+NC_008578.1,493086,497762,1,"ACEL_RS02385, ACEL_RS02390","ACEL_RS02385 (glycosyl transferase family protein), ACEL_RS02390 (hypothetical protein)"
+NC_008578.1,499528,502294,1,"ACEL_RS02410, ACEL_RS02415, ACEL_RS02420","ACEL_RS02410 (phosphomannomutase/phosphoglucomutase), ACEL_RS02415 (hypothetical protein), ACEL_RS02420 (sugar isomerase (SIS))"
+NC_008578.1,508158,509959,1,"ACEL_RS02455, ACEL_RS02460, ACEL_RS02465","ACEL_RS02455 (hypothetical protein), ACEL_RS02460 (peptidase S16, lon domain-containing protein), ACEL_RS02465 (tRNA-Met)"
+NC_008578.1,534646,537866,-1,"ACEL_RS02600, ACEL_RS02605, ACEL_RS02610","ACEL_RS02600 (multicopper oxidase, type 3), ACEL_RS02605 (hypothetical protein), ACEL_RS02610 (MFS transporter)"
+NC_008578.1,612387,614131,1,"ACEL_RS02975, ACEL_RS02980","ACEL_RS02975 (hypothetical protein), ACEL_RS02980 (xylose isomerase)"
+NC_008578.1,630848,632546,1,ACEL_RS03050,ACEL_RS03050 (manganese transporter)
+NC_008578.1,638669,639029,-1,ACEL_RS03075,ACEL_RS03075 (sec-independent translocase)
+NC_008578.1,650067,650844,-1,ACEL_RS03125,ACEL_RS03125 (PA-phosphatase-like phosphoesterase)
+NC_008578.1,658805,661088,1,ACEL_RS11380,ACEL_RS11380 (hypothetical protein)
+NC_008578.1,675867,676275,-1,ACEL_RS03210,ACEL_RS03210 (cupin)
+NC_008578.1,686215,688246,1,ACEL_RS03260,ACEL_RS03260 (transcription termination factor Rho)
+NC_008578.1,714724,715348,1,ACEL_RS03410,ACEL_RS03410 (hypothetical protein)
+NC_008578.1,758718,760236,1,ACEL_RS03585,ACEL_RS03585 (glutamyl-tRNA(Gln) amidotransferase subunit A)
+NC_008578.1,810811,812205,1,"ACEL_RS03795, ACEL_RS03800","ACEL_RS03795 (ATP-dependent Clp protease proteolytic subunit), ACEL_RS03800 (ATP-dependent Clp protease proteolytic subunit)"
+NC_008578.1,820858,822967,1,"ACEL_RS03835, ACEL_RS03840, ACEL_RS03845","ACEL_RS03835 (ABC-2 type transporter), ACEL_RS03840 (ABC transporter), ACEL_RS03845 (nucleoside-diphosphate kinase)"
+NC_008578.1,874980,876714,1,ACEL_RS04090,ACEL_RS04090 (2-isopropylmalate synthase)
+NC_008578.1,887142,891874,1,"ACEL_RS04135, ACEL_RS04140, ACEL_RS04145, ACEL_RS04150","ACEL_RS04135 (ferredoxin), ACEL_RS04140 (hypothetical protein), ACEL_RS04145 (phenazine biosynthesis protein PhzF), ACEL_RS04150 (DNA primase)"
+NC_008578.1,894377,895275,1,"ACEL_RS04175, ACEL_RS04180","ACEL_RS04175 (hypothetical protein), ACEL_RS04180 (tRNA-OTHER)"
+NC_008578.1,940642,951058,1,"ACEL_RS04385, ACEL_RS04390, ACEL_RS04395, ACEL_RS11410, ACEL_RS04405, ACEL_RS04410, ACEL_RS04415, ACEL_RS04420, ACEL_RS04425, ACEL_RS04430, ACEL_RS04435, ACEL_RS04440, ACEL_RS04445, ACEL_RS04450","ACEL_RS04385 (hypothetical protein), ACEL_RS04390 (flagellar hook capping protein), ACEL_RS04395 (flagellar hook protein), ACEL_RS11410 (flagellar FlbD family protein), ACEL_RS04405 (motility protein A), ACEL_RS04410 (hypothetical protein), ACEL_RS04415 (flagellar basal body-associated protein FliL), ACEL_RS04420 (flagellar motor switch protein FliM), ACEL_RS04425 (flagellar motor switch protein FliN), ACEL_RS04430 (hypothetical protein), ACEL_RS04435 (flagellar biosynthetic protein FliP), ACEL_RS04440 (flagellar biosynthesis protein FliQ), ACEL_RS04445 (type III secretion system inner membrane R protein), ACEL_RS04450 (hypothetical protein)"
+NC_008578.1,966138,971370,-1,"ACEL_RS04520, ACEL_RS04525, ACEL_RS04530, ACEL_RS04535, ACEL_RS04540","ACEL_RS04520 (propionyl-CoA carboxylase subunit beta), ACEL_RS04525 (beta-ketoacyl-[acyl-carrier-protein] synthase II), ACEL_RS04530 (acyl carrier protein), ACEL_RS04535 (3-oxoacyl-ACP synthase), ACEL_RS04540 (biotin attachment protein)"
+NC_008578.1,975109,976222,1,ACEL_RS04570,ACEL_RS04570 (hypothetical protein)
+NC_008578.1,981547,983349,1,"ACEL_RS04605, ACEL_RS04610","ACEL_RS04605 (hypothetical protein), ACEL_RS04610 (carboxymuconolactone decarboxylase)"
+NC_008578.1,991360,994981,1,"ACEL_RS04650, ACEL_RS04655, ACEL_RS04660, ACEL_RS04665","ACEL_RS04650 (hypothetical protein), ACEL_RS04655 (Nif3-like dinuclear metal center hexameric protein), ACEL_RS04660 (Zn-ribbon-like protein), ACEL_RS04665 (bifunctional RNase H/acid phosphatase)"
+NC_008578.1,1004898,1006112,1,"ACEL_RS11430, ACEL_RS04715","ACEL_RS11430 (NADPH-dependent ferric siderophore reductase), ACEL_RS04715 (hypothetical protein)"
+NC_008578.1,1020140,1021925,-1,"ACEL_RS04780, ACEL_RS04785","ACEL_RS04780 (hypothetical protein), ACEL_RS04785 (lipoyl synthase)"
+NC_008578.1,1051844,1054791,1,"ACEL_RS04935, ACEL_RS04940, ACEL_RS04945","ACEL_RS04935 (cytochrome c oxidase subunit II), ACEL_RS04940 (cytochrome c oxidase subunit I), ACEL_RS04945 (cytochrome c oxidase subunit IV)"
+NC_008578.1,1084479,1085343,-1,ACEL_RS05075,ACEL_RS05075 (endonuclease IV)
+NC_008578.1,1099433,1099829,1,ACEL_RS05135,ACEL_RS05135 (hypothetical protein)
+NC_008578.1,1107628,1118757,1,"ACEL_RS05170, ACEL_RS05175, ACEL_RS05180, ACEL_RS05185, ACEL_RS05190, ACEL_RS05195, ACEL_RS05200, ACEL_RS05205","ACEL_RS05170 (hypothetical protein), ACEL_RS05175 (UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2, 6-diaminopimelate ligase), ACEL_RS05180 (UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alanine ligase), ACEL_RS05185 (phospho-N-acetylmuramoyl-pentapeptide- transferase), ACEL_RS05190 (UDP-N-acetylmuramoylalanine--D-glutamate ligase), ACEL_RS05195 (cell division protein FtsW), ACEL_RS05200 (UDP-N-acetylglucosamine--N-acetylmuramyl- (pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase), ACEL_RS05205 (UDP-N-acetylmuramate--L-alanine ligase)"
+NC_008578.1,1133252,1133711,-1,ACEL_RS05300,ACEL_RS05300 (hypothetical protein)
+NC_008578.1,1142698,1145259,1,"ACEL_RS05340, ACEL_RS05345","ACEL_RS05340 (adenosylmethionine--8-amino-7-oxononanoate aminotransferase BioA), ACEL_RS05345 (cytochrome P450)"
+NC_008578.1,1179840,1183228,1,"ACEL_RS05500, ACEL_RS05505, ACEL_RS05510, ACEL_RS05515","ACEL_RS05500 (imidazole glycerol phosphate synthase cyclase subunit), ACEL_RS05505 (phosphoribosyl-AMP cyclohydrolase), ACEL_RS05510 (anthranilate synthase component I), ACEL_RS05515 (hypothetical protein)"
+NC_008578.1,1202348,1202975,1,ACEL_RS11480,ACEL_RS11480 (N-acetyltransferase GCN5)
+NC_008578.1,1224624,1226742,1,ACEL_RS05690,ACEL_RS05690 (excinuclease ABC subunit B)
+NC_008578.1,1240079,1246297,1,"ACEL_RS05740, ACEL_RS05745, ACEL_RS05750, ACEL_RS05755, ACEL_RS05760, ACEL_RS05765","ACEL_RS05740 (ABC transporter substrate-binding protein), ACEL_RS05745 (ABC transporter permease), ACEL_RS05750 (ABC transporter permease), ACEL_RS05755 (dipeptide/oligopeptide/nickel ABC transporter ATP-binding protein), ACEL_RS05760 (dipeptide/oligopeptide/nickel ABC transporter ATP-binding protein), ACEL_RS05765 (preprotein translocase subunit SecG)"
+NC_008578.1,1255501,1259111,-1,"ACEL_RS05805, ACEL_RS05810, ACEL_RS05815","ACEL_RS05805 (ROK family protein), ACEL_RS05810 (inner-membrane translocator), ACEL_RS05815 (sugar ABC transporter ATP-binding protein)"
+NC_008578.1,1269148,1271089,1,ACEL_RS05870,ACEL_RS05870 (ABC transporter)
+NC_008578.1,1281557,1283834,1,"ACEL_RS05930, ACEL_RS05935, ACEL_RS05940","ACEL_RS05930 (iron ABC transporter ATP-binding protein), ACEL_RS05935 (hypothetical protein), ACEL_RS05940 (paraslipin)"
+NC_008578.1,1308130,1309410,-1,"ACEL_RS06050, ACEL_RS06055","ACEL_RS06050 (hypothetical protein), ACEL_RS06055 (hypothetical protein)"
+NC_008578.1,1323086,1324696,1,"ACEL_RS06120, ACEL_RS06125","ACEL_RS06120 (hypothetical protein), ACEL_RS06125 (Pup--protein ligase)"
+NC_008578.1,1341178,1341511,1,ACEL_RS06180,ACEL_RS06180 (hypothetical protein)
+NC_008578.1,1381910,1384234,-1,"ACEL_RS06385, ACEL_RS06390","ACEL_RS06385 (NUDIX hydrolase), ACEL_RS06390 (CTP synthetase)"
+NC_008578.1,1422252,1423140,-1,ACEL_RS06565,ACEL_RS06565 (diguanylate cyclase response regulator)
+NC_008578.1,1468889,1471221,-1,"ACEL_RS06790, ACEL_RS06795","ACEL_RS06790 (pilus biosynthesis protein PilC), ACEL_RS06795 (twitching motility protein PilT)"
+NC_008578.1,1492532,1496129,-1,"ACEL_RS06890, ACEL_RS06895, ACEL_RS06900","ACEL_RS06890 (adenine phosphoribosyltransferase), ACEL_RS06895 (preprotein translocase subunit SecF), ACEL_RS06900 (protein-export membrane protein SecD)"
+NC_008578.1,1509985,1510582,-1,ACEL_RS06975,ACEL_RS06975 (HIT family hydrolase)
+NC_008578.1,1552469,1553345,1,ACEL_RS07175,ACEL_RS07175 (hypothetical protein)
+NC_008578.1,1553508,1555404,-1,ACEL_RS07180,ACEL_RS07180 (1-deoxy-D-xylulose-5-phosphate synthase)
+NC_008578.1,1574215,1577877,1,"ACEL_RS07265, ACEL_RS07270, ACEL_RS07275","ACEL_RS07265 (ECF subfamily RNA polymerase sigma-24 factor), ACEL_RS07270 (hypothetical protein), ACEL_RS07275 (CHAT domain-containing protein)"
+NC_008578.1,1591295,1592498,-1,ACEL_RS07340,ACEL_RS07340 (cystathionine gamma-lyase)
+NC_008578.1,1596044,1598084,-1,"ACEL_RS07360, ACEL_RS07365","ACEL_RS07360 (hypothetical protein), ACEL_RS07365 (hypothetical protein)"
+NC_008578.1,1642551,1644677,-1,"ACEL_RS11545, ACEL_RS07555","ACEL_RS11545 (hypothetical protein), ACEL_RS07555 (hypothetical protein)"
+NC_008578.1,1677505,1678981,-1,ACEL_RS07670,ACEL_RS07670 (ribonuclease Y)
+NC_008578.1,1698764,1699478,-1,ACEL_RS07755,ACEL_RS07755 (FAD-dependent thymidylate synthase)
+NC_008578.1,1726380,1728681,-1,ACEL_RS07885,ACEL_RS07885 (MMPL domain-containing protein)
+NC_008578.1,1755412,1759202,-1,"ACEL_RS08015, ACEL_RS08020, ACEL_RS08025, ACEL_RS08030, ACEL_RS08035, ACEL_RS08040","ACEL_RS08015 (S26 family signal peptidase), ACEL_RS08020 (50S ribosomal protein L19), ACEL_RS08025 (tRNA (guanosine(37)-N1)-methyltransferase TrmD), ACEL_RS08030 (ribosome maturation factor RimM), ACEL_RS08035 (KH domain-containing protein), ACEL_RS08040 (30S ribosomal protein S16)"
+NC_008578.1,1776208,1776766,-1,ACEL_RS08110,ACEL_RS08110 (metal-binding protein)
+NC_008578.1,1784883,1787875,-1,"ACEL_RS08160, ACEL_RS08165, ACEL_RS08170","ACEL_RS08160 (D-alanine--D-alanine ligase A), ACEL_RS08165 (glycerol-3-phosphate dehydrogenase), ACEL_RS08170 (acyltransferase)"
+NC_008578.1,1791773,1795560,-1,"ACEL_RS08195, ACEL_RS08200, ACEL_RS08205","ACEL_RS08195 (peptidase S1 and S6, chymotrypsin/Hap), ACEL_RS08200 (two-component sensor histidine kinase), ACEL_RS08205 (DNA-binding response regulator)"
+NC_008578.1,1797191,1798316,-1,ACEL_RS08225,ACEL_RS08225 (serine phosphatase)
+NC_008578.1,1818260,1822691,-1,"ACEL_RS08325, ACEL_RS08330, ACEL_RS08335, ACEL_RS08340","ACEL_RS08325 (cobalamin (vitamin B12) biosynthesis CbiX protein), ACEL_RS08330 (uroporphyrinogen III methyltransferase), ACEL_RS08335 (sulfate adenylyltransferase), ACEL_RS08340 (sulfate adenylyltransferase)"
+NC_008578.1,1826203,1826434,1,ACEL_RS08365,ACEL_RS08365 (transcriptional regulator)
+NC_008578.1,1834843,1836532,-1,ACEL_RS08415,ACEL_RS08415 (hypothetical protein)
+NC_008578.1,1854842,1855794,1,"ACEL_RS08500, ACEL_RS08505","ACEL_RS08500 (oligoribonuclease), ACEL_RS08505 (tRNA-His)"
+NC_008578.1,1877066,1877998,1,"ACEL_RS08600, ACEL_RS08605","ACEL_RS08600 (hypothetical protein), ACEL_RS08605 (hypothetical protein)"
+NC_008578.1,1895715,1897073,-1,"ACEL_RS08680, ACEL_RS08685","ACEL_RS08680 (non-canonical purine NTP pyrophosphatase), ACEL_RS08685 (ribonuclease PH)"
+NC_008578.1,1926391,1927765,-1,ACEL_RS08835,ACEL_RS08835 (hypothetical protein)
+NC_008578.1,1942512,1945973,1,"ACEL_RS08880, ACEL_RS08885","ACEL_RS08880 (ribonucleoside-diphosphate reductase), ACEL_RS08885 (ribonucleoside-diphosphate reductase)"
+NC_008578.1,1954546,1956327,-1,"ACEL_RS08930, ACEL_RS08935, ACEL_RS08940, ACEL_RS08945","ACEL_RS08930 (hypothetical protein), ACEL_RS08935 (hypothetical protein), ACEL_RS08940 (TadE family protein), ACEL_RS08945 (hypothetical protein)"
+NC_008578.1,1977902,1978091,1,ACEL_RS09030,ACEL_RS09030 (hypothetical protein)
+NC_008578.1,1991733,1995796,-1,"ACEL_RS09090, ACEL_RS09095","ACEL_RS09090 (protein translocase subunit SecA), ACEL_RS09095 (DNA-binding response regulator)"
+NC_008578.1,2026705,2030178,-1,"ACEL_RS09230, ACEL_RS09235, ACEL_RS09240, ACEL_RS09245, ACEL_RS09250","ACEL_RS09230 (histidine kinase), ACEL_RS09235 (hypothetical protein), ACEL_RS09240 (histidine kinase), ACEL_RS09245 (chemotaxis protein CheR), ACEL_RS09250 (chemotaxis response regulator protein-glutamate methylesterase)"
+NC_008578.1,2048732,2052565,1,"ACEL_RS09340, ACEL_RS09345, ACEL_RS09350, ACEL_RS09355","ACEL_RS09340 (ribose ABC transporter permease), ACEL_RS09345 (sugar ABC transporter ATP-binding protein), ACEL_RS09350 (inositol 2-dehydrogenase), ACEL_RS09355 (protein iolH)"
+NC_008578.1,2068241,2069393,1,ACEL_RS09430,ACEL_RS09430 (sodium:proton antiporter)
+NC_008578.1,2090162,2096758,-1,"ACEL_RS09545, ACEL_RS09550, ACEL_RS09555, ACEL_RS09560, ACEL_RS09565, ACEL_RS09570","ACEL_RS09545 (gamma-glutamyl-gamma-aminobutyrate hydrolase), ACEL_RS09550 (3-oxoacyl-ACP reductase), ACEL_RS09555 (aldehyde dehydrogenase), ACEL_RS09560 (glutamine synthetase), ACEL_RS09565 (transcriptional regulator), ACEL_RS09570 (amino acid permease)"
+NC_008578.1,2119313,2120276,1,ACEL_RS11640,ACEL_RS11640 (response regulator receiver protein)
+NC_008578.1,2126380,2127142,-1,ACEL_RS09710,ACEL_RS09710 (isoprenyl transferase)
+NC_008578.1,2167676,2168462,1,ACEL_RS09900,ACEL_RS09900 (hypothetical protein)
+NC_008578.1,2179264,2194516,-1,"ACEL_RS09950, ACEL_RS09955, ACEL_RS09960, ACEL_RS09965, ACEL_RS09970, ACEL_RS11690, ACEL_RS09985, ACEL_RS09990, ACEL_RS09995, ACEL_RS10000","ACEL_RS09950 (O-antigen polymerase), ACEL_RS09955 (LPS biosynthesis protein), ACEL_RS09960 (hypothetical protein), ACEL_RS09965 (ABC-2 type transporter), ACEL_RS09970 (ABC transporter-like protein), ACEL_RS11690 (glycosyl transferase family protein), ACEL_RS09985 (hypothetical protein), ACEL_RS09990 (aminotransferase DegT), ACEL_RS09995 (acetyltransferase), ACEL_RS10000 (NAD-dependent epimerase)"
+NC_008578.1,2207141,2208095,-1,ACEL_RS10065,ACEL_RS10065 (pirin)
+NC_008578.1,2221021,2222395,-1,ACEL_RS10105,ACEL_RS10105 (succinate-semialdehyde dehydrogenase)
+NC_008578.1,2247044,2249429,-1,ACEL_RS10185,ACEL_RS10185 (sodium-translocating pyrophosphatase)
+NC_008578.1,2253582,2254026,-1,ACEL_RS11705,ACEL_RS11705 (hypothetical protein)
+NC_008578.1,2261969,2263169,1,ACEL_RS10250,ACEL_RS10250 (hypothetical protein)
+NC_008578.1,2300346,2301968,-1,"ACEL_RS10485, ACEL_RS10490","ACEL_RS10485 (inorganic phosphate transporter), ACEL_RS10490 (phosphate transport regulator)"
+NC_008578.1,2309734,2310759,-1,"ACEL_RS10530, ACEL_RS10535","ACEL_RS10530 (hypothetical protein), ACEL_RS10535 (putative anti-sigma regulatory factor)"
+NC_008578.1,2343442,2344857,-1,"ACEL_RS10710, ACEL_RS11760","ACEL_RS10710 (vitamin K epoxide reductase), ACEL_RS11760 (hypothetical protein)"
+NC_008578.1,2368149,2368773,1,ACEL_RS10835,ACEL_RS10835 (hypothetical protein)
+NC_008578.1,2380189,2383184,-1,"ACEL_RS10895, ACEL_RS10900, ACEL_RS10905","ACEL_RS10895 (hypothetical protein), ACEL_RS10900 (serine--tRNA ligase), ACEL_RS10905 (prephenate dehydratase)"
+NC_008578.1,2427911,2429384,1,ACEL_RS11130,ACEL_RS11130 (hypothetical protein)
+NC_008578.1,2438492,2439431,-1,ACEL_RS11180,ACEL_RS11180 (chromosome partitioning protein)
+NC_008578.1,4943,10184,1,"ACEL_RS00025, ACEL_RS00030, ACEL_RS00035, ACEL_RS00040","ACEL_RS00025 (DNA topoisomerase IV subunit B), ACEL_RS00030 (DNA gyrase subunit A), ACEL_RS00035 (hypothetical protein), ACEL_RS00040 (tRNA-Ile)"
+NC_008578.1,89788,90385,-1,ACEL_RS00455,ACEL_RS00455 (hypothetical protein)
+NC_008578.1,104886,106506,1,ACEL_RS00535,ACEL_RS00535 (molecular chaperone GroEL)
+NC_008578.1,153621,154680,1,ACEL_RS00775,ACEL_RS00775 (aldo/keto reductase)
+NC_008578.1,177294,177933,1,ACEL_RS00895,ACEL_RS00895 (N-acetyltransferase GCN5)
+NC_008578.1,189278,190310,1,ACEL_RS00950,ACEL_RS00950 (glycoside hydrolase)
+NC_008578.1,217293,219908,1,"ACEL_RS01075, ACEL_RS01080","ACEL_RS01075 (cell division protein FtsH), ACEL_RS01080 (GTP cyclohydrolase I FolE)"
+NC_008578.1,310042,310639,1,ACEL_RS01515,ACEL_RS01515 (TetR family transcriptional regulator)
+NC_008578.1,317528,325014,1,"ACEL_RS01565, ACEL_RS01570","ACEL_RS01565 (DNA-directed RNA polymerase subunit beta), ACEL_RS01570 (DNA-directed RNA polymerase subunit beta')"
+NC_008578.1,356078,357566,1,ACEL_RS01790,ACEL_RS01790 (carbohydrate kinase)
+NC_008578.1,372986,376067,1,"ACEL_RS01875, ACEL_RS01880, ACEL_RS11310","ACEL_RS01875 (co-chaperone GroES), ACEL_RS01880 (molecular chaperone GroEL), ACEL_RS11310 (hypothetical protein)"
+NC_008578.1,402744,405674,1,"ACEL_RS02010, ACEL_RS02015, ACEL_RS02020","ACEL_RS02010 (membrane protein), ACEL_RS02015 (tryptophan--tRNA ligase), ACEL_RS02020 (phosphoesterase)"
+NC_008578.1,502476,503907,1,ACEL_RS02425,ACEL_RS02425 (adenosylhomocysteinase)
+NC_008578.1,510310,511345,1,ACEL_RS02470,ACEL_RS02470 (aldehyde oxidase)
+NC_008578.1,531277,534502,-1,"ACEL_RS02575, ACEL_RS02580, ACEL_RS02585, ACEL_RS02590, ACEL_RS02595","ACEL_RS02575 (hypothetical protein), ACEL_RS02580 ((4Fe-4S)-binding protein), ACEL_RS02585 (hypothetical protein), ACEL_RS02590 (transcriptional regulator), ACEL_RS02595 (hypothetical protein)"
+NC_008578.1,636030,638474,-1,"ACEL_RS03065, ACEL_RS03070","ACEL_RS03065 (cytochrome c oxidase assembly protein), ACEL_RS03070 (cytochrome BD ubiquinol oxidase subunit I)"
+NC_008578.1,647607,649914,-1,ACEL_RS03120,ACEL_RS03120 (hypothetical protein)
+NC_008578.1,661696,664534,1,ACEL_RS03160,ACEL_RS03160 (exoglucanase)
+NC_008578.1,688428,694423,1,"ACEL_RS03265, ACEL_RS03270, ACEL_RS03275, ACEL_RS03280, ACEL_RS03285, ACEL_RS03290","ACEL_RS03265 (LmbE family protein), ACEL_RS03270 (glycosyl transferase), ACEL_RS03275 (exosortase/archaeosortase family protein), ACEL_RS03280 (hypothetical protein), ACEL_RS03285 (UDP-N-acetyl glucosamine 2-epimerase), ACEL_RS03290 (hypothetical protein)"
+NC_008578.1,715680,717537,1,ACEL_RS03415,ACEL_RS03415 (peptidase S26)
+NC_008578.1,760256,762725,1,"ACEL_RS03590, ACEL_RS03595","ACEL_RS03590 (aspartyl/glutamyl-tRNA amidotransferase subunit B), ACEL_RS03595 (dihydrofolate reductase)"
+NC_008578.1,812358,813642,1,ACEL_RS03805,ACEL_RS03805 (ATP-dependent Clp protease ATP-binding subunit ClpX)
+NC_008578.1,823224,829380,1,"ACEL_RS03850, ACEL_RS03855, ACEL_RS03860, ACEL_RS03865, ACEL_RS03870","ACEL_RS03850 (rod shape-determining protein), ACEL_RS03855 (rod shape-determining protein MreC), ACEL_RS03860 (rod shape-determining protein MreD), ACEL_RS03865 (peptidoglycan glycosyltransferase), ACEL_RS03870 (hypothetical protein)"
+NC_008578.1,876864,878454,1,"ACEL_RS04095, ACEL_RS04100","ACEL_RS04095 (DNA repair protein RecO), ACEL_RS04100 (isoprenyl transferase)"
+NC_008578.1,895709,901585,1,"ACEL_RS04185, ACEL_RS04190, ACEL_RS04195, ACEL_RS04200","ACEL_RS04185 (DNA-binding protein), ACEL_RS04190 (ATPase AAA), ACEL_RS04195 (hypothetical protein), ACEL_RS04200 (putative transcriptional regulator)"
+NC_008578.1,951296,955492,1,"ACEL_RS04455, ACEL_RS04460, ACEL_RS04465, ACEL_RS04470","ACEL_RS04455 (flagellar biosynthesis protein FlhA), ACEL_RS04460 (hypothetical protein), ACEL_RS04465 (type IV pilus assembly PilZ), ACEL_RS04470 (hypothetical protein)"
+NC_008578.1,1006236,1007634,1,"ACEL_RS04720, ACEL_RS04725, ACEL_RS04730","ACEL_RS04720 (hypothetical protein), ACEL_RS04725 (hypothetical protein), ACEL_RS04730 (hypothetical protein)"
+NC_008578.1,1119105,1122014,1,"ACEL_RS05210, ACEL_RS05215, ACEL_RS05220","ACEL_RS05210 (cell division protein FtsZ), ACEL_RS05215 (hypothetical protein), ACEL_RS05220 (YggS family pyridoxal phosphate enzyme)"
+NC_008578.1,1183379,1188038,1,"ACEL_RS05520, ACEL_RS05525, ACEL_RS05530, ACEL_RS05535, ACEL_RS05540","ACEL_RS05520 (indole-3-glycerol-phosphate synthase), ACEL_RS05525 (tryptophan synthase subunit beta), ACEL_RS05530 (tryptophan synthase subunit alpha), ACEL_RS05535 (prolipoprotein diacylglyceryl transferase), ACEL_RS05540 (membrane protein)"
+NC_008578.1,1203107,1205825,1,ACEL_RS05600,ACEL_RS05600 (DNA polymerase I)
+NC_008578.1,1324978,1329136,1,"ACEL_RS06130, ACEL_RS06135","ACEL_RS06130 (3-phosphoshikimate 1-carboxyvinyltransferase), ACEL_RS06135 (acyl-CoA dehydrogenase)"
+NC_008578.1,1341897,1342092,1,ACEL_RS06185,ACEL_RS06185 (hypothetical protein)
+NC_008578.1,1380851,1381763,-1,ACEL_RS06380,ACEL_RS06380 (site-specific tyrosine recombinase XerD)
+NC_008578.1,1417273,1421943,-1,"ACEL_RS06540, ACEL_RS06545, ACEL_RS06550, ACEL_RS06555, ACEL_RS06560","ACEL_RS06540 (ATP phosphoribosyltransferase), ACEL_RS06545 (6,7-dimethyl-8-ribityllumazine synthase), ACEL_RS06550 (bifunctional 3,4-dihydroxy-2-butanone 4-phosphate synthase/GTP cyclohydrolase II), ACEL_RS06555 (hypothetical protein), ACEL_RS06560 (riboflavin biosynthesis protein RibD)"
+NC_008578.1,1468311,1468761,-1,ACEL_RS06785,ACEL_RS06785 (prepilin-type N-terminal cleavage/methylation domain-containing protein)
+NC_008578.1,1489922,1492346,-1,ACEL_RS06885,ACEL_RS06885 (GTP pyrophosphokinase)
+NC_008578.1,1578130,1581384,1,"ACEL_RS07280, ACEL_RS07285, ACEL_RS07290, ACEL_RS07295","ACEL_RS07280 (hypothetical protein), ACEL_RS07285 (hypothetical protein), ACEL_RS07290 (hypothetical protein), ACEL_RS07295 (hypothetical protein)"
+NC_008578.1,1641147,1642394,-1,"ACEL_RS07540, ACEL_RS07545","ACEL_RS07540 (F420-dependent protein), ACEL_RS07545 (LLM class F420-dependent oxidoreductase)"
+NC_008578.1,1696002,1698611,-1,"ACEL_RS07745, ACEL_RS07750","ACEL_RS07745 (RNase J family beta-CASP ribonuclease), ACEL_RS07750 (4-hydroxy-tetrahydrodipicolinate synthase)"
+NC_008578.1,1725180,1725933,-1,ACEL_RS11555,ACEL_RS11555 (hypothetical protein)
+NC_008578.1,1753117,1755243,-1,"ACEL_RS08005, ACEL_RS11565","ACEL_RS08005 (ribonuclease HII), ACEL_RS11565 (hypothetical protein)"
+NC_008578.1,1773912,1775928,-1,"ACEL_RS08095, ACEL_RS08100, ACEL_RS08105","ACEL_RS08095 (acylphosphatase), ACEL_RS08100 (formamidopyrimidine-DNA glycosylase), ACEL_RS08105 (ribonuclease III)"
+NC_008578.1,1815904,1818012,-1,"ACEL_RS08315, ACEL_RS08320","ACEL_RS08315 (thioesterase), ACEL_RS08320 (energy-dependent translational throttle protein EttA)"
+NC_008578.1,1826679,1830167,1,"ACEL_RS08370, ACEL_RS08375, ACEL_RS08380, ACEL_RS08385, ACEL_RS08390","ACEL_RS08370 (hypothetical protein), ACEL_RS08375 (hypothetical protein), ACEL_RS08380 (macrolide ABC transporter ATP-binding protein), ACEL_RS08385 (hypothetical protein), ACEL_RS08390 (methylglyoxal synthase)"
+NC_008578.1,1833936,1834155,-1,ACEL_RS11570,ACEL_RS11570 (hypothetical protein)
+NC_008578.1,1856159,1859161,1,"ACEL_RS08510, ACEL_RS08515, ACEL_RS08520","ACEL_RS08510 (hypothetical protein), ACEL_RS08515 (transporter), ACEL_RS08520 (carbonate dehydratase)"
+NC_008578.1,1878388,1879972,1,ACEL_RS08610,ACEL_RS08610 (ATP-dependent DNA ligase)
+NC_008578.1,1946605,1946944,1,ACEL_RS08890,ACEL_RS08890 (hypothetical protein)
+NC_008578.1,1953109,1954219,-1,ACEL_RS08925,ACEL_RS08925 (peptide chain release factor 2)
+NC_008578.1,2052577,2054755,1,"ACEL_RS09360, ACEL_RS09365","ACEL_RS09360 (dehydrogenase), ACEL_RS09365 (sugar phosphate isomerase)"
+NC_008578.1,2087299,2089843,-1,"ACEL_RS09535, ACEL_RS09540","ACEL_RS09535 (L-serine ammonia-lyase), ACEL_RS09540 (glycine cleavage system protein T)"
+NC_008578.1,2120473,2123050,1,"ACEL_RS09680, ACEL_RS09685, ACEL_RS09690","ACEL_RS09680 (exodeoxyribonuclease VII large subunit), ACEL_RS09685 (exodeoxyribonuclease 7 small subunit), ACEL_RS09690 (fructose 1,6-bisphosphatase)"
+NC_008578.1,2125392,2125983,-1,ACEL_RS11645,ACEL_RS11645 (secreted protein)
+NC_008578.1,2178305,2179040,-1,ACEL_RS09945,ACEL_RS09945 (hypothetical protein)
+NC_008578.1,2206751,2206822,-1,ACEL_RS10060,ACEL_RS10060 (tRNA-Gln)
+NC_008578.1,2240760,2246921,-1,"ACEL_RS10170, ACEL_RS10175, ACEL_RS10180","ACEL_RS10170 (DNA polymerase III subunit delta), ACEL_RS10175 (thymidylate kinase), ACEL_RS10180 (DNA topoisomerase I)"
+NC_008578.1,2368954,2369485,1,ACEL_RS10840,ACEL_RS10840 (hypothetical protein)
+NC_008578.1,2429531,2432057,1,"ACEL_RS11135, ACEL_RS11140, ACEL_RS11145","ACEL_RS11135 (RNA polymerase sigma factor SigM), ACEL_RS11140 (hypothetical protein), ACEL_RS11145 (thioredoxin-disulfide reductase)"
+NC_008578.1,2437321,2438251,-1,ACEL_RS11175,ACEL_RS11175 (chromosome partitioning protein ParB)
+NC_008578.1,10371,10447,1,ACEL_RS00045,ACEL_RS00045 (tRNA-Ala)
+NC_008578.1,178220,179090,1,ACEL_RS00900,ACEL_RS00900 (hypothetical protein)
+NC_008578.1,190921,192514,1,ACEL_RS00955,ACEL_RS00955 (glycoside hydrolase)
+NC_008578.1,220074,221874,1,ACEL_RS01085,ACEL_RS01085 (membrane protein)
+NC_008578.1,310775,311801,1,ACEL_RS01520,ACEL_RS01520 (UDP-N-acetylenolpyruvoylglucosamine reductase)
+NC_008578.1,325504,343017,1,"ACEL_RS01575, ACEL_RS01580, ACEL_RS01585, ACEL_RS01590, ACEL_RS01595, ACEL_RS01600, ACEL_RS01605, ACEL_RS01610, ACEL_RS01615, ACEL_RS01620, ACEL_RS01625, ACEL_RS01630, ACEL_RS01635, ACEL_RS01640, ACEL_RS01645, ACEL_RS01650, ACEL_RS01655, ACEL_RS01660, ACEL_RS01665, ACEL_RS01670, ACEL_RS01675, ACEL_RS01680, ACEL_RS01685, ACEL_RS01690, ACEL_RS01695, ACEL_RS01700, ACEL_RS01705, ACEL_RS01710","ACEL_RS01575 (30S ribosomal protein S12), ACEL_RS01580 (30S ribosomal protein S7), ACEL_RS01585 (elongation factor G), ACEL_RS01590 (elongation factor Tu), ACEL_RS01595 (30S ribosomal protein S10), ACEL_RS01600 (50S ribosomal protein L3), ACEL_RS01605 (50S ribosomal protein L4), ACEL_RS01610 (50S ribosomal protein L23), ACEL_RS01615 (50S ribosomal protein L2), ACEL_RS01620 (30S ribosomal protein S19), ACEL_RS01625 (50S ribosomal protein L22), ACEL_RS01630 (30S ribosomal protein S3), ACEL_RS01635 (50S ribosomal protein L16), ACEL_RS01640 (50S ribosomal protein L29), ACEL_RS01645 (30S ribosomal protein S17), ACEL_RS01650 (50S ribosomal protein L14), ACEL_RS01655 (50S ribosomal protein L24), ACEL_RS01660 (50S ribosomal protein L5), ACEL_RS01665 (30S ribosomal protein S14 type Z), ACEL_RS01670 (30S ribosomal protein S8), ACEL_RS01675 (50S ribosomal protein L6), ACEL_RS01680 (50S ribosomal protein L18), ACEL_RS01685 (30S ribosomal protein S5), ACEL_RS01690 (50S ribosomal protein L30), ACEL_RS01695 (50S ribosomal protein L15), ACEL_RS01700 (preprotein translocase subunit SecY), ACEL_RS01705 (adenylate kinase), ACEL_RS01710 (type I methionyl aminopeptidase)"
+NC_008578.1,376253,376862,1,ACEL_RS01890,ACEL_RS01890 (DNA-binding response regulator)
+NC_008578.1,511728,513030,1,ACEL_RS02475,ACEL_RS02475 (glycosyltransferase family 28 protein)
+NC_008578.1,632542,635871,-1,"ACEL_RS03055, ACEL_RS03060","ACEL_RS03055 (thiol reductant ABC exporter subunit CydC), ACEL_RS03060 (hypothetical protein)"
+NC_008578.1,646837,647308,-1,ACEL_RS03115,ACEL_RS03115 (heat-shock protein Hsp20)
+NC_008578.1,664805,668702,1,ACEL_RS11385,ACEL_RS11385 (cellulose-binding family II protein)
+NC_008578.1,694587,698726,1,"ACEL_RS03295, ACEL_RS03300, ACEL_RS03305, ACEL_RS03310, ACEL_RS03315","ACEL_RS03295 (50S ribosomal protein L31), ACEL_RS03300 (peptide chain release factor 1), ACEL_RS03305 (N5-glutamine S-adenosyl-L-methionine-dependent methyltransferase), ACEL_RS03310 (threonylcarbamoyl-AMP synthase), ACEL_RS03315 (undecaprenyl-phosphate alpha-N-acetylglucosaminyl 1-phosphate transferase)"
+NC_008578.1,762969,767345,1,"ACEL_RS03600, ACEL_RS03605, ACEL_RS03610, ACEL_RS03615","ACEL_RS03600 (2-oxoacid:acceptor oxidoreductase subunit gamma), ACEL_RS03605 (2-ketoisovalerate ferredoxin oxidoreductase subunit alpha), ACEL_RS03610 (pyruvate ferredoxin oxidoreductase), ACEL_RS03615 (glutamate synthase)"
+NC_008578.1,829562,832342,1,"ACEL_RS03875, ACEL_RS03880","ACEL_RS03875 (B12-binding domain-containing radical SAM protein), ACEL_RS03880 (radical SAM protein)"
+NC_008578.1,901763,911157,1,"ACEL_RS04205, ACEL_RS04210, ACEL_RS04215, ACEL_RS04220, ACEL_RS04225","ACEL_RS04205 (DNA methylase), ACEL_RS04210 (hypothetical protein), ACEL_RS04215 (helicase), ACEL_RS04220 (alkaline phosphatase), ACEL_RS04225 (hypothetical protein)"
+NC_008578.1,1122263,1128813,1,"ACEL_RS05225, ACEL_RS05230, ACEL_RS05235, ACEL_RS05240, ACEL_RS05245, ACEL_RS05250, ACEL_RS05255, ACEL_RS05260, ACEL_RS05265","ACEL_RS05225 (cytochrome c), ACEL_RS05230 (Crp/Fnr family transcriptional regulator), ACEL_RS05235 (oxidoreductase), ACEL_RS05240 (oxidoreductase), ACEL_RS05245 (nickel-dependent hydrogenase large subunit), ACEL_RS05250 (hydrogenase maturation protease), ACEL_RS05255 (hypothetical protein), ACEL_RS05260 (hypothetical protein), ACEL_RS05265 (hypothetical protein)"
+NC_008578.1,1188242,1195773,1,"ACEL_RS05545, ACEL_RS05550, ACEL_RS05555","ACEL_RS05545 (glutamate synthase), ACEL_RS05550 (dihydropyrimidine dehydrogenase subunit A), ACEL_RS05555 (pyruvate kinase)"
+NC_008578.1,1206181,1209084,1,"ACEL_RS05605, ACEL_RS05610, ACEL_RS05615","ACEL_RS05605 (30S ribosomal protein S1), ACEL_RS05610 (hypothetical protein), ACEL_RS05615 (dephospho-CoA kinase)"
+NC_008578.1,1342344,1343181,1,ACEL_RS06190,ACEL_RS06190 (preprotein translocase subunit TatC)
+NC_008578.1,1379688,1380606,-1,ACEL_RS06375,ACEL_RS06375 (chromosome partitioning ATPase)
+NC_008578.1,1416304,1416940,-1,ACEL_RS06535,ACEL_RS06535 (translation initiation factor IF-3)
+NC_008578.1,1467673,1468123,-1,ACEL_RS11505,ACEL_RS11505 (prepilin-type N-terminal cleavage/methylation domain-containing protein)
+NC_008578.1,1639309,1640974,-1,ACEL_RS07535,ACEL_RS07535 (hypothetical protein)
+NC_008578.1,1693462,1695838,-1,ACEL_RS07740,ACEL_RS07740 (cell division protein FtsK)
+NC_008578.1,1724262,1724559,-1,ACEL_RS07870,ACEL_RS07870 (hypothetical protein)
+NC_008578.1,1751609,1752887,-1,"ACEL_RS07995, ACEL_RS08000","ACEL_RS07995 (SARP family transcriptional regulator), ACEL_RS08000 (hypothetical protein)"
+NC_008578.1,1773264,1773468,-1,ACEL_RS08090,ACEL_RS08090 (hypothetical protein)
+NC_008578.1,1832013,1833728,-1,"ACEL_RS08400, ACEL_RS08405","ACEL_RS08400 (hypothetical protein), ACEL_RS08405 (xanthine dehydrogenase)"
+NC_008578.1,1859526,1859781,1,ACEL_RS08525,ACEL_RS08525 (hypothetical protein)
+NC_008578.1,1947620,1948130,1,ACEL_RS08895,ACEL_RS08895 (hypothetical protein)
+NC_008578.1,2123206,2123497,1,ACEL_RS09695,ACEL_RS09695 (HesB/YadR/YfhF-family protein)
+NC_008578.1,2176764,2177970,-1,ACEL_RS11685,ACEL_RS11685 (hypothetical protein)
+NC_008578.1,2203928,2206482,-1,"ACEL_RS10050, ACEL_RS10055","ACEL_RS10050 (ribose-phosphate pyrophosphokinase), ACEL_RS10055 (bifunctional N-acetylglucosamine-1-phosphate uridyltransferase/glucosamine-1-phosphate acetyltransferase)"
+NC_008578.1,2432174,2432501,1,ACEL_RS11150,ACEL_RS11150 (thiol reductase thioredoxin)
+NC_008578.1,10676,12020,1,"ACEL_RS00050, ACEL_RS00055, ACEL_RS00060","ACEL_RS00050 (hypothetical protein), ACEL_RS00055 (hypothetical protein), ACEL_RS00060 (hypothetical protein)"
+NC_008578.1,193132,194065,1,ACEL_RS00960,ACEL_RS00960 (4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase)
+NC_008578.1,222004,226605,1,"ACEL_RS01090, ACEL_RS01095, ACEL_RS01100, ACEL_RS01105, ACEL_RS01110, ACEL_RS01115","ACEL_RS01090 (dihydropteroate synthase), ACEL_RS01095 (2-amino-4-hydroxy-6- hydroxymethyldihydropteridine pyrophosphokinase), ACEL_RS01100 (hypothetical protein), ACEL_RS01105 (oxidoreductase), ACEL_RS01110 (pantoate--beta-alanine ligase), ACEL_RS01115 (aspartate 1-decarboxylase)"
+NC_008578.1,343217,343439,1,ACEL_RS01715,ACEL_RS01715 (translation initiation factor IF-1)
+NC_008578.1,377052,379724,1,"ACEL_RS01895, ACEL_RS01900","ACEL_RS01895 (IMP dehydrogenase), ACEL_RS01900 (guanosine monophosphate reductase)"
+NC_008578.1,513288,515312,1,"ACEL_RS02480, ACEL_RS02485","ACEL_RS02480 (hypothetical protein), ACEL_RS02485 (hypothetical protein)"
+NC_008578.1,645789,646578,-1,ACEL_RS03110,ACEL_RS03110 (hypothetical protein)
+NC_008578.1,669116,670328,1,ACEL_RS03180,ACEL_RS03180 (cellulose-binding protein II)
+NC_008578.1,698900,707242,1,"ACEL_RS03320, ACEL_RS03325, ACEL_RS03330, ACEL_RS03335, ACEL_RS03340, ACEL_RS03345, ACEL_RS03350, ACEL_RS03355, ACEL_RS03360, ACEL_RS03365, ACEL_RS11400","ACEL_RS03320 (hypothetical protein), ACEL_RS03325 (hypothetical protein), ACEL_RS03330 (ATP synthase subunit A), ACEL_RS03335 (F0F1 ATP synthase subunit C), ACEL_RS03340 (ATP synthase subunit B), ACEL_RS03345 (ATP synthase subunit delta), ACEL_RS03350 (ATP synthase subunit alpha), ACEL_RS03355 (ATP synthase subunit gamma), ACEL_RS03360 (ATP synthase subunit beta), ACEL_RS03365 (ATP synthase F1 subunit epsilon), ACEL_RS11400 (hypothetical protein)"
+NC_008578.1,767490,769455,1,ACEL_RS03620,ACEL_RS03620 (hypothetical protein)
+NC_008578.1,832470,835393,1,"ACEL_RS03885, ACEL_RS03890, ACEL_RS03895","ACEL_RS03885 (ribonuclease G), ACEL_RS03890 (50S ribosomal protein L21), ACEL_RS03895 (50S ribosomal protein L27)"
+NC_008578.1,911517,911721,1,ACEL_RS04230,ACEL_RS04230 (hypothetical protein)
+NC_008578.1,1128947,1129688,1,ACEL_RS05270,ACEL_RS05270 (hypothetical protein)
+NC_008578.1,1209237,1212738,1,"ACEL_RS05620, ACEL_RS05625, ACEL_RS05630","ACEL_RS05620 (phenylacetaldehyde dehydrogenase), ACEL_RS05625 (aspartate aminotransferase family protein), ACEL_RS05630 (glutamine amidotransferase)"
+NC_008578.1,1343340,1346046,1,ACEL_RS06195,ACEL_RS06195 (RNA helicase)
+NC_008578.1,1376376,1379338,-1,"ACEL_RS06355, ACEL_RS06360, ACEL_RS06365, ACEL_RS06370","ACEL_RS06355 (RNA pseudouridine synthase), ACEL_RS06360 (SMC-Scp complex subunit ScpB), ACEL_RS06365 (segregation/condensation protein A), ACEL_RS06370 (hypothetical protein)"
+NC_008578.1,1415500,1416142,-1,"ACEL_RS06525, ACEL_RS06530","ACEL_RS06525 (50S ribosomal protein L20), ACEL_RS06530 (50S ribosomal protein L35)"
+NC_008578.1,1462613,1467522,-1,"ACEL_RS06760, ACEL_RS06765, ACEL_RS06770, ACEL_RS06775","ACEL_RS06760 (hypothetical protein), ACEL_RS06765 (hypothetical protein), ACEL_RS06770 (prepilin-type cleavage/methylation-like protein), ACEL_RS06775 (prepilin-type cleavage/methylation-like protein)"
+NC_008578.1,1689034,1693273,-1,"ACEL_RS07720, ACEL_RS07725, ACEL_RS07730, ACEL_RS07735","ACEL_RS07720 (cinA-like protein), ACEL_RS07725 (CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase), ACEL_RS07730 (ribosomal protein S12 methylthiotransferase RimO), ACEL_RS07735 (hypothetical protein)"
+NC_008578.1,1723311,1724049,-1,ACEL_RS07865,ACEL_RS07865 (hypothetical protein)
+NC_008578.1,1750275,1751328,-1,ACEL_RS07990,ACEL_RS07990 (SAM-dependent methyltransferase)
+NC_008578.1,1769565,1773132,-1,ACEL_RS08085,ACEL_RS08085 (chromosome segregation protein SMC)
+NC_008578.1,1830330,1831779,-1,ACEL_RS08395,ACEL_RS08395 (methyl-accepting chemotaxis sensory transducer)
+NC_008578.1,1859957,1861238,1,"ACEL_RS08530, ACEL_RS08535","ACEL_RS08530 (ribonuclease), ACEL_RS08535 (hypothetical protein)"
+NC_008578.1,2123939,2125358,1,ACEL_RS09700,ACEL_RS09700 (class II fumarate hydratase)
+NC_008578.1,2174660,2176325,-1,ACEL_RS11680,ACEL_RS11680 (hypothetical protein)
+NC_008578.1,2202462,2203680,-1,"ACEL_RS10040, ACEL_RS10045","ACEL_RS10040 (aminoacyl-tRNA hydrolase), ACEL_RS10045 (50S ribosomal protein L25/general stress protein Ctc)"
+NC_008578.1,2432879,2434016,1,ACEL_RS11155,ACEL_RS11155 (cell wall hydrolase/autolysin)
+NC_008578.1,226799,232324,1,"ACEL_RS01120, ACEL_RS01125, ACEL_RS01130, ACEL_RS01135, ACEL_RS01140","ACEL_RS01120 (L-aspartate oxidase), ACEL_RS01125 (nicotinate-nucleotide diphosphorylase (carboxylating)), ACEL_RS01130 (type III pantothenate kinase), ACEL_RS01135 (lysine--tRNA ligase), ACEL_RS01140 (N-acetylglutamate synthase)"
+NC_008578.1,343601,347853,1,"ACEL_RS01720, ACEL_RS01725, ACEL_RS01730, ACEL_RS01735, ACEL_RS11300, ACEL_RS01745","ACEL_RS01720 (30S ribosomal protein S13), ACEL_RS01725 (30S ribosomal protein S11), ACEL_RS01730 (30S ribosomal protein S4), ACEL_RS01735 (DNA-directed RNA polymerase subunit alpha), ACEL_RS11300 (50S ribosomal protein L17), ACEL_RS01745 (tRNA pseudouridine(38,39,40) synthase TruA)"
+NC_008578.1,643414,645602,-1,"ACEL_RS03100, ACEL_RS03105","ACEL_RS03100 (MarR family transcriptional regulator), ACEL_RS03105 (MFS transporter)"
+NC_008578.1,769633,771310,1,ACEL_RS03625,ACEL_RS03625 (dihydroxy-acid dehydratase)
+NC_008578.1,835516,838125,1,"ACEL_RS03900, ACEL_RS03905","ACEL_RS03900 (GTPase ObgE), ACEL_RS03905 (glutamate 5-kinase)"
+NC_008578.1,912179,916267,1,"ACEL_RS04235, ACEL_RS04240","ACEL_RS04235 (metallophosphoesterase), ACEL_RS04240 (SMC domain-containing protein)"
+NC_008578.1,1129845,1130373,1,ACEL_RS05275,ACEL_RS05275 (cell division protein SepF)
+NC_008578.1,1375158,1376244,-1,ACEL_RS06350,ACEL_RS06350 (hypothetical protein)
+NC_008578.1,1410673,1415313,-1,"ACEL_RS06510, ACEL_RS06515, ACEL_RS06520","ACEL_RS06510 (phenylalanine--tRNA ligase subunit beta), ACEL_RS06515 (phenylalanine--tRNA ligase subunit alpha), ACEL_RS06520 (PAS domain-containing sensor histidine kinase)"
+NC_008578.1,1459231,1462428,-1,"ACEL_RS06740, ACEL_RS06745, ACEL_RS06750, ACEL_RS06755","ACEL_RS06740 (hypothetical protein), ACEL_RS06745 (hypothetical protein), ACEL_RS06750 (hypothetical protein), ACEL_RS06755 (pilus biosynthesis protein PilM)"
+NC_008578.1,1722825,1723125,-1,ACEL_RS07860,ACEL_RS07860 (hypothetical protein)
+NC_008578.1,1746756,1749874,-1,"ACEL_RS07975, ACEL_RS07980, ACEL_RS07985","ACEL_RS07975 (DNA protecting protein DprA), ACEL_RS07980 (hypothetical protein), ACEL_RS07985 (hypothetical protein)"
+NC_008578.1,1861375,1861451,1,ACEL_RS08540,ACEL_RS08540 (tRNA-Lys)
+NC_008578.1,232786,233191,1,ACEL_RS01145,ACEL_RS01145 (hypothetical protein)
+NC_008578.1,771518,773792,1,"ACEL_RS03630, ACEL_RS03635","ACEL_RS03630 (acetolactate synthase large subunit), ACEL_RS03635 (acetolactate synthase small subunit)"
+NC_008578.1,838337,840759,1,"ACEL_RS03910, ACEL_RS03915, ACEL_RS03920","ACEL_RS03910 (hypothetical protein), ACEL_RS03915 (gamma-glutamyl-phosphate reductase), ACEL_RS03920 (nicotinate-nicotinamide nucleotide adenylyltransferase)"
+NC_008578.1,916436,917942,1,ACEL_RS04245,ACEL_RS04245 (acyltransferase 3)
+NC_008578.1,1365590,1375030,-1,"ACEL_RS06295, ACEL_RS06300, ACEL_RS06305, ACEL_RS06310, ACEL_RS06315, ACEL_RS06320, ACEL_RS06325, ACEL_RS06330, ACEL_RS06335, ACEL_RS06340, ACEL_RS06345","ACEL_RS06295 (MerR family transcriptional regulator), ACEL_RS06300 (hypothetical protein), ACEL_RS06305 (glycine cleavage system protein H), ACEL_RS06310 (hypothetical protein), ACEL_RS06315 (membrane protein), ACEL_RS06320 (hypothetical protein), ACEL_RS06325 (mannose-1-phosphate guanyltransferase), ACEL_RS06330 (CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase), ACEL_RS06335 (tRNA-Pro), ACEL_RS06340 (ribosome biogenesis GTPase Der), ACEL_RS06345 (cytidylate kinase)"
+NC_008578.1,1399894,1410352,-1,"ACEL_RS06460, ACEL_RS06465, ACEL_RS06470, ACEL_RS06475, ACEL_RS06480, ACEL_RS06485, ACEL_RS06490, ACEL_RS06495, ACEL_RS06500, ACEL_RS06505","ACEL_RS06460 (tyrosine--tRNA ligase), ACEL_RS06465 (DNA-3-methyladenine glycosylase), ACEL_RS06470 (argininosuccinate lyase), ACEL_RS06475 (argininosuccinate synthase), ACEL_RS06480 (arginine repressor), ACEL_RS06485 (ornithine carbamoyltransferase), ACEL_RS06490 (acetylornithine aminotransferase), ACEL_RS06495 (acetylglutamate kinase), ACEL_RS06500 (bifunctional ornithine acetyltransferase/N-acetylglutamate synthase), ACEL_RS06505 (N-acetyl-gamma-glutamyl-phosphate reductase)"
+NC_008578.1,1454600,1459060,-1,"ACEL_RS06710, ACEL_RS06715, ACEL_RS06720, ACEL_RS06725, ACEL_RS06730, ACEL_RS06735","ACEL_RS06710 (N utilization substance protein B homolog), ACEL_RS06715 (elongation factor P), ACEL_RS06720 (3-dehydroquinate dehydratase), ACEL_RS06725 (3-dehydroquinate synthase), ACEL_RS06730 (shikimate kinase), ACEL_RS06735 (chorismate synthase)"
+NC_008578.1,1717674,1722255,-1,"ACEL_RS07840, ACEL_RS07845, ACEL_RS07850, ACEL_RS07855","ACEL_RS07840 (N-acetyltransferase GCN5), ACEL_RS07845 (4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin)), ACEL_RS07850 (hypothetical protein), ACEL_RS07855 (1-deoxy-D-xylulose-5-phosphate reductoisomerase)"
+NC_008578.1,1744627,1746512,-1,"ACEL_RS07965, ACEL_RS07970","ACEL_RS07965 (RNA polymerase subunit sigma-70), ACEL_RS07970 (tyrosine recombinase XerC)"
+NC_008578.1,1862253,1865781,1,"ACEL_RS08545, ACEL_RS08550, ACEL_RS08555","ACEL_RS08545 (2-methylcitrate dehydratase), ACEL_RS08550 (methylisocitrate lyase), ACEL_RS08555 (citrate synthase)"
+NC_008578.1,233833,236353,1,ACEL_RS01150,ACEL_RS01150 (ATP-dependent Clp protease ATP-binding protein)
+NC_008578.1,773945,774935,1,ACEL_RS03640,ACEL_RS03640 (ketol-acid reductoisomerase)
+NC_008578.1,840944,842282,1,ACEL_RS03925,ACEL_RS03925 (cell envelope-related transcriptional attenuator)
+NC_008578.1,1364970,1365450,-1,ACEL_RS06290,ACEL_RS06290 (hypothetical protein)
+NC_008578.1,1397647,1399168,-1,ACEL_RS06455,ACEL_RS06455 (16S ribosomal RNA)
+NC_008578.1,1714835,1717500,-1,"ACEL_RS07830, ACEL_RS07835","ACEL_RS07830 (proline--tRNA ligase), ACEL_RS07835 (hypothetical protein)"
+NC_008578.1,1866252,1868934,1,ACEL_RS08560,ACEL_RS08560 (hypothetical protein)
+NC_008578.1,775134,778929,1,"ACEL_RS03645, ACEL_RS03650, ACEL_RS03655","ACEL_RS03645 (phosphoglycerate dehydrogenase), ACEL_RS03650 (3-isopropylmalate dehydrogenase), ACEL_RS03655 (branched chain amino acid aminotransferase)"
+NC_008578.1,842434,842833,1,ACEL_RS03930,ACEL_RS03930 (ribosome silencing factor RsfS)
+NC_008578.1,1364253,1364820,-1,ACEL_RS06285,ACEL_RS06285 (transcriptional regulator)
+NC_008578.1,1394057,1397388,-1,"ACEL_RS06445, ACEL_RS06450","ACEL_RS06445 (5S ribosomal RNA), ACEL_RS06450 (23S ribosomal RNA)"
+NC_008578.1,1712646,1714608,-1,"ACEL_RS07815, ACEL_RS07820, ACEL_RS07825","ACEL_RS07815 (hypothetical protein), ACEL_RS07820 (transcription termination/antitermination protein NusA), ACEL_RS07825 (ribosome maturation factor RimP)"
+NC_008578.1,779200,783189,1,"ACEL_RS03660, ACEL_RS03665, ACEL_RS03670","ACEL_RS03660 (citramalate synthase), ACEL_RS03665 (2-hydroxyhepta-2,4-diene-1,7-dioate isomerase), ACEL_RS03670 (glutamate--tRNA ligase)"
+NC_008578.1,842996,843072,1,ACEL_RS03935,ACEL_RS03935 (tRNA-Ala)
+NC_008578.1,1360162,1363932,-1,"ACEL_RS06275, ACEL_RS06280","ACEL_RS06275 (cation transporter), ACEL_RS06280 (glycine dehydrogenase (aminomethyl-transferring))"
+NC_008578.1,1393166,1393778,-1,ACEL_RS06440,ACEL_RS06440 (hypothetical protein)
+NC_008578.1,1707030,1712495,-1,"ACEL_RS07790, ACEL_RS07795, ACEL_RS07800, ACEL_RS07805, ACEL_RS07810","ACEL_RS07790 (bifunctional riboflavin kinase/FMN adenylyltransferase), ACEL_RS07795 (tRNA pseudouridine(55) synthase TruB), ACEL_RS07800 (ribosome-binding factor A), ACEL_RS07805 (hypothetical protein), ACEL_RS07810 (translation initiation factor IF-2)"
+NC_008578.1,783341,783559,1,"ACEL_RS03675, ACEL_RS03680","ACEL_RS03675 (tRNA-Gln), ACEL_RS03680 (tRNA-Glu)"
+NC_008578.1,843865,844303,1,ACEL_RS03940,ACEL_RS03940 (hypothetical protein)

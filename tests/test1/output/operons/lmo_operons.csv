@@ -1,0 +1,1776 @@
+chromid,start,end,strand,locus_tags,products
+NC_003210.1,317,1673,1,lmo0001,lmo0001 (chromosome replication initiator DnaA)
+NC_003210.1,20307,21426,-1,lmo0017,lmo0017 (capsule biosynthesis protein CapA)
+NC_003210.1,21651,23085,1,lmo0018,lmo0018 (beta-glucosidase)
+NC_003210.1,23131,23953,-1,lmo0019,lmo0019 (hypothetical protein)
+NC_003210.1,24193,28895,1,"lmo0020, lmo0021, lmo0022, lmo0023, lmo0024, lmo0025, lmo0026","lmo0020 (GntR family transcriptional regulator), lmo0021 (PTS fructose transporter subunit IIA), lmo0022 (PTS fructose transporter subunit IIB), lmo0023 (PTS fructose transporter subunit IIC), lmo0024 (PTS mannose transporter subunit IID), lmo0025 (phosphoheptose isomerase), lmo0026 (copper homeostasis protein CutC)"
+NC_003210.1,33396,34452,-1,lmo0031,lmo0031 (LacI family transcription regulator)
+NC_003210.1,34653,40470,1,"lmo0032, lmo0033, lmo0034, lmo0035","lmo0032 (xylose repressor), lmo0033 (endoglucanase), lmo0034 (PTS cellbiose transporter subunit IIC), lmo0035 (glucosamine--fructose-6-phosphate aminotransferase)"
+NC_003210.1,80891,81530,-1,lmo0077,lmo0077 (hypothetical protein)
+NC_003210.1,81660,82617,1,lmo0078,lmo0078 (phosphoglycerate dehydrogenase)
+NC_003210.1,86322,87730,-1,"lmo0083, lmo0084","lmo0083 (MerR family transcriptional regulator), lmo0084 (oxidoreductase)"
+NC_003210.1,88120,88810,1,lmo0085,lmo0085 (hypothetical protein)
+NC_003210.1,107914,108208,-1,lmo0101,lmo0101 (transcriptional regulator)
+NC_003210.1,108319,109256,1,"lmo0102, lmo0103","lmo0102 (hypothetical protein), lmo0103 (NADH oxidase)"
+NC_003210.1,113312,116829,-1,"lmo0107, lmo0108","lmo0107 (ABC transporter ATP-binding protein), lmo0108 (ABC transporter ATP-binding protein)"
+NC_003210.1,116971,118956,1,"lmo0109, lmo0110","lmo0109 (AraC family transcriptional regulator), lmo0110 (lipase)"
+NC_003210.1,120653,121447,-1,"lmo0113, lmo0114","lmo0113 (hypothetical protein), lmo0114 (repressor C1)"
+NC_003210.1,121663,122520,1,"lmo0115, lmo0116","lmo0115 (hypothetical protein), lmo0116 (hypothetical protein)"
+NC_003210.1,131418,133773,-1,lmo0130,lmo0130 (5'-nucleotidase)
+NC_003210.1,133960,134710,1,lmo0131,lmo0131 (hypothetical protein)
+NC_003210.1,134781,136290,-1,lmo0132,lmo0132 (inosine 5-monophosphate dehydrogenase)
+NC_003210.1,136468,136702,1,lmo0133,lmo0133 (hypothetical protein)
+NC_003210.1,148353,150009,-1,lmo0152,lmo0152 (peptide ABC transporter substrate-binding protein)
+NC_003210.1,150231,151173,1,lmo0153,lmo0153 (zinc ABC transporter substrate-binding protein)
+NC_003210.1,152647,153328,-1,lmo0156,lmo0156 (hypothetical protein)
+NC_003210.1,153607,156805,1,"lmo0157, lmo0158","lmo0157 (ATP-dependent helicase), lmo0158 (hypothetical protein)"
+NC_003210.1,161419,162250,-1,lmo0161,lmo0161 (hypothetical protein)
+NC_003210.1,162466,165508,1,"lmo0162, lmo0163, lmo0164, lmo0165","lmo0162 (DNA polymerase III subunit delta'), lmo0163 (hypothetical protein), lmo0164 (DNA replication intiation control protein YabA), lmo0165 (hypothetical protein)"
+NC_003210.1,166686,166971,-1,lmo0168,lmo0168 (AbrB family transcriptional regulator)
+NC_003210.1,167085,169270,1,"lmo0169, lmo0170","lmo0169 (glucose transporter), lmo0170 (hypothetical protein)"
+NC_003210.1,172071,172458,-1,lmo0172,lmo0172 ()
+NC_003210.1,172170,172268,1,lmos04,lmos04 (rli23)
+NC_003210.1,173308,174556,-1,lmo0175,lmo0175 (peptidoglycan-binding protein)
+NC_003210.1,174833,175694,1,lmo0176,lmo0176 (glucose transporter)
+NC_003210.1,203639,204353,-1,lmo0200,lmo0200 (listeriolysin positive regulatory protein)
+NC_003210.1,204338,204468,1,lmos05,lmos05 (PrfA)
+NC_003210.1,204623,205577,-1,lmo0201,lmo0201 (phosphatidylinositol-specific phospholipase c)
+NC_003210.1,205818,207408,1,lmo0202,lmo0202 (listeriolysin O precursor)
+NC_003210.1,213734,215427,-1,"lmo0209, lmo0210","lmo0209 (hypothetical protein), lmo0210 (L-lactate dehydrogenase)"
+NC_003210.1,215720,216344,1,lmo0211,lmo0211 (50S ribosomal protein L25)
+NC_003210.1,295400,296213,-1,lmo0272,lmo0272 (hypothetical protein)
+NC_003210.1,296348,296852,1,lmo0273,lmo0273 (hypothetical protein)
+NC_003210.1,297809,299490,-1,"lmo0275, lmo0276","lmo0275 (hypothetical protein), lmo0276 (hypothetical protein)"
+NC_003210.1,299606,300578,1,lmo0277,lmo0277 (oxidoreductase)
+NC_003210.1,300616,301717,-1,lmo0278,lmo0278 (sugar ABC transporter ATP-binding protein)
+NC_003210.1,302007,304684,1,"lmo0279, lmo0280","lmo0279 (anaerobic ribonucleoside triphosphate reductase), lmo0280 (anaerobic ribonucleotide reductase activator protein)"
+NC_003210.1,306643,309155,-1,"lmo0283, lmo0284, lmo0285","lmo0283 (ABC transporter permease), lmo0284 (ABC transporter ATP-binding protein), lmo0285 (lipoprotein)"
+NC_003210.1,309265,309385,1,lmos14,lmos14 (SAM)
+NC_003210.1,319559,320423,-1,lmo0294,lmo0294 (LysR family transcriptional regulator)
+NC_003210.1,320541,321279,1,lmo0295,lmo0295 (FMN-containing NADPH-linked nitro/flavin reductase)
+NC_003210.1,324103,327454,-1,"lmo0298, lmo0299, lmo0300, lmo0301","lmo0298 (PTS beta-glucoside transporter subunit IIC), lmo0299 (PTS beta-glucoside transporter subunit IIB), lmo0300 (phospho-beta-galactosidase), lmo0301 (PTS beta-glucoside transporter subunit IIA)"
+NC_003210.1,327620,328495,1,"lmo0302, lmo0303","lmo0302 (hypothetical protein), lmo0303 (putaive secreted, lysin rich protein)"
+NC_003210.1,331062,331446,-1,lmo0306,lmo0306 (hypothetical protein)
+NC_003210.1,331542,332688,1,lmo0307,lmo0307 (hypothetical protein)
+NC_003210.1,344849,346049,-1,lmo0320,lmo0320 (peptidoglycan-bound surface protein)
+NC_003210.1,346376,347036,1,lmo0321,lmo0321 (hypothetical protein)
+NC_003210.1,347657,348428,-1,lmo0323,lmo0323 (hypothetical protein)
+NC_003210.1,348585,349065,1,lmo0324,lmo0324 (hypothetical protein)
+NC_003210.1,357774,359676,-1,lmo0331,lmo0331 (internalin)
+NC_003210.1,360171,360507,1,lmo0332,lmo0332 (hypothetical protein)
+NC_003210.1,378403,378781,-1,lmo0351,lmo0351 (phosphotransferase mannnose-specific family component IIA)
+NC_003210.1,378963,379728,1,lmo0352,lmo0352 (DeoR family transcriptional regulator)
+NC_003210.1,380252,381779,-1,lmo0354,lmo0354 (fatty-acid--CoA ligase)
+NC_003210.1,382015,383536,1,lmo0355,lmo0355 (fumarate reductase subunit A)
+NC_003210.1,388450,388678,-1,lmo0360a,lmo0360a (hypothetical protein)
+NC_003210.1,388519,388707,1,lmos16,lmos16 (rli26)
+NC_003210.1,389812,390430,-1,lmo0363,lmo0363 (peptidase E)
+NC_003210.1,390528,391473,1,lmo0364,lmo0364 (transcriptional regulator)
+NC_003210.1,397339,398053,-1,lmo0371,lmo0371 (GntR family transcriptional regulator)
+NC_003210.1,398209,401299,1,"lmo0372, lmo0373, lmo0374","lmo0372 (beta-glucosidase), lmo0373 (PTS beta-glucoside transporter subunit IIC), lmo0374 (PTS beta-glucoside transporter subunit IIB)"
+NC_003210.1,401618,402539,-1,lmo0376,lmo0376 (transcriptional regulator)
+NC_003210.1,402640,403060,1,lmo0377,lmo0377 (hypothetical protein)
+NC_003210.1,405679,406441,-1,lmo0382,lmo0382 (transcriptional regulator)
+NC_003210.1,406636,408937,1,"lmo0383, lmo0384","lmo0383 (methylmalonate-semialdehyde dehydrogenase), lmo0384 (IolB protein)"
+NC_003210.1,412848,413964,-1,lmo0389,lmo0389 (low temperature requirement protein A)
+NC_003210.1,414094,414760,1,lmo0390,lmo0390 (uracil-DNA glycosylase)
+NC_003210.1,417962,418763,-1,lmo0396,lmo0396 (pyrroline-5-carboxylate reductase)
+NC_003210.1,418890,419373,1,lmo0397,lmo0397 (hypothetical protein)
+NC_003210.1,432142,434745,-1,"lmo0410, lmo0411","lmo0410 (), lmo0411 (phosphoenolpyruvate synthase)"
+NC_003210.1,434830,434929,1,lmos17,lmos17 (rli27)
+NC_003210.1,434944,435817,-1,lmo0412,lmo0412 (hypothetical protein)
+NC_003210.1,436160,437188,1,"lmo0413, lmo0414","lmo0413 (hypothetical protein), lmo0414 (hypothetical protein)"
+NC_003210.1,440055,440610,-1,lmo0419,lmo0419 (hypothetical protein)
+NC_003210.1,440757,441570,1,lmo0420,lmo0420 (hypothetical protein)
+NC_003210.1,444030,444888,-1,lmo0424,lmo0424 (glucose uptake protein)
+NC_003210.1,445048,447010,1,lmo0425,lmo0425 (transcriptional antiterminator BglG)
+NC_003210.1,451530,452406,-1,lmo0430,lmo0430 (LysR family transcriptional regulator)
+NC_003210.1,452523,453853,1,"lmo0431, lmo0432","lmo0431 (acetyltransferase), lmo0432 (oxidoreductase)"
+NC_003210.1,465933,466419,-1,lmo0436,lmo0436 (hypothetical protein)
+NC_003210.1,466516,467362,1,lmo0437,lmo0437 (hypothetical protein)
+NC_003210.1,468168,469437,-1,lmo0439,lmo0439 (hypothetical protein)
+NC_003210.1,469574,470078,1,lmo0440,lmo0440 (hypothetical protein)
+NC_003210.1,470121,472158,-1,lmo0441,lmo0441 (D-alanyl-D-alanine carboxypeptidase)
+NC_003210.1,472329,472644,1,lmo0442,lmo0442 (hypothetical protein)
+NC_003210.1,485492,489749,-1,"lmo0452, lmo0453, lmo0454","lmo0452 (hypothetical protein), lmo0453 (hypothetical protein), lmo0454 (hypothetical protein)"
+NC_003210.1,489904,491500,1,lmo0455,lmo0455 (hypothetical protein)
+NC_003210.1,502423,502660,-1,lmo0465,lmo0465 (hypothetical protein)
+NC_003210.1,502898,506223,1,"lmo0466, lmo0467, lmo0468, lmo0469","lmo0466 (hypothetical protein), lmo0467 (hypothetical protein), lmo0468 (hypothetical protein), lmo0469 (hypothetical protein)"
+NC_003210.1,512290,513268,-1,lmo0476,lmo0476 (oxetanocin A resistance protein OxrB)
+NC_003210.1,513583,513807,1,lmos20,lmos20 (rliA)
+NC_003210.1,522627,523521,-1,lmo0488,lmo0488 (LysR family transcriptional regulator)
+NC_003210.1,523718,525713,1,lmo0489,lmo0489 (NADH:flavin oxidoreductase)
+NC_003210.1,527579,530323,-1,"lmo0492, lmo0493","lmo0492 (LysR family transcriptional regulator), lmo0493 (acylase)"
+NC_003210.1,530514,531108,1,lmo0494,lmo0494 (hypothetical protein)
+NC_003210.1,532602,534111,-1,lmo0497,lmo0497 (sugar transferase)
+NC_003210.1,534306,536078,1,"lmo0498, lmo0499, lmo0500","lmo0498 (5-phosphate isomerase), lmo0499 (ribulose-5-phosphate 3 epimerase), lmo0500 (transaldolase)"
+NC_003210.1,546679,547138,-1,lmo0513,lmo0513 (hypothetical protein)
+NC_003210.1,547519,549337,1,lmo0514,lmo0514 (internalin)
+NC_003210.1,551466,552282,-1,lmo0517,lmo0517 (phosphoglycerate mutase)
+NC_003210.1,552326,552421,1,lmos22,lmos22 (rli52)
+NC_003210.1,552562,552931,-1,lmo0518,lmo0518 (hypothetical protein)
+NC_003210.1,553077,554493,1,lmo0519,lmo0519 (multidrug resistance protein)
+NC_003210.1,555659,556976,-1,lmo0521,lmo0521 (6-phospho-beta-glucosidase)
+NC_003210.1,557177,557930,1,lmo0522,lmo0522 (transcriptional regulator)
+NC_003210.1,558525,560187,-1,lmo0524,lmo0524 (sulfate transporter)
+NC_003210.1,560442,561774,1,lmo0525,lmo0525 (hypothetical protein)
+NC_003210.1,561818,562559,-1,lmo0526,lmo0526 (transcriptional regulator)
+NC_003210.1,562788,569948,1,"lmo0527, lmo0528, lmo0529, lmo0530, lmo0531","lmo0527 (transmembrane protein), lmo0528 (hypothetical protein), lmo0529 (glucosaminyltransferase), lmo0530 (hypothetical protein), lmo0531 (hypothetical protein)"
+NC_003210.1,572599,573568,-1,lmo0535,lmo0535 (LacI family transcriptional regulator)
+NC_003210.1,573739,575062,1,lmo0536,lmo0536 (6-phospho-beta-glucosidase)
+NC_003210.1,577631,578648,-1,lmo0539,"lmo0539 (tagatose 1,6-diphosphate aldolase)"
+NC_003210.1,578885,580079,1,lmo0540,lmo0540 (penicillin-binding protein)
+NC_003210.1,585014,585962,-1,lmo0547,lmo0547 (DeoR family transcriptional regulator)
+NC_003210.1,586328,591355,1,"lmo0548, lmo0549, lmo0550, lmo0551, lmo0552","lmo0548 (hypothetical protein), lmo0549 (internalin), lmo0550 (pepdidoglycan-bound protein), lmo0551 (hypothetical protein), lmo0552 (hypothetical protein)"
+NC_003210.1,591411,592047,-1,lmo0553,lmo0553 (hypothetical protein)
+NC_003210.1,592256,593438,1,lmo0554,lmo0554 (NADH-dependent butanol dehydrogenase)
+NC_003210.1,596579,597620,-1,lmo0558,lmo0558 (hypothetical protein)
+NC_003210.1,597811,597926,1,lmos23,lmos23 (rli31)
+NC_003210.1,598967,600344,-1,lmo0560,lmo0560 (glutamate dehydrogenase)
+NC_003210.1,600603,600750,1,lmos24,lmos24 (rli32)
+NC_003210.1,600836,607220,-1,"lmo0561, lmo0562, lmo0563, lmo0564, lmo0565, lmo0566, lmo0567, lmo0568, lmo0569","lmo0561 (phosphoribosyl-ATP pyrophosphatase), lmo0562 (phosphoribosyl-AMP cyclohydrolase), lmo0563 (imidazole glycerol phosphate synthase subunit HisF), lmo0564 (1-(5-phosphoribosyl)-5-[(5- phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase), lmo0565 (imidazole glycerol phosphate synthase subunit HisH), lmo0566 (imidazoleglycerol-phosphate dehydratase), lmo0567 (histidinol dehydrogenase), lmo0568 (ATP phosphoribosyltransferase), lmo0569 (ATP phosphoribosyltransferase)"
+NC_003210.1,607371,608199,1,lmo0570,lmo0570 (histidinol-phosphatase)
+NC_003210.1,608183,608480,-1,lmo0571,lmo0571 (methyltransferase)
+NC_003210.1,608556,609588,1,lmo0572,lmo0572 (hypothetical protein)
+NC_003210.1,609628,610924,-1,lmo0573,lmo0573 (hypothetical protein)
+NC_003210.1,611016,611119,1,lmos25,lmos25 (Purine)
+NC_003210.1,615352,616577,-1,"lmo0577, lmo0578","lmo0577 (hypothetical protein), lmo0578 (hypothetical protein)"
+NC_003210.1,616741,617629,1,"lmo0579, lmo0580","lmo0579 (hypothetical protein), lmo0580 (hypothetical protein)"
+NC_003210.1,618931,620380,-1,lmo0582,lmo0582 (invasion associated secreted endopeptidase)
+NC_003210.1,620804,623135,1,lmo0583,lmo0583 (preprotein translocase subunit SecA)
+NC_003210.1,635316,637717,-1,"lmo0594, lmo0595","lmo0594 (homoserine O-acetyltransferase), lmo0595 (O-acetylhomoserine sulfhydrylase)"
+NC_003210.1,637825,637926,1,lmos26,lmos26 (SAM)
+NC_003210.1,638780,640106,-1,"lmo0597, lmo0597a","lmo0597 (Crp/Fnr family transcriptional regulator), lmo0597a (hypothetical protein)"
+NC_003210.1,640299,642308,1,"lmo0599, lmo0600, lmo0601","lmo0599 (hypothetical protein), lmo0600 (hypothetical protein), lmo0601 (cell surface protein)"
+NC_003210.1,643890,645231,-1,lmo0605,lmo0605 (hypothetical protein)
+NC_003210.1,645396,649404,1,"lmo0606, lmo0607, lmo0608","lmo0606 (MarR family transcriptional regulator), lmo0607 (ABC transporter ATP-binding protein), lmo0608 (ABC transporter ATP-binding protein)"
+NC_003210.1,651793,652420,-1,lmo0611,lmo0611 (azoreductase)
+NC_003210.1,652588,653982,1,"lmo0612, lmo0613","lmo0612 (MarR family transcriptional evidence), lmo0613 (oxidoreductase)"
+NC_003210.1,654607,654850,-1,lmo0615,lmo0615 (hypothetical protein)
+NC_003210.1,654956,656708,1,lmo0616,lmo0616 (glycerophosphoryl diester phosphodiesterase)
+NC_003210.1,657322,658465,-1,lmo0618,lmo0618 (protein kinase)
+NC_003210.1,658571,659475,1,"lmo0619, lmo0620","lmo0619 (hypothetical protein), lmo0620 (hypothetical protein)"
+NC_003210.1,662256,663936,-1,lmo0626,lmo0626 (hypothetical protein)
+NC_003210.1,664241,668990,1,lmo0627,lmo0627 (pepdidoglycan bound protein)
+NC_003210.1,677463,677553,-1,lmot11,lmot11 (tRNA-Ser)
+NC_003210.1,678493,679123,1,lmo0638,lmo0638 (hypothetical protein)
+NC_003210.1,685082,686903,-1,lmo0644,lmo0644 (hypothetical protein)
+NC_003210.1,687137,688529,1,lmo0645,lmo0645 (amino acid transporter)
+NC_003210.1,689540,689825,-1,lmo0647,lmo0647 (hypothetical protein)
+NC_003210.1,689922,690873,1,lmo0648,lmo0648 (hypothetical protein)
+NC_003210.1,694972,696416,-1,"lmo0652, lmo0653","lmo0652 (hypothetical protein), lmo0653 (hypothetical protein)"
+NC_003210.1,696605,696815,1,lmo0654,lmo0654 (hypothetical protein)
+NC_003210.1,697633,698197,-1,lmo0656,lmo0656 (hypothetical protein)
+NC_003210.1,698316,698733,1,lmo0657,lmo0657 (hypothetical protein)
+NC_003210.1,699409,700306,-1,lmo0659,lmo0659 (transcriptional regulator)
+NC_003210.1,700536,700821,1,lmo0660,lmo0660 (transposase)
+NC_003210.1,700875,702954,-1,"lmo0661, lmo0662, lmo0663","lmo0661 (hypothetical protein), lmo0662 (phosphomethylpyrimidine kinase), lmo0663 (hypothetical protein)"
+NC_003210.1,703127,704338,1,"lmo0664, lmo0665, lmo0666","lmo0664 (acetyl transferase), lmo0665 (hypothetical protein), lmo0666 (hypothetical protein)"
+NC_003210.1,709600,710749,-1,"lmo0673, lmo0674","lmo0673 (hypothetical protein), lmo0674 (hypothetical protein)"
+NC_003210.1,711120,714306,1,"lmo0675, lmo0676, lmo0677, lmo0678, lmo0679","lmo0675 (hypothetical protein), lmo0676 (flagellar biosynthesis protein FliP), lmo0677 (flagellar biosynthesis protein FliQ), lmo0678 (flagellar biosynthesis protein FliR), lmo0679 (flagellar biosynthesis protein FlhB)"
+NC_003210.1,750679,751327,-1,lmo0721,lmo0721 (fibronectin-binding protein)
+NC_003210.1,751597,753328,1,lmo0722,lmo0722 (pyruvate oxidase)
+NC_003210.1,756078,756291,-1,lmo0725,lmo0725 (peptidoglycan-binding protein)
+NC_003210.1,756457,756652,1,"lmos28, lmo0726","lmos28 (glmS), lmo0726 (hypothetical protein)"
+NC_003210.1,764464,765469,-1,lmo0734,lmo0734 (LacI family transcriptional regulator)
+NC_003210.1,765682,771012,1,"lmo0735, lmo0736, lmo0737, lmo0738, lmo0739","lmo0735 (ribulose-5-phosphate 3-epimerase), lmo0736 (ribose-5-phosphate isomerase B), lmo0737 (hypothetical protein), lmo0738 (PTS beta-glucoside transporter subunit IIABC), lmo0739 (6-phospho-beta-glucosidase)"
+NC_003210.1,771025,771685,-1,lmo0740,lmo0740 (transcriptional regulator)
+NC_003210.1,771948,773700,1,"lmo0741, lmo0742, lmo0743","lmo0741 (GntR family transcriptional regulator), lmo0742 (ABC transporter ATP-binding protein), lmo0743 (hypothetical protein)"
+NC_003210.1,776397,776697,-1,lmo0746,lmo0746 (hypothetical protein)
+NC_003210.1,776760,777102,1,lmo0747,lmo0747 (hypothetical protein)
+NC_003210.1,796074,797193,-1,lmo0770,lmo0770 (LacI family transcriptional regulator)
+NC_003210.1,797352,798105,1,lmo0771,lmo0771 (hypothetical protein)
+NC_003210.1,798827,799817,-1,lmo0773,lmo0773 (alcohol dehydrogenase)
+NC_003210.1,799995,801297,1,"lmo0774, lmo0775","lmo0774 (hypothetical protein), lmo0775 (hypothetical protein)"
+NC_003210.1,801335,802202,-1,lmo0776,lmo0776 (transcriptional regulator)
+NC_003210.1,802355,802739,1,lmo0777,lmo0777 (hypothetical protein)
+NC_003210.1,803744,804212,-1,lmo0779,lmo0779 (hypothetical protein)
+NC_003210.1,804381,804729,1,lmo0780,lmo0780 (hypothetical protein)
+NC_003210.1,807975,810792,-1,lmo0785,lmo0785 (transcriptional regulator)
+NC_003210.1,810984,811620,1,lmo0786,lmo0786 (ACP phosphodiesterase)
+NC_003210.1,817913,819265,-1,"lmo0789, lmo0790","lmo0789 (hypothetical protein), lmo0790 (transcriptional regulator)"
+NC_003210.1,819388,820039,1,lmo0791,lmo0791 (hypothetical protein)
+NC_003210.1,823637,824168,-1,lmo0796,lmo0796 (hypothetical protein)
+NC_003210.1,824422,824884,1,lmo0797,lmo0797 (hypothetical protein)
+NC_003210.1,824935,826396,-1,lmo0798,lmo0798 (lysine-specific permease)
+NC_003210.1,826485,826683,1,lmos30,lmos30 (Lysine)
+NC_003210.1,826751,827513,-1,lmo0799,lmo0799 (hypothetical protein)
+NC_003210.1,827665,828016,1,lmo0800,lmo0800 (hypothetical protein)
+NC_003210.1,833116,834076,-1,"lmo0804, lmo0805","lmo0804 (hypothetical protein), lmo0805 (hypothetical protein)"
+NC_003210.1,834286,834829,1,lmo0806,lmo0806 (transcriptional regulator)
+NC_003210.1,843310,843724,-1,lmo0817,lmo0817 (PhnB protein)
+NC_003210.1,843948,847442,1,"lmo0818, lmo0819","lmo0818 (cation-transporting ATPase), lmo0819 (hypothetical protein)"
+NC_003210.1,848803,849193,-1,lmo0822,lmo0822 (transcriptional regulator)
+NC_003210.1,849313,852505,1,"lmo0823, lmo0824, lmo0825","lmo0823 (oxidoreductase), lmo0824 (hypothetical protein), lmo0825 (3-hydroxy-3-methylglutaryl-CoA reductase)"
+NC_003210.1,861730,862642,-1,lmo0831,lmo0831 (hypothetical protein)
+NC_003210.1,863321,863606,1,lmo0832,lmo0832 (transposase)
+NC_003210.1,866576,866990,-1,lmo0836,lmo0836 (phosphate-starvation-inducible protein PsiE)
+NC_003210.1,867162,868800,1,lmo0837,lmo0837 (hypothetical protein)
+NC_003210.1,871939,872410,-1,lmo0840,lmo0840 (hypothetical protein)
+NC_003210.1,872615,875258,1,lmo0841,lmo0841 (calcium-transporting ATPase)
+NC_003210.1,881991,882249,-1,lmo0843,lmo0843 (hypothetical protein)
+NC_003210.1,882327,882867,1,"lmo0844, lmos32","lmo0844 (hypothetical protein), lmos32 (SAM)"
+NC_003210.1,887651,889502,-1,lmo0849,lmo0849 (amidase)
+NC_003210.1,890068,890215,1,lmo0850,lmo0850 (hypothetical protein)
+NC_003210.1,896002,897028,-1,lmo0858,lmo0858 (LacI family transcriptional regulator)
+NC_003210.1,897272,901835,1,"lmo0859, lmo0860, lmo0861, lmo0862","lmo0859 (sugar ABC transporter substrate-binding protein), lmo0860 (sugar ABC transporter permease), lmo0861 (sugar ABC transporter permease), lmo0862 (oligo-1,6-glucosidase)"
+NC_003210.1,908498,909056,-1,lmo0868,lmo0868 (hypothetical protein)
+NC_003210.1,909158,910484,1,"lmo0869, lmo0870","lmo0869 (hypothetical protein), lmo0870 (hypothetical protein)"
+NC_003210.1,910516,910870,-1,lmo0871,lmo0871 (hypothetical protein)
+NC_003210.1,910997,912164,1,lmo0872,lmo0872 (antibiotic resistance protein)
+NC_003210.1,920451,920928,-1,lmo0881,lmo0881 (hypothetical protein)
+NC_003210.1,921061,923012,1,"lmo0882, lmo0883","lmo0882 (hypothetical protein), lmo0883 (hypothetical protein)"
+NC_003210.1,944242,945379,-1,lmo0908,lmo0908 (hypothetical protein)
+NC_003210.1,945519,947018,1,"lmo0909, lmo0910","lmo0909 (GntR family transcriptional regulator), lmo0910 (hypothetical protein)"
+NC_003210.1,963293,965255,-1,lmo0927,lmo0927 (hypothetical protein)
+NC_003210.1,965512,966136,1,lmo0928,lmo0928 (3-methyladenine DNA glycosylase)
+NC_003210.1,969548,970496,-1,lmo0933,lmo0933 (sugar transferase)
+NC_003210.1,970866,970937,1,lmot16,lmot16 (tRNA-Gly)
+NC_003210.1,975070,978856,-1,"lmo0940, lmo0941, lmo0942","lmo0940 (hypothetical protein), lmo0941 (hypothetical protein), lmo0942 (heat shock protein 90)"
+NC_003210.1,979058,979529,1,lmo0943,lmo0943 (non-heme iron-binding ferritin)
+NC_003210.1,981742,983646,-1,"lmo0947, lmo0948","lmo0947 (hypothetical protein), lmo0948 (transcriptional regulator)"
+NC_003210.1,983767,984814,1,lmo0949,lmo0949 (hypothetical protein)
+NC_003210.1,984822,986564,-1,"lmo0950, lmo0951","lmo0950 (hypothetical protein), lmo0951 (hypothetical protein)"
+NC_003210.1,986721,987180,1,lmo0952,lmo0952 (hypothetical protein)
+NC_003210.1,997794,998863,-1,"lmo0965, lmo0966","lmo0965 (hypothetical protein), lmo0966 (hypothetical protein)"
+NC_003210.1,999021,1002291,1,"lmo0967, lmo0968, lmo0969, lmo0970","lmo0967 (hypothetical protein), lmo0968 (inorganic polyphosphate/ATP-NAD kinase), lmo0969 (ribosomal large subunit pseudouridine synthetase), lmo0970 (enoyl-ACP reductase)"
+NC_003210.1,1002318,1006568,-1,"lmo0971, lmo0972, lmo0973, lmo0974","lmo0971 (DltD protein for D-alanine esterification of lipoteichoic acid and wall teichoic acid), lmo0972 (D-alanine--poly(phosphoribitol) ligase subunit 2), lmo0973 (DltB protein for D-alanine esterification of lipoteichoic acid and wall teichoic acid), lmo0974 (D-alanine--poly(phosphoribitol) ligase subunit 1)"
+NC_003210.1,1006958,1007633,1,lmo0975,lmo0975 (ribose-5-phosphate isomerase A)
+NC_003210.1,1007668,1008879,-1,"lmo0976, lmo0977","lmo0976 (hypothetical protein), lmo0977 (hypothetical protein)"
+NC_003210.1,1009097,1010117,1,lmo0978,lmo0978 (branched-chain amino acid aminotransferase)
+NC_003210.1,1011859,1013335,-1,lmo0981,lmo0981 (transporter)
+NC_003210.1,1013474,1015019,1,"lmo0982, lmo0983","lmo0982 (peptidase), lmo0983 (glutathione peroxidase)"
+NC_003210.1,1025158,1026190,-1,lmo0995,lmo0995 (hypothetical protein)
+NC_003210.1,1026375,1026855,1,lmo0996,lmo0996 (methylated-DNA-protein-cysteine methyltransferase)
+NC_003210.1,1029207,1029819,-1,lmo0998,lmo0998 (hypothetical protein)
+NC_003210.1,1029964,1030756,1,lmo0999,lmo0999 (hypothetical protein)
+NC_003210.1,1032332,1032617,-1,lmo1001,lmo1001 (hypothetical protein)
+NC_003210.1,1032923,1034908,1,"lmo1002, lmo1003","lmo1002 (phosphocarrier protein HPr), lmo1003 (phosphotransferase system enzyme I)"
+NC_003210.1,1036970,1038116,-1,lmo1006,lmo1006 (aminotransferase)
+NC_003210.1,1038335,1038557,1,lmo1007,lmo1007 (hypothetical protein)
+NC_003210.1,1042604,1043450,-1,lmo1013,lmo1013 (hypothetical protein)
+NC_003210.1,1043820,1046771,1,"lmo1014, lmo1015, lmo1016","lmo1014 (glycine/betaine ABC transporter ATP-binding protein), lmo1015 (glycine/betaine ABC transporter permease), lmo1016 (glycine/betaine ABC transporter substrate-binding protein)"
+NC_003210.1,1055392,1057276,-1,"lmo1027, lmo1028","lmo1027 (hypothetical protein), lmo1028 (hypothetical protein)"
+NC_003210.1,1057760,1058531,1,lmo1029,lmo1029 (hypothetical protein)
+NC_003210.1,1058579,1059608,-1,lmo1030,lmo1030 (LacI family transcriptional regulator)
+NC_003210.1,1059871,1067662,1,"lmo1031, lmo1032, lmo1033, lmo1034, lmo1035, lmo1036","lmo1031 (hypothetical protein), lmo1032 (transketolase), lmo1033 (transketolase), lmo1034 (glycerol kinase), lmo1035 (PTS beta-glucoside transporter subunit IIABC), lmo1036 (hypothetical protein)"
+NC_003210.1,1067722,1070492,-1,"lmo1037, lmo1038, lmo1039, lmo1040","lmo1037 (hypothetical protein), lmo1038 (hypothetical protein), lmo1039 (ABC transporter ATP-binding protein), lmo1040 (molybdenum ABC transporter permease)"
+NC_003210.1,1070596,1071367,1,lmo1041,lmo1041 (molybdate ABC transporter substrate-binding protein)
+NC_003210.1,1075359,1076858,-1,"lmo1048, lmo1049","lmo1048 (molybdenum cofactor biosynthesis protein B), lmo1049 (molybdopterin biosynthesis protein MoeB)"
+NC_003210.1,1076988,1077543,1,lmo1050,lmo1050 (hypothetical protein)
+NC_003210.1,1077591,1078143,-1,lmo1051,lmo1051 (peptide deformylase)
+NC_003210.1,1078583,1081072,1,"lmos38, lmo1052, lmo1053","lmos38 (rli54), lmo1052 (pyruvate dehydrogenase subunit E1 alpha), lmo1053 (pyruvate dehydrogenase subunit E1 beta)"
+NC_003210.1,1092254,1092869,-1,lmo1065,lmo1065 (hypothetical protein)
+NC_003210.1,1092999,1093773,1,lmo1066,lmo1066 (myo-inositol-1(or 4)-monophosphatase)
+NC_003210.1,1096873,1097116,-1,lmo1069,lmo1069 (hypothetical protein)
+NC_003210.1,1097321,1097603,1,lmo1070,lmo1070 (hypothetical protein)
+NC_003210.1,1109704,1110577,-1,lmo1078,lmo1078 (UDP-glucose pyrophosphorylase)
+NC_003210.1,1110768,1113627,1,lmo1079,lmo1079 (hypothetical protein)
+NC_003210.1,1134471,1136595,-1,lmo1100,lmo1100 (cadmium resistance protein)
+NC_003210.1,1136899,1137400,1,lmo1101,lmo1101 (lipoprotein signal peptidase)
+NC_003210.1,1149886,1152475,-1,lmo1115,lmo1115 (fibrinogen-binding protein)
+NC_003210.1,1152548,1152917,1,lmos39,lmos39 (rli38)
+NC_003210.1,1154863,1157241,-1,"lmo1118, lmo1119","lmo1118 (hypothetical protein), lmo1119 (methylase)"
+NC_003210.1,1157591,1158844,1,"lmo1120, lmo1121, lmo1122","lmo1120 (hypothetical protein), lmo1121 (hypothetical protein), lmo1122 (hypothetical protein)"
+NC_003210.1,1161688,1163996,-1,"lmo1128, lmo1129, lmo1130","lmo1128 (hypothetical protein), lmo1129 (hypothetical protein), lmo1130 (transcriptional regulator)"
+NC_003210.1,1164244,1167608,1,"lmo1131, lmo1132","lmo1131 (ABC transporter ATP-binding protein), lmo1132 (ABC transporter ATP-binding protein)"
+NC_003210.1,1167644,1167953,-1,lmo1133,lmo1133 (hypothetical protein)
+NC_003210.1,1168020,1169541,1,"lmo1134, lmo1135","lmo1134 (regulatory protein), lmo1135 (hypothetical protein)"
+NC_003210.1,1173143,1173551,-1,lmo1140,lmo1140 (hypothetical protein)
+NC_003210.1,1173642,1174122,1,lmo1141,lmo1141 (uroporphyrin-III C-methyltransferase)
+NC_003210.1,1180151,1181036,-1,lmo1150,lmo1150 (transcriptional regulator PocR)
+NC_003210.1,1180825,1181254,1,lmos42,lmos42 (rliH)
+NC_003210.1,1215127,1215679,-1,lmo1189,lmo1189 (transcriptional regulator)
+NC_003210.1,1215992,1216487,1,lmo1190,lmo1190 (hypothetical protein)
+NC_003210.1,1232883,1233815,-1,"lmo1210, lmo1211","lmo1210 (hypothetical protein), lmo1211 (hypothetical protein)"
+NC_003210.1,1233903,1235330,1,"lmo1212, lmo1213, lmo1214","lmo1212 (hypothetical protein), lmo1213 (hypothetical protein), lmo1214 (hypothetical protein)"
+NC_003210.1,1239841,1240201,-1,lmo1219,lmo1219 (hypothetical protein)
+NC_003210.1,1240357,1240681,1,lmo1220,lmo1220 (hypothetical protein)
+NC_003210.1,1253378,1254305,-1,lmo1228,lmo1228 (ribonuclease HIII)
+NC_003210.1,1254458,1255264,1,"lmo1229, lmo1230","lmo1229 (hypothetical protein), lmo1230 (hypothetical protein)"
+NC_003210.1,1263186,1263681,-1,lmo1236,lmo1236 (hypothetical protein)
+NC_003210.1,1263828,1266564,1,"lmo1237, lmo1238, lmo1239, lmo1240","lmo1237 (glutamate racemase), lmo1238 (ribonuclease PH), lmo1239 (nucleoside-triphosphatase), lmo1240 (hypothetical protein)"
+NC_003210.1,1269261,1269669,-1,lmo1243,lmo1243 (hypothetical protein)
+NC_003210.1,1269833,1270433,1,lmo1244,lmo1244 (phosphoglycerate mutase)
+NC_003210.1,1270464,1270725,-1,lmo1245,lmo1245 (hypothetical protein)
+NC_003210.1,1270848,1272549,1,"lmo1246, lmo1247","lmo1246 (ATP-dependent RNA helicase), lmo1247 (hypothetical protein)"
+NC_003210.1,1273230,1274678,-1,"lmo1249, lmo1250","lmo1249 (hypothetical protein), lmo1250 (antibiotic resistance protein)"
+NC_003210.1,1274882,1275810,1,"lmo1251, lmos45","lmo1251 (Fnr/Crp family transcriptional regulator), lmos45 (rli40)"
+NC_003210.1,1275844,1276693,-1,lmo1252,lmo1252 (hypothetical protein)
+NC_003210.1,1276712,1277207,1,lmos46,lmos46 (rli41)
+NC_003210.1,1278055,1281205,-1,"lmo1254, lmo1255","lmo1254 (alpha,alpha-phosphotrehalase), lmo1255 (PTS trehalose transporter subunit IIBC)"
+NC_003210.1,1281320,1281773,1,lmo1256,lmo1256 (hypothetical protein)
+NC_003210.1,1281819,1282284,-1,lmo1257,lmo1257 (hypothetical protein)
+NC_003210.1,1282472,1283393,1,lmo1258,lmo1258 (hypothetical protein)
+NC_003210.1,1286829,1287225,-1,lmo1262,lmo1262 (transcriptional regulator)
+NC_003210.1,1287375,1287591,1,lmo1263,lmo1263 (transcriptional regulator)
+NC_003210.1,1307008,1307605,-1,lmo1284,lmo1284 (hypothetical protein)
+NC_003210.1,1307762,1308170,1,lmo1285,lmo1285 (hypothetical protein)
+NC_003210.1,1317595,1319464,-1,lmo1291,lmo1291 (acyltransferase)
+NC_003210.1,1319676,1320375,1,lmo1292,lmo1292 (glycerophosphodiester phosphodiesterase)
+NC_003210.1,1329695,1330861,-1,"lmo1301, lmo1302","lmo1301 (hypothetical protein), lmo1302 (LexA family transcriptional regulator)"
+NC_003210.1,1331017,1331347,1,lmo1303,lmo1303 (cell division suppressor)
+NC_003210.1,1335931,1339299,-1,"lmo1309, lmo1310, lmo1311, lmo1312","lmo1309 (hypothetical protein), lmo1310 (hypothetical protein), lmo1311 (hypothetical protein), lmo1312 (hypothetical protein)"
+NC_003210.1,1339591,1340877,1,"lmo1313, lmo1314","lmo1313 (uridylate kinase), lmo1314 (ribosome recycling factor)"
+NC_003210.1,1363271,1363628,-1,lmo1334,lmo1334 (hypothetical protein)
+NC_003210.1,1363825,1364570,1,"lmo1335, lmo1336","lmo1335 (50S ribosomal protein L33), lmo1336 (5-formyltetrahydrofolate cyclo-ligase)"
+NC_003210.1,1368667,1372476,-1,"lmo1341, lmo1342, lmo1343, lmo1344, lmo1345, lmo1346, lmo1347","lmo1341 (competence protein ComG), lmo1342 (competence protein ComGF), lmo1343 (competence protein ComGE), lmo1344 (competence protein ComGD), lmo1345 (competence protein ComGC), lmo1346 (competence protein ComGB), lmo1347 (competence protein ComGA)"
+NC_003210.1,1372839,1372931,1,lmos48,lmos48 (Glycine)
+NC_003210.1,1377409,1378660,-1,"lmo1352, lmo1353","lmo1352 (hypothetical protein), lmo1353 (hypothetical protein)"
+NC_003210.1,1378839,1379901,1,lmo1354,lmo1354 (aminopeptidase P)
+NC_003210.1,1405944,1406226,-1,lmo1381,lmo1381 (acylphosphatase)
+NC_003210.1,1406365,1407818,1,"lmo1382, lmo1383","lmo1382 (hypothetical protein), lmo1383 (isopentenyl pyrophosphate isomerase)"
+NC_003210.1,1407858,1408818,-1,lmo1384,lmo1384 (hypothetical protein)
+NC_003210.1,1409069,1409996,1,lmo1385,lmo1385 (hypothetical protein)
+NC_003210.1,1412454,1413294,-1,lmo1387,lmo1387 (pyrroline-5-carboxylate reductase)
+NC_003210.1,1413645,1414719,1,lmo1388,"lmo1388 (CD4+ T cell-stimulating antigen, lipoprotein)"
+NC_003210.1,1438723,1439254,-1,lmo1408,lmo1408 (hypothetical protein)
+NC_003210.1,1439420,1440614,1,lmo1409,lmo1409 (multidrug transporter)
+NC_003210.1,1443872,1445042,-1,lmo1414,lmo1414 (acetyl-CoA:acetyltransferase)
+NC_003210.1,1445191,1446358,1,lmo1415,lmo1415 (hydroxy-3-methylglutaryl-CoA synthase)
+NC_003210.1,1450700,1451597,-1,lmo1420,lmo1420 (UDP-N-acetylenolpyruvoylglucosamine reductase)
+NC_003210.1,1451812,1454310,1,"lmo1421, lmo1422","lmo1421 (glycine/betaine ABC transporter ATP-binding protein), lmo1422 (glycine/betaine ABC transporter permease)"
+NC_003210.1,1460533,1461094,-1,lmo1429,lmo1429 (hypothetical protein)
+NC_003210.1,1461162,1461273,1,lmos51,lmos51 (TPP)
+NC_003210.1,1461342,1461726,-1,lmo1430,lmo1430 (hypothetical protein)
+NC_003210.1,1461865,1463467,1,lmo1431,lmo1431 (ABC transporter ATP-binding protein)
+NC_003210.1,1472979,1473588,-1,lmo1439,lmo1439 (superoxide dismutase)
+NC_003210.1,1473888,1474689,1,lmo1440,lmo1440 (hypothetical protein)
+NC_003210.1,1480245,1483403,-1,"lmo1448, lmo1449, lmo1450","lmo1448 (manganese-dependent inorganic pyrophosphatase), lmo1449 (endonuclease IV), lmo1450 (DEAD/DEAH box helicase)"
+NC_003210.1,1483548,1484544,1,lmo1451,lmo1451 (4-hydroxy-3-methylbut-2-enyl diphosphate reductase)
+NC_003210.1,1490228,1494036,-1,"lmo1457, lmo1458, lmo1459","lmo1457 (hypothetical protein), lmo1458 (glycyl-tRNA synthetase subunit beta), lmo1459 (glycyl-tRNA synthetase subunit alpha)"
+NC_003210.1,1494103,1494276,1,lmos52,lmos52 (T-box)
+NC_003210.1,1494316,1495084,-1,lmo1460,lmo1460 (DNA repair protein RecO)
+NC_003210.1,1495220,1495850,1,lmo1461,lmo1461 (hypothetical protein)
+NC_003210.1,1510233,1511262,-1,lmo1477,lmo1477 (oxidoreductase)
+NC_003210.1,1511374,1511812,1,lmo1478,lmo1478 (MerR family transcriptional regulator)
+NC_003210.1,1511857,1513684,-1,lmo1479,lmo1479 (GTP-binding protein LepA)
+NC_003210.1,1513916,1514171,1,lmo1480,lmo1480 (30S ribosomal protein S20)
+NC_003210.1,1522373,1523992,-1,"lmo1491, lmo1492","lmo1491 (GTP-binding protein), lmo1492 (hypothetical protein)"
+NC_003210.1,1524153,1525962,1,lmo1493,lmo1493 (oligopeptidase)
+NC_003210.1,1528097,1530524,-1,"lmo1497, lmo1498, lmo1499","lmo1497 (uridine kinase), lmo1498 (O-methyltransferase), lmo1499 (hypothetical protein)"
+NC_003210.1,1530726,1531353,1,lmo1500,lmo1500 (hypothetical protein)
+NC_003210.1,1535438,1537648,-1,"lmo1505, lmo1506","lmo1505 (ABC transporter ATP-binding protein), lmo1506 (transporter)"
+NC_003210.1,1537814,1539937,1,"lmo1507, lmo1508","lmo1507 (response regulator), lmo1508 (histidine kinase)"
+NC_003210.1,1543939,1546222,-1,"lmo1512, lmo1513","lmo1512 (tRNA-specific 2-thiouridylase), lmo1513 (iron-sulfur cofactor synthesis protein)"
+NC_003210.1,1546342,1546531,1,lmos53,lmos53 (ssrS)
+NC_003210.1,1546607,1547885,-1,lmo1514,lmo1514 (recombination factor protein RarA)
+NC_003210.1,1548033,1548456,1,lmo1515,lmo1515 (hypothetical protein)
+NC_003210.1,1550853,1553909,-1,"lmo1519, lmo1520","lmo1519 (aspartyl-tRNA synthetase), lmo1520 (histidyl-tRNA synthetase)"
+NC_003210.1,1553971,1554200,1,lmos54,lmos54 (T-box)
+NC_003210.1,1576106,1577055,-1,"lmo1540, lmo1541, lmo1542","lmo1540 (50S ribosomal protein L27), lmo1541 (hypothetical protein), lmo1542 (50S ribosomal protein L21)"
+NC_003210.1,1577067,1577146,1,lmos55,lmos55 (L21)
+NC_003210.1,1583241,1584638,-1,"lmo1549, lmo1550","lmo1549 (DNA repair protein RadC), lmo1550 (competence protein ComC)"
+NC_003210.1,1584585,1584808,1,lmos56,lmos56 (rliE)
+NC_003210.1,1584849,1588852,-1,"lmo1551, lmo1552","lmo1551 (folyl-polyglutamate synthetase), lmo1552 (valyl-tRNA synthetase)"
+NC_003210.1,1588900,1589127,1,lmos57,lmos57 (T-box)
+NC_003210.1,1595226,1597149,-1,lmo1559,lmo1559 (threonyl-tRNA synthetase)
+NC_003210.1,1597217,1597448,1,lmos58,lmos58 (T-box)
+NC_003210.1,1619239,1619926,-1,lmo1577,lmo1577 (metal-dependent hydrolase)
+NC_003210.1,1620090,1621188,1,lmo1578,lmo1578 (X-Pro dipeptidase)
+NC_003210.1,1621229,1622342,-1,lmo1579,lmo1579 (alanine dehydrogenase)
+NC_003210.1,1622582,1623047,1,lmo1580,lmo1580 (hypothetical protein)
+NC_003210.1,1625504,1627633,-1,"lmo1583, lmo1584, lmo1585","lmo1583 (thiol peroxidase), lmo1584 (hypothetical protein), lmo1585 (peptidase)"
+NC_003210.1,1627811,1628615,1,lmo1586,lmo1586 (inorganic polyphosphate/ATP-NAD kinase)
+NC_003210.1,1636411,1638127,-1,lmo1594,lmo1594 (septation ring formation regulator EzrA)
+NC_003210.1,1638419,1638908,1,lmo1595,lmo1595 (hypothetical protein)
+NC_003210.1,1641283,1642543,-1,lmo1598,lmo1598 (tyrosyl-tRNA synthetase)
+NC_003210.1,1642602,1642811,1,lmos59,lmos59 (T-box)
+NC_003210.1,1645957,1646413,-1,lmo1602,lmo1602 (hypothetical protein)
+NC_003210.1,1646668,1647781,1,lmo1603,lmo1603 (aminopeptidase)
+NC_003210.1,1654690,1655975,-1,"lmo1610, lmo1611","lmo1610 (hypothetical protein), lmo1611 (aminopeptidase)"
+NC_003210.1,1656172,1656484,1,lmo1612,lmo1612 (hypothetical protein)
+NC_003210.1,1664056,1664470,-1,lmo1621,lmo1621 (hypothetical protein)
+NC_003210.1,1664574,1665405,1,lmo1622,lmo1622 (hypothetical protein)
+NC_003210.1,1673367,1676325,-1,"lmo1631, lmo1632, lmo1633","lmo1631 (anthranilate phosphoribosyltransferase), lmo1632 (anthranilate synthase subunit beta), lmo1633 (anthranilate synthase subunit alpha)"
+NC_003210.1,1676391,1676907,1,"lmos60, lmos61","lmos60 (T-box), lmos61 (T-box)"
+NC_003210.1,1691971,1696164,-1,"lmo1645, lmo1646","lmo1645 (ATP-dependent dsDNA exonuclease SbcC), lmo1646 (exonuclease SbcD)"
+NC_003210.1,1696279,1696888,1,lmo1647,lmo1647 (1-acylglycerol-3-phosphate O-acyltransferase)
+NC_003210.1,1700522,1702292,-1,lmo1652,lmo1652 (ABC transporter ATP-binding protein)
+NC_003210.1,1702372,1702553,1,lmos62,lmos62 (rli59)
+NC_003210.1,1707167,1707917,-1,lmo1658,lmo1658 (30S ribosomal protein S2)
+NC_003210.1,1708311,1708518,1,lmo1659,lmo1659 (hypothetical protein)
+NC_003210.1,1708856,1711268,-1,lmo1660,lmo1660 (leucyl-tRNA synthetase)
+NC_003210.1,1711341,1711543,1,lmos63,lmos63 (T-box)
+NC_003210.1,1715235,1716435,-1,lmo1664,lmo1664 (S-adenosylmethionine synthetase)
+NC_003210.1,1716542,1716651,1,lmos64,lmos64 (SAM)
+NC_003210.1,1722430,1724122,-1,"lmo1667, lmo1668, lmo1669","lmo1667 (L-lactate dehydrogenase), lmo1668 (hypothetical protein), lmo1669 (hypothetical protein)"
+NC_003210.1,1724195,1724462,1,lmo1670,lmo1670 (hypothetical protein)
+NC_003210.1,1725583,1731780,-1,"lmo1672, lmo1673, lmo1674, lmo1675, lmo1676","lmo1672 (O-succinylbenzoic acid--CoA ligase), lmo1673 (naphthoate synthase), lmo1674 (prolyl aminopetidase), lmo1675 (2-succinyl-5-enolpyruvyl-6-hydroxy-3- cyclohexene-1-carboxylate synthase), lmo1676 (menaquinone-specific isochorismate synthase)"
+NC_003210.1,1731954,1732893,1,lmo1677,"lmo1677 (1,4-dihydroxy-2-naphthoate octaprenyltransferase)"
+NC_003210.1,1732925,1739384,-1,"lmo1678, lmo1679, lmo1680, lmo1681","lmo1678 (bifunctional homocysteine S-methyltransferase/5,10-methylenetetrahydrofolate reductase), lmo1679 (cystathionine beta-lyase), lmo1680 (cystathionine gamma-synthase), lmo1681 (5-methyltetrahydropteroyltriglutamate-- homocysteine S-methyltransferase)"
+NC_003210.1,1739490,1739597,1,lmos65,lmos65 (SAM)
+NC_003210.1,1748791,1749733,-1,lmo1684,lmo1684 (glycerate dehydrogenase)
+NC_003210.1,1749877,1751176,1,lmo1685,lmo1685 (glutamate-1-semialdehyde aminotransferase)
+NC_003210.1,1753094,1754942,-1,"lmo1688, lmo1689","lmo1688 (enoyl-ACP reductase), lmo1689 (A/G-specific adenine glycosylase)"
+NC_003210.1,1755142,1756123,1,lmo1690,lmo1690 (hypothetical protein)
+NC_003210.1,1756155,1757673,-1,"lmo1691, lmo1692, lmo1693","lmo1691 (deoxyuridine triphosphate nucleotidohydrolase), lmo1692 (hypothetical protein), lmo1693 (recombination regulator RecX)"
+NC_003210.1,1757770,1758673,1,lmo1694,lmo1694 (CDP-abequose synthase)
+NC_003210.1,1758693,1761992,-1,"lmo1695, lmo1696","lmo1695 (hypothetical protein), lmo1696 (hypothetical protein)"
+NC_003210.1,1762199,1763165,1,lmo1697,lmo1697 (hypothetical protein)
+NC_003210.1,1763208,1763751,-1,lmo1698,lmo1698 (ribosomal-protein-alanine N-acetyltransferase)
+NC_003210.1,1763940,1765077,1,"lmo1699, lmo1700","lmo1699 (chemotaxis protein), lmo1700 (hypothetical protein)"
+NC_003210.1,1765116,1767739,-1,"lmo1701, lmo1702, lmo1703, lmo1704","lmo1701 (hypothetical protein), lmo1702 (glutathione transferase), lmo1703 (RNA methyltransferase), lmo1704 (hypothetical protein)"
+NC_003210.1,1767845,1768490,1,lmo1705,lmo1705 (deoxyguanosine kinase/deoxyadenosine kinase)
+NC_003210.1,1768519,1769389,-1,lmo1706,lmo1706 (transporter)
+NC_003210.1,1769478,1769700,1,lmo1707,lmo1707 (hypothetical protein)
+NC_003210.1,1770647,1771406,-1,lmo1709,lmo1709 (methionine aminopeptidase)
+NC_003210.1,1771593,1772040,1,lmo1710,lmo1710 (flavodoxin)
+NC_003210.1,1776909,1777578,-1,lmo1715,lmo1715 (hypothetical protein)
+NC_003210.1,1777762,1778338,1,lmo1716,lmo1716 (transcriptional regulator)
+NC_003210.1,1787768,1795253,-1,"lmo1726, lmo1727, lmo1728, lmo1729","lmo1726 (hypothetical protein), lmo1727 (LacI family transcriptional regulator), lmo1728 (cellobiose phosphorylase), lmo1729 (beta-glucosidase)"
+NC_003210.1,1795680,1796925,1,lmo1730,lmo1730 (sugar ABC transporter substrate-binding protein)
+NC_003210.1,1798771,1804848,-1,"lmo1733, lmo1734","lmo1733 (glutamate synthase subunit beta), lmo1734 (glutamate synthase large subunit)"
+NC_003210.1,1805040,1805928,1,lmo1735,lmo1735 (transcription activator of glutamate synthase operon GltC)
+NC_003210.1,1809117,1809759,-1,lmo1740,lmo1740 (amino acid ABC transporter permease)
+NC_003210.1,1809816,1810057,1,lmos66,lmos66 (T-box)
+NC_003210.1,1818006,1818516,-1,lmo1748,lmo1748 (hypothetical protein)
+NC_003210.1,1818739,1819213,1,lmo1749,lmo1749 (shikimate kinase)
+NC_003210.1,1832241,1832919,-1,lmo1760,lmo1760 (geranylgeranylglyceryl phosphate synthase-like protein)
+NC_003210.1,1833124,1834480,1,lmo1761,lmo1761 (sodium-dependent transporter)
+NC_003210.1,1854076,1854682,-1,lmo1777,lmo1777 (hypothetical protein)
+NC_003210.1,1854747,1855933,1,"lmo1778, lmo1779","lmo1778 (ABC transporter ATP-binding protein), lmo1779 (hypothetical protein)"
+NC_003210.1,1855951,1857772,-1,"lmo1780, lmo1781","lmo1780 (aminotripeptidase), lmo1781 (hypothetical protein)"
+NC_003210.1,1857855,1858611,1,lmo1782,lmo1782 (3'-exo-deoxyribonuclease)
+NC_003210.1,1858650,1859787,-1,"lmo1783, lmo1784, lmo1785","lmo1783 (50S ribosomal protein L20), lmo1784 (50S ribosomal protein L35), lmo1785 (translation initiation factor IF-3)"
+NC_003210.1,1859869,1860008,1,lmos67,lmos67 (LhrB)
+NC_003210.1,1860199,1861090,-1,lmo1786,lmo1786 (internalin C)
+NC_003210.1,1861376,1861630,1,lmos68,lmos68 (rli43)
+NC_003210.1,1861906,1862251,-1,lmo1787,lmo1787 (50S ribosomal protein L19)
+NC_003210.1,1862269,1862308,1,lmos69,lmos69 (L19)
+NC_003210.1,1887912,1890653,-1,"lmo1813, lmo1814, lmo1815","lmo1813 (phosphoglycerate dehydrogenase), lmo1814 (hypothetical protein), lmo1815 (hypothetical protein)"
+NC_003210.1,1890950,1891139,1,lmo1816,lmo1816 (50S ribosomal protein L28)
+NC_003210.1,1902280,1903995,-1,"lmo1826, lmo1827, lmo1828","lmo1826 (DNA-directed RNA polymerase subunit omega), lmo1827 (guanylate kinase), lmo1828 (hypothetical protein)"
+NC_003210.1,1904151,1905864,1,lmo1829,lmo1829 (fibronectin-binding proteins)
+NC_003210.1,1916165,1917452,-1,lmo1839,lmo1839 (uracil permease)
+NC_003210.1,1917470,1917574,1,lmos70,lmos70 (PyrR)
+NC_003210.1,1917580,1918132,-1,lmo1840,lmo1840 (bifunctional pyrimidine regulatory protein PyrR uracil phosphoribosyltransferase)
+NC_003210.1,1918153,1918262,1,lmos71,lmos71 (PyrR)
+NC_003210.1,1920981,1922265,-1,lmo1845,lmo1845 (hypothetical protein)
+NC_003210.1,1922438,1923809,1,lmo1846,lmo1846 (multidrug transporter)
+NC_003210.1,1934320,1937603,-1,"lmo1859, lmo1860, lmo1861, lmo1862, lmo1863","lmo1859 (methionine sulfoxide reductase B), lmo1860 (methionine sulfoxide reductase A), lmo1861 (hypothetical protein), lmo1862 (hypothetical protein), lmo1863 (hypothetical protein)"
+NC_003210.1,1937782,1938415,1,lmo1864,lmo1864 (hemolysin)
+NC_003210.1,1952720,1953149,-1,lmo1878,lmo1878 (manganese transport transcriptional regulator)
+NC_003210.1,1953512,1953713,1,lmo1879,lmo1879 (cold-shock protein)
+NC_003210.1,1956847,1958740,-1,"lmo1884, lmo1885","lmo1884 (xanthine permease), lmo1885 (xanthine phosphoribosyltransferase)"
+NC_003210.1,1958820,1958922,1,lmos72,lmos72 (Purine)
+NC_003210.1,1958967,1961644,-1,"lmo1886, lmo1887","lmo1886 (carboxypeptidase), lmo1887 (hypothetical protein)"
+NC_003210.1,1961803,1962188,1,lmos73,lmos73 (rnpB)
+NC_003210.1,1962697,1963605,-1,"lmo1889, lmo1890","lmo1889 (hypothetical protein), lmo1890 (hypothetical protein)"
+NC_003210.1,1963851,1966972,1,"lmo1891, lmo1892","lmo1891 (Holliday junction-specific endonuclease), lmo1892 (penicillin-binding protein 2A)"
+NC_003210.1,1977927,1981634,-1,"lmo1904, lmo1905, lmo1906, lmo1907, lmo1908","lmo1904 (transcriptional regulator), lmo1905 (tRNA CCA-pyrophosphorylase), lmo1906 (methylglyoxal synthase), lmo1907 (dihydrodipicolinate reductase), lmo1908 (hypothetical protein)"
+NC_003210.1,1981773,1982640,1,lmo1909,lmo1909 (hypothetical protein)
+NC_003210.1,1982629,1983736,-1,lmo1910,lmo1910 (oxidoreductase)
+NC_003210.1,1984055,1985192,1,lmo1911,lmo1911 (histidine kinase)
+NC_003210.1,2016857,2019265,-1,"lmo1942, lmo1943","lmo1942 (ATP-dependent DNA helicase), lmo1943 (hypothetical protein)"
+NC_003210.1,2019419,2019644,1,lmo1944,lmo1944 (ferredoxin)
+NC_003210.1,2019685,2020297,-1,lmo1945,lmo1945 (hypothetical protein)
+NC_003210.1,2020486,2020609,1,lmos74,lmos74 (FMN)
+NC_003210.1,2033586,2034528,-1,lmo1959,lmo1959 (ferrichrome-binding protein)
+NC_003210.1,2034692,2036505,1,"lmo1960, lmo1961","lmo1960 (ferrichrome ABC transporter ATP-binding protein), lmo1961 (oxidoreductase)"
+NC_003210.1,2037140,2038840,-1,"lmo1963, lmo1964","lmo1963 (hypothetical protein), lmo1964 (ABC transporter ATP-binding protein)"
+NC_003210.1,2039086,2039375,1,lmos75,lmos75 (rli44)
+NC_003210.1,2039440,2039998,-1,lmo1965,lmo1965 (hypothetical protein)
+NC_003210.1,2040273,2040933,1,lmo1966,lmo1966 (hypothetical protein)
+NC_003210.1,2049418,2050339,-1,lmo1977,lmo1977 (hypothetical protein)
+NC_003210.1,2050638,2052114,1,lmo1978,lmo1978 (glucose-6-phosphate 1-dehydrogenase)
+NC_003210.1,2052815,2053801,-1,"lmo1981, lmo1982","lmo1981 (hypothetical protein), lmo1982 (hypothetical protein)"
+NC_003210.1,2054123,2054308,1,lmos76,lmos76 (rli60)
+NC_003210.1,2083536,2091454,-1,"lmo2010, lmo2011, lmo2012, lmo2013, lmo2014","lmo2010 (two-component response regulator), lmo2011 (two-component sensor histidine kinase), lmo2012 (hypothetical protein), lmo2013 (hypothetical protein), lmo2014 (sugar hydrolase)"
+NC_003210.1,2091697,2094808,1,lmo2015,lmo2015 (alpha-mannosidase)
+NC_003210.1,2097175,2099941,-1,lmo2019,lmo2019 (isoleucyl-tRNA synthetase)
+NC_003210.1,2100000,2100227,1,lmos77,lmos77 (T-box)
+NC_003210.1,2100844,2102477,-1,"lmo2021, lmo2022","lmo2021 (hypothetical protein), lmo2022 (carbon-sulfur lyase)"
+NC_003210.1,2102607,2104062,1,lmo2023,lmo2023 (L-aspartate oxidase)
+NC_003210.1,2125698,2126946,-1,lmo2043,lmo2043 (MFS transporter)
+NC_003210.1,2127061,2128876,1,lmo2044,lmo2044 (peptide ABC transporter substrate-binding protein)
+NC_003210.1,2130491,2131028,-1,lmo2048,lmo2048 (hypothetical protein)
+NC_003210.1,2131157,2132330,1,lmo2049,lmo2049 (hypothetical protein)
+NC_003210.1,2138903,2139809,-1,lmo2057,lmo2057 (protoheme IX farnesyltransferase)
+NC_003210.1,2140045,2140963,1,lmo2058,lmo2058 (heme O oxygenase)
+NC_003210.1,2141819,2144734,-1,"lmo2060, lmo2061, lmo2062","lmo2060 (hypothetical protein), lmo2061 (hypothetical protein), lmo2062 (copper transporter)"
+NC_003210.1,2144873,2145065,1,lmo2063,lmo2063 (hypothetical protein)
+NC_003210.1,2147683,2149632,-1,"lmo2068, lmo2069","lmo2068 (molecular chaperone GroEL), lmo2069 (co-chaperonin GroES)"
+NC_003210.1,2149867,2150759,1,"lmo2070, lmo2071","lmo2070 (hypothetical protein), lmo2071 (hypothetical protein)"
+NC_003210.1,2150785,2151433,-1,lmo2072,lmo2072 (redox-sensing transcriptional repressor Rex)
+NC_003210.1,2151743,2154679,1,"lmo2073, lmo2074","lmo2073 (ABC transporter ATP-binding protein), lmo2074 (hypothetical protein)"
+NC_003210.1,2161160,2162054,-1,lmo2084,lmo2084 (hypothetical protein)
+NC_003210.1,2162186,2162273,1,lmot40,lmot40 (tRNA-Leu)
+NC_003210.1,2168053,2169097,-1,lmo2089,lmo2089 (lipase)
+NC_003210.1,2169311,2171900,1,"lmo2090, lmo2091","lmo2090 (argininosuccinate synthase), lmo2091 (argininosuccinate lyase)"
+NC_003210.1,2179757,2181203,-1,lmo2100,lmo2100 (GntR family transcriptional regulator)
+NC_003210.1,2181328,2182784,1,"lmo2101, lmo2102","lmo2101 (pyridoxal biosynthesis lyase PdxS), lmo2102 (glutamine amidotransferase subunit PdxT)"
+NC_003210.1,2182822,2183800,-1,lmo2103,lmo2103 (phosphotransacetylase)
+NC_003210.1,2184119,2186527,1,"lmo2104, lmo2105, lmo2104a","lmo2104 (hypothetical protein), lmo2105 (ferrous iron transport protein B), lmo2104a (hypothetical protein)"
+NC_003210.1,2186556,2187411,-1,lmo2106,lmo2106 (hypothetical protein)
+NC_003210.1,2187662,2190402,1,"lmo2107, lmo2108, lmo2109","lmo2107 (DeoR family transcriptional regulator), lmo2108 (N-acetylglucosamine-6-phosphate deacetylase), lmo2109 (hydrolase)"
+NC_003210.1,2191524,2192256,-1,lmo2111,lmo2111 (nitroreductase)
+NC_003210.1,2192378,2192609,1,lmo2112,lmo2112 (hypothetical protein)
+NC_003210.1,2196381,2197206,-1,lmo2116,lmo2116 (hypothetical protein)
+NC_003210.1,2197266,2197728,1,lmo2117,lmo2117 (hypothetical protein)
+NC_003210.1,2208575,2210351,-1,lmo2126,lmo2126 (maltogenic amylase)
+NC_003210.1,2210608,2211244,1,lmo2127,lmo2127 (hypothetical protein)
+NC_003210.1,2213217,2215041,-1,lmo2130,lmo2130 (hypothetical protein)
+NC_003210.1,2215374,2215446,1,lmot41,lmot41 (tRNA-Glu)
+NC_003210.1,2216053,2216743,-1,lmo2131,lmo2131 (hypothetical protein)
+NC_003210.1,2217221,2217953,1,lmo2132,lmo2132 (hypothetical protein)
+NC_003210.1,2219750,2223128,-1,"lmo2135, lmo2136, lmo2137, lmo2138","lmo2135 (PTS fructose transporter subunit IIC), lmo2136 (PTS fructose transporter subunit IIB), lmo2137 (PTS fructose transporter subunit IIA), lmo2138 (transcriptional regulator)"
+NC_003210.1,2223323,2225944,1,"lmo2139, lmo2140, lmo2141","lmo2139 (ABC transporter ATP-binding protein), lmo2140 (ABC transporter permease), lmo2141 (hypothetical protein)"
+NC_003210.1,2226532,2227198,-1,lmo2142,lmo2142 (hypothetical protein)
+NC_003210.1,2227411,2229154,1,lmo2143,lmo2143 (hypothetical protein)
+NC_003210.1,2231126,2231981,-1,lmo2146,lmo2146 (LysR family transcriptional regulator)
+NC_003210.1,2232086,2233791,1,"lmo2147, lmo2148","lmo2147 (hypothetical protein), lmo2148 (hypothetical protein)"
+NC_003210.1,2233840,2234158,-1,lmo2149,lmo2149 (hypothetical protein)
+NC_003210.1,2234356,2234533,1,lmo2150,lmo2150 (hypothetical protein)
+NC_003210.1,2234981,2239135,-1,"lmo2152, lmo2153, lmo2154, lmo2155","lmo2152 (thioredoxin), lmo2153 (flavodoxin), lmo2154 (ribonucleotide-diphosphate reductase subunit beta), lmo2155 (ribonucleotide-diphosphate reductase subunit alpha)"
+NC_003210.1,2239671,2240013,1,lmo2156,lmo2156 (hypothetical protein)
+NC_003210.1,2249682,2250300,-1,lmo2167,lmo2167 (hypothetical protein)
+NC_003210.1,2250430,2250820,1,lmo2168,lmo2168 (glyoxalase)
+NC_003210.1,2257753,2258515,-1,lmo2175,lmo2175 (3-ketoacyl-ACP reductase)
+NC_003210.1,2258696,2259260,1,lmo2176,lmo2176 (TetR family transcriptional regulator)
+NC_003210.1,2274960,2275221,-1,lmo2187,lmo2187 (hypothetical protein)
+NC_003210.1,2275257,2275363,1,lmos82,lmos82 (rli61)
+NC_003210.1,2284538,2286215,-1,lmo2196,lmo2196 (hypothetical protein)
+NC_003210.1,2286838,2287183,1,lmo2197,lmo2197 (hypothetical protein)
+NC_003210.1,2292046,2293174,-1,lmo2203,lmo2203 (N-acetylmuramoyl-L-alanine amidase)
+NC_003210.1,2293496,2293685,1,lmo2204,lmo2204 (hypothetical protein)
+NC_003210.1,2300333,2302321,-1,"lmo2211, lmo2212","lmo2211 (ferrochelatase), lmo2212 (uroporphyrinogen decarboxylase)"
+NC_003210.1,2302517,2303021,1,lmo2213,lmo2213 (hypothetical protein)
+NC_003210.1,2304266,2305019,-1,lmo2215,lmo2215 (ABC transporter ATP-binding protein)
+NC_003210.1,2305179,2305602,1,lmo2216,lmo2216 (histidine triad (HIT) protein)
+NC_003210.1,2317949,2320094,-1,lmo2229,lmo2229 (penicillin-binding protein)
+NC_003210.1,2320415,2321775,1,"lmo2230, lmo2231","lmo2230 (arsenate reductase), lmo2231 (hypothetical protein)"
+NC_003210.1,2323374,2324253,-1,lmo2233,lmo2233 (LysR family transcriptional regulator)
+NC_003210.1,2324553,2325408,1,lmo2234,lmo2234 (hypothetical protein)
+NC_003210.1,2333374,2333857,-1,lmo2242,lmo2242 (O6-methylguanine-DNA methyltransferase)
+NC_003210.1,2334002,2335455,1,"lmo2243, lmo2244","lmo2243 (AraC family transcriptional regulator), lmo2244 (ribosomal large subunit pseudouridine synthase)"
+NC_003210.1,2335467,2337399,-1,"lmo2245, lmo2246, lmo2247","lmo2245 (hypothetical protein), lmo2246 (hypothetical protein), lmo2247 (oxidoreductase)"
+NC_003210.1,2337785,2339418,1,"lmo2248, lmo2249","lmo2248 (hypothetical protein), lmo2249 (low-affinity inorganic phosphate transporter)"
+NC_003210.1,2343055,2343685,-1,lmo2253,lmo2253 (phosphoglucomutase)
+NC_003210.1,2343857,2345150,1,lmo2254,lmo2254 (hypothetical protein)
+NC_003210.1,2345566,2346784,-1,"lmo2256, lmos84, lmo2257, lmo2258","lmo2256 (hypothetical protein), lmos84 (LhrA), lmo2257 (hypothetical protein), lmo2258 (hypothetical protein)"
+NC_003210.1,2346934,2347285,1,lmo2259,lmo2259 (PTS beta-glucoside transporter subunit IIA)
+NC_003210.1,2348230,2349356,-1,"lmo2261, lmo2262","lmo2261 (hypothetical protein), lmo2262 (hypothetical protein)"
+NC_003210.1,2349474,2350320,1,lmo2263,lmo2263 (hypothetical protein)
+NC_003210.1,2359947,2360304,-1,lmo2269,lmo2269 (hypothetical protein)
+NC_003210.1,2360434,2360713,1,lmo2270,lmo2270 (competence protein ComK)
+NC_003210.1,2360907,2361141,-1,lmo2271,lmo2271 (hypothetical protein)
+NC_003210.1,2361273,2361423,1,lmos85,lmos85 (rli48)
+NC_003210.1,2363708,2364260,-1,lmo2277,lmo2277 (hypothetical protein)
+NC_003210.1,2364336,2364508,1,lmos86,lmos86 (rli62)
+NC_003210.1,2385300,2386680,-1,"lmo2301, lmo2302","lmo2301 (terminase), lmo2302 (hypothetical protein)"
+NC_003210.1,2386714,2386992,1,lmos87,lmos87 (rliG)
+NC_003210.1,2396453,2397487,-1,"lmo2324, lmo2325","lmo2324 (anti-repressor), lmo2325 (hypothetical protein)"
+NC_003210.1,2397293,2397491,1,lmo2325a,lmo2325a (hypothetical protein)
+NC_003210.1,2398286,2398529,-1,lmo2328,lmo2328 (XRE family transcriptional regulator)
+NC_003210.1,2398684,2399161,1,lmo2329,lmo2329 (hypothetical protein)
+NC_003210.1,2405240,2406913,-1,"lmo2336, lmo2337","lmo2336 (fructose-1-phosphate kinase), lmo2337 (DeoR family transcriptional regulator)"
+NC_003210.1,2407127,2408453,1,lmo2338,lmo2338 (aminopeptidase)
+NC_003210.1,2416704,2418628,-1,"lmo2349, lmo2350, lmo2351","lmo2349 (amino acid ABC transporter substrate-binding protein), lmo2350 (hypothetical protein), lmo2351 (FMN reductase)"
+NC_003210.1,2418870,2419770,1,lmo2352,lmo2352 (LysR family transcriptional regulator)
+NC_003210.1,2428009,2431296,-1,"lmo2360, lmo2361","lmo2360 (transmembrane protein), lmo2361 (hypothetical protein)"
+NC_003210.1,2431687,2434618,1,"lmo2362, lmo2363","lmo2362 (amino acid antiporter), lmo2363 (glutamate decarboxylase)"
+NC_003210.1,2446239,2446593,-1,lmo2369,lmo2369 (general stress protein 13)
+NC_003210.1,2446746,2447913,1,lmo2370,lmo2370 (aminotransferase)
+NC_003210.1,2449877,2450192,-1,lmo2373,lmo2373 (PTS beta-glucoside transporter subunit IIB)
+NC_003210.1,2450436,2451798,1,lmo2374,lmo2374 (aspartate kinase)
+NC_003210.1,2452321,2452906,-1,lmo2376,lmo2376 (peptidyl-prolyl cis-trans isomerase)
+NC_003210.1,2453137,2454349,1,lmo2377,lmo2377 (multidrug transporter)
+NC_003210.1,2460719,2461091,-1,lmo2385,lmo2385 (hypothetical protein)
+NC_003210.1,2461218,2461692,1,lmo2386,lmo2386 (hypothetical protein)
+NC_003210.1,2463968,2465180,-1,lmo2389,lmo2389 (NADH dehydrogenase)
+NC_003210.1,2465629,2466625,1,lmo2390,lmo2390 (hypothetical thioredoxine reductase)
+NC_003210.1,2468544,2468703,-1,lmo2395,lmo2395 (hypothetical protein)
+NC_003210.1,2469092,2471915,1,lmo2396,lmo2396 (internalin)
+NC_003210.1,2472962,2477251,-1,"lmo2399, lmo2400, lmo2401, lmo2402, lmo2403","lmo2399 (hypothetical protein), lmo2400 (acetyltransferase), lmo2401 (hypothetical protein), lmo2402 (hypothetical protein), lmo2403 (hypothetical protein)"
+NC_003210.1,2477384,2478224,1,lmo2404,lmo2404 (hypothetical protein)
+NC_003210.1,2479606,2479921,-1,lmo2407,lmo2407 (hypothetical protein)
+NC_003210.1,2480324,2480944,1,"lmo2408, lmo2409","lmo2408 (repressor protein), lmo2409 (hypothetical protein)"
+NC_003210.1,2481731,2486921,-1,"lmo2411, lmo2412, lmo2413, lmo2414, lmo2415","lmo2411 (hypothetical protein), lmo2412 (hypothetical protein), lmo2413 (aminotransferase), lmo2414 (aminotransferase), lmo2415 (ABC transporter ATP-binding protein)"
+NC_003210.1,2487260,2488337,1,lmo2416,lmo2416 (hypothetical protein)
+NC_003210.1,2488378,2490967,-1,"lmo2417, lmo2418, lmo2419","lmo2417 (ABC transporter substrate-binding protein), lmo2418 (ABC transporter permease), lmo2419 (ABC transporter ATP-binding protein)"
+NC_003210.1,2491057,2491176,1,lmos88,lmos88 (SAM)
+NC_003210.1,2499168,2501150,-1,"lmo2430, lmo2431","lmo2430 (ferrichrome ABC transporter permease), lmo2431 (ferrichrome ABC transporter substrate-binding protein)"
+NC_003210.1,2501305,2501470,1,lmo2432,lmo2432 (hypothetical protein)
+NC_003210.1,2502400,2503804,-1,lmo2434,lmo2434 (glutamate decarboxylase)
+NC_003210.1,2503930,2504236,1,lmo2435,lmo2435 (hypothetical protein)
+NC_003210.1,2504299,2505157,-1,lmo2436,lmo2436 (transcription antiterminator)
+NC_003210.1,2505424,2505835,1,lmo2437,lmo2437 (hypothetical protein)
+NC_003210.1,2505857,2506370,-1,lmo2438,lmo2438 (hypothetical protein)
+NC_003210.1,2506493,2506835,1,lmo2439,lmo2439 (hypothetical protein)
+NC_003210.1,2508991,2509411,-1,lmo2443,lmo2443 (hypothetical protein)
+NC_003210.1,2509853,2510220,1,lmos89,lmos89 (ssrA)
+NC_003210.1,2515311,2518587,-1,lmo2446,lmo2446 (glycosidase)
+NC_003210.1,2518970,2519879,1,lmo2447,lmo2447 (transcriptional regulator)
+NC_003210.1,2535341,2539611,-1,"lmo2462, lmo2463, lmo2464, lmo2465","lmo2462 (dipeptidase), lmo2463 (multidrug transporter), lmo2464 (transcriptional regulator), lmo2465 (hypothetical protein)"
+NC_003210.1,2539837,2540173,1,lmo2466,lmo2466 (hypothetical protein)
+NC_003210.1,2540420,2541857,-1,lmo2467,lmo2467 (chitin-binding protein)
+NC_003210.1,2542013,2542610,1,lmo2468,lmo2468 (ATP-dependent Clp protease proteolytic subunit)
+NC_003210.1,2542657,2544049,-1,lmo2469,lmo2469 (amino acid transporter)
+NC_003210.1,2544266,2545433,1,lmo2470,lmo2470 (internalin)
+NC_003210.1,2592964,2594523,-1,"lmo2514, lmo2515","lmo2514 (hypothetical protein), lmo2515 (two-component response regulator DegU)"
+NC_003210.1,2594907,2596090,1,"lmo2516, lmo2517","lmo2516 (hypothetical protein), lmo2517 (hypothetical protein)"
+NC_003210.1,2633929,2634850,-1,lmo2557,lmo2557 (lipid kinase)
+NC_003210.1,2635166,2637920,1,lmo2558,"lmo2558 (autolysin, amidase)"
+NC_003210.1,2640831,2643679,-1,"lmo2561, lmo2562, lmo2563","lmo2561 (arginyl-tRNA synthetase), lmo2562 (hypothetical protein), lmo2563 (hypothetical protein)"
+NC_003210.1,2643752,2643938,1,lmo2564,lmo2564 (4-oxalocrotonate isomerase)
+NC_003210.1,2658023,2658851,-1,lmo2577,lmo2577 (hypothetical protein)
+NC_003210.1,2658965,2660145,1,"lmo2578, lmo2579","lmo2578 (hypothetical protein), lmo2579 (hypothetical protein)"
+NC_003210.1,2660177,2660339,-1,lmo2579a,lmo2579a (hypothetical protein)
+NC_003210.1,2660178,2660364,1,lmos90,lmos90 (rli49)
+NC_003210.1,2664342,2668653,-1,"lmo2584, lmo2585, lmo2586","lmo2584 (formate dehydrogenase accessory protein), lmo2585 (hypothetical protein), lmo2586 (formate dehydrogenase subunit alpha)"
+NC_003210.1,2668832,2669994,1,"lmos91, lmo2587","lmos91 (T-box), lmo2587 (hypothetical protein)"
+NC_003210.1,2678301,2679330,-1,lmo2590,lmo2590 (ATP-binding protein)
+NC_003210.1,2679598,2681125,1,lmo2591,lmo2591 (N-acetylmuramoyl-L-alanine amidase)
+NC_003210.1,2682583,2682943,-1,lmo2594,lmo2594 (hypothetical protein)
+NC_003210.1,2683186,2684056,1,lmo2595,lmo2595 (hypothetical protein)
+NC_003210.1,2684250,2685102,-1,"lmo2596, lmo2597","lmo2596 (30S ribosomal protein S9), lmo2597 (50S ribosomal protein L13)"
+NC_003210.1,2685180,2685233,1,lmos92,lmos92 (L13)
+NC_003210.1,2685296,2688530,-1,"lmo2598, lmo2599, lmo2600, lmo2601","lmo2598 (tRNA pseudouridine synthase A), lmo2599 (hypothetical protein), lmo2600 (cobalt ABC transporter ATP-binding subunit), lmo2601 (cobalt ABC transporter ATP-binding protein)"
+NC_003210.1,2688660,2689323,1,lmo2602,lmo2602 (hypothetical protein)
+NC_003210.1,2709521,2710421,-1,lmo2637,lmo2637 (hypothetical protein)
+NC_003210.1,2710868,2712755,1,lmo2638,lmo2638 (NADH dehydrogenase)
+NC_003210.1,2743325,2745791,-1,"lmo2669, lmo2670, lmo2671, lmo2672","lmo2669 (hypothetical protein), lmo2670 (hypothetical protein), lmo2671 (hypothetical protein), lmo2672 (AraC family transcriptional regulator)"
+NC_003210.1,2745906,2746878,1,"lmo2673, lmo2674","lmo2673 (hypothetical protein), lmo2674 (ribose-5-phosphate isomerase B)"
+NC_003210.1,2748684,2757265,-1,"lmo2677, lmo2678, lmo2679, lmo2680, lmo2681, lmo2682","lmo2677 (esterase), lmo2678 (XRE family transcriptional regulator), lmo2679 (histidine kinase), lmo2680 (potassium-transporting ATPase subunit C), lmo2681 (potassium-transporting ATPase subunit B), lmo2682 (potassium-transporting ATPase subunit A)"
+NC_003210.1,2757605,2757911,1,lmo2683,lmo2683 (PTS cellbiose transporter subunit IIB)
+NC_003210.1,2765823,2766078,-1,lmo2689a,lmo2689a (hypothetical protein)
+NC_003210.1,2765939,2766104,1,lmos93,lmos93 (M-box)
+NC_003210.1,2766206,2766773,-1,lmo2690,lmo2690 (TetR family transcriptional regulator)
+NC_003210.1,2766934,2768707,1,lmo2691,lmo2691 (autolysin)
+NC_003210.1,2769380,2771439,-1,"lmo2693, lmo2694","lmo2693 (thymidylate kinase), lmo2694 (lysine decarboxylase)"
+NC_003210.1,2771622,2773608,1,"lmo2695, lmo2696, lmo2697","lmo2695 (dihydroxyacetone kinase subunit DhaK), lmo2696 (dihydroxyacetone kinase), lmo2697 (PTS mannose transporter subunit IIA)"
+NC_003210.1,2780932,2782297,-1,lmo2708,lmo2708 (PTS cellbiose transporter subunit IIC)
+NC_003210.1,2782738,2782894,1,lmo2709,lmo2709 (hypothetical protein)
+NC_003210.1,2783465,2784107,-1,lmo2710,lmo2710 (hypothetical protein)
+NC_003210.1,2784271,2784674,1,"lmos95, lmo2711","lmos95 (SRP), lmo2711 (hypothetical protein)"
+NC_003210.1,2794754,2795225,-1,lmo2719,lmo2719 (hypothetical protein)
+NC_003210.1,2795419,2796997,1,lmo2720,lmo2720 (acetate-CoA ligase)
+NC_003210.1,2797038,2797758,-1,lmo2721,lmo2721 (6-phosphogluconolactonase)
+NC_003210.1,2797837,2799087,1,"lmo2722, lmo2723","lmo2722 (MerR family transcripitonal regulator), lmo2723 (hypothetical protein)"
+NC_003210.1,2799107,2801407,-1,"lmo2724, lmo2725, lmo2726","lmo2724 (hypothetical protein), lmo2725 (hypothetical protein), lmo2726 (MarR family transcriptional regulator)"
+NC_003210.1,2801576,2802458,1,lmo2727,lmo2727 (hypothetical protein)
+NC_003210.1,2804521,2805274,-1,lmo2732,lmo2732 (hypothetical protein)
+NC_003210.1,2805439,2812921,1,"lmo2733, lmo2734, lmo2735, lmo2736","lmo2733 (PTS fructose transporter subunit IIABC), lmo2734 (sugar hydrolase), lmo2735 (sucrose phosphorylase), lmo2736 (hypothetical protein)"
+NC_003210.1,2818840,2819530,-1,lmo2744,lmo2744 (Crp/Fnr family transcriptional regulator)
+NC_003210.1,2819859,2821587,1,lmo2745,lmo2745 (ABC transporter ATP-binding protein)
+NC_003210.1,2821640,2823195,-1,"lmo2746, lmo2747","lmo2746 (hypothetical protein), lmo2747 (seryl-tRNA synthetase)"
+NC_003210.1,2823254,2823477,1,lmos96,lmos96 (T-box)
+NC_003210.1,2823529,2823949,-1,lmo2748,lmo2748 (hypothetical protein)
+NC_003210.1,2824078,2826354,1,"lmo2749, lmo2750","lmo2749 (glutamine amidotransferase), lmo2750 (para-aminobenzoate synthase subunit I)"
+NC_003210.1,2839697,2841896,-1,"lmo2759, lmo2760","lmo2759 (hypothetical protein), lmo2760 (ABC transporter ATP-binding protein)"
+NC_003210.1,2841961,2846798,1,"lmos97, lmo2760a, lmo2761, lmo2762, lmo2763, lmo2764, lmo2765","lmos97 (rliI), lmo2760a (hypothetical protein), lmo2761 (beta-glucosidase), lmo2762 (PTS cellbiose transporter subunit IIB), lmo2763 (PTS cellbiose transporter subunit IIC), lmo2764 (ROK family transcriptional regulator), lmo2765 (PTS cellbiose transporter subunit IIA)"
+NC_003210.1,2847672,2850450,-1,"lmo2767, lmo2768, lmo2769","lmo2767 (hypothetical protein), lmo2768 (hypothetical protein), lmo2769 (ABC transporter ATP-binding protein)"
+NC_003210.1,2850619,2852950,1,lmo2770,lmo2770 (bifunctional glutamate--cysteine ligase/glutathione synthetase)
+NC_003210.1,2860425,2860821,-1,lmo2776,lmo2776 (hypothetical protein)
+NC_003210.1,2861423,2862614,1,lmo2777,lmo2777 (multidrug transporter)
+NC_003210.1,2892595,2895883,-1,"lmo2810, lmo2811","lmo2810 (tRNA uridine 5-carboxymethylaminomethyl modification enzyme GidA), lmo2811 (tRNA modification GTPase TrmE)"
+NC_003210.1,2896240,2897059,1,lmo2812,lmo2812 (D-alanyl-D-alanine carboxypeptidase)
+NC_003210.1,2897115,2898374,-1,"lmo2813, lmo2814","lmo2813 (hypothetical protein), lmo2814 (TetR family transcriptional regulator)"
+NC_003210.1,2898534,2899266,1,lmo2815,lmo2815 (3-ketoacyl-ACP reductase)
+NC_003210.1,2904597,2906940,-1,lmo2820,lmo2820 (amino-terminal domain-containing protein)
+NC_003210.1,2907152,2909708,1,lmo2821,lmo2821 (internalin)
+NC_003210.1,2915743,2916097,-1,lmo2828,lmo2828 (hypothetical protein)
+NC_003210.1,2916290,2916890,1,lmo2829,lmo2829 (nitroreductase)
+NC_003210.1,2928667,2929090,-1,lmo2841,lmo2841 (sucrose phosphorylase)
+NC_003210.1,2929314,2930434,1,"lmo2842, lmot67","lmo2842 (LacI family transcriptional regulator), lmot67 (tRNA-Val)"
+NC_003210.1,2932608,2933148,-1,lmo2844,lmo2844 (hypothetical protein)
+NC_003210.1,2933302,2934715,1,lmo2845,lmo2845 (MFS transporter)
+NC_003210.1,2934755,2939930,-1,"lmo2846, lmo2847, lmo2848, lmo2849, lmo2850","lmo2846 (hypothetical protein), lmo2847 (rhamnulose-1-phosphate aldolase), lmo2848 (L-rhamnose isomerase), lmo2849 (rhamnulokinase), lmo2850 (sugar transporter)"
+NC_003210.1,2940052,2941033,1,lmo2851,lmo2851 (AraC family transcriptional regulator)
+NC_003210.1,2943870,2944341,-1,lmo2857,lmo2857 (hypothetical protein)
+NC_003210.1,1866,3012,1,lmo0002,lmo0002 (DNA polymerase III subunit beta)
+NC_003210.1,29099,31004,1,lmo0027,lmo0027 (PTS beta-glucoside transporter subunit IIABC)
+NC_003210.1,32570,33380,-1,lmo0030,lmo0030 (hypothetical protein)
+NC_003210.1,40704,45223,1,"lmo0036, lmo0037, lmo0038, lmo0039","lmo0036 (putrescine carbamoyltransferase), lmo0037 (amino acid transporter), lmo0038 (agmatine deiminase), lmo0039 (carbamate kinase)"
+NC_003210.1,82704,82777,1,lmot01,lmot01 (tRNA-Lys)
+NC_003210.1,88887,97369,1,"lmo0086, lmo0087, lmo0088","lmo0086 (hypothetical protein), lmo0087 (hypothetical protein), lmo0088 (ATP synthase subunit C)"
+NC_003210.1,109348,109720,1,lmo0104,lmo0104 (hypothetical protein)
+NC_003210.1,119062,119770,1,lmo0111,lmo0111 (hypothetical protein)
+NC_003210.1,119739,120435,-1,lmo0112,lmo0112 (Fnr/Crp family transcriptional regulator)
+NC_003210.1,122797,123187,1,lmo0117,lmo0117 (antigen B)
+NC_003210.1,136713,136992,1,lmo0134,lmo0134 (hypothetical protein)
+NC_003210.1,151185,152645,1,"lmo0154, lmo0155","lmo0154 (zinc ABC transporter ATP-binding protein), lmo0155 (zinc ABC transporter permease)"
+NC_003210.1,157088,159470,1,lmo0159,lmo0159 (peptidoglycan binding protein)
+NC_003210.1,165491,166642,1,"lmo0166, lmo0167","lmo0166 (GIY-YIG nuclease), lmo0167 (hypothetical protein)"
+NC_003210.1,169509,172008,1,lmo0171,lmo0171 (internalin)
+NC_003210.1,172409,173208,-1,"lmo0173, lmo0174","lmo0173 (), lmo0174 (transposase)"
+NC_003210.1,175765,177760,1,lmo0177,lmo0177 (methionyl-tRNA synthetase)
+NC_003210.1,207588,209271,1,"lmos06, lmo0203","lmos06 (rli51), lmo0203 (Zinc metalloproteinase precursor)"
+NC_003210.1,213335,213668,-1,lmo0208,lmo0208 (hypothetical protein)
+NC_003210.1,216433,217018,1,lmo0212,lmo0212 (hypothetical protein)
+NC_003210.1,293211,295281,-1,"lmo0270, lmo0271","lmo0270 (hypothetical protein), lmo0271 (phospho-beta-glucosidase)"
+NC_003210.1,296888,297551,-1,lmo0274,lmo0274 (hypothetical protein)
+NC_003210.1,305774,306554,-1,lmo0282,lmo0282 (hypothetical protein)
+NC_003210.1,309537,310719,1,lmo0286,lmo0286 (aminotransferase)
+NC_003210.1,321489,322128,1,lmo0296,lmo0296 (hypothetical protein)
+NC_003210.1,322133,324005,-1,lmo0297,lmo0297 (transcriptional antiterminator BglG)
+NC_003210.1,328700,330999,1,"lmo0304, lmo0305","lmo0304 (hypothetical protein), lmo0305 (L-allo-threonine aldolase)"
+NC_003210.1,332775,333132,1,lmo0308,lmo0308 ()
+NC_003210.1,343220,344636,-1,lmo0319,lmo0319 (phospho-beta-glucosidase)
+NC_003210.1,347218,347611,1,lmo0322,lmo0322 (hypothetical protein)
+NC_003210.1,349325,350228,1,lmo0325,lmo0325 (transcriptional regulator)
+NC_003210.1,360935,366272,1,lmo0333,lmo0333 (internalin)
+NC_003210.1,370731,378319,-1,"lmo0341, lmo0342, lmo0343, lmo0344, lmo0345, lmo0346, lmo0347, lmo0348, lmo0349, lmo0350","lmo0341 (hypothetical protein), lmo0342 (transketolase), lmo0343 (translaldolase), lmo0344 (short chain dehydrogenase), lmo0345 (sugar-phosphate isomerase), lmo0346 (triosephosphate isomerase), lmo0347 (dihydroxyacetone kinase), lmo0348 (dihydroxyacetone kinase), lmo0349 (hypothetical protein), lmo0350 (hypothetical protein)"
+NC_003210.1,379793,380207,1,lmo0353,lmo0353 (hypothetical protein)
+NC_003210.1,383709,384726,1,lmo0356,lmo0356 (oxidoreductase)
+NC_003210.1,388806,389717,-1,"lmo0361, lmo0362","lmo0361 (membrane protein), lmo0362 (hypothetical protein)"
+NC_003210.1,391603,396111,1,"lmo0365, lmo0366, lmo0367, lmo0368","lmo0365 (hypothetical protein), lmo0366 (hypothetical protein), lmo0367 (hypothetical protein), lmo0368 (hypothetical protein)"
+NC_003210.1,401385,401580,1,lmo0375,lmo0375 (hypothetical protein)
+NC_003210.1,403278,404198,1,"lmo0378, lmo0379","lmo0378 (hypothetical protein), lmo0379 (hypothetical protein)"
+NC_003210.1,408953,411860,1,"lmo0385, lmo0386","lmo0385 (IolC protein), lmo0386 (IolD protein)"
+NC_003210.1,414927,416652,1,"lmo0391, lmo0392, lmo0393","lmo0391 (hypothetical protein), lmo0392 (hypothetical protein), lmo0393 (hypothetical protein)"
+NC_003210.1,419543,426064,1,"lmo0398, lmo0399, lmo0400, lmo0401, lmo0402","lmo0398 (PTS sugar transporter subunit IIA), lmo0399 (PTS fructose transporter subunit IIB), lmo0400 (PTS fructose transporter subunit IIC), lmo0401 (alpha-mannosidase), lmo0402 (transcriptional antiterminator BglG)"
+NC_003210.1,437481,438882,1,lmo0415,"lmo0415 (endo-1,4-beta-xylanase)"
+NC_003210.1,439676,439976,-1,lmo0418,lmo0418 (hypothetical protein)
+NC_003210.1,441621,443851,-1,"lmo0421, lmo0422, lmo0423","lmo0421 (rod shape-determining protein RodA), lmo0422 (lineage-specific thermal regulator protein), lmo0423 (RNA polymerase factor sigma C)"
+NC_003210.1,447009,451508,1,"lmo0426, lmo0427, lmo0428, lmo0429","lmo0426 (PTS fructose transporter subunit IIA), lmo0427 (PTS fructose transporter subunit IIB), lmo0428 (PTS fructose transporter subunit IIC), lmo0429 (sugar hydrolase)"
+NC_003210.1,454533,456936,1,lmo0433,lmo0433 (internalin A)
+NC_003210.1,467518,468136,1,lmo0438,lmo0438 (hypothetical protein)
+NC_003210.1,472780,473710,1,lmo0443,lmo0443 (LytR family transcriptional regulator)
+NC_003210.1,483933,485375,-1,"lmo0450, lmo0451","lmo0450 (hypothetical protein), lmo0451 (hypothetical protein)"
+NC_003210.1,491633,495561,1,"lmo0456, lmo0457, lmo0458","lmo0456 (permease), lmo0457 (hypothetical protein), lmo0458 (hydantoinase)"
+NC_003210.1,506367,506997,1,lmo0470,lmo0470 (hypothetical protein)
+NC_003210.1,514003,514381,1,lmo0477,lmo0477 (secreted protein)
+NC_003210.1,525812,526688,1,lmo0490,lmo0490 (shikimate 5-dehydrogenase)
+NC_003210.1,531293,532552,1,"lmo0495, lmo0496","lmo0495 (hypothetical protein), lmo0496 (hypothetical protein)"
+NC_003210.1,536186,541467,1,"lmo0501, lmo0502, lmo0503, lmo0504, lmo0505, lmo0506","lmo0501 (transcriptional antiterminator BglG), lmo0502 (sugar-phosphate isomerase), lmo0503 (PTS fructose transporter subunit IIA), lmo0504 (hypothetical protein), lmo0505 (ribulose-5-phosphate 3-epimerase), lmo0506 (sorbitol dehydrogenase)"
+NC_003210.1,546313,546673,-1,lmo0512,lmo0512 (hypothetical protein)
+NC_003210.1,549437,549869,1,lmo0515,lmo0515 (hypothetical protein)
+NC_003210.1,549915,551346,-1,lmo0516,lmo0516 (encapsulation protein CapA)
+NC_003210.1,554623,555628,1,lmo0520,lmo0520 (transcriptional regulator)
+NC_003210.1,558036,558480,1,lmo0523,lmo0523 (hypothetical protein)
+NC_003210.1,570007,570838,1,lmo0532,lmo0532 (hypothetical protein)
+NC_003210.1,575165,576437,1,lmo0537,lmo0537 (allantoate amidohydrolase)
+NC_003210.1,581149,584757,-1,"lmo0542, lmo0543, lmo0544, lmo0545, lmo0546","lmo0542 (PTS sorbitol transporter subunit IIA), lmo0543 (PTS sorbitol transporter subunit IIBC), lmo0544 (PTS sorbitol transporter subunit IIC), lmo0545 (hypothetical protein), lmo0546 (NAD(P)-dependent oxidoreductase)"
+NC_003210.1,593527,595006,1,lmo0555,lmo0555 (di-tripeptide transporter)
+NC_003210.1,598019,598925,1,lmo0559,lmo0559 (hypothetical protein)
+NC_003210.1,611239,613406,1,"lmo0574, lmo0575","lmo0574 (beta-glucosidase), lmo0575 (GntR family transcriptional regulator)"
+NC_003210.1,617659,618844,-1,lmo0581,lmo0581 (hypothetical protein)
+NC_003210.1,623250,624423,1,lmo0584,lmo0584 (hypothetical protein)
+NC_003210.1,638164,638692,1,lmo0596,lmo0596 (hypothetical protein)
+NC_003210.1,642413,642914,1,lmo0602,lmo0602 (transcripitonal regulator)
+NC_003210.1,642961,643744,-1,"lmo0603, lmo0604","lmo0603 (hypothetical protein), lmo0604 (hypothetical protein)"
+NC_003210.1,649519,649819,1,lmo0609,lmo0609 (phage shock protein E)
+NC_003210.1,649863,651633,-1,lmo0610,lmo0610 (internalin)
+NC_003210.1,654077,654611,1,lmo0614,lmo0614 (hypothetical protein)
+NC_003210.1,656748,657243,-1,lmo0617,lmo0617 (hypothetical protein)
+NC_003210.1,659571,660312,1,lmo0621,lmo0621 (hypothetical protein)
+NC_003210.1,660995,662171,-1,"lmo0624, lmo0625","lmo0624 (hypothetical protein), lmo0625 (hypothetical protein)"
+NC_003210.1,669085,669950,1,"lmo0628, lmo0629","lmo0628 (hypothetical protein), lmo0629 (hypothetical protein)"
+NC_003210.1,679762,681277,1,"lmo0639, lmo0640","lmo0639 (transcripitonal regulator), lmo0640 (oxidoreductase)"
+NC_003210.1,688618,689458,1,lmo0646,lmo0646 (hypothetical protein)
+NC_003210.1,690896,694271,1,"lmo0649, lmo0650","lmo0649 (transcriptional regulator), lmo0650 (hypothetical protein)"
+NC_003210.1,696882,697590,1,lmo0655,lmo0655 (phosphoprotein phosphatase)
+NC_003210.1,698784,699420,1,lmo0658,lmo0658 (hypothetical protein)
+NC_003210.1,704451,706150,1,"lmo0667, lmo0668","lmo0667 (ABC transporter ATP-binding protein), lmo0668 (ABC transporter permease)"
+NC_003210.1,714352,719626,1,"lmo0680, lmo0681, lmo0682, lmo0683, lmo0684","lmo0680 (flagellar biosynthesis protein FlhA), lmo0681 (flagellar biosynthesis regulator FlhF), lmo0682 (flagellar basal body rod protein FlgG), lmo0683 (chemotaxis protein CheR), lmo0684 (hypothetical protein)"
+NC_003210.1,753489,756036,1,"lmo0723, lmo0724","lmo0723 (metyl-accepting chemotaxis protein), lmo0724 (hypothetical protein)"
+NC_003210.1,756737,758543,1,lmo0727,lmo0727 (glucosamine--fructose-6-phosphate aminotransferase)
+NC_003210.1,773714,776247,1,"lmo0744, lmo0745","lmo0744 (ABC transporter ATP-binding protein), lmo0745 (hypothetical protein)"
+NC_003210.1,777208,778558,1,"lmo0748, lmo0749, lmo0750, lmo0751","lmo0748 (hypothetical protein), lmo0749 (hypothetical protein), lmo0750 (hypothetical protein), lmo0751 (hypothetical protein)"
+NC_003210.1,798140,798788,1,lmo0772,lmo0772 (transcriptional regulator)
+NC_003210.1,802947,803031,1,lmos29,lmos29 (rli34)
+NC_003210.1,806769,807689,-1,"lmo0783, lmo0784","lmo0783 (PTS mannose transporter subunit IIB), lmo0784 (PTS mannose transporter subunit IIB)"
+NC_003210.1,811812,813189,1,lmo0787,lmo0787 (amino acid transporter)
+NC_003210.1,820144,821035,1,lmo0792,lmo0792 (hypothetical protein)
+NC_003210.1,822610,823531,-1,lmo0795,lmo0795 (hypothetical protein)
+NC_003210.1,828167,830108,1,lmo0801,lmo0801 (internalin)
+NC_003210.1,834844,838621,1,"lmo0807, lmo0808, lmo0809, lmo0810","lmo0807 (spermidine/putrescine ABC transporter ATP-binding protein), lmo0808 (spermidine/putrescine ABC transporter permease), lmo0809 (spermidine/putrescine ABC transporter permease), lmo0810 (spermidine/putrescine ABC transporter substrate-binding protein)"
+NC_003210.1,847551,848788,1,"lmo0820, lmo0821","lmo0820 (acetyltransferase), lmo0821 (hypothetical protein)"
+NC_003210.1,852703,854338,1,lmo0826,lmo0826 (transporter)
+NC_003210.1,859655,861617,-1,lmo0830,"lmo0830 (fructose-1,6-bisphosphatase)"
+NC_003210.1,863797,864688,1,lmo0833,lmo0833 (transcriptional regulator)
+NC_003210.1,869094,870480,1,lmo0838,lmo0838 (sugar:phosphate antiporter)
+NC_003210.1,870586,871807,-1,lmo0839,lmo0839 (tetracycline resistance protein)
+NC_003210.1,875720,881855,1,lmo0842,lmo0842 (peptidoglycan binding protein)
+NC_003210.1,882961,884065,1,lmo0845,lmo0845 (hypothetical protein)
+NC_003210.1,890438,891197,1,lmo0851,lmo0851 (hypothetical protein)
+NC_003210.1,901836,905510,1,"lmo0863, lmo0864, lmo0865","lmo0863 (hypothetical protein), lmo0864 (hypothetical protein), lmo0865 (phosphomannomutase)"
+NC_003210.1,912371,914734,1,"lmo0873, lmo0874","lmo0873 (transcriptional regulator), lmo0874 (PTS sugar transporter subunit IIA)"
+NC_003210.1,923160,926023,1,"lmo0884, lmo0885, lmo0886","lmo0884 (protoporphyrinogen oxidase), lmo0885 (4'-phosphopantetheinyl transferase), lmo0886 (alanine racemase)"
+NC_003210.1,947100,947604,1,lmo0911,lmo0911 (hypothetical protein)
+NC_003210.1,966244,966913,1,lmo0929,lmo0929 (sortase)
+NC_003210.1,968818,969424,-1,lmo0932,lmo0932 (hypothetical protein)
+NC_003210.1,971036,973459,1,"lmo0934, lmo0935, lmo0936","lmo0934 (hypothetical protein), lmo0935 (rRNA methylase), lmo0936 (nitroflavin reductase)"
+NC_003210.1,973757,974975,-1,"lmo0938, lmo0939","lmo0938 (protein-tyrosine-phosphatase), lmo0939 (hypothetical protein)"
+NC_003210.1,979761,980064,1,lmo0944,lmo0944 (hypothetical protein)
+NC_003210.1,987273,987501,1,lmo0953,lmo0953 (hypothetical protein)
+NC_003210.1,996738,997557,-1,lmo0964,lmo0964 (hypothetical protein)
+NC_003210.1,1010312,1011826,1,"lmo0979, lmo0980","lmo0979 (daunorubicin resistance ATP-binding protein), lmo0980 (ABC transporter permease)"
+NC_003210.1,1015152,1016941,1,"lmo0984, lmo0985, lmo0986","lmo0984 (hypothetical protein), lmo0985 (hypothetical protein), lmo0986 (antibiotic ABC transporter ATP-binding protein)"
+NC_003210.1,1024760,1025129,-1,lmo0994,lmo0994 (hypothetical protein)
+NC_003210.1,1026870,1029045,-1,lmo0997,lmo0997 (ATP-dependent protease)
+NC_003210.1,1030756,1032229,-1,lmo1000,lmo1000 (phytoene dehydrogenase)
+NC_003210.1,1035020,1036928,1,"lmo1004, lmo1005","lmo1004 (hypothetical protein), lmo1005 (3-hydroxyisobutyrate dehydrogenase)"
+NC_003210.1,1038862,1039096,1,lmo1008,lmo1008 (hypothetical protein)
+NC_003210.1,1046885,1047377,1,lmo1017,lmo1017 (PTS glucose transporter subunit IIA)
+NC_003210.1,1054318,1055284,-1,lmo1026,lmo1026 (LytR protein)
+NC_003210.1,1071461,1075325,1,"lmo1042, lmo1043, lmo1044, lmo1045, lmo1046, lmo1047","lmo1042 (molybdopterin biosynthesis protein MoeA), lmo1043 (molybdopterin-guanine dinucleotide biosynthesis MobB), lmo1044 (molybdopterin converting factor subunit 2), lmo1045 (molybdopterin converting factor subunit 1), lmo1046 (molybdenum cofactor biosynthesis protein MoaC), lmo1047 (molybdenum cofactor biosynthesis protein A)"
+NC_003210.1,1081182,1084225,1,"lmo1054, lmo1055","lmo1054 (dihydrolipoamide acetyltransferase), lmo1055 (dihydrolipoamide dehydrogenase)"
+NC_003210.1,1091109,1092054,-1,lmo1064,lmo1064 (transporter)
+NC_003210.1,1093964,1095803,1,lmo1067,lmo1067 (GTP-binding elongation factor)
+NC_003210.1,1097785,1098988,1,lmo1071,lmo1071 (cell division protein FtsW)
+NC_003210.1,1113758,1118912,1,"lmo1080, lmo1081, lmo1082, lmo1083, lmo1084","lmo1080 (teichoic acid biosynthesis protein GgaB), lmo1081 (glucose-1-phosphate thymidyl transferase), lmo1082 (dTDP-sugar epimerase), lmo1083 (dTDP-D-glucose 4,6-dehydratase), lmo1084 (DTDP-L-rhamnose synthetase)"
+NC_003210.1,1133465,1134117,-1,"lmo1098, lmo1099","lmo1098 (hypothetical protein), lmo1099 (hypothetical protein)"
+NC_003210.1,1149405,1149720,-1,lmo1114,lmo1114 (hypothetical protein)
+NC_003210.1,1153009,1154204,1,"lmo1116, lmo1117","lmo1116 (regulatory protein), lmo1117 (hypothetical protein)"
+NC_003210.1,1158929,1159830,1,"lmo1123, lmo1124","lmo1123 (hypothetical protein), lmo1124 (hypothetical protein)"
+NC_003210.1,1170001,1171621,1,lmo1136,lmo1136 (internalin)
+NC_003210.1,1172796,1173036,-1,lmo1139,lmo1139 (hypothetical protein)
+NC_003210.1,1174240,1176156,1,"lmo1142, lmo1143","lmo1142 (PduS protein), lmo1143 (PduT protein)"
+NC_003210.1,1181337,1181625,1,lmo1151,lmo1151 (PduA protein)
+NC_003210.1,1216819,1219767,1,"lmo1191, lmo1192, lmo1193","lmo1191 (cobyrinic acid a,c-diamide synthase), lmo1192 (cobalamin biosynthesis protein), lmo1193 (cobalt-precorrin-8X methylmutase)"
+NC_003210.1,1235669,1236539,1,lmo1215,lmo1215 (N-acetylmuramoyl-L-alanine amidase)
+NC_003210.1,1240773,1244508,1,"lmos44, lmo1221, lmo1222","lmos44 (T-box), lmo1221 (phenylalanyl-tRNA synthetase subunit alpha), lmo1222 (phenylalanyl-tRNA synthetase subunit beta)"
+NC_003210.1,1255356,1259449,1,"lmo1231, lmo1232","lmo1231 (DNA polymerase beta), lmo1232 (recombination and DNA strand exchange inhibitor protein)"
+NC_003210.1,1266674,1266748,1,lmot17,lmot17 (tRNA-Arg)
+NC_003210.1,1268514,1269108,-1,lmo1242,lmo1242 (hypothetical protein)
+NC_003210.1,1272716,1273193,1,lmo1248,lmo1248 (hypothetical protein)
+NC_003210.1,1277311,1278025,1,lmo1253,lmo1253 (GntR family transcriptional regulator)
+NC_003210.1,1285609,1286749,-1,lmo1261,lmo1261 (hypothetical protein)
+NC_003210.1,1287709,1288926,1,"lmo1264, lmo1265","lmo1264 (hypothetical protein), lmo1265 (hypothetical protein)"
+NC_003210.1,1308350,1312774,1,"lmo1286, lmo1287","lmo1286 (DNA topoisomerase IV subunit B), lmo1287 (DNA topoisomerase IV subunit A)"
+NC_003210.1,1320607,1322284,1,lmo1293,lmo1293 (glycerol-3-phosphate dehydrogenase)
+NC_003210.1,1331438,1331666,1,lmo1304,lmo1304 (hypothetical protein)
+NC_003210.1,1334317,1335910,-1,"lmo1307, lmo1308","lmo1307 (hypothetical protein), lmo1308 (hypothetical protein)"
+NC_003210.1,1341106,1346846,1,"lmo1315, lmo1316, lmo1317, lmo1318, lmo1319","lmo1315 (UDP pyrophosphate synthase), lmo1316 (phosphatidate cytidylyltransferase), lmo1317 (1-deoxy-D-xylulose 5-phosphate reductoisomerase), lmo1318 (hypothetical protein), lmo1319 (prolyl-tRNA synthetase)"
+NC_003210.1,1362764,1363739,-1,"lmo1333, lmo1333a","lmo1333 (hypothetical protein), lmo1333a (hypothetical protein)"
+NC_003210.1,1364668,1367425,1,"lmo1337, lmo1338, lmo1339","lmo1337 (hypothetical protein), lmo1338 (hypothetical protein), lmo1339 (glucose kinase)"
+NC_003210.1,1373014,1376928,1,"lmo1348, lmo1349, lmo1350","lmo1348 (glycine cleavage system aminomethyltransferase T), lmo1349 (glycine dehydrogenase subunit 1), lmo1350 (glycine dehydrogenase subunit 2)"
+NC_003210.1,1376967,1377348,-1,lmo1351,lmo1351 (hypothetical protein)
+NC_003210.1,1380003,1380561,1,lmo1355,lmo1355 (elongation factor P)
+NC_003210.1,1405577,1405859,-1,lmo1380,lmo1380 (hypothetical protein)
+NC_003210.1,1410147,1412421,1,lmo1386,lmo1386 (DNA translocase)
+NC_003210.1,1415151,1417738,1,"lmo1389, lmo1390","lmo1389 (sugar ABC transporter ATP-binding protein), lmo1390 (ABC transporter permease)"
+NC_003210.1,1440747,1442114,1,"lmo1410, lmo1411, lmo1412","lmo1410 (hypothetical protein), lmo1411 (hypothetical protein), lmo1412 (modulates DNA topology)"
+NC_003210.1,1442367,1443687,-1,lmo1413,lmo1413 (peptidoglycan binding protein)
+NC_003210.1,1449646,1450684,-1,lmo1419,lmo1419 (hypothetical protein)
+NC_003210.1,1457460,1460242,-1,"lmo1426, lmo1427, lmo1428","lmo1426 (glycine/betaine ABC transporter substrate-binding protein), lmo1427 (glycine/betaine ABC transporter permease), lmo1428 (glycine/betaine ABC transporter ATP-binding protein)"
+NC_003210.1,1470684,1472850,-1,lmo1438,lmo1438 (penicillin-binding protein)
+NC_003210.1,1474801,1475908,1,lmo1441,lmo1441 (4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase)
+NC_003210.1,1478070,1480103,-1,"lmo1445, lmo1446, lmo1447","lmo1445 (ZurR family transcriptional regulator), lmo1446 (metal (zinc) transport protein (ABC transporter, permease)), lmo1447 (metal (zinc) transport protein(ABC transporter, ATP-binding protein))"
+NC_003210.1,1487698,1490039,-1,"lmo1455, lmo1456","lmo1455 (DNA primase), lmo1456 (hypothetical protein)"
+NC_003210.1,1508987,1510145,-1,lmo1476,lmo1476 (coproporphyrinogen III oxidase)
+NC_003210.1,1518949,1522354,-1,"lmo1485, lmo1486, lmo1487, lmo1488, lmo1489, lmo1490","lmo1485 (hypothetical protein), lmo1486 (hypothetical protein), lmo1487 (hypothetical protein), lmo1488 (nicotinic acid mononucleotide adenylyltransferase), lmo1489 (hypothetical protein), lmo1490 (shikimate 5-dehydrogenase)"
+NC_003210.1,1525996,1527904,-1,"lmo1494, lmo1495, lmo1496","lmo1494 (5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase), lmo1495 (hypothetical protein), lmo1496 (transcription elongation factor GreA)"
+NC_003210.1,1532492,1535132,-1,lmo1504,lmo1504 (alanyl-tRNA synthetase)
+NC_003210.1,1543081,1543822,-1,lmo1511,lmo1511 (hypothetical protein)
+NC_003210.1,1548700,1550285,1,"lmo1516, lmo1517","lmo1516 (ammonium transporter NrgA), lmo1517 (nitrogen regulatory PII protein)"
+NC_003210.1,1554359,1555643,1,lmo1521,lmo1521 (N-acetylmuramoyl-L-alanine amidase)
+NC_003210.1,1573353,1575740,-1,"lmo1538, lmo1539","lmo1538 (glycerol kinase), lmo1539 (glycerol transporter)"
+NC_003210.1,1581776,1582790,-1,lmo1548,lmo1548 (rod shape-determining protein MreB)
+NC_003210.1,1594534,1595119,-1,lmo1558,lmo1558 (GTP-binding protein EngB)
+NC_003210.1,1616944,1619214,-1,"lmo1575, lmo1576","lmo1575 (hypothetical protein), lmo1576 (hypothetical protein)"
+NC_003210.1,1624315,1625314,-1,lmo1582,lmo1582 (hypothetical protein)
+NC_003210.1,1635145,1636285,-1,lmo1593,lmo1593 (iron-sulfur cofactor synthesis protein NifS)
+NC_003210.1,1639119,1639722,1,lmo1596,lmo1596 (30S ribosomal protein S4)
+NC_003210.1,1640224,1641004,-1,lmo1597,lmo1597 (hypothetical protein)
+NC_003210.1,1645411,1645936,-1,lmo1601,lmo1601 (general stress protein)
+NC_003210.1,1652809,1654579,-1,"lmo1607, lmo1608, lmo1609","lmo1607 (phenylalanyl-tRNA synthetase subunit beta), lmo1608 (hypothetical protein), lmo1609 (thioredoxin)"
+NC_003210.1,1662569,1663982,-1,lmo1620,lmo1620 (dipeptidase PepV)
+NC_003210.1,1669528,1673371,-1,"lmo1626, lmo1627, lmo1628, lmo1629, lmo1630","lmo1626 (hypothetical protein), lmo1627 (tryptophan synthase subunit alpha), lmo1628 (tryptophan synthase subunit beta), lmo1629 (N-(5'-phosphoribosyl)anthranilate isomerase), lmo1630 (indole-3-glycerol phosphate synthase)"
+NC_003210.1,1677408,1680009,1,lmo1634,lmo1634 (bifunctional acetaldehyde-CoA/alcohol dehydrogenase)
+NC_003210.1,1687419,1691888,-1,"lmo1642, lmo1643, lmo1644","lmo1642 (sigma factor regulator), lmo1643 (hypothetical protein), lmo1644 (helicase SNF2)"
+NC_003210.1,1698733,1700539,-1,lmo1651,lmo1651 (ABC transporter ATP-binding protein)
+NC_003210.1,1706203,1707088,-1,lmo1657,lmo1657 (elongation factor Ts)
+NC_003210.1,1711671,1713209,1,"lmo1661, lmo1662","lmo1661 (hypothetical protein), lmo1662 (hypothetical protein)"
+NC_003210.1,1713233,1715099,-1,lmo1663,lmo1663 (asparagine synthetase)
+NC_003210.1,1716857,1717160,1,lmo1665,lmo1665 (hypothetical protein)
+NC_003210.1,1717192,1722328,-1,lmo1666,lmo1666 (peptidoglycan-linked protein)
+NC_003210.1,1724611,1725565,1,lmo1671,lmo1671 (ABC transporter)
+NC_003210.1,1748262,1748709,-1,lmo1683,lmo1683 (Fur family transcriptional regulator)
+NC_003210.1,1751282,1752371,1,lmo1686,lmo1686 (hypothetical protein)
+NC_003210.1,1752412,1752940,-1,lmo1687,lmo1687 (hypothetical protein)
+NC_003210.1,1769719,1770526,-1,lmo1708,lmo1708 (aminoglycoside N3'-acetyltransferase)
+NC_003210.1,1772177,1773410,1,lmo1711,lmo1711 (aminopeptidase)
+NC_003210.1,1776256,1776829,-1,lmo1714,lmo1714 (hypothetical protein)
+NC_003210.1,1784472,1787648,-1,"lmo1722, lmo1723, lmo1724, lmo1725","lmo1722 (ATP-dependent RNA helicase), lmo1723 (hypothetical protein), lmo1724 (ABC transporter ATP-binding protein), lmo1725 (GntR family tramscriptional regulator)"
+NC_003210.1,1796986,1798727,1,"lmo1731, lmo1732","lmo1731 (sugar ABC transporter permease), lmo1732 (sugar ABC transporter permease)"
+NC_003210.1,1807642,1809107,-1,"lmo1738, lmo1739","lmo1738 (amino acid ABC transporter substrate-binding protein), lmo1739 (amino acid ABC transporter ATP-binding protein)"
+NC_003210.1,1810156,1817879,-1,"lmo1741, lmo1742, lmo1743, lmo1744, lmo1745, lmo1746, lmo1747","lmo1741 (histidine kinase), lmo1742 (adenine deaminase), lmo1743 (hypothetical protein), lmo1744 (hypothetical protein), lmo1745 (two-component response regulator), lmo1746 (ABC transporter permease), lmo1747 (ABC transporter ATP-binding protein)"
+NC_003210.1,1826828,1832177,-1,"lmo1757, lmo1758, lmo1759","lmo1757 (hypothetical protein), lmo1758 (NAD-dependent DNA ligase LigA), lmo1759 (ATP-dependent DNA helicase)"
+NC_003210.1,1852186,1853732,-1,lmor12,lmor12 (16S ribosomal RNA)
+NC_003210.1,1862458,1864217,1,"lmo1788, lmo1789, lmo1790","lmo1788 (transcriptional regulator), lmo1789 (hypothetical protein), lmo1790 (hypothetical protein)"
+NC_003210.1,1884845,1887777,-1,"lmo1811, lmo1812","lmo1811 (ATP-dependent DNA helicase RecG), lmo1812 (L-serine dehydratase)"
+NC_003210.1,1897576,1902126,-1,"lmo1823, lmo1824, lmo1825","lmo1823 (methionyl-tRNA formyltransferase), lmo1824 (primosome assembly protein PriA), lmo1825 (pantothenate metabolism flavoprotein)"
+NC_003210.1,1905951,1906551,1,lmo1830,lmo1830 (short-chain dehydrogenase)
+NC_003210.1,1906591,1916086,-1,"lmo1831, lmo1832, lmo1833, lmo1834, lmo1835, lmo1836, lmo1837, lmo1838","lmo1831 (orotate phosphoribosyltransferase), lmo1832 (orotidine 5'-phosphate decarboxylase), lmo1833 (dihydroorotate dehydrogenase), lmo1834 (dihydroorotate dehydrogenase electron transfer subunit), lmo1835 (carbamoyl-phosphate synthetase), lmo1836 (carbamoyl phosphate synthase small subunit), lmo1837 (dihydroorotase), lmo1838 (aspartate carbamoyltransferase)"
+NC_003210.1,1918362,1918593,1,lmo1841,lmo1841 (hypothetical protein)
+NC_003210.1,1919524,1920900,-1,"lmo1843, lmo1844","lmo1843 (hypothetical protein), lmo1844 (lipoprotein signal peptidase)"
+NC_003210.1,1932323,1934238,-1,"lmo1856, lmo1857, lmo1858","lmo1856 (purine nucleoside phosphorylase), lmo1857 (hypothetical protein), lmo1858 (dehydrogenase)"
+NC_003210.1,1938537,1942638,1,"lmo1865, lmo1866, lmo1867","lmo1865 (hypothetical protein), lmo1866 (hypothetical protein), lmo1867 (pyruvate phosphate dikinase)"
+NC_003210.1,1950882,1952564,-1,"lmo01876, lmo1877","lmo01876 (), lmo1877 (formyl-tetrahydrofolate synthetase)"
+NC_003210.1,1953835,1954237,1,lmo1880,lmo1880 (RNase HI)
+NC_003210.1,1955597,1956656,-1,lmo1883,lmo1883 (chitinase)
+NC_003210.1,1962224,1962566,-1,lmo1888,lmo1888 (hypothetical protein)
+NC_003210.1,1977306,1977780,-1,lmo1903,lmo1903 (thioredoxin)
+NC_003210.1,1985217,1988048,1,"lmo1912, lmo1913, lmo1914","lmo1912 (histidine kinase), lmo1913 (hypothetical protein), lmo1914 (hypothetical protein)"
+NC_003210.1,2015818,2016538,-1,lmo1941,lmo1941 (hypothetical protein)
+NC_003210.1,2031437,2033485,-1,"lmo1957, lmo1958","lmo1957 (ferrichrome ABC transporter permease), lmo1958 (ferrichrome ABC transporter permease)"
+NC_003210.1,2036520,2037141,-1,lmo1962,lmo1962 (TetR family transcriptional regulator)
+NC_003210.1,2040910,2042110,1,lmo1967,lmo1967 (toxic ion resistance protein)
+NC_003210.1,2048622,2049414,-1,lmo1976,lmo1976 (oxidoreductase)
+NC_003210.1,2052232,2052833,1,"lmo1979, lmo1980","lmo1979 (hypothetical protein), lmo1980 (hypothetical protein)"
+NC_003210.1,2054492,2058418,1,"lmo1983, lmo1984, lmo1985","lmo1983 (dihydroxy-acid dehydratase), lmo1984 (acetolactate synthase), lmo1985 (acetolactate synthase small subunit)"
+NC_003210.1,2080026,2083424,-1,"lmo2007, lmo2008, lmo2009","lmo2007 (hypothetical protein), lmo2008 (ABC transporter permease), lmo2009 (sugar ABC transporter permease)"
+NC_003210.1,2095365,2097064,-1,"lmo2017, lmo2018","lmo2017 (hypothetical protein), lmo2018 (diaminopimelate epimerase)"
+NC_003210.1,2100223,2100751,-1,lmo2020,lmo2020 (chemotaxis protein CheY)
+NC_003210.1,2104058,2106292,1,"lmo2024, lmo2025, lmos78","lmo2024 (nicotinate-nucleotide pyrophosphorylase), lmo2025 (quinolinate synthetase), lmos78 (rliF)"
+NC_003210.1,2121482,2125496,-1,"lmo2039, lmo2040, lmo2041, lmo2042","lmo2039 (penicillin-binding protein 2B), lmo2040 (cell division protein FtsL), lmo2041 (S-adenosyl-methyltransferase MraW), lmo2042 (cell division protein MraZ)"
+NC_003210.1,2130227,2130401,-1,lmo2047,lmo2047 (50S ribosomal protein L32)
+NC_003210.1,2132411,2134652,1,lmo2050,lmo2050 (excinuclease ABC subunit A)
+NC_003210.1,2136892,2138757,-1,"lmo2054, lmo2055, lmo2056","lmo2054 (hypothetical protein), lmo2055 (hypothetical protein), lmo2056 (hypothetical protein)"
+NC_003210.1,2141070,2141814,1,lmo2059,lmo2059 (potassium channel protein)
+NC_003210.1,2145126,2145513,1,lmo2064,lmo2064 (large-conductance mechanosensitive channel protein)
+NC_003210.1,2146448,2147426,-1,lmo2067,lmo2067 (bile acid hydrolase)
+NC_003210.1,2154764,2155058,1,"lmos79, lmos80","lmos79 (rli46), lmos80 (rli45)"
+NC_003210.1,2160537,2161164,-1,lmo2083,lmo2083 (hypothetical protein)
+NC_003210.1,2166011,2167943,-1,"lmo2087, lmo2088","lmo2087 (hypothetical protein), lmo2088 (transcriptional regulator)"
+NC_003210.1,2172067,2173591,1,lmo2092,lmo2092 (glycine betaine transporter BetL)
+NC_003210.1,2173634,2179577,-1,"lmo2093, lmo2094, lmo2095, lmo2096, lmo2097, lmo2098, lmo2099","lmo2093 (hypothetical protein), lmo2094 (L-fuculose-phosphate aldolase), lmo2095 (phosphofructokinase), lmo2096 (PTS galacticol transporter subunit IIC), lmo2097 (PTS galacticol transporter subunit IIB), lmo2098 (PTS galacticol transporter subunit IIA), lmo2099 (transcriptional antiterminator)"
+NC_003210.1,2190488,2191445,-1,lmo2110,lmo2110 (mannnose-6 phospate isomerase)
+NC_003210.1,2192692,2193448,1,lmo2113,lmo2113 (heme peroxidase)
+NC_003210.1,2207102,2208362,-1,lmo2125,lmo2125 (sugar ABC transporter substrate-binding protein)
+NC_003210.1,2212383,2212620,-1,lmo2129,lmo2129 (hypothetical protein)
+NC_003210.1,2215603,2215935,1,"lmot42, lmot43, lmot44, lmot45","lmot42 (tRNA-Thr), lmot43 (tRNA-Tyr), lmot44 (tRNA-Gln), lmot45 (tRNA-Lys)"
+NC_003210.1,2218878,2219733,-1,lmo2134,"lmo2134 (fructose-1,6-biphosphate aldolase type II)"
+NC_003210.1,2226023,2226532,1,lmos81,lmos81 (rli47)
+NC_003210.1,2230041,2231058,-1,lmo2145,lmo2145 (hypothetical protein)
+NC_003210.1,2234574,2234874,-1,lmo2151,lmo2151 (hypothetical protein)
+NC_003210.1,2248945,2249617,-1,lmo2166,lmo2166 (hypothetical protein)
+NC_003210.1,2250845,2251004,1,lmo2169,lmo2169 (hypothetical protein)
+NC_003210.1,2256506,2257580,-1,lmo2174,lmo2174 (hypothetical protein)
+NC_003210.1,2259365,2259713,1,lmo2177,lmo2177 (hypothetical protein)
+NC_003210.1,2272402,2274750,-1,"lmo2185, lmo2186","lmo2185 (hypothetical protein), lmo2186 (hypothetical protein)"
+NC_003210.1,2281202,2284260,-1,"lmo2193, lmo2194, lmo2195","lmo2193 (peptide ABC transporter ATP-binding protein), lmo2194 (peptide ABC transporter permease), lmo2195 (peptide ABC transporter permease)"
+NC_003210.1,2287225,2288513,1,"lmos83, lmo2198","lmos83 (T-box), lmo2198 (tryptophanyl-tRNA synthetase)"
+NC_003210.1,2290988,2291927,-1,lmo2202,lmo2202 (3-oxoacyl-ACP synthase)
+NC_003210.1,2299832,2300177,-1,lmo2210,lmo2210 (hypothetical protein)
+NC_003210.1,2303059,2304283,-1,lmo2214,lmo2214 (ABC transporter permease)
+NC_003210.1,2305631,2305994,1,lmo2217,lmo2217 (hypothetical protein)
+NC_003210.1,2314510,2317841,-1,"lmo2225, lmo2226, lmo2227, lmo2228","lmo2225 (fumarate hydratase), lmo2226 (hypothetical protein), lmo2227 (ABC transporter ATP-binding protein), lmo2228 (hypothetical protein)"
+NC_003210.1,2322030,2323335,1,lmo2232,lmo2232 (hypothetical protein)
+NC_003210.1,2325476,2329571,1,"lmo2235, lmo2236, lmo2237","lmo2235 (NADH oxidase), lmo2236 (shikimate 5-dehydrogenase), lmo2237 (MFS transporter permease)"
+NC_003210.1,2330958,2333283,-1,"lmo2239, lmo2240, lmo2241","lmo2239 (hypothetical protein), lmo2240 (ABC transporter ATP-binding protein), lmo2241 (GntR family transcriptional regulator)"
+NC_003210.1,2339610,2341789,1,"lmo2250, lmo2251","lmo2250 (amino acid ABC transporter permease), lmo2251 (amino acid ABC transporter ATP-binding protein)"
+NC_003210.1,2345259,2345526,1,lmo2255,lmo2255 (hypothetical protein)
+NC_003210.1,2347275,2348151,-1,lmo2260,lmo2260 (hypothetical protein)
+NC_003210.1,2351383,2359798,-1,"lmo2265, lmo2266, lmo2267, lmo2268","lmo2265 (hypothetical protein), lmo2266 (hypothetical protein), lmo2267 (ATP-dependent deoxyribonuclease subunit A), lmo2268 (ATP-dependent deoxyribonuclease subunit B)"
+NC_003210.1,2361581,2361791,1,lmo2272,lmo2272 (hypothetical protein)
+NC_003210.1,2377197,2385332,-1,"lmo2290, lmo2291, lmo2292, lmo2293, lmo2294, lmo2295, lmo2296, lmo2297, lmo2298, lmo2299, lmo2300","lmo2290 (protein gp13), lmo2291 (major tail shaft protein), lmo2292 (protein gp11), lmo2293 (protein gp10), lmo2294 (protein gp9), lmo2295 (protein gp8), lmo2296 (phage coat protein), lmo2297 (scaffolding protein), lmo2298 (protein gp4), lmo2299 (portal protein), lmo2300 (terminase large subunit from bacteriophage A118)"
+NC_003210.1,2395585,2396331,-1,"lmo2322, lmo2323","lmo2322 (gp44), lmo2323 (hypothetical protein)"
+NC_003210.1,2397799,2398084,-1,lmo2327,lmo2327 (hypothetical protein)
+NC_003210.1,2399319,2400944,1,"lmo2329a, lmo2330, lmo2331","lmo2329a (hypothetical protein), lmo2330 (hypothetical protein), lmo2331 (hypothetical protein)"
+NC_003210.1,2403340,2405239,-1,lmo2335,lmo2335 (PTS fructose transporter subunit IIABC)
+NC_003210.1,2411125,2416683,-1,"lmo2342, lmo2343, lmo2344, lmo2345, lmo2346, lmo2347, lmo2348","lmo2342 (16S pseudouridylate synthase), lmo2343 (nitrilotriacetate monooxygenase), lmo2344 (hypothetical protein), lmo2345 (hypothetical protein), lmo2346 (amino acid ABC transporter ATP-binding protein), lmo2347 (amino acid ABC transporter permease), lmo2348 (amino acid ABC transporter permease)"
+NC_003210.1,2425722,2427890,-1,"lmo2357, lmo2358, lmo2359","lmo2357 (hypothetical protein), lmo2358 (N-acetylglucosamine-6-phosphate isomerase), lmo2359 (hypothetical protein)"
+NC_003210.1,2445684,2446092,-1,lmo2368,lmo2368 (hypothetical protein)
+NC_003210.1,2448051,2449835,1,"lmo2371, lmo2372","lmo2371 (ABC transporter permease), lmo2372 (ABC transporter ATP-binding protein)"
+NC_003210.1,2451839,2452235,-1,lmo2375,lmo2375 (hypothetical protein)
+NC_003210.1,2454694,2460106,1,"lmo2378, lmo2379, lmo2380, lmo2381, lmo2382, lmo2383","lmo2378 (monovalent cation/H+ antiporter subunit A), lmo2379 (monovalent cation/H+ antiporter subunit B), lmo2380 (monovalent cation/H+ antiporter subunit C), lmo2381 (monovalent cation/H+ antiporter subunit D), lmo2382 (monovalent cation/H+ antiporter subunit E), lmo2383 (monovalent cation/H+ antiporter subunit F)"
+NC_003210.1,2461802,2463029,1,lmo2387,lmo2387 (hypothetical protein)
+NC_003210.1,2463065,2463884,-1,lmo2388,lmo2388 (hypothetical protein)
+NC_003210.1,2466712,2467342,1,lmo2391,lmo2391 (hypothetical protein)
+NC_003210.1,2468209,2468392,-1,lmo2394,lmo2394 (hypothetical protein)
+NC_003210.1,2472088,2472325,1,lmo2397,lmo2397 (NifU protein)
+NC_003210.1,2478224,2478590,1,lmo2405,lmo2405 (hypothetical protein)
+NC_003210.1,2478622,2479465,-1,lmo2406,lmo2406 (hypothetical protein)
+NC_003210.1,2481022,2481574,-1,lmo2410,lmo2410 (hypothetical protein)
+NC_003210.1,2498380,2499172,-1,lmo2429,lmo2429 (ferrichrome ABC transporter ATP-binding protein)
+NC_003210.1,2501602,2502361,1,lmo2433,lmo2433 (acetylesterase)
+NC_003210.1,2508246,2508816,-1,lmo2442,lmo2442 (hypothetical protein)
+NC_003210.1,2510360,2515210,-1,"lmo2444, lmo2445","lmo2444 (glycosidase), lmo2445 (internalin)"
+NC_003210.1,2533839,2535183,-1,lmo2461,lmo2461 (RNA polymerase factor sigma-54)
+NC_003210.1,2540229,2540301,-1,lmot62,lmot62 (tRNA-Arg)
+NC_003210.1,2590801,2592770,-1,"lmo2512, lmo2513","lmo2512 (competence protein ComFC), lmo2513 (competence protein comFA)"
+NC_003210.1,2596265,2597324,1,lmo2518,lmo2518 (LytR family transcriptional regulator)
+NC_003210.1,2632906,2633761,-1,lmo2556,"lmo2556 (fructose-1,6-bisphosphate aldolase)"
+NC_003210.1,2639929,2640466,-1,lmo2560,lmo2560 (DNA-directed RNA polymerase subunit delta)
+NC_003210.1,2653210,2657803,-1,lmo2576,lmo2576 (colossin A)
+NC_003210.1,2660407,2664296,-1,"lmo2580, lmo2581, lmo2582, lmo2583","lmo2580 (ABC transporter ATP-binding protein), lmo2581 (hypothetical protein), lmo2582 (histidine kinase), lmo2583 (DNA-binding response regulator)"
+NC_003210.1,2676466,2678012,-1,lmor18,lmor18 (16S ribosomal RNA)
+NC_003210.1,2682039,2682462,-1,lmo2593,lmo2593 (MerR family transcriptional regulator)
+NC_003210.1,2689441,2690332,1,lmo2603,lmo2603 (hypothetical protein)
+NC_003210.1,2708275,2709358,-1,lmo2636,lmo2636 (hypothetical protein)
+NC_003210.1,2712930,2713940,1,"lmo2639, lmo2640","lmo2639 (hypothetical protein), lmo2640 (hypothetical protein)"
+NC_003210.1,2736596,2742957,-1,"lmo2663, lmo2664, lmo2665, lmo2666, lmo2667, lmo2668","lmo2663 (polyol dehydrogenase), lmo2664 (sorbitol dehydrogenase), lmo2665 (PTS galacticol transporter subunit IIC), lmo2666 (PTS galacticol transporter subunit IIB), lmo2667 (PTS galacticol transporter subunit IIA), lmo2668 (transcriptional antiterminator BglG)"
+NC_003210.1,2747072,2748683,1,"lmo2675, lmo2676","lmo2675 (hypothetical protein), lmo2676 (DNA polymerase IV)"
+NC_003210.1,2758045,2759692,1,"lmo2684, lmo2685","lmo2684 (PTS cellbiose transporter subunit IIC), lmo2685 (PTS cellbiose transporter subunit IIA)"
+NC_003210.1,2760844,2765652,-1,"lmo2687, lmo2688, lmo2689","lmo2687 (cell division protein FtsW), lmo2688 (cell division protein FtsW), lmo2689 (magnesium-translocating P-type ATPase)"
+NC_003210.1,2768943,2769273,-1,lmo2692,lmo2692 (hypothetical protein)
+NC_003210.1,2773713,2774565,1,lmo2698,lmo2698 (RpiR family transcriptional regulator)
+NC_003210.1,2779909,2780798,-1,"lmo2705, lmo2706, lmo2707","lmo2705 (hypothetical protein), lmo2706 (hypothetical protein), lmo2707 (hypothetical protein)"
+NC_003210.1,2783097,2783274,1,lmos94,lmos94 (rli50)
+NC_003210.1,2788503,2794373,-1,"lmo2715, lmo2716, lmo2717, lmo2718","lmo2715 (ABC transporter ATP-binding protein), lmo2716 (ABC transporter), lmo2717 (cytochrome D ubiquinol oxidase subunit II), lmo2718 (cytochrome D ubiquinol oxidase subunit I)"
+NC_003210.1,2802542,2803402,1,"lmo2728, lmo2729","lmo2728 (MerR family transcriptional regulator), lmo2729 (hypothetical protein)"
+NC_003210.1,2803444,2804438,-1,"lmo2730, lmo2731","lmo2730 (phosphatase), lmo2731 (RpiR family transcriptional regulator)"
+NC_003210.1,2817687,2818698,-1,"lmo2742, lmo2743","lmo2742 (hypothetical protein), lmo2743 (translaldolase)"
+NC_003210.1,2826514,2830008,1,"lmo2751, lmo2752","lmo2751 (ABC transporter ATP-binding protein), lmo2752 (ABC transporter ATP-binding protein)"
+NC_003210.1,2837943,2839410,-1,lmo2758,lmo2758 (inosine-monophosphate dehydrogenase)
+NC_003210.1,2846838,2847573,-1,lmo2766,lmo2766 (RpiR family transcriptional regulator)
+NC_003210.1,2857579,2860364,-1,"lmo2774, lmo2775","lmo2774 (ABC transporter ATP-binding protein), lmo2775 (bacteriocin transporter)"
+NC_003210.1,2891268,2892437,-1,"lmo2807, lmo2808, lmo2809","lmo2807 (hypothetical protein), lmo2808 (hypothetical protein), lmo2809 (hypothetical protein)"
+NC_003210.1,2900593,2904402,-1,"lmo2817, lmo2818, lmo2819","lmo2817 (peptidase), lmo2818 (MFS transporter), lmo2819 (carboxypeptidase)"
+NC_003210.1,2914056,2915641,-1,"lmo2826, lmo2827","lmo2826 (MFS transporter), lmo2827 (MarR family transcriptional regulator)"
+NC_003210.1,2926100,2928631,-1,"lmo2839, lmo2840","lmo2839 (sugar ABC transporter substrate-binding protein), lmo2840 (sucrose phosphorylase)"
+NC_003210.1,2930478,2932473,-1,lmo2843,lmo2843 (hypothetical protein)
+NC_003210.1,2943568,2943703,-1,lmo2856,lmo2856 (50S ribosomal protein L34)
+NC_003210.1,3120,4464,1,lmo0003,lmo0003 (hypothetical protein)
+NC_003210.1,31087,32107,1,"lmo0028, lmos01","lmo0028 (microcin C7 self-immunity protein MccF), lmos01 (rli22)"
+NC_003210.1,45324,47230,1,"lmo0040, lmo0041","lmo0040 (agmatine deiminase), lmo0041 (hypothetical protein)"
+NC_003210.1,82958,84849,1,"lmo0079, lmo0080","lmo0079 (hypothetical protein), lmo0080 (hypothetical protein)"
+NC_003210.1,97380,103028,1,"lmo0089, lmo0090, lmo0091, lmo0092, lmo0093, lmo0094","lmo0089 (ATP synthase subunit delta), lmo0090 (ATP synthase F0F1 subunit alpha), lmo0091 (ATP synthase subunit gamma), lmo0092 (ATP synthase F0F1 subunit beta), lmo0093 (ATP synthase subunit epsilon), lmo0094 (hypothetical protein)"
+NC_003210.1,110012,112283,1,lmo0105,lmo0105 (chitinase B)
+NC_003210.1,123199,123712,1,lmo0118,lmo0118 (antigen A)
+NC_003210.1,137132,137235,1,lmos03,lmos03 (SAM)
+NC_003210.1,159662,161378,1,lmo0160,lmo0160 (peptidoglycan binding protein)
+NC_003210.1,177923,179138,1,lmo0178,lmo0178 (xylose repressor)
+NC_003210.1,209469,212689,1,"lmo0204, lmo0205, lmo0206","lmo0204 (actin-assembly inducing protein precursor), lmo0205 (phospholipase C), lmo0206 (hypothetical protein)"
+NC_003210.1,217124,217685,1,lmo0213,lmo0213 (peptidyl-tRNA hydrolase)
+NC_003210.1,304941,305613,-1,lmo0281,lmo0281 (hypothetical protein)
+NC_003210.1,310931,311645,1,lmo0287,lmo0287 (two-component response regulator)
+NC_003210.1,333533,335195,1,lmo0309,lmo0309 (hypothetical protein)
+NC_003210.1,350391,351264,1,lmo0326,lmo0326 (transcriptional regulator)
+NC_003210.1,366507,367032,1,lmo0334,lmo0334 (hypothetical protein)
+NC_003210.1,384925,388467,1,"lmo0357, lmo0358, lmo0359, lmo0360","lmo0357 (PTS sugar transporter subunit IIA), lmo0358 (PTS fructose transporter subunit IIBC), lmo0359 (D-fructose-1,6-biphosphate aldolase), lmo0360 (DeoR family transcriptional regulator)"
+NC_003210.1,396207,397299,1,"lmo0369, lmo0370","lmo0369 (hypothetical protein), lmo0370 (hypothetical protein)"
+NC_003210.1,404364,404994,1,lmo0380,lmo0380 (hypothetical protein)
+NC_003210.1,411991,412363,1,lmo0387,lmo0387 (hypothetical protein)
+NC_003210.1,416795,417960,1,"lmo0394, lmo0395","lmo0394 (P60 protein), lmo0395 (blasticidin S-acetyltransferase)"
+NC_003210.1,426189,426995,1,"lmo0403, lmo0404","lmo0403 (hypothetical protein), lmo0404 (hypothetical protein)"
+NC_003210.1,439008,439624,1,"lmo0416, lmo0417","lmo0416 (transcriptional regulator), lmo0417 (hypothetical protein)"
+NC_003210.1,457020,458913,1,lmo0434,lmo0434 (internalin B)
+NC_003210.1,473935,476716,1,lmo0444,lmo0444 (hypothetical protein)
+NC_003210.1,496380,497919,1,lmo0459,lmo0459 (transcriptional regulator)
+NC_003210.1,507205,507643,1,"lmos18, lmos19","lmos18 (rli28), lmos19 (rli29)"
+NC_003210.1,514680,515058,1,lmo0478,lmo0478 (secreted protein)
+NC_003210.1,526753,527512,1,lmo0491,lmo0491 (3-dehydroquinate dehydratase)
+NC_003210.1,541482,543062,1,"lmo0507, lmo0508","lmo0507 (PTS galactitol transporter subunit IIB), lmo0508 (PTS galactitol transporter subunit IIC)"
+NC_003210.1,570915,571185,1,lmo0533,lmo0533 (hypothetical protein)
+NC_003210.1,576402,577584,1,lmo0538,lmo0538 (N-acyl-L-amino acid amidohydrolase)
+NC_003210.1,580118,581039,-1,lmo0541,lmo0541 (ABC transporter substrate-binding protein)
+NC_003210.1,595134,596538,1,"lmo0556, lmo0557","lmo0556 (phosphoglycerate mutase), lmo0557 (phosphoglycerate mutase)"
+NC_003210.1,613835,615299,1,lmo0576,lmo0576 (hypothetical protein)
+NC_003210.1,624681,625395,1,lmo0585,lmo0585 (secreted protein)
+NC_003210.1,660397,660958,1,"lmo0622, lmo0623","lmo0622 (hypothetical protein), lmo0623 (hypothetical protein)"
+NC_003210.1,670308,675473,1,"lmo0630, lmo0631, lmo0632, lmo0633, lmo0634","lmo0630 (transcriptional antiterminator BglG), lmo0631 (PTS fructose transporter subunit IIA), lmo0632 (PTS fructose transporter subunit IIC), lmo0633 (PTS fructose transporter subunit IIB), lmo0634 (tagatose 6-phosphate kinase)"
+NC_003210.1,681542,683423,1,lmo0641,lmo0641 (heavy metal-transporting ATPase)
+NC_003210.1,694316,694964,1,lmo0651,lmo0651 (transcriptional regulator)
+NC_003210.1,706407,707292,1,lmo0669,lmo0669 (oxidoreductase)
+NC_003210.1,719652,724658,1,"lmo0685, lmo0686, lmo0687, lmo0688, lmo0689","lmo0685 (flagellar motor protein MotA), lmo0686 (flagellar motor rotation MotB), lmo0687 (hypothetical protein), lmo0688 (hypothetical protein), lmo0689 (chemotaxis protein CheV)"
+NC_003210.1,758655,759396,1,lmo0728,lmo0728 (riboflavin kinase / FAD synthase)
+NC_003210.1,778653,779490,1,lmo0752,lmo0752 (hypothetical protein)
+NC_003210.1,803200,803548,1,lmo0778,lmo0778 (hypothetical protein)
+NC_003210.1,804886,806596,-1,"lmo0781, lmo0782","lmo0781 (PTS mannose transporter subunit IID), lmo0782 (PTS mannose transporter subunit IIC)"
+NC_003210.1,813450,817878,1,lmo0788,lmo0788 (hypothetical protein)
+NC_003210.1,821885,822527,-1,lmo0794,lmo0794 (hypothetical protein)
+NC_003210.1,830258,830897,1,lmo0802,lmo0802 (hypothetical protein)
+NC_003210.1,838750,840062,1,"lmo0811, lmo0812","lmo0811 (carbonic anhydrase), lmo0812 (hypothetical protein)"
+NC_003210.1,854442,855581,1,"lmo0827, lmo0828","lmo0827 (transposase), lmo0828 (transposase)"
+NC_003210.1,864823,866534,1,"lmo0834, lmo0835","lmo0834 (hypothetical protein), lmo0835 (peptidoglycan binding protein)"
+NC_003210.1,884169,885270,1,lmo0846,lmo0846 (excinuclease ABC subunit C)
+NC_003210.1,891276,892512,1,"lmo0852, lmo0853, lmo0854","lmo0852 (TetR family transcriptional regulator), lmo0853 (SugE protein), lmo0854 (SugE protein)"
+NC_003210.1,905961,907832,1,"lmo0866, lmos33, lmo0866a","lmo0866 (ATP-dependent RNA helicase), lmos33 (rli37), lmo0866a (hypothetical protein)"
+NC_003210.1,914734,915070,1,lmo0875,lmo0875 (PTS beta-glucoside transporter subunit IIB)
+NC_003210.1,926228,926858,1,"lmo0887, lmo0888","lmo0887 (hypothetical protein), lmo0888 (hypothetical protein)"
+NC_003210.1,947717,948530,1,lmo0912,lmo0912 (formate transporter)
+NC_003210.1,967028,968779,1,"lmo0930, lmo0931","lmo0930 (hypothetical protein), lmo0931 (lipoate protein ligase A)"
+NC_003210.1,973508,973670,-1,lmo0937,lmo0937 (hypothetical protein)
+NC_003210.1,980176,981544,1,"lmo0945, lmo0946","lmo0945 (competence protein ComEC), lmo0946 (hypothetical protein)"
+NC_003210.1,987734,988049,1,lmo0954,lmo0954 (hypothetical protein)
+NC_003210.1,1016933,1017788,1,lmo0987,lmo0987 (CylB protein)
+NC_003210.1,1039296,1039749,1,lmo1009,lmo1009 (hypothetical protein)
+NC_003210.1,1047489,1048185,1,lmo1018,lmo1018 (copper homeostasis protein CutC)
+NC_003210.1,1084412,1084724,1,lmo1056,lmo1056 (hypothetical protein)
+NC_003210.1,1095974,1096835,1,lmo1068,lmo1068 (hypothetical protein)
+NC_003210.1,1099265,1102706,1,lmo1072,lmo1072 (pyruvate carboxylase)
+NC_003210.1,1118931,1122830,1,"lmo1085, lmo1086, lmo1087","lmo1085 (teichoic acid biosynthesis protein B), lmo1086 (2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase), lmo1087 (glucitol dehydrogenase)"
+NC_003210.1,1131557,1132987,-1,"lmo1097, lmo1097a","lmo1097 (integrase), lmo1097a (hypothetical protein)"
+NC_003210.1,1149010,1149385,-1,lmo1113,lmo1113 (hypothetical protein)
+NC_003210.1,1154308,1154671,1,lmos40,lmos40 (rliC)
+NC_003210.1,1160219,1161230,1,"lmo1125, lmo1126","lmo1125 (hypothetical protein), lmo1126 (hypothetical protein)"
+NC_003210.1,1172075,1172648,-1,lmo1138,lmo1138 (ATP-dependent Clp protease proteolytic subunit)
+NC_003210.1,1176303,1178419,1,"lmo1144, lmo1145, lmo1146, lmo1147","lmo1144 (PduU protein), lmo1145 (PduV protein), lmo1146 (hypothetical protein), lmo1147 (cobalamin biosynthesis protein CopB)"
+NC_003210.1,1181719,1192958,1,"lmo1152, lmo1153, lmo1154, lmo1155, lmo1156, lmo1157, lmo1158, lmo1159, lmo1160, lmo1161, lmo1162, lmo1163, lmo1164, lmo1165","lmo1152 (PduB protein), lmo1153 (propanediol dehydratase subunit alpha), lmo1154 (diol dehydratase subunit gamma), lmo1155 (diol dehydratase subunit gamma), lmo1156 (diol dehydratase-reactivating factor large subunit), lmo1157 (diol dehydratase-reactivating factor small subunit), lmo1158 (PduK protein), lmo1159 (carboxysome structural protein), lmo1160 (PduL protein), lmo1161 (ethanolamine utilization protein EutJ), lmo1162 (hypothetical protein), lmo1163 (carbon dioxide concentrating mechanism protein), lmo1164 (ATP:cob(I)alamin adenosyltransferase PduO), lmo1165 (ethanolamine utilization protein EutE)"
+NC_003210.1,1219782,1228266,1,"lmo1194, lmo1195, lmo1196, lmo1197, lmo1198, lmo1199, lmo1200, lmo1201, lmo1202, lmo1203","lmo1194 (cobalt-precorrin-6A synthase), lmo1195 (cobalt-precorrin-6Y C(5)-methyltransferase), lmo1196 (cobalt-precorrin-6Y C(15)-methyltransferase), lmo1197 (precorrin-3 methylase), lmo1198 (cobalamin biosynthesis protein CbiG), lmo1199 (precorrin-3B C17-methyltransferase), lmo1200 (cobalamin biosynthesis protein CbiJ), lmo1201 (uroporphyrinogen-III methyltransferase/uroporphyrinogen-III synthase), lmo1202 (cobalt chelatase), lmo1203 (cobalt-precorrin-2 C(20)-methyltransferase)"
+NC_003210.1,1236835,1237822,1,lmo1216,lmo1216 (N-acetylmuramoyl-L-alanine amidase)
+NC_003210.1,1244668,1248794,1,"lmo1223, lmo1224","lmo1223 (ABC transporter ATP-binding proteins), lmo1224 (hypothetical protein)"
+NC_003210.1,1259529,1259841,1,lmo1233,lmo1233 (thioredoxin)
+NC_003210.1,1267114,1268473,1,lmo1241,lmo1241 (hypothetical protein)
+NC_003210.1,1283412,1285474,-1,"lmo1259, lmo1260","lmo1259 (gamma-glutamyl phosphate reductase), lmo1260 (gamma-glutamyl kinase)"
+NC_003210.1,1289187,1290126,1,lmo1266,lmo1266 (hypothetical protein)
+NC_003210.1,1312856,1313324,1,lmo1288,lmo1288 (S-ribosylhomocysteinase)
+NC_003210.1,1322409,1323327,1,lmo1294,lmo1294 (tRNA delta(2)-isopentenylpyrophosphate transferase)
+NC_003210.1,1331812,1333807,1,lmo1305,lmo1305 (transketolase)
+NC_003210.1,1346950,1351285,1,lmo1320,lmo1320 (DNA polymerase III PolC)
+NC_003210.1,1361563,1362604,-1,lmo1332,lmo1332 (GTPase EngC)
+NC_003210.1,1367558,1368650,1,lmo1340,lmo1340 (hypothetical protein)
+NC_003210.1,1380719,1383393,1,"lmo1356, lmo1357, lmo1358, lmo1359","lmo1356 (acetyl-CoA carboxylase subunit (biotin carboxyl carrier subunit)), lmo1357 (acetyl-CoA carboxylase biotin carboxylase subunit), lmo1358 (hypothetical protein), lmo1359 (transcription antitermination protein NusB)"
+NC_003210.1,1404713,1405541,-1,lmo1379,lmo1379 (sporulation protein SpoJ)
+NC_003210.1,1417734,1418685,1,lmo1391,lmo1391 (sugar ABC transporter permease)
+NC_003210.1,1448314,1449583,-1,lmo1418,lmo1418 (hypothetical protein)
+NC_003210.1,1456774,1457446,-1,lmo1425,lmo1425 (glycine/betaine ABC transporter permease)
+NC_003210.1,1465637,1470487,-1,"lmo1434, lmo1435, lmo1436, lmo1437","lmo1434 (hypothetical protein), lmo1435 (dihydrodipicolinate synthase), lmo1436 (aspartate kinase), lmo1437 (aspartate-semialdehyde dehydrogenase)"
+NC_003210.1,1475943,1476968,1,"lmo1442, lmo1443","lmo1442 (transporter), lmo1443 (hypothetical protein)"
+NC_003210.1,1477049,1477934,-1,lmo1444,lmo1444 (foldase)
+NC_003210.1,1484589,1487604,-1,"lmo1452, lmo1453, lmo1454","lmo1452 (hypothetical protein), lmo1453 (hypothetical protein), lmo1454 (RNA polymerase sigma factor RpoD)"
+NC_003210.1,1507803,1508841,-1,lmo1475,lmo1475 (heat-inducible transcription repressor)
+NC_003210.1,1517612,1518847,-1,"lmo1483, lmo1484","lmo1483 (competence protein ComEB), lmo1484 (competence protein ComEA)"
+NC_003210.1,1531397,1532401,-1,"lmo1501, lmo1502, lmo1503","lmo1501 (hypothetical protein), lmo1502 (Holliday junction resolvase), lmo1503 (hypothetical protein)"
+NC_003210.1,1539978,1543041,-1,"lmo1509, lmo1510","lmo1509 (exodeoxyribonuclease V), lmo1510 (hypothetical protein)"
+NC_003210.1,1550434,1550815,1,lmo1518,lmo1518 (hypothetical protein)
+NC_003210.1,1570989,1573194,-1,"lmo1536, lmo1537","lmo1536 (prephenate dehydratase), lmo1537 (GTPase ObgE)"
+NC_003210.1,1580282,1581691,-1,"lmo1546, lmo1547","lmo1546 (cell-shape determining protein MreD), lmo1547 (rod shape-determining protein MreC)"
+NC_003210.1,1592166,1594407,-1,"lmo1556, lmo1557","lmo1556 (porphobilinogen deaminase), lmo1557 (glutamyl-tRNA reductase)"
+NC_003210.1,1613496,1616823,-1,lmo1574,lmo1574 (DNA polymerase III subunit alpha)
+NC_003210.1,1623098,1624292,-1,lmo1581,lmo1581 (acetate kinase)
+NC_003210.1,1633932,1635144,-1,lmo1592,lmo1592 (thiamine biosynthesis protein ThiI)
+NC_003210.1,1639997,1640198,-1,lmo1596a,lmo1596a (hypothetical protein)
+NC_003210.1,1644105,1645191,-1,lmo1600,lmo1600 (bifunctional 3-deoxy-7-phosphoheptulonate synthase/chorismate mutase)
+NC_003210.1,1650148,1652500,-1,lmo1606,lmo1606 (DNA translocase)
+NC_003210.1,1661587,1662457,-1,lmo1619,lmo1619 (D-amino acid aminotransferase)
+NC_003210.1,1667830,1669444,-1,lmo1625,lmo1625 (transporter)
+NC_003210.1,1680131,1680560,1,lmo1635,lmo1635 (hypothetical protein)
+NC_003210.1,1684562,1687265,-1,lmo1641,lmo1641 (aconitate hydratase)
+NC_003210.1,1698164,1698653,-1,lmo1650,lmo1650 (hypothetical protein)
+NC_003210.1,1704617,1705630,-1,"lmo1655, lmo1656","lmo1655 (hypothetical protein), lmo1656 (hypothetical protein)"
+NC_003210.1,1746265,1747811,-1,lmor09,lmor09 (16S ribosomal RNA)
+NC_003210.1,1773513,1774773,1,lmo1712,lmo1712 (multidrug resistance protein)
+NC_003210.1,1781660,1784339,-1,lmo1721,lmo1721 (transcriptional regulator)
+NC_003210.1,1805924,1807552,-1,"lmo1736, lmo1737","lmo1736 (hypothetical protein), lmo1737 (glycerol dehydrogenase)"
+NC_003210.1,1826410,1826704,-1,lmo1756,lmo1756 (aspartyl/glutamyl-tRNA amidotransferase subunit C)
+NC_003210.1,1849011,1851942,-1,lmor11,lmor11 (23S ribosomal RNA)
+NC_003210.1,1881380,1884665,-1,"lmo1807, lmo1808, lmo1809, lmo1810","lmo1807 (3-ketoacyl-ACP reductase), lmo1808 (ACP S-malonyltransferase), lmo1809 (glycerol-3-phosphate acyltransferase PlsX), lmo1810 (fatty acid biosynthesis transcriptional regulator)"
+NC_003210.1,1895460,1897576,-1,"lmo1821, lmo1822","lmo1821 (phosphoprotein phosphatase), lmo1822 (RNA-binding Sun protein)"
+NC_003210.1,1918680,1919505,1,lmo1842,lmo1842 (hypothetical protein)
+NC_003210.1,1931441,1932266,-1,lmo1855,lmo1855 (D-alanyl-D-alanine carboxypeptidase)
+NC_003210.1,1944907,1950763,-1,"lmo1871, lmo1872, lmo1873, lmo1874, lmo1875","lmo1871 (phosphoglucomutase), lmo1872 (methyltransferase), lmo1873 (dihydrofolate reductase), lmo1874 (thymidylate synthase), lmo1875 (ABC transporter ATP-binding protein)"
+NC_003210.1,1955204,1955474,-1,lmo1882,lmo1882 (30S ribosomal protein S14)
+NC_003210.1,1975058,1977140,-1,"lmo1900, lmo1901, lmo1902","lmo1900 (aspartate alpha-decarboxylase), lmo1901 (pantoate--beta-alanine ligase), lmo1902 (3-methyl-2-oxobutanoate hydroxymethyltransferase)"
+NC_003210.1,1988158,1990812,1,"lmo1915, lmo1916","lmo1915 (malate dehydrogenase), lmo1916 (peptidase)"
+NC_003210.1,2014085,2015738,-1,"lmo1939, lmo1940","lmo1939 (cytidylate kinase), lmo1940 (asparaginase)"
+NC_003210.1,2030743,2031196,-1,lmo1956,lmo1956 (Fur family transcriptional regulator)
+NC_003210.1,2047443,2048514,-1,lmo1975,lmo1975 (DNA polymerase IV)
+NC_003210.1,2058515,2059511,1,lmo1986,lmo1986 (ketol-acid reductoisomerase)
+NC_003210.1,2078131,2079829,-1,lmo2006,lmo2006 (acetolactate synthase)
+NC_003210.1,2094876,2095077,-1,lmo2016,lmo2016 (cold-shock protein)
+NC_003210.1,2118811,2121308,-1,"lmo2037, lmo2038","lmo2037 (phospho-N-acetylmuramoyl-pentapeptide- transferase), lmo2038 (UDP-N-acetylmuramoylalanyl-D-glutamate--2, 6-diaminopimelate ligase)"
+NC_003210.1,2128805,2130078,-1,"lmo2045, lmo2046","lmo2045 (hypothetical protein), lmo2046 (2-dehydropantoate 2-reductase)"
+NC_003210.1,2134694,2136796,-1,"lmo2051, lmo2052, lmo2053","lmo2051 (hypothetical protein), lmo2052 (phosphopantetheine adenylyltransferase), lmo2053 (hypothetical protein)"
+NC_003210.1,2145651,2146298,-1,"lmo2065, lmo2066","lmo2065 (hypothetical protein), lmo2066 (hypothetical protein)"
+NC_003210.1,2159696,2160432,-1,"lmo2081, lmo2082","lmo2081 (camphor resistance protein CrcB), lmo2082 (camphor resistance protein CrcB)"
+NC_003210.1,2164105,2165377,-1,lmo2086,lmo2086 (hypothetical protein)
+NC_003210.1,2193644,2196339,1,"lmo2114, lmo2115","lmo2114 (ABC transporter ATP-binding protein), lmo2115 (ABC transporter permease)"
+NC_003210.1,2201718,2207016,-1,"lmo2121, lmo2122, lmo2123, lmo2124","lmo2121 (maltose phosphorylase), lmo2122 (maltodextrose utilization protein MalA), lmo2123 (sugar ABC transporter permease), lmo2124 (sugar ABC transporter permease)"
+NC_003210.1,2211279,2212245,-1,lmo2128,lmo2128 (LacI family transcriptional regulator)
+NC_003210.1,2217962,2218862,-1,lmo2133,"lmo2133 (fructose-1,6-biphosphate aldolase type II)"
+NC_003210.1,2229192,2229927,-1,lmo2144,lmo2144 (GntR family transcriptional regulator)
+NC_003210.1,2242375,2248693,-1,"lmo2159, lmo2160, lmo2161, lmo2162, lmo2163, lmo2164, lmo2165","lmo2159 (oxidoreductase), lmo2160 (hypothetical protein), lmo2161 (hypothetical protein), lmo2162 (hypothetical protein), lmo2163 (oxidoreductase), lmo2164 (AraC family transcriptional regulator), lmo2165 (Crp/Fnr family transcriptional regulator)"
+NC_003210.1,2255033,2256401,-1,lmo2173,lmo2173 (sigma-54-dependent transcriptional regulator)
+NC_003210.1,2271443,2272316,-1,lmo2184,lmo2184 (ferrichrome ABC transporter substrate-binding protein)
+NC_003210.1,2280237,2281206,-1,lmo2192,lmo2192 (peptide ABC transporter ATP-binding protein)
+NC_003210.1,2289544,2290786,-1,lmo2201,lmo2201 (3-oxoacyl-ACP synthase)
+NC_003210.1,2298092,2299712,-1,"lmo2208, lmo2209","lmo2208 (hypothetical protein), lmo2209 (hypothetical protein)"
+NC_003210.1,2306176,2306716,1,lmo2218,lmo2218 (hypothetical protein)
+NC_003210.1,2313273,2314407,-1,lmo2224,lmo2224 (hypothetical protein)
+NC_003210.1,2329730,2330921,1,lmo2238,lmo2238 (MFS transporter)
+NC_003210.1,2341864,2343013,1,lmo2252,lmo2252 (aspartate aminotransferase)
+NC_003210.1,2350397,2351300,-1,lmo2264,lmo2264 (hypothetical protein)
+NC_003210.1,2361896,2363632,1,"lmo2273, lmo2274, lmo2275, lmo2276","lmo2273 (hypothetical protein), lmo2274 (protein gp29), lmo2275 (protein gp28), lmo2276 (hypothetical protein)"
+NC_003210.1,2364753,2377143,-1,"lmo2278, lmo2279, lmo2280, lmo2281, lmo2282, lmo2283, lmo2284, lmo2285, lmo2286, lmo2287, lmo2288, lmo2289","lmo2278 (L-alanoyl-D-glutamate peptidase), lmo2279 (holin), lmo2280 (protein gp23), lmo2281 (protein gp22), lmo2282 (protein gp21), lmo2283 (protein gp20), lmo2284 (protein gp19), lmo2285 (protein gp18), lmo2286 (protein gp17), lmo2287 (tape-measure), lmo2288 (protein gp15), lmo2289 (protein gp14)"
+NC_003210.1,2395289,2395478,-1,lmo2321,lmo2321 (hypothetical protein)
+NC_003210.1,2397492,2397774,-1,lmo2326,lmo2326 (hypothetical protein)
+NC_003210.1,2401007,2402833,1,"lmo2332, lmo02333","lmo2332 (integrase), lmo02333 (hypothetical protein)"
+NC_003210.1,2402887,2403235,-1,lmo2334,lmo2334 (transcriptional regulator)
+NC_003210.1,2408449,2410993,-1,"lmo2339, lmo2340, lmo2341","lmo2339 (hypothetical protein), lmo2340 (hypothetical protein), lmo2341 (sugar kinase)"
+NC_003210.1,2424921,2425533,-1,lmo2356,lmo2356 (hypothetical protein)
+NC_003210.1,2444230,2445583,-1,lmo2367,lmo2367 (glucose-6-phosphate isomerase)
+NC_003210.1,2460089,2460683,1,lmo2384,lmo2384 (monovalent cation/H+ antiporter subunit G)
+NC_003210.1,2467387,2467969,-1,"lmo2392, lmo2393","lmo2392 (hypothetical protein), lmo2393 (hypothetical protein)"
+NC_003210.1,2472437,2472938,1,lmo2398,lmo2398 (hypothetical protein)
+NC_003210.1,2497068,2498238,-1,lmo2428,lmo2428 (cell division protein FtsW)
+NC_003210.1,2506866,2508202,-1,"lmo2440, lmo2441","lmo2440 (hypothetical protein), lmo2441 (transcriptional regulator)"
+NC_003210.1,2531309,2533398,-1,"lmo2459, lmo2460","lmo2459 (glyceraldehyde-3-phosphate dehydrogenase), lmo2460 (transcriptional regulator)"
+NC_003210.1,2590043,2590607,-1,lmo2511,lmo2511 (hypothetical protein)
+NC_003210.1,2629207,2632586,-1,"lmo2553, lmo2554, lmo2555","lmo2553 (hypothetical protein), lmo2554 (galactosyltransferase), lmo2555 (N-acetylglucosaminyl-phosphatidylinositol biosynthesis protein)"
+NC_003210.1,2637963,2639562,-1,lmo2559,lmo2559 (CTP synthetase)
+NC_003210.1,2651852,2653085,-1,"lmo2574, lmo2575","lmo2574 (hypothetical protein), lmo2575 (cation transporter)"
+NC_003210.1,2676143,2676339,-1,"lmot65, lmot66","lmot65 (tRNA-Ala), lmot66 (tRNA-Ile)"
+NC_003210.1,2681166,2682018,-1,lmo2592,lmo2592 (aldo/keto reductase)
+NC_003210.1,2707234,2708194,-1,lmo2635,"lmo2635 (1,4-dihydroxy-2-naphthoate octaprenyltransferase)"
+NC_003210.1,2713961,2714942,1,lmo2641,lmo2641 (heptaprenyl diphosphate synthase subunit II)
+NC_003210.1,2732588,2736402,-1,"lmo2659, lmo2660, lmo2661, lmo2662","lmo2659 (ribulose-phosphate 3-epimerase), lmo2660 (transketolase), lmo2661 (ribulose-5-phosphate 3-epimerase), lmo2662 (ribose 5-phosphate epimerase)"
+NC_003210.1,2760146,2760680,-1,lmo2686,lmo2686 (hypothetical protein)
+NC_003210.1,2774683,2775523,1,lmo2699,lmo2699 (hypothetical protein)
+NC_003210.1,2777496,2779583,-1,"lmo2703, lmo2704","lmo2703 (hypothetical protein), lmo2704 (DNA polymerase III subunit gamma/tau)"
+NC_003210.1,2786434,2788363,-1,"lmo2713, lmo2714","lmo2713 (internalin), lmo2714 (pepdidoglycan bound protein)"
+NC_003210.1,2815400,2817571,-1,"lmo2739, lmo2740, lmo2741","lmo2739 (NAD-dependent deacetylase), lmo2740 (hypothetical protein), lmo2741 (multidrug transporter)"
+NC_003210.1,2830283,2830523,1,lmo2753,lmo2753 (hypothetical protein)
+NC_003210.1,2833833,2837783,-1,"lmo2756, lmo2757","lmo2756 (DNA topoisomerase III), lmo2757 (ATP-dependent DNA helicase)"
+NC_003210.1,2856378,2857218,-1,lmo2773,lmo2773 (transcriptional antiterminator)
+NC_003210.1,2890778,2891171,-1,lmo2806,lmo2806 (hypothetical protein)
+NC_003210.1,2899312,2900506,-1,lmo2816,lmo2816 (MFS transporter)
+NC_003210.1,2911414,2913686,-1,"lmo2824, lmo2825","lmo2824 (D-3-phosphoglycerate dehydrogenase), lmo2825 (phosphoserine aminotransferase)"
+NC_003210.1,2921339,2926026,-1,"lmo2834, lmo2835, lmo2836, lmo2837, lmo2838","lmo2834 (oxidoreductase), lmo2835 (xylose isomerase), lmo2836 (alcohol dehydrogenase), lmo2837 (sugar ABC transporter permease), lmo2838 (sugar ABC transporter permease)"
+NC_003210.1,2941082,2943479,-1,"lmo2852, lmo2853, lmo2854, lmo2855","lmo2852 (hypothetical protein), lmo2853 (hypothetical protein), lmo2854 (sporulation protein SpoJ), lmo2855 (ribonuclease P)"
+NC_003210.1,4643,5981,1,"lmo0004, lmo0005","lmo0004 (hypothetical protein), lmo0005 (recombination protein F)"
+NC_003210.1,32196,32535,1,lmo0029,lmo0029 (hypothetical protein)
+NC_003210.1,47334,47994,1,lmo0042,lmo0042 (DedA protein)
+NC_003210.1,85024,85627,1,lmo0081,lmo0081 (hypothetical protein)
+NC_003210.1,103203,103836,1,lmo0095,lmo0095 (hypothetical protein)
+NC_003210.1,112385,113288,1,lmo0106,lmo0106 (transcriptional regulator)
+NC_003210.1,123759,124062,1,lmo0119,lmo0119 (hypothetical protein)
+NC_003210.1,137322,138897,1,lmo0135,lmo0135 (peptide ABC transporter substrate-binding protein)
+NC_003210.1,179173,180900,1,"lmo0179, lmo0180","lmo0179 (sugar ABC transporter permease), lmo0180 (sugar ABC transporter permease)"
+NC_003210.1,212823,213285,1,lmo0207,lmo0207 (hypothetical protein)
+NC_003210.1,217799,223261,1,"lmo0214, lmo0215, lmo0216","lmo0214 (transcription-repair coupling factor), lmo0215 (hypothetical protein), lmo0216 (hypothetical protein)"
+NC_003210.1,311829,314981,1,"lmo0288, lmo0289","lmo0288 (two-component sensor histidine kinase), lmo0289 (hypothetical protein)"
+NC_003210.1,335349,336426,1,lmo0310,lmo0310 (hypothetical protein)
+NC_003210.1,351458,355505,1,lmo0327,lmo0327 (cell surface protein)
+NC_003210.1,367247,369757,1,"lmo0335, lmo0336, lmo0337, lmo0338","lmo0335 (hypothetical protein), lmo0336 (hypothetical protein), lmo0337 (hypothetical protein), lmo0338 (hypothetical protein)"
+NC_003210.1,405220,405607,1,lmo0381,lmo0381 (hypothetical protein)
+NC_003210.1,412456,412825,1,lmo0388,lmo0388 (hypothetical protein)
+NC_003210.1,427103,428968,1,"lmo0405, lmo0406, lmo0407","lmo0405 (phosphate transporter), lmo0406 (hypothetical protein), lmo0407 (hypothetical protein)"
+NC_003210.1,459680,465722,1,lmo0435,lmo0435 (peptidoglycan binding protein)
+NC_003210.1,476959,478447,1,lmo0445,lmo0445 (transcripitonal regulator)
+NC_003210.1,498170,501959,1,"lmo0460, lmo0461, lmo0462, lmo0463, lmo0464","lmo0460 (membrane associated lipoprotein), lmo0461 (hypothetical protein), lmo0462 (hypothetical protein), lmo0463 (hypothetical protein), lmo0464 (transposase)"
+NC_003210.1,507722,508733,1,lmo0471,lmo0471 (hypothetical protein)
+NC_003210.1,515390,515750,1,lmo0479,lmo0479 (secreted protein)
+NC_003210.1,543201,544137,1,lmo0509,lmo0509 (phosphoribosyl pyrophosphate synthetase)
+NC_003210.1,571203,572559,1,lmo0534,lmo0534 (hypothetical protein)
+NC_003210.1,625462,628971,1,"lmo0586, lmo0587","lmo0586 (hypothetical protein), lmo0587 (secreted protein)"
+NC_003210.1,675562,676267,1,lmo0635,lmo0635 (hypothetical protein)
+NC_003210.1,683518,684247,1,lmo0642,lmo0642 (hypothetical protein)
+NC_003210.1,707309,707486,1,lmo0670,lmo0670 (hypothetical protein)
+NC_003210.1,724895,725759,1,lmo0690,lmo0690 (flagellin)
+NC_003210.1,759478,760310,1,"lmo0729, lmo0730","lmo0729 (hypothetical protein), lmo0730 (hypothetical protein)"
+NC_003210.1,779615,780296,1,lmo0753,lmo0753 (Crp/Fnr family transcriptional regulator)
+NC_003210.1,821069,821771,-1,lmo0793,lmo0793 (hypothetical protein)
+NC_003210.1,831024,833073,1,lmo0803,lmo0803 (Na+/H+ antiporter)
+NC_003210.1,840199,841072,1,lmo0813,lmo0813 (fructokinase)
+NC_003210.1,855758,859527,1,"lmo0829, lmos31","lmo0829 (pyruvate-flavodoxin oxidoreductase), lmos31 (rli36)"
+NC_003210.1,885439,887603,1,"lmo0847, lmo0848","lmo0847 (glutamine ABC transporter), lmo0848 (amino acid ABC transporter ATP-binding protein)"
+NC_003210.1,892661,895991,1,"lmo0855, lmo0856, lmo0857","lmo0855 (D-alanyl-alanine synthetase A), lmo0856 (UDP-N-acetylmuramoylalanyl-D-glutamyl-2, 6-diamino pimelate-D-alanyl-D-alanyl ligase), lmo0857 (carboxylesterase)"
+NC_003210.1,907925,908467,1,"lmos34, lmo0867","lmos34 (PreQ1), lmo0867 (hypothetical protein)"
+NC_003210.1,915089,918902,1,"lmo0876, lmo0877, lmo0878, lmo0879","lmo0876 (PTS sugar transporter subunit IIC), lmo0877 (glucosamine-6-phosphate isomerase), lmo0878 (oxidoreductase), lmo0879 (hypothetical protein)"
+NC_003210.1,927109,929742,1,"lmo0889, lmo0890, lmo0891, lmo0892","lmo0889 (positive regulator of sigma-B activity), lmo0890 (negative regulation of sigma-B activity), lmo0891 (positive regulation of sigma-B activity), lmo0892 (serine phosphatase)"
+NC_003210.1,948753,950220,1,lmo0913,lmo0913 (succinate semialdehyde dehydrogenase)
+NC_003210.1,981620,981731,1,lmos36,lmos36 (LhrC-5)
+NC_003210.1,988064,988910,1,lmo0955,lmo0955 (hypothetical protein)
+NC_003210.1,1017869,1019438,1,lmo0988,lmo0988 (peptide chain release factor 3)
+NC_003210.1,1039745,1042561,1,"lmo1010, lmo1011, lmo1012","lmo1010 (LysR family transcriptional regulator), lmo1011 (tetrahydrodipicolinate succinylase), lmo1012 (N-acyl-L-amino acid amidohydrolase)"
+NC_003210.1,1048265,1049138,1,lmo1019,lmo1019 (hypothetical protein)
+NC_003210.1,1084852,1086630,1,"lmo1057, lmo1058, lmo1059","lmo1057 (L-lactate dehydrogenase), lmo1058 (hypothetical protein), lmo1059 (hypothetical protein)"
+NC_003210.1,1102857,1103757,1,lmo1073,lmo1073 (metal ABC transporter substrate-binding protein)
+NC_003210.1,1122917,1124078,1,lmo1088,lmo1088 (teichoic acid biosynthesis protein B)
+NC_003210.1,1147602,1149003,-1,lmo1112,lmo1112 (hypothetical protein)
+NC_003210.1,1161219,1161675,1,lmo1127,lmo1127 (hypothetical protein)
+NC_003210.1,1171661,1172009,-1,lmo1137,lmo1137 (hypothetical protein)
+NC_003210.1,1178420,1179743,1,"lmo1148, lmo1149","lmo1148 (cobalamin (5'-phosphatase) synthetase), lmo1149 (alpha-ribazole-5'-phosphatase)"
+NC_003210.1,1192973,1194092,1,lmo1166,lmo1166 (NADPH-dependent butanol dehydrogenase)
+NC_003210.1,1228346,1232838,1,"lmo1204, lmo1205, lmo1206, lmo1207, lmo1208, lmo1209","lmo1204 (cobalamin biosynthesis protein CbiM), lmo1205 (cobalamin biosynthesis protein CbiN), lmo1206 (cobalamin biosynthesis protein CbiQ), lmo1207 (cobalt transporter ATP-binding protein CbiO), lmo1208 (cobyric acid synthase CbiP), lmo1209 (hypothetical protein)"
+NC_003210.1,1237933,1239797,1,"lmo1217, lmo1218","lmo1217 (endo-1,4-beta-glucanase and to aminopeptidase), lmo1218 (rRNA methylase)"
+NC_003210.1,1248891,1252560,1,"lmo1225, lmo1226","lmo1225 (MarR family transcriptional regulator), lmo1226 (transporter)"
+NC_003210.1,1259916,1261728,1,lmo1234,lmo1234 (excinuclease ABC subunit C)
+NC_003210.1,1290240,1291524,1,lmo1267,lmo1267 (trigger factor)
+NC_003210.1,1313653,1315435,1,lmo1289,lmo1289 (internalin)
+NC_003210.1,1323449,1323683,1,lmo1295,lmo1295 (host factor-1 protein)
+NC_003210.1,1334027,1334267,1,lmo1306,lmo1306 (hypothetical protein)
+NC_003210.1,1351466,1356035,1,"lmo1321, lmo1322, lmo1323, lmo1324, lmo1325","lmo1321 (hypothetical protein), lmo1322 (transcription elongation factor NusA), lmo1323 (hypothetical protein), lmo1324 (hypothetical protein), lmo1325 (translation initiation factor IF-2)"
+NC_003210.1,1383488,1386815,1,"lmo1360, lmo1361, lmo1362, lmo1363","lmo1360 (bifunctional 5,10-methylene-tetrahydrofolate dehydrogenase/ 5,10-methylene-tetrahydrofolate cyclohydrolase), lmo1361 (exodeoxyribonuclease VII large subunit), lmo1362 (exodeoxyribonuclease VII small subunit), lmo1363 (geranyltranstransferase)"
+NC_003210.1,1418802,1421362,1,"lmo1392, lmo1393","lmo1392 (peptidase), lmo1393 (peptidase)"
+NC_003210.1,1446382,1448296,-1,"lmo1416, lmo1417","lmo1416 (hypothetical protein), lmo1417 (hypothetical protein)"
+NC_003210.1,1455315,1456662,-1,lmo1424,lmo1424 (manganese transporter)
+NC_003210.1,1463505,1465549,-1,"lmo1432, lmo1433","lmo1432 (hypothetical protein), lmo1433 (glutathione reductase)"
+NC_003210.1,1505311,1507762,-1,"lmo1473, lmo1474","lmo1473 (molecular chaperone DnaK), lmo1474 (heat shock protein GrpE)"
+NC_003210.1,1514256,1517578,-1,"lmo1481, lmo1482","lmo1481 (DNA polymerase III subunit delta), lmo1482 (competence protein ComEC)"
+NC_003210.1,1569148,1570879,-1,"lmo1534, lmo1535","lmo1534 (L-lactate dehydrogenase), lmo1535 (hypothetical protein)"
+NC_003210.1,1577211,1580105,-1,"lmo1543, lmo1544, lmo1545","lmo1543 (ribonuclease G), lmo1544 (septum formation inhibitor MinD), lmo1545 (septum formation inhibitor MinC)"
+NC_003210.1,1589174,1592170,-1,"lmo1553, lmo1554, lmo1555","lmo1553 (glutamate-1-semialdehyde aminotransferase), lmo1554 (delta-aminolevulinic acid dehydratase), lmo1555 (uroporphyrinogen-III synthase)"
+NC_003210.1,1611448,1613279,-1,"lmo1572, lmo1573","lmo1572 (acetyl-CoA carboxylase carboxyltransferase subunit alpha), lmo1573 (acetyl-CoA carboxylase subunit beta)"
+NC_003210.1,1628646,1633759,-1,"lmo1587, lmo1588, lmo1589, lmo1590, lmo1591","lmo1587 (ornithine carbamoyltransferase), lmo1588 (acetylornithine aminotransferase), lmo1589 (acetylglutamate kinase), lmo1590 (bifunctional ornithine acetyltransferase/N-acetylglutamate synthase), lmo1591 (N-acetyl-gamma-glutamyl-phosphate reductase)"
+NC_003210.1,1642864,1643872,-1,lmo1599,lmo1599 (catabolite control protein A)
+NC_003210.1,1648510,1649854,-1,lmo1605,lmo1605 (UDP-N-acetylmuramate--L-alanine ligase)
+NC_003210.1,1659456,1661363,-1,"lmo1617, lmo1618","lmo1617 (multidrug transporter), lmo1618 (MarR family transcriptional regulator)"
+NC_003210.1,1665443,1667720,-1,"lmo1623, lmo1624","lmo1623 (hypothetical protein), lmo1624 (transporter)"
+NC_003210.1,1680643,1682628,1,"lmo1636, lmo1637","lmo1636 (ABC transporter ATP-binding protein), lmo1637 (hypothetical protein)"
+NC_003210.1,1682663,1684462,-1,"lmo1638, lmo1639, lmo1640","lmo1638 (hypothetical protein), lmo1639 (DNA-3-methyladenine glycosidase), lmo1640 (hypothetical protein)"
+NC_003210.1,1697475,1697991,-1,lmo1649,lmo1649 (hypothetical protein)
+NC_003210.1,1702694,1703824,-1,"lmo1653, lmo1654","lmo1653 (cellsurface protein), lmo1654 (cell surface protein)"
+NC_003210.1,1743090,1746021,-1,lmor08,lmor08 (23S ribosomal RNA)
+NC_003210.1,1774990,1775983,1,lmo1713,lmo1713 (rod shape-determining protein MreB)
+NC_003210.1,1781195,1781504,-1,lmo1720,lmo1720 (PTS lichenan transporter subunit IIB)
+NC_003210.1,1823493,1826387,-1,"lmo1754, lmo1755","lmo1754 (aspartyl/glutamyl-tRNA amidotransferase subunit B), lmo1755 (aspartyl/glutamyl-tRNA amidotransferase subunit A)"
+NC_003210.1,1848820,1848930,-1,lmor10,lmor10 (5S ribosomal RNA)
+NC_003210.1,1881040,1881274,-1,lmo1806,lmo1806 (acyl carrier protein)
+NC_003210.1,1891235,1895464,-1,"lmo1817, lmo1818, lmo1819, lmo1820","lmo1817 (hypothetical protein), lmo1818 (ribulose-phosphate 3-epimerase), lmo1819 (ribosome-associated GTPase), lmo1820 (serine/threonine protein kinase)"
+NC_003210.1,1928578,1931319,-1,"lmo1852, lmo1853, lmo1854","lmo1852 (mercury-binding protein), lmo1853 (heavy metal-transporting ATPase), lmo1854 (hypothetical protein)"
+NC_003210.1,1944144,1944768,-1,lmo1870,lmo1870 (alkaline phosphatase)
+NC_003210.1,1954254,1955127,-1,lmo1881,lmo1881 (5'-3' exonuclease)
+NC_003210.1,1969036,1974962,-1,"lmo1896, lmo1897, lmo1898, lmo1899","lmo1896 (asparaginyl-tRNA synthetase), lmo1897 (aspartate aminotransferase), lmo1898 (hypothetical protein), lmo1899 (bifunctional ATP-dependent DNA helicase/DNA polymerase III subunit epsilon)"
+NC_003210.1,1991046,1993326,1,lmo1917,lmo1917 (pyruvate formate-lyase)
+NC_003210.1,2012581,2013727,-1,lmo1938,lmo1938 (30S ribosomal protein S1)
+NC_003210.1,2027647,2030591,-1,"lmo1953, lmo1954, lmo1955","lmo1953 (purine nucleoside phosphorylase), lmo1954 (phosphopentomutase), lmo1955 (integrase/recombinase)"
+NC_003210.1,2044480,2047256,-1,"lmo1971, lmo1972, lmo1973, lmo1974","lmo1971 (PTS ascorbate transporter subunit IIC), lmo1972 (PTS pentitol transporter subunit IIB), lmo1973 (PTS sugar transporter subunit IIA), lmo1974 (GntR family transcriptional regulator)"
+NC_003210.1,2059668,2065506,1,"lmo1987, lmo1988, lmo1989, lmo1990, lmo1991","lmo1987 (2-isopropylmalate synthase), lmo1988 (3-isopropylmalate dehydrogenase), lmo1989 (isopropylmalate isomerase large subunit), lmo1990 (isopropylmalate isomerase small subunit), lmo1991 (threonine dehydratase)"
+NC_003210.1,2077018,2078014,-1,lmo2005,lmo2005 (oxidoreductase)
+NC_003210.1,2115380,2118671,-1,"lmo2034, lmo2035, lmo2036","lmo2034 (cell division protein FtsQ), lmo2035 (UDP-diphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase), lmo2036 (UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase)"
+NC_003210.1,2159223,2159604,-1,lmo2080,lmo2080 (hypothetical protein)
+NC_003210.1,2162322,2164011,-1,lmo2085,lmo2085 (peptidoglycan binding protein)
+NC_003210.1,2200722,2201544,-1,lmo2120,lmo2120 (hypothetical protein)
+NC_003210.1,2242096,2242282,-1,lmo2158,lmo2158 (hypothetical protein)
+NC_003210.1,2251049,2254804,-1,"lmo2170, lmo2171, lmo2172","lmo2170 (hypothetical protein), lmo2171 (MFS transporter), lmo2172 (propionate CoA-transferase)"
+NC_003210.1,2269704,2271454,-1,"lmo2182, lmo2183","lmo2182 (ferrichrome ABC transporter ATP-binding protein), lmo2183 (ferrichrome ABC transporter permease)"
+NC_003210.1,2279523,2279919,-1,lmo2191,lmo2191 (ArsC family transcriptional regulator)
+NC_003210.1,2288570,2289423,-1,"lmo2199, lmo2200","lmo2199 (hypothetical protein), lmo2200 (MarR family transcriptional regulator)"
+NC_003210.1,2297303,2297981,-1,lmo2207,lmo2207 (hypothetical protein)
+NC_003210.1,2306832,2307714,1,lmo2219,lmo2219 (foldase)
+NC_003210.1,2312838,2313192,-1,lmo2223,lmo2223 (hypothetical protein)
+NC_003210.1,2394789,2394984,-1,lmo2320,lmo2320 (hypothetical protein)
+NC_003210.1,2421877,2424721,-1,"lmo2354, lmo2355","lmo2354 (hypothetical protein), lmo2355 (multidrug resistance protein)"
+NC_003210.1,2443367,2444126,-1,lmo2366,lmo2366 (DeoR family transcriptional regulator)
+NC_003210.1,2495817,2496993,-1,lmo2427,lmo2427 (cell division protein FtsW)
+NC_003210.1,2529984,2531175,-1,lmo2458,lmo2458 (phosphoglycerate kinase)
+NC_003210.1,2587299,2589813,-1,lmo2510,lmo2510 (preprotein translocase subunit SecA)
+NC_003210.1,2627815,2629087,-1,lmo2552,lmo2552 (UDP-N-acetylglucosamine 1-carboxyvinyltransferase)
+NC_003210.1,2648959,2651756,-1,"lmo2570, lmo2571, lmo2572, lmo2573","lmo2570 (hypothetical protein), lmo2571 (nicotinamidase), lmo2572 (dihydrofolate reductase subunit A), lmo2573 (zinc-binding dehydrogenase)"
+NC_003210.1,2673040,2675971,-1,lmor17,lmor17 (23S ribosomal RNA)
+NC_003210.1,2706414,2707215,-1,lmo2634,lmo2634 (hypothetical protein)
+NC_003210.1,2715031,2716363,1,lmo2642,lmo2642 (hypothetical protein)
+NC_003210.1,2730563,2732455,-1,"lmo2657, lmo2658","lmo2657 (deoxyguanosinetriphosphate triphosphohydrolase), lmo2658 (acyltransferase)"
+NC_003210.1,2775643,2776486,1,lmo2700,lmo2700 (aldo/keto reductase)
+NC_003210.1,2776531,2777388,-1,"lmo2701, lmo2702","lmo2701 (hypothetical protein), lmo2702 (recombination protein RecR)"
+NC_003210.1,2784804,2786319,-1,lmo2712,lmo2712 (gluconate kinase)
+NC_003210.1,2813948,2815283,-1,lmo2738,lmo2738 (hemolysin)
+NC_003210.1,2832057,2833725,-1,lmo2755,lmo2755 (CoA-transferase)
+NC_003210.1,2852987,2856282,-1,"lmo2771, lmo2772","lmo2771 (beta-glucosidase), lmo2772 (PTS beta-glucoside transporter subunit IIABC)"
+NC_003210.1,2888367,2890666,-1,"lmo2802a, lmo2803, lmo2804, lmo2805","lmo2802a (hypothetical protein), lmo2803 (hypothetical protein), lmo2804 (hypothetical protein), lmo2805 (hypothetical protein)"
+NC_003210.1,2909752,2911326,-1,"lmo2822, lmo2823","lmo2822 (hypothetical protein), lmo2823 (sporulation protein SpoOJ)"
+NC_003210.1,2917388,2921343,-1,"lmo2831, lmo2832, lmo2833","lmo2831 (phosphoglucomutase), lmo2832 (hypothetical protein), lmo2833 (maltose phosphorylase)"
+NC_003210.1,6029,7970,1,lmo0006,lmo0006 (DNA gyrase subunit B)
+NC_003210.1,48073,49306,1,lmo0043,lmo0043 (arginine deiminase)
+NC_003210.1,85901,86228,1,lmo0082,lmo0082 (hypothetical protein)
+NC_003210.1,104133,106862,1,"lmo0096, lmo0097, lmo0098","lmo0096 (PTS mannose transporter subunit IIAB), lmo0097 (PTS mannose transporter subunit IIC), lmo0098 (PTS mannose transporter subunit IID)"
+NC_003210.1,124103,131380,1,"lmo0120, lmo0121, lmo0122, lmo0123, lmo0124, lmo0125, lmo0126, lmo0127, lmo0128, lmo0129","lmo0120 (hypothetical protein), lmo0121 (phage tail protein), lmo0122 (hypothetical protein), lmo0123 (hypothetical protein), lmo0124 (hypothetical protein), lmo0125 (hypothetical protein), lmo0126 (hypothetical protein), lmo0127 (hypothetical protein), lmo0128 (hypothetical protein), lmo0129 (N-acetylmuramoyl-L-alanine amidase)"
+NC_003210.1,138998,140853,1,"lmo0136, lmo0137","lmo0136 (peptide ABC transporter permease), lmo0137 (peptide ABC transporter permease)"
+NC_003210.1,180927,182184,1,lmo0181,lmo0181 (sugar ABC transporter substrate-binding protein)
+NC_003210.1,223489,223876,1,lmo0217,lmo0217 (DivIC protein)
+NC_003210.1,314983,315823,1,lmo0290,lmo0290 (hypothetical protein)
+NC_003210.1,336540,337161,1,lmo0311,lmo0311 (hypothetical protein)
+NC_003210.1,355642,356323,1,lmo0328,lmo0328 (hypothetical protein)
+NC_003210.1,370031,370634,1,"lmo0339, lmo0340","lmo0339 (hypothetical protein), lmo0340 (hypothetical protein)"
+NC_003210.1,428980,429403,1,lmo0408,lmo0408 (hypothetical protein)
+NC_003210.1,478720,479710,1,lmo0446,lmo0446 (penicillin acylase)
+NC_003210.1,502197,502362,1,lmo0464a,lmo0464a (hypothetical protein)
+NC_003210.1,509399,511212,1,"lmo0472, lmo0473","lmo0472 (hypothetical protein), lmo0473 (hypothetical protein)"
+NC_003210.1,516075,516636,1,lmo0480,lmo0480 (transcriptional regulator)
+NC_003210.1,544356,544716,1,lmos21,lmos21 (rliB)
+NC_003210.1,629087,630491,1,lmo0588,lmo0588 (DNA photolyase)
+NC_003210.1,676371,677395,1,"lmo0636, lmo0637","lmo0636 (hypothetical protein), lmo0637 (hypothetical protein)"
+NC_003210.1,684389,685040,1,lmo0643,lmo0643 (transaldolase)
+NC_003210.1,707611,708220,1,lmo0671,lmo0671 (hypothetical protein)
+NC_003210.1,726033,728269,1,"lmo0691, lmo0692","lmo0691 (chemotaxis response regulator CheY), lmo0692 (two-component sensor histidine kinase CheA)"
+NC_003210.1,760454,760859,1,lmo0731,lmo0731 (hypothetical protein)
+NC_003210.1,780376,780988,1,lmo0754,lmo0754 (hypothetical protein)
+NC_003210.1,841156,842086,1,lmo0814,lmo0814 (oxidoreductase)
+NC_003210.1,919019,920408,1,lmo0880,lmo0880 (wall associated protein precursor)
+NC_003210.1,929891,931450,1,"lmo0893, lmo0894, lmo0895","lmo0893 (anti-anti-sigma factor (antagonist of RsbW)), lmo0894 (serine-protein kinase RsbW), lmo0895 (RNA polymerase sigma factor SigB)"
+NC_003210.1,950362,955740,1,"lmo0914, lmo0915, lmo0916, lmo0917, lmo0918","lmo0914 (PTS sugar transporter subunit IIB), lmo0915 (PTS sugar transporter subunit IIC), lmo0916 (PTS sugar transporter subunit IIA), lmo0917 (beta-glucosidase), lmo0918 (transcription antiterminator BglG)"
+NC_003210.1,989098,991690,1,"lmo0956, lmo0957, lmo0958","lmo0956 (N-acetylglucosamine-6P-phosphate deacetylase), lmo0957 (glucosamine-6-phosphate isomerase), lmo0958 (GntR family transcirptional regulator)"
+NC_003210.1,1019544,1021383,1,"lmo0989, lmo0990","lmo0989 (MarR family transcriptional regulator), lmo0990 (hypothetical protein)"
+NC_003210.1,1049272,1052354,1,"lmo1020, lmo1021, lmo1022, lmo1023","lmo1020 (hypothetical protein), lmo1021 (two-component sensor histidine kinase), lmo1022 (two-component response regulator), lmo1023 (potassium transporter)"
+NC_003210.1,1086771,1088854,1,"lmo1060, lmo1061","lmo1060 (transcriptional regulator), lmo1061 (two-component sensor histidine kinase)"
+NC_003210.1,1104047,1104851,1,lmo1074,lmo1074 (teichoic acid translocation permease TagG)
+NC_003210.1,1124078,1126495,1,"lmo1089, lmo1090, lmo1091","lmo1089 (glycerol-3-phosphate cytidylyltransferase), lmo1090 (glycosyltransferase), lmo1091 (glysosyltransferase)"
+NC_003210.1,1145210,1147412,-1,"lmo1108, lmo1109, lmo1110, lmo1111","lmo1108 (hypothetical protein), lmo1109 (hypothetical protein), lmo1110 (hypothetical protein), lmo1111 (hypothetical protein)"
+NC_003210.1,1179806,1179993,1,lmos41,lmos41 (rli39)
+NC_003210.1,1194119,1198389,1,"lmo1167, lmo1168, lmo1169, lmo1170, lmos43","lmo1167 (glycerol uptake facilitator protein), lmo1168 (acetate kinase), lmo1169 (threonine-phosphate decarboxylase), lmo1170 (PduX protein), lmos43 (rli55)"
+NC_003210.1,1252666,1253341,1,lmo1227,lmo1227 (uracil-DNA glycosylase)
+NC_003210.1,1261916,1263131,1,lmo1235,lmo1235 (aspartate kinase)
+NC_003210.1,1291709,1292969,1,lmo1268,lmo1268 (ATP-dependent protease ATP-binding subunit ClpX)
+NC_003210.1,1315766,1317563,1,lmo1290,lmo1290 (internalin)
+NC_003210.1,1323793,1326236,1,"lmo1296, lmo1297","lmo1296 (hypothetical protein), lmo1297 (aluminum resistance protein)"
+NC_003210.1,1356031,1356671,1,"lmo1326, lmo1327","lmo1326 (hypothetical protein), lmo1327 (ribosome-binding factor A)"
+NC_003210.1,1387013,1387214,1,lmo1364,lmo1364 (cold-shock protein)
+NC_003210.1,1421453,1423165,1,"lmo1394, lmo1395","lmo1394 (3-ketoacyl-ACP reductase), lmo1395 (hypothetical protein)"
+NC_003210.1,1454346,1455177,-1,lmo1423,lmo1423 (hypothetical protein)
+NC_003210.1,1502251,1505170,-1,"lmo1470, lmo1471, lmo1472","lmo1470 (16S ribosomal RNA methyltransferase RsmE), lmo1471 (ribosomal protein L11 methyltransferase), lmo1472 (molecular chaperone DnaJ)"
+NC_003210.1,1566364,1569025,-1,"lmo1531, lmo1532, lmo1533","lmo1531 (S-adenosylmethionine:tRNA ribosyltransferase-isomerase), lmo1532 (Holliday junction DNA helicase RuvB), lmo1533 (Holliday junction DNA helicase RuvA)"
+NC_003210.1,1610205,1611165,-1,lmo1571,lmo1571 (6-phosphofructokinase)
+NC_003210.1,1647820,1648366,-1,lmo1604,lmo1604 (2-cys peroxiredoxin)
+NC_003210.1,1656902,1659248,-1,"lmo1614, lmo1615, lmo1616","lmo1614 (hypothetical protein), lmo1615 (tRNA (guanine-N(7)-)-methyltransferase), lmo1616 (hypothetical protein)"
+NC_003210.1,1696939,1697302,-1,lmo1648,lmo1648 (hypothetical protein)
+NC_003210.1,1742729,1743009,-1,"lmot37, lmot38, lmor07","lmot37 (tRNA-Thr), lmot38 (tRNA-Val), lmor07 (5S ribosomal RNA)"
+NC_003210.1,1776111,1776183,1,lmot39,lmot39 (tRNA-Arg)
+NC_003210.1,1779713,1781126,-1,"lmo1718, lmo1719","lmo1718 (hypothetical protein), lmo1719 (PTS lichenan transporter subunit IIA)"
+NC_003210.1,1822420,1823353,-1,lmo1753,lmo1753 (lipid kinase)
+NC_003210.1,1848165,1848690,-1,lmo1776,lmo1776 (hypothetical protein)
+NC_003210.1,1875573,1880847,-1,"lmo1803, lmo1804, lmo1805","lmo1803 (cell division protein FtsY), lmo1804 (chromosome condensation protein Smc), lmo1805 (ribonuclease III)"
+NC_003210.1,1926481,1928425,-1,"lmo1850, lmo1851","lmo1850 (MarR family transcriptional regulator), lmo1851 (carboxy-terminal processing proteinase)"
+NC_003210.1,1942686,1944051,-1,"lmo1868, lmo1869","lmo1868 (hypothetical protein), lmo1869 (hypothetical protein)"
+NC_003210.1,1968168,1968888,-1,lmo1895,lmo1895 (chromosome replication initiation protein)
+NC_003210.1,2010088,2012438,-1,"lmo1936, lmo1937","lmo1936 (NAD(P)H-dependent glycerol-3-phosphate dehydrogenase), lmo1937 (GTP-binding protein EngA)"
+NC_003210.1,2025391,2027467,-1,"lmo1951, lmo1952","lmo1951 (segregation and condensation protein A), lmo1952 (diaminopimelate decarboxylase)"
+NC_003210.1,2042156,2044457,-1,"lmo1968, lmo1969, lmo1970","lmo1968 (creatinine amidohydrolase), lmo1969 (2-keto-3-deoxygluconate-6-phosphate aldolase), lmo1970 (phosphotriesterase)"
+NC_003210.1,2065697,2066417,1,lmo1992,lmo1992 (alpha-acetolactate decarboxylase)
+NC_003210.1,2075411,2076846,-1,"lmo2003, lmo2004","lmo2003 (GntR family transcriptional regulator), lmo2004 (GntR family transcriptional regulator)"
+NC_003210.1,2113733,2115014,-1,lmo2033,lmo2033 (cell division protein FtsA)
+NC_003210.1,2157948,2159094,-1,lmo2079,lmo2079 (hypothetical protein)
+NC_003210.1,2199364,2200723,-1,lmo2119,lmo2119 (hypothetical protein)
+NC_003210.1,2240067,2241969,-1,lmo2157,lmo2157 (hypothetical protein)
+NC_003210.1,2268423,2269701,-1,"lmo2180, lmo2181","lmo2180 (hypothetical protein), lmo2181 (hypothetical protein)"
+NC_003210.1,2278638,2279292,-1,lmo2190,lmo2190 (adaptor protein)
+NC_003210.1,2294554,2297155,-1,lmo2206,lmo2206 (Clp protease subunit B)
+NC_003210.1,2307754,2312696,-1,"lmo2220, lmo2221, lmo2222","lmo2220 (3'-5' exoribonuclease), lmo2221 (hypothetical protein), lmo2222 (hypothetical protein)"
+NC_003210.1,2393612,2394793,-1,"lmo2318, lmo2319","lmo2318 (hypothetical protein), lmo2319 (hypothetical protein)"
+NC_003210.1,2419796,2421749,-1,lmo2353,lmo2353 (Na+/H+ antiporter)
+NC_003210.1,2441457,2443003,-1,lmor15,lmor15 (16S ribosomal RNA)
+NC_003210.1,2494890,2495662,-1,"lmo2425, lmo2426","lmo2425 (glycine cleavage system protein H), lmo2426 (hypothetical protein)"
+NC_003210.1,2527649,2529939,-1,"lmo2456, lmo2457","lmo2456 (phosphoglyceromutase), lmo2457 (triosephosphate isomerase)"
+NC_003210.1,2585244,2587097,-1,"lmo2508, lmo2509","lmo2508 (hypothetical protein), lmo2509 (peptide chain release factor 2)"
+NC_003210.1,2626441,2627713,-1,lmo2551,lmo2551 (transcription termination factor Rho)
+NC_003210.1,2647163,2648825,-1,lmo2569,lmo2569 (peptide ABC transporter substrate-binding protein)
+NC_003210.1,2672663,2672960,-1,"lmot63, lmot64, lmor16","lmot63 (tRNA-Thr), lmot64 (tRNA-Asn), lmor16 (5S ribosomal RNA)"
+NC_003210.1,2703274,2706054,-1,"lmo2629, lmo2630, lmo2631, lmo2632, lmo2633","lmo2629 (50S ribosomal protein L2), lmo2630 (50S ribosomal protein L23), lmo2631 (50S ribosomal protein L4), lmo2632 (50S ribosomal protein L3), lmo2633 (30S ribosomal protein S10)"
+NC_003210.1,2727303,2730371,-1,"lmo2654, lmo2655, lmo2656","lmo2654 (elongation factor G), lmo2655 (30S ribosomal protein S7), lmo2656 (30S ribosomal protein S12)"
+NC_003210.1,2812924,2813881,-1,lmo2737,lmo2737 (LacI family transcriptional regulator)
+NC_003210.1,2830541,2831879,-1,lmo2754,lmo2754 (D-alanyl-D-alanine carboxypeptidase)
+NC_003210.1,2887498,2888215,-1,lmo2802,lmo2802 (16S rRNA methyltransferase GidB)
+NC_003210.1,2916945,2917266,-1,lmo2830,lmo2830 (thioredoxin)
+NC_003210.1,8064,10593,1,lmo0007,lmo0007 (DNA gyrase subunit A)
+NC_003210.1,49584,50753,1,"lmo0044, lmo0045, lmo0046","lmo0044 (30S ribosomal protein S6), lmo0045 (single-strand binding protein), lmo0046 (30S ribosomal protein S18)"
+NC_003210.1,106987,107377,1,lmo0099,lmo0099 (hypothetical protein)
+NC_003210.1,141051,143258,1,"lmo0138, lmo0139, lmo0140, lmo0141","lmo0138 (hypothetical protein), lmo0139 (hypothetical protein), lmo0140 (hypothetical protein), lmo0141 (hypothetical protein)"
+NC_003210.1,182266,189528,1,"lmo0182, lmo0183, lmo0184","lmo0182 (alpha-glucosidase), lmo0183 (alpha-glucosidase), lmo0184 (oligo-1,6-glucosidase)"
+NC_003210.1,224026,224455,1,lmo0218,lmo0218 (hypothetical protein)
+NC_003210.1,315944,316775,1,lmo0291,lmo0291 (hypothetical protein)
+NC_003210.1,337160,339087,1,"lmo0312, lmo0313","lmo0312 (hypothetical protein), lmo0313 (hypothetical protein)"
+NC_003210.1,356566,357705,1,"lmo0329, lmo0330","lmo0329 (transposase), lmo0330 (transposase)"
+NC_003210.1,429629,432095,1,lmo0409,lmo0409 (internalin)
+NC_003210.1,479764,481153,1,lmo0447,lmo0447 (glutamate decarboxylase)
+NC_003210.1,511214,511562,1,lmo0474,lmo0474 (hypothetical protein)
+NC_003210.1,516745,518446,1,lmo0481,lmo0481 (hypothetical protein)
+NC_003210.1,544922,545501,1,lmo0510,lmo0510 (hypothetical protein)
+NC_003210.1,630628,633581,1,"lmo0589, lmo0590, lmo0591","lmo0589 (hypothetical protein), lmo0590 (hypothetical protein), lmo0591 (hypothetical protein)"
+NC_003210.1,708325,708860,1,lmos27,lmos27 (rli33)
+NC_003210.1,728281,737162,1,"lmo0693, lmo0694, lmo0695, lmo0696, lmo0697, lmo0698, lmo0699, lmo0700, lmo0701, lmo0702","lmo0693 (flagellar motor switch protein FliY), lmo0694 (hypothetical protein), lmo0695 (hypothetical protein), lmo0696 (flagellar basal body rod modification protein), lmo0697 (flagellar hook protein FlgE), lmo0698 (flagellar motor switch protein), lmo0699 (flagellar motor switch protein FliM), lmo0700 (flagellar motor switch protein FliY), lmo0701 (hypothetical protein), lmo0702 (hypothetical protein)"
+NC_003210.1,761551,763468,1,lmo0732,lmo0732 (peptidoglycan binding protein)
+NC_003210.1,781102,783774,1,"lmo0755, lmo0756, lmo0757","lmo0755 (hypothetical protein), lmo0756 (ABC transporter ATP-binding protein), lmo0757 (hypothetical protein)"
+NC_003210.1,842312,843287,1,"lmo0815, lmo0816","lmo0815 (transcriptional regulator), lmo0816 (regulatory protein PaiA)"
+NC_003210.1,931450,932050,1,lmo0896,lmo0896 (indirect negative regulation of sigma B dependant gene expression (serine phosphatase))
+NC_003210.1,955828,957602,1,"lmos35, lmo0919","lmos35 (rli53), lmo0919 (antibiotic ABC transporter ATP-binding protein)"
+NC_003210.1,991809,992865,1,lmo0959,lmo0959 (undacaprenyl-phosphate N-acetylglucosaminyltransferase)
+NC_003210.1,1021462,1022432,1,"lmos37, lmo0991","lmos37 (yybP-ykoY), lmo0991 (hypothetical protein)"
+NC_003210.1,1052508,1054277,1,"lmo1024, lmo1025","lmo1024 (hypothetical protein), lmo1025 (hypothetical protein)"
+NC_003210.1,1088940,1091043,1,"lmo1062, lmo1063","lmo1062 (ABC transporters permease), lmo1063 (ABC transporter ATP binding protein)"
+NC_003210.1,1104862,1105864,1,lmo1075,lmo1075 (teichoic acid ABC transporter ATP-binding protein)
+NC_003210.1,1126703,1129816,1,"lmo1092, lmo1093, lmo1094, lmo1095","lmo1092 (nicotinate phosphoribosyltransferase), lmo1093 (NAD synthetase), lmo1094 (hypothetical protein), lmo1095 (PTS cellbiose transporter subunit IIB)"
+NC_003210.1,1137996,1144928,-1,"lmo1103, lmo1104, lmo1105, lmo1106, lmo1107","lmo1103 (hypothetical protein), lmo1104 (P60 protein), lmo1105 (hypothetical protein), lmo1106 (hypothetical protein), lmo1107 (hypothetical protein)"
+NC_003210.1,1198636,1199776,1,lmo1171,lmo1171 (NADPH-dependent butanol dehydrogenase)
+NC_003210.1,1293087,1294258,1,"lmo1269, lmo1270","lmo1269 (type I signal peptidase), lmo1270 (type I signal peptidase)"
+NC_003210.1,1326439,1326808,1,lmo1298,lmo1298 (glutamine synthetase repressor)
+NC_003210.1,1356768,1358697,1,"lmo1328, lmo1329","lmo1328 (tRNA pseudouridine synthase B), lmo1329 (riboflavin kinase)"
+NC_003210.1,1387380,1390031,1,"lmo1365, lmo1366","lmo1365 (1-deoxy-D-xylulose-5-phosphate synthase), lmo1366 (hypothetical protein)"
+NC_003210.1,1423254,1425146,1,"lmo1396, lmo1397","lmo1396 (phosphatidylglycerophosphate synthase), lmo1397 (competence damage-inducible protein CinA)"
+NC_003210.1,1501414,1502054,-1,"lmo1468, lmo1469","lmo1468 (hypothetical protein), lmo1469 (30S ribosomal protein S21)"
+NC_003210.1,1565138,1566278,-1,lmo1530,lmo1530 (queuine tRNA-ribosyltransferase)
+NC_003210.1,1608165,1609923,-1,lmo1570,lmo1570 (pyruvate kinase)
+NC_003210.1,1656520,1656769,-1,lmo1613,lmo1613 (hypothetical protein)
+NC_003210.1,1741490,1742688,-1,"lmot24, lmot25, lmot26, lmot27, lmot28, lmot29, lmot30, lmot31, lmot32, lmot33, lmot34, lmot35, lmot36","lmot24 (tRNA-Phe), lmot25 (tRNA-Asp), lmot26 (tRNA-Met), lmot27 (tRNA-Ser), lmot28 (tRNA-Met), lmot29 (tRNA-Met), lmot30 (tRNA-Ala), lmot31 (tRNA-Pro), lmot32 (tRNA-Arg), lmot33 (tRNA-Leu), lmot34 (tRNA-Gly), lmot35 (tRNA-Leu), lmot36 (tRNA-Lys)"
+NC_003210.1,1778414,1779482,-1,lmo1717,lmo1717 (hypothetical protein)
+NC_003210.1,1820132,1822273,-1,"lmo1751, lmo1752","lmo1751 (hypothetical protein), lmo1752 (hypothetical protein)"
+NC_003210.1,1846354,1847960,-1,"lmo1774, lmo1775","lmo1774 (phosphoribosylaminoimidazole carboxylase ATPase subunit), lmo1775 (phosphoribosylaminoimidazole carboxylase catalytic subunit)"
+NC_003210.1,1873763,1875461,-1,"lmo1801, lmo1802","lmo1801 (signal recognition particle protein Ffh), lmo1802 (DNA-binding protein)"
+NC_003210.1,1923824,1926322,-1,"lmo1847, lmo1848, lmo1849","lmo1847 (metal ABC transporter), lmo1848 (metal ABC transporter permease), lmo1849 (metal ABC transporter ATP-binding protein)"
+NC_003210.1,1967014,1968158,-1,"lmo1893, lmo1894","lmo1893 (hypothetical protein), lmo1894 (endonuclease III (DNA repair))"
+NC_003210.1,2009005,2009986,-1,lmo1935,lmo1935 (protein-tyrosine/serine phosphatase)
+NC_003210.1,2024061,2025395,-1,"lmo1949, lmo1950","lmo1949 (hypothetical protein), lmo1950 (hypothetical protein)"
+NC_003210.1,2071186,2075392,-1,"lmo1998, lmo1999, lmo2000, lmo2001, lmo2002","lmo1998 (opine catabolism protein), lmo1999 (hypothetical protein), lmo2000 (PTS mannose transporter subunit IID), lmo2001 (PTS mannose transporter subunit IIC), lmo2002 (PTS mannose transporter subunit IIB)"
+NC_003210.1,2112491,2113667,-1,lmo2032,lmo2032 (cell division protein FtsZ)
+NC_003210.1,2155222,2157844,-1,"lmo2075, lmo2076, lmo2077, lmo2078","lmo2075 (DNA-binding/iron metalloprotein/AP endonuclease), lmo2076 (alanine acetyltransferase), lmo2077 (glycoprotease), lmo2078 (hypothetical protein)"
+NC_003210.1,2197762,2199115,-1,lmo2118,lmo2118 (phosphoglucosamine mutase)
+NC_003210.1,2264771,2268230,-1,lmo2179,lmo2179 (peptidoglycan binding protein)
+NC_003210.1,2275519,2278513,-1,"lmo2188, lmo2189","lmo2188 (oligoendopeptidase), lmo2189 (competence protein CoiA)"
+NC_003210.1,2293774,2294464,-1,lmo2205,lmo2205 (phosphoglyceromutase)
+NC_003210.1,2389490,2393596,-1,"lmo2310, lmo2311, lmo2312, lmo2313, lmo2314, lmo2315, lmo2316, lmo2317","lmo2310 (hypothetical protein), lmo2311 (hypothetical protein), lmo2312 (hypothetical protein), lmo2313 (hypothetical protein), lmo2314 (hypothetical protein), lmo2315 (hypothetical protein), lmo2316 (site-specific DNA-methyltransferase), lmo2317 (hypothetical protein)"
+NC_003210.1,2441134,2441330,-1,"lmot60, lmot61","lmot60 (tRNA-Ala), lmot61 (tRNA-Ile)"
+NC_003210.1,2494521,2494806,-1,lmo2424,lmo2424 (thioredoxin)
+NC_003210.1,2526221,2527514,-1,lmo2455,lmo2455 (phosphopyruvate hydratase)
+NC_003210.1,2581899,2584741,-1,"lmo2505, lmo2506, lmo2507","lmo2505 (peptidoglycan lytic protein P45), lmo2506 (cell division protein FtsX), lmo2507 (cell division protein FtsE)"
+NC_003210.1,2624979,2626361,-1,"lmo2549, lmo2550","lmo2549 (wall teichoic acid glycosylation protein GtcA), lmo2550 (glycosyl transferase)"
+NC_003210.1,2646685,2647009,-1,lmo2568,lmo2568 (hypothetical protein)
+NC_003210.1,2671623,2672511,-1,lmo2589,lmo2589 (TetR family transcriptional regulator)
+NC_003210.1,2701253,2703187,-1,"lmo2624, lmo2625, lmo2626, lmo2627, lmo2628","lmo2624 (50S ribosomal protein L29), lmo2625 (50S ribosomal protein L16), lmo2626 (30S ribosomal protein S3), lmo2627 (50S ribosomal protein L22), lmo2628 (30S ribosomal protein S19)"
+NC_003210.1,2726007,2727195,-1,lmo2653,lmo2653 (elongation factor Tu)
+NC_003210.1,2881242,2887297,-1,"lmo2795, lmo2796, lmo2797, lmo2798, lmo2799, lmo2800, lmo2801","lmo2795 (RpiR family transcription regulator), lmo2796 (transcriptional regulator), lmo2797 (PTS mannitol transporter subunit IIA), lmo2798 (phosphatase), lmo2799 (PTS mannitol transporter subunit IIBC), lmo2800 (dehydrogenase), lmo2801 (N-acetylmannosamine-6-phosphate 2-epimerase)"
+NC_003210.1,10727,12776,1,"lmo0008, lmo0009","lmo0008 (cardiolipin synthase), lmo0009 (spermidine acetyltransferase)"
+NC_003210.1,50906,51518,1,lmo0047,lmo0047 (hypothetical protein)
+NC_003210.1,107498,107849,1,lmo0100,lmo0100 (hypothetical protein)
+NC_003210.1,143365,143722,1,lmo0142,lmo0142 (hypothetical protein)
+NC_003210.1,189624,190398,1,lmo0185,lmo0185 (hypothetical protein)
+NC_003210.1,224561,226508,1,lmo0219,lmo0219 (hypothetical protein)
+NC_003210.1,316872,318375,1,lmo0292,lmo0292 (heat-shock protein htrA serine protease)
+NC_003210.1,339269,340191,1,"lmo0314, lmos15","lmo0314 (hypothetical protein), lmos15 (TPP)"
+NC_003210.1,481249,482868,1,"lmo0448, lmo0448a","lmo0448 (amino acid antiporter), lmo0448a (hypothetical protein)"
+NC_003210.1,511965,512208,1,lmo0475,lmo0475 (hypothetical protein)
+NC_003210.1,518596,519700,1,lmo0482,lmo0482 (ribosomal RNA large subunit methyltransferase N)
+NC_003210.1,545608,546289,1,lmo0511,lmo0511 (hypothetical protein)
+NC_003210.1,633708,634251,1,lmo0592,lmo0592 (hypothetical protein)
+NC_003210.1,709133,709562,1,lmo0672,lmo0672 (hypothetical protein)
+NC_003210.1,737268,737733,1,lmo0703,lmo0703 (hypothetical protein)
+NC_003210.1,763797,764307,1,lmo0733,lmo0733 (transcriptional regulator)
+NC_003210.1,783900,786992,1,"lmo0758, lmo0759, lmo0760, lmo0761","lmo0758 (hypothetical protein), lmo0759 (hypothetical protein), lmo0760 (hypothetical protein), lmo0761 (hypothetical protein)"
+NC_003210.1,932256,936819,1,"lmo0897, lmo0898, lmo0899, lmot12, lmot13","lmo0897 (transporter), lmo0898 (hypothetical protein), lmo0899 (hypothetical protein), lmot12 (tRNA-Asn), lmot13 (tRNA-Ser)"
+NC_003210.1,957723,959622,1,"lmo0920, lmo0921","lmo0920 (hypothetical protein), lmo0921 (hypothetical protein)"
+NC_003210.1,992977,995126,1,"lmo0960, lmo0961","lmo0960 (protease), lmo0961 (protease)"
+NC_003210.1,1022534,1024680,1,"lmo0992, lmo0993","lmo0992 (hypothetical protein), lmo0993 (Na+-transporting ATP synthase subunit J)"
+NC_003210.1,1106040,1107759,1,lmo1076,lmo1076 (autolysin)
+NC_003210.1,1129944,1131501,1,lmo1096,lmo1096 (GMP synthase)
+NC_003210.1,1137532,1137868,-1,lmo1102,lmo1102 (cadmium efflux system accessory protein)
+NC_003210.1,1199858,1199859,1,lmos02,lmos02 ()
+NC_003210.1,1294359,1295775,1,"lmo1271, lmo1272","lmo1271 (type I signal peptidase), lmo1272 (ribosomal biogenesis GTPase)"
+NC_003210.1,1326878,1328213,1,lmo1299,lmo1299 (glutamine synthetase)
+NC_003210.1,1358833,1359103,1,lmo1330,lmo1330 (30S ribosomal protein S15)
+NC_003210.1,1390221,1392385,1,"lmo1367, lmo1368","lmo1367 (arginine repressor ArgR), lmo1368 (DNA repair protein)"
+NC_003210.1,1425418,1426465,1,lmo1398,lmo1398 (recombinase A)
+NC_003210.1,1495898,1501227,-1,"lmo1462, lmo1463, lmo1464, lmo1465, lmo1466, lmo1467","lmo1462 (GTP-binding protein Era), lmo1463 (cytidine deaminase), lmo1464 (diacylglycerol kinase), lmo1465 (metalloprotease), lmo1466 (hypothetical protein), lmo1467 (phosphate starvation-induced protein PhoH)"
+NC_003210.1,1564775,1565105,-1,lmo1529,lmo1529 (hypothetical protein)
+NC_003210.1,1607670,1608048,-1,lmo1569,lmo1569 (FxsA)
+NC_003210.1,1741117,1741462,-1,"lmot20, lmot21, lmot22, lmot23","lmot20 (tRNA-Asn), lmot21 (tRNA-Ile), lmot22 (tRNA-Gly), lmot23 (tRNA-His)"
+NC_003210.1,1819243,1819798,-1,lmo1750,lmo1750 (hypothetical protein)
+NC_003210.1,1845043,1846336,-1,lmo1773,lmo1773 (adenylosuccinate lyase)
+NC_003210.1,1872723,1873620,-1,lmo1800,lmo1800 (protein-tyrosine phosphatase)
+NC_003210.1,2008318,2008594,-1,lmo1934,lmo1934 (DNA-binding protein HU)
+NC_003210.1,2023162,2023879,-1,lmo1948,lmo1948 (two-component response regulator ResD)
+NC_003210.1,2070753,2071170,-1,lmo1997,lmo1997 (PTS mannose transporter subunit IIA)
+NC_003210.1,2110908,2112373,-1,"lmo2029, lmo2030, lmo2031","lmo2029 (hypothetical protein), lmo2030 (hypothetical protein), lmo2031 (hypothetical protein)"
+NC_003210.1,2259752,2264591,-1,lmo2178,lmo2178 (peptidoglycan binding protein)
+NC_003210.1,2387791,2389387,-1,"lmo2305, lmo2306, lmo2307, lmo2308, lmo2309","lmo2305 (hypothetical protein), lmo2306 (hypothetical protein), lmo2307 (hypothetical protein), lmo2308 (single-stranded DNA-binding protein), lmo2309 (hypothetical protein)"
+NC_003210.1,2438031,2440962,-1,lmor14,lmor14 (23S ribosomal RNA)
+NC_003210.1,2493453,2494329,-1,lmo2423,lmo2423 (hypothetical protein)
+NC_003210.1,2525945,2526119,-1,lmo2454,lmo2454 (hypothetical protein)
+NC_003210.1,2580469,2581780,-1,lmo2504,lmo2504 (cell wall-binding protein)
+NC_003210.1,2624632,2624878,-1,lmo2548,lmo2548 (50S ribosomal protein L31)
+NC_003210.1,2646463,2646664,-1,lmo2567,lmo2567 (hypothetical protein)
+NC_003210.1,2670041,2671523,-1,lmo2588,lmo2588 (multidrug transporter)
+NC_003210.1,2700962,2701226,-1,lmo2623,lmo2623 (30S ribosomal protein S17)
+NC_003210.1,2723785,2725852,-1,lmo2652,lmo2652 (transcriptional antiterminator)
+NC_003210.1,2879905,2881071,-1,"lmo2793, lmo2794","lmo2793 (hypothetical protein), lmo2794 (NA-binding protein Spo0J)"
+NC_003210.1,12917,15874,1,"lmo0010, lmo0011, lmo0012","lmo0010 (mevalonate kinase), lmo0011 (mevalonate diphosphate decarboxylase), lmo0012 (mevalonate kinase)"
+NC_003210.1,51774,52534,1,"lmo0048, lmo0049","lmo0048 (sensor histidine kinase AgrB), lmo0049 (hypothetical protein)"
+NC_003210.1,143985,144273,1,"lmo0142a, lmo0143","lmo0142a (hypothetical protein), lmo0143 (hypothetical protein)"
+NC_003210.1,190689,191916,1,lmo0186,lmo0186 (hypothetical protein)
+NC_003210.1,226853,228929,1,lmo0220,lmo0220 (cell division protein FtsH)
+NC_003210.1,319048,319528,1,lmo0293,lmo0293 (rRNA large subunit methyltransferase)
+NC_003210.1,340277,341754,1,"lmo0315, lmo0316","lmo0315 (thiamin biosynthesis protein), lmo0316 (hydroxyethylthiazole kinase)"
+NC_003210.1,483165,483891,1,lmo0449,lmo0449 (hypothetical protein)
+NC_003210.1,519788,520268,1,lmo0483,lmo0483 (hypothetical protein)
+NC_003210.1,634478,635279,1,lmo0593,lmo0593 (formate transporter)
+NC_003210.1,737742,743714,1,"lmo0704, lmo0705, lmo0706, lmo0707, lmo0708, lmo0709, lmo0710, lmo0711, lmo0712","lmo0704 (hypothetical protein), lmo0705 (flagellar hook-associated protein FlgK), lmo0706 (flagellar hook-associated protein FlgL), lmo0707 (flagellar capping protein FliD), lmo0708 (flagellar protein), lmo0709 (hypothetical protein), lmo0710 (flagellar basal-body rod protein FlgB), lmo0711 (flagellar basal body rod protein FlgC), lmo0712 (flagellar hook-basal body protein FliE)"
+NC_003210.1,787319,790509,1,"lmo0762, lmo0763, lmo0764","lmo0762 (ATP/GTP-binding protein), lmo0763 (hypothetical protein), lmo0764 (lipoate-protein ligase)"
+NC_003210.1,936985,937147,1,lmo13a,lmo13a (hypothetical protein)
+NC_003210.1,959710,960631,1,lmo0922,lmo0922 (pantothenate kinase)
+NC_003210.1,995209,995767,1,lmo0962,lmo0962 (LemA protein)
+NC_003210.1,1107974,1109663,1,lmo1077,lmo1077 (teichoic acid biosynthesis protein B)
+NC_003210.1,1200050,1202082,1,"lmo1172, lmo1173","lmo1172 (two-component response regulator), lmo1173 (two-component sensor histidine kinase)"
+NC_003210.1,1295771,1296557,1,lmo1273,lmo1273 (ribonuclease HII)
+NC_003210.1,1328356,1329652,1,lmo1300,lmo1300 (arsenic transporter)
+NC_003210.1,1359201,1361523,1,"lmos47, lmo1331","lmos47 (rliD), lmo1331 (polynucleotide phosphorylase)"
+NC_003210.1,1392513,1393380,1,lmo1369,lmo1369 (phosphotransbutyrylase)
+NC_003210.1,1426765,1428328,1,lmo1399,lmo1399 (phosphodiesterase)
+NC_003210.1,1564342,1564633,-1,lmo1528,lmo1528 (hypothetical protein)
+NC_003210.1,1604612,1607514,-1,"lmo1566, lmo1567, lmo1568","lmo1566 (isocitrate dehydrogenase), lmo1567 (citrate synthase), lmo1568 (hypothetical protein)"
+NC_003210.1,1739673,1741083,-1,"lmo1682, lmot18, lmot19","lmo1682 (transporter), lmot18 (tRNA-Glu), lmot19 (tRNA-Ser)"
+NC_003210.1,1835228,1844963,-1,"lmo1764, lmo1765, lmo1766, lmo1767, lmo1768, lmo1769, lmo1770, lmo1771, lmo1772","lmo1764 (phosphoribosylamine--glycine ligase), lmo1765 (bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/IMP cyclohydrolase), lmo1766 (phosphoribosylglycinamide formyltransferase), lmo1767 (phosphoribosylaminoimidazole synthetase), lmo1768 (amidophosphoribosyltransferase), lmo1769 (phosphoribosylformylglycinamidine synthase II), lmo1770 (phosphoribosylformylglycinamidine synthase I), lmo1771 (phosphoribosylformylglycinamidine synthase subunit PurS), lmo1772 (phosphoribosylaminoimidazole-succinocarboxamide synthase)"
+NC_003210.1,1867801,1872243,-1,"lmo1798, lmo1799","lmo1798 (hypothetical protein), lmo1799 (peptidoglycan binding protein)"
+NC_003210.1,2004976,2008084,-1,"lmo1930, lmo1931, lmo1932, lmo1933","lmo1930 (heptaprenyl diphosphate synthase subunit II), lmo1931 (ubiquinone/menaquinone biosynthesis methyltransferase), lmo1932 (heptaprenyl diphosphate synthase subunit I), lmo1933 (GTP cyclohydrolase I)"
+NC_003210.1,2021271,2023062,-1,lmo1947,lmo1947 (two-component sensor histidine kinas)
+NC_003210.1,2068976,2070657,-1,"lmo1995, lmo1996","lmo1995 (deoxyribose-phosphate aldolase), lmo1996 (DeoR family transcriptional regulator)"
+NC_003210.1,2110008,2110785,-1,lmo2028,lmo2028 (hypothetical protein)
+NC_003210.1,2387498,2387663,-1,lmo2304,lmo2304 (hypothetical protein)
+NC_003210.1,2437656,2437951,-1,"lmot58, lmot59, lmor13","lmot58 (tRNA-Ser), lmot59 (tRNA-Asn), lmor13 (5S ribosomal RNA)"
+NC_003210.1,2491551,2493379,-1,"lmo2421, lmo2422","lmo2421 (two-component sensor histidine kinase), lmo2422 (two-component response regulator)"
+NC_003210.1,2525093,2525813,-1,lmo2453,lmo2453 (epoxide hydrolase)
+NC_003210.1,2578898,2580347,-1,lmo2503,lmo2503 (cardiolipin synthase)
+NC_003210.1,2621200,2624411,-1,"lmo2545, lmo2546, lmo2547","lmo2545 (homoserine kinase), lmo2546 (threonine synthase), lmo2547 (homoserine dehydrogenase)"
+NC_003210.1,2643972,2646146,-1,"lmo2565, lmo2566","lmo2565 (hypothetical protein), lmo2566 (hypothetical protein)"
+NC_003210.1,2699382,2700883,-1,"lmo2619, lmo2620, lmo2621, lmo2622","lmo2619 (30S ribosomal protein S14), lmo2620 (50S ribosomal protein L5), lmo2621 (50S ribosomal protein L24), lmo2622 (50S ribosomal protein L14)"
+NC_003210.1,2721558,2723593,-1,"lmo2649, lmo2650, lmo2651","lmo2649 (PTS system ascorbate transporter subunit IIC), lmo2650 (MFS transporter), lmo2651 (PTS mannitol transporter subunit IIA)"
+NC_003210.1,2878988,2879747,-1,lmo2792,lmo2792 (hypothetical protein)
+NC_003210.1,16218,20256,1,"lmo0013, lmo0014, lmo0015, lmo0016","lmo0013 (AA3-600 quinol oxidase subunit II), lmo0014 (AA3-600 quinol oxidase subunit I), lmo0015 (AA3-600 quinol oxidase subunit III), lmo0016 (quinol oxidase aa3-600 subunit IV)"
+NC_003210.1,52629,54672,1,"lmo0050, lmo0051","lmo0050 (histidine kinase), lmo0051 (response regulator)"
+NC_003210.1,144396,144840,1,lmo0144,lmo0144 (hypothetical protein)
+NC_003210.1,192017,193473,1,"lmo0187, lmo0188","lmo0187 (hypothetical protein), lmo0188 (dimethyladenosine transferase)"
+NC_003210.1,229044,230724,1,"lmo0221, lmo0222","lmo0221 (pantothenate kinase), lmo0222 (heat shock protein 33)"
+NC_003210.1,341750,343195,1,"lmo0317, lmo0318","lmo0317 (phosphomethylpyrimidine kinase), lmo0318 (thiamine-phosphate pyrophosphorylase)"
+NC_003210.1,520425,520791,1,lmo0484,lmo0484 (heme-degrading monooxygenase IsdG)
+NC_003210.1,743781,749863,1,"lmo0713, lmo0714, lmo0715, lmo0716, lmo0717, lmo0718","lmo0713 (flagellar MS-ring protein FliF), lmo0714 (flagellar motor switch protein FliG), lmo0715 (flagellar assembly protein H), lmo0716 (flagellum-specific ATP synthase), lmo0717 (transglycosylase), lmo0718 (hypothetical protein)"
+NC_003210.1,790661,796062,1,"lmo0765, lmo0766, lmo0767, lmo0768, lmo0769","lmo0765 (hypothetical protein), lmo0766 (sugar ABC transporter permease), lmo0767 (ABC transporter permease), lmo0768 (sugar ABC transporter substrate-binding protein), lmo0769 (alpha-1,6-mannanase)"
+NC_003210.1,937201,937594,1,lmo0900,lmo0900 (hypothetical protein)
+NC_003210.1,960747,963263,1,"lmo0923, lmo0924, lmo0925, lmo0926","lmo0923 (ABC transporter ATP-binding protein), lmo0924 (), lmo0925 (hypothetical protein), lmo0926 (TetR family transcriptional regulator)"
+NC_003210.1,995789,996704,1,lmo0963,lmo0963 (heat shock protein HtpX)
+NC_003210.1,1202170,1204998,1,"lmo1174, lmo1175","lmo1174 (ethanolamine utilization protein EutA), lmo1175 (ethanolamine ammonia-lyase large subunit)"
+NC_003210.1,1296690,1297551,1,lmo1274,lmo1274 (polypeptide deformylase)
+NC_003210.1,1393516,1399617,1,"lmo1370, lmo1371, lmo1372, lmo1373, lmo1374, lmos49, lmos50","lmo1370 (butyrate kinase), lmo1371 (dihydrolipoamide dehydrogenase), lmo1372 (branched-chain alpha-keto acid dehydrogenase subunit E1), lmo1373 (branched-chain alpha-keto acid dehydrogenase subunit E1), lmo1374 (branched-chain alpha-keto acid dehydrogenase subunit E2), lmos49 (sbrA), lmos50 (rli42)"
+NC_003210.1,1428441,1430127,1,"lmo1400, lmo1401, lmo1402","lmo1400 (N-acetyltransferase), lmo1401 (hypothetical protein), lmo1402 (hypothetical protein)"
+NC_003210.1,1561977,1564242,-1,lmo1527,lmo1527 (preprotein translocase SecDF)
+NC_003210.1,1600355,1604447,-1,"lmo1563, lmo1564, lmo1565","lmo1563 (dephospho-CoA kinase), lmo1564 (formamidopyrimidine-DNA glycosylase), lmo1565 (DNA polymerase I)"
+NC_003210.1,1834522,1835091,-1,"lmo1762, lmo1763","lmo1762 (hypothetical protein), lmo1763 (hypothetical protein)"
+NC_003210.1,1867179,1867699,-1,"lmo1796, lmo1797","lmo1796 (hypothetical protein), lmo1797 (30S ribosomal protein S16)"
+NC_003210.1,2004514,2004958,-1,lmo1929,lmo1929 (nucleoside diphosphate kinase)
+NC_003210.1,2020737,2021256,-1,lmo1946,lmo1946 (acyl-CoA hydrolase)
+NC_003210.1,2067886,2068897,-1,lmo1994,lmo1994 (LacI family transcriptional regulator)
+NC_003210.1,2108499,2109603,-1,lmo2027,"lmo2027 (cell surface protein, internalin proteins)"
+NC_003210.1,2387045,2387480,-1,lmo2303,lmo2303 (hypothetical protein)
+NC_003210.1,2436492,2437623,-1,"lmot46, lmot47, lmot48, lmot49, lmot50, lmot51, lmot52, lmot53, lmot54, lmot55, lmot56, lmot57","lmot46 (tRNA-Leu), lmot47 (tRNA-Cys), lmot48 (tRNA-Gly), lmot49 (tRNA-Gln), lmot50 (tRNA-His), lmot51 (tRNA-Trp), lmot52 (tRNA-Tyr), lmot53 (tRNA-Phe), lmot54 (tRNA-Asp), lmot55 (tRNA-Met), lmot56 (tRNA-Val), lmot57 (tRNA-Glu)"
+NC_003210.1,2491284,2491473,-1,lmo2420,lmo2420 (hypothetical protein)
+NC_003210.1,2524167,2524911,-1,lmo2452,lmo2452 (carboxylesterase)
+NC_003210.1,2577695,2578871,-1,lmo2502,lmo2502 (hypothetical protein)
+NC_003210.1,2620513,2621089,-1,lmo2544,lmo2544 (thymidine kinase)
+NC_003210.1,2694768,2699352,-1,"lmo2611, lmo2612, lmo2613, lmo2614, lmo2615, lmo2616, lmo2617, lmo2618","lmo2611 (adenylate kinase), lmo2612 (preprotein translocase subunit SecY), lmo2613 (50S ribosomal protein L15), lmo2614 (50S ribosomal protein L30), lmo2615 (30S ribosomal protein S5), lmo2616 (50S ribosomal protein L18), lmo2617 (50S ribosomal protein L6), lmo2618 (30S ribosomal protein S8)"
+NC_003210.1,2720496,2721489,-1,lmo2648,lmo2648 (phosphotriesterase)
+NC_003210.1,2876946,2878765,-1,"lmo2789, lmo2790, lmo2791","lmo2789 (hypothetical protein), lmo2790 (partition protein ParB homolg), lmo2791 (partition protein, ParA-like protein)"
+NC_003210.1,54838,58638,1,"lmo0052, lmo0053, lmo0054","lmo0052 (hypothetical protein), lmo0053 (50S ribosomal protein L9), lmo0054 (replicative DNA helicase)"
+NC_003210.1,145353,145560,1,lmo0146,lmo0146 (hypothetical protein)
+NC_003210.1,193592,193850,1,lmo0189,lmo0189 (Veg protein)
+NC_003210.1,230839,231766,1,lmo0223,lmo0223 (cysteine synthase)
+NC_003210.1,520960,521771,1,"lmo0485, lmo0486","lmo0485 (hypothetical protein), lmo0486 (50S ribosomal protein L32)"
+NC_003210.1,749984,750634,1,"lmo0719, lmo0720","lmo0719 (hypothetical protein), lmo0720 (hypothetical protein)"
+NC_003210.1,937738,939025,1,lmo0901,lmo0901 (PTS cellbiose transporter subunit IIC)
+NC_003210.1,1205017,1208887,1,"lmo1176, lmo1177, lmo1178, lmo1179, lmo1180","lmo1176 (ethanolamine ammonia-lyase small subunit), lmo1177 (carboxysome structural protein EutL), lmo1178 (carboxysome structural protein), lmo1179 (alcohol dehydrogenase), lmo1180 (carboxysome structural protein)"
+NC_003210.1,1297822,1301268,1,"lmo1275, lmo1276","lmo1275 (DNA topoisomerase I), lmo1276 (tRNA (uracil-5-)-methyltransferase Gid)"
+NC_003210.1,1399698,1400796,1,lmo1375,lmo1375 (aminotripeptidase)
+NC_003210.1,1430236,1432819,1,lmo1403,lmo1403 (DNA mismatch repair protein MutS)
+NC_003210.1,1561537,1561882,-1,lmo1526,lmo1526 (hypothetical protein)
+NC_003210.1,1597498,1600278,-1,"lmo1560, lmo1561, lmo1562","lmo1560 (primosomal protein DnaI), lmo1561 (chromosome replication initiation / membrane attachment protein DnaB), lmo1562 (transcriptional regulator NrdR)"
+NC_003210.1,1864247,1867070,-1,"lmo1791, lmo1792, lmo1793, lmo1794, lmo1795","lmo1791 (hypothetical protein), lmo1792 (tRNA (guanine-N(1)-)-methyltransferase), lmo1793 (16S rRNA-processing protein RimM), lmo1794 (hypothetical protein), lmo1795 (hypothetical protein)"
+NC_003210.1,1998167,2004311,-1,"lmo1923, lmo1924, lmo1925, lmo1926, lmo1927, lmo1928","lmo1923 (3-phosphoshikimate 1-carboxyvinyltransferase), lmo1924 (prephenate dehydrogenase), lmo1925 (histidinol-phosphate aminotransferase), lmo1926 (chorismate mutase), lmo1927 (3-dehydroquinate synthase), lmo1928 (chorismate synthase)"
+NC_003210.1,2066454,2067756,-1,lmo1993,lmo1993 (pyrimidine-nucleoside phosphorylase)
+NC_003210.1,2106328,2108209,-1,lmo2026,lmo2026 (peptidoglycan binding protein)
+NC_003210.1,2435022,2436141,-1,lmo2365,lmo2365 (RofA family transcriptional regulator)
+NC_003210.1,2523834,2524068,-1,lmo2451,lmo2451 (preprotein translocase subunit SecG)
+NC_003210.1,2575060,2577546,-1,"lmo2500, lmo2501","lmo2500 (two-component sensor histidine kinase), lmo2501 (two-component response phosphate regulator)"
+NC_003210.1,2618576,2620491,-1,"lmo2542, lmo2543","lmo2542 (protoporphyrinogen oxidase), lmo2543 (peptide chain release factor 1)"
+NC_003210.1,2694163,2694382,-1,lmo2610,lmo2610 (translation initiation factor IF-1)
+NC_003210.1,2716407,2720484,-1,"lmo2643, lmo2644, lmo2644a, lmo2646, lmo2647","lmo2643 (hypothetical protein), lmo2644 (hypothetical protein), lmo2644a (hypothetical protein), lmo2646 (hypothetical protein), lmo2647 (creatinine amidohydrolase)"
+NC_003210.1,2875944,2876775,-1,lmo2788,lmo2788 (transcription antiterminator)
+NC_003210.1,58896,60189,1,lmo0055,lmo0055 (adenylosuccinate synthetase)
+NC_003210.1,145868,146656,1,"lmo0147, lmo0148","lmo0147 (hypothetical protein), lmo0148 (hypothetical protein)"
+NC_003210.1,193988,194870,1,lmo0190,lmo0190 (4-diphosphocytidyl-2-C-methyl-D-erythritol kinase)
+NC_003210.1,231883,231994,1,lmos07,lmos07 (LhrC-1)
+NC_003210.1,521862,522591,1,lmo0487,lmo0487 (hypothetical protein)
+NC_003210.1,939105,939819,1,lmo0902,lmo0902 (GntR family transcriptional regulator)
+NC_003210.1,1209052,1211853,1,"lmo1181, lmo1182, lmo1183, lmo1184, lmo1185","lmo1181 (cobalamin adenosyl transferase), lmo1182 (PduL protein), lmo1183 (hypothetical protein), lmo1184 (carbon dioxide concentrating mechanism protein), lmo1185 (PduT protein)"
+NC_003210.1,1301550,1305236,1,"lmo1277, lmo1278, lmo1279, lmo1280","lmo1277 (integrase/recombinase), lmo1278 (ATP-dependent protease peptidase subunit), lmo1279 (ATP-dependent protease ATP-binding subunit HslU), lmo1280 (transcriptional repressor CodY)"
+NC_003210.1,1400940,1402359,1,lmo1376,lmo1376 (6-phosphogluconate dehydrogenase)
+NC_003210.1,1432838,1435209,1,"lmo1404, lmo1405","lmo1404 (DNA mismatch repair protein), lmo1405 (anti-terminator regulatory protein)"
+NC_003210.1,1558569,1561432,-1,"lmo1524, lmo1525","lmo1524 (adenine phosphoribosyltransferase), lmo1525 (recombination protein RecJ)"
+NC_003210.1,1996203,1998037,-1,"lmo1921, lmo1922","lmo1921 (hypothetical protein), lmo1922 (hypothetical protein)"
+NC_003210.1,2434626,2434866,-1,lmo2364,lmo2364 (hypothetical protein)
+NC_003210.1,2519934,2523576,-1,"lmo2448, lmo2449, lmo2450","lmo2448 (SsrA-binding protein), lmo2449 (exoribonuclease RNase-R), lmo2450 (carboxylesterase)"
+NC_003210.1,2573896,2574805,-1,lmo2499,lmo2499 (phosphate ABC transporter substrate-binding protein)
+NC_003210.1,2616834,2618276,-1,"lmo2540, lmo2541","lmo2540 (phosphatase), lmo2541 (tRNA threonylcarbamoyladenosine biosynthesis protein)"
+NC_003210.1,2693562,2694060,-1,"lmo2608, lmo2609","lmo2608 (30S ribosomal protein S13), lmo2609 (50S ribosomal protein L36)"
+NC_003210.1,2872931,2875837,-1,"lmo2786, lmo2787","lmo2786 (hypothetical protein), lmo2787 (beta-glucoside-specific phosphotransferase enzyme II ABC component)"
+NC_003210.1,60505,60799,1,lmo0056,lmo0056 (heat shock protein)
+NC_003210.1,146763,147764,1,"lmo0149, lmo0150","lmo0149 (hypothetical protein), lmo0150 (hypothetical protein)"
+NC_003210.1,194891,195629,1,lmo0191,lmo0191 (phospho-beta-glucosidase)
+NC_003210.1,232085,232197,1,lmos08,lmos08 (LhrC-2)
+NC_003210.1,940016,940188,1,"lmot14, lmot15","lmot14 (tRNA-Glu), lmot15 (tRNA-Asp)"
+NC_003210.1,1211868,1213426,1,"lmo1186, lmo1187","lmo1186 (ethanolamine utilization protein EutH), lmo1187 (ethanolamine utilization protein EutQ)"
+NC_003210.1,1305389,1306967,1,"lmo1281, lmo1282, lmo1283","lmo1281 (hypothetical protein), lmo1282 (hypothetical protein), lmo1283 (LacX protein)"
+NC_003210.1,1402549,1404678,1,"lmo1377, lmo1378","lmo1377 (two-component response regulator), lmo1378 (two-component sensor histidine kinase)"
+NC_003210.1,1435634,1438689,1,"lmo1406, lmo1407","lmo1406 (pyruvate formate-lyase), lmo1407 (pyruvate-formate lyase activating enzyme)"
+NC_003210.1,1555679,1558364,-1,"lmo1522, lmo1523","lmo1522 (D-tyrosyl-tRNA(Tyr) deacylase), lmo1523 ((p)ppGpp synthetase)"
+NC_003210.1,1995519,1996116,-1,lmo1920,lmo1920 (hypothetical protein)
+NC_003210.1,2569689,2573803,-1,"lmo2494, lmo2495, lmo2496, lmo2497, lmo2498","lmo2494 (PhoU family transcriptional regulator), lmo2495 (phosphate ABC transporter ATP-binding protein), lmo2496 (phosphate ABC transporter ATP-binding protein), lmo2497 (phosphate ABC transporter permease), lmo2498 (phosphate ABC transporter permease)"
+NC_003210.1,2615457,2616699,-1,lmo2539,lmo2539 (serine hydroxymethyltransferase)
+NC_003210.1,2693150,2693540,-1,lmo2607,lmo2607 (30S ribosomal protein S11)
+NC_003210.1,2871317,2872784,-1,lmo2785,lmo2785 (catalase)
+NC_003210.1,60947,75228,1,"lmo0057, lmo0058, lmo0059, lmo0060, lmo0061, lmo0062, lmo0063, lmo0064, lmo0065, lmo0066, lmo0067","lmo0057 (hypothetical protein), lmo0058 (hypothetical protein), lmo0059 (hypothetical protein), lmo0060 (hypothetical protein), lmo0061 (hypothetical protein), lmo0062 (hypothetical protein), lmo0063 (hypothetical protein), lmo0064 (hypothetical protein), lmo0065 (hypothetical protein), lmo0066 (toxin), lmo0067 (dinitrogenase reductase ADP-ribosylation protein)"
+NC_003210.1,147883,148291,1,lmo0151,lmo0151 (hypothetical protein)
+NC_003210.1,195792,196611,1,lmo0192,lmo0192 (PurR family transcriptional regulator)
+NC_003210.1,232288,232400,1,lmos09,lmos09 (LhrC-3)
+NC_003210.1,940315,940696,1,lmo0903,lmo0903 (hypothetical protein)
+NC_003210.1,1213635,1215087,1,lmo1188,lmo1188 (hypothetical protein)
+NC_003210.1,1994750,1995434,-1,lmo1919,lmo1919 (hypothetical protein)
+NC_003210.1,2569116,2569422,-1,lmo2493,lmo2493 (ArsR family transcriptional regulator)
+NC_003210.1,2614691,2615321,-1,lmo2538,lmo2538 (uracil phosphoribosyltransferase)
+NC_003210.1,2692096,2693041,-1,lmo2606,lmo2606 (DNA-directed RNA polymerase subunit alpha)
+NC_003210.1,2869190,2871107,-1,lmo2784,lmo2784 (transcriptional antiterminator)
+NC_003210.1,75341,75665,1,lmo0068,lmo0068 (hypothetical protein)
+NC_003210.1,196785,199409,1,"lmo0193, lmo0194, lmo0195","lmo0193 (hypothetical protein), lmo0194 (ABC transporter, ATP-binding protein), lmo0195 (ABC transporter permease)"
+NC_003210.1,232491,233477,1,"lmos10, lmo0224","lmos10 (LhrC-4), lmo0224 (dihydropteroate synthases)"
+NC_003210.1,940809,941484,1,lmo0904,lmo0904 (hypothetical protein)
+NC_003210.1,1993371,1994637,-1,lmo1918,lmo1918 (hypothetical protein)
+NC_003210.1,2567695,2569011,-1,"lmo2490, lmo2491, lmo2492","lmo2490 (CsbA protein), lmo2491 (hypothetical protein), lmo2492 (hypothetical protein)"
+NC_003210.1,2613434,2614574,-1,lmo2537,lmo2537 (UDP-N-acetylglucosamine 2-epimerase)
+NC_003210.1,2691672,2692080,-1,lmo2605,lmo2605 (50S ribosomal protein L17)
+NC_003210.1,2864812,2869041,-1,"lmo2780, lmo2781, lmo2782, lmo2783","lmo2780 (PTS cellbiose transporter subunit IIA), lmo2781 (beta-glucosidase), lmo2782 (PTS cellbiose transporter subunit IIB), lmo2783 (PTS cellbiose transporter subunit IIC)"
+NC_003210.1,75831,76125,1,lmo0069,lmo0069 (hypothetical protein)
+NC_003210.1,200093,200402,1,lmo0196,lmo0196 (regulatory protein SpoVG)
+NC_003210.1,233490,233865,1,lmo0225,lmo0225 (dihydroneopterin aldolase)
+NC_003210.1,941614,942112,1,lmo0905,lmo0905 (hypothetical protein)
+NC_003210.1,2562590,2567445,-1,"lmo2488, lmo2489","lmo2488 (excinuclease ABC subunit A), lmo2489 (excinuclease ABC subunit B)"
+NC_003210.1,2612796,2612967,-1,lmo2536a,lmo2536a (hypothetical protein)
+NC_003210.1,2690370,2691465,-1,lmo2604,lmo2604 (hypothetical protein)
+NC_003210.1,2863560,2864661,-1,lmo2779,lmo2779 (GTP-binding protein EngD)
+NC_003210.1,76261,76984,1,lmo0070,lmo0070 (hypothetical protein)
+NC_003210.1,200521,200830,1,lmo0197,lmo0197 (regulatory protein SpoVG)
+NC_003210.1,233857,235409,1,"lmo0226, lmo0227","lmo0226 (7,8-dihydro-6-hydroxymethylpterin pyrophosphokinase), lmo0227 (hypothetical protein)"
+NC_003210.1,942147,944200,1,"lmo0906, lmo0907","lmo0906 (glutathione reductase), lmo0907 (phosphoglycerate mutase)"
+NC_003210.1,2559254,2562382,-1,"lmo2484, lmo2485, lmo2486, lmo2487","lmo2484 (hypothetical protein), lmo2485 (hypothetical protein), lmo2486 (hypothetical protein), lmo2487 (hypothetical protein)"
+NC_003210.1,2611481,2612603,-1,"lmo2535, lmo2536","lmo2535 (ATP synthase F0F1 subunit A), lmo2536 (ATP synthase subunit I)"
+NC_003210.1,2862773,2863283,-1,lmo2778,lmo2778 (hypothetical protein)
+NC_003210.1,77148,77406,1,lmo0071,lmo0071 (hypothetical protein)
+NC_003210.1,201216,203597,1,"lmo0198, lmo0199","lmo0198 (bifunctional N-acetylglucosamine-1-phosphate uridyltransferase/glucosamine-1-phosphate acetyltransferase), lmo0199 (ribose-phosphate pyrophosphokinase)"
+NC_003210.1,235523,237020,1,lmo0228,lmo0228 (lysyl-tRNA synthetase)
+NC_003210.1,2558129,2559068,-1,lmo2483,lmo2483 (HPr kinase/phosphorylase)
+NC_003210.1,2611191,2611410,-1,lmo2534,lmo2534 (ATP synthase F0F1 subunit C)
+NC_003210.1,77862,78066,1,lmo0072,lmo0072 (hypothetical protein)
+NC_003210.1,237465,239020,1,lmor01,lmor01 (16S ribosomal RNA)
+NC_003210.1,2556012,2558044,-1,"lmo2480, lmo2481, lmo2482","lmo2480 (acetyltransferase), lmo2481 (pyrophosphatase PpaX), lmo2482 (prolipoprotein diacylglyceryl transferase)"
+NC_003210.1,2605696,2611104,-1,"lmo2528, lmo2529, lmo2530, lmo2531, lmo2532, lmo2533","lmo2528 (ATP synthase F0F1 subunit epsilon), lmo2529 (ATP synthase F0F1 subunit beta), lmo2530 (ATP synthase F0F1 subunit gamma), lmo2531 (ATP synthase F0F1 subunit alpha), lmo2532 (ATP synthase F0F1 subunit delta), lmo2533 (ATP synthase F0F1 subunit B)"
+NC_003210.1,78089,78811,1,"lmo0073, lmo0074","lmo0073 (hypothetical protein), lmo0074 (hypothetical protein)"
+NC_003210.1,239264,242195,1,lmor02,lmor02 (23S ribosomal RNA)
+NC_003210.1,2553413,2555927,-1,"lmo2478, lmo2479","lmo2478 (thioredoxin reductase), lmo2479 (hypothetical protein)"
+NC_003210.1,2605336,2605573,-1,lmo2527,lmo2527 (hypothetical protein)
+NC_003210.1,79046,80869,1,"lmo0075, lmo0076","lmo0075 (carboxyphosphonoenolpyruvate phosphonomutase), lmo0076 (O6-methylguanine-DNA methyltransferase)"
+NC_003210.1,242275,242555,1,"lmor03, lmot02, lmot03","lmor03 (5S ribosomal RNA), lmot02 (tRNA-Val), lmot03 (tRNA-Thr)"
+NC_003210.1,2551233,2553295,-1,"lmo2476, lmo2477","lmo2476 (aldose 1-epimerase), lmo2477 (UDP-glucose 4-epimerase)"
+NC_003210.1,2603862,2605155,-1,lmo2526,lmo2526 (UDP-N-acetylglucosamine 1-carboxyvinyltransferase)
+NC_003210.1,242596,243214,1,"lmot04, lmot05, lmot06, lmot07, lmot08, lmot09, lmot10","lmot04 (tRNA-Lys), lmot05 (tRNA-Leu), lmot06 (tRNA-Gly), lmot07 (tRNA-Leu), lmot08 (tRNA-Arg), lmot09 (tRNA-Pro), lmot10 (tRNA-Ala)"
+NC_003210.1,2549461,2551192,-1,lmo2475,lmo2475 (phosphoglucomutase)
+NC_003210.1,2602248,2603700,-1,"lmo2524, lmo2525","lmo2524 ((3R)-hydroxymyristoyl-ACP dehydratase), lmo2525 (rod shape-determining protein MreB)"
+NC_003210.1,243555,245041,1,lmor04,lmor04 (16S ribosomal RNA)
+NC_003210.1,2545486,2549354,-1,"lmo2471, lmo2472, lmo2473, lmo2474","lmo2471 (NADPH dehydrogenase), lmo2472 (hypothetical protein), lmo2473 (hypothetical protein), lmo2474 (hypothetical protein)"
+NC_003210.1,2601631,2601997,-1,lmo2523,lmo2523 (single-strand DNA-binding protein)
+NC_003210.1,245285,248216,1,lmor05,lmor05 (23S ribosomal RNA)
+NC_003210.1,2600407,2601241,-1,lmo2522,lmo2522 (cell wall-binding protein)
+NC_003210.1,248296,248406,1,lmor06,lmor06 (5S ribosomal RNA)
+NC_003210.1,2597362,2600282,-1,"lmo2519, lmo2520, lmo2521","lmo2519 (teichoic acid linkage unit synthesis protein), lmo2520 (O-succinylbenzoate-CoA synthase), lmo2521 (polyglycerol phosphate biosynthesis protein TagA)"
+NC_003210.1,248554,253054,1,"lmo0229, lmo0230, lmo0231, lmo0232","lmo0229 (CtsR family transcriptional regulator), lmo0230 (hypothetical protein), lmo0231 (ATP:guanido phosphotransferase), lmo0232 (endopeptidase Clp ATP-binding chain C)"
+NC_003210.1,253199,254573,1,lmo0233,lmo0233 (DNA repair protein RadA)
+NC_003210.1,254706,256964,1,"lmo0234, lmo0235, lmo0236","lmo0234 (hypothetical protein), lmo0235 (2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase), lmo0236 (2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase)"
+NC_003210.1,256982,258458,1,lmo0237,lmo0237 (glutamyl-tRNA synthetase)
+NC_003210.1,258547,258760,1,lmos11,lmos11 (T-box)
+NC_003210.1,258855,262576,1,"lmo0238, lmo0239, lmo0240, lmo0241, lmo0242","lmo0238 (serine O-acetyltransferase), lmo0239 (cysteinyl-tRNA synthetase), lmo0240 (hypothetical protein), lmo0241 (hypothetical protein), lmo0242 (hypothetical protein)"
+NC_003210.1,262656,263262,1,lmo0243,lmo0243 (RNA polymerase factor sigma-70)
+NC_003210.1,263365,263714,1,"lmo0244, lmo0245","lmo0244 (50S ribosomal protein L33 type II), lmo0245 (preprotein translocase subunit SecE)"
+NC_003210.1,263843,264902,1,"lmo0246, lmo0247","lmo0246 (transcription antitermination protein NusG), lmo0247 (hypothetical protein)"
+NC_003210.1,265028,266375,1,"lmo0248, lmo0249, lmos12","lmo0248 (50S ribosomal protein L11), lmo0249 (50S ribosomal protein L1), lmos12 (L10)"
+NC_003210.1,266430,266931,1,lmo0250,lmo0250 (50S ribosomal protein L10)
+NC_003210.1,267009,267372,1,lmo0251,lmo0251 (50S ribosomal protein L7/L12)
+NC_003210.1,267529,268949,1,"lmo0252, lmo0253","lmo0252 (penicilinase repressor), lmo0253 (penicillinase antirepressor)"
+NC_003210.1,269066,270257,1,"lmo0254, lmo0255","lmo0254 (hypothetical protein), lmo0255 (hypothetical protein)"
+NC_003210.1,270371,271186,1,"lmo0256, lmos13","lmo0256 (hypothetical protein), lmos13 (rli24)"
+NC_003210.1,271323,272502,1,lmo0257,lmo0257 (hypothetical protein)
+NC_003210.1,273002,276557,1,lmo0258,lmo0258 (DNA-directed RNA polymerase subunit beta)
+NC_003210.1,276727,282481,1,"lmo0259, lmo0260, lmo0261","lmo0259 (DNA-directed RNA polymerase subunit beta'), lmo0260 (hypothetical protein), lmo0261 (phospho-beta-glucosidase)"
+NC_003210.1,282754,284227,1,lmo0262,lmo0262 (internalin G)
+NC_003210.1,284364,286011,1,lmo0263,lmo0263 (internalin H)
+NC_003210.1,286218,287718,1,lmo0264,lmo0264 (internalin E)
+NC_003210.1,287852,288992,1,lmo0265,lmo0265 (succinyl-diaminopimelate desuccinylase)
+NC_003210.1,289138,291228,1,"lmo0266, lmo0267, lmo0268","lmo0266 (transcriptional regulator), lmo0267 (hypothetical protein), lmo0268 (phosphoglycerate mutase)"
+NC_003210.1,291311,293198,1,lmo0269,lmo0269 (transporter)

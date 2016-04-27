@@ -1,0 +1,18 @@
+probability,operon_start,operon_end,operon_strand,genes,products
+0.999,2541184,2542351,-1,NCgl2316,NCgl2316 (hypothetical protein)
+0.956,1151206,1152373,1,NCgl1060,NCgl1060 (hypothetical protein)
+0.936,2036748,2037510,1,NCgl1855,NCgl1855 (LexA repressor)
+0.893,2297878,2298442,1,NCgl2090,NCgl2090 (hypothetical protein)
+0.893,2297228,2297654,-1,NCgl2089,NCgl2089 (hypothetical protein)
+0.807,650388,651288,-1,NCgl0610,NCgl0610 (ABC transporter periplasmic component)
+0.807,651447,657218,1,"NCgl0611, NCgl0612, NCgl0613, NCgl0614","NCgl0611 (error-prone DNA polymerase), NCgl0612 (hypothetical protein), NCgl0613 (hypothetical protein), NCgl0614 (Mn-dependent transcriptional regulator)"
+0.806,2631303,2633104,1,"NCgl2400, NCgl2401","NCgl2400 (hypothetical protein), NCgl2401 (amidase)"
+0.729,2063294,2065116,-1,"NCgl1879, NCgl1880","NCgl1879 (recombination regulator RecX), NCgl1880 (recombinase A)"
+0.705,1489102,1493112,1,"NCgl1359, NCgl1360, NCgl1361","NCgl1359 (DNA repair ATPase), NCgl1360 (hypothetical protein), NCgl1361 (hypothetical protein)"
+0.702,2586213,2587767,1,NCgl2356,NCgl2356 (hypothetical protein)
+0.697,2369113,2370541,-1,NCgl2153,NCgl2153 (exoribonuclease)
+0.586,1772654,1775068,-1,"NCgl1608, NCgl1609, NCgl1610","NCgl1608 (iron-dependent peroxidase), NCgl1609 (hypothetical protein), NCgl1610 (hypothetical protein)"
+0.585,2413568,2415122,1,NCgl2201,NCgl2201 (hypothetical protein)
+0.544,1916943,1917168,1,NCgl1732,NCgl1732 (hypothetical protein)
+0.530,1185824,1188392,1,"NCgl1092, NCgl1093","NCgl1092 (major facilitator superfamily permease), NCgl1093 (major facilitator superfamily permease)"
+0.530,1185214,1185712,-1,NCgl1091,NCgl1091 (hypothetical protein)

@@ -1,0 +1,50 @@
+probability,operon_start,operon_end,operon_strand,genes,products
+1.000,3683437,3684766,1,BSU35770,BSU35770 (major teichoic acid biosynthesis protein C)
+1.000,2464226,2465800,-1,"BSU23700, BSU23710","BSU23700 (hypothetical protein), BSU23710 (DNA polymerase IV 2)"
+1.000,2465965,2466172,1,BSU23720,BSU23720 (hypothetical protein)
+1.000,1918405,1919692,1,"BSU17860, BSU17870, BSU17880","BSU17860 (cell division suppressor protein YneA), BSU17870 (resolvase YneB), BSU17880 (hypothetical protein)"
+1.000,1917638,1918256,-1,BSU17850,BSU17850 (lexa repressor)
+1.000,2272155,2272491,1,BSU21520,BSU21520 (hypothetical protein)
+1.000,2270406,2271982,-1,"BSU21500, BSU21510","BSU21500 (UV-damage repair protein UvrX), BSU21510 (hypothetical protein)"
+0.999,2065041,2065377,1,BSU18960,BSU18960 (prophage-derived-like protein YozM)
+0.999,2063509,2064833,-1,"BSU18930, BSU18940, BSU18950","BSU18930 (DNA repair protein), BSU18940 (DNA repair protein UvrX), BSU18950 (hypothetical protein)"
+0.998,1862991,1863168,1,BSU17267,BSU17267 ()
+0.997,1861383,1862712,-1,BSU17260,BSU17260 (serine protease AprX)
+0.997,1862936,1862993,1,BSU17266,BSU17266 ()
+0.993,3106209,3106995,1,BSU30340,BSU30340 (blue-light photoreceptor)
+0.983,1320569,1321166,-1,BSU12500,BSU12500 (phage-like element PBSX protein XkdA)
+0.959,1447250,1447541,1,BSU13800,BSU13800 (hypothetical protein)
+0.957,1933476,1937868,1,"BSU18090, BSU18100","BSU18090 (DNA topoisomerase 4 subunit B), BSU18100 (DNA topoisomerase 4 subunit A)"
+0.954,1121549,1122681,1,"BSU10480, BSU10490","BSU10480 (hypothetical protein), BSU10490 (signal peptidase I V)"
+0.950,1121035,1121398,-1,BSU10470,BSU10470 (hypothetical protein)
+0.936,2994755,2995597,1,"BSU29239, BSU29240","BSU29239 (sporulation membrane protein YtrH), BSU29240 (sporulation protein)"
+0.936,2991268,2994616,-1,BSU29230,BSU29230 (DNA polymerase III subunit alpha)
+0.921,655222,657697,1,"BSU06060, BSU06070","BSU06060 (BsuMI modification methylase subunit YdiO), BSU06070 (BsuMI modification methylase subunit YdiP)"
+0.911,1764644,1765691,1,BSU16940,BSU16940 (recombinase RecA)
+0.892,2646593,2647112,-1,BSU25680,BSU25680 (hypothetical protein)
+0.886,2647455,2647614,1,BSU25690,BSU25690 (sporulation inhibitor sda)
+0.860,2431736,2432081,-1,BSU23300,BSU23300 (hypothetical protein)
+0.824,3105469,3105799,-1,BSU30330,BSU30330 (hypothetical protein)
+0.795,674831,675857,-1,BSU06220,BSU06220 (hypothetical protein)
+0.775,2597501,2599266,-1,"BSU25170, BSU25180","BSU25170 (hypothetical protein), BSU25180 (tRNA: m1A22 methyltransferase)"
+0.724,1536234,1536873,-1,BSU14650,BSU14650 (hypothetical protein)
+0.724,1537112,1537301,1,BSU14660,BSU14660 (hypothetical protein)
+0.723,3745435,3747091,-1,"BSU36390, BSU36400","BSU36390 (flagellar hook-basal body complex protein FlhP), BSU36400 (flagellar hook-basal body complex protein FlhO)"
+0.721,2354917,2360490,-1,"BSU22440, BSU22450, BSU22460, BSU22470, BSU22480, BSU22490, BSU22500","BSU22440 (bifunctional protein BirA), BSU22450 (CCA-adding enzyme), BSU22460 (glycosyltransferase YpjH), BSU22470 (deacetylase YpjG), BSU22480 (methylglyoxal synthase), BSU22490 (4-hydroxy-tetrahydrodipicolinate reductase), BSU22500 (hypothetical protein)"
+0.721,2360629,2361502,1,BSU22510,BSU22510 (hypothetical protein)
+0.720,608932,612045,1,"BSU05640, BSU05650","BSU05640 (MarR family transcriptional regulator), BSU05650 (hypothetical protein)"
+0.717,608245,608764,-1,BSU05630,BSU05630 (protein DinB)
+0.715,2979715,2980987,-1,BSU29130,BSU29130 (isocitrate dehydrogenase)
+0.714,1960197,1997957,-1,"BSU18300, BSU18310, BSU18320, BSU18330, BSU18340","BSU18300 (plipastatin synthase subunit E), BSU18310 (plipastatin synthase subunit D), BSU18320 (plipastatin synthase subunit C), BSU18330 (plipastatin synthase subunit B), BSU18340 (plipastatin synthase subunit A)"
+0.694,1351374,1352691,-1,BSU12860,BSU12860 (serine/threonine exchanger SteT)
+0.674,3907843,3910264,1,BSU38090,BSU38090 (minor extracellular protease vpr)
+0.647,1233132,1233300,-1,BSU11549,BSU11549 (hypothetical protein)
+0.601,2278601,2279675,-1,BSU21600,BSU21600 (pesticidal crystal protein-like YokG)
+0.601,2279976,2281363,1,"BSU21610, BSU21620","BSU21610 (endonuclease), BSU21620 (hypothetical protein)"
+0.599,308331,310842,1,"BSU02850, BSU02860, BSU02870","BSU02850 (zinc transport system zinc-binding lipoprotein AdcA), BSU02860 (zinc transport system ATP-binding protein AdcC), BSU02870 (zinc transport system permease protein AdcB)"
+0.559,2482268,2483513,-1,BSU23870,BSU23870 (DNA polymerase IV 1)
+0.547,2316445,2320213,-1,"BSU22040, BSU22050, BSU22060, BSU22070, BSU_misc_RNA_34","BSU22040 (hypothetical protein), BSU22050 (chalcone synthase), BSU22060 (xanthine permease), BSU22070 (xanthine phosphoribosyltransferase), BSU_misc_RNA_34 (Purine)"
+0.543,2187818,2188115,-1,BSU20440,BSU20440 (hypothetical protein)
+0.539,2621676,2625912,-1,"BSU25430, BSU25440, BSU25450, BSU25460","BSU25430 (threonylcarbamoyladenosine tRNA methylthiotransferase MtaB), BSU25440 (ribosomal RNA small subunit methyltransferase E), BSU25450 (ribosomal protein L11 methyltransferase), BSU25460 (chaperone protein DnaJ)"
+0.514,719369,724825,1,"BSU06610, BSU06620, BSU06630","BSU06610 (ATP-dependent DNA helicase PcrA), BSU06620 (DNA ligase), BSU06630 (lipoprotein)"
+0.509,3610063,3614930,-1,"BSU35160, BSU35170","BSU35160 (UvrABC system protein A), BSU35170 (UvrABC system protein B)"

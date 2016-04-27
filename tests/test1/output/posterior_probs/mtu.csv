@@ -1,0 +1,29 @@
+probability,operon_start,operon_end,operon_strand,genes,products
+1.000,3031039,3031537,-1,Rv2719c,Rv2719c (membrane protein)
+1.000,3031787,3032498,1,Rv2720,Rv2720 (repressor LexA)
+0.998,1552653,1561269,1,"Rv1379, Rv1380, Rv1381, Rv1382, Rv1383, Rv1384, Rv1385","Rv1379 (bifunctional pyrimidine operon regulatory protein/uracil phosphoribosyltransferase), Rv1380 (aspartate carbamoyltransferase), Rv1381 (dihydroorotase), Rv1382 (hypothetical protein), Rv1383 (carbamoyl-phosphate synthase small subunit), Rv1384 (carbamoyl-phosphate synthase large subunit), Rv1385 (orotidine 5'-phosphate decarboxylase)"
+0.992,3781500,3784740,-1,Rv3370c,Rv3370c (error-prone DNA polymerase)
+0.992,3784931,3787489,1,"Rv3371, Rv3372","Rv3371 (diacyglycerol O-acyltransferase), Rv3372 (trehalose 6-phosphate phosphatase)"
+0.991,4221088,4222648,1,Rv3776,Rv3776 (hypothetical protein)
+0.985,1927210,1928575,-1,Rv1702c,Rv1702c (hypothetical protein)
+0.982,2903638,2904541,1,Rv2579,Rv2579 (haloalkane dehalogenase)
+0.982,2902508,2903531,-1,Rv2578c,Rv2578c (hypothetical protein)
+0.978,4195439,4195802,1,Rv3744,Rv3744 (HTH-type transcriptional regulator NmtR)
+0.978,4193390,4195373,-1,Rv3743c,Rv3743c (cation transporter ATPase J)
+0.975,3436778,3438053,1,Rv3074,Rv3074 (hypothetical protein)
+0.975,3435797,3436685,-1,"Rv3072c, Rv3073c","Rv3072c (hypothetical protein), Rv3073c (hypothetical protein)"
+0.969,3811718,3812345,1,Rv3395A,Rv3395A (membrane protein)
+0.969,3809441,3811636,-1,"Rv3394c, Rv3395c","Rv3394c (hypothetical protein), Rv3395c (hypothetical protein)"
+0.961,2923198,2925383,-1,"Rv2592c, Rv2593c, Rv2594c","Rv2592c (Holliday junction ATP-dependent DNA helicase RuvB), Rv2593c (Holliday junction ATP-dependent DNA helicase RuvA), Rv2594c (crossover junction endodeoxyribonuclease RuvC)"
+0.961,2925491,2926138,1,"Rv2595, Rv2596","Rv2595 (antitoxin VapB40), Rv2596 (ribonuclease VapC40)"
+0.949,606550,608062,1,Rv0515,Rv0515 (hypothetical protein)
+0.948,399534,400050,-1,Rv0335c,Rv0335c (PE family protein PE6)
+0.948,400191,401703,1,Rv0336,Rv0336 (hypothetical protein)
+0.943,3640542,3642881,1,"Rv3261, Rv3262","Rv3261 (2-phospho-L-lactate transferase), Rv3262 (coenzyme F420:L-glutamate ligase)"
+0.942,3639871,3640141,-1,Rv3260c,Rv3260c (transcriptional regulator WhiB2)
+0.936,3047559,3051424,-1,"Rv2735c, Rv2736c, Rv2737c","Rv2735c (hypothetical protein), Rv2736c (regulatory protein RecX), Rv2737c (recombinase A)"
+0.759,1117184,1118393,1,Rv1001,Rv1001 (arginine deiminase)
+0.739,79485,80193,1,Rv0071,Rv0071 (maturase)
+0.723,1116530,1117148,-1,Rv1000c,Rv1000c (hypothetical protein)
+0.565,1784496,1789836,-1,"Rv1582c, Rv1583c, Rv1584c, Rv1585c, Rv1586c, Rv1587c, Rv1588c","Rv1582c (phage protein), Rv1583c (phage protein), Rv1584c (phage protein), Rv1585c (phage protein), Rv1586c (phage integrase), Rv1587c (hypothetical protein), Rv1588c (hypothetical protein)"
+0.543,3376489,3376852,-1,Rv3017c,Rv3017c (ESAT-6 like protein EsxQ)

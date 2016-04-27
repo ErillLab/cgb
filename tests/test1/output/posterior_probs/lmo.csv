@@ -1,0 +1,18 @@
+probability,operon_start,operon_end,operon_strand,genes,products
+1.000,1329695,1330861,-1,"lmo1301, lmo1302","lmo1301 (hypothetical protein), lmo1302 (LexA family transcriptional regulator)"
+1.000,1331017,1331347,1,lmo1303,lmo1303 (cell division suppressor)
+0.923,2747072,2748683,1,"lmo2675, lmo2676","lmo2675 (hypothetical protein), lmo2676 (DNA polymerase IV)"
+0.826,2361273,2361423,1,lmos85,lmos85 (rli48)
+0.821,2916290,2916890,1,lmo2829,lmo2829 (nitroreductase)
+0.806,2360907,2361141,-1,lmo2271,lmo2271 (hypothetical protein)
+0.803,2915743,2916097,-1,lmo2828,lmo2828 (hypothetical protein)
+0.779,1451812,1454310,1,"lmo1421, lmo1422","lmo1421 (glycine/betaine ABC transporter ATP-binding protein), lmo1422 (glycine/betaine ABC transporter permease)"
+0.779,1450700,1451597,-1,lmo1420,lmo1420 (UDP-N-acetylenolpyruvoylglucosamine reductase)
+0.753,2408449,2410993,-1,"lmo2339, lmo2340, lmo2341","lmo2339 (hypothetical protein), lmo2340 (hypothetical protein), lmo2341 (sugar kinase)"
+0.747,2047443,2048514,-1,lmo1975,lmo1975 (DNA polymerase IV)
+0.723,2562590,2567445,-1,"lmo2488, lmo2489","lmo2488 (excinuclease ABC subunit A), lmo2489 (excinuclease ABC subunit B)"
+0.715,1425418,1426465,1,lmo1398,lmo1398 (recombinase A)
+0.627,1826828,1832177,-1,"lmo1757, lmo1758, lmo1759","lmo1757 (hypothetical protein), lmo1758 (NAD-dependent DNA ligase LigA), lmo1759 (ATP-dependent DNA helicase)"
+0.563,1007668,1008879,-1,"lmo0976, lmo0977","lmo0976 (hypothetical protein), lmo0977 (hypothetical protein)"
+0.525,1682663,1684462,-1,"lmo1638, lmo1639, lmo1640","lmo1638 (hypothetical protein), lmo1639 (DNA-3-methyladenine glycosidase), lmo1640 (hypothetical protein)"
+0.525,2307754,2312696,-1,"lmo2220, lmo2221, lmo2222","lmo2220 (3'-5' exoribonuclease), lmo2221 (hypothetical protein), lmo2222 (hypothetical protein)"

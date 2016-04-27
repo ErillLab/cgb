@@ -1,0 +1,1095 @@
+probability (sau),locus_tag (sau),product (sau),probability (efa),locus_tag (efa),product (efa),probability (mtu),locus_tag (mtu),product (mtu),probability (cgl),locus_tag (cgl),product (cgl),probability (ace),locus_tag (ace),product (ace),probability (bsu),locus_tag (bsu),product (bsu),probability (nfa),locus_tag (nfa),product (nfa),probability (sgr),locus_tag (sgr),product (sgr),probability (cac),locus_tag (cac),product (cac),probability (lxy),locus_tag (lxy),product (lxy),probability (lmo),locus_tag (lmo),product (lmo)
+,,,,,,,,,,,,1.000,ACEL_RS07610,hypothetical protein,,,,,,,,,,,,,1.000,LXX_RS07885,hypothetical protein,,,
+1.000,SAOUHSC_01333,LexA repressor,0.849,EF1579,LexA repressor,1.000,Rv2720,repressor LexA,0.988,NCgl1855,LexA repressor,1.000,ACEL_RS07615,LexA repressor,1.000,BSU17850,lexa repressor,1.000,NFA_RS18980,repressor LexA,0.992,SGR_RS08395,repressor LexA,0.193,CA_C1832,LexA repressor,1.000,LXX_RS07890,LexA repressor,1.000,lmo1302,LexA family transcriptional regulator
+,,,,,,,,,,,,1.000,ACEL_RS05115,hypothetical protein,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv3394c,hypothetical protein,0.254,NCgl0591,hypothetical protein,1.000,ACEL_RS05120,hypothetical protein,,,,1.000,NFA_RS04605,hypothetical protein,,,,,,,,,,,,
+,,,,,,1.000,Rv3370c,error-prone DNA polymerase,0.900,NCgl0611,error-prone DNA polymerase,1.000,ACEL_RS05125,error-prone DNA polymerase,,,,1.000,NFA_RS04645,error-prone DNA polymerase,0.999,SGR_RS33425,DNA polymerase III subunit alpha,,,,,,,,,
+0.007,SAOUHSC_00705,hypothetical protein,,,,,,,0.014,NCgl0357,hypothetical protein,1.000,ACEL_RS05110,aminoacyl-tRNA deacylase,,,,0.004,NFA_RS14295,aminoacyl-tRNA deacylase,0.003,SGR_RS21550,aminoacyl-tRNA deacylase,,,,,,,,,
+,,,,,,,,,,,,1.000,ACEL_RS05130,hypothetical protein,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,0.999,ACEL_RS06265,hypothetical protein,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv2578c,hypothetical protein,,,,0.997,ACEL_RS06270,radical SAM protein,,,,0.998,NFA_RS18260,radical SAM protein,1.000,SGR_RS05665,radical SAM protein,0.005,CA_C3492,hypothetical protein,1.000,LXX_RS01650,radical SAM protein,,,
+0.009,SAOUHSC_01747,preprotein translocase subunit YajC,,,,0.006,Rv2588c,membrane protein secretion factor YajC,0.011,NCgl1595,preprotein translocase subunit YajC,0.989,ACEL_RS11510,preprotein translocase subunit YajC,0.031,BSU27700,preprotein translocase subunit YajC,0.007,NFA_RS18425,hypothetical protein,,,,0.005,CA_C2281,preprotein translocase subunit YajC,0.012,LXX_RS05325,preprotein translocase subunit YajC,0.009,lmo1529,hypothetical protein
+0.009,SAOUHSC_01750,Holliday junction DNA helicase RuvB,0.902,EF0067,Holliday junction DNA helicase RuvB,1.000,Rv2592c,Holliday junction ATP-dependent DNA helicase RuvB,0.011,NCgl1596,Holliday junction DNA helicase RuvB,0.989,ACEL_RS06910,Holliday junction DNA helicase RuvB,0.293,BSU27730,holliday junction ATP-dependent DNA helicase RuvB,1.000,NFA_RS18440,Holliday junction DNA helicase RuvB,0.159,SGR_RS30055,Holliday junction DNA helicase RuvB,0.005,CA_C2284,Holliday junction DNA helicase RuvB,0.012,LXX_RS05320,Holliday junction DNA helicase RuvB,0.121,lmo1532,Holliday junction DNA helicase RuvB
+0.009,SAOUHSC_01751,Holliday junction DNA helicase RuvA,0.902,EF0066,Holliday junction DNA helicase RuvA,1.000,Rv2593c,Holliday junction ATP-dependent DNA helicase RuvA,0.011,NCgl1597,Holliday junction DNA helicase RuvA,0.989,ACEL_RS06915,Holliday junction ATP-dependent DNA helicase RuvA,0.293,BSU27740,holliday junction ATP-dependent DNA helicase RuvA,1.000,NFA_RS18445,Holliday junction ATP-dependent DNA helicase RuvA,0.159,SGR_RS30050,Holliday junction ATP-dependent DNA helicase RuvA,0.005,CA_C2285,Holliday junction DNA helicase RuvA,0.012,LXX_RS05315,Holliday junction DNA helicase RuvA,0.121,lmo1533,Holliday junction DNA helicase RuvA
+,,,,,,1.000,Rv2594c,crossover junction endodeoxyribonuclease RuvC,0.011,NCgl1598,Holliday junction resolvase,0.989,ACEL_RS06920,crossover junction endodeoxyribonuclease RuvC,,,,1.000,NFA_RS18450,crossover junction endodeoxyribonuclease RuvC,0.159,SGR_RS30045,Holliday junction resolvase,,,,0.012,LXX_RS05310,crossover junction endodeoxyribonuclease RuvC,,,
+,,,,,,,,,,,,0.984,ACEL_RS02405,hypothetical protein,,,,,,,,,,,,,,,,,,
+0.007,SAOUHSC_02111,DNA polymerase IV,0.997,EF2756,DNA-damage-inducible protein P,0.146,Rv1537,DNA polymerase IV,0.042,NCgl2064,DNA polymerase IV,0.932,ACEL_RS07440,DNA polymerase IV,0.486,BSU23870,DNA polymerase IV 1,0.004,NFA_RS08960,DNA polymerase IV,0.003,SGR_RS30735,DNA polymerase IV,0.005,CA_C0285,DNA-damage repair protein,0.009,LXX_RS07050,DNA polymerase IV,0.862,lmo1975,DNA polymerase IV
+,,,,,,,,,,,,0.932,ACEL_RS07445,carboxymethylenebutenolidase,,,,0.004,NFA_RS01165,carboxymethylenebutenolidase,,,,,,,,,,,,
+,,,,,,0.005,Rv3554,electron transfer protein FdxB,0.008,NCgl2322,"benzoate 1,2-dioxygenase ferredoxin reductase subunit",0.930,ACEL_RS07415,oxidoreductase FAD-binding subunit,,,,0.923,NFA_RS10880,phenylacetic acid degradation protein,0.727,SGR_RS18505,phenylacetic acid degradation protein,,,,,,,,,
+,,,,,,,,,,,,0.930,ACEL_RS07420,phenylacetate-CoA oxygenase subunit PaaJ,,,,0.923,NFA_RS10875,phenylacetate-CoA oxygenase subunit PaaJ,0.727,SGR_RS18510,phenylacetate-CoA oxygenase subunit PaaJ,,,,,,,,,
+,,,,,,,,,,,,0.930,ACEL_RS07425,phenylacetate-CoA oxygenase subunit PaaI,,,,0.923,NFA_RS10870,phenylacetate-CoA oxygenase subunit PaaI,0.727,SGR_RS18515,phenylacetate-CoA oxygenase subunit PaaI,,,,,,,,,
+,,,,,,,,,,,,0.930,ACEL_RS07430,phenylacetate-CoA oxygenase subunit PaaB,,,,0.923,NFA_RS10865,phenylacetate-CoA oxygenase subunit PaaB,0.727,SGR_RS18520,phenylacetate-CoA oxygenase subunit PaaB,,,,,,,,,
+,,,,,,,,,,,,0.930,ACEL_RS07435,phenylacetate-CoA oxygenase subunit PaaA,,,,0.923,NFA_RS10860,phenylacetate-CoA oxygenase subunit PaaA,0.727,SGR_RS18525,phenylacetate-CoA oxygenase subunit PaaA,,,,,,,,,
+,,,,,,,,,,,,0.817,ACEL_RS07870,hypothetical protein,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,0.587,ACEL_RS02495,3-beta hydroxysteroid dehydrogenase,,,,0.744,NFA_RS21645,3-beta hydroxysteroid dehydrogenase,,,,,,,0.009,LXX_RS07305,epimerase,,,
+0.027,SAOUHSC_02752,hypothetical protein,0.007,EF2773,major facilitator family transporter,,,,0.009,NCgl0640,arabinose efflux permease,0.587,ACEL_RS02500,MFS transporter,0.005,BSU01890,MFS transporter,0.004,NFA_RS04695,MFS transporter,0.003,SGR_RS14775,chloramphenicol efflux pump,0.006,CA_P0124,MDR-like permease,,,,0.006,lmo0872,antibiotic resistance protein
+,,,0.008,EF1326,TetR family transcriptional regulator,,,,,,,0.587,ACEL_RS02490,TetR family transcriptional regulator,0.009,BSU06860,TetR family transcriptional regulator,0.005,NFA_RS09075,transcriptional regulator,0.003,SGR_RS01925,TetR family transcriptional regulator,,,,0.009,LXX_RS08145,TetR family transcriptional regulator,0.010,lmo2589,TetR family transcriptional regulator
+,,,,,,,,,,,,0.522,ACEL_RS08400,hypothetical protein,,,,,,,0.007,SGR_RS06335,4-diphosphocytidyl-2C-methyl-D-erythritol synthase,,,,,,,,,
+,,,0.007,EF2571,hypothetical protein,0.005,Rv0376c,hypothetical protein,,,,0.522,ACEL_RS08405,xanthine dehydrogenase,0.005,BSU32510,xanthine dehydrogenase subunit A,0.005,NFA_RS23485,XshC-Cox1 family protein,0.059,SGR_RS06605,XshC-Cox1-family protein,,,,,,,,,
+0.012,SAOUHSC_02362,transcription termination factor Rho,0.008,EF1170,transcription termination factor Rho,0.006,Rv1297,transcription termination factor Rho,0.007,NCgl1152,transcription termination factor Rho,0.517,ACEL_RS03260,transcription termination factor Rho,0.006,BSU37080,transcription termination factor Rho,0.007,NFA_RS05340,transcription termination factor Rho,0.003,SGR_RS10710,transcription termination factor Rho,0.005,CA_C2889,transcription termination factor Rho,0.009,LXX_RS03370,transcription termination factor Rho,0.006,lmo2551,transcription termination factor Rho
+,,,,,,,,,1.000,NCgl2316,hypothetical protein,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.005,Rv0393,hypothetical protein,0.984,NCgl1060,hypothetical protein,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.005,Rv2170,GCN5-like N-acetyltransferase,0.950,NCgl2090,hypothetical protein,,,,,,,0.004,NFA_RS08835,acetyltransferase,0.003,SGR_RS08920,acetyltransferase,,,,,,,,,
+,,,,,,,,,0.950,NCgl2089,hypothetical protein,,,,,,,0.004,NFA_RS08840,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,0.912,NCgl2400,hypothetical protein,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.005,Rv2043c,pyrazinamidase/nicotinamidase PncA,0.912,NCgl2401,amidase,0.010,ACEL_RS08855,nicotinamidase,,,,0.004,NFA_RS05515,amidase,0.003,SGR_RS22985,amidase,,,,,,,,,
+0.007,SAOUHSC_00426,ABC transporter substrate-binding protein,0.011,EF2080,YaeC family lipoprotein,,,,0.901,NCgl0610,ABC transporter periplasmic component,,,,0.181,BSU09110,lipoprotein,0.013,NFA_RS21880,methionine ABC transporter substrate-binding protein,0.003,SGR_RS29840,ABC transporter substrate-binding protein,0.005,CA_C0986,NLPA family lipoprotein,0.009,LXX_RS07830,methionine ABC transporter substrate-binding protein,0.033,lmo0285,lipoprotein
+0.009,SAOUHSC_02307,hypothetical protein,,,,0.005,Rv1227c,transmembrane protein,0.900,NCgl0612,hypothetical protein,,,,,,,,,,0.003,SGR_RS27825,membrane protein,,,,0.010,LXX_RS10555,hypothetical protein,,,
+,,,,,,,,,0.900,NCgl0613,hypothetical protein,,,,0.009,BSU04600,hypothetical protein,,,,,,,,,,0.010,LXX_RS10550,hypothetical protein,,,
+0.008,SAOUHSC_00638,hypothetical protein,0.014,EF1005,iron-dependent repressor,0.787,Rv2788,transcriptional repressor SirR,0.900,NCgl0614,Mn-dependent transcriptional regulator,,,,0.004,BSU24520,transcriptional regulator MntR,,,,,,,0.006,CA_C2616,iron-dependent transcription repressor,0.009,LXX_RS01520,DtxR family transcriptional regulator,0.007,lmo1878,manganese transport transcriptional regulator
+,,,,,,,,,0.873,NCgl2356,hypothetical protein,,,,,,,,,,,,,,,,,,,,,
+,,,0.891,EF2705,recombination regulator RecX,1.000,Rv2736c,regulatory protein RecX,0.856,NCgl1879,recombination regulator RecX,0.010,ACEL_RS07675,regulatory protein RecX,0.005,BSU08520,regulatory protein RecX,0.004,NFA_RS19180,recombinase RecX,1.000,SGR_RS08535,recombination regulator RecX,,,,,,,0.008,lmo1693,recombination regulator RecX
+1.000,SAOUHSC_01262,recombinase A,0.976,EF3171,recombinase A,1.000,Rv2737c,recombinase A,0.856,NCgl1880,recombinase A,0.010,ACEL_RS07680,DNA recombination/repair protein RecA,0.870,BSU16940,recombinase RecA,0.999,NFA_RS19185,DNA recombination/repair protein RecA,1.000,SGR_RS08540,DNA recombination/repair protein RecA,0.205,CA_C1815,recombinase A,0.999,LXX_RS07950,DNA recombination/repair protein RecA,0.839,lmo1398,recombinase A
+0.034,SAOUHSC_01615,DNA repair protein RecN,0.011,EF0984,DNA repair protein RecN,0.025,Rv1696,DNA repair protein RecN,0.849,NCgl1359,DNA repair ATPase,0.010,ACEL_RS06400,DNA repair protein RecN,0.005,BSU24240,DNA repair protein RecN,0.014,NFA_RS10070,DNA repair protein RecN,0.003,SGR_RS28510,DNA repair protein RecN,0.008,CA_C2073,DNA repair protein RecN,0.009,LXX_RS02750,DNA repair protein RecN,0.006,lmo1368,DNA repair protein
+,,,,,,0.005,Rv1697,hypothetical protein,0.849,NCgl1360,hypothetical protein,,,,,,,0.013,NFA_RS10095,thiamin pyrophosphokinase,,,,,,,,,,,,
+,,,,,,0.005,Rv1698,copper transporter MctB,0.849,NCgl1361,hypothetical protein,,,,,,,0.013,NFA_RS10100,channel-forming protein,,,,,,,,,,,,
+0.014,SAOUHSC_00803,ribonuclease R,0.013,EF2617,ribonuclease R,,,,0.824,NCgl2153,exoribonuclease,,,,0.006,BSU33610,ribonuclease R,0.004,NFA_RS08305,ribonuclease II,,,,0.005,CA_C0715,fused ribonuclease/ribosomal protein S1,,,,0.008,lmo2449,exoribonuclease RNase-R
+,,,,,,,,,0.737,NCgl2201,hypothetical protein,,,,,,,,,,,,,,,,,,,,,
+0.010,SAOUHSC_00326,hypothetical protein,,,,,,,0.736,NCgl1608,iron-dependent peroxidase,0.010,ACEL_RS01005,peroxidase,0.005,BSU38260,deferrochelatase/peroxidase EfeN,0.005,NFA_RS15325,peroxidase,0.003,SGR_RS17965,peroxidase,,,,0.009,LXX_RS10330,peroxidase,0.007,lmo0367,hypothetical protein
+,,,,,,,,,0.736,NCgl1609,hypothetical protein,,,,,,,0.005,NFA_RS15320,hypothetical protein,,,,,,,0.009,LXX_RS10335,hypothetical protein,,,
+,,,,,,,,,0.736,NCgl1610,hypothetical protein,,,,,,,,,,,,,,,,0.009,LXX_RS11615,transport integral membrane protein,0.012,lmo2062,copper transporter
+,,,,,,,,,0.713,NCgl2976,hypothetical protein,,,,,,,,,,,,,,,,,,,,,
+,,,0.215,EF2509,AzlC family protein,,,,0.713,NCgl2977,branched-chain amino acid ABC transporter permease,,,,0.287,BSU26710,branched-chain amino acid transport protein AzlC,,,,0.003,SGR_RS08600,branched-chain amino acid ABC transporter permease,,,,,,,,,
+,,,,,,0.072,Rv0038,hypothetical protein,0.713,NCgl2978,hypothetical protein,0.010,ACEL_RS08790,hypothetical protein,,,,0.004,NFA_RS27365,hypothetical protein,0.003,SGR_RS22805,hypothetical protein,,,,,,,,,
+0.048,SAOUHSC_01474,tRNA CCA-pyrophosphorylase,0.032,EF1558,poly A polymerase,0.005,Rv3907c,poly(A) polymerase PcnA,0.713,NCgl2979,polynucleotide polymerase,0.011,ACEL_RS11100,CCA tRNA nucleotidyltransferase,0.648,BSU22450,CCA-adding enzyme,0.004,NFA_RS28080,CCA tRNA nucleotidyltransferase,0.003,SGR_RS18240,CCA tRNA nucleotidyltransferase,0.011,CA_C2062,tRNA nucleotidyltransferase,0.009,LXX_RS12350,CCA tRNA nucleotidyltransferase,0.009,lmo1905,tRNA CCA-pyrophosphorylase
+,,,,,,,,,0.700,NCgl1732,hypothetical protein,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,0.687,NCgl1092,major facilitator superfamily permease,0.010,ACEL_RS09775,major facilitator transporter,,,,0.005,NFA_RS22075,MFS transporter permease,,,,,,,,,,,,
+,,,0.006,EF1370,drug resistance transporter EmrB/QacA family protein,,,,0.687,NCgl1093,major facilitator superfamily permease,0.010,ACEL_RS08625,EmrB/QacA family drug resistance transporter,,,,,,,0.035,SGR_RS06545,MFS transporter,,,,,,,,,
+,,,,,,,,,0.687,NCgl1091,hypothetical protein,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,0.648,NCgl2970,ABC transporter periplasmic component,,,,,,,,,,0.006,SGR_RS25990,ABC transporter substrate-binding protein,,,,,,,,,
+,,,,,,,,,0.648,NCgl2971,oxidoreductase/dehydrogenase,,,,,,,0.004,NFA_RS26570,NADPH:quinone reductase,,,,,,,,,,,,
+,,,,,,,,,0.648,NCgl2972,hypothetical protein,,,,,,,,,,,,,,,,0.010,LXX_RS00595,epimerase,,,
+,,,,,,,,,0.530,NCgl0914,ABC transporter ATPase,,,,,,,,,,0.007,SGR_RS33545,ABC transporter,,,,,,,,,
+,,,0.007,EF3180,ECF subfamily RNA polymerase sigma factor,0.005,Rv3223c,ECF RNA polymerase sigma factor SigH,0.521,NCgl0733,RNA polymerase sigma factor RpoE,0.010,ACEL_RS02770,RNA polymerase sigma factor RpoE,,,,0.004,NFA_RS22735,RNA polymerase,0.003,SGR_RS11350,RNA polymerase sigma factor RpoE,0.005,CA_C3267,RNA polymerase sigma subunit,0.009,LXX_RS09430,RNA polymerase subunit sigma,0.006,lmo0423,RNA polymerase factor sigma C
+,,,,,,0.005,Rv3221A,anti-sigma factor RshA,0.521,NCgl0734a,anti-sigma factor,,,,,,,,,,,,,,,,0.009,LXX_RS09425,alpha-ketoglutarate decarboxylase,,,
+,,,,,,,,,0.521,NCgl0732,hypothetical protein,,,,,,,,,,,,,,,,,,,,,
+0.018,SAOUHSC_01205,signal recognition particle-docking protein FtsY,0.007,EF3094,signal recognition particle-docking protein FtsY,0.005,Rv2921c,signal recognition particle receptor FtsY,0.515,NCgl1984,signal recognition particle GTPase,0.011,ACEL_RS08070,signal recognition particle-docking protein FtsY,0.005,BSU15950,signal recognition particle receptor FtsY,0.004,NFA_RS20690,signal recognition particle-docking protein FtsY,0.003,SGR_RS09310,signal recognition particle-docking protein FtsY,0.007,CA_C1752,signal recognition particle GTPase FtsY,0.009,LXX_RS07455,signal recognition particle-docking protein FtsY,0.007,lmo1803,cell division protein FtsY
+,,,,,,,,,,,,,,,,,,,,,,,,,,,1.000,LXX_RS06255,hypothetical protein,,,
+0.360,SAOUHSC_02816,hypothetical protein,,,,0.007,Rv0364,transmembrane protein,0.006,NCgl2357,hypothetical protein,0.010,ACEL_RS04730,hypothetical protein,0.041,BSU02280,hypothetical protein,0.004,NFA_RS26720,membrane protein,0.003,SGR_RS20255,membrane protein,0.006,CA_C2655,hypothetical protein,0.999,LXX_RS06720,hypothetical protein,0.006,lmo0042,DedA protein
+,,,,,,0.005,Rv2199c,cytochrome c oxidase polypeptide 4,,,,,,,,,,,,,,,,,,,0.999,LXX_RS07480,cytochrome c oxidase subunit IV,,,
+0.011,SAOUHSC_01001,quinol oxidase subunit I,,,,0.005,Rv3043c,cytochrome C oxidase cytochrome 1,0.007,NCgl2437,"heme/copper-type cytochrome/quinol oxidase, subunit 1",0.010,ACEL_RS04940,cytochrome c oxidase subunit I,0.018,BSU38160,quinol oxidase subunit 1,0.004,NFA_RS21330,cytochrome ubiquinol oxidase subunit I,0.003,SGR_RS26695,cytochrome ubiquinol oxidase subunit I,,,,0.999,LXX_RS07485,cytochrome ubiquinol oxidase subunit I,0.011,lmo0014,AA3-600 quinol oxidase subunit I
+0.011,SAOUHSC_01002,quinol oxidase AA3 subunit II,,,,0.005,Rv2200c,cytochrome C oxidase subunit II,0.007,NCgl2115,cytochrome C oxidase subunit II,0.010,ACEL_RS04935,cytochrome c oxidase subunit II,0.005,BSU14890,cytochrome c oxidase subunit 2,0.028,NFA_RS08605,cytochrome c oxidase subunit II,0.003,SGR_RS26690,cytochrome c oxidase subunit II,,,,0.999,LXX_RS07490,cytochrome c oxidase subunit II,0.011,lmo0013,AA3-600 quinol oxidase subunit II
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.994,LXX_RS12175,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.994,LXX_RS12180,hypothetical protein,,,
+,,,,,,,,,0.011,NCgl2146,hypothetical protein,,,,,,,0.060,NFA_RS12390,heme oxygenase,0.003,SGR_RS26150,heme oxygenase,,,,0.994,LXX_RS12185,heme oxygenase,,,
+,,,,,,,,,0.007,NCgl1206,ABC transporter periplasmic component,0.010,ACEL_RS02955,LacI family transcriptional regulator,0.009,BSU35960,D-ribose-binding protein,,,,0.003,SGR_RS33000,LacI family transcriptional regulator,0.005,CA_C1351,periplasmic sugar-binding protein,0.994,LXX_RS10920,LacI family transcriptional regulator,,,
+,,,,,,,,,0.007,NCgl1204,ABC transporter duplicated ATPase,0.010,ACEL_RS05405,ABC transporter,0.009,BSU35940,ribose import ATP-binding protein RbsA,,,,0.003,SGR_RS33005,sugar ABC transporter ATP-binding protein,,,,0.994,LXX_RS10925,sugar ABC transporter ATP-binding protein,,,
+,,,,,,,,,,,,,,,,,,,,,0.003,SGR_RS33010,ATPase,,,,0.994,LXX_RS10930,ATPase,,,
+,,,,,,,,,,,,,,,,,,,,,0.003,SGR_RS33015,ATPase,,,,0.994,LXX_RS10935,ATPase,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.992,LXX_RS10485,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.992,LXX_RS10490,hypothetical protein,,,
+0.009,SAOUHSC_00780,excinuclease ABC subunit A,0.007,EF0763,excinuclease ABC subunit A,0.005,Rv1638,excinuclease ABC subunit UvrA,0.015,NCgl1322,excinuclease ABC subunit A,0.010,ACEL_RS05705,excinuclease ABC subunit A,0.438,BSU35160,UvrABC system protein A,0.004,NFA_RS09630,excinuclease ABC subunit A,0.999,SGR_RS27750,excinuclease ABC subunit A,0.005,CA_C0503,excinuclease ABC subunit A,0.966,LXX_RS05675,ABC-ATPase UvrA,0.845,lmo2488,excinuclease ABC subunit A
+0.007,SAOUHSC_01102,excinuclease ABC subunit C,0.006,EF1406,excinuclease ABC subunit C,0.005,Rv1420,excinuclease ABC subunit UvrC,0.007,NCgl1530,excinuclease ABC subunit C,0.010,ACEL_RS05710,UvrABC system protein C,0.397,BSU28490,UvrABC system protein C,0.004,NFA_RS17940,excinuclease ABC subunit C,0.003,SGR_RS27775,excinuclease ABC subunit C,0.005,CA_C0508,excinuclease ABC subunit C,0.966,LXX_RS05680,UvrABC system protein C,0.012,lmo1234,excinuclease ABC subunit C
+0.009,SAOUHSC_00787,hypothetical protein,0.077,EF0766,hypothetical protein,0.005,Rv1421,hypothetical protein,0.007,NCgl1529,hypothetical protein,0.010,ACEL_RS05715,RNase adaptor protein RapZ,0.007,BSU34770,nucleotide-binding protein YvcJ,0.004,NFA_RS17935,RNase adaptor protein RapZ,0.003,SGR_RS27780,RNase adaptor protein RapZ,0.005,CA_C0511,hypothetical protein,0.966,LXX_RS05685,RNase adaptor protein RapZ,0.006,lmo2474,hypothetical protein
+0.009,SAOUHSC_00789,hypothetical protein,0.077,EF0768,hypothetical protein,0.005,Rv1423,transcriptional regulator WhiA,0.007,NCgl1527,hypothetical protein,0.010,ACEL_RS05725,sporulation protein,0.007,BSU34750,sporulation transcription regulator WhiA,0.004,NFA_RS17925,DNA-binding protein WhiA,0.003,SGR_RS27790,sporulation transcription regulator WhiA,0.005,CA_C0513,hypothetical protein,0.966,LXX_RS05690,sporulation protein,0.006,lmo2472,hypothetical protein
+0.008,SAOUHSC_00093,superoxide dismutase,0.006,EF0463,superoxide dismutase,0.010,Rv3846,superoxide dismutase,0.007,NCgl2826,superoxide dismutase,,,,0.005,BSU19330,superoxide dismutase,0.281,NFA_RS00610,superoxide dismutase,0.009,SGR_RS24435,superoxide dismutase,0.005,CA_C2567,Fe/Mn family superoxide dismutase,0.966,LXX_RS05695,superoxide dismutase,0.006,lmo1439,superoxide dismutase
+0.049,SAOUHSC_00795,glyceraldehyde-3-phosphate dehydrogenase,0.885,EF1964,glyceraldehyde-3-phosphate dehydrogenase,0.063,Rv1436,glyceraldehyde 3-phosphate dehydrogenase,0.009,NCgl1526,glyceraldehyde-3-phosphate dehydrogenase,0.010,ACEL_RS05730,type I glyceraldehyde-3-phosphate dehydrogenase,0.012,BSU33940,glyceraldehyde-3-phosphate dehydrogenase 1,0.006,NFA_RS17915,type I glyceraldehyde-3-phosphate dehydrogenase,0.005,SGR_RS27795,type I glyceraldehyde-3-phosphate dehydrogenase,0.005,CA_C0709,glyceraldehyde 3-phosphate dehydrogenase,0.966,LXX_RS05700,type I glyceraldehyde-3-phosphate dehydrogenase,0.007,lmo2459,glyceraldehyde-3-phosphate dehydrogenase
+0.049,SAOUHSC_00796,phosphoglycerate kinase,0.010,EF1963,phosphoglycerate kinase,0.063,Rv1437,phosphoglycerate kinase,0.007,NCgl1525,phosphoglycerate kinase,0.010,ACEL_RS11485,hypothetical protein,0.004,BSU33930,phosphoglycerate kinase,0.006,NFA_RS17910,phosphoglycerate kinase,0.005,SGR_RS27800,phosphoglycerate kinase,0.005,CA_C0710,phosphoglycerate kinase,0.966,LXX_RS05705,phosphoglycerate kinase,0.262,lmo2458,phosphoglycerate kinase
+0.007,SAOUHSC_00797,triosephosphate isomerase,0.014,EF1962,triosephosphate isomerase,0.063,Rv1438,triosephosphate isomerase,0.007,NCgl1524,triosephosphate isomerase,,,,0.004,BSU33920,triosephosphate isomerase,0.006,NFA_RS17905,triose-phosphate isomerase,0.005,SGR_RS27805,triose-phosphate isomerase,0.005,CA_C0711,triosephosphate isomerase,0.966,LXX_RS05710,triose-phosphate isomerase,0.008,lmo2457,triosephosphate isomerase
+,,,,,,0.005,Rv1440,protein-export membrane protein SecG,0.007,NCgl1522,preprotein translocase subunit SecG,0.010,ACEL_RS05765,preprotein translocase subunit SecG,,,,,,,0.005,SGR_RS27810,preprotein translocase subunit SecG,,,,0.966,LXX_RS05715,preprotein translocase subunit SecG,,,
+,,,,,,,,,,,,,,,,,,,,,0.003,SGR_RS27815,electron transporter,,,,0.966,LXX_RS05720,electron transporter,,,
+0.008,SAOUHSC_02488,50S ribosomal protein L36,0.026,EF0230,50S ribosomal protein L36,0.005,Rv3461c,50S ribosomal protein L36,,,,,,,0.006,BSU01400,50S ribosomal protein L36,0.004,NFA_RS04240,50S ribosomal protein L36,0.003,SGR_RS13880,50S ribosomal protein L36,0.005,CA_C3108,50S ribosomal protein L36,0.953,LXX_RS09890,50S ribosomal protein L36,0.009,lmo2609,50S ribosomal protein L36
+,,,,,,0.005,Rv2766c,short-chain type dehydrogenase/reductase,0.007,NCgl2053,dehydrogenase,,,,,,,0.004,NFA_RS06310,short-chain dehydrogenase,0.013,SGR_RS33905,short-chain dehydrogenase,,,,0.950,LXX_RS08150,3-oxoacyl-ACP reductase,0.006,lmo0669,oxidoreductase
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.950,LXX_RS08155,polyketide cyclase,,,
+0.008,SAOUHSC_02486,30S ribosomal protein S11,0.016,EF0232,30S ribosomal protein S11,0.005,Rv3459c,30S ribosomal protein S11,0.006,NCgl0538,30S ribosomal protein S11,0.011,ACEL_RS01725,30S ribosomal protein S11,0.006,BSU01420,30S ribosomal protein S11,0.051,NFA_RS04250,30S ribosomal protein S11,0.003,SGR_RS13870,30S ribosomal protein S11,0.005,CA_C3106,30S ribosomal protein S11,0.948,LXX_RS09880,30S ribosomal protein S11,0.007,lmo2607,30S ribosomal protein S11
+0.008,SAOUHSC_02487,30S ribosomal protein S13,0.016,EF0231,30S ribosomal protein S13,0.005,Rv3460c,30S ribosomal protein S13,0.006,NCgl0537,30S ribosomal protein S13,0.011,ACEL_RS01720,30S ribosomal protein S13,0.006,BSU01410,30S ribosomal protein S13,0.051,NFA_RS04245,30S ribosomal protein S13,0.003,SGR_RS13875,30S ribosomal protein S13,0.005,CA_C3107,30S ribosomal protein S13,0.948,LXX_RS09885,30S ribosomal protein S13,0.009,lmo2608,30S ribosomal protein S13
+0.008,SAOUHSC_00196,hypothetical protein,,,,0.014,Rv0860,fatty oxidation protein FadB,,,,0.010,ACEL_RS03390,3-hydroxybutyryl-CoA dehydrogenase,0.008,BSU24160,3-hydroxybutyryl-CoA dehydrogenase,0.007,NFA_RS01470,3-hydroxyacyl-CoA dehydrogenase,0.965,SGR_RS07230,3-hydroxyacyl-CoA dehydrogenase,0.005,CA_C2708,3-hydroxybutyryl-CoA dehydrogenase,0.945,LXX_RS05185,3-hydroxyacyl-CoA dehydrogenase,,,
+0.008,SAOUHSC_00195,acetyl-CoA acetyltransferase,,,,,,,0.016,NCgl2309,acetyl-CoA acetyltransferase,0.010,ACEL_RS03225,acetyl-CoA acetyltransferase,,,,0.923,NFA_RS10840,beta-ketoadipyl CoA thiolase,0.965,SGR_RS07225,acetyl-CoA acetyltransferase,0.006,CA_C2873,acetyl-CoA acetyltransferase,0.945,LXX_RS05190,acetyl-CoA acetyltransferase,,,
+0.008,SAOUHSC_01058,GTP-binding protein TypA,0.009,EF2460,GTP-binding protein TypA,0.007,Rv1165,GTP-binding translation elongation factor,0.008,NCgl1053,stress response membrane GTPase,,,,0.005,BSU14770,GTP-binding protein TypA/BipA,0.004,NFA_RS23600,GTP-binding protein,0.003,SGR_RS11915,GTP-binding protein,0.006,CA_C1684,TypA/BipA type GTPase,0.928,LXX_RS08075,GTP-binding protein,0.033,lmo1067,GTP-binding elongation factor
+,,,,,,0.006,Rv3663c,dipeptide ABC transporter ATP-binding protein DppD,0.007,NCgl1918,ABC transporter duplicated ATPase,,,,,,,0.004,NFA_RS08790,ABC transporter ATP-binding protein,,,,,,,0.928,LXX_RS08080,ABC transporter ATP-binding protein,,,
+,,,,,,0.006,Rv3664c,dipeptide ABC transporter permease DppC,0.007,NCgl1917,ABC transporter permease,,,,,,,,,,0.003,SGR_RS11875,peptide ABC transporter permease,,,,0.928,LXX_RS08085,peptide ABC transporter permease,,,
+0.007,SAOUHSC_00168,hypothetical protein,0.286,EF0909,peptide ABC transporter permease,0.006,Rv3665c,dipeptide ABC transporter permease DppB,0.007,NCgl1916,ABC transporter permease,,,,,,,,,,0.003,SGR_RS11880,ABC transporter permease,0.005,CA_C3638,oligopeptide ABC transporter permease,0.928,LXX_RS08090,ABC transporter permease,,,
+,,,0.006,EF0063,pheromone binding protein,0.006,Rv3666c,dipeptide ABC transporter substrate-binding lipoprotein DppA,0.007,NCgl1915,ABC transporter periplasmic component,,,,,,,,,,0.003,SGR_RS11885,peptide ABC transporter substrate-binding protein,,,,0.928,LXX_RS08095,ABC transporter substrate-binding protein,0.014,lmo0152,peptide ABC transporter substrate-binding protein
+0.008,SAOUHSC_00767,hypothetical protein,0.334,EF1764,ribosomal subunit interface protein,0.005,Rv3241c,hypothetical protein,0.006,NCgl0725,ribosome-associated protein Y,0.010,ACEL_RS09100,hypothetical protein,0.005,BSU35310,sigma-54 modulation protein,0.004,NFA_RS22850,ribosomal subunit interface protein,0.006,SGR_RS22510,ribosomal subunit interface protein,0.006,CA_C2847,ribosome-associated protein,0.922,LXX_RS02625,RNA polymerase subunit sigma-54,0.007,lmo2511,hypothetical protein
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.921,LXX_RS10170,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.921,LXX_RS10175,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.921,LXX_RS10180,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.921,LXX_RS10185,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS25925,AI-2E family transporter,,,,,,,0.915,LXX_RS06600,hypothetical protein,,,
+,,,0.007,EF1912,ROK family protein,,,,,,,,,,,,,,,,0.003,SGR_RS31325,transcriptional regulator,,,,0.915,LXX_RS06595,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.874,LXX_RS06710,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.874,LXX_RS06715,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.810,LXX_RS09450,peptide ABC transporter,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.810,LXX_RS09455,ABC transporter ATP-binding protein,,,
+0.012,SAOUHSC_00169,peptide ABC transporter permease,0.286,EF0910,peptide ABC transporter permease,,,,0.006,NCgl2240,ABC transporter permease,,,,,,,0.004,NFA_RS08795,peptide ABC transporter permease,,,,,,,0.810,LXX_RS09460,ABC transporter permease,,,
+,,,0.012,EF3108,peptide ABC transporter permease,,,,0.006,NCgl2239,ABC transporter permease,,,,0.007,BSU11390,oligopeptide transport system permease protein AppB,,,,,,,,,,0.810,LXX_RS09465,peptide ABC transporter,0.006,lmo0136,peptide ABC transporter permease
+0.008,SAOUHSC_02767,peptide ABC transporter substrate-binding protein,0.012,EF3081,pheromone binding protein,,,,0.006,NCgl2238,ABC transporter periplasmic component,,,,0.018,BSU11430,oligopeptide ABC transporter binding lipoprotein,0.004,NFA_RS08805,ABC transporter substrate-binding protein,0.007,SGR_RS01680,ABC transporter substrate-binding protein,0.005,CA_C0176,oligopeptide-binding protein,0.810,LXX_RS09470,ABC transporter substrate-binding protein,0.007,lmo0135,peptide ABC transporter substrate-binding protein
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS08775,hypothetical protein,0.003,SGR_RS28740,hypothetical protein,,,,0.810,LXX_RS09475,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.810,LXX_RS09480,hypothetical protein,,,
+0.007,SAOUHSC_00331,hypothetical protein,0.029,EF2508,Cro/CI family transcriptional regulator,,,,0.086,NCgl2819,hypothetical protein,0.017,ACEL_RS05375,XRE family transcriptional regulator,0.006,BSU24610,XRE family transcriptional regulator,,,,0.003,SGR_RS02380,XRE family transcriptional regulator,0.005,CA_C1947,phage transcriptional regulator,0.804,LXX_RS05090,XRE family transcriptional regulator,0.013,lmo0806,transcriptional regulator
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS13990,hypothetical protein,,,,,,,0.804,LXX_RS05095,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,0.003,SGR_RS07960,oxidase,0.006,CA_C1322,glycerol-3-phosphate dehydrogenase,0.804,LXX_RS05065,opine oxidase subunit A,,,
+,,,,,,,,,,,,,,,,,,,,,0.003,SGR_RS07965,proline dehydrogenase,,,,0.804,LXX_RS05070,sarcosine oxidase subunit alpha,,,
+,,,,,,,,,0.006,NCgl2909,D-amino acid dehydrogenase subunit,,,,,,,,,,,,,,,,0.804,LXX_RS05075,FAD-dependent oxidoreductase,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.804,LXX_RS05080,dihydrodipicolinate synthase family protein,,,
+,,,0.008,EF0402,Na+/H+ antiporter,,,,,,,0.122,ACEL_RS05685,DNA topoisomerase,0.006,BSU23560,malate-2H(+)/Na(+)-lactate antiporter,,,,,,,,,,0.804,LXX_RS05085,sodium:proton antiporter,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.798,LXX_RS03800,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.791,LXX_RS06850,hypothetical protein,,,
+0.040,SAOUHSC_02359,peptide chain release factor 1,0.006,EF2554,peptide chain release factor 1,0.006,Rv1299,peptide chain release factor PrfA,0.007,NCgl1153,peptide chain release factor 1,0.010,ACEL_RS03300,peptide chain release factor 1,0.145,BSU37010,peptide chain release factor 1,0.004,NFA_RS05350,peptide chain release factor 1,0.003,SGR_RS10695,peptide chain release factor 1,0.005,CA_C2884,peptide chain release factor 1,0.789,LXX_RS03375,peptide chain release factor 1,0.024,lmo2543,peptide chain release factor 1
+0.008,SAOUHSC_01846,acetate--CoA ligase,,,,0.005,Rv3667,acetyl-CoAsynthetase,,,,0.010,ACEL_RS10245,acetyl-coenzyme A synthetase,0.006,BSU29680,acetyl-CoA synthetase,0.004,NFA_RS09025,acetyl-coenzyme A synthetase,0.003,SGR_RS16470,acetyl-coenzyme A synthetase,,,,0.786,LXX_RS01730,acetyl-CoA synthetase,0.012,lmo2720,acetate-CoA ligase
+,,,,,,0.332,Rv3219,transcriptional regulator WhiB1,0.007,NCgl0734,hypothetical protein,0.010,ACEL_RS02880,WhiB family transcriptional regulator,,,,0.016,NFA_RS22715,WhiB family transcriptional regulator,0.998,SGR_RS11185,WhiB family transcriptional regulator,,,,0.783,LXX_RS09485,WhiB family transcriptional regulator,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.760,LXX_RS10435,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.760,LXX_RS10440,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.759,LXX_RS10445,helix-turn-helix transcriptional regulator,,,
+,,,,,,0.006,Rv1445c,6-phosphogluconolactonase,0.015,NCgl1516,6-phosphogluconolactonase,0.010,ACEL_RS05770,6-phosphogluconolactonase,,,,0.005,NFA_RS17855,6-phosphogluconolactonase,0.003,SGR_RS27850,6-phosphogluconolactonase,,,,0.733,LXX_RS05725,6-phosphogluconolactonase,,,
+,,,,,,0.006,Rv1446c,OXPP cycle protein OpcA,0.015,NCgl1515,hypothetical protein,0.010,ACEL_RS05775,oxidoreductase,,,,0.005,NFA_RS17850,glucose-6-phosphate dehydrogenase assembly protein OpcA,0.003,SGR_RS27855,glucose-6-phosphate dehydrogenase assembly protein OpcA,,,,0.733,LXX_RS05730,oxidoreductase,,,
+0.009,SAOUHSC_01599,glucose-6-phosphate 1-dehydrogenase,0.014,EF1004,glucose-6-phosphate 1-dehydrogenase,0.006,Rv1447c,glucose-6-phosphate 1-dehydrogenase,0.015,NCgl1514,glucose-6-phosphate 1-dehydrogenase,0.010,ACEL_RS05780,glucose-6-phosphate dehydrogenase,0.013,BSU23850,glucose-6-phosphate 1-dehydrogenase,0.005,NFA_RS17845,glucose-6-phosphate dehydrogenase,0.003,SGR_RS27860,glucose-6-phosphate dehydrogenase,,,,0.733,LXX_RS05735,glucose-6-phosphate dehydrogenase,0.034,lmo1978,glucose-6-phosphate 1-dehydrogenase
+0.015,SAOUHSC_00900,glucose-6-phosphate isomerase,0.012,EF1416,glucose-6-phosphate isomerase,0.005,Rv0946c,glucose-6-phosphate isomerase,,,,0.010,ACEL_RS05785,glucose-6-phosphate isomerase,0.008,BSU31350,glucose-6-phosphate isomerase,,,,,,,0.007,CA_C2680,glucose-6-phosphate isomerase,0.733,LXX_RS05740,glucose-6-phosphate isomerase,0.006,lmo2367,glucose-6-phosphate isomerase
+,,,,,,0.006,Rv1448c,transaldolase,0.015,NCgl1513,transaldolase,0.010,ACEL_RS05790,transaldolase,0.006,BSU37110,transaldolase,0.005,NFA_RS17840,transaldolase,0.003,SGR_RS27865,transaldolase,0.013,CA_C1347,translaldolase,0.733,LXX_RS05745,transaldolase,0.015,lmo0343,translaldolase
+0.007,SAOUHSC_01337,transketolase,0.862,EF1581,,0.006,Rv1449c,transketolase,0.008,NCgl1512,transketolase,0.010,ACEL_RS05795,transketolase,0.004,BSU17890,transketolase,0.005,NFA_RS17835,transketolase,0.003,SGR_RS24440,transketolase,0.013,CA_C1348,transketolase,0.733,LXX_RS05750,transketolase,0.006,lmo2660,transketolase
+0.007,SAOUHSC_01066,protoheme IX farnesyltransferase,,,,0.005,Rv1451,protoheme IX farnesyltransferase,0.011,NCgl1511,protoheme IX farnesyltransferase,0.010,ACEL_RS05800,protoheme IX farnesyltransferase,0.004,BSU12080,protoheme IX farnesyltransferase,0.005,NFA_RS17830,protoheme IX farnesyltransferase,0.003,SGR_RS27875,protoheme IX farnesyltransferase,,,,0.733,LXX_RS05755,protoheme IX farnesyltransferase,0.007,lmo2057,protoheme IX farnesyltransferase
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.725,LXX_RS01825,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.725,LXX_RS01830,hypothetical protein,,,
+,,,0.006,EF2813,tail tape meausure protein,,,,,,,,,,,,,,,,0.006,SGR_RS14120,phage tail protein,,,,0.725,LXX_RS01835,hypothetical protein,0.033,lmo0121,phage tail protein
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.725,LXX_RS01840,tape measure domain-containing protein,,,
+,,,,,,0.005,Rv1099c,"fructose 1,6-bisphosphatase",0.007,NCgl0976,"fructose 1,6-bisphosphatase II",0.010,ACEL_RS09690,"fructose 1,6-bisphosphatase",0.005,BSU37090,"fructose-1,6-bisphosphatase class 2",0.411,NFA_RS23800,"fructose 1,6-bisphosphatase",0.003,SGR_RS12205,"fructose 1,6-bisphosphatase",0.014,CA_C1088,"fructose 1,6-bisphosphatase II",0.663,LXX_RS08235,"fructose 1,6-bisphosphatase",,,
+,,,,,,0.009,Rv0363c,fructose-bisphosphate aldolase,0.007,NCgl2673,fructose-bisphosphate aldolase,0.010,ACEL_RS11030,class II fructose-bisphosphate aldolase,,,,0.004,NFA_RS26715,class II fructose-bisphosphate aldolase,0.003,SGR_RS16925,class II fructose-bisphosphate aldolase,0.007,CA_C0827,fructose-bisphosphate aldolase,0.663,LXX_RS08240,class II fructose-bisphosphate aldolase,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.663,LXX_RS08245,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS25905,DSBA oxidoreductase,0.003,SGR_RS27295,membrane protein,,,,0.661,LXX_RS10450,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.648,LXX_RS03670,hypothetical protein,,,
+0.007,SAOUHSC_01980,DNA-binding response regulator,,,,,,,0.013,NCgl2834,"two-component system, response regulator",,,,,,,,,,,,,,,,0.648,LXX_RS03675,DNA-binding response regulator,,,
+0.007,SAOUHSC_01981,sensor histidine kinase,0.006,EF2912,sensor histidine kinase,,,,0.006,NCgl2835,"two-component system, sensory transduction histidine kinase",0.010,ACEL_RS05025,two-component sensor histidine kinase,0.005,BSU09320,sensor histidine kinase,,,,0.027,SGR_RS06320,two-component sensor histidine kinase,,,,0.648,LXX_RS03680,two-component sensor histidine kinase,0.007,lmo1021,two-component sensor histidine kinase
+0.110,SAOUHSC_00912,ATP-dependent Clp protease ATP-binding subunit ClpB,0.007,EF2355,"ATP-dependent Clp protease, ATP-binding protein ClpB",0.005,Rv0384c,chaperone protein ClpB,0.007,NCgl2682,"ATPase with chaperone activity, ATP-binding subunit",0.010,ACEL_RS11000,ATP-dependent chaperone ClpB,,,,0.004,NFA_RS26810,ATP-dependent chaperone ClpB,0.006,SGR_RS16970,ATP-dependent chaperone ClpB,0.006,CA_C0959,ABC transporter ATPase,0.643,LXX_RS11590,Clp protease ClpB,0.007,lmo2206,Clp protease subunit B
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.643,LXX_RS11595,hypothetical protein,,,
+,,,,,,0.237,Rv2226,hypothetical protein,0.017,NCgl2150,hypothetical protein,,,,,,,,,,0.004,SGR_RS24595,CHAD domain-containing protein,,,,0.643,LXX_RS03685,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.627,LXX_RS04095,hypothetical protein,,,
+,,,,,,0.160,Rv2094c,Sec-independent protein translocase membrane-bound protein TatA,0.007,NCgl1434,twin arginine translocase A,0.010,ACEL_RS06185,hypothetical protein,,,,0.004,NFA_RS15790,protein translocase TatA,0.003,SGR_RS01595,hypothetical protein,,,,0.627,LXX_RS04100,protein translocase TatA,,,
+0.007,SAOUHSC_00328,hypothetical protein,,,,0.160,Rv2093c,Sec-independent protein translocase transmembrane protein TatC,0.006,NCgl1433,Sec-independent protein secretion pathway component TatC,0.010,ACEL_RS06190,preprotein translocase subunit TatC,0.013,BSU05990,Sec-independent protein translocase protein TatCy,0.004,NFA_RS15785,twin arginine-targeting protein translocase TatC,0.003,SGR_RS29295,membrane protein,,,,0.627,LXX_RS04105,preprotein translocase subunit TatC,,,
+,,,,,,0.160,Rv2092c,ATP-dependent DNA helicase HelY,0.006,NCgl1432,helicase,0.010,ACEL_RS06195,RNA helicase,,,,0.004,NFA_RS15780,DEAD/DEAH box helicase,0.003,SGR_RS29305,RNA helicase,,,,0.627,LXX_RS04110,RNA helicase,,,
+,,,,,,,,,0.007,NCgl1424,apolipoprotein N-acyltransferase,0.010,ACEL_RS06215,apolipoprotein N-acyltransferase,,,,0.004,NFA_RS15565,apolipoprotein N-acyltransferase,0.003,SGR_RS32825,apolipoprotein N-acyltransferase,,,,0.627,LXX_RS04115,apolipoprotein N-acyltransferase,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.601,LXX_RS03475,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.601,LXX_RS03480,peptidase,,,
+0.058,SAOUHSC_02484,50S ribosomal protein L17,0.016,EF0234,50S ribosomal protein L17,0.007,Rv3456c,50S ribosomal protein L17,0.006,NCgl0541,50S ribosomal protein L17,0.011,ACEL_RS11300,50S ribosomal protein L17,0.004,BSU01440,50S ribosomal protein L17,0.004,NFA_RS04265,50S ribosomal protein L17,0.003,SGR_RS13860,50S ribosomal protein L17,0.005,CA_C3103,50S ribosomal protein L17,0.600,LXX_RS09870,50S ribosomal protein L17,0.011,lmo2605,50S ribosomal protein L17
+0.008,SAOUHSC_02485,DNA-directed RNA polymerase subunit alpha,0.016,EF0233,DNA-directed RNA polymerase subunit alpha,0.007,Rv3457c,DNA-directed RNA polymerase subunit alpha,0.006,NCgl0540,DNA-directed RNA polymerase subunit alpha,0.011,ACEL_RS01735,DNA-directed RNA polymerase subunit alpha,0.004,BSU01430,DNA-directed RNA polymerase subunit alpha,0.051,NFA_RS04260,DNA-directed RNA polymerase subunit alpha,0.003,SGR_RS13865,DNA-directed RNA polymerase subunit alpha,0.005,CA_C3104,DNA-directed RNA polymerase subunit alpha,0.600,LXX_RS09875,DNA-directed RNA polymerase subunit alpha,0.006,lmo2606,DNA-directed RNA polymerase subunit alpha
+,,,,,,0.026,Rv0172,Mce family protein Mce1D,,,,,,,,,,,,,,,,,,,0.595,LXX_RS06365,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.595,LXX_RS06355,hypothetical protein,,,
+0.010,SAOUHSC_00228,hypothetical protein,0.021,EF2170,glycosyl transferase group 2 family protein,,,,,,,0.010,ACEL_RS11690,glycosyl transferase family protein,0.008,BSU34280,glycosyltransferase EpsJ,,,,0.032,SGR_RS24700,glycosyl transferase,0.005,CA_C2523,glycosyltransferase,0.595,LXX_RS06360,hypothetical protein,0.006,lmo0497,sugar transferase
+,,,,,,,,,,,,,,,,,,,,,,,,,,,0.564,LXX_RS09205,hypothetical protein,,,
+,,,,,,,,,,,,0.010,ACEL_RS03125,PA-phosphatase-like phosphoesterase,,,,,,,,,,,,,0.536,LXX_RS00750,hypothetical protein,,,
+0.011,SAOUHSC_01283,hypothetical protein,0.082,EF2161,GTP-binding protein,0.005,Rv2725c,GTP-binding protein HflX,0.006,NCgl1865,GTPase,0.010,ACEL_RS07630,GTPase HflX,0.008,BSU17430,GTPase HflX,0.004,NFA_RS19115,GTPase HflX,0.003,SGR_RS08430,GTPase HflX,0.011,CA_C2299,GTPase HflX,0.525,LXX_RS07915,GTPase HflX,0.006,lmo0762,ATP/GTP-binding protein
+,,,,,,1.000,Rv2719c,membrane protein,,,,,,,,,,,,,,,,,,,1.000,LXX_RS07885,hypothetical protein,,,
+0.007,SAOUHSC_01164,bifunctional pyrimidine regulatory protein PyrR/uracil phosphoribosyltransferase,0.006,EF1721,bifunctional pyrimidine regulatory protein PyrR/uracil phosphoribosyltransferase,1.000,Rv1379,bifunctional pyrimidine operon regulatory protein/uracil phosphoribosyltransferase,0.007,NCgl1551,bifunctional pyrimidine regulatory protein PyrR uracil phosphoribosyltransferase,0.010,ACEL_RS06700,uracil phosphoribosyltransferase,0.013,BSU15470,bifunctional protein PyrR,0.004,NFA_RS18090,bifunctional pyr operon transcriptional regulator/uracil phosphoribosyltransferase,0.003,SGR_RS30200,bifunctional pyr operon transcriptional regulator/uracil phosphoribosyltransferase,0.005,CA_C2113,bifunctional pyrimidine regulatory protein PyrR/uracil phosphoribosyltransferase,0.009,LXX_RS05465,bifunctional protein PyrR,0.008,lmo1840,bifunctional pyrimidine regulatory protein PyrR uracil phosphoribosyltransferase
+0.008,SAOUHSC_01166,aspartate carbamoyltransferase catalytic subunit,0.006,EF1719,aspartate carbamoyltransferase catalytic subunit,1.000,Rv1380,aspartate carbamoyltransferase,0.007,NCgl1550,aspartate carbamoyltransferase,0.010,ACEL_RS06695,aspartate carbamoyltransferase,0.013,BSU15490,aspartate carbamoyltransferase,0.004,NFA_RS18085,aspartate carbamoyltransferase,0.003,SGR_RS30205,aspartate carbamoyltransferase,0.006,CA_C2654,aspartate carbamoyltransferase,0.009,LXX_RS05470,aspartate carbamoyltransferase,0.010,lmo1838,aspartate carbamoyltransferase
+0.008,SAOUHSC_01168,dihydroorotase,0.006,EF1718,dihydroorotase,1.000,Rv1381,dihydroorotase,0.007,NCgl1549,dihydroorotase,0.010,ACEL_RS06690,dihydroorotase,0.013,BSU15500,dihydroorotase,0.004,NFA_RS18080,dihydroorotase,0.003,SGR_RS30210,dihydroorotase,0.007,CA_C0519,dihydroorotase,0.009,LXX_RS05475,dihydroorotase,0.010,lmo1837,dihydroorotase
+,,,,,,1.000,Rv1382,hypothetical protein,,,,,,,,,,0.004,NFA_RS18075,transporter,,,,,,,,,,,,
+0.008,SAOUHSC_01169,carbamoyl phosphate synthase small subunit,0.006,EF1717,carbamoyl phosphate synthase small subunit,1.000,Rv1383,carbamoyl-phosphate synthase small subunit,0.006,NCgl1548,carbamoyl phosphate synthase small subunit,0.010,ACEL_RS06685,carbamoyl-phosphate synthase small subunit,0.013,BSU15510,carbamoyl-phosphate synthase pyrimidine-specific small chain,0.004,NFA_RS18070,carbamoyl-phosphate synthase small subunit,0.003,SGR_RS30220,carbamoyl-phosphate synthase small subunit,0.005,CA_C2645,carbamoyl phosphate synthase small subunit,0.009,LXX_RS05485,carbamoyl-phosphate synthase small subunit,0.010,lmo1836,carbamoyl phosphate synthase small subunit
+0.007,SAOUHSC_01170,carbamoyl phosphate synthase large subunit,0.006,EF1716,carbamoyl phosphate synthase large subunit,1.000,Rv1384,carbamoyl-phosphate synthase large subunit,0.006,NCgl1547,carbamoyl phosphate synthase large subunit,0.010,ACEL_RS06680,carbamoyl phosphate synthase large subunit,0.013,BSU15520,carbamoyl-phosphate synthase pyrimidine-specific large chain,0.004,NFA_RS18065,carbamoyl phosphate synthase large subunit,0.003,SGR_RS30225,carbamoyl phosphate synthase large subunit,0.005,CA_C2644,carbamoyl phosphate synthase large subunit,0.009,LXX_RS05490,carbamoyl phosphate synthase large subunit,0.010,lmo1835,carbamoyl-phosphate synthetase
+,,,,,,1.000,Rv1385,orotidine 5'-phosphate decarboxylase,0.006,NCgl1546,orotidine 5'-phosphate decarboxylase,,,,,,,0.004,NFA_RS18060,orotidine 5'-phosphate decarboxylase,0.003,SGR_RS30235,orotidine 5'-phosphate decarboxylase,0.006,CA_C2652,orotidine 5'-phosphate decarboxylase,0.009,LXX_RS05495,orotidine 5'-phosphate decarboxylase,,,
+0.188,SAOUHSC_02388,hypothetical protein,0.007,EF2423,ArsR family transcriptional regulator,1.000,Rv3744,HTH-type transcriptional regulator NmtR,,,,,,,0.006,BSU19120,ArsR family transcriptional regulator,0.220,NFA_RS15500,transcriptional regulator,0.157,SGR_RS34985,transcriptional regulator,,,,,,,,,
+,,,,,,1.000,Rv3743c,cation transporter ATPase J,,,,,,,,,,0.220,NFA_RS15505,metal-transporting ATPase,0.157,SGR_RS34980,metal-transporting ATPase,,,,,,,,,
+,,,,,,1.000,Rv2579,haloalkane dehalogenase,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv3371,diacyglycerol O-acyltransferase,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv3372,trehalose 6-phosphate phosphatase,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv2595,antitoxin VapB40,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv2596,ribonuclease VapC40,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv3776,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv1702c,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv3074,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv3072c,hypothetical protein,,,,,,,,,,0.004,NFA_RS16420,LLM class F420-dependent oxidoreductase,,,,,,,,,,,,
+0.008,SAOUHSC_00202,hypothetical protein,0.008,EF2786,hypothetical protein,1.000,Rv3073c,hypothetical protein,0.007,NCgl0771,hypothetical protein,0.010,ACEL_RS03200,hypothetical protein,,,,0.004,NFA_RS15700,hypothetical protein,0.003,SGR_RS13765,hypothetical protein,,,,,,,,,
+,,,,,,1.000,Rv3395A,membrane protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv3395c,hypothetical protein,0.254,NCgl0590,hypothetical protein,,,,,,,1.000,NFA_RS04600,hypothetical protein,,,,,,,,,,,,
+,,,,,,1.000,Rv3261,2-phospho-L-lactate transferase,,,,0.010,ACEL_RS02365,2-phospho-L-lactate transferase,,,,1.000,NFA_RS22915,2-phospho-L-lactate transferase,0.003,SGR_RS22365,2-phospho-L-lactate transferase,,,,,,,,,
+,,,,,,1.000,Rv3262,coenzyme F420:L-glutamate ligase,,,,0.010,ACEL_RS10135,coenzyme F420-0:L-glutamate ligase,,,,1.000,NFA_RS22910,F420-0--gamma-glutamyl ligase,0.003,SGR_RS22360,coenzyme F420-0:L-glutamate ligase,,,,,,,,,
+,,,,,,1.000,Rv0515,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv0335c,PE family protein PE6,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv0336,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv3260c,transcriptional regulator WhiB2,0.007,NCgl0711,hypothetical protein,0.013,ACEL_RS02370,transcription factor WhiB,,,,1.000,NFA_RS22920,transcriptional regulator,0.004,SGR_RS22375,WhiB family transcriptional regulator,,,,0.042,LXX_RS02545,WhiB family transcriptional regulator,,,
+,,,,,,1.000,Rv2735c,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+0.008,SAOUHSC_02969,arginine deiminase,0.007,EF0104,arginine deiminase,1.000,Rv1001,arginine deiminase,,,,,,,,,,0.007,NFA_RS24350,arginine deiminase,0.854,SGR_RS07695,arginine deiminase,0.017,CA_C0376,N-dimethylarginine,,,,0.009,lmo0043,arginine deiminase
+,,,,,,1.000,Rv1582c,phage protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv1583c,phage protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv1584c,phage protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv1585c,phage protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv1586c,phage integrase,,,,,,,0.008,BSU25770,DNA recombinase,,,,,,,,,,0.009,LXX_RS13015,integrase,,,
+,,,,,,1.000,Rv1587c,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv1588c,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,1.000,Rv2151c,cell division protein FtsQ,0.446,NCgl2076,cell division septal protein,,,,,,,0.005,NFA_RS08905,cell division protein FtsQ,,,,,,,,,,,,
+0.007,SAOUHSC_01856,UDP-N-acetylmuramate--L-alanine ligase,0.082,EF1908,UDP-N-acetylmuramate--L-alanine ligase,1.000,Rv2152c,UDP-N-acetylmuramate--alanine ligase,0.446,NCgl2077,UDP-N-acetylmuramate--L-alanine ligase,0.010,ACEL_RS05205,UDP-N-acetylmuramate--L-alanine ligase,0.005,BSU29790,UDP-N-acetylmuramate--L-alanine ligase,0.005,NFA_RS08900,UDP-N-acetylmuramate--L-alanine ligase,0.010,SGR_RS07120,UDP-N-acetylmuramate--L-alanine ligase,0.012,CA_C3225,UDP-N-acetylmuramate--L-alanine ligase,0.009,LXX_RS07580,UDP-N-acetylmuramate--L-alanine ligase,0.008,lmo1605,UDP-N-acetylmuramate--L-alanine ligase
+0.010,SAOUHSC_01424,undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase,0.109,EF0994,UDPdiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase,1.000,Rv2153c,UDP-N-acetylglucosamine--N-acetylmuramyl- (pentapeptide) pyrophosphoryl-undecaprenol-N-acetylglucosamine transferase,0.446,NCgl2078,undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase,0.010,ACEL_RS05200,UDP-N-acetylglucosamine--N-acetylmuramyl- (pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase,0.004,BSU15220,UDP-N-acetylglucosamine--N-acetylmuramyl- (pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase,0.005,NFA_RS08895,UDP-N-acetylglucosamine--N-acetylmuramyl- (pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase,0.003,SGR_RS27035,UDP-N-acetylglucosamine--N-acetylmuramyl- (pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase,0.008,CA_C2231,undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase,0.009,LXX_RS07585,UDP-N-acetylglucosamine--N-acetylmuramyl- (pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase,0.006,lmo2035,UDP-diphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase
+,,,0.008,EF2457,cell cycle protein FtsW,1.000,Rv2154c,lipid II flippase FtsW,0.446,NCgl2079,cell division membrane protein,0.010,ACEL_RS05195,cell division protein FtsW,0.005,BSU15210,stage V sporulation protein E,0.005,NFA_RS08890,cell division protein FtsW,0.003,SGR_RS27030,cell division protein FtsW,,,,0.009,LXX_RS07590,cell division protein FtsW,0.010,lmo1071,cell division protein FtsW
+0.007,SAOUHSC_01147,UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase,0.109,EF0993,UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase,1.000,Rv2155c,UDP-N-acetylmuramoylalanine--D-glutamate ligase,0.446,NCgl2080,UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase,0.010,ACEL_RS05190,UDP-N-acetylmuramoylalanine--D-glutamate ligase,0.005,BSU15200,UDP-N-acetylmuramoylalanine--D-glutamate ligase,0.005,NFA_RS08885,UDP-N-acetylmuramoylalanine--D-glutamate ligase,0.003,SGR_RS27025,UDP-N-acetylmuramoylalanine--D-glutamate ligase,,,,0.009,LXX_RS07595,UDP-N-acetylmuramoylalanine--D-glutamate ligase,0.006,lmo2036,UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase
+0.007,SAOUHSC_01146,phospho-N-acetylmuramoyl-pentapeptide- transferase,0.011,EF0992,phospho-N-acetylmuramoyl-pentapeptide- transferase,1.000,Rv2156c,phospho-N-acetylmuramoyl- pentappeptidetransferase,0.446,NCgl2081,phospho-N-acetylmuramoyl-pentapeptide- transferase,0.010,ACEL_RS05185,phospho-N-acetylmuramoyl-pentapeptide- transferase,0.005,BSU15190,phospho-n-acetylmuramoyl-pentapeptide- transferase,0.005,NFA_RS08880,phospho-N-acetylmuramoyl-pentapeptide- transferase,0.003,SGR_RS27020,phospho-N-acetylmuramoyl-pentapeptide- transferase,0.005,CA_C2127,phospho-N-acetylmuramoyl-pentapeptide- transferase,0.009,LXX_RS07600,phospho-N-acetylmuramoyl-pentapeptide- transferase,0.007,lmo2037,phospho-N-acetylmuramoyl-pentapeptide- transferase
+0.011,SAOUHSC_02317,"UDP-N-acetylmuramoylalanyl-D-glutamyl-2, 6-diaminopimelate--D-alanyl-D-alanyl ligase",0.006,EF0845,"UDP-N-acetylmuramoylalanyl-D-glutamyl-2, 6-diaminopimelate--D-alanyl-D-alanyl ligase",1.000,Rv2157c,UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alanine ligase,0.446,NCgl2082,UDP-N-acetylmuramyl pentapeptide synthase,0.010,ACEL_RS05180,UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alanine ligase,0.005,BSU04570,UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alanine ligase,0.005,NFA_RS08875,UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alanine ligase,0.003,SGR_RS27015,UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alanine ligase,0.005,CA_C2128,UDP-N-acetylmuramyl pentapeptide synthase,0.009,LXX_RS07605,"UDP-N-acetylmuramoylalanyl-D-glutamate--2, 6-diaminopimelate ligase",0.008,lmo0856,"UDP-N-acetylmuramoylalanyl-D-glutamyl-2, 6-diamino pimelate-D-alanyl-D-alanyl ligase"
+0.018,SAOUHSC_00954,UDP-N-acetylmuramoylalanyl-D-glutamate--L-lysine ligase,0.017,EF0668,UDP-N-acetylmuramoylalanyl-D-glutamate--L-lysine ligase,1.000,Rv2158c,"UDP-N-acetylmuramoylalanyl-D-glutamate--2, 6-diaminopimelate ligase",0.446,NCgl2083,"UDP-N-acetylmuramoylalanyl-D-glutamate--2, 6-diaminopimelate ligase",0.010,ACEL_RS05175,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2, 6-diaminopimelate ligase",0.005,BSU15180,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2, 6-diaminopimelate ligase",0.042,NFA_RS08870,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2, 6-diaminopimelate ligase",0.003,SGR_RS27010,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2, 6-diaminopimelate ligase",0.005,CA_C2129,"UDP-N-acetylmuramoylalanyl-D-glutamate--2, 6-diaminopimelate ligase",0.009,LXX_RS07610,UDP-N-acetylmuramyl-tripeptide synthetase,0.007,lmo2038,"UDP-N-acetylmuramoylalanyl-D-glutamate--2, 6-diaminopimelate ligase"
+,,,,,,1.000,Rv2159c,hypothetical protein,,,,,,,,,,,,,0.225,SGR_RS02915,alkylhydroperoxidase,,,,,,,,,
+,,,,,,1.000,Rv2160c,,0.007,NCgl2523,transcriptional regulator,,,,,,,1.000,NFA_RS07185,transcriptional regulator,0.033,SGR_RS06275,TetR family transcriptional regulator,,,,,,,,,
+,,,,,,1.000,Rv2161c,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.023,EF2326,group II intron reverse transcriptase maturase,1.000,Rv0071,maturase,,,,,,,,,,,,,,,,0.005,CA_C3514,Reverse transcriptase/maturase,,,,,,
+,,,,,,0.999,Rv3017c,ESAT-6 like protein EsxQ,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.999,Rv1000c,hypothetical protein,,,,,,,,,,0.982,NFA_RS18100,DNA repair protein,1.000,SGR_RS07515,alkylated DNA repair protein,,,,,,,,,
+,,,,,,0.996,Rv0775,hypothetical protein,,,,,,,,,,0.015,NFA_RS02830,hypothetical protein,,,,,,,,,,,,
+,,,,,,0.995,Rv0096,PPE family protein PPE1,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.995,Rv0097,oxidoreductase,,,,,,,,,,,,,0.003,SGR_RS26405,taurine dioxygenase,,,,,,,,,
+,,,,,,0.995,Rv0098,fatty acyl CoA thioesterase FcoT,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.995,Rv0099,fatty-acid--CoA ligase FadD10,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.995,Rv0100,hypothetical protein,,,,,,,,,,0.004,NFA_RS01760,hypothetical protein,,,,,,,,,,,,
+,,,,,,0.995,Rv0101,peptide synthetase Nrp,0.006,NCgl2618,non-ribosomal peptide synthetase,,,,0.005,BSU31960,dimodular nonribosomal peptide synthase,,,,0.005,SGR_RS16155,non-ribosomal peptide synthetase,,,,,,,,,
+,,,,,,0.995,Rv3110,pterin-4-alpha-carbinolamine dehydratase,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.995,Rv3111,cyclic pyranopterin monophosphate synthase accessory protein,,,,,,,0.013,BSU05960,cyclic pyranopterin monophosphate synthase accessory protein,,,,,,,0.023,CA_C1992,molybdenum cofactor biosynthesis protein MoaC,,,,,,
+,,,,,,0.995,Rv3112,molybdenum cofactor biosynthesis protein MoaD,,,,,,,,,,,,,,,,,,,,,,,,
+0.007,SAOUHSC_00239,ribokinase,0.008,EF2961,ribokinase,0.992,Rv2436,ribokinase RbsK,0.006,NCgl1311,sugar kinase,0.010,ACEL_RS03205,ribokinase,0.009,BSU35920,ribokinase,0.004,NFA_RS06950,ribokinase,0.005,SGR_RS05315,ribokinase,,,,0.009,LXX_RS08405,ribokinase,,,
+,,,,,,0.990,Rv2516c,hypothetical protein,,,,,,,,,,0.005,NFA_RS29265,hypothetical protein,,,,,,,,,,,,
+,,,,,,0.990,Rv2517c,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+0.007,SAOUHSC_02536,molybdenum cofactor biosynthesis protein A,,,,0.989,Rv3109,cyclic pyranopterin monophosphate synthase,,,,0.010,ACEL_RS08495,cyclic pyranopterin monophosphate synthase,0.016,BSU36700,cyclic pyranopterin monophosphate synthase,,,,,,,,,,,,,,,
+0.018,SAOUHSC_R0001,16S Ribosomal RNA,0.185,Ef16SD,16S ribosomal RNA,0.988,Rvnr01,16S ribosomal RNA,0.008,NCg1r16,16S ribosomal RNA,0.010,ACEL_RS06455,16S ribosomal RNA,0.007,BSU_rRNA_4,16S ribosomal RNA,0.514,NFA_RS09170,16S ribosomal RNA,0.368,SGR_RS30675,16S ribosomal RNA,0.006,CA_Cr033,16Sk ribosomal RNA,0.012,LXX_RS00680,16S ribosomal RNA,0.007,lmor09,16S ribosomal RNA
+,,,,,,0.986,Rv2617c,transmembrane protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.986,Rv2618,hypothetical protein,,,,0.010,ACEL_RS08585,transcriptional regulator,,,,0.007,NFA_RS15720,transcriptional regulator,,,,,,,,,,,,
+,,,,,,0.986,Rv1307,ATP synthase subunit b/delta,0.007,NCgl1162,ATP synthase F0F1 subunit delta,0.010,ACEL_RS03345,ATP synthase subunit delta,,,,0.007,NFA_RS05390,ATP synthase subunit delta,0.005,SGR_RS10645,ATP synthase subunit delta,,,,0.009,LXX_RS03430,ATP synthase subunit delta,,,
+0.007,SAOUHSC_02345,F0F1 ATP synthase subunit alpha,0.006,EF2610,F0F1 ATP synthase subunit alpha,0.986,Rv1308,ATP synthase subunit alpha,0.007,NCgl1163,ATP synthase F0F1 subunit alpha,0.010,ACEL_RS03350,ATP synthase subunit alpha,0.004,BSU36830,ATP synthase subunit alpha,0.007,NFA_RS05395,ATP synthase subunit alpha,0.005,SGR_RS10640,ATP synthase subunit alpha,0.005,CA_C2867,ATP synthase F0F1 subunit alpha,0.009,LXX_RS03435,ATP synthase subunit alpha,0.006,lmo2531,ATP synthase F0F1 subunit alpha
+0.007,SAOUHSC_02343,F0F1 ATP synthase subunit gamma,0.006,EF2609,F0F1 ATP synthase subunit gamma,0.986,Rv1309,ATP synthase subunit gamma,0.007,NCgl1164,ATP synthase F0F1 subunit gamma,0.010,ACEL_RS03355,ATP synthase subunit gamma,0.004,BSU36820,ATP synthase gamma chain,0.007,NFA_RS05400,ATP synthase subunit gamma,0.005,SGR_RS10635,ATP synthase subunit gamma,0.005,CA_C2866,ATP synthase F0F1 subunit gamma,0.009,LXX_RS03440,ATP synthase subunit gamma,0.006,lmo2530,ATP synthase F0F1 subunit gamma
+0.007,SAOUHSC_02341,F0F1 ATP synthase subunit beta,0.012,EF2608,F0F1 ATP synthase subunit beta,0.986,Rv1310,ATP synthase subunit beta,0.007,NCgl1165,ATP synthase F0F1 subunit beta,0.010,ACEL_RS03360,ATP synthase subunit beta,0.004,BSU36810,ATP synthase subunit beta,0.007,NFA_RS05405,ATP synthase subunit beta,0.005,SGR_RS10630,ATP synthase subunit beta,0.005,CA_C2865,ATP synthase F0F1 subunit beta,0.009,LXX_RS03445,ATP synthase subunit beta,0.006,lmo2529,ATP synthase F0F1 subunit beta
+0.007,SAOUHSC_02340,F0F1 ATP synthase subunit epsilon,0.012,EF2607,F0F1 ATP synthase subunit epsilon,0.986,Rv1311,ATP synthase subunit epsilon,0.007,NCgl1166,ATP synthase F0F1 subunit epsilon,0.010,ACEL_RS03365,ATP synthase F1 subunit epsilon,0.004,BSU36800,ATP synthase epsilon chain,0.007,NFA_RS05410,F0F1 ATP synthase subunit epsilon,0.005,SGR_RS10625,ATP synthase epsilon chain,0.005,CA_C2864,ATP synthase F0F1 subunit epsilon,0.009,LXX_RS03450,F0F1 ATP synthase subunit epsilon,0.006,lmo2528,ATP synthase F0F1 subunit epsilon
+,,,,,,0.986,Rv1312,hypothetical protein,0.007,NCgl1167,hypothetical protein,0.010,ACEL_RS11400,hypothetical protein,,,,0.007,NFA_RS05415,hypothetical protein,,,,,,,,,,,,
+,,,,,,0.985,Rv0934,phosphate ABC transporter substrate-binding lipoprotein PstS,,,,,,,,,,,,,,,,,,,,,,,,
+0.008,SAOUHSC_01387,hypothetical protein,0.009,EF1758,phosphate ABC transporter permease,0.985,Rv0935,phosphate ABC transporter permease PstC,,,,,,,0.010,BSU24980,ABC transporter permease,,,,,,,,,,,,,0.007,lmo2498,phosphate ABC transporter permease
+,,,0.009,EF1757,phosphate ABC transporter permease,0.985,Rv0936,phosphate ABC transporter permease PstA,,,,,,,,,,,,,,,,0.012,CA_C1707,permease of ATP-dependent phosphate uptake system,,,,,,
+,,,,,,0.978,Rv3179,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.966,Rv0997a,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+0.007,SAOUHSC_01588,hypothetical protein,0.012,EF1539,hypothetical protein,0.965,Rv1710,segregation and condensation protein ScpB,0.008,NCgl1370,hypothetical protein,0.010,ACEL_RS06360,SMC-Scp complex subunit ScpB,0.005,BSU23210,segregation and condensation protein B,0.090,NFA_RS10130,SMC-Scp complex subunit ScpB,0.003,SGR_RS28575,SMC-Scp complex subunit ScpB,0.011,CA_C2060,segregation and condensation protein B,0.009,LXX_RS02790,segregation and condensation protein B,0.007,lmo1950,hypothetical protein
+0.007,SAOUHSC_01587,ribosomal large subunit pseudouridine synthase B,0.012,EF1540,,0.965,Rv1711,RNA pseudouridine synthase,0.008,NCgl1371,16S rRNA uridine-516 pseudouridylate synthase,0.010,ACEL_RS06355,RNA pseudouridine synthase,0.015,BSU23160,ribosomal large subunit pseudouridine synthase B,0.004,NFA_RS10135,pseudouridine synthase,0.003,SGR_RS28580,pseudouridine synthase,0.006,CA_C1851,pseudouridylate synthase,0.009,LXX_RS02795,RNA pseudouridine synthase,0.007,lmo1949,hypothetical protein
+0.007,SAOUHSC_01496,cytidylate kinase,0.007,EF1547,cytidylate kinase,0.965,Rv1712,cytidylate kinase,0.008,NCgl1372,cytidylate kinase,0.010,ACEL_RS06345,cytidylate kinase,0.008,BSU22890,cytidylate kinase,0.004,NFA_RS10140,cytidylate kinase,0.004,SGR_RS28630,cytidylate kinase,0.006,CA_C1848,cytidylate kinase,0.009,LXX_RS02805,cytidylate kinase,0.006,lmo1939,cytidylate kinase
+0.007,SAOUHSC_01492,GTP-binding protein EngA,0.006,EF1549,GTP-binding protein EngA,0.965,Rv1713,GTPase Der,0.008,NCgl1373,GTP-binding protein EngA,0.010,ACEL_RS06340,ribosome biogenesis GTPase Der,0.005,BSU22840,GTPase Der,0.004,NFA_RS10145,ribosome biogenesis GTPase Der,0.004,SGR_RS28640,ribosome biogenesis GTPase Der,0.010,CA_C1711,GTP-binding protein EngA,0.009,LXX_RS02810,ribosome biogenesis GTPase Der,0.009,lmo1937,GTP-binding protein EngA
+,,,,,,0.948,Rv2059,hypothetical protein,0.007,NCgl2541,ABC transporter permease,0.010,ACEL_RS10805,ABC transporter substrate-binding protein,,,,0.102,NFA_RS02250,ABC transporter permease,,,,,,,0.014,LXX_RS12275,ABC transporter substrate-binding protein,,,
+,,,,,,0.948,Rv2060,integral membrane protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.947,Rv2055c,30S ribosomal protein S18,0.007,NCgl0831,30S ribosomal protein S18,,,,,,,0.004,NFA_RS24690,30S ribosomal protein S18,0.003,SGR_RS02600,30S ribosomal protein S18,,,,0.009,LXX_RS12335,30S ribosomal protein S18,,,
+0.007,SAOUHSC_01329,30S ribosomal protein S14,0.007,EF0585,30S ribosomal protein S14,0.947,Rv2056c,30S ribosomal protein S14,0.007,NCgl0832,30S ribosomal protein S14,,,,0.004,BSU08880,30S ribosomal protein S14,0.004,NFA_RS24685,30S ribosomal protein S14,0.003,SGR_RS02575,30S ribosomal protein S14,,,,0.009,LXX_RS12245,30S ribosomal protein S14,0.007,lmo1882,30S ribosomal protein S14
+,,,,,,0.947,Rv2057c,50S ribosomal protein L33,0.007,NCgl0833,50S ribosomal protein L33,,,,,,,0.004,NFA_RS24680,50S ribosomal protein L33,0.003,SGR_RS02585,50S ribosomal protein L33,,,,0.009,LXX_RS12250,50S ribosomal protein L33,,,
+,,,,,,0.947,Rv2058c,50S ribosomal protein L28,0.007,NCgl0834,50S ribosomal protein L28,,,,,,,0.004,NFA_RS24675,50S ribosomal protein L28,0.003,SGR_RS02580,50S ribosomal protein L28,,,,0.009,LXX_RS12255,50S ribosomal protein L28,,,
+0.007,SAOUHSC_02363,aldehyde dehydrogenase,,,,0.946,Rv0223c,aldehyde dehydrogenase,0.007,NCgl0523,NAD-dependent aldehyde dehydrogenase,,,,,,,0.004,NFA_RS27190,aldehyde dehydrogenase,0.999,SGR_RS25820,aldehyde dehydrogenase,,,,,,,0.006,lmo0913,succinate semialdehyde dehydrogenase
+,,,,,,0.939,Rv1720c,ribonuclease VapC12,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.939,Rv1721c,antitoxin VapB12,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.925,Rv3174,short-chain dehydrogenase/reductase,,,,,,,,,,0.004,NFA_RS11530,short-chain dehydrogenase,,,,,,,,,,,,
+,,,,,,0.925,Rv3175,amidase,,,,,,,,,,,,,0.057,SGR_RS12400,amidase,,,,,,,,,
+,,,,,,0.908,Rv2699c,hypothetical protein,0.011,NCgl1833,hypothetical protein,0.010,ACEL_RS07235,dUTPase,,,,0.004,NFA_RS18750,dUTPase,0.006,SGR_RS08155,dUTPase,,,,0.009,LXX_RS05135,dUTPase,,,
+,,,,,,0.908,Rv2700,hypothetical protein,,,,,,,,,,0.004,NFA_RS18755,secreted alanine rich protein,,,,,,,,,,,,
+,,,,,,0.906,Rv1526c,glycosyltransferase,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.906,Rv1527c,polyketide synthase,,,,,,,,,,0.004,NFA_RS15105,polyketide synthase,,,,,,,,,,,,
+0.007,SAOUHSC_02723,glycerate kinase,0.007,EF2646,glycerate kinase,0.874,Rv2205c,hypothetical protein,0.007,NCgl2000,glycerate kinase,,,,0.005,BSU40040,glycerate kinase,0.014,NFA_RS27345,glycerate kinase,0.003,SGR_RS05790,glycerate kinase,0.005,CA_C2834,hypothetical protein,0.009,LXX_RS03245,glycerate kinase,0.025,lmo2736,hypothetical protein
+,,,,,,0.845,Rv3872,PE family protein PE35,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.845,Rv3873,PPE family protein PPE68,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.827,Rv1594,quinolinate synthetase A,0.006,NCgl1024,quinolinate synthetase,0.010,ACEL_RS05885,quinolinate synthetase,0.005,BSU27850,quinolinate synthase A,0.046,NFA_RS09265,quinolinate synthetase,0.042,SGR_RS26660,quinolinate synthetase,0.024,CA_C1025,quinolinate synthetase,0.009,LXX_RS08160,quinolinate synthetase,0.007,lmo2025,quinolinate synthetase
+,,,,,,0.827,Rv1595,L-aspartate oxidase,,,,0.010,ACEL_RS01120,L-aspartate oxidase,0.005,BSU27870,L-aspartate oxidase,0.046,NFA_RS09270,L-aspartate oxidase,0.003,SGR_RS20400,L-aspartate oxidase,0.006,CA_C1024,L-aspartate oxidase,0.009,LXX_RS08165,L-aspartate oxidase,0.006,lmo2023,L-aspartate oxidase
+,,,,,,0.827,Rv1596,nicotinate-nucleotide pyrophosphatase,0.006,NCgl1023,nicotinate-nucleotide pyrophosphorylase,0.010,ACEL_RS01125,nicotinate-nucleotide diphosphorylase (carboxylating),0.005,BSU27860,nicotinate-nucleotide pyrophosphorylase,0.046,NFA_RS09275,nicotinate-nucleotide diphosphorylase (carboxylating),0.003,SGR_RS20405,nicotinate-nucleotide diphosphorylase (carboxylating),0.006,CA_C1023,nicotinate-nucleotide pyrophosphorylase,0.009,LXX_RS08170,nicotinate-nucleotide diphosphorylase (carboxylating),0.007,lmo2024,nicotinate-nucleotide pyrophosphorylase
+,,,,,,0.827,Rv1597,hypothetical protein,,,,,,,,,,,,,0.003,SGR_RS12360,methyltransferase type 11,,,,,,,,,
+,,,0.007,EF2700,MutT/nudix family protein,0.827,Rv1593c,hypothetical protein,0.006,NCgl1025,ADP-ribose pyrophosphatase,,,,,,,0.050,NFA_RS09260,NUDIX hydrolase,0.003,SGR_RS28595,NUDIX hydrolase,0.005,CA_C1777,Nudix (MutT-like) hydrolase,,,,0.041,lmo1248,hypothetical protein
+0.054,SAOUHSC_01689,30S ribosomal protein S20,,,,0.822,Rv2412,30S ribosomal protein S20,0.008,NCgl2261,30S ribosomal protein S20,0.010,ACEL_RS04000,30S ribosomal protein S20,0.007,BSU25550,30S ribosomal protein S20,0.005,NFA_RS07095,30S ribosomal protein S20,0.003,SGR_RS24835,30S ribosomal protein S20,0.005,CA_C1274,30S ribosomal protein S20,0.009,LXX_RS07310,30S ribosomal protein S20,0.045,lmo1480,30S ribosomal protein S20
+,,,,,,0.787,Rv2787,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+0.017,SAOUHSC_01249,riboflavin biosynthesis protein RibF,0.006,EF1295,riboflavin biosynthesis protein RibF,0.787,Rv2786c,bifunctional riboflavin kinase /FMN adenylyltransferase,0.006,NCgl1903,bifunctional riboflavin kinase/FMN adenylyltransferase,0.010,ACEL_RS07790,bifunctional riboflavin kinase/FMN adenylyltransferase,0.005,BSU16670,riboflavin biosynthesis protein RibC,0.010,NFA_RS19430,bifunctional riboflavin kinase/FMN adenylyltransferase,0.432,SGR_RS08855,bifunctional riboflavin kinase/FMN adenylyltransferase,0.005,CA_C1806,bifunctional riboflavin kinase/FMN adenylyltransferase,0.010,LXX_RS03560,riboflavin biosynthesis protein RibF,0.007,lmo1329,riboflavin kinase
+,,,,,,0.777,Rv2645,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.777,Rv2646,integrase,,,,,,,,,,0.005,NFA_RS07870,integrase,,,,,,,,,,,,
+,,,0.006,EF2286,ParB-like nuclease domain-containing protein,0.777,Rv2647,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.772,Rv1722,carboxylase,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.772,Rv1723,hydrolase,,,,,,,,,,,,,,,,,,,,,,,,
+0.022,SAOUHSC_01418,2-oxoglutarate dehydrogenase E1 component,,,,0.770,Rv1248c,multifunctional 2-oxoglutarate dehydrogenase E1 component /2-oxoglutarate dehydrogenase dihydrolipoyllysine-residue succinyltransferase,0.007,NCgl1084,alpha-ketoglutarate decarboxylase,0.010,ACEL_RS03000,alpha-ketoglutarate decarboxylase,0.006,BSU19370,2-oxoglutarate dehydrogenase subunit E1,0.271,NFA_RS23285,alpha-ketoglutarate decarboxylase,0.003,SGR_RS10945,alpha-ketoglutarate decarboxylase,,,,0.009,LXX_RS09420,alpha-ketoglutarate decarboxylase,,,
+,,,,,,0.770,Rv2310,excisionase,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.007,EFA0010,multidrug resistance protein,0.768,Rv3065,multidrug resistance protein Mmr,,,,,,,0.005,BSU17290,multidrug resistance protein EbrB,0.004,NFA_RS09945,QacE family quaternary ammonium compound efflux SMR transporter,0.004,SGR_RS27950,QacE family quaternary ammonium compound efflux SMR transporter,0.005,CA_C3666,membrane transporter,,,,,,
+,,,,,,0.768,Rv3066,DeoR family transcriptional regulator,,,,,,,0.006,BSU17080,TetR family transcriptional regulator,,,,0.003,SGR_RS16765,TetR family transcriptional regulator,,,,,,,,,
+,,,,,,0.753,Rv3064c,integral membrane protein,,,,,,,,,,,,,0.005,SGR_RS25730,hypothetical protein,,,,,,,,,
+,,,,,,0.747,Rv2631,RNA-splicing ligase RtcB,0.008,NCgl2899,hypothetical protein,,,,,,,0.004,NFA_RS06945,RNA-splicing ligase RtcB,0.003,SGR_RS20785,RNA-splicing ligase RtcB,0.005,CA_C3382,hypothetical protein,,,,0.006,lmo0257,hypothetical protein
+,,,,,,0.744,Rvnr03,5S ribosomal RNA,0.008,NCg1r17,5S ribosomal RNA,0.010,ACEL_RS06445,5S ribosomal RNA,,,,0.989,NFA_RS10035,5S ribosomal RNA,0.004,SGR_RS30685,5S ribosomal RNA,,,,0.009,LXX_RS00690,5S ribosomal RNA,,,
+,,,,,,0.741,Rv3294c,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.730,Rv3129,,0.008,NCgl2448,hypothetical protein,,,,,,,,,,,,,,,,0.009,LXX_RS11125,hypothetical protein,,,
+,,,,,,0.729,Rv3295,TetR family transcriptional regulator,,,,,,,,,,0.004,NFA_RS23305,TetR family transcriptional regulator,0.004,SGR_RS26355,TetR family transcriptional regulator,,,,,,,,,
+,,,,,,0.729,Rv3296,ATP-dependent helicase,0.007,NCgl0812,Lhr-like helicase,0.010,ACEL_RS07710,DEAD/DEAH box helicase,,,,0.095,NFA_RS04940,DEAD/DEAH box helicase,0.003,SGR_RS08610,DEAD/DEAH box helicase,,,,0.009,LXX_RS10235,hypothetical protein,,,
+,,,,,,0.729,Rv3297,endonuclease VIII,0.007,NCgl0813,formamidopyrimidine-DNA glycosylase,,,,,,,0.095,NFA_RS04945,DNA glycosylase,0.003,SGR_RS08615,DNA glycosylase,,,,0.009,LXX_RS10245,DNA glycosylase,,,
+0.007,SAOUHSC_03001,ica operon transcriptional regulator IcaR,,,,0.701,Rv0328,transcriptional regulator,,,,,,,0.006,BSU29630,TetR family transcriptional regulator,0.120,NFA_RS18170,transcriptional regulator,,,,0.009,CA_C1668,AcrR family transcriptional regulator,,,,0.006,lmo2690,TetR family transcriptional regulator
+,,,0.006,EF1370,drug resistance transporter EmrB/QacA family protein,0.687,Rv1250,MFS-type drug transporter,0.017,NCgl1194,major facilitator superfamily permease,,,,,,,0.004,NFA_RS23335,multidrug MFS transporter,0.004,SGR_RS25575,tetracenomycin C resistance and export protein,,,,0.012,LXX_RS11250,multidrug MFS transporter,,,
+,,,,,,0.687,Rv1249c,membrane protein,0.006,NCgl1086,hypothetical protein,,,,,,,0.004,NFA_RS23265,membrane protein,,,,,,,0.009,LXX_RS06780,hypothetical protein,,,
+,,,,,,0.681,Rv0695,mycofactocin system creatinine amidohydrolase family protein MftE,,,,,,,,,,0.262,NFA_RS16025,mycofactocin system creatininase family protein,,,,,,,,,,0.006,lmo2647,creatinine amidohydrolase
+,,,,,,0.681,Rv0696,mycofactocin biosynthesis glycosyltransferase MftF,,,,,,,,,,0.004,NFA_RS25110,mycofactocin system glycosyltransferase,,,,,,,,,,,,
+,,,,,,0.681,Rv0697,dehydrogenase,,,,,,,,,,0.004,NFA_RS25105,oxidoreductase,,,,,,,,,,,,
+0.009,SAOUHSC_01686,coproporphyrinogen III oxidase,0.334,EF1305,coproporphyrinogen III oxidase,0.671,Rv2388c,oxygen-independent coproporphyrinogen III oxidase,0.006,NCgl2212,coproporphyrinogen III oxidase,0.010,ACEL_RS04025,coproporphyrinogen III oxidase,0.005,BSU25500,oxygen-independent coproporphyrinogen-III oxidase 1,0.004,NFA_RS07225,coproporphyrinogen III oxidase,0.003,SGR_RS24865,coproporphyrinogen III oxidase,0.005,CA_C1279,coproporphyrinogen III oxidase,0.009,LXX_RS07285,coproporphyrinogen III oxidase,0.006,lmo1476,coproporphyrinogen III oxidase
+0.007,SAOUHSC_00855,hypothetical protein,,,,0.662,Rv2781c,oxidoreductase,0.006,NCgl0899,dioxygenase,,,,0.025,BSU26800,nitronate monooxygenase,0.004,NFA_RS03630,2-nitropropane dioxygenase,0.044,SGR_RS24895,2-nitropropane dioxygenase,0.005,CA_C3580,2-nitropropane dioxygenase,,,,,,
+0.008,SAOUHSC_01255,hypothetical protein,0.010,EF3150,M16 family peptidase,0.662,Rv2782c,zinc protease,,,,0.010,ACEL_RS07770,zinc protease,0.012,BSU16710,zinc protease YmxG,0.004,NFA_RS19410,zinc protease,0.003,SGR_RS08735,zinc protease,0.006,CA_C2411,zinc-dependent protease,0.202,LXX_RS08020,zinc protease,0.006,lmo1393,peptidase
+0.147,SAOUHSC_01251,polynucleotide phosphorylase/polyadenylase,0.006,EF3064,polynucleotide phosphorylase/polyadenylase,0.662,Rv2783c,bifunctional guanosine pentaphosphate synthetase/polyribonucleotide nucleotidyltransferase,0.006,NCgl1900,polynucleotide phosphorylase,0.010,ACEL_RS07775,polyribonucleotide nucleotidyltransferase,0.008,BSU16690,polyribonucleotide nucleotidyltransferase,0.004,NFA_RS19415,polyribonucleotide nucleotidyltransferase,0.003,SGR_RS08740,polyribonucleotide nucleotidyltransferase,0.008,CA_C1808,polynucleotide phosphorylase,0.011,LXX_RS04495,polyribonucleotide nucleotidyltransferase,0.006,lmo1331,polynucleotide phosphorylase
+,,,,,,0.649,Rv0282,ESX-3 secretion system protein EccA,,,,,,,0.005,BSU17420,stage V sporulation protein K,,,,,,,,,,,,,,,
+,,,,,,0.649,Rv0283,ESX-3 secretion system protein EccB3,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.649,Rv0284,ESX-3 secretion system protein EccC3,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.649,Rv0285,PE family protein PE5,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.649,Rv0286,PPE family protein PPE4,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.649,Rv0287,ESAT-6 like protein EsxG,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.649,Rv0288,ESAT-6-like protein EsxH,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.649,Rv0289,ESX-3 secretion-associated protein EspG3,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.649,Rv0290,ESX-3 secretion system protein EccD,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.649,Rv0291,membrane-anchored mycosin MycP,,,,,,,0.005,BSU13190,major intracellular serine protease,,,,,,,0.005,CA_C3549,subtilisin-like serine protease,,,,,,
+,,,,,,0.649,Rv0292,ESX-3 secretion system protein EccE,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.648,Rv3567c,flavin-dependent monooxygenase reductase subunit HsaB,,,,,,,,,,0.099,NFA_RS02380,monooxygenase,0.012,SGR_RS15050,NADPH-flavin oxidoreductase,,,,,,,,,
+,,,,,,0.648,Rv3568c,extradiol dioxygenase,,,,,,,,,,0.099,NFA_RS02385,iron-dependent extradiol dioxygenase,,,,,,,,,,,,
+0.024,SAOUHSC_00984,"2-succinyl-6-hydroxy-2, 4-cyclohexadiene-1-carboxylate synthase",,,,0.648,Rv3569c,"4,5-9,10-diseco-3-hydroxy-5,9, 17-trioxoandrosta-1(10),2-diene-4-oate hydrolase",,,,,,,0.005,BSU31420,hydrolase,0.099,NFA_RS02390,"4,5-9,10-diseco-3-hydroxy-5,9, 17-trioxoandrosta-1(10),2-diene-4-oate hydrolase",,,,,,,,,,,,
+0.008,SAOUHSC_02555,,,,,0.648,Rv3570c,flavin-dependent monooxygenase oxygenase subunit HsaA,,,,,,,,,,0.099,NFA_RS02395,monooxygenase,,,,,,,,,,,,
+,,,,,,0.648,Rv3571,3-ketosteroid-9-alpha-hydroxylase reductase subunit,0.006,NCgl0202,hypothetical protein,,,,,,,0.004,NFA_RS25120,3-ketosteroid-9-alpha-hydroxylase reductase subunit,,,,,,,,,,,,
+,,,,,,0.648,Rv3572,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+0.008,SAOUHSC_02498,30S ribosomal protein S8,0.009,EF0220,30S ribosomal protein S8,0.635,Rv0718,30S ribosomal protein S8,0.007,NCgl0515,30S ribosomal protein S8,0.010,ACEL_RS01670,30S ribosomal protein S8,0.006,BSU01300,30S ribosomal protein S8,0.004,NFA_RS04015,30S ribosomal protein S8,0.003,SGR_RS13930,30S ribosomal protein S8,0.006,CA_C3119,30S ribosomal protein S8,0.009,LXX_RS09940,30S ribosomal protein S8,0.007,lmo2618,30S ribosomal protein S8
+0.008,SAOUHSC_02496,50S ribosomal protein L6,0.009,EF0221,50S ribosomal protein L6,0.635,Rv0719,50S ribosomal protein L6,0.007,NCgl0516,50S ribosomal protein L6,0.010,ACEL_RS01675,50S ribosomal protein L6,0.006,BSU01310,50S ribosomal protein L6,0.004,NFA_RS04020,50S ribosomal protein L6,0.003,SGR_RS13925,50S ribosomal protein L6,0.006,CA_C3118,50S ribosomal protein L6,0.009,LXX_RS09935,50S ribosomal protein L6,0.007,lmo2617,50S ribosomal protein L6
+0.010,SAOUHSC_02495,50S ribosomal protein L18,0.006,EF0223,50S ribosomal protein L18,0.635,Rv0720,50S ribosomal protein L18,0.007,NCgl0517,50S ribosomal protein L18,0.010,ACEL_RS01680,50S ribosomal protein L18,0.006,BSU01320,50S ribosomal protein L18,0.004,NFA_RS04025,50S ribosomal protein L18,0.003,SGR_RS13920,50S ribosomal protein L18,0.006,CA_C3117,50S ribosomal protein L18,0.009,LXX_RS09930,50S ribosomal protein L18,0.007,lmo2616,50S ribosomal protein L18
+0.010,SAOUHSC_02494,30S ribosomal protein S5,0.006,EF0224,30S ribosomal protein S5,0.635,Rv0721,30S ribosomal protein S5,0.007,NCgl0518,30S ribosomal protein S5,0.010,ACEL_RS01685,30S ribosomal protein S5,0.006,BSU01330,30S ribosomal protein S5,0.004,NFA_RS04030,30S ribosomal protein S5,0.003,SGR_RS13915,30S ribosomal protein S5,0.005,CA_C3116,30S ribosomal protein S5,0.009,LXX_RS09925,30S ribosomal protein S5,0.007,lmo2615,30S ribosomal protein S5
+0.010,SAOUHSC_02493,50S ribosomal protein L30,0.006,EF0225,50S ribosomal protein L30,0.635,Rv0722,50S ribosomal protein L30,0.007,NCgl0519,50S ribosomal protein L30,0.010,ACEL_RS01690,50S ribosomal protein L30,0.006,BSU01340,50S ribosomal protein L30,0.004,NFA_RS04035,50S ribosomal protein L30,0.003,SGR_RS13910,50S ribosomal protein L30,0.005,CA_C3115,50S ribosomal protein L30,0.009,LXX_RS09920,50S ribosomal protein L30,0.007,lmo2614,50S ribosomal protein L30
+0.010,SAOUHSC_02492,50S ribosomal protein L15,0.006,EF0226,50S ribosomal protein L15,0.635,Rv0723,50S ribosomal protein L15,0.007,NCgl0520,50S ribosomal protein L15,0.010,ACEL_RS01695,50S ribosomal protein L15,0.006,BSU01350,50S ribosomal protein L15,0.004,NFA_RS04040,50S ribosomal protein L15,0.003,SGR_RS13905,50S ribosomal protein L15,0.005,CA_C3114,50S ribosomal protein L15,0.009,LXX_RS09915,50S ribosomal protein L15,0.007,lmo2613,50S ribosomal protein L15
+,,,,,,0.635,Rv0724,protease IV SppA,,,,,,,0.005,BSU29530,signal peptide peptidase SppA,,,,,,,,,,,,,0.008,lmo1585,peptidase
+,,,,,,0.621,Rv2206,transmembrane protein,0.007,NCgl2118,hypothetical protein,0.010,ACEL_RS04900,integral membrane protein,,,,0.004,NFA_RS08585,membrane protein,,,,,,,,,,,,
+,,,,,,0.621,Rv2207,nicotinate-nucleotide-dimethylbenzimidazol phosphoribosyltransferase,0.008,NCgl2120,nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase,0.010,ACEL_RS04855,nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase,,,,0.004,NFA_RS08570,nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase,0.003,SGR_RS26605,nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase,0.005,CA_C1372,nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase,,,,,,
+,,,,,,0.621,Rv2208,adenosylcobinamide-GDP ribazoletransferase,0.008,NCgl2121,adenosylcobinamide-GDP ribazoletransferase,0.010,ACEL_RS04850,cobalamin synthase,,,,0.004,NFA_RS08565,adenosylcobinamide-GDP ribazoletransferase,0.003,SGR_RS26590,adenosylcobinamide-GDP ribazoletransferase,0.005,CA_C1384,adenosylcobinamide-GDP ribazoletransferase,,,,0.008,lmo1148,cobalamin (5'-phosphatase) synthetase
+,,,,,,0.619,Rv0327c,cytochrome P450 Cyp135A1,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.016,EF2895,class II aminotransferase,0.613,Rv2294,cystathionine beta-lyase,,,,,,,0.005,BSU31440,cystathionine beta-lyase,,,,0.003,SGR_RS16920,aminotransferase,0.005,CA_C2970,PLP-dependent aminotransferase,0.009,LXX_RS05240,aspartate aminotransferase,0.010,lmo2370,aminotransferase
+,,,,,,0.611,Rv2292c,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.611,Rv2293c,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.600,Rv0484c,short-chain type oxidoreductase,0.007,NCgl2122,short-chain dehydrogenase,,,,,,,0.004,NFA_RS25760,SDR family oxidoreductase,0.005,SGR_RS20790,oxidoreductase,,,,0.080,LXX_RS09315,oxidoreductase,,,
+,,,,,,0.600,Rv0485,transcriptional regulator,0.066,NCgl0009,transcriptional regulator,,,,,,,0.004,NFA_RS01445,hypothetical protein,,,,,,,,,,,,
+,,,,,,0.600,Rv0486,D-inositol 3-phosphate glycosyltransferase,0.006,NCgl0389,glycosyltransferase,0.010,ACEL_RS00390,D-inositol-3-phosphate glycosyltransferase,,,,0.004,NFA_RS25750,D-inositol-3-phosphate glycosyltransferase,0.003,SGR_RS19815,D-inositol-3-phosphate glycosyltransferase,0.005,CA_C3049,glycosyltransferase,,,,,,
+,,,,,,0.600,Rv0487,hypothetical protein,,,,,,,,,,0.004,NFA_RS25745,histidine kinase,0.003,SGR_RS19820,hypothetical protein,,,,,,,,,
+,,,,,,0.598,Rv1982c,ribonuclease VapC36,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.598,Rv1982A,antitoxin VapB36,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.029,EF2508,Cro/CI family transcriptional regulator,0.592,Rv0023,transcriptional regulator,,,,,,,0.005,BSU33660,HTH-type transcriptional repressor RghR,0.014,NFA_RS22375,XRE family transcriptional regulator,,,,,,,,,,,,
+,,,,,,0.592,Rv0024,NLP/P60 family protein,,,,,,,,,,,,,,,,0.006,CA_C0309,cell wall-associated hydrolase,,,,0.008,lmo2505,peptidoglycan lytic protein P45
+,,,,,,0.592,Rv0025,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.592,Rv0022c,transcriptional regulator WhiB5,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.584,Rv2799,membrane protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.584,Rv2800,hydrolase,,,,,,,,,,0.008,NFA_RS17450,peptidase S15,,,,,,,,,,0.006,lmo2755,CoA-transferase
+,,,,,,0.583,Rv2796c,lipoprotein LppV,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.583,Rv2797c,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,0.006,lmo2804,hypothetical protein
+,,,,,,0.583,Rv2798c,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.007,EF1512,hypothetical protein,0.582,Rv1673c,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.582,Rv1674c,transcriptional regulator,0.007,NCgl2616,rhodanese-related sulfurtransferase,,,,,,,,,,,,,,,,0.012,LXX_RS05340,sulfurtransferase,,,
+,,,,,,0.573,Rv3492c,Mce associated protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.573,Rv3493c,Mce associated protein,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.573,Rv3494c,Mce family protein Mce4,,,,,,,,,,0.569,NFA_RS02755,mammalian cell entry protein,,,,,,,,,,,,
+,,,,,,0.573,Rv3495c,Mce family lipoprotein LprN,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.573,Rv3496c,Mce family protein Mce4D,,,,,,,,,,0.569,NFA_RS02745,mammalian cell entry protein,0.003,SGR_RS05025,ABC transporter substrate-binding protein,,,,,,,,,
+,,,,,,0.573,Rv3497c,Mce family protein Mce4C,,,,,,,,,,,,,0.003,SGR_RS05030,ABC transporter substrate-binding protein,,,,,,,,,
+,,,,,,0.573,Rv3498c,Mce family protein Mce4B,,,,,,,,,,0.569,NFA_RS02735,mammalian cell entry protein,0.003,SGR_RS05035,ABC transporter substrate-binding protein,,,,,,,,,
+,,,,,,0.573,Rv3499c,Mce family protein Mce4A,,,,,,,,,,0.569,NFA_RS02730,Mce family protein,0.003,SGR_RS05040,ABC transporter substrate-binding protein,,,,,,,,,
+,,,,,,0.573,Rv3500c,integral membrane protein,,,,,,,,,,0.569,NFA_RS02725,ABC transporter permease,0.003,SGR_RS05045,ABC transporter permease,,,,,,,,,
+,,,,,,0.573,Rv3501c,integral membrane protein,,,,,,,,,,0.569,NFA_RS02720,ABC transporter permease,0.003,SGR_RS05050,ABC transporter permease,,,,,,,,,
+,,,,,,0.539,Rv0234c,succinate-semialdehyde dehydrogenase,0.007,NCgl0049,NAD-dependent aldehyde dehydrogenase,0.010,ACEL_RS10105,succinate-semialdehyde dehydrogenase,,,,0.004,NFA_RS24785,NAD-dependent succinate-semialdehyde dehydrogenase,0.003,SGR_RS33770,succinate-semialdehyde dehydrogenase,,,,0.009,LXX_RS01315,succinate-semialdehyde dehydrogenase,,,
+,,,,,,0.509,Rv0600c,two component sensor kinase HK1,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,0.501,Rv1866,hypothetical protein,,,,,,,,,,0.005,NFA_RS08350,CoA transferase,0.006,SGR_RS27310,CoA transferase,,,,,,,,,
+,,,,,,0.501,Rv1863c,integral membrane protein,,,,,,,,,,0.005,NFA_RS03810,abortive infection protein,,,,,,,,,,0.007,lmo2070,hypothetical protein
+0.009,SAOUHSC_02613,hypothetical protein,0.006,EF1394,hypothetical protein,0.501,Rv1864c,hypothetical protein,0.006,NCgl0194,hypothetical protein,0.010,ACEL_RS04015,sulfurase,0.005,BSU07650,hypothetical protein,0.018,NFA_RS02955,molybdenum cofactor sulfurase,0.003,SGR_RS13640,sulfurase,,,,,,,0.012,lmo2060,hypothetical protein
+,,,0.008,EF1690,short chain dehydrogenase/reductase family oxidoreductase,0.501,Rv1865c,short-chain type dehydrogenase,,,,,,,,,,0.004,NFA_RS04710,short-chain dehydrogenase,,,,,,,,,,,,
+,,,0.010,EF2594,TetR family transcriptional regulator,,,,,,,,,,0.005,BSU08370,TetR family transcriptional regulator,1.000,NFA_RS07395,transcriptional regulator,1.000,SGR_RS31460,TetR family transcriptional regulator,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS07400,hypothetical protein,1.000,SGR_RS31455,membrane protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS18975,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS18985,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS18990,RNA polymerase sigma factor SigF,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS22905,NUDIX hydrolase,0.003,SGR_RS11455,NUDIX hydrolase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS04640,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS29550,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS04655,hypothetical protein,0.003,SGR_RS07195,hypothetical protein,,,,,,,,,
+,,,,,,0.067,RV1984a,hypothetical protein,,,,0.010,ACEL_RS02515,hypothetical protein,,,,1.000,NFA_RS04660,hypothetical protein,,,,,,,,,,,,
+,,,,,,0.005,Rv3391,acyl-CoA-reductase AcrA,,,,,,,,,,1.000,NFA_RS04635,short-chain dehydrogenase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS06790,hypothetical protein,,,,,,,,,,,,
+0.009,SAOUHSC_02731,hypothetical protein,,,,0.009,Rv2287,Na(+)/H(+) transporter,0.007,NCgl1380,NhaP-type Na+/H+ and K+/H+ antiporter,,,,0.006,BSU33420,"sodium, potassium, lithium and rubidium/H(+) antiporter",1.000,NFA_RS07190,solute:proton antiporter,0.003,SGR_RS27100,Na+/H+ antiporter,,,,0.009,LXX_RS02310,hypothetical protein,0.006,lmo0803,Na+/H+ antiporter
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS04595,serine/threonine protein kinase,,,,,,,,,,,,
+,,,,,,0.005,Rv3177,peroxidase,,,,,,,,,,1.000,NFA_RS04610,hydrolase,0.286,SGR_RS34040,hydrolase,,,,,,,,,
+,,,,,,,,,0.007,NCgl0593,hypothetical protein,,,,,,,1.000,NFA_RS04615,sucrase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS07175,hypothetical protein,,,,,,,,,,,,
+,,,,,,0.005,Rv3239c,transmembrane transport protein,,,,,,,,,,1.000,NFA_RS07180,transporter,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS19475,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS19480,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS19485,hypothetical protein,,,,,,,,,,,,
+,,,,,,0.162,Rv3143,response regulator,,,,0.010,ACEL_RS04980,hypothetical protein,,,,1.000,NFA_RS13350,hypothetical protein,0.003,SGR_RS26710,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS13355,membrane protein,0.003,SGR_RS20860,membrane protein,,,,0.009,LXX_RS08925,hypothetical protein,,,
+0.007,SAOUHSC_02111,DNA polymerase IV,0.997,EF2756,DNA-damage-inducible protein P,,,,,,,,,,0.486,BSU23870,DNA polymerase IV 1,1.000,NFA_RS13360,DNA polymerase IV,,,,0.005,CA_C0285,DNA-damage repair protein,0.009,LXX_RS07050,DNA polymerase IV,0.862,lmo1975,DNA polymerase IV
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS14525,lysine transporter LysE,0.003,SGR_RS13165,leucine efflux protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS14530,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS00060,integrase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS00065,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS06635,branched-chain amino acid transporter,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS06640,branched-chain amino acid ABC transporter permease,0.003,SGR_RS08600,branched-chain amino acid ABC transporter permease,,,,,,,,,
+,,,0.029,EF2508,Cro/CI family transcriptional regulator,,,,0.009,NCgl1745,transcriptional regulator,,,,,,,1.000,NFA_RS06645,DNA-binding protein,0.003,SGR_RS31210,transcriptional regulator,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS28040,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS28045,MarR family transcriptional regulator,0.007,SGR_RS00760,MarR family transcriptional regulator,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS07045,hypothetical protein,,,,,,,,,,,,
+,,,,,,0.260,Rv0766c,cytochrome P450 Cyp123,0.007,NCgl0530,cytochrome P450,,,,0.005,BSU12210,cytochrome P450 YjiB,1.000,NFA_RS12920,cytochrome P450,0.003,SGR_RS16875,cytochrome P450,,,,,,,,,
+,,,,,,0.260,Rv0765c,oxidoreductase,,,,,,,,,,1.000,NFA_RS12925,short-chain dehydrogenase,,,,,,,,,,,,
+,,,,,,0.260,Rv0763c,ferredoxin,,,,0.035,ACEL_RS05675,ferredoxin,,,,1.000,NFA_RS12930,ferredoxin,0.003,SGR_RS01210,ferredoxin,,,,,,,,,
+,,,,,,0.260,Rv0762c,hypothetical protein,,,,,,,,,,1.000,NFA_RS12935,hypothetical protein,,,,,,,,,,,,
+,,,,,,0.006,Rv0311,hypothetical protein,,,,,,,,,,1.000,NFA_RS12940,hypothetical protein,,,,,,,,,,,,
+,,,,,,0.005,Rv1059,hypothetical protein,,,,,,,,,,1.000,NFA_RS12945,dihydrodipicolinate reductase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS12950,cytochrome P450 steroid C27-monooxygenase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1.000,NFA_RS18435,sugar translocase,,,,,,,,,,,,
+,,,,,,,,,0.034,NCgl1766,hypothetical protein,,,,,,,1.000,NFA_RS29920,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.999,NFA_RS06785,steroid Delta-isomerase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.999,NFA_RS29125,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.999,NFA_RS29120,hypothetical protein,,,,,,,,,,,,
+0.008,SAOUHSC_01384,PhoU family transcriptional regulator,0.009,EF1754,PhoU family protein,0.005,Rv0821c,phosphate-transport system transcriptional regulator PhoY2,0.006,NCgl2482,phosphate uptake regulator,0.010,ACEL_RS00480,phosphate transport system regulatory protein PhoU,,,,0.999,NFA_RS03060,phosphate transport system regulatory protein PhoU,0.003,SGR_RS19880,phosphate transport system regulatory protein PhoU,,,,0.009,LXX_RS09000,phosphate transport system regulatory protein PhoU,0.007,lmo2494,PhoU family transcriptional regulator
+0.008,SAOUHSC_00525,DNA-directed RNA polymerase subunit beta',0.006,EF3237,DNA-directed RNA polymerase subunit beta',0.007,Rv0668,DNA-directed RNA polymerase subunit beta',0.008,NCgl0472,DNA-directed RNA polymerase subunit beta',0.032,ACEL_RS01570,DNA-directed RNA polymerase subunit beta',0.010,BSU01080,DNA-directed RNA polymerase subunit beta',0.998,NFA_RS25260,DNA-directed RNA polymerase subunit beta',0.004,SGR_RS14170,DNA-directed RNA polymerase subunit beta',0.005,CA_C3142,DNA-directed RNA polymerase subunit beta',0.009,LXX_RS10140,DNA-directed RNA polymerase subunit beta',0.011,lmo0259,DNA-directed RNA polymerase subunit beta'
+0.025,SAOUHSC_02852,hypothetical protein,0.006,EF2958,LysR family transcriptional regulator,,,,,,,,,,,,,0.998,NFA_RS17575,LysR family transcriptional regulator,0.003,SGR_RS06750,LysR family transcriptional regulator,,,,,,,,,
+,,,,,,,,,0.043,NCgl2318,chloromuconate cycloisomerase,,,,0.008,BSU12980,L-Ala-D/L-Glu epimerase,0.998,NFA_RS17580,mandelate racemase,,,,0.005,CA_C0192,chloromuconate cycloisomerase,,,,0.034,lmo2520,O-succinylbenzoate-CoA synthase
+,,,,,,,,,0.007,NCgl2319,"protocatechuate 3,4-dioxygenase subunit beta",,,,,,,0.998,NFA_RS17585,"catechol 1,2-dioxygenase",0.003,SGR_RS20155,dioxygenase,,,,,,,,,
+,,,,,,,,,0.043,NCgl2317,hypothetical protein,,,,,,,0.998,NFA_RS17590,muconolactone delta-isomerase,0.007,SGR_RS01710,muconolactone Delta-isomerase,,,,,,,,,
+0.024,SAOUHSC_00984,"2-succinyl-6-hydroxy-2, 4-cyclohexadiene-1-carboxylate synthase",,,,,,,,,,0.010,ACEL_RS03445,hypothetical protein,,,,0.998,NFA_RS17595,hydrolase,,,,,,,,,,,,
+,,,,,,,,,,,,0.010,ACEL_RS03225,acetyl-CoA acetyltransferase,,,,0.998,NFA_RS17560,acetyl-CoA acetyltransferase,,,,,,,,,,,,
+,,,,,,,,,,,,0.010,ACEL_RS08470,CoA-transferase,,,,0.998,NFA_RS17565,3-oxoadipate--succinyl-CoA transferase subunit B,0.003,SGR_RS06760,3-oxoadipate--succinyl-CoA transferase subunit B,,,,,,,,,
+,,,,,,,,,,,,0.010,ACEL_RS08475,glutaconate CoA-transferase,,,,0.998,NFA_RS17570,3-oxoadipate--succinyl-CoA transferase subunit A,0.003,SGR_RS06755,3-oxoadipate--succinyl-CoA transferase,,,,,,,,,
+,,,,,,0.005,Rv2182c,1-acylglycerol-3-phosphate O-acyltransferase,0.008,NCgl2104,1-acyl-sn-glycerol-3-phosphate acyltransferase,0.010,ACEL_RS05060,1-acyl-sn-glycerol-3-phosphate acyltransferase,,,,0.997,NFA_RS08625,1-acyl-sn-glycerol-3-phosphate acyltransferase,0.016,SGR_RS31505,1-acyl-sn-glycerol-3-phosphate acyltransferase,,,,0.009,LXX_RS07665,1-acyl-sn-glycerol-3-phosphate acyltransferase,,,
+,,,,,,,,,,,,,,,,,,0.996,NFA_RS12420,acyl-CoA oxidase,0.003,SGR_RS32005,acyl-CoA oxidase,,,,0.036,LXX_RS10745,acyl-CoA dehydrogenase,,,
+,,,,,,0.191,Rv1217c,tetronasin ABC transporter integral membrane protein,0.008,NCgl2936,ABC transporter permease,,,,,,,0.996,NFA_RS12405,ABC transporter permease,0.456,SGR_RS33455,ABC transporter permease,,,,,,,,,
+,,,,,,0.191,Rv1218c,tetronasin ABC transporter ATP-binding protein,0.008,NCgl2935,ABC transporter ATPase,,,,,,,0.996,NFA_RS12410,tetronasin ABC transporter ATP-binding protein,0.456,SGR_RS33450,tetronasin ABC transporter ATP-binding protein,,,,,,,0.006,lmo1964,ABC transporter ATP-binding protein
+,,,,,,0.191,Rv1219c,transcriptional regulator,,,,,,,,,,0.996,NFA_RS12415,TetR family transcriptional regulator,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.993,NFA_RS09280,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.993,NFA_RS28895,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.990,NFA_RS12895,prenyltransferase,0.268,SGR_RS25880,prenyltransferase,,,,,,,,,
+,,,0.031,EF2181,glycosyl transferase group 2 family protein,,,,,,,,,,,,,0.990,NFA_RS12900,methyltransferase,0.268,SGR_RS25875,type 11 methyltransferase,,,,,,,,,
+0.018,SAOUHSC_00090,hypothetical protein,,,,,,,,,,0.010,ACEL_RS11345,group 1 glycosyl transferase,0.008,BSU34320,glycosyltransferase EpsF,0.990,NFA_RS12905,glycosyl transferase family 1,0.268,SGR_RS25870,glycosyl transferase family 1,0.005,CA_C2911,glycosyltransferase,,,,,,
+,,,,,,0.006,Rv0953c,oxidoreductase,,,,0.010,ACEL_RS07545,LLM class F420-dependent oxidoreductase,,,,0.990,NFA_RS12910,LLM class F420-dependent oxidoreductase,0.003,SGR_RS21015,LLM class F420-dependent oxidoreductase,,,,,,,,,
+,,,,,,0.005,Rv0771,4-carboxymuconolactone decarboxylase,,,,,,,,,,0.990,NFA_RS12915,hypothetical protein,,,,,,,,,,,,
+,,,,,,0.006,Rvnr02,23S ribosomal RNA,0.007,NCg1r18,23S ribosomal RNA,0.010,ACEL_RS06450,23S ribosomal RNA,,,,0.989,NFA_RS10030,23S ribosomal RNA,0.004,SGR_RS30680,23S ribosomal RNA,0.005,CA_Cr026,23Si ribosomal RNA,0.054,LXX_RS00685,23S ribosomal RNA,,,
+,,,,,,,,,,,,,,,,,,0.987,NFA_RS14105,DUF3072 domain-containing protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.982,NFA_RS18105,hypothetical protein,,,,,,,,,,,,
+,,,,,,0.009,Rv3787c,S-adenosyl-L-methionine-dependent methyltransferase,,,,,,,,,,0.982,NFA_RS18095,methyltransferase,0.003,SGR_RS31985,SAM-dependent methyltransferase,,,,,,,,,
+,,,,,,0.019,Rv0419,lipoprotein peptidase LpqM,,,,,,,,,,0.978,NFA_RS04390,metallopeptidase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.976,NFA_RS07820,hypothetical protein,,,,,,,,,,,,
+,,,0.006,EF3008,hypothetical protein,,,,,,,,,,0.075,BSU03230,hypothetical protein,0.975,NFA_RS12565,transcriptional regulator,,,,0.232,CA_C1426,transcriptional regulator,,,,,,
+,,,,,,0.005,Rv0004,hypothetical protein,0.007,NCgl0004,hypothetical protein,0.025,ACEL_RS00020,hypothetical protein,,,,0.970,NFA_RS00020,hypothetical protein,0.003,SGR_RS18330,hypothetical protein,,,,0.009,LXX_RS00025,hypothetical protein,,,
+,,,,,,,,,,,,,,,0.015,BSU23690,hypothetical protein,0.968,NFA_RS13275,GNAT family N-acetyltransferase,,,,,,,,,,,,
+0.007,SAOUHSC_02900,hypothetical protein,,,,,,,,,,,,,0.005,BSU26910,hydrolase YraK,0.968,NFA_RS13280,hydrolase,0.003,SGR_RS04850,hydrolase,,,,,,,0.006,lmo0752,hypothetical protein
+,,,,,,0.006,Rv1405c,methyltransferase,,,,,,,0.005,BSU03160,methyltransferase,0.968,NFA_RS00600,hypothetical protein,,,,0.011,CA_C0929,SAM-dependent methyltransferase,,,,,,
+,,,,,,,,,,,,,,,,,,0.964,NFA_RS16700,short-chain dehydrogenase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.964,NFA_RS16705,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.964,NFA_RS16710,hypothetical protein,,,,,,,,,,,,
+0.173,SAOUHSC_00198,hypothetical protein,0.007,EF0446,2-succinylbenzoate-CoA ligase,0.005,Rv0166,fatty-acid--CoA ligase FadD5,,,,,,,,,,0.960,NFA_RS27750,long-chain-fatty-acid--CoA ligase,,,,,,,,,,0.007,lmo1672,O-succinylbenzoic acid--CoA ligase
+,,,0.022,EF2883,enoyl-ACP reductase,,,,,,,,,,,,,0.960,NFA_RS27755,nitronate monooxygenase,,,,0.015,CA_C3576,2-nitropropane dioxygenase,,,,,,
+,,,0.054,EF2556,fumarate reductase flavoprotein subunit,0.261,Rv3537,3-oxosteroid 1-dehydrogenase,0.007,NCgl2544,hypothetical protein,,,,,,,0.960,NFA_RS02340,3-ketosteroid-delta-1-dehydrogenase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.960,NFA_RS02345,23S rRNA methyltransferase,,,,,,,,,,,,
+,,,,,,0.261,Rv3536c,hydratase,,,,,,,,,,0.960,NFA_RS02350,2-keto-4-pentenoate hydratase,,,,,,,,,,,,
+,,,,,,0.261,Rv3535c,acetaldehyde dehydrogenase,,,,,,,,,,0.960,NFA_RS02355,acetaldehyde dehydrogenase,0.003,SGR_RS02680,acetaldehyde dehydrogenase,,,,,,,,,
+,,,,,,0.261,Rv3534c,4-hydroxy-2-oxovalerate aldolase,,,,,,,,,,0.960,NFA_RS02360,4-hydroxy-2-oxovalerate aldolase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.958,NFA_RS12545,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,0.012,ACEL_RS01760,daunorubicin resistance protein DrrA family ABC transporter ATP-binding protein,,,,0.952,NFA_RS00355,daunorubicin resistance protein DrrA family ABC transporter ATP-binding protein,0.003,SGR_RS12655,daunorubicin resistance protein DrrA family ABC transporter ATP-binding protein,0.005,CA_C0236,multidrug ABC transporter ATPase,,,,,,
+,,,,,,,,,,,,0.012,ACEL_RS01765,ABC transporter,,,,0.952,NFA_RS00360,ABC transporter,0.003,SGR_RS12650,ABC transporter,,,,,,,,,
+,,,0.007,EF1165,nucleotide-binding protein,0.012,Rv0566c,hypothetical protein,,,,0.015,ACEL_RS01480,YajQ family cyclic di-GMP-binding protein,0.045,BSU11020,hypothetical protein,0.950,NFA_RS25390,YajQ family cyclic di-GMP-binding protein,0.003,SGR_RS14390,YajQ family cyclic di-GMP-binding protein,,,,0.025,LXX_RS00920,YajQ family cyclic di-GMP-binding protein,,,
+,,,,,,,,,,,,,,,,,,0.944,NFA_RS27915,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.944,NFA_RS27920,ribonuclease HI,0.003,SGR_RS32940,ribonuclease HI,,,,0.009,LXX_RS07510,ribonuclease H,,,
+,,,0.007,EF2700,MutT/nudix family protein,,,,0.006,NCgl1025,ADP-ribose pyrophosphatase,,,,,,,0.943,NFA_RS21935,NUDIX hydrolase,0.003,SGR_RS08330,NUDIX hydrolase,0.005,CA_C1777,Nudix (MutT-like) hydrolase,,,,,,
+,,,,,,0.006,Rv3516,enoyl-CoA hydratase EchA19,,,,,,,,,,0.937,NFA_RS02685,enoyl-CoA hydratase,0.003,SGR_RS34125,enoyl-CoA hydratase,,,,0.009,LXX_RS03175,enoyl-CoA hydratase,,,
+,,,,,,0.006,Rv3515c,acyl-CoA synthetase,,,,,,,,,,0.935,NFA_RS02690,acyl-CoA synthetase,0.003,SGR_RS34120,acyl-CoA synthetase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.935,NFA_RS02695,TesB-like acyl-CoA thioesterase 4,,,,,,,,,,,,
+,,,,,,,,,,,,0.010,ACEL_RS08565,phenylacetic acid degradation protein PaaD,,,,0.928,NFA_RS10820,phenylacetic acid degradation protein PaaD,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.928,NFA_RS10825,ethyl tert-butyl ether degradation protein EthD,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.928,NFA_RS10830,bifunctional aldehyde dehydrogenase/enoyl-CoA hydratase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.926,NFA_RS29535,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.923,NFA_RS10845,enoyl-CoA hydratase,,,,,,,,,,,,
+,,,,,,,,,,,,0.010,ACEL_RS00770,3-hydroxybutyryl-CoA dehydrogenase,0.008,BSU24160,3-hydroxybutyryl-CoA dehydrogenase,0.923,NFA_RS10850,3-hydroxyacyl-CoA dehydrogenase,,,,,,,,,,,,
+,,,,,,,,,,,,0.050,ACEL_RS09485,enoyl-CoA hydratase,,,,0.923,NFA_RS10855,enoyl-CoA hydratase,0.007,SGR_RS11725,enoyl-CoA hydratase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.923,NFA_RS10885,phenylacetate-CoA ligase,0.286,SGR_RS34035,phenylacetate-CoA ligase,,,,,,,,,
+,,,,,,,,,,,,0.036,ACEL_RS07400,TetR family transcriptional regulator,,,,0.923,NFA_RS10835,TetR family transcriptional regulator,0.769,SGR_RS18550,TetR family transcriptional regulator,,,,,,,,,
+,,,,,,0.006,Rv2247,acetyl-/propionyl-CoA carboxylase subunit beta,,,,0.010,ACEL_RS04520,propionyl-CoA carboxylase subunit beta,,,,0.918,NFA_RS08170,propionyl-CoA carboxylase subunit beta,,,,,,,,,,,,
+,,,,,,0.105,Rv3095,HTH-type transcriptional regulator,,,,,,,,,,0.918,NFA_RS08175,HxlR family transcriptional regulator,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.006,BSU17070,hypothetical protein,0.914,NFA_RS16185,hypothetical protein,0.004,SGR_RS10600,membrane protein,,,,,,,,,
+0.009,SAOUHSC_02405,phosphoglucosamine mutase,0.007,EF2155,,0.088,Rv3441c,phosphoglucosamine mutase,0.012,NCgl0558,phosphoglucosamine mutase,0.010,ACEL_RS01780,phosphoglucosamine mutase,0.008,BSU01770,phosphoglucosamine mutase,0.899,NFA_RS04415,phosphoglucosamine mutase,0.003,SGR_RS13830,phosphoglucosamine mutase,0.005,CA_C0484,phosphoglucosamine mutase,0.009,LXX_RS09840,phosphoglucosamine mutase,0.020,lmo2118,phosphoglucosamine mutase
+,,,,,,,,,,,,,,,,,,0.899,NFA_RS04420,hypothetical protein,,,,,,,,,,,,
+,,,,,,0.006,Rv2621c,transcriptional regulator,,,,0.010,ACEL_RS02590,transcriptional regulator,,,,0.898,NFA_RS05020,transcriptional regulator,,,,,,,,,,,,
+,,,,,,0.005,Rv3283,thiosulfate sulfurtransferase SseA,0.008,NCgl0671,thiosulfate sulfurtransferase,,,,,,,0.898,NFA_RS05015,thiosulfate sulfurtransferase,,,,,,,0.009,LXX_RS05215,thiosulfate sulfurtransferase,,,
+,,,,,,,,,,,,,,,,,,0.897,NFA_RS19785,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.897,NFA_RS19790,TROVE domain-containing protein,0.003,SGR_RS27990,RNA-binding protein,,,,,,,,,
+0.010,SAOUHSC_02774,hypothetical protein,,,,,,,,,,,,,,,,0.896,NFA_RS03170,alkylhydroperoxidase,0.003,SGR_RS15005,alkylhydroperoxidase,,,,,,,,,
+,,,,,,0.006,Rv1425,diacyglycerol O-acyltransferase,,,,0.010,ACEL_RS11350,hypothetical protein,,,,0.881,NFA_RS07940,diacylglycerol O-acyltransferase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.873,NFA_RS19695,hypothetical protein,,,,,,,,,,,,
+0.007,SAOUHSC_01913,hypothetical protein,0.007,EF3218,mutator MutT protein,,,,0.007,NCgl1106,mutT-like protein,0.010,ACEL_RS09620,DNA mismatch repair protein MutT,,,,0.870,NFA_RS28030,DNA mismatch repair protein MutT,,,,,,,,,,0.006,lmo1621,hypothetical protein
+,,,,,,0.072,Rv0037c,MFS-type transporter,,,,0.010,ACEL_RS08300,major facilitator transporter,,,,0.870,NFA_RS28035,membrane protein,0.003,SGR_RS18235,MFS transporter,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.861,NFA_RS14935,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.857,NFA_RS29645,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.852,NFA_RS25945,cation transporter,0.003,SGR_RS04725,cation transporter,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.852,NFA_RS25950,lipase,,,,,,,,,,,,
+,,,,,,0.010,Rv3208,TetR family transcriptional regulator,,,,,,,,,,0.831,NFA_RS22660,TetR family transcriptional regulator,0.754,SGR_RS11605,TetR family transcriptional regulator,,,,,,,,,
+,,,,,,0.005,Rv3205c,hypothetical protein,0.007,NCgl0740,hypothetical protein,,,,,,,0.831,NFA_RS22645,TIGR02569 family protein,,,,,,,,,,,,
+0.007,SAOUHSC_02545,hypothetical protein,0.015,EF1329,HesA/MoeB/ThiF family protein,0.005,Rv3206c,adenylyltransferase/sulfurtransferase MoeZ,0.007,NCgl0205,molybdopterin biosynthesis protein MoeB,0.010,ACEL_RS09185,adenylyltransferase/sulfurtransferase MoeZ,0.006,BSU14270,molybdopterin-synthase adenylyltransferase,0.831,NFA_RS22650,adenylyltransferase/sulfurtransferase MoeZ,0.003,SGR_RS11560,adenylyltransferase/sulfurtransferase MoeZ,0.006,CA_C0908,molybdopterin/thiamine biosynthesis family protein,,,,0.006,lmo1049,molybdopterin biosynthesis protein MoeB
+,,,,,,0.005,Rv3207c,hypothetical protein,0.007,NCgl0739,hypothetical protein,,,,,,,0.831,NFA_RS22655,hypothetical protein,0.003,SGR_RS11590,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.830,NFA_RS12425,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.830,NFA_RS12430,hypothetical protein,,,,,,,,,,,,
+,,,,,,0.005,Rv1676,hypothetical protein,,,,,,,,,,0.812,NFA_RS24940,alkyl hydroperoxide reductase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.812,NFA_RS24945,ATPase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.811,NFA_RS13710,DNA-binding transcriptional regulator,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.811,NFA_RS13705,hydrolase,0.003,SGR_RS02980,epoxide hydrolase,0.005,CA_C0719,epoxide hydrolase,,,,,,
+0.025,SAOUHSC_01287,glutamine synthetase,0.382,EF2159,"glutamine synthetase, type I",0.005,Rv2222c,glutamine synthetase,0.111,NCgl2148,glutamine synthase,0.010,ACEL_RS04750,type I glutamate--ammonia ligase,0.005,BSU17460,glutamine synthetase,0.809,NFA_RS08375,type I glutamate--ammonia ligase,0.003,SGR_RS26255,type I glutamate--ammonia ligase,,,,0.016,LXX_RS04975,glutamine synthetase,0.008,lmo1299,glutamine synthetase
+,,,,,,0.005,Rv2221c,[glutamate--ammonia-ligase] adenylyltransferase,0.111,NCgl2147,bifunctional glutamine-synthetase adenylyltransferase/deadenyltransferase,0.010,ACEL_RS04755,bifunctional glutamine-synthetase adenylyltransferase/deadenyltransferase,,,,0.809,NFA_RS08380,[glutamate--ammonia-ligase] adenylyltransferase,0.027,SGR_RS26295,bifunctional glutamine-synthetase adenylyltransferase/deadenyltransferase,,,,0.016,LXX_RS04980,[glutamate--ammonia-ligase] adenylyltransferase,,,
+,,,,,,,,,,,,,,,,,,0.793,NFA_RS15005,tRNA-specific adenosine deaminase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.788,NFA_RS29905,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.788,NFA_RS29910,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.777,NFA_RS15345,ABC transporter permease,0.012,SGR_RS03210,ABC transporter permease,,,,,,,,,
+,,,0.006,EF3174,hypothetical protein,,,,,,,,,,0.005,BSU36620,hypothetical protein,0.777,NFA_RS15350,NADH-flavin reductase,,,,,,,,,,0.007,lmo0794,hypothetical protein
+,,,0.032,EF1710,LysR family transcriptional regulator,,,,,,,,,,,,,0.771,NFA_RS15340,LysR family transcriptional regulator,0.011,SGR_RS03215,LysR family transcriptional regulator,,,,,,,,,
+,,,,,,,,,0.007,NCgl0441,hypothetical protein,,,,,,,0.758,NFA_RS26620,"2-pyrone-4,6-dicarboxylate hydrolase",,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.734,NFA_RS10180,ABC transporter ATP-binding protein,,,,,,,,,,,,
+,,,0.045,EF1545,ATP-dependent DNA helicase RecQ,,,,,,,,,,0.006,BSU23020,ATP-dependent DNA helicase RecS,0.732,NFA_RS01520,ATP-dependent DNA helicase RecQ,,,,,,,,,,0.015,lmo1942,ATP-dependent DNA helicase
+,,,,,,,,,,,,,,,,,,0.717,NFA_RS13010,hypothetical protein,0.003,SGR_RS15565,S-adenosyl methyltransferase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.711,NFA_RS09725,transcriptional regulator,,,,,,,,,,,,
+0.056,SAOUHSC_02579,hypothetical protein,,,,,,,0.007,NCgl2923,hydroxylase/monooxygenase,,,,,,,0.711,NFA_RS09730,monooxygenase,0.003,SGR_RS10285,monooxygenase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.711,NFA_RS05605,PadR family transcriptional regulator,,,,,,,,,,,,
+,,,,,,0.008,Rv0139,oxidoreductase,,,,,,,,,,0.710,NFA_RS18255,epimerase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.710,NFA_RS18245,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.710,NFA_RS18250,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.698,NFA_RS29090,hypothetical protein,0.003,SGR_RS19430,type VI secretion protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.698,NFA_RS29970,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.698,NFA_RS29975,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.694,NFA_RS21000,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.686,NFA_RS13635,hypothetical protein,,,,,,,,,,,,
+0.007,SAOUHSC_00908,coenzyme A disulfide reductase,0.006,EF2989,coenzyme A disulfide reductase,,,,,,,,,,,,,0.676,NFA_RS13640,flavoprotein oxidoreductase,0.003,SGR_RS07200,flavoprotein oxidoreductase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.676,NFA_RS13645,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.667,NFA_RS10025,16S ribosomal RNA,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.663,NFA_RS10215,thioesterase,,,,,,,,,,,,
+0.012,SAOUHSC_02155,hypothetical protein,0.007,EF0117,GntR family transcriptional regulator,,,,,,,,,,0.005,BSU05180,GntR family transcriptional regulator,0.662,NFA_RS10210,transcriptional regulator,0.003,SGR_RS07885,GntR family transcriptional regulator,0.011,CA_C2297,transcriptional regulator,,,,,,
+,,,,,,,,,,,,,,,,,,0.659,NFA_RS05430,16S ribosomal RNA,,,,,,,,,,,,
+,,,,,,0.005,Rv0457c,peptidase,0.007,NCgl0333,serine protease,0.010,ACEL_RS08260,peptidase S9,,,,0.649,NFA_RS26145,prolyl oligopeptidase,0.003,SGR_RS07300,peptidase S9,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.649,NFA_RS26140,membrane dipeptidase,0.007,SGR_RS01670,dipeptidase,,,,,,,0.018,lmo2462,dipeptidase
+,,,,,,0.011,Rv1286,adenylyl-sulfate kinase,,,,,,,,,,0.641,NFA_RS12295,adenylyl-sulfate kinase,,,,,,,,,,,,
+,,,,,,0.011,Rv1285,sulfate adenylyltransferase subunit 2,,,,,,,,,,0.641,NFA_RS12300,sulfate adenylyltransferase subunit 2,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.623,NFA_RS20080,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.623,NFA_RS20085,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.623,NFA_RS20090,hypothetical protein,,,,,,,,,,,,
+,,,,,,0.010,Rv0638,preprotein translocase SecE,0.007,NCgl0457,preprotein translocase subunit SecE,0.010,ACEL_RS01535,preprotein translocase subunit SecE,,,,0.597,NFA_RS25355,preprotein translocase subunit SecE,0.003,SGR_RS14210,preprotein translocase subunit SecE,,,,0.009,LXX_RS01380,preprotein translocase subunit SecE,,,
+,,,0.006,tRNA-Trp-3,tRNA-Trp,0.006,Rvnt08,tRNA-Trp,0.011,NCg1t19,tRNA-Trp,,,,,,,0.597,NFA_RS25360,tRNA-Trp,0.003,SGR_RS14215,tRNA-Trp,0.009,CA_Ct047,tRNA-Trp,0.009,LXX_RS01375,tRNA-Trp,,,
+,,,,,,,,,0.007,NCgl2060,ABC transporter ATPase,,,,,,,0.592,NFA_RS12485,ABC transporter ATP-binding protein,0.003,SGR_RS05210,ABC transporter ATP-binding protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.592,NFA_RS12490,virginiamycin B lyase,0.003,SGR_RS31975,hydrolase,,,,,,,,,
+,,,,,,0.005,Rv1491c,TVP38/TMEM64 family membrane protein,0.008,NCgl1473,hypothetical protein,,,,0.005,BSU28970,tvp38/tmem64 family membrane protein YtxB,0.590,NFA_RS17315,membrane protein,0.003,SGR_RS31170,membrane protein,,,,,,,,,
+,,,,,,0.005,Rv1496,transport system kinase,0.008,NCgl1470,arginine/ornithine transport system ATPase,0.010,ACEL_RS03460,transporter,,,,0.590,NFA_RS17300,ATPase/protein kinase,0.007,SGR_RS33680,ATPase/protein kinase,,,,,,,,,
+,,,,,,0.005,Rv1493,methylmalonyl-CoA mutase large subunit,0.008,NCgl1471,methylmalonyl-CoA mutase,0.010,ACEL_RS03465,methylmalonyl-CoA mutase,,,,0.590,NFA_RS17305,methylmalonyl-CoA mutase,0.007,SGR_RS33685,methylmalonyl-CoA mutase,,,,,,,,,
+,,,,,,0.005,Rv1492,methylmalonyl-CoA mutase small subunit,0.008,NCgl1472,methylmalonyl-CoA mutase N-terminal domain-containing protein,,,,,,,0.590,NFA_RS17310,methylmalonyl-CoA mutase,0.007,SGR_RS33690,methylmalonyl-CoA mutase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.581,NFA_RS29490,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.581,NFA_RS00155,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.581,NFA_RS00160,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.581,NFA_RS00165,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.581,NFA_RS00170,hypothetical protein,,,,,,,,,,,,
+,,,,,,0.018,Rv1968,Mce family protein Mce3C,,,,,,,,,,0.569,NFA_RS02740,mammalian cell entry protein,,,,,,,,,,,,
+,,,,,,0.018,Rv1970,Mce family lipoprotein LprM,,,,,,,,,,0.569,NFA_RS02750,mammalian cell entry protein,0.003,SGR_RS05020,hypothetical protein,,,,,,,,,
+,,,,,,0.018,Rv1972,Mce associated membrane protein,,,,,,,,,,0.569,NFA_RS29520,hypothetical protein,,,,,,,,,,,,
+,,,,,,0.025,Rv1362c,membrane protein,,,,,,,,,,0.569,NFA_RS02765,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.568,NFA_RS15140,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.568,NFA_RS15145,TetR family transcriptional regulator,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.008,BSU05320,TetR family transcriptional regulator,0.567,NFA_RS12480,TetR family transcriptional regulator,0.025,SGR_RS26050,TetR family transcriptional regulator,0.006,CA_C3481,AcrR family transcriptional regulator,,,,,,
+,,,,,,0.005,Rv2339,transmembrane transport protein MmpL9,0.007,NCgl0599,RND superfamily drug exporter,0.010,ACEL_RS01800,membrane protein,,,,0.546,NFA_RS12880,hypothetical protein,0.003,SGR_RS03960,membrane protein,,,,0.009,LXX_RS02050,hypothetical protein,0.018,lmo2463,multidrug transporter
+,,,,,,,,,,,,,,,,,,0.538,NFA_RS04120,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.538,NFA_RS04125,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.538,NFA_RS04130,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.538,NFA_RS04135,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.537,NFA_RS17680,membrane protein,,,,,,,,,,,,
+,,,,,,0.005,Rv0214,fatty-acid--CoA ligase FadD4,,,,,,,,,,0.537,NFA_RS17685,acyl-CoA synthetase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.537,NFA_RS17690,MFS transporter,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.537,NFA_RS17695,acyl-CoA dehydrogenase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.537,NFA_RS17700,acyl-CoA dehydrogenase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.533,NFA_RS14695,enoyl-CoA hydratase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.533,NFA_RS14700,enoyl-CoA hydratase,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.533,NFA_RS14705,TetR family transcriptional regulator,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.522,NFA_RS28900,hypothetical protein,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.522,NFA_RS14710,TetR family transcriptional regulator,,,,,,,,,,,,
+,,,,,,,,,0.009,NCgl2161,hypothetical protein,,,,,,,0.506,NFA_RS10360,transposase,,,,,,,0.009,LXX_RS10990,transposase,,,
+,,,,,,,,,,,,,,,,,,0.506,NFA_RS10365,transposase,,,,,,,,,,,,
+0.013,SAOUHSC_02558,urease subunit gamma,,,,0.005,Rv1848,urease subunit gamma,0.009,NCgl0083,urease subunit gamma,,,,0.022,BSU36660,urease subunit gamma,0.004,NFA_RS12640,urease subunit gamma,1.000,SGR_RS31465,urease subunit gamma,,,,,,,,,
+0.008,SAOUHSC_02559,urease subunit beta,,,,0.005,Rv1849,urease subunit beta,0.009,NCgl0084,urease subunit beta,,,,0.022,BSU36650,urease subunit beta,0.004,NFA_RS12645,urease subunit beta,1.000,SGR_RS31470,urease subunit beta,,,,,,,,,
+,,,,,,0.005,Rv1850,urease subunit alpha,0.009,NCgl0085,urease subunit alpha,,,,0.022,BSU36640,urease subunit alpha,0.004,NFA_RS12650,urease subunit alpha,1.000,SGR_RS31475,urease subunit alpha,,,,,,,,,
+,,,,,,0.005,Rv1851,urease accessory protein UreF,0.009,NCgl0087,urease accessory protein UreF,,,,,,,0.004,NFA_RS12715,urease accessory protein UreF,1.000,SGR_RS31480,urease accessory protein UreF,,,,,,,,,
+0.008,SAOUHSC_02564,urease accessory protein UreG,,,,0.005,Rv1852,urease accessory protein UreG,0.009,NCgl0088,Ni2+-binding GTPase,,,,,,,0.004,NFA_RS12720,urease accessory protein UreG,1.000,SGR_RS31485,urease accessory protein UreG,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,1.000,SGR_RS31490,Urease accessory protein UreD 3,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,1.000,SGR_RS34000,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,1.000,SGR_RS34005,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,1.000,SGR_RS33990,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,1.000,SGR_RS33995,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,0.010,ACEL_RS00900,hypothetical protein,,,,,,,1.000,SGR_RS21370,membrane protein,,,,,,,,,
+,,,,,,,,,,,,0.010,ACEL_RS00905,tRNA-Ala,,,,,,,1.000,SGR_RS21375,tRNA-Ala,,,,,,,,,
+,,,,,,0.020,Rv3591c,hydrolase,,,,,,,,,,0.004,NFA_RS02170,alpha/beta hydrolase,1.000,SGR_RS15195,hydrolase,0.006,CA_P0133,alpha/beta fold family hydrolase,,,,0.007,lmo1674,prolyl aminopetidase
+,,,,,,,,,,,,,,,,,,,,,1.000,SGR_RS05660,glyoxalase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,1.000,SGR_RS07520,protein phosphatase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,1.000,SGR_RS05145,ATP-binding protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,1.000,SGR_RS05150,DUF742 domain-containing protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,1.000,SGR_RS05155,dynein regulation protein LC7,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,1.000,SGR_RS05160,ATPase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,1.000,SGR_RS16410,hypothetical protein,,,,,,,,,
+,,,0.007,EF3272,zinc-binding Cro/CI family transcriptional regulator,0.006,Rv2017,transcriptional regulator,,,,,,,,,,,,,1.000,SGR_RS16415,DNA-binding protein,,,,0.009,LXX_RS00190,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,1.000,SGR_RS17075,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,1.000,SGR_RS15680,hypothetical protein,,,,,,,,,
+,,,,,,0.005,Rv2840c,hypothetical protein,0.007,NCgl1911,nucleic-acid-binding protein,0.010,ACEL_RS07815,hypothetical protein,,,,,,,1.000,SGR_RS08885,hypothetical protein,0.005,CA_C1800,hypothetical protein,0.009,LXX_RS03490,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,1.000,SGR_RS32910,sulfate transporter,,,,,,,0.007,lmo0897,transporter
+,,,,,,,,,0.007,NCgl2579,carbonic anhydrase,,,,,,,,,,1.000,SGR_RS32915,carbonic anhydrase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,1.000,SGR_RS34150,MFS transporter,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS29710,hypothetical protein,1.000,SGR_RS34155,TetR family transcriptional regulator,,,,,,,,,
+,,,,,,,,,0.006,NCgl0978,hypothetical protein,,,,0.007,BSU36730,hypothetical protein,,,,1.000,SGR_RS05220,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,1.000,SGR_RS05225,hypothetical protein,,,,,,,,,
+,,,,,,,,,0.009,NCgl0565,hypothetical protein,,,,,,,,,,1.000,SGR_RS05230,transporter,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,1.000,SGR_RS05235,hypothetical protein,,,,,,,,,
+,,,,,,0.005,Rv1666c,cytochrome P450 Cyp139,,,,,,,,,,0.004,NFA_RS10935,cytochrome P450,1.000,SGR_RS05240,cytochrome P450,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,1.000,SGR_RS17870,DNA primase,,,,,,,,,
+,,,,,,,,,,,,0.010,ACEL_RS07350,DNA topoisomerase IV subunit B,,,,,,,0.999,SGR_RS08300,DNA topoisomerase IV subunit B,,,,0.009,LXX_RS05115,DNA topoisomerase IV subunit B,,,
+,,,,,,,,,,,,,,,,,,,,,0.999,SGR_RS25825,ferredoxin,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS11360,MBL fold metallo-hydrolase,0.999,SGR_RS25815,hydrolase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.999,SGR_RS00165,hypothetical protein,,,,,,,,,
+,,,,,,0.005,Rv2734,hypothetical protein,,,,,,,,,,0.006,NFA_RS29395,hypothetical protein,0.999,SGR_RS35430,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.999,SGR_RS33430,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.998,SGR_RS27560,hypothetical protein,,,,,,,,,
+,,,,,,0.005,Rv1637c,hypothetical protein,0.015,NCgl1321,hypothetical protein,0.010,ACEL_RS05700,Zn-dependent hydrolase,,,,0.004,NFA_RS07445,Zn-dependent hydrolase,0.997,SGR_RS27740,Zn-dependent hydrolase,,,,,,,,,
+,,,,,,,,,0.007,NCgl2918,mycothiol-dependent maleylpyruvate isomerase,,,,,,,0.015,NFA_RS01175,maleylpyruvate isomerase,0.997,SGR_RS27745,maleylpyruvate isomerase,,,,,,,,,
+,,,,,,,,,,,,0.010,ACEL_RS07165,DNA-binding response regulator,,,,,,,0.996,SGR_RS07215,DNA-binding response regulator,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.996,SGR_RS22135,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.996,SGR_RS14085,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.996,SGR_RS14090,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.996,SGR_RS14095,phage tail protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.996,SGR_RS14100,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.996,SGR_RS14105,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.996,SGR_RS07260,UDP-glucose 4-epimerase GalE,,,,,,,,,
+,,,0.235,EF0465,transcriptional regulator,,,,,,,,,,,,,,,,0.996,SGR_RS07265,transcriptional regulator,,,,0.009,LXX_RS01120,hypothetical protein,0.006,lmo1026,LytR protein
+,,,,,,0.007,Rv1976c,hypothetical protein,,,,,,,,,,,,,0.996,SGR_RS07270,hypothetical protein,,,,,,,,,
+,,,,,,0.005,Rv2239c,hypothetical protein,0.007,NCgl2165,hypothetical protein,0.010,ACEL_RS04560,hypothetical protein,,,,0.004,NFA_RS08135,hypothetical protein,0.990,SGR_RS25590,hypothetical protein,,,,,,,,,
+,,,,,,,,,0.009,NCgl0341,pyridoxal phosphate-dependent enzyme,0.010,ACEL_RS10010,glutamine--scyllo-inositol aminotransferase,0.008,BSU34230,pyridoxal phosphate-dependent aminotransferase EpsN,,,,0.990,SGR_RS29635,N-methyl-L-glucosamine biosynthetic aminotransferase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.990,SGR_RS29640,oxidoreductase,,,,,,,0.016,lmo0878,oxidoreductase
+,,,,,,,,,,,,,,,,,,,,,0.989,SGR_RS10230,gamma-butyrolactone-binding protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.989,SGR_RS10235,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.989,SGR_RS10240,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.989,SGR_RS10245,polysaccharide deacetylase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.987,SGR_RS10840,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,0.010,ACEL_RS04245,acyltransferase 3,,,,,,,0.987,SGR_RS21650,acyltransferase,,,,,,,,,
+,,,,,,,,,,,,,,,0.005,BSU05190,MFS transporter,0.004,NFA_RS16660,MFS transporter,0.982,SGR_RS32765,multidrug ABC transporter permease,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.982,SGR_RS32770,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS26860,hypothetical protein,0.982,SGR_RS32775,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS00725,QacE family quaternary ammonium compound efflux SMR transporter,0.980,SGR_RS30975,QacE family quaternary ammonium compound efflux SMR transporter,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.980,SGR_RS30980,QacE family quaternary ammonium compound efflux SMR transporter,,,,,,,,,
+,,,,,,,,,,,,,,,0.006,BSU17080,TetR family transcriptional regulator,0.170,NFA_RS16180,transcriptional regulator,0.980,SGR_RS30970,TetR family transcriptional regulator,,,,,,,,,
+,,,,,,0.005,Rv2469c,hypothetical protein,,,,0.010,ACEL_RS08255,HNH endonuclease,,,,0.004,NFA_RS06655,HNH endonuclease,0.978,SGR_RS24285,HNH endonuclease,,,,0.009,LXX_RS08775,HNH endonuclease,,,
+0.011,SAOUHSC_00344,hypothetical protein,0.274,EF1135,hypothetical protein,0.006,Rv3104c,transmembrane protein,0.007,NCgl1221,small-conductance mechanosensitive channel,,,,0.005,BSU14210,MscS family protein YkuT,0.004,NFA_RS22240,mechanosensitive ion channel protein MscS,0.978,SGR_RS24280,mechanosensitive ion channel protein MscS,0.006,CA_C3726,hypothetical protein,0.009,LXX_RS04300,small mechanosensitive ion channel protein MscS,0.026,lmo1013,hypothetical protein
+,,,,,,,,,,,,,,,,,,,,,0.976,SGR_RS31040,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,0.005,BSU34100,sigma factor SigB regulation protein RsbQ,0.004,NFA_RS16410,sigma factor sigB regulation protein rsbQ,0.976,SGR_RS31045,sigma factor sigB regulation protein rsbQ,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS16415,histidine kinase,0.976,SGR_RS31050,histidine kinase,,,,,,,,,
+,,,,,,,,,0.006,NCgl0011,hypothetical protein,,,,,,,,,,0.976,SGR_RS31055,anti-anti-sigma factor,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.976,SGR_RS30900,6-deoxyerythronolide-B synthase,,,,,,,,,
+,,,,,,0.005,Rv2048c,polyketide synthase,,,,,,,,,,,,,0.976,SGR_RS30905,type I polyketide synthase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.972,SGR_RS17740,DNA processing protein DprA,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.966,SGR_RS04445,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.962,SGR_RS32160,membrane protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.962,SGR_RS32165,TetR family transcriptional regulator,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.962,SGR_RS32170,oxidoreductase,,,,,,,,,
+,,,,,,,,,,,,,,,0.005,BSU32490,xanthine dehydrogenase subunit C,,,,0.962,SGR_RS32175,oxidoreductase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.962,SGR_RS32180,oxidoreductase,,,,,,,,,
+,,,0.007,EF2571,hypothetical protein,,,,,,,,,,,,,,,,0.962,SGR_RS32185,hypothetical protein,,,,,,,,,
+0.294,SAOUHSC_00556,proline/betaine transporter,,,,0.006,Rv3476c,,0.128,NCgl2961,proline-betaine transporter,,,,,,,0.004,NFA_RS21485,amino acid transporter,0.960,SGR_RS23095,MFS transporter,,,,0.009,LXX_RS04345,MFS transporter,,,
+,,,,,,,,,,,,,,,0.005,BSU38470,aminopeptidase YwaD,,,,0.951,SGR_RS28980,aminopeptidase S,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.938,SGR_RS03730,dihydroxyacetone kinase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.938,SGR_RS03735,dihydroxyacetone kinase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.936,SGR_RS28785,streptogrisin,,,,,,,,,
+,,,0.022,EF2883,enoyl-ACP reductase,0.005,Rv3553,oxidoreductase,,,,,,,,,,0.005,NFA_RS02580,2-nitropropane dioxygenase,0.933,SGR_RS27415,2-nitropropane dioxygenase,0.015,CA_C3576,2-nitropropane dioxygenase,,,,0.006,lmo0814,oxidoreductase
+,,,,,,0.008,Rv3552,CoA-transferase subunit beta,,,,,,,,,,0.005,NFA_RS02585,CoA-transferase,0.933,SGR_RS27420,CoA-transferase,,,,,,,,,
+,,,,,,0.008,Rv3551,CoA-transferase subunit alpha,,,,,,,,,,0.005,NFA_RS02590,CoA-transferase,0.933,SGR_RS27425,CoA-transferase,,,,,,,,,
+,,,,,,0.008,Rv3550,enoyl-CoA hydratase EchA20,,,,,,,,,,0.005,NFA_RS02595,enoyl-CoA hydratase,0.933,SGR_RS27430,enoyl-CoA hydratase,,,,,,,,,
+,,,,,,0.008,Rv3548c,short-chain type dehydrogenase/reductase,,,,,,,,,,0.005,NFA_RS02605,short-chain dehydrogenase,0.933,SGR_RS27435,short-chain dehydrogenase,,,,,,,,,
+,,,,,,,,,,,,,,,0.005,BSU35060,cytochrome P450 CypX,0.006,NFA_RS17470,cytochrome P450,0.927,SGR_RS21815,cytochrome P450,,,,,,,,,
+,,,,,,0.005,Rv1322,hypothetical protein,0.009,NCgl1169,hypothetical protein,,,,,,,0.004,NFA_RS05455,hypothetical protein,0.926,SGR_RS10545,ATP/GTP-binding protein,,,,0.009,LXX_RS06195,hypothetical protein,,,
+,,,,,,0.015,Rv3618,monooxygenase,,,,,,,,,,,,,0.926,SGR_RS10550,alkanal monooxygenase,,,,,,,,,
+,,,0.028,EF2915,hypothetical protein,0.005,Rv2553c,membrane protein,0.006,NCgl1568,periplasmic solute-binding protein,0.010,ACEL_RS06830,aminodeoxychorismate lyase,0.006,BSU27370,hypothetical protein,0.004,NFA_RS18185,aminodeoxychorismate lyase,0.924,SGR_RS31640,aminodeoxychorismate lyase,0.006,CA_C1685,hypothetical protein,,,,0.007,lmo1499,hypothetical protein
+,,,,,,,,,,,,,,,,,,,,,0.923,SGR_RS04750,enoyl-CoA hydratase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.923,SGR_RS04745,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.914,SGR_RS31780,hypothetical protein,,,,,,,,,
+,,,,,,,,,0.010,NCgl1623,ABC transporter ATPase,,,,,,,,,,0.914,SGR_RS31785,ABC transporter ATP-binding protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.914,SGR_RS31790,methyltransferase,,,,,,,,,
+,,,,,,,,,0.008,NCgl1626,phosphopantothenoylcysteine synthetase/decarboxylase,,,,,,,,,,0.914,SGR_RS31795,flavoprotein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.914,SGR_RS31800,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.914,SGR_RS31805,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.914,SGR_RS31810,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS15650,hypothetical protein,0.910,SGR_RS01220,hypothetical protein,,,,0.021,LXX_RS05620,translation elongation factor,,,
+,,,0.007,EF2066,TetR family transcriptional regulator,0.005,Rv0681,transcriptional regulator,,,,,,,0.037,BSU19070,TetR family transcriptional regulator,,,,0.910,SGR_RS01225,TetR family transcriptional regulator,0.005,CA_P0028,TetR family transcriptional regulator,,,,,,
+,,,,,,,,,0.007,NCgl2305,hypothetical protein,,,,,,,,,,0.910,SGR_RS01230,lipase,,,,,,,,,
+,,,,,,0.007,Rvnt18,tRNA-Arg,,,,0.010,ACEL_RS08355,tRNA-Arg,,,,,,,0.904,SGR_RS24140,tRNA-Arg,,,,0.009,LXX_RS06395,tRNA-Arg,,,
+,,,,,,,,,,,,,,,,,,,,,0.904,SGR_RS24145,ATP-binding protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.904,SGR_RS24150,ATP-binding protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.904,SGR_RS24155,single-stranded DNA-binding protein,,,,0.009,LXX_RS06350,single-strand DNA-binding protein,,,
+,,,,,,0.005,Rv2698,transmembrane protein,0.006,NCgl1831,hypothetical protein,,,,,,,0.004,NFA_RS18745,hypothetical protein,0.901,SGR_RS08145,membrane protein,,,,0.065,LXX_RS05140,membrane protein,,,
+,,,,,,,,,,,,,,,,,,,,,0.883,SGR_RS28160,membrane protein,,,,0.009,LXX_RS04430,peptidase,,,
+0.010,SAOUHSC_00670,hypothetical protein,,,,0.014,Rv0545c,low-affinity inorganic phosphate transporter,0.007,NCgl0445,phosphate/sulphate permease,,,,,,,0.005,NFA_RS26050,anion permease,0.883,SGR_RS28165,phosphate transporter,,,,0.009,LXX_RS04425,anion permease,0.011,lmo2249,low-affinity inorganic phosphate transporter
+,,,,,,0.005,Rv0727c,L-fuculose phosphate aldolase FucA,,,,,,,0.080,BSU28780,L-ribulose-5-phosphate 4-epimerase,,,,0.883,SGR_RS28170,fuculose phosphate aldolase,0.006,CA_C1341,L-ribulose-5-phosphate 4-epimerase,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.883,SGR_RS28175,hypothetical protein,0.015,CA_C2725,hydrolase,0.009,LXX_RS05205,hypothetical protein,,,
+,,,,,,,,,,,,0.010,ACEL_RS08540,tRNA-Lys,,,,0.004,NFA_RS06490,tRNA-Lys,0.875,SGR_RS23435,tRNA-Lys,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.875,SGR_RS23440,IclR family transcriptional regulator,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.874,SGR_RS28120,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.874,SGR_RS19830,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.874,SGR_RS19825,phosphotransferase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS04695,MFS transporter,0.869,SGR_RS26220,MFS transporter,,,,,,,,,
+,,,,,,0.006,Rv3559c,oxidoreductase,,,,,,,0.005,BSU31220,oxidoreductase,0.004,NFA_RS02450,short chain dehydrogenase,0.869,SGR_RS27390,short chain dehydrogenase,,,,,,,,,
+,,,0.009,EF0601,TetR family transcriptional regulator,0.005,Rv3557c,HTH-type transcriptional regulator KstR2,,,,,,,0.006,BSU33030,HTH-type transcriptional regulator YuxN,0.004,NFA_RS02470,TetR family transcriptional regulator,0.869,SGR_RS27395,TetR family transcriptional regulator,,,,0.009,LXX_RS01015,TetR family transcriptional regulator,,,
+,,,,,,0.005,Rv3556c,acetyl-CoA acetyltransferase FadA,,,,,,,,,,0.004,NFA_RS02475,acetyl-CoA acetyltransferase,0.869,SGR_RS27400,acetyl-CoA acetyltransferase,,,,0.009,LXX_RS02055,acetyl-CoA acetyltransferase,,,
+,,,,,,0.006,Rv3563,acyl-CoA dehydrogenase FadE32,,,,,,,,,,0.004,NFA_RS02425,acyl-CoA dehydrogenase,0.869,SGR_RS27380,acyl-CoA dehydrogenase,,,,,,,,,
+,,,,,,0.006,Rv3562,acyl-CoA dehydrogenase FadE31,,,,,,,,,,0.004,NFA_RS02430,acyl-CoA dehydrogenase,0.869,SGR_RS27385,acyl-CoA dehydrogenase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS18795,hypothetical protein,0.864,SGR_RS08305,hypothetical protein,,,,0.009,LXX_RS05110,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS13415,histidine kinase,0.860,SGR_RS30605,histidine kinase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS13410,dynein regulation protein LC7,0.860,SGR_RS30610,dynein regulation protein LC7,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS04955,hypothetical protein,0.860,SGR_RS30615,DUF742 domain-containing protein,,,,,,,,,
+,,,,,,,,,,,,0.015,ACEL_RS06805,GTP-binding protein,,,,0.004,NFA_RS13400,ATP-binding protein,0.860,SGR_RS30620,ATP-binding protein,,,,,,,,,
+0.017,SAOUHSC_01128,ornithine carbamoyltransferase,0.007,EF0105,ornithine carbamoyltransferase,0.014,Rv1656,ornithine carbamoyltransferase,0.009,NCgl1344,ornithine carbamoyltransferase,0.010,ACEL_RS06485,ornithine carbamoyltransferase,0.008,BSU11250,ornithine carbamoyltransferase,0.007,NFA_RS09775,ornithine carbamoyltransferase,0.854,SGR_RS07690,ornithine carbamoyltransferase,0.007,CA_C0316,ornithine carbomoyltransferase,0.009,LXX_RS02985,ornithine carbamoyltransferase,0.007,lmo1587,ornithine carbamoyltransferase
+,,,,,,,,,,,,,,,0.008,BSU11630,Bis(5'-nucleosyl)-tetraphosphatase PrpE,,,,0.854,SGR_RS07700,polynucleotide kinase-phosphatase,,,,,,,0.025,lmo0655,phosphoprotein phosphatase
+,,,,,,,,,,,,,,,,,,,,,0.854,SGR_RS07705,3' terminal RNA ribose 2'-O-methyltransferase Hen1,,,,,,,,,
+,,,,,,,,,0.006,NCgl2434,hypothetical protein,,,,,,,,,,0.852,SGR_RS13605,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.851,SGR_RS14940,hydrolase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.851,SGR_RS14945,TetR family transcriptional regulator,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.845,SGR_RS33150,transcriptional regulator,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.845,SGR_RS33155,MFS transporter permease,,,,,,,,,
+,,,,,,,,,,,,0.010,ACEL_RS11005,ribokinase-like domain-containing protein,,,,,,,0.845,SGR_RS33160,sugar kinase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.835,SGR_RS15165,hypothetical protein,,,,,,,,,
+0.016,SAOUHSC_01322,homoserine kinase,0.007,EF2420,homoserine kinase,0.006,Rv1296,homoserine kinase,0.007,NCgl1137,homoserine kinase,0.012,ACEL_RS03255,homoserine kinase,0.005,BSU32240,homoserine kinase,0.005,NFA_RS05335,homoserine kinase,0.826,SGR_RS10715,homoserine kinase,0.028,CA_C1235,homoserine kinase,0.009,LXX_RS03365,homoserine kinase,0.007,lmo2545,homoserine kinase
+,,,,,,0.005,Rv2964,formyltetrahydrofolate deformylase,0.006,NCgl0371,formyltetrahydrofolate deformylase,0.010,ACEL_RS00815,formyltetrahydrofolate deformylase,0.034,BSU13110,formyltetrahydrofolate deformylase,0.004,NFA_RS25815,formyltetrahydrofolate deformylase,0.823,SGR_RS15155,formyltetrahydrofolate deformylase,,,,0.009,LXX_RS09535,formyltetrahydrofolate deformylase,,,
+,,,,,,,,,,,,,,,,,,,,,0.823,SGR_RS15160,hypothetical protein,,,,,,,,,
+0.338,SAOUHSC_01014,amidophosphoribosyltransferase,0.040,EF1781,amidophosphoribosyltransferase,0.007,Rv0808,amidophosphoribosyltransferase,0.007,NCgl2495,amidophosphoribosyltransferase,0.010,ACEL_RS10740,amidophosphoribosyltransferase,0.004,BSU06490,amidophosphoribosyltransferase,0.005,NFA_RS02935,amidophosphoribosyltransferase,0.816,SGR_RS19190,amidophosphoribosyltransferase,0.005,CA_C1392,amidophosphoribosyltransferase,0.009,LXX_RS11225,amidophosphoribosyltransferase,0.006,lmo1768,amidophosphoribosyltransferase
+0.338,SAOUHSC_01015,phosphoribosylaminoimidazole synthetase,0.040,EF1780,phosphoribosylaminoimidazole synthetase,0.007,Rv0809,phosphoribosylformylglycinamidine cyclo-ligase PurM,0.007,NCgl2494,phosphoribosylaminoimidazole synthetase,0.010,ACEL_RS10735,phosphoribosylformylglycinamidine cyclo-ligase,0.004,BSU06500,phosphoribosylformylglycinamidine cyclo-ligase,0.005,NFA_RS02940,phosphoribosylformylglycinamidine cyclo-ligase,0.816,SGR_RS19195,phosphoribosylformylglycinamidine cyclo-ligase,0.005,CA_C1393,phosphoribosylaminoimidazole synthetase,0.009,LXX_RS11220,phosphoribosylformylglycinamidine cyclo-ligase,0.006,lmo1767,phosphoribosylaminoimidazole synthetase
+,,,,,,,,,,,,,,,,,,,,,0.811,SGR_RS08360,hypothetical protein,,,,,,,,,
+,,,,,,,,,0.006,NCgl2034,transcriptional regulator,,,,0.007,BSU05290,HxlR family transcriptional regulator,0.004,NFA_RS14765,HxlR family transcriptional regulator,0.810,SGR_RS23665,transcriptional regulator,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS01035,MFS transporter,0.810,SGR_RS23660,MFS transporter,,,,,,,,,
+,,,,,,0.005,Rv0470A,hypothetical protein,,,,,,,,,,,,,0.801,SGR_RS24350,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.792,SGR_RS12375,membrane protein,,,,,,,,,
+,,,0.006,EF2151,glucosamine--fructose-6-phosphate aminotransferase,,,,,,,,,,,,,,,,0.784,SGR_RS23620,glutamine--fructose-6-phosphate aminotransferase,,,,,,,0.007,lmo0727,glucosamine--fructose-6-phosphate aminotransferase
+,,,,,,,,,,,,,,,,,,,,,0.783,SGR_RS06145,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.783,SGR_RS06150,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.780,SGR_RS10810,lipoprotein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.780,SGR_RS10815,two-component sensor histidine kinase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.780,SGR_RS10820,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,0.036,ACEL_RS07395,phenylacetic acid degradation protein PaaN,,,,,,,0.769,SGR_RS18545,phenylacetic acid degradation protein PaaN,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.768,SGR_RS16250,LuxR family transcriptional regulator,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.768,SGR_RS16255,LuxR family transcriptional regulator,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.753,SGR_RS06495,glyoxylate carboligase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.753,SGR_RS06500,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.749,SGR_RS33095,peptidase S8,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.748,SGR_RS21695,membrane protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS22330,Na+/galactose cotransporter,0.748,SGR_RS21700,SSS sodium solute transporter superfamily,,,,,,,,,
+,,,,,,0.006,Rv0618,,,,,0.010,ACEL_RS08635,galactose-1-phosphate uridylyltransferase,,,,0.004,NFA_RS05905,galactose-1-phosphate uridylyltransferase,0.748,SGR_RS21705,galactose-1-phosphate uridylyltransferase,0.005,CA_C2844,galactose-1-phosphate uridylyltransferase,0.012,LXX_RS09125,galactose-1-phosphate uridylyltransferase,,,
+,,,0.006,EF2783,UDP-glucose 4-epimerase,,,,0.008,NCgl1846,UDP-glucose 4-epimerase,0.010,ACEL_RS08640,UDP-glucose 4-epimerase GalE,0.006,BSU38860,UDP-glucose 4-epimerase,0.004,NFA_RS18880,UDP-glucose 4-epimerase GalE,0.748,SGR_RS21710,UDP-glucose 4-epimerase GalE,0.007,CA_C1429,UDP-glucose 4-epimerase,,,,0.008,lmo2477,UDP-glucose 4-epimerase
+,,,0.007,EF1069,galactokinase,0.006,Rv0620,galactokinase,,,,0.010,ACEL_RS08645,galactokinase,0.009,BSU38200,galactokinase,0.004,NFA_RS22335,galactokinase,0.748,SGR_RS21715,galactokinase,0.008,CA_C2959,galactokinase,0.012,LXX_RS09130,galactokinase,,,
+,,,,,,,,,,,,,,,,,,,,,0.746,SGR_RS29820,membrane protein,,,,0.010,LXX_RS03555,membrane protein,,,
+,,,,,,,,,,,,,,,,,,,,,0.746,SGR_RS29825,membrane protein,,,,,,,,,
+,,,,,,0.017,Rv0196,HTH-type transcriptional regulator,,,,,,,0.005,BSU39990,HTH-type transcriptional regulator YxaF,0.031,NFA_RS24440,TetR family transcriptional regulator,0.741,SGR_RS09665,TetR family transcriptional regulator,0.276,CA_C3345,AcrR family transcriptional regulator,,,,,,
+0.242,SAOUHSC_01600,hypothetical protein,0.122,EF2063,AraC family transcriptional regulator,,,,,,,,,,0.005,BSU05170,AraC family transcriptional regulator,,,,0.741,SGR_RS09655,AraC family transcriptional regulator,0.010,CA_C0426,transcriptional regulator,,,,0.007,lmo0483,hypothetical protein
+,,,,,,,,,,,,,,,,,,,,,0.741,SGR_RS09660,6-phosphogluconate dehydrogenase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS21335,hypothetical protein,0.739,SGR_RS17325,hydrolase,,,,,,,,,
+,,,,,,,,,0.007,NCgl1208,acetyltransferase,,,,,,,,,,0.739,SGR_RS17320,N-acetyltransferase GCN5,,,,,,,,,
+,,,,,,0.006,Rv3505,acyl-CoA dehydrogenase FadE27,,,,,,,,,,0.010,NFA_RS02700,acyl-CoA dehydrogenase,0.727,SGR_RS18500,acyl-CoA dehydrogenase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.727,SGR_RS18530,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.727,SGR_RS18535,membrane protein,,,,,,,,,
+,,,,,,0.005,Rv0380c,RNA methyltransferase,0.007,NCgl2675,rRNA methylase,,,,,,,0.004,NFA_RS26735,RNA methyltransferase,0.727,SGR_RS18540,rRNA methyltransferase,,,,0.009,LXX_RS11470,rRNA methyltransferase,,,
+,,,,,,0.005,Rv2241,pyruvate dehydrogenase E1 component,0.334,NCgl2167,pyruvate dehydrogenase subunit E1,,,,,,,0.004,NFA_RS08145,"pyruvate dehydrogenase (acetyl-transferring), homodimeric type",0.712,SGR_RS25585,"pyruvate dehydrogenase (acetyl-transferring), homodimeric type",,,,0.009,LXX_RS06285,"pyruvate dehydrogenase (acetyl-transferring), homodimeric type",,,
+,,,,,,,,,,,,,,,,,,,,,0.693,SGR_RS32665,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.693,SGR_RS32670,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS10985,ethanolamine permease,0.691,SGR_RS32360,ethanolamine permease,0.005,CA_C2719,ethanolamin permease,,,,,,
+,,,0.088,EF1139,glutamine amidotransferase,0.005,Rv2859c,glutamine amidotransferase,,,,0.010,ACEL_RS09545,gamma-glutamyl-gamma-aminobutyrate hydrolase,,,,,,,0.691,SGR_RS32365,gamma-glutamyl-gamma-aminobutyrate hydrolase,0.005,CA_C1764,glutamine amidotransferase,0.015,LXX_RS03190,hypothetical protein,0.006,lmo1795,hypothetical protein
+,,,,,,,,,,,,,,,,,,,,,0.691,SGR_RS18740,hypothetical protein,,,,,,,,,
+,,,,,,0.007,Rv0244c,acyl-CoA dehydrogenase FadE5,,,,,,,,,,0.004,NFA_RS27070,butyryl-CoA dehydrogenase,0.690,SGR_RS18735,butyryl-CoA dehydrogenase,,,,,,,,,
+,,,,,,0.005,Rv0653c,transcriptional regulator,,,,,,,,,,,,,0.683,SGR_RS34635,TetR family transcriptional regulator,,,,,,,,,
+,,,0.015,EF1028,alpha/beta fold family hydrolase,,,,,,,,,,,,,,,,0.683,SGR_RS34640,hydrolase,,,,,,,0.006,lmo2453,epoxide hydrolase
+,,,,,,,,,0.042,NCgl2561,transcriptional regulator,,,,,,,,,,0.681,SGR_RS32120,GntR family transcriptional regulator,,,,,,,,,
+,,,,,,,,,0.045,NCgl2562,ABC transporter periplasmic component,,,,,,,,,,0.681,SGR_RS32115,peptide ABC transporter substrate-binding protein,,,,,,,0.007,lmo0135,peptide ABC transporter substrate-binding protein
+,,,,,,,,,,,,,,,,,,,,,0.668,SGR_RS08665,histidine kinase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.666,SGR_RS23530,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.666,SGR_RS23535,hypothetical protein,,,,0.009,LXX_RS10150,hypothetical protein,,,
+,,,,,,,,,,,,,,,,,,,,,0.666,SGR_RS23525,hypothetical protein,,,,,,,,,
+0.009,SAOUHSC_02932,choline dehydrogenase,,,,,,,,,,,,,,,,,,,0.659,SGR_RS07510,choline oxidase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.653,SGR_RS13295,peptide-binding protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.650,SGR_RS21335,penicillin amidase,,,,0.009,LXX_RS08035,penicillin amidase,,,
+,,,,,,,,,,,,0.010,ACEL_RS00860,K+/H+ antiporter,,,,,,,0.649,SGR_RS21330,K+/H+ antiporter,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.641,SGR_RS24925,sugar kinase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.630,SGR_RS16650,lipase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.629,SGR_RS30875,LuxR family transcriptional regulator,,,,,,,,,
+,,,,,,,,,0.007,NCgl2324,DNA-binding HTH domain-containing protein,,,,,,,,,,0.628,SGR_RS30325,transcriptional regulator,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.628,SGR_RS18725,membrane protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS02895,M18 family aminopeptidase,0.628,SGR_RS18730,M18 family aminopeptidase,0.009,CA_C0607,aminopeptidase,,,,,,
+,,,,,,0.005,Rvnt13,tRNA-Phe,0.006,NCg1t54,tRNA-Phe,0.017,ACEL_RS10690,tRNA-Phe,,,,0.005,NFA_RS03110,tRNA-Phe,0.623,SGR_RS19250,tRNA-Phe,,,,,,,,,
+,,,,,,0.005,Rvnt12,tRNA-Asp,0.011,NCg1t56,tRNA-Asp,0.017,ACEL_RS10685,tRNA-Asp,,,,0.005,NFA_RS03105,tRNA-Asp,0.623,SGR_RS19255,tRNA-Asp,,,,0.014,LXX_RS10620,tRNA-Asp,,,
+0.007,SAOUHSC_T00020,tRNA-Glu,0.006,tRNA-Glu-3,tRNA-Glu,0.005,Rvnt11,tRNA-Glu,0.007,NCg1t30,tRNA-Glu,0.017,ACEL_RS10680,tRNA-Glu,0.005,BSU_tRNA_3,tRNA-Glu,0.005,NFA_RS03100,tRNA-Glu,0.623,SGR_RS19260,tRNA-Glu,,,,0.014,LXX_RS10615,tRNA-Glu,0.011,lmot57,tRNA-Glu
+0.007,SAOUHSC_00451,thymidylate kinase,0.006,EF2764,thymidylate kinase,,,,,,,0.010,ACEL_RS10175,thymidylate kinase,0.005,BSU00280,thymidylate kinase,,,,0.623,SGR_RS16335,dTMP kinase,,,,0.076,LXX_RS01995,thymidylate kinase,0.006,lmo2693,thymidylate kinase
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS02100,membrane protein,0.621,SGR_RS24125,hypothetical protein,,,,,,,,,
+,,,,,,0.005,Rv0785,KsdD-like steroid dehydrogenase,,,,,,,,,,0.004,NFA_RS05825,FAD-binding dehydrogenase,0.620,SGR_RS29020,FAD-binding dehydrogenase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.618,SGR_RS05085,sterol-binding protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.618,SGR_RS05090,acyl-CoA dehydrogenase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.601,SGR_RS08840,transcriptional regulator,,,,,,,,,
+,,,,,,0.005,Rv1258c,multidrug-efflux transporter,,,,,,,,,,,,,0.601,SGR_RS08845,MFS transporter permease,,,,,,,,,
+,,,,,,,,,0.006,NCgl1842,rRNA or tRNA methylase,,,,,,,0.004,NFA_RS18850,SAM-dependent methyltransferase,0.593,SGR_RS16350,transferase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.593,SGR_RS16355,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS21975,CRISPR-associated helicase/endonuclease Cas3,0.579,SGR_RS17550,CRISPR-associated protein Cse1,,,,,,,,,
+0.146,SAOUHSC_02933,betaine aldehyde dehydrogenase,,,,,,,,,,,,,0.112,BSU31060,betaine aldehyde dehydrogenase,0.004,NFA_RS15240,2-hydroxymuconic semialdehyde dehydrogenase,0.579,SGR_RS07500,betaine-aldehyde dehydrogenase,,,,,,,,,
+,,,,,,,,,,,,0.010,ACEL_RS09570,amino acid permease,,,,0.004,NFA_RS11165,amino acid permease,0.579,SGR_RS07505,amino acid permease,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.579,SGR_RS07490,monooxygenase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.579,SGR_RS07495,isomerase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.575,SGR_RS00460,regulatory protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.575,SGR_RS35135,regulatory protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.574,SGR_RS00450,transcriptional regulator,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.574,SGR_RS00455,DUF397 domain-containing protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0.004,NFA_RS02495,DUF397 domain-containing protein,0.574,SGR_RS35140,DUF397 domain-containing protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.574,SGR_RS35145,transcriptional regulator,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.572,SGR_RS30765,VWA domain-containing protein,,,,,,,,,
+,,,,,,,,,0.006,NCgl2801,hypothetical protein,0.010,ACEL_RS04820,membrane protein,,,,0.004,NFA_RS00655,CAAX amino protease,0.571,SGR_RS30770,membrane protein,,,,0.009,LXX_RS08125,CAAX amino protease,,,
+,,,,,,,,,,,,,,,,,,,,,0.568,SGR_RS35585,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.568,SGR_RS35165,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.568,SGR_RS16030,thioesterase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.568,SGR_RS16035,hypothetical protein,,,,,,,,,
+,,,0.773,EF3141,D-isomer specific 2-hydroxyacid dehydrogenase family protein,,,,,,,,,,,,,,,,0.568,SGR_RS16040,phosphoglycerate dehydrogenase,,,,,,,,,
+,,,,,,,,,0.014,NCgl2055,cysteine synthase,,,,,,,,,,0.568,SGR_RS16045,"2,3-diaminopropionate biosynthesis protein SbnA",,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.568,SGR_RS16050,"2,3-diaminopropionate biosynthesis protein SbnB",,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.568,SGR_RS16055,peptide synthetase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.568,SGR_RS16060,isomerase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.568,SGR_RS16065,3-oxoacyl-ACP reductase,,,,,,,,,
+0.012,SAOUHSC_02336,(3R)-hydroxymyristoyl-ACP dehydratase,0.009,EF2878,(3R)-hydroxymyristoyl-ACP dehydratase,,,,,,,,,,0.005,BSU36370,3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ,,,,0.568,SGR_RS16070,beta-hydroxyacyl-ACP dehydratase,0.006,CA_C3571,(3R)-hydroxymyristoyl-ACP dehydratase,,,,0.006,lmo2524,(3R)-hydroxymyristoyl-ACP dehydratase
+,,,,,,,,,,,,,,,,,,,,,0.568,SGR_RS16075,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.568,SGR_RS16080,3-oxoacyl-ACP synthase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.568,SGR_RS16085,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.568,SGR_RS16090,hydrolase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.568,SGR_RS16095,3-oxoacyl-ACP synthase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.568,SGR_RS16100,3-oxoacyl-ACP synthase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.568,SGR_RS16105,3-oxoacyl-ACP synthase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.568,SGR_RS16110,polyketide-8 synthase ACP,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.568,SGR_RS16115,protein mbtH,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.568,SGR_RS16120,thioesterase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.567,SGR_RS00415,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.567,SGR_RS00420,transposase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.567,SGR_RS00425,transposase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.567,SGR_RS35170,transposase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.567,SGR_RS35175,transposase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.567,SGR_RS35180,hypothetical protein,,,,,,,,,
+,,,,,,0.008,Rv2968c,integral membrane protein,0.027,NCgl0775,hypothetical protein,0.010,ACEL_RS10710,vitamin K epoxide reductase,,,,0.004,NFA_RS25910,membrane protein,0.554,SGR_RS30105,membrane protein,,,,0.009,LXX_RS03950,membrane protein,,,
+0.007,SAOUHSC_01734,recombination factor protein RarA,0.548,EF1979,recombination factor protein RarA,0.009,Rv2559c,hypothetical protein,0.007,NCgl1571,recombination factor protein RarA,0.010,ACEL_RS06855,AAA family ATPase,0.019,BSU27530,ATPase,0.004,NFA_RS18200,ATPase AAA,0.554,SGR_RS30110,ATPase AAA,0.341,CA_C0326,recombination factor protein RarA,0.009,LXX_RS05365,ATPase AAA,0.033,lmo1514,recombination factor protein RarA
+,,,,,,0.005,Rv0232,transcriptional regulator,,,,,,,,,,,,,0.553,SGR_RS24040,TetR family transcriptional regulator,0.005,CA_C3271,AcrR family transcriptional regulator,,,,,,
+,,,,,,0.005,Rv0206c,transmembrane transport protein MmpL3,0.017,NCgl2769,hypothetical protein,0.010,ACEL_RS07885,MMPL domain-containing protein,,,,0.076,NFA_RS26365,membrane protein,0.553,SGR_RS24045,transporter,,,,,,,,,
+,,,,,,,,,0.007,NCgl0103,hypothetical protein,,,,,,,,,,0.553,SGR_RS29005,hypothetical protein,,,,,,,,,
+,,,,,,0.012,Rv2272,transmembrane protein,0.007,NCgl0102,hypothetical protein,,,,,,,0.004,NFA_RS20555,membrane protein,0.553,SGR_RS29010,membrane protein,,,,,,,,,
+,,,,,,,,,,,,0.010,ACEL_RS06095,NUDIX hydrolase,,,,,,,0.553,SGR_RS29015,NUDIX hydrolase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.546,SGR_RS32840,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.546,SGR_RS32845,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.546,SGR_RS32850,cupin,,,,,,,,,
+0.007,SAOUHSC_01951,epidermin biosynthesis protein EpiC,,,,,,,,,,,,,,,,,,,0.546,SGR_RS32855,lanthionine synthetase,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.546,SGR_RS32860,5'-nucleotidase,,,,,,,,,
+,,,,,,0.008,Rv0669c,neutral ceramidase,,,,,,,,,,0.004,NFA_RS03295,neutral/alkaline nonlysosomal ceramidase,0.546,SGR_RS32835,neutral/alkaline nonlysosomal ceramidase,,,,,,,,,
+,,,,,,,,,,,,,,,0.011,BSU08820,vegetative catalase,,,,0.540,SGR_RS11400,catalase,,,,,,,,,
+,,,0.007,EF1585,FUR family transcriptional regulator,0.006,Rv1909c,ferric uptake regulation protein FurA,,,,,,,0.005,BSU08730,peroxide operon regulator,0.004,NFA_RS01665,transcriptional repressor,0.540,SGR_RS11405,transcriptional repressor,,,,,,,0.007,lmo1683,Fur family transcriptional regulator
+,,,,,,0.005,Rv0896,citrate synthase 1,0.030,NCgl0795,type II citrate synthase,,,,,,,0.004,NFA_RS03350,type II citrate synthase,0.530,SGR_RS24025,citrate (Si)-synthase,,,,0.014,LXX_RS08040,citrate (Si)-synthase,,,
+,,,,,,0.007,Rv2989,transcriptional regulator,0.007,NCgl1261,transcriptional regulator,0.010,ACEL_RS08190,IclR family transcriptional regulator,,,,0.004,NFA_RS20925,IclR family transcriptional regulator,0.529,SGR_RS09470,IclR family transcriptional regulator,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.528,SGR_RS09455,hypothetical protein,,,,,,,,,
+0.007,SAOUHSC_02288,3-isopropylmalate dehydratase small subunit,,,,0.007,Rv2987c,3-isopropylmalate dehydratase small subunit,0.007,NCgl1263,3-isopropylmalate dehydratase small subunit,0.010,ACEL_RS08180,3-isopropylmalate dehydratase small subunit,0.012,BSU28250,3-isopropylmalate dehydratase small subunit,0.004,NFA_RS20915,3-isopropylmalate dehydratase small subunit,0.528,SGR_RS09460,3-isopropylmalate dehydratase small subunit,0.005,CA_C3172,3-isopropylmalate dehydratase small subunit,0.010,LXX_RS04795,3-isopropylmalate dehydratase small subunit,0.006,lmo1990,isopropylmalate isomerase small subunit
+0.007,SAOUHSC_02287,isopropylmalate isomerase large subunit,,,,0.007,Rv2988c,3-isopropylmalate dehydratase large subunit,0.007,NCgl1262,3-isopropylmalate dehydratase large subunit,0.010,ACEL_RS08185,3-isopropylmalate dehydratase large subunit,0.012,BSU28260,3-isopropylmalate dehydratase large subunit,0.004,NFA_RS20920,3-isopropylmalate dehydratase large subunit,0.528,SGR_RS09465,3-isopropylmalate dehydratase large subunit,0.005,CA_C3173,3-isopropylmalate dehydratase large subunit,0.010,LXX_RS04790,3-isopropylmalate dehydratase large subunit,0.006,lmo1989,isopropylmalate isomerase large subunit
+,,,,,,,,,,,,,,,,,,,,,0.510,SGR_RS20505,alanine-rich protein,,,,,,,,,
+,,,,,,0.005,Rv3586,DNA integrity scanning protein DisA,0.256,NCgl2576,DNA integrity scanning protein DisA,0.010,ACEL_RS01200,dna integrity scanning protein disa,0.004,BSU00880,DNA integrity scanning protein DisA,,,,0.510,SGR_RS20495,dna integrity scanning protein disa,0.005,CA_C3187,DNA integrity scanning protein DisA,,,,,,
+0.009,SAOUHSC_00507,DNA repair protein RadA,0.100,EF0040,DNA repair protein RadA,0.005,Rv3585,DNA repair protein RadA,0.256,NCgl2575,DNA repair protein RadA,0.010,ACEL_RS01195,DNA repair protein RadA,0.004,BSU00870,DNA repair protein RadA,0.004,NFA_RS02190,DNA repair protein RadA,0.510,SGR_RS20500,DNA repair protein RadA,0.005,CA_C3188,DNA repair protein RadA,0.249,LXX_RS10495,DNA repair protein RadA,0.013,lmo0233,DNA repair protein RadA
+,,,,,,,,,,,,,,,,,,,,,0.509,SGR_RS17060,hypothetical protein,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,0.508,SGR_RS13585,serine/threonine protein kinase,,,,,,,,,
+0.019,SAOUHSC_02029,phi ETA orf 56-like protein,,,,,,,,,,,,,1.000,BSU35770,major teichoic acid biosynthesis protein C,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,1.000,BSU23700,hypothetical protein,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,1.000,BSU23710,DNA polymerase IV 2,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,1.000,BSU23720,hypothetical protein,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,1.000,BSU17860,cell division suppressor protein YneA,,,,,,,,,,,,,1.000,lmo1303,cell division suppressor
+,,,,,,,,,,,,,,,1.000,BSU17870,resolvase YneB,,,,,,,0.008,CA_C1228,site-specific DNA recombinase,,,,,,
+0.241,SAOUHSC_01336,hypothetical protein,0.862,EF1580,hypothetical protein,,,,,,,,,,1.000,BSU17880,hypothetical protein,,,,,,,0.015,CA_C2726,hypothetical protein,,,,0.006,lmo1304,hypothetical protein
+,,,,,,,,,,,,,,,1.000,BSU21520,hypothetical protein,,,,,,,,,,,,,,,
+1.000,SAOUHSC_01363,hypothetical protein,0.968,EF_C0015,ImpB/MucB/SamB family protein,,,,,,,,,,1.000,BSU21500,UV-damage repair protein UvrX,,,,,,,,,,,,,0.969,lmo2676,DNA polymerase IV
+0.993,SAOUHSC_02144,hypothetical protein,,,,,,,,,,,,,1.000,BSU21510,hypothetical protein,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.998,BSU18960,prophage-derived-like protein YozM,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.998,BSU18930,DNA repair protein,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.998,BSU18940,DNA repair protein UvrX,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.998,BSU18950,hypothetical protein,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.997,BSU17267,,,,,,,,,,,,,,,,
+,,,,,,0.047,Rv3883c,membrane-anchored mycosin,,,,0.010,ACEL_RS09830,hypothetical protein,0.995,BSU17260,serine protease AprX,0.004,NFA_RS04320,type VII secretion-associated serine protease,,,,0.005,CA_C3549,subtilisin-like serine protease,,,,,,
+,,,,,,,,,,,,,,,0.995,BSU17266,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.988,BSU30340,blue-light photoreceptor,,,,,,,,,,,,,0.006,lmo0799,hypothetical protein
+,,,,,,,,,,,,,,,0.972,BSU12500,phage-like element PBSX protein XkdA,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.938,BSU13800,hypothetical protein,,,,,,,,,,,,,,,
+0.591,SAOUHSC_01351,DNA topoisomerase IV subunit B,0.007,EF1615,DNA topoisomerase IV subunit B,,,,,,,,,,0.935,BSU18090,DNA topoisomerase 4 subunit B,,,,,,,,,,,,,0.006,lmo1286,DNA topoisomerase IV subunit B
+0.591,SAOUHSC_01352,DNA topoisomerase IV subunit A,0.007,EF1614,DNA topoisomerase IV subunit A,,,,,,,,,,0.935,BSU18100,DNA topoisomerase 4 subunit A,,,,,,,,,,,,,0.006,lmo1287,DNA topoisomerase IV subunit A
+0.026,SAOUHSC_00901,hypothetical protein,0.057,EF1903,hypothetical protein,,,,,,,,,,0.931,BSU10480,hypothetical protein,,,,0.003,SGR_RS31170,membrane protein,,,,,,,0.006,lmo0932,hypothetical protein
+0.008,SAOUHSC_00903,signal peptidase IB,0.008,EF1678,signal peptidase I,,,,,,,,,,0.931,BSU10490,signal peptidase I V,,,,,,,,,,,,,0.038,lmo1271,type I signal peptidase
+,,,,,,,,,,,,,,,0.925,BSU10470,hypothetical protein,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.905,BSU29239,sporulation membrane protein YtrH,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.905,BSU29240,sporulation protein,,,,,,,,,,,,,,,
+0.010,SAOUHSC_01811,DNA polymerase III subunit alpha superfamily protein,0.007,EF1044,DNA polymerase III subunit alpha,0.005,Rv1547,DNA polymerase III subunit alpha,0.007,NCgl2049,DNA polymerase III subunit alpha,0.010,ACEL_RS05425,DNA polymerase III subunit alpha,0.905,BSU29230,DNA polymerase III subunit alpha,0.004,NFA_RS09065,DNA polymerase III subunit alpha,0.015,SGR_RS27130,DNA polymerase III subunit alpha,0.005,CA_C0516,DNA polymerase III DnaE,0.009,LXX_RS07535,DNA polymerase III subunit alpha,0.590,lmo1574,DNA polymerase III subunit alpha
+,,,,,,,,,,,,,,,0.886,BSU06060,BsuMI modification methylase subunit YdiO,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.886,BSU06070,BsuMI modification methylase subunit YdiP,0.004,NFA_RS01195,DNA methyltransferase,0.003,SGR_RS14355,DNA cytosine methyltransferase,,,,,,,,,
+0.026,SAOUHSC_01701,hypothetical protein,0.008,EF2874,HAD superfamily hydrolase,,,,,,,,,,0.848,BSU25680,hypothetical protein,,,,,,,,,,,,,0.018,lmo1492,hypothetical protein
+,,,,,,,,,,,,,,,0.840,BSU25690,sporulation inhibitor sda,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.810,BSU23300,hypothetical protein,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.760,BSU30330,hypothetical protein,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.732,BSU06220,hypothetical protein,,,,,,,,,,,,,,,
+0.037,SAOUHSC_01660,hypothetical protein,0.015,EF1381,hypothetical protein,0.006,Rv2230c,GTP cyclohydrolase,0.007,NCgl2157,hypothetical protein,0.011,ACEL_RS04655,Nif3-like dinuclear metal center hexameric protein,0.705,BSU25170,hypothetical protein,0.004,NFA_RS08245,Nif3-like dinuclear metal center hexameric protein,0.003,SGR_RS25995,Nif3-like dinuclear metal center hexameric protein,0.007,CA_C1303,hypothetical protein,0.009,LXX_RS04940,Nif3-like dinuclear metal center hexameric protein,0.006,lmo1452,hypothetical protein
+0.037,SAOUHSC_01661,hypothetical protein,0.015,EF1380,hypothetical protein,,,,,,,,,,0.705,BSU25180,tRNA: m1A22 methyltransferase,,,,,,,0.007,CA_C1302,SAM-dependent methyltransferase,,,,0.006,lmo1453,hypothetical protein
+,,,,,,,,,,,,,,,0.653,BSU36390,flagellar hook-basal body complex protein FlhP,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.653,BSU36400,flagellar hook-basal body complex protein FlhO,,,,,,,0.005,CA_C2140,flagellar basal body rod protein FlgG,,,,0.007,lmo0682,flagellar basal body rod protein FlgG
+,,,,,,,,,,,,,,,0.650,BSU05640,MarR family transcriptional regulator,,,,,,,,,,,,,,,
+,,,,,,0.005,Rv0507,transmembrane transport protein MmpL2,0.007,NCgl0599,RND superfamily drug exporter,0.010,ACEL_RS01800,membrane protein,0.650,BSU05650,hypothetical protein,,,,0.003,SGR_RS03960,membrane protein,0.012,CA_P0102,hypothetical protein,0.009,LXX_RS02050,hypothetical protein,0.006,lmo1226,transporter
+0.048,SAOUHSC_01473,bifunctional biotin operon repressor/biotin--[acetyl-CoA-carboxylase] synthetase BirA,0.019,EF3240,bifunctional biotin--[acetyl-CoA-carboxylase] synthetase/biotin operon repressor,,,,0.006,NCgl0679,biotin--protein ligase,0.010,ACEL_RS02055,biotin--[acetyl-CoA-carboxylase] ligase,0.648,BSU22440,bifunctional protein BirA,0.004,NFA_RS05040,biotin--[acetyl-CoA-carboxylase] ligase,0.003,SGR_RS12895,biotin--[acetyl-CoA-carboxylase] ligase,0.005,CA_C0212,biotin-(acetyl-CoA carboxylase) ligase,0.009,LXX_RS02355,biotin--[acetyl-CoA-carboxylase] ligase,0.009,lmo1904,transcriptional regulator
+0.048,SAOUHSC_01475,hypothetical protein,,,,,,,,,,,,,0.648,BSU22460,glycosyltransferase YpjH,0.004,NFA_RS13535,glycosyl transferase,,,,0.006,CA_C3052,glycosyltransferase,0.009,LXX_RS05825,glycosyl transferase family 1,,,
+,,,,,,0.005,Rv0323c,hypothetical protein,,,,0.010,ACEL_RS03265,LmbE family protein,0.648,BSU22470,deacetylase YpjG,,,,,,,,,,,,,,,
+,,,0.043,EF0939,methylglyoxal synthase,,,,,,,0.015,ACEL_RS08390,methylglyoxal synthase,0.648,BSU22480,methylglyoxal synthase,,,,,,,0.005,CA_C1604,methylglyoxal synthase,,,,0.009,lmo1906,methylglyoxal synthase
+0.008,SAOUHSC_01397,4-hydroxy-tetrahydrodipicolinate reductase,0.032,EF1557,4-hydroxy-tetrahydrodipicolinate reductase,0.005,Rv2773c,4-hydroxy-tetrahydrodipicolinate reductase,0.007,NCgl1898,4-hydroxy-tetrahydrodipicolinate reductase,0.010,ACEL_RS07765,4-hydroxy-tetrahydrodipicolinate reductase,0.648,BSU22490,4-hydroxy-tetrahydrodipicolinate reductase,0.004,NFA_RS19385,4-hydroxy-tetrahydrodipicolinate reductase,0.003,SGR_RS08730,4-hydroxy-tetrahydrodipicolinate reductase,0.005,CA_C2379,4-hydroxy-tetrahydrodipicolinate reductase,0.009,LXX_RS08005,4-hydroxy-tetrahydrodipicolinate reductase,0.009,lmo1907,dihydrodipicolinate reductase
+0.007,SAOUHSC_01476,hypothetical protein,0.032,EF1556,hypothetical protein,,,,,,,,,,0.648,BSU22500,hypothetical protein,,,,,,,,,,,,,0.009,lmo1908,hypothetical protein
+,,,0.031,EF1555,YitT family protein,,,,,,,,,,0.648,BSU22510,hypothetical protein,,,,,,,,,,,,,0.009,lmo1909,hypothetical protein
+0.011,SAOUHSC_01054,hypothetical protein,0.010,EF3078,hypothetical protein,,,,,,,,,,0.647,BSU14650,hypothetical protein,,,,,,,,,,,,,0.010,lmo1065,hypothetical protein
+,,,,,,,,,,,,,,,0.647,BSU05630,protein DinB,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.646,BSU14660,hypothetical protein,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.635,BSU18300,plipastatin synthase subunit E,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.635,BSU18310,plipastatin synthase subunit D,,,,0.003,SGR_RS12760,non-ribosomal peptide synthetase,,,,,,,,,
+,,,,,,,,,,,,,,,0.635,BSU18320,plipastatin synthase subunit C,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.635,BSU18330,plipastatin synthase subunit B,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.635,BSU18340,plipastatin synthase subunit A,,,,,,,,,,,,,,,
+0.015,SAOUHSC_01801,isocitrate dehydrogenase,,,,,,,,,,,,,0.633,BSU29130,isocitrate dehydrogenase,,,,,,,0.005,CA_C0972,isocitrate dehydrogenase,,,,0.022,lmo1566,isocitrate dehydrogenase
+0.011,SAOUHSC_01450,hypothetical protein,0.028,EF2047,amino acid permease,,,,,,,,,,0.616,BSU12860,serine/threonine exchanger SteT,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.598,BSU38090,minor extracellular protease vpr,,,,0.003,SGR_RS13055,peptidase S8,,,,,,,,,
+,,,,,,,,,,,,,,,0.573,BSU11549,hypothetical protein,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.527,BSU21600,pesticidal crystal protein-like YokG,,,,,,,,,,,,,,,
+0.008,SAOUHSC_00818,thermonuclease,0.007,EF_B0045,thermonuclease precursor,,,,0.007,NCgl1779,micrococcal nuclease-like protein,,,,0.526,BSU21610,endonuclease,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,0.526,BSU21620,hypothetical protein,,,,,,,,,,,,,,,
+,,,0.504,EF0055,adhesion lipoprotein,,,,0.015,NCgl0026,ABC transporter periplasmic component,0.010,ACEL_RS10805,ABC transporter substrate-binding protein,0.517,BSU02850,zinc transport system zinc-binding lipoprotein AdcA,,,,0.018,SGR_RS25015,ABC transporter substrate-binding protein,0.006,CA_C1593,surface adhesin A,,,,0.014,lmo0153,zinc ABC transporter substrate-binding protein
+0.022,SAOUHSC_01657,ABC transporter,0.504,EF0056,ABC transporter ATP-binding protein,,,,,,,,,,0.517,BSU02860,zinc transport system ATP-binding protein AdcC,,,,,,,0.005,CA_C2877,iron (III) ABC transporter ATPase,,,,0.007,lmo0154,zinc ABC transporter ATP-binding protein
+,,,0.020,EF0057,ABC transporter permease,,,,0.007,NCgl0027,ABC transporter permease,,,,0.517,BSU02870,zinc transport system permease protein AdcB,,,,0.018,SGR_RS25005,ABC transporter,0.005,CA_C2878,iron (III) ABC transporter permease,,,,0.007,lmo0155,zinc ABC transporter permease
+,,,,,,,,,,,,,,,,,,,,,,,,0.938,CA_C0439,hypothetical protein,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,0.575,CA_C3356,lactoylglutathione lyase (LGUL) family protein,,,,,,
+,,,1.000,EF1686,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1.000,SAOUHSC_01363,hypothetical protein,0.999,EFA0078,ImpB/MucB/SamB family protein,,,,,,,,,,,,,,,,,,,,,,,,,0.969,lmo2676,DNA polymerase IV
+,,,0.998,EF1080,ImpB/MucB/SamB family protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.998,EF1081,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.998,EF1082,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.998,EF1083,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.998,EF1084,universal stress protein,,,,,,,0.010,ACEL_RS09170,hypothetical protein,0.007,BSU39250,universal stress protein YxiE,,,,,,,,,,,,,,,
+0.007,SAOUHSC_01975,hypothetical protein,0.998,EF0682,DNA repair exonuclease,,,,,,,,,,0.010,BSU09910,metallophosphoesterase,,,,,,,,,,,,,0.673,lmo2222,hypothetical protein
+0.007,SAOUHSC_01974,hypothetical protein,0.998,EF0683,hypothetical protein,,,,,,,,,,0.010,BSU09920,hypothetical protein,,,,,,,,,,,,,0.673,lmo2221,hypothetical protein
+0.021,SAOUHSC_00615,haloacid dehalogenase-like hydrolase,0.996,EF2681,HAD superfamily hydrolase,,,,0.008,NCgl2812,HAD superfamily hydrolase,0.010,ACEL_RS11285,hypothetical protein,,,,,,,0.005,SGR_RS09500,hydrolase,0.005,CA_C2191,HAD superfamily hydrolase,,,,0.006,lmo0635,hypothetical protein
+,,,0.995,EF2145,phage integrase family site specific recombinase,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.995,EF_C0006,ImpB/MucB/SamB family protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.995,EF_C0007,IS1216 transposase,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.993,EF2546,phage integrase family site specific recombinase,0.010,Rv2659c,prophage integrase,,,,,,,0.031,BSU04800,ICEBs1 integrase,,,,,,,,,,,,,,,
+0.007,SAOUHSC_01072,hypothetical protein,0.992,EF2453,hypothetical protein,,,,,,,,,,0.004,BSU15000,hypothetical protein,,,,,,,,,,,,,0.007,lmo2054,hypothetical protein
+0.010,SAOUHSC_01070,hypothetical protein,0.992,EF2454,hypothetical protein,,,,,,,,,,0.004,BSU14990,regulatory protein YlbF,,,,,,,,,,,,,0.007,lmo2055,hypothetical protein
+,,,0.986,EF1417,phage integrase family site specific recombinase,,,,,,,,,,,,,,,,,,,,,,0.009,LXX_RS02825,integrase,,,
+,,,0.986,EF1418,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.982,EF2999,allantoinase,,,,,,,,,,0.005,BSU32410,allantoinase,,,,0.009,SGR_RS06300,allantoinase,,,,,,,,,
+,,,0.982,EF3000,allantoin permease,,,,,,,,,,0.004,BSU36470,allantoin permease,,,,0.003,SGR_RS05995,nitrate reductase,,,,,,,,,
+,,,0.968,EF_C0016,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.960,EF2680,ABC transporter ATP-binding protein/permease,,,,0.008,NCgl2218,ABC transporter ATPase and permease,,,,0.005,BSU37230,ABC transporter ATP-binding protein,0.004,NFA_RS27840,ABC transporter,0.003,SGR_RS23855,ABC transporter,0.006,CA_C1613,multidrug/protein/lipid ABC transporter membrane ATPase,,,,0.030,lmo0837,hypothetical protein
+,,,0.942,EF_B0060,ImpB/MucB/SamB family protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.942,EF_B0061,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.942,EF_B0062,UvrC family transcriptional regulator,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.931,Ef16SA,16S ribosomal RNA,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.928,EF3189,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.928,Ef16SC,16S ribosomal RNA,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.903,EF2084,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.902,EF0064,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,0.012,lmo0496,hypothetical protein
+0.009,SAOUHSC_01728,hypothetical protein,0.902,EF0065,luciferase,0.015,Rv3618,monooxygenase,0.007,NCgl2229,"coenzyme F420-dependent N5,N10-methylene tetrahydromethanopterin reductase",,,,0.022,BSU02880,hypothetical protein,0.231,NFA_RS11955,monooxygenase,0.003,SGR_RS23475,LuxAB-like monooxygenase,,,,0.009,LXX_RS12490,alkanal monooxygenase,0.011,lmo2345,hypothetical protein
+,,,0.900,EF1162,helicase,,,,,,,,,,,,,,,,,,,0.007,CA_C1672,Rad3-related DNA helicase,,,,0.057,lmo0157,ATP-dependent helicase
+0.013,SAOUHSC_01497,L-asparaginase,0.900,EF1163,L-asparaginase,0.005,Rv1538c,L-aparaginase,0.007,NCgl2062,L-asparaginase,,,,0.346,BSU02690,asparaginase,,,,,,,0.005,CA_C1714,L-asparaginase,,,,0.006,lmo1940,asparaginase
+,,,0.900,EF1164,HD domain-containing protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.007,SAOUHSC_02005,A/G-specific adenine glycosylase,0.891,EF2704,A/G-specific adenine glycosylase,0.005,Rv3589,A/G-specific adenine glycosylase,0.007,NCgl2580,A/G-specific adenine glycosylase,0.010,ACEL_RS01155,adenine glycosylase,0.013,BSU08630,A/G-specific adenine glycosylase,0.004,NFA_RS02175,adenine glycosylase,0.003,SGR_RS20485,adenine glycosylase,0.020,CA_C1499,A/G-specific adenine glycosylase,0.009,LXX_RS03510,adenine glycosylase,0.006,lmo1689,A/G-specific adenine glycosylase
+,,,0.887,EF2706,RNA methyltransferase,0.005,Rv0560c,benzoquinone methyltransferase,,,,,,,0.005,BSU08020,RNA methyltransferase YfjO,,,,,,,,,,,,,0.019,lmo1703,RNA methyltransferase
+0.049,SAOUHSC_00794,glycolytic operon regulator,0.885,EF1965,SorC family transcriptional regulator,,,,,,,,,,0.012,BSU33950,central glycolytic genes regulator,,,,,,,0.006,CA_C0708,transcriptional regulator,,,,0.007,lmo2460,transcriptional regulator
+,,,0.881,EF1489,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.864,EF2226,ABC transporter ATP-binding protein/permease,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.864,EF2227,ABC transporter ATP-binding protein/permease,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.864,EF0441,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.007,SAOUHSC_00233,antiholin-like protein LrgB,0.861,EF3193,antiholin-like protein LrgB,,,,,,,,,,0.007,BSU28900,antiholin-like protein LrgB,,,,,,,0.006,CA_C0611,hypothetical protein,,,,,,
+0.007,SAOUHSC_00232,murein hydrolase regulator LrgA,0.861,EF3194,murein hydrolase regulator LrgA,,,,,,,,,,0.007,BSU28910,antiholin-like protein LrgA,,,,,,,0.006,CA_C0612,hypothetical protein,,,,,,
+,,,0.808,EF3091,YitT family protein,,,,,,,,,,0.004,BSU35280,hypothetical protein,,,,,,,0.006,CA_C0848,hypothetical protein,,,,0.009,lmo2508,hypothetical protein
+0.024,SAOUHSC_01820,acetate kinase,0.801,EF1983,acetate kinase,0.006,Rv0409,acetate kinase,0.007,NCgl2656,acetate kinase,0.010,ACEL_RS02690,acetate kinase,0.004,BSU29470,acetate kinase,0.004,NFA_RS26530,acetate kinase,0.004,SGR_RS10380,acetate kinase,0.009,CA_C1743,acetate kinase,0.010,LXX_RS01620,acetate kinase,0.009,lmo1581,acetate kinase
+0.024,SAOUHSC_01821,hypothetical protein,0.801,EF1984,,,,,,,,,,,0.005,BSU29480,hypothetical protein,,,,,,,,,,,,,0.006,lmo1582,hypothetical protein
+,,,0.778,EF0592,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.773,EF3135,mannonate dehydratase,,,,,,,,,,0.007,BSU12340,mannonate dehydratase,,,,,,,0.005,CA_C1332,mannonate dehydratase,,,,,,
+,,,0.773,EF3136,PTS system transporter subunit IIA,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.773,EF3137,PTS system transporter subunit IIB,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.773,EF3138,PTS system transporter subunit IID,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.773,EF3139,PTS system transporter subunit IIC,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.773,EF3140,iron-containing alcohol dehydrogenase,,,,,,,,,,,,,,,,,,,0.005,CA_C1626,glycerol dehydrogenase,,,,,,
+,,,0.773,EF3142,6-phosphogluconate dehydrogenase,0.006,Rv1122,6-phosphogluconate dehydrogenase (decarboxylating),,,,0.010,ACEL_RS09405,6-phosphogluconate dehydrogenase,0.005,BSU25730,6-phosphogluconate dehydrogenase YqeC,0.004,NFA_RS27100,6-phosphogluconate dehydrogenase,0.003,SGR_RS18320,6-phosphogluconate dehydrogenase,,,,0.009,LXX_RS00015,6-phosphogluconate dehydrogenase,,,
+0.014,SAOUHSC_00019,adenylosuccinate synthetase,0.772,EF0014,adenylosuccinate synthetase,0.005,Rv0357c,adenylosuccinate synthetase,0.007,NCgl2669,adenylosuccinate synthetase,0.010,ACEL_RS11035,adenylosuccinate synthetase,0.019,BSU40420,adenylosuccinate synthase,0.009,NFA_RS26670,adenylosuccinate synthetase,0.003,SGR_RS16855,adenylosuccinate synthetase,0.011,CA_C3593,adenylosuccinate synthetase,0.009,LXX_RS11445,adenylosuccinate synthetase,0.019,lmo0055,adenylosuccinate synthetase
+0.007,SAOUHSC_00738,hypothetical protein,0.759,EF0440,di-/tripeptide transporter,,,,0.006,NCgl2949,dipeptide/tripeptide permease,,,,0.022,BSU03670,transporter,0.004,NFA_RS24060,MFS transporter,0.003,SGR_RS22225,amino acid transporter,0.005,CA_C0751,permease,0.009,LXX_RS01245,MFS transporter,0.007,lmo0555,di-tripeptide transporter
+,,,0.747,EF1677,lipoprotein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.746,EF0442,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.008,SAOUHSC_02845,hypothetical protein,0.715,EF0730,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.693,EF2519,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.693,EF2520,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.693,EF2521,hypothetical protein,,,,,,,,,,0.017,BSU04910,hypothetical protein,,,,,,,,,,,,,,,
+,,,0.693,EF2522,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.693,EF2523,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.693,EF2524,sortase,,,,,,,,,,0.004,BSU36340,sortase,,,,,,,,,,,,,,,
+0.008,SAOUHSC_01768,hypothetical protein,0.689,EF3050,DNA-3-methyladenine glycosylase I,0.005,Rv1210,DNA-3-methyladenine glycosylase I TagA,0.066,NCgl2739,3-methyladenine DNA glycosylase,0.010,ACEL_RS09490,DNA-3-methyladenine glycosylase,,,,0.004,NFA_RS23420,DNA-3-methyladenine glycosylase,0.003,SGR_RS11730,DNA-3-methyladenine glycosylase,,,,0.009,LXX_RS03465,DNA-3-methyladenine glycosylase,0.675,lmo1639,DNA-3-methyladenine glycosidase
+,,,0.689,EF3051,hypothetical protein,,,,,,,,,,,,,,,,,,,0.007,CA_C2045,murein hydrolase domain-containing protein,,,,,,
+,,,0.689,EF3052,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.010,SAOUHSC_02517,DNA topoisomerase III,0.653,EF2064,DNA topoisomerase III,,,,,,,,,,0.006,BSU04260,DNA topoisomerase 3,,,,,,,0.014,CA_C2947,DNA topoisomerase III,,,,0.006,lmo2756,DNA topoisomerase III
+,,,0.637,EF0760,amino acid ABC transporter ATP-binding protein,,,,,,,,,,,,,,,,,,,0.005,CA_C0112,glutamine ABC transporter ATP-binding protein,,,,0.008,lmo0848,amino acid ABC transporter ATP-binding protein
+,,,0.637,EF0761,amino acid ABC transporter amino acid-binding/permease,,,,0.007,NCgl1878,glutamate ABC transporter permease,,,,,,,0.004,NFA_RS19165,glutamate ABC transporter permease,0.003,SGR_RS08505,amino acid ABC transporter permease,0.005,CA_C0111,glutamine-binding periplasmic protein fused to glutamine permease,,,,0.008,lmo0847,glutamine ABC transporter
+,,,0.631,Ef16SB,16S ribosomal RNA,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.631,EF1052,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.629,EF1218,spermidine/putrescine ABC transporter permease,,,,,,,,,,,,,,,,0.003,SGR_RS09000,ABC transporter permease,0.006,CA_C0839,spermidine/putrescine ABC transporter permease I,,,,,,
+,,,0.629,EF1219,spermidine/putrescine ABC transporter permease,,,,0.023,NCgl0694,ABC transporter permease,,,,,,,0.004,NFA_RS27550,sugar ABC transporter permease,,,,,,,,,,,,
+,,,0.629,EF1220,spermidine/putrescine ABC transporter ATP-binding protein,,,,,,,,,,,,,0.004,NFA_RS07150,sulfate/thiosulfate import ATP-binding protein CysA,,,,,,,,,,,,
+,,,0.629,EF1221,spermidine/putrescine ABC transporter spermidine/putrescine-binding protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.629,EF1222,adenine deaminase,,,,,,,,,,0.007,BSU14520,adenine deaminase,,,,,,,0.006,CA_C0887,adenine deaminase,,,,0.008,lmo1742,adenine deaminase
+,,,0.629,EF1223,chlorohydrolase,,,,,,,0.017,ACEL_RS05365,hypothetical protein,,,,0.004,NFA_RS26000,8-oxoguanine deaminase,0.003,SGR_RS06385,8-oxoguanine deaminase,,,,,,,,,
+0.031,SAOUHSC_02420,hypothetical protein,0.628,EF0785,drug resistance transporter EmrB/QacA family protein,0.005,Rv1877,MFS-type transporter,0.006,NCgl0369,major facilitator superfamily permease,0.010,ACEL_RS09755,multidrug MFS transporter,0.020,BSU32880,MFS transporter,0.015,NFA_RS11960,MFS transporter,0.003,SGR_RS05650,MFS transporter,0.005,CA_P0131,"permease, MDR related",0.010,LXX_RS00760,MFS transporter permease,0.006,lmo0981,transporter
+0.007,SAOUHSC_01602,maltose operon transcriptional repressor,0.622,EF0954,LacI family sugar-binding transcriptional regulator,,,,0.007,NCgl2030,transcriptional regulator,0.011,ACEL_RS09295,LacI family transcriptional regulator,,,,,,,,,,,,,,,,0.006,lmo2842,LacI family transcriptional regulator
+,,,0.622,EF0955,aldose 1-epimerase,,,,,,,,,,,,,,,,,,,0.013,CA_C1349,aldose-1-epimerase,,,,,,
+,,,0.622,EF0956,beta-phosphoglucomutase,,,,,,,,,,,,,,,,,,,0.005,CA_C2614,beta-phosphoglucomutase,,,,,,
+,,,0.622,EF0957,maltose phosphorylase,0.005,Rv3401,glycosyl hydrolase,,,,,,,0.013,BSU34570,maltose phosphorylase,,,,0.003,SGR_RS12120,haloacid dehalogenase,0.006,CA_C2685,maltose phosphorylase,,,,0.007,lmo2121,maltose phosphorylase
+0.960,SAOUHSC_00776,excinuclease ABC subunit B,0.619,EF0762,excinuclease ABC subunit B,0.005,Rv1633,excinuclease ABC subunit UvrB,0.021,NCgl1315,excinuclease ABC subunit B,0.010,ACEL_RS05690,excinuclease ABC subunit B,0.438,BSU35170,UvrABC system protein B,0.005,NFA_RS09585,excinuclease ABC subunit B,0.011,SGR_RS27720,excinuclease ABC subunit B,0.381,CA_C0502,excinuclease ABC subunit B,0.009,LXX_RS05660,excinuclease ABC subunit B,0.845,lmo2489,excinuclease ABC subunit B
+,,,0.581,EF0481,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.581,EF0482,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.575,EF0049,RNA polymerase sigma-70 factor family protein,,,,,,,,,,0.006,BSU00980,RNA polymerase sigma-H factor,,,,,,,0.005,CA_C3152,RNA polymerase factor sigma-70,,,,0.006,lmo0243,RNA polymerase factor sigma-70
+0.071,SAOUHSC_02976,mannose-6-phosphate isomerase,0.560,EF2589,mannose-6-phosphate isomerase,,,,,,,,,,0.005,BSU05870,mannose-6-phosphate isomerase GmuF,,,,,,,0.007,CA_C2918,mannose-6-phosphate isomerase,,,,0.007,lmo2110,mannnose-6 phospate isomerase
+,,,0.560,EF2590,hypothetical protein,,,,,,,,,,0.010,BSU01670,hypothetical protein,0.004,NFA_RS06885,peptidase,0.052,SGR_RS33950,serine hydrolase,0.007,CA_C0181,beta-lactamase,,,,0.007,lmo1916,peptidase
+0.007,SAOUHSC_01680,16S rRNA (uracil(1498)-N(3))-methyltransferase,0.546,EF1975,16S rRNA (uracil(1498)-N(3))-methyltransferase,0.005,Rv2372c,rRNA small subunit methyltransferase E,0.006,NCgl2209,16S rRNA (uracil(1498)-N(3))-methyltransferase,0.010,ACEL_RS04045,16S rRNA (uracil(1498)-N(3))-methyltransferase,0.466,BSU25440,ribosomal RNA small subunit methyltransferase E,0.005,NFA_RS07255,16S rRNA (uracil(1498)-N(3))-methyltransferase,0.044,SGR_RS24900,16S rRNA (uracil(1498)-N(3))-methyltransferase,0.006,CA_C1285,16S ribosomal RNA methyltransferase RsmE,0.009,LXX_RS07265,16S rRNA (uracil(1498)-N(3))-methyltransferase,0.040,lmo1470,16S ribosomal RNA methyltransferase RsmE
+0.007,SAOUHSC_01681,ribosomal protein L11 methyltransferase,0.546,EF1976,50S ribosomal protein L11 methyltransferase,,,,,,,,,,0.466,BSU25450,ribosomal protein L11 methyltransferase,0.004,NFA_RS12700,methylase,,,,0.006,CA_C1284,50S ribosomal protein L11 methyltransferase,,,,0.040,lmo1471,ribosomal protein L11 methyltransferase
+,,,0.546,EF1977,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.010,SAOUHSC_02621,DNA-3-methyladenine glycosylase,0.546,EF1978,DNA-3-methyladenine glycosylase,,,,0.006,NCgl0115,3-methyladenine DNA glycosylase,0.010,ACEL_RS06465,DNA-3-methyladenine glycosylase,0.019,BSU38620,3-methyladenine DNA glycosylase,,,,,,,0.011,CA_C2969,3-methyladenine DNA glycosylase,0.009,LXX_RS02995,DNA-3-methyladenine glycosylase,0.013,lmo0928,3-methyladenine DNA glycosylase
+,,,0.536,EF2255,phage integrase family site specific recombinase,,,,,,,,,,,,,0.004,NFA_RS03605,hypothetical protein,,,,,,,,,,,,
+,,,0.530,EF0764,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.530,EF0765,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.520,EF1488,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.519,EF2505,cell wall surface anchor family protein,,,,,,,,,,,,,,,,,,,,,,,,,0.010,lmo0842,peptidoglycan binding protein
+0.007,SAOUHSC_T00058,tRNA-Tyr,0.515,tRNA-Tyr-2,tRNA-Tyr,,,,,,,,,,0.008,BSU_tRNA_37,tRNA-Tyr,,,,,,,0.005,CA_Ct051,tRNA-Tyr,,,,0.011,lmot52,tRNA-Tyr
+0.007,SAOUHSC_T00017,tRNA-Gln,0.515,tRNA-Gln-2,tRNA-Gln,,,,,,,,,,0.008,BSU_tRNA_40,tRNA-Gln,,,,,,,,,,,,,0.011,lmot49,tRNA-Gln
+,,,0.505,EF0053,DNA polymerase III subunit epsilon,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,0.505,EF0054,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.017,SAOUHSC_00687,hypothetical protein,0.009,EF1937,hypothetical protein,,,,0.006,NCgl0991,acetyltransferase,,,,,,,,,,0.003,SGR_RS00700,GCN5 family acetyltransferase,,,,,,,1.000,lmo1301,hypothetical protein
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.969,lmo2675,hypothetical protein
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.914,lmos85,rli48
+0.008,SAOUHSC_02258,hypothetical protein,0.008,EF0655,nitroreductase,,,,,,,,,,,,,,,,,,,0.005,CA_C3314,nitroreductase,,,,0.912,lmo2829,nitroreductase
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.901,lmo2271,hypothetical protein
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.901,lmo2828,hypothetical protein
+0.009,SAOUHSC_00731,ABC transporter,0.011,EF0674,glycine betaine/carnitine/choline ABC transporter ATP-binding protein,,,,,,,,,,,,,,,,,,,,,,,,,0.885,lmo1421,glycine/betaine ABC transporter ATP-binding protein
+0.009,SAOUHSC_00732,amino acid ABC transporter permease,0.011,EF0675,glycine betaine/carnitine/choline ABC transporter glycine betaine/carnitine/choline-binding protein,0.005,Rv3756c,glycine betaine/carnitine/choline/L-proline ABC transporter permease ProZ,,,,,,,,,,0.004,NFA_RS16230,glycine/betaine ABC transporter substrate-binding protein,0.007,SGR_RS20340,ABC transporter permease,0.005,CA_C2849,proline/glycine betaine ABC transporter permease/substrate-binding protein,,,,0.885,lmo1422,glycine/betaine ABC transporter permease
+0.008,SAOUHSC_00752,UDP-N-acetylenolpyruvoylglucosamine reductase,0.010,EF2733,UDP-N-acetylenolpyruvoylglucosamine reductase,0.005,Rv0482,UDP-N-acetylenolpyruvoylglucosamine reductase,0.007,NCgl0346,UDP-N-acetylmuramate dehydrogenase,0.010,ACEL_RS01520,UDP-N-acetylenolpyruvoylglucosamine reductase,0.004,BSU15230,UDP-N-acetylenolpyruvoylglucosamine reductase,0.004,NFA_RS25775,UDP-N-acetylenolpyruvoylglucosamine reductase,0.003,SGR_RS14240,UDP-N-acetylenolpyruvoylglucosamine reductase,0.005,CA_C0510,UDP-N-acetylenolpyruvoylglucosamine reductase,0.009,LXX_RS01360,UDP-N-acetylenolpyruvoylglucosamine reductase,0.884,lmo1420,UDP-N-acetylenolpyruvoylglucosamine reductase
+,,,0.006,EF1702,hypothetical protein,,,,,,,,,,0.005,BSU01720,hypothetical protein,,,,,,,0.005,CA_C2339,hypothetical protein,,,,0.870,lmo2339,hypothetical protein
+0.007,SAOUHSC_00292,hypothetical protein,,,,,,,,,,,,,,,,,,,0.003,SGR_RS27690,pseudouridine-5'-phosphate glycosidase,,,,,,,0.870,lmo2340,hypothetical protein
+0.007,SAOUHSC_00291,PfkB family carbohydrate kinase,,,,,,,,,,0.010,ACEL_RS04930,ribokinase,,,,,,,,,,0.005,CA_C0395,2-keto-3-deoxygluconate kinase,,,,0.870,lmo2341,sugar kinase
+0.041,SAOUHSC_02121,hypothetical protein,,,,,,,,,,,,,0.443,BSU06630,lipoprotein,,,,,,,,,,,,,0.768,lmo1757,hypothetical protein
+0.041,SAOUHSC_02122,NAD-dependent DNA ligase,0.007,EF0722,NAD-dependent DNA ligase,0.005,Rv3014c,DNA ligase A,0.017,NCgl1196,NAD-dependent DNA ligase LigA,0.010,ACEL_RS03570,DNA ligase (NAD(+)) LigA,0.443,BSU06620,DNA ligase,0.011,NFA_RS21190,DNA ligase (NAD(+)) LigA,0.003,SGR_RS09935,DNA ligase (NAD(+)) LigA,0.005,CA_C2673,NAD-dependent DNA ligase LigA,0.009,LXX_RS07100,DNA ligase (NAD(+)) LigA,0.768,lmo1758,NAD-dependent DNA ligase LigA
+0.041,SAOUHSC_02123,ATP-dependent DNA helicase PcrA,0.108,EF0721,ATP-dependent DNA helicase PcrA,0.005,Rv0949,ATP-dependent DNA helicase UvrD,0.007,NCgl0820,helicase,0.010,ACEL_RS01940,ATP-dependent DNA helicase PcrA,0.443,BSU06610,ATP-dependent DNA helicase PcrA,0.004,NFA_RS24775,ATP-dependent DNA helicase PcrA,0.003,SGR_RS13490,ATP-dependent DNA helicase PcrA,0.005,CA_C2674,ATP-dependent DNA helicase,0.009,LXX_RS09710,ATP-dependent DNA helicase PcrA,0.768,lmo1759,ATP-dependent DNA helicase
+0.009,SAOUHSC_00995,hypothetical protein,0.008,EF0698,acetyltransferase,,,,,,,,,,0.006,BSU40720,hypothetical protein,,,,0.003,SGR_RS27095,acetyltransferase,,,,,,,0.722,lmo0976,hypothetical protein
+0.010,SAOUHSC_00950,hypothetical protein,,,,,,,,,,,,,0.011,BSU11860,hypothetical protein,,,,,,,,,,,,,0.722,lmo0977,hypothetical protein
+,,,,,,,,,,,,,,,0.005,BSU19170,carboxypeptidase YocD,,,,,,,0.007,CA_C0293,MccF-like protein,,,,0.675,lmo1638,hypothetical protein
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.675,lmo1640,hypothetical protein
+0.007,SAOUHSC_01973,3'-5' exoribonuclease YhaM,0.020,EF0684,cmp-binding protein,,,,,,,,,,0.010,BSU09930,3'-5' exoribonuclease yhaM,,,,,,,0.005,CA_C2261,hypothetical protein,,,,0.673,lmo2220,3'-5' exoribonuclease
+,,,,,,,,,,,,,,,,,,,,,0.003,SGR_RS30290,transcriptional regulator,,,,,,,0.595,lmo0547,DeoR family transcriptional regulator
+1.000,SAOUHSC_01334,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1.000,SAOUHSC_01362,4-oxalocrotonate tautomerase,0.009,EF2859,4-oxalocrotonate tautomerase,,,,,,,,,,0.005,BSU37540,2-hydroxymuconate tautomerase,,,,,,,,,,,,,0.008,lmo2564,4-oxalocrotonate isomerase
+0.996,SAOUHSC_02158,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.996,SAOUHSC_02157,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.996,SAOUHSC_00348,30S ribosomal protein S6,0.007,EF0007,30S ribosomal protein S6,0.009,Rv0053,30S ribosomal protein S6,,,,0.010,ACEL_RS11070,30S ribosomal protein S6,0.010,BSU40910,30S ribosomal protein S6,0.004,NFA_RS27670,30S ribosomal protein S6,0.003,SGR_RS18190,30S ribosomal protein S6,0.006,CA_C3724,30S ribosomal protein S6,0.009,LXX_RS12345,30S ribosomal protein S6,0.007,lmo0044,30S ribosomal protein S6
+0.996,SAOUHSC_00349,bacteriophage L54a single-stranded DNA binding protein,0.007,EF0008,single-strand binding protein,0.005,Rv0054,single-strand DNA-binding protein,0.192,NCgl2880,single-stranded DNA-binding protein,0.010,ACEL_RS11065,single-stranded DNA-binding protein,0.010,BSU40900,single-stranded DNA-binding protein,0.004,NFA_RS27675,single-stranded DNA-binding protein,0.003,SGR_RS18185,single-stranded DNA-binding protein,0.005,CA_C0945,single-stranded DNA-binding protein,0.009,LXX_RS12340,single-stranded DNA-binding protein,0.007,lmo0045,single-strand binding protein
+0.996,SAOUHSC_00347,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.993,SAOUHSC_02143,hypothetical protein,0.009,EF1918,hypothetical protein,,,,,,,,,,0.009,BSU13010,6-phosphogluconolactonase,,,,0.003,SGR_RS32475,hypothetical protein,0.005,CA_C0086,muconate cycloisomerase,0.009,LXX_RS00455,hypothetical protein,0.008,lmo0558,hypothetical protein
+0.992,SAOUHSC_01341,hypothetical protein,0.010,EF2690,exonuclease SbcD,,,,,,,0.010,ACEL_RS04235,metallophosphoesterase,0.004,BSU10640,nuclease SbcCD subunit D,0.004,NFA_RS23765,exonuclease sbcCD subunit D,0.003,SGR_RS31240,exonuclease sbcCD subunit D,0.005,CA_C2737,DNA repair exonuclease,,,,0.007,lmo1646,exonuclease SbcD
+0.992,SAOUHSC_01343,,0.010,EF2689,exonuclease SbcC,,,,,,,,,,0.004,BSU10650,nuclease SbcCD subunit C,0.004,NFA_RS23760,double-stranded DNA exonuclease,0.003,SGR_RS31245,exonuclease,0.005,CA_C2736,DNA repair ATPase,,,,0.007,lmo1645,ATP-dependent dsDNA exonuclease SbcC
+0.960,SAOUHSC_00778,hypothetical protein,,,,,,,,,,,,,,,,,,,0.024,SGR_RS16640,hypothetical protein,,,,,,,,,
+0.941,SAOUHSC_02425,hypothetical protein,,,,,,,,,,,,,0.006,BSU17490,hypothetical protein,,,,,,,,,,,,,,,
+0.932,SAOUHSC_02422,hypothetical protein,0.009,EF1685,hemolysin III,0.005,Rv1085c,hemolysin-like protein,0.007,NCgl2498,membrane proteins,,,,0.051,BSU21790,hemolysin-3,,,,0.003,SGR_RS12605,DNA-binding protein,0.005,CA_C0947,hemolysin III-like protein,0.009,LXX_RS08320,hemolysin III,0.006,lmo1864,hemolysin
+0.932,SAOUHSC_02423,UDP-N-acetylglucosamine pyrophosphorylase,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.932,SAOUHSC_02424,hypothetical protein,,,,,,,,,,,,,0.179,BSU33350,hypothetical protein,,,,,,,,,,,,,,,
+0.887,SAOUHSC_00366,NAD(P)H-flavin oxidoreductase,0.011,EF1181,nitroreductase,,,,0.155,NCgl2735,nitroreductase,,,,0.007,BSU38110,FMN reductase,0.004,NFA_RS11950,NADPH-dependent oxidoreductase,,,,0.005,CA_C0718,nitroreductase,,,,0.145,lmo0936,nitroflavin reductase
+0.798,SAOUHSC_00772,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.776,SAOUHSC_00552,hypothetical protein,0.217,EF0466,glucosamine-6-phosphate isomerase,,,,0.007,NCgl2555,glucosamine-6-phosphate isomerase,,,,0.005,BSU35020,glucosamine-6-phosphate deaminase 1,,,,0.003,SGR_RS11200,glucosamine-6-phosphate deaminase,0.005,CA_C0187,glucosamine-6-phosphate deaminase,0.009,LXX_RS09585,multidrug transporter,0.007,lmo0957,glucosamine-6-phosphate isomerase
+0.776,SAOUHSC_00553,hypothetical protein,0.012,EF1129,3-keto-L-gulonate-6-phosphate decarboxylase,,,,,,,,,,0.028,BSU03460,3-hexulose-6-phosphate synthase,,,,,,,0.005,CA_C0396,3-hexulose-6-phosphate synthase,,,,,,
+0.776,SAOUHSC_00554,6-phospho 3-hexuloisomerase,,,,,,,,,,,,,0.028,BSU03450,3-hexulose-6-phosphate isomerase,,,,,,,0.005,CA_C0397,6-phospho 3-hexuloisomerase,,,,,,
+0.770,SAOUHSC_02643,DNA-binding response regulator,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.015,lmo2583,DNA-binding response regulator
+0.770,SAOUHSC_02644,sensor histidine kinase,,,,,,,,,,0.010,ACEL_RS08200,two-component sensor histidine kinase,,,,0.006,NFA_RS24615,two-component sensor histidine kinase,,,,,,,,,,0.015,lmo2582,histidine kinase
+0.769,SAOUHSC_02640,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.015,lmo2580,ABC transporter ATP-binding protein
+0.769,SAOUHSC_02641,permease domain-containing protein,,,,,,,0.007,NCgl1936,ABC transporter permease,,,,,,,,,,0.027,SGR_RS06315,ABC transporter substrate-binding protein,,,,,,,,,
+0.740,SAOUHSC_02125,hypothetical protein,,,,,,,,,,,,,0.005,BSU06580,hypothetical protein,,,,,,,0.006,CA_C2675,hypothetical protein,,,,0.006,lmo1763,hypothetical protein
+0.740,SAOUHSC_02126,adenylosuccinate lyase,0.007,EF2361,adenylosuccinate lyase,0.005,Rv0777,adenylosuccinate lyase PurB,0.007,NCgl1969,adenylosuccinate lyase,0.010,ACEL_RS11045,adenylosuccinate lyase,0.004,BSU06440,adenylosuccinate lyase,0.015,NFA_RS02835,adenylosuccinate lyase,0.347,SGR_RS31355,adenylosuccinate lyase,0.014,CA_C1821,adenylosuccinate lyase,0.009,LXX_RS12305,adenylosuccinate lyase,0.036,lmo1773,adenylosuccinate lyase
+0.717,SAOUHSC_00893,FMN oxidoreductase,,,,0.010,Rv1175c,"NADPH dependent 2,4-dienoyl-CoA reductase FadH",0.006,NCgl2938,NADH:flavin oxidoreductase,,,,0.007,BSU24210,NADH-dependent flavin oxidoreductase YqiG,0.004,NFA_RS06535,"NADPH-dependent 2,4-dienoyl-CoA reductase",0.003,SGR_RS28080,alkene reductase,0.005,CA_C1044,NADH:flavin oxidoreductase,0.009,LXX_RS09400,oxidoreductase,0.006,lmo2471,NADPH dehydrogenase
+0.716,SAOUHSC_00549,GTP cyclohydrolase,,,,,,,,,,,,,0.005,BSU03340,GTP cyclohydrolase folE2,,,,,,,,,,,,,,,
+0.716,SAOUHSC_00550,hypothetical protein,,,,0.006,Rv1170,1D-myo-inositol 2-acetamido-2-deoxy-alpha-D-glucopyranoside deacetylase,0.008,NCgl1055,hypothetical protein,0.010,ACEL_RS01935,GlcNAc-PI de-N-acetylase,0.011,BSU19460,deacetylase YojG,0.004,NFA_RS23590,1D-myo-inositol 2-acetamido-2-deoxy-alpha-D-glucopyranoside deacetylase,0.003,SGR_RS31965,GlcNAc-PI de-N-acetylase,,,,,,,,,
+0.716,SAOUHSC_00551,hypothetical protein,,,,,,,,,,,,,0.011,BSU19470,hypothetical protein,,,,,,,,,,,,,,,
+0.672,SAOUHSC_02406,hypothetical protein,0.009,EF2156,hypothetical protein,,,,,,,,,,0.008,BSU01760,YbbR-like domain-containing protein YbbR,,,,,,,,,,,,,0.025,lmo2119,hypothetical protein
+0.672,SAOUHSC_02407,hypothetical protein,0.009,EF2157,hypothetical protein,,,,,,,,,,0.008,BSU01750,hypothetical protein,,,,,,,0.009,CA_C3079,hypothetical protein,,,,0.019,lmo2120,hypothetical protein
+0.575,SAOUHSC_02147,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.575,SAOUHSC_02148,hypothetical protein,,,,,,,,,,,,,,,,,,,,,,0.006,CA_C0572,hypothetical protein,,,,,,
+0.547,SAOUHSC_01580,phi PVL ORF 30-like protein,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.542,SAOUHSC_01708,LamB/YcsF family protein,,,,,,,0.006,NCgl0962,LamB/YcsF family protein,0.010,ACEL_RS03030,hypothetical protein,0.016,BSU04050,hypothetical protein,0.004,NFA_RS28070,hypothetical protein,0.003,SGR_RS15800,hypothetical protein,,,,,,,,,
+0.542,SAOUHSC_01709,acetyl-CoA carboxylase biotin carboxylase,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.542,SAOUHSC_01710,acetyl-CoA carboxylase biotin carboxyl carrier protein subunit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.536,SAOUHSC_01350,hypothetical protein,0.044,EF1643,hypothetical protein,,,,,,,,,,0.007,BSU18070,glycerol-3-phosphate acyltransferase,,,,,,,0.005,CA_C2500,hypothetical protein,,,,0.007,lmo1284,hypothetical protein
+0.501,SAOUHSC_01261,competence-damage inducible protein cinA,0.096,EF3172,competence damage-inducible protein A,0.005,Rv1901,competence damage-inducible protein CinA,,,,0.010,ACEL_RS07720,cinA-like protein,0.005,BSU16930,competence-damage inducible protein,,,,,,,0.009,CA_C3586,competence damage-inducible protein A,,,,0.008,lmo1397,competence damage-inducible protein CinA

@@ -1,0 +1,1697 @@
+chromid,start,end,strand,locus_tags,products
+NC_003450.3,0,1575,1,NCgl0001,NCgl0001 (chromosomal replication initiation protein)
+NC_003450.3,11259,11768,-1,"NCgl0010, NCgl0011","NCgl0010 (hypothetical protein), NCgl0011 (hypothetical protein)"
+NC_003450.3,11830,15011,1,"NCgl0012, NCgl0013, NCg1t01, NCg1t02","NCgl0012 (DNA gyrase subunit A), NCgl0013 (hypothetical protein), NCg1t01 (tRNA-Ile), NCg1t02 (tRNA-Ala)"
+NC_003450.3,15205,16132,-1,NCgl0014,NCgl0014 (hypothetical protein)
+NC_003450.3,16313,17673,1,"NCgl0015, NCgl0016","NCgl0015 (transcriptional regulator), NCgl0016 (hypothetical protein)"
+NC_003450.3,17856,19497,-1,"NCgl0017, NCgl0018","NCgl0017 (cytochrome C biogenesis protein), NCgl0018 (protein-disulfide isomerase)"
+NC_003450.3,19704,21068,1,"NCgl0019, NCgl0020","NCgl0019 (transcriptional regulator), NCgl0020 (Zn-dependent protease with chaperone function)"
+NC_003450.3,29113,29965,-1,NCgl0027,NCgl0027 (ABC transporter permease)
+NC_003450.3,29994,33460,1,"NCgl0028, NCgl0029, NCgl0030, NCgl0031","NCgl0028 (ABC transporter ATPase), NCgl0029 (ABC transporter periplasmic component), NCgl0030 (ABC transporter permease), NCgl0031 (ABC transporter ATPase)"
+NC_003450.3,33461,34274,-1,NCgl0032,NCgl0032 (hypothetical protein)
+NC_003450.3,34329,35671,1,"NCgl0033, NCgl0034","NCgl0033 (peptidyl-prolyl cis-trans isomerase (rotamase)), NCgl0034 (hypothetical protein)"
+NC_003450.3,36243,37242,-1,NCgl0035,NCgl0035 (AraC family transcriptional regulator)
+NC_003450.3,37244,39802,1,"NCgl0036, NCgl0037, NCgl0038","NCgl0036 (ABC transporter permease), NCgl0037 (ABC transporter ATPase), NCgl0038 (siderophore-interacting protein)"
+NC_003450.3,40185,49368,-1,"NCgl0039, NCgl0040, NCgl0041, NCgl0042, NCgl0043, NCgl0044, NCgl0045, NCgl0046","NCgl0039 (septation inhibitor protein), NCgl0040 (serine/threonine protein kinase), NCgl0041 (serine/threonine protein kinase), NCgl0042 (cell division protein FtsI), NCgl0043 (cell division membrane protein), NCgl0044 (Ser/Thr phosphatase), NCgl0045 (FHA-domain-containing protein), NCgl0046 (hypothetical protein)"
+NC_003450.3,49704,49791,1,NCg1t06,NCg1t06 (tRNA-Leu)
+NC_003450.3,51622,53095,-1,NCgl0049,NCgl0049 (NAD-dependent aldehyde dehydrogenase)
+NC_003450.3,53054,54011,1,NCgl0050,NCgl0050 (phenol 2-monooxygenase)
+NC_003450.3,55625,57270,-1,"NCgl0052, NCgl0053, NCgl0054","NCgl0052 (hypothetical protein), NCgl0053 (rhodanese-related sulfurtransferase), NCgl0054 (rhodanese-related sulfurtransferase)"
+NC_003450.3,57396,57654,1,NCgl0055,NCgl0055 (hypothetical protein)
+NC_003450.3,62386,64040,-1,"NCgl0060, NCgl0061","NCgl0060 (Mg2+ and Co2+ transporter protein), NCgl0061 (4-oxalocrotonate tautomerase)"
+NC_003450.3,64162,65461,1,NCgl0062,NCgl0062 (chloride channel EriC-like protein)
+NC_003450.3,65504,66197,-1,NCgl0063,NCgl0063 (nicotinamide mononucleotide transporter)
+NC_003450.3,66598,67975,1,NCgl0064,NCgl0064 (ATPase related to phosphate starvation-inducible protein PhoH)
+NC_003450.3,68247,70186,-1,"NCgl0065, NCgl0066","NCgl0065 (hypothetical protein), NCgl0066 (H+/citrate symporter)"
+NC_003450.3,70505,72817,1,"NCgl0067, NCgl0068","NCgl0067 (two-component system sensory transduction histidine kinase), NCgl0068 (two-component system response regulator)"
+NC_003450.3,72813,73728,-1,NCgl0069,NCgl0069 (phosphoglycerate dehydrogenase or related dehydrogenase)
+NC_003450.3,73843,74275,1,NCgl0070,NCgl0070 (hypothetical protein)
+NC_003450.3,85659,86220,-1,NCgl0077,NCgl0077 (hypothetical protein)
+NC_003450.3,86317,87244,1,NCgl0078,NCgl0078 (Sir2 family NAD-dependent protein deacetylase)
+NC_003450.3,87557,89444,-1,"NCgl0079, NCgl0080","NCgl0079 (acetyltransferase or hydrolase), NCgl0080 (acetyltransferase or hydrolase)"
+NC_003450.3,89614,90448,1,NCgl0081,NCgl0081 (hypothetical protein)
+NC_003450.3,90457,90973,-1,NCgl0082,NCgl0082 (mar family transcriptional regulator)
+NC_003450.3,91173,96368,1,"NCgl0083, NCgl0084, NCgl0085, NCgl0086, NCgl0087, NCgl0088, NCgl0089","NCgl0083 (urease subunit gamma), NCgl0084 (urease subunit beta), NCgl0085 (urease subunit alpha), NCgl0086 (urease accessory protein UreE), NCgl0087 (urease accessory protein UreF), NCgl0088 (Ni2+-binding GTPase), NCgl0089 (urease accessory protein UreH)"
+NC_003450.3,98804,103435,-1,"NCgl0092, NCgl0093","NCgl0092 (hypothetical protein), NCgl0093 (HSP90 family protein)"
+NC_003450.3,103502,104912,1,NCgl0094,NCgl0094 (AMP nucleosidase)
+NC_003450.3,106626,107178,-1,NCgl0097,NCgl0097 (hypothetical protein)
+NC_003450.3,107434,110893,1,NCgl0098,NCgl0098 (proline dehydrogenase)
+NC_003450.3,118806,119589,-1,NCgl0105,NCgl0105 (DeoR family sugar metabolism transcriptional regulator)
+NC_003450.3,120020,120413,1,NCgl0106,NCgl0106 (lactoylglutathione lyase or related lyase)
+NC_003450.3,120409,123841,-1,"NCgl0107, NCgl0108, NCgl0109","NCgl0107 (phosphohistidine phosphatase SixA), NCgl0108 (mannitol-1-phosphate/altronate dehydrogenase), NCgl0109 (permease)"
+NC_003450.3,124120,126353,1,"NCgl0110, NCgl0111","NCgl0110 (DeoR family sugar metabolism transcriptional regulator), NCgl0111 (sugar (pentulose and hexulose) kinase)"
+NC_003450.3,129485,130118,-1,NCgl0115,NCgl0115 (3-methyladenine DNA glycosylase)
+NC_003450.3,130144,130801,1,NCgl0116,NCgl0116 (hypothetical protein)
+NC_003450.3,130811,131711,-1,NCgl0117,NCgl0117 (esterase/lipase)
+NC_003450.3,131821,132984,1,"NCgl0118, NCgl0119","NCgl0118 (HAD superfamily hydrolase), NCgl0119 (carbonic anhydrase/acetyltransferase)"
+NC_003450.3,132967,136565,-1,"NCgl0120, NCgl0121, NCgl0122, NCgl0123","NCgl0120 (transcriptional regulator), NCgl0121 (major facilitator superfamily permease), NCgl0122 (hypothetical protein), NCgl0123 (hypothetical protein)"
+NC_003450.3,137004,145483,1,"NCgl0124, NCgl0125, NCgl0126, NCgl0127, NCgl0128, NCgl0129","NCgl0124 (hypothetical protein), NCgl0125 (hypothetical protein), NCgl0126 (glycosyltransferase), NCgl0127 (hypothetical protein), NCgl0128 (ankyrin repeat-containing protein), NCgl0129 (permease)"
+NC_003450.3,145514,146396,-1,NCgl0130,NCgl0130 (permease)
+NC_003450.3,146521,147573,1,"NCgl0131, NCgl0132","NCgl0131 (hypothetical protein), NCgl0132 (hypothetical protein)"
+NC_003450.3,147569,147980,-1,NCgl0133,NCgl0133 (aspartate alpha-decarboxylase)
+NC_003450.3,148121,149783,1,NCgl0134,NCgl0134 (hypothetical protein)
+NC_003450.3,149790,151454,-1,"NCgl0135, NCgl0136","NCgl0135 (ammonia monooxygenase), NCgl0136 (hypothetical protein)"
+NC_003450.3,151589,152817,1,"NCgl0137, NCgl0138","NCgl0137 (permease), NCgl0138 (hypothetical protein)"
+NC_003450.3,156143,156830,-1,NCgl0140,NCgl0140 (acetyltransferase)
+NC_003450.3,156847,157540,1,NCgl0141,NCgl0141 (alkylated DNA repair protein)
+NC_003450.3,161359,162268,-1,NCgl0148,NCgl0148 (hypothetical protein)
+NC_003450.3,162474,163606,1,"NCgl0149, NCgl0150","NCgl0149 (translation initiation inhibitor), NCgl0150 (hypothetical protein)"
+NC_003450.3,163685,165614,-1,NCgl0151,NCgl0151 (metalloendopeptidase)
+NC_003450.3,165716,167422,1,"NCgl0152, NCgl0153","NCgl0152 (hypothetical protein), NCgl0153 (hypothetical protein)"
+NC_003450.3,167833,168595,-1,NCgl0154,NCgl0154 (transcriptional regulator)
+NC_003450.3,169037,180714,1,"NCgl0155, NCgl0156, NCgl0157, NCgl0158, NCgl0159, NCgl0160, NCgl0161, NCgl0162, NCgl0163, NCgl0164","NCgl0155 (5-dehydro-2-deoxygluconokinase), NCgl0156 (hypothetical protein), NCgl0157 (NAD-dependent aldehyde dehydrogenase), NCgl0158 (5-deoxy-glucuronate isomerase), NCgl0159 (3D-(3,5/4)-trihydroxycyclohexane-1,2-dione acylhydrolase (decyclizing)), NCgl0160 (hypothetical protein), NCgl0161 (dehydrogenase), NCgl0162 (sugar phosphate isomerase/epimerase), NCgl0163 (major facilitator superfamily permease), NCgl0164 (dehydrogenase)"
+NC_003450.3,181683,182679,-1,NCgl0167,NCgl0167 (transcriptional regulator)
+NC_003450.3,182818,185090,1,"NCgl0168, NCgl0169","NCgl0168 (dehydrogenase), NCgl0169 (sugar phosphate isomerase/epimerase)"
+NC_003450.3,188296,189736,-1,"NCgl0175, NCgl0176","NCgl0175 (hypothetical protein), NCgl0176 (transcriptional regulator)"
+NC_003450.3,189919,190324,1,NCgl0177,NCgl0177 (hypothetical protein)
+NC_003450.3,190699,192175,-1,NCgl0178,NCgl0178 (major facilitator superfamily permease)
+NC_003450.3,192856,194467,1,NCgl0179,NCgl0179 (transposase)
+NC_003450.3,194600,195038,-1,NCgl0180,NCgl0180 (PAS/PAC domain-containing protein)
+NC_003450.3,195239,201292,1,"NCgl0181, NCgl0182","NCgl0181 (glutamine 2-oxoglutarate aminotransferase large subunit), NCgl0182 (glutamate synthase)"
+NC_003450.3,209206,211759,-1,"NCgl0186, NCgl0187, NCgl0188","NCgl0186 (short chain dehydrogenase), NCgl0187 (FAD/FMN-containing dehydrogenase), NCgl0188 (hypothetical protein)"
+NC_003450.3,211794,215162,1,"NCgl0189, NCgl0190, NCgl0191, NCgl0192, NCgl0193, NCgl0194","NCgl0189 (hypothetical protein), NCgl0190 (hypothetical protein), NCgl0191 (hypothetical protein), NCgl0192 (hypothetical protein), NCgl0193 (hypothetical protein), NCgl0194 (hypothetical protein)"
+NC_003450.3,217137,218845,-1,"NCgl0197, NCgl0198","NCgl0197 (ABC transporter ATPase), NCgl0198 (ABC transporter permease)"
+NC_003450.3,218948,220154,1,NCgl0199,NCgl0199 (selenocysteine lyase)
+NC_003450.3,220150,221655,-1,"NCgl0200, NCgl0201","NCgl0200 (NADPH:quinone reductase or related Zn-dependent oxidoreductase), NCgl0201 (hypothetical protein)"
+NC_003450.3,221749,222210,1,"NCg1t07, NCgl0202","NCg1t07 (tRNA-Ser), NCgl0202 (hypothetical protein)"
+NC_003450.3,222206,223694,-1,NCgl0203,NCgl0203 (Na+/alanine symporter)
+NC_003450.3,224353,225247,1,NCgl0204,NCgl0204 (hypothetical protein)
+NC_003450.3,225238,230514,-1,"NCgl0205, NCgl0206, NCgl0207, NCgl0208, NCgl0209, NCgl0210, NCgl0211","NCgl0205 (molybdopterin biosynthesis protein MoeB), NCgl0206 (molybdopterin converting factor, large subunit), NCgl0207 (molybdopterin biosynthesis enzyme), NCgl0208 (molybdenum cofactor biosynthesis protein MoaC), NCgl0209 (molybdopterin biosynthesis enzyme), NCgl0210 (ABC transporter permease), NCgl0211 (ABC transporter periplasmic component)"
+NC_003450.3,230673,230931,1,NCgl0212,NCgl0212 (hypothetical protein)
+NC_003450.3,230927,233282,-1,"NCgl0213, NCgl0214, NCgl0215","NCgl0213 (ABC transporter ATPase), NCgl0214 (hypothetical protein), NCgl0215 (aminotransferase)"
+NC_003450.3,233408,233602,1,"NCg1t08, NCg1t09","NCg1t08 (tRNA-Ser), NCg1t09 (tRNA-Arg)"
+NC_003450.3,235447,236212,-1,NCgl0218,NCgl0218 (helix-turn-helix containing transcriptional regulator)
+NC_003450.3,236325,239528,1,"NCgl0219, NCgl0220, NCgl0221","NCgl0219 (Zn-dependent alcohol dehydrogenase), NCgl0220 (monoamine oxidase), NCgl0221 (Mg/Co/Ni transporter MgtE)"
+NC_003450.3,241879,242902,-1,NCgl0223,NCgl0223 (prephenate dehydrogenase)
+NC_003450.3,242939,248575,1,"NCgl0224, NCgl0225, NCgl0226, NCg1t11, NCgl0227, NCgl0228, NCgl0229","NCgl0224 (hypothetical protein), NCgl0225 (cytosine/adenosine deaminase), NCgl0226 (hypothetical protein), NCg1t11 (tRNA-Ser), NCgl0227 (hypothetical protein), NCgl0228 (RND superfamily drug exporter), NCgl0229 (queuine/archaeosine tRNA-ribosyltransferase)"
+NC_003450.3,248553,249306,-1,NCgl0230,NCgl0230 (hypothetical protein)
+NC_003450.3,249427,252833,1,"NCgl0231, NCgl0232, NCgl0233","NCgl0231 (malic enzyme protein), NCgl0232 (ABC-type multidrug/protein/lipid transport system, ATPase), NCgl0233 (glutamyl-Q tRNA(Asp) synthetase)"
+NC_003450.3,256221,256309,-1,NCg1t12,NCg1t12 (tRNA-Ser)
+NC_003450.3,256616,262058,1,"NCgl0237, NCgl0238, NCgl0239, NCgl0240, NCgl0241","NCgl0237 (aspartate transaminase), NCgl0238 (hypothetical protein), NCgl0239 (DNA polymerase III subunits gamma and tau), NCgl0240 (hypothetical protein), NCgl0241 (recombination protein RecR)"
+NC_003450.3,268254,269124,-1,NCgl0246,NCgl0246 (hypothetical protein)
+NC_003450.3,269370,273197,1,"NCgl0247, NCgl0248, NCgl0249","NCgl0247 (aspartate kinase), NCgl0248 (aspartate-semialdehyde dehydrogenase), NCgl0249 (hypothetical protein)"
+NC_003450.3,273538,274120,-1,NCgl0250,NCgl0250 (RNA polymerase sigma factor)
+NC_003450.3,274323,275874,1,NCgl0251,NCgl0251 (catalase)
+NC_003450.3,275953,276763,-1,"NCgl0252, NCgl0253","NCgl0252 (hypothetical protein), NCgl0253 (transcriptional regulator)"
+NC_003450.3,276864,277907,1,"NCgl0254, NCgl0255","NCgl0254 (branched-chain amino acid ABC transporter permease), NCgl0255 (hypothetical protein)"
+NC_003450.3,277983,278732,-1,"NCgl0256, NCgl0257","NCgl0256 (hypothetical protein), NCgl0257 (transcriptional regulator)"
+NC_003450.3,278858,280282,1,"NCgl0258, NCgl0259","NCgl0258 (arsenite efflux pump ACR3), NCgl0259 (protein-tyrosine-phosphatase)"
+NC_003450.3,280345,286208,-1,"NCgl0260, NCgl0261, NCgl0262, NCgl0263, NCgl0264, NCgl0265","NCgl0260 (monovalent cation/H+ antiporter subunit G), NCgl0261 (monovalent cation/H+ antiporter subunit F), NCgl0262 (monovalent cation/H+ antiporter subunit E), NCgl0263 (monovalent cation/H+ antiporter subunit D), NCgl0264 (monovalent cation/H+ antiporter subunit C), NCgl0265 (monovalent cation/H+ antiporter subunit A)"
+NC_003450.3,286381,287860,1,NCgl0266,NCgl0266 (hypothetical protein)
+NC_003450.3,289127,291755,-1,"NCgl0268, NCgl0269, NCgl0270","NCgl0268 (two-component system, response regulator), NCgl0269 (two-component system, sensory transduction histidine kinase), NCgl0270 (hypothetical protein)"
+NC_003450.3,291799,292420,1,NCgl0271,NCgl0271 (hypothetical protein)
+NC_003450.3,292465,293502,-1,"NCg1t13, NCgl0272","NCg1t13 (tRNA-Pro), NCgl0272 (phosphohydrolase)"
+NC_003450.3,293538,293994,1,NCgl0273,NCgl0273 (hypothetical protein)
+NC_003450.3,294000,296388,-1,NCgl0274,NCgl0274 (membrane carboxypeptidase)
+NC_003450.3,297054,297405,1,NCgl0275,NCgl0275 (regulatory protein)
+NC_003450.3,301508,302024,-1,NCgl0280,NCgl0280 (ranscriptional regulator)
+NC_003450.3,302166,306703,1,"NCgl0281, NCgl0282, NCgl0283, NCgl0284, NCgl0285","NCgl0281 (dehydrogenase), NCgl0282 (4-hydroxyphenyl-beta-ketoacyl-CoA hydrolase), NCgl0283 (acyl-CoA dehydrogenase), NCgl0284 (acyl dehydratase), NCgl0285 (Zn-dependent hydrolase)"
+NC_003450.3,307723,307909,-1,NCgl0287,NCgl0287 (hypothetical protein)
+NC_003450.3,307954,311328,1,"NCgl0288, NCgl0289, NCgl0290, NCgl0291","NCgl0288 (EndoIII-related endonuclease), NCgl0289 (thiol-disulfide isomerase), NCgl0290 (NTP pyrophosphohydrolase), NCgl0291 (trypsin-like serine protease)"
+NC_003450.3,313621,314464,-1,NCgl0294,NCgl0294 (phosphoserine phosphatase)
+NC_003450.3,314943,317896,1,"NCgl0295, NCgl0296, NCgl0297","NCgl0295 (hypothetical protein), NCgl0296 (), NCgl0297 (ATPase involved in pili and flagella biosynthesis)"
+NC_003450.3,319332,321690,-1,NCgl0302,NCgl0302 (helicase)
+NC_003450.3,322006,322210,1,NCgl0303,NCgl0303 (cold shock protein)
+NC_003450.3,326691,328152,-1,NCgl0306,NCgl0306 (adenylate cyclase)
+NC_003450.3,328282,329704,1,"NCgl0307, NCg1t14","NCgl0307 (DNA polymerase III subunit delta'), NCg1t14 (tRNA-Thr)"
+NC_003450.3,340191,341276,-1,"NCgl0318, NCgl0319","NCgl0318 (hypothetical protein), NCgl0319 (cell wall biogenesis glycosyltransferase)"
+NC_003450.3,341355,343454,1,"NCgl0320, NCgl0321","NCgl0320 (hypothetical protein), NCgl0321 (glycosyltransferase)"
+NC_003450.3,346957,351948,-1,"NCgl0324, NCgl0325, NCgl0326, NCgl0327, NCgl0328","NCgl0324 (Zn-dependent alcohol dehydrogenase), NCgl0325 (dTDP-glucose pyrophosphorylase), NCgl0326 (dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme), NCgl0327 (dTDP-D-glucose 4,6-dehydratase), NCgl0328 (nitroreductase)"
+NC_003450.3,352692,353640,1,NCgl0329,NCgl0329 (periplasmic component of ABC-type Fe3+-siderophore transport system)
+NC_003450.3,362053,363151,-1,NCgl0336,NCgl0336 (esterase)
+NC_003450.3,363823,368646,1,"NCgl0337, NCgl0338, NCgl0339, NCgl0340","NCgl0337 (chromosome partitioning ATPase), NCgl0338 (protein-tyrosine-phosphatase), NCgl0339 (hypothetical protein), NCgl0340 (nucleoside-diphosphate sugar epimerase)"
+NC_003450.3,378664,380842,-1,"NCgl0349, NCgl0350","NCgl0349 (hypothetical protein), NCgl0350 (acyltransferase)"
+NC_003450.3,381947,383111,1,NCgl0351,NCgl0351 (UDP-glucose 6-dehydrogenase)
+NC_003450.3,385370,386195,-1,NCgl0353,NCgl0353 (cell wall biogenesis glycosyltransferase)
+NC_003450.3,386555,387203,1,NCgl0354,NCgl0354 (acetyltransferase)
+NC_003450.3,390783,392193,-1,NCgl0358,NCgl0358 (transcriptional regulator)
+NC_003450.3,392704,396935,1,"NCgl0359, NCgl0360, NCgl0361, NCgl0362, NCgl0363","NCgl0359 (hypothetical protein), NCgl0360 (succinate dehydrogenase flavoprotein subunit), NCgl0361 (succinate dehydrogenase/fumarate reductase iron-sulfur subunit), NCgl0362 (hypothetical protein), NCgl0363 (hypothetical protein)"
+NC_003450.3,397228,398206,-1,NCgl0364,NCgl0364 (hypothetical protein)
+NC_003450.3,398328,400344,1,"NCgl0365, NCgl0366, NCgl0367","NCgl0365 (hypothetical protein), NCgl0366 (hypothetical protein), NCgl0367 (hypothetical protein)"
+NC_003450.3,404504,405419,-1,NCgl0371,NCgl0371 (formyltetrahydrofolate deformylase)
+NC_003450.3,405473,406148,1,NCgl0372,NCgl0372 (2-deoxyribose-5-phosphate aldolase)
+NC_003450.3,407405,410476,-1,"NCgl0374, NCgl0375, NCgl0376","NCgl0374 (hypothetical protein), NCgl0375 (cation transport ATPase), NCgl0376 (hypothetical protein)"
+NC_003450.3,410706,417442,1,"NCgl0377, NCgl0378, NCgl0379, NCgl0380, NCgl0381, NCgl0382","NCgl0377 (hypothetical protein), NCgl0378 (ABC transporter periplasmic component), NCgl0379 (ABC transporter permease), NCgl0380 (ABC transporter ATPase), NCgl0381 (hypothetical protein), NCgl0382 (hypothetical protein)"
+NC_003450.3,418437,419757,-1,"NCgl0384, NCgl0385","NCgl0384 (hypothetical protein), NCgl0385 (hypothetical protein)"
+NC_003450.3,419781,421519,1,"NCgl0386, NCgl0387","NCgl0386 (UDP-N-acetylenolpyruvoylglucosamine reductase), NCgl0387 (hypothetical protein)"
+NC_003450.3,422086,423793,-1,NCgl0388,NCgl0388 (long-chain-fatty-acid--CoA ligase)
+NC_003450.3,423877,425134,1,NCgl0389,NCgl0389 (glycosyltransferase)
+NC_003450.3,429434,433028,-1,"NCgl0394, NCgl0395","NCgl0394 (ABC-type transport system permease), NCgl0395 (hypothetical protein)"
+NC_003450.3,433145,435698,1,"NCgl0396, NCgl0397, NCgl0398","NCgl0396 (exopolyphosphatase), NCgl0397 (hypothetical protein), NCgl0398 (pyrroline-5-carboxylate reductase)"
+NC_003450.3,436976,438044,-1,NCgl0400,NCgl0400 (phosphoserine phosphatase)
+NC_003450.3,438178,440817,1,"NCgl0401, NCgl0402, NCgl0403","NCgl0401 (hypothetical protein), NCgl0402 (glutamyl-tRNA reductase), NCgl0403 (porphobilinogen deaminase)"
+NC_003450.3,441597,442482,-1,NCgl0405,NCgl0405 (transcriptional regulator)
+NC_003450.3,442757,447389,1,"NCgl0406, NCgl0407, NCgl0408, NCgl0409","NCgl0406 (major facilitator superfamily permease), NCgl0407 (sugar phosphate isomerase/epimerase), NCgl0408 (3-dehydroquinate dehydratase), NCgl0409 (quinate/shikimate dehydrogenase)"
+NC_003450.3,448126,451913,-1,"NCgl0411, NCgl0412, NCgl0413","NCgl0411 (ABC transporter ATPase), NCgl0412 (ABC transporter permease), NCgl0413 (ABC transporter periplasmic component)"
+NC_003450.3,452636,468661,1,"NCgl0414, NCgl0415, NCgl0416, NCgl0417, NCgl0418, NCgl0419, NCgl0420, NCgl0421, NCgl0422, NCgl0423, NCgl0424, NCgl0425, NCgl0426, NCgl0427","NCgl0414 (uroporphyrinogen-III synthase), NCgl0415 (hypothetical protein), NCgl0416 (delta-aminolevulinic acid dehydratase), NCgl0417 (hypothetical protein), NCgl0418 (hypothetical protein), NCgl0419 (cation transport ATPase), NCgl0420 (uroporphyrinogen decarboxylase), NCgl0421 (protoporphyrinogen oxidase), NCgl0422 (glutamate-1-semialdehyde aminotransferase), NCgl0423 (phosphoglycerate mutase), NCgl0424 (thiol-disulfide isomerase or thioredoxin), NCgl0425 (cytochrome C biogenesis protein), NCgl0426 (cytochrome C biosynthesis protein ResB), NCgl0427 (cytochrome C assembly protein)"
+NC_003450.3,470653,471420,-1,"NCgl0430, NCgl0431","NCgl0430 (ArsR family transcriptional regulator), NCgl0431 (hypothetical protein)"
+NC_003450.3,471598,471850,1,NCgl0432,NCgl0432 (hypothetical protein)
+NC_003450.3,471911,472808,-1,NCgl0433,"NCgl0433 (1,4-dihydroxy-2-naphthoate octaprenyltransferase)"
+NC_003450.3,472947,473814,1,NCgl0434,NCgl0434 (hypothetical protein)
+NC_003450.3,484102,485355,-1,"NCgl0446, NCgl0447","NCgl0446 (1,4-dihydroxy-2-naphthoyl-CoA synthase), NCgl0447 (pterin-4a-carbinolamine dehydratase)"
+NC_003450.3,485353,489103,1,"NCgl0448, NCgl0449, NCgl0450, NCgl0451","NCgl0448 (peptidase E), NCgl0449 (O-succinylbenzoate synthase), NCgl0450 (2-succinyl-5-enolpyruvyl-6-hydroxy-3- cyclohexene-1-carboxylic-acid synthase), NCgl0451 (hypothetical protein)"
+NC_003450.3,492641,493916,-1,NCgl0455,NCgl0455 (oxidoreductase)
+NC_003450.3,494060,495284,1,"NCgl0456, NCg1t15","NCgl0456 (geranylgeranyl pyrophosphate synthase), NCg1t15 (tRNA-Tyr)"
+NC_003450.3,499921,501436,-1,NCgl0461,NCgl0461 (regulatory protein)
+NC_003450.3,501576,505572,1,"NCgl0462, NCgl0463, NCgl0464","NCgl0462 (4-aminobutyrate aminotransferase), NCgl0463 (NAD-dependent aldehyde dehydrogenase), NCgl0464 (amino acid permease)"
+NC_003450.3,521675,522371,-1,NCgl0475,NCgl0475 (hypothetical protein)
+NC_003450.3,522693,523536,1,"NCgl0476, NCgl0477","NCgl0476 (30S ribosomal protein S12), NCgl0477 (30S ribosomal protein S7)"
+NC_003450.3,523907,526070,-1,NCgl0479,NCgl0479 (hypothetical protein)
+NC_003450.3,526375,527566,1,NCgl0480,NCgl0480 (elongation factor Tu)
+NC_003450.3,528775,531791,-1,"NCgl0482, NCgl0483, NCgl0484","NCgl0482 (ABC transporter ATPase), NCgl0483 (ABC transporter permease), NCgl0484 (ABC transporter permease)"
+NC_003450.3,532148,532526,1,NCgl0485,NCgl0485 (acetyl-CoA hydrolase)
+NC_003450.3,538714,539413,-1,NCgl0498,NCgl0498 (hypothetical protein)
+NC_003450.3,539740,541001,1,"NCgl0499, NCgl0500, NCgl0501","NCgl0499 (50S ribosomal protein L14), NCgl0500 (50S ribosomal protein L24), NCgl0501 (50S ribosomal protein L5)"
+NC_003450.3,542086,546889,-1,"NCgl0503, NCgl0504, NCgl0505, NCgl0506, NCgl0507","NCgl0503 (aldo/keto reductase), NCgl0504 (hypothetical protein), NCgl0505 (formate dehydrogenase accessory protein), NCgl0506 (hypothetical protein), NCgl0507 (formate dehydrogenase)"
+NC_003450.3,547457,548087,1,NCgl0508,NCgl0508 (hypothetical protein)
+NC_003450.3,554448,554934,-1,NCgl0514,NCgl0514 (acetyltransferase)
+NC_003450.3,555330,558011,1,"NCgl0515, NCgl0516, NCgl0517, NCgl0518, NCgl0519, NCgl0520","NCgl0515 (30S ribosomal protein S8), NCgl0516 (50S ribosomal protein L6), NCgl0517 (50S ribosomal protein L18), NCgl0518 (30S ribosomal protein S5), NCgl0519 (50S ribosomal protein L30), NCgl0520 (50S ribosomal protein L15)"
+NC_003450.3,568268,569075,-1,NCgl0531,NCgl0531 (transcriptional regulator)
+NC_003450.3,569451,571319,1,"NCgl0532, NCgl0533","NCgl0532 (preprotein translocase subunit SecY), NCgl0533 (adenylate kinase)"
+NC_003450.3,580432,581221,-1,"NCgl0544, NCgl0545","NCgl0544 (acetyltransferase), NCgl0545 (hypothetical protein)"
+NC_003450.3,581405,585623,1,"NCgl0546, NCgl0547, NCgl0548","NCgl0546 (hypothetical protein), NCgl0547 (FAD/FMN-containing dehydrogenase), NCgl0548 (cyclopropane-fatty-acyl-phospholipid synthase)"
+NC_003450.3,586395,589024,-1,"NCgl0550, NCgl0551","NCgl0550 (subtilisin-like serine protease), NCgl0551 (hypothetical protein)"
+NC_003450.3,589250,593764,1,"NCgl0552, NCgl0553","NCgl0552 (DNA segregation ATPase FtsK/SpoIIIE family protein), NCgl0553 (hypothetical protein)"
+NC_003450.3,600018,600876,-1,NCgl0562,NCgl0562 (hypothetical protein)
+NC_003450.3,600970,602577,1,"NCgl0563, NCgl0564","NCgl0563 (alanine racemase), NCgl0564 (hypothetical protein)"
+NC_003450.3,612414,612714,-1,NCgl0574,NCgl0574 (hypothetical protein)
+NC_003450.3,613155,614750,1,"NCgl0575, NCgl0576","NCgl0575 (RNA polymerase sigma factor SigD), NCgl0576 (hypothetical protein)"
+NC_003450.3,614799,615189,-1,NCgl0577,NCgl0577 (hypothetical protein)
+NC_003450.3,615335,618097,1,"NCgl0578, NCgl0579","NCgl0578 (inosine 5'-monophosphate dehydrogenase), NCgl0579 (inosine 5-monophosphate dehydrogenase)"
+NC_003450.3,618089,618995,-1,NCgl0580,NCgl0580 (hypothetical protein)
+NC_003450.3,619085,621575,1,"NCgl0581, NCgl0582","NCgl0581 (transcriptional regulator), NCgl0582 (GMP synthase)"
+NC_003450.3,622456,623635,-1,NCgl0584,NCgl0584 (hypothetical protein)
+NC_003450.3,623883,626003,1,"NCgl0585, NCgl0586, NCgl0587","NCgl0585 (two-component system sensor kinase), NCgl0586 (two-component system response regulator), NCgl0587 (hypothetical protein)"
+NC_003450.3,626066,627395,-1,"NCgl0588, NCgl0589","NCgl0588 (hypothetical protein), NCgl0589 (hypothetical protein)"
+NC_003450.3,627762,630143,1,"NCgl0590, NCgl0591","NCgl0590 (hypothetical protein), NCgl0591 (hypothetical protein)"
+NC_003450.3,630147,630786,-1,NCgl0592,NCgl0592 (hypothetical protein)
+NC_003450.3,630948,631812,1,NCgl0593,NCgl0593 (hypothetical protein)
+NC_003450.3,631820,639462,-1,"NCgl0594, NCgl0595, NCgl0596, NCgl0597, NCgl0598, NCgl0599, NCgl0600","NCgl0594 (prenyltransferase), NCgl0595 (C50 carotenoid epsilon cyclase), NCgl0596 (C50 carotenoid epsilon cyclase), NCgl0597 (phytoene dehydrogenase), NCgl0598 (phytoene synthase), NCgl0599 (RND superfamily drug exporter), NCgl0600 (geranylgeranyl pyrophosphate synthase)"
+NC_003450.3,639623,640211,1,NCgl0601,NCgl0601 (MarR family transcriptional regulator)
+NC_003450.3,640228,640879,-1,NCgl0602,NCgl0602 (lipocalin)
+NC_003450.3,640952,642560,1,NCgl0603,NCgl0603 (nucleoside-diphosphate-sugar epimerase)
+NC_003450.3,642552,644001,-1,NCgl0604,NCgl0604 (deoxyribodipyrimidine photolyase)
+NC_003450.3,644025,644781,1,NCgl0605,NCgl0605 (cell wall biogenesis glycosyltransferase)
+NC_003450.3,650388,651288,-1,NCgl0610,NCgl0610 (ABC transporter periplasmic component)
+NC_003450.3,651447,657218,1,"NCgl0611, NCgl0612, NCgl0613, NCgl0614","NCgl0611 (error-prone DNA polymerase), NCgl0612 (hypothetical protein), NCgl0613 (hypothetical protein), NCgl0614 (Mn-dependent transcriptional regulator)"
+NC_003450.3,657201,658002,-1,NCgl0615,NCgl0615 (hypothetical protein)
+NC_003450.3,658154,660541,1,"NCgl0616, NCgl0617, NCgl0618","NCgl0616 (NAD-dependent deacetylase), NCgl0617 (cytosine/adenosine deaminase), NCgl0618 (ABC-type Fe3+-siderophores transport system, periplasmic component)"
+NC_003450.3,660646,661120,-1,NCgl0619,NCgl0619 (SpoU class rRNA methylase)
+NC_003450.3,661165,662377,1,"NCgl0620, NCgl0621","NCgl0620 (bifunctional 5,10-methylene-tetrahydrofolate dehydrogenase/ 5,10-methylene-tetrahydrofolate cyclohydrolase), NCgl0621 (hypothetical protein)"
+NC_003450.3,666456,667770,-1,NCgl0625,NCgl0625 (O-acetylhomoserine aminocarboxypropyltransferase)
+NC_003450.3,668188,670468,1,NCgl0626,"NCgl0626 (carbon starvation protein, membrane protein)"
+NC_003450.3,677827,684925,-1,"NCgl0634, NCgl0635, NCgl0636, NCgl0637, NCgl0638, NCgl0639","NCgl0634 (monomeric isocitrate dehydrogenase (NADP+)), NCgl0635 (hypothetical protein), NCgl0636 (ABC transporter ATPase), NCgl0637 (ABC transporter permease), NCgl0638 (ABC transporter permease), NCgl0639 (ABC transporter periplasmic component)"
+NC_003450.3,685108,688010,1,"NCgl0640, NCgl0641, NCgl0642","NCgl0640 (arabinose efflux permease), NCgl0641 (exonuclease III), NCgl0642 (hypothetical protein)"
+NC_003450.3,688912,691722,-1,"NCgl0644, NCgl0645, NCgl0646","NCgl0644 (ABC transporter periplasmic component), NCgl0645 (ABC transporter ATPase), NCgl0646 (ABC transporter permease)"
+NC_003450.3,691881,695077,1,"NCgl0647, NCgl0648, NCgl0649","NCgl0647 (tryptophanyl-tRNA synthetase), NCgl0648 (hypothetical protein), NCgl0649 (hypothetical protein)"
+NC_003450.3,696765,699182,-1,"NCgl0651, NCgl0652, NCgl0653","NCgl0651 (hypothetical protein), NCgl0652 (hypothetical protein), NCgl0653 (hypothetical protein)"
+NC_003450.3,699280,700384,1,"NCgl0654, NCgl0655","NCgl0654 (uracil phosphoribosyltransferase), NCgl0655 (transcriptional regulator)"
+NC_003450.3,700380,701973,-1,NCgl0656,NCgl0656 (phosphomannomutase)
+NC_003450.3,702080,703265,1,NCgl0657,NCgl0657 (metal-dependent amidase/aminoacylase/carboxypeptidase)
+NC_003450.3,710516,711605,-1,NCgl0662,NCgl0662 (G3E family GTPase)
+NC_003450.3,711723,716286,1,"NCgl0663, NCgl0664, NCgl0665, NCgl0666","NCgl0663 (thioredoxin reductase), NCgl0664 (2-methylcitrate dehydratase), NCgl0665 (PEP phosphonomutase or related enzyme), NCgl0666 (citrate synthase)"
+NC_003450.3,716282,718009,-1,"NCgl0667, NCgl0668","NCgl0667 (hypothetical protein), NCgl0668 (transcriptional regulator)"
+NC_003450.3,718170,718353,1,NCgl0669,NCgl0669 (hypothetical protein)
+NC_003450.3,720543,721449,-1,NCgl0671,NCgl0671 (thiosulfate sulfurtransferase)
+NC_003450.3,721776,722844,1,NCgl0672,NCgl0672 (hypothetical protein)
+NC_003450.3,722921,723338,-1,NCgl0673,NCgl0673 (hypothetical protein)
+NC_003450.3,723411,725562,1,NCgl0674,NCgl0674 (acyltransferase)
+NC_003450.3,728692,730324,-1,NCgl0678,NCgl0678 (detergent sensitivity rescuer dtsR1)
+NC_003450.3,730492,735343,1,"NCgl0679, NCgl0680, NCgl0681, NCgl0682, NCgl0683","NCgl0679 (biotin--protein ligase), NCgl0680 (hypothetical protein), NCgl0681 (5-(carboxyamino)imidazole ribonucleotide synthase), NCgl0682 (K+ transporter), NCgl0683 (hypothetical protein)"
+NC_003450.3,738669,741016,-1,"NCgl0688, NCgl0689","NCgl0688 (transposase), NCgl0689 (3-ketoacyl-ACP reductase)"
+NC_003450.3,741396,741768,1,NCgl0690,NCgl0690 (hypothetical protein)
+NC_003450.3,741814,742381,-1,NCgl0691,NCgl0691 (hypothetical protein)
+NC_003450.3,742408,742831,1,NCgl0692,NCgl0692 (hypothetical protein)
+NC_003450.3,747027,748026,-1,NCgl0698,NCgl0698 (ABC transporter ATPase)
+NC_003450.3,748019,748445,1,NCgl0699,NCgl0699 (hypothetical protein)
+NC_003450.3,777154,778711,-1,NCgl0708,NCgl0708 (transcriptional regulator)
+NC_003450.3,779040,779913,1,NCgl0709,NCgl0709 (glycosyltransferase)
+NC_003450.3,782158,782563,-1,NCgl0712,NCgl0712 (hypothetical protein)
+NC_003450.3,782711,786827,1,"NCgl0713, NCgl0714, NCgl0715, NCgl0716","NCgl0713 (hypothetical protein), NCgl0714 (phosphomannomutase), NCgl0715 (hypothetical protein), NCgl0716 (phosphomannose isomerase)"
+NC_003450.3,787166,787952,-1,NCgl0717,NCgl0717 (hypothetical protein)
+NC_003450.3,788195,795304,1,"NCgl0718, NCgl0719, NCgl0720, NCgl0721, NCgl0722, NCgl0723, NCgl0724","NCgl0718 (hypothetical protein), NCgl0719 (adenosylhomocysteinase), NCgl0720 (thymidylate kinase), NCgl0721 (two-component system response regulator), NCgl0722 (two-component system sensory transduction histidine kinase), NCgl0723 (lipoprotein LpqB), NCgl0724 (hypothetical protein)"
+NC_003450.3,798783,799167,-1,NCgl0727a,NCgl0727a (hypothetical protein)
+NC_003450.3,799283,800203,1,"NCgl0727, NCgl0728","NCgl0727 (hypothetical protein), NCgl0728 (hypothetical protein)"
+NC_003450.3,800204,802479,-1,"NCgl0729, NCgl0730","NCgl0729 (hypothetical protein), NCgl0730 (3-phosphoshikimate 1-carboxyvinyltransferase)"
+NC_003450.3,802507,803131,1,NCgl0731,NCgl0731 (hypothetical protein)
+NC_003450.3,803127,804240,-1,NCgl0732,NCgl0732 (hypothetical protein)
+NC_003450.3,804407,805300,1,"NCgl0733, NCgl0734a","NCgl0733 (RNA polymerase sigma factor RpoE), NCgl0734a (anti-sigma factor)"
+NC_003450.3,805531,805792,-1,NCgl0734,NCgl0734 (hypothetical protein)
+NC_003450.3,806317,806740,1,NCgl0735,NCgl0735 (hypothetical protein)
+NC_003450.3,806736,809217,-1,"NCgl0736, NCgl0737","NCgl0736 (hypothetical protein), NCgl0737 (helicase)"
+NC_003450.3,809285,821290,1,"NCgl0738, NCgl0739, NCgl0740, NCgl0741, NCgl0742, NCgl0743, NCgl0744, NCgl0745","NCgl0738 (hypothetical protein), NCgl0739 (hypothetical protein), NCgl0740 (hypothetical protein), NCgl0741 (helicase), NCgl0742 (helicase), NCgl0743 (NAD-binding component of Kef-type K+ transport system), NCgl0744 (NTP pyrophosphohydrolase), NCgl0745 (helicase)"
+NC_003450.3,821286,822087,-1,NCgl0746,NCgl0746 (hypothetical protein)
+NC_003450.3,822183,822672,1,NCgl0747,NCgl0747 (hypothetical protein)
+NC_003450.3,822676,824104,-1,NCgl0748,NCgl0748 (hypothetical protein)
+NC_003450.3,824189,825242,1,NCgl0749,NCgl0749 (hypothetical protein)
+NC_003450.3,825992,826517,-1,NCgl0751,NCgl0751 (hypothetical protein)
+NC_003450.3,826615,829573,1,NCgl0752,NCgl0752 (hypothetical protein)
+NC_003450.3,829623,830985,-1,NCgl0753,NCgl0753 (transcriptional regulator)
+NC_003450.3,831014,832743,1,"NCgl0754, NCgl0755, NCg1t20","NCgl0754 (pyridoxal biosynthesis lyase PdxS), NCgl0755 (glutamine amidotransferase subunit PdxT), NCg1t20 (tRNA-Met)"
+NC_003450.3,832791,833157,-1,NCgl0756,NCgl0756 (hypothetical protein)
+NC_003450.3,833571,834636,1,NCgl0757,NCgl0757 (hypothetical protein)
+NC_003450.3,841513,843178,-1,"NCgl0765, NCgl0766","NCgl0765 (fructose-1,6-bisphosphatase), NCgl0766 (fructose-1,6-bisphosphatase)"
+NC_003450.3,843256,844363,1,NCgl0767,NCgl0767 (peptide chain release factor 2)
+NC_003450.3,850408,850999,-1,NCgl0775,NCgl0775 (hypothetical protein)
+NC_003450.3,851350,852367,1,NCgl0776,"NCgl0776 (ABC-type cobalamin/Fe3+-siderophore transport system, periplasmic component)"
+NC_003450.3,862749,867317,-1,"NCgl0781, NCgl0782, NCgl0783","NCgl0781 (hypothetical protein), NCgl0782 (helicase), NCgl0783 (hypothetical protein)"
+NC_003450.3,867382,867574,1,NCgl0784,NCgl0784 (hypothetical protein)
+NC_003450.3,867799,868381,-1,NCgl0785,NCgl0785 (hypothetical protein)
+NC_003450.3,868937,869321,1,NCgl0786,NCgl0786 (cold shock protein)
+NC_003450.3,869375,871398,-1,"NCgl0787, NCgl0788, NCgl0789","NCgl0787 (hypothetical protein), NCgl0788 (glutamine cyclotransferase), NCgl0789 (hypothetical protein)"
+NC_003450.3,871851,874043,1,"NCgl0790, NCgl0791","NCgl0790 (permease), NCgl0791 (rRNA methylase)"
+NC_003450.3,874065,877112,-1,"NCgl0792, NCgl0793, NCgl0794","NCgl0792 (hypothetical protein), NCgl0793 (hypothetical protein), NCgl0794 (phosphoserine aminotransferase)"
+NC_003450.3,877837,879151,1,NCgl0795,NCgl0795 (type II citrate synthase)
+NC_003450.3,879638,881093,-1,NCgl0797,NCgl0797 (acetyl-CoA carboxylase beta subunit)
+NC_003450.3,881706,884544,1,"NCgl0798, NCgl0799, NCgl0800","NCgl0798 (hypothetical protein), NCgl0799 (Na+/proline, Na+/panthothenate symporter or related permease), NCgl0800 (hypothetical protein)"
+NC_003450.3,884545,885388,-1,NCgl0801,NCgl0801 (hypothetical protein)
+NC_003450.3,885671,894581,1,NCgl0802,NCgl0802 (fatty-acid synthase)
+NC_003450.3,895592,897302,-1,"NCgl0805, NCgl0806, NCg1t22","NCgl0805 (hypothetical protein), NCgl0806 (hypothetical protein), NCg1t22 (tRNA-Arg)"
+NC_003450.3,897422,897692,1,NCgl0807,NCgl0807 (hypothetical protein)
+NC_003450.3,897723,900008,-1,"NCgl0808, NCgl0809, NCgl0810, NCgl0811","NCgl0808 (hypothetical protein), NCgl0809 (dihydrofolate reductase), NCgl0810 (thymidylate synthase), NCgl0811 (3'(2'),5'-bisphosphate nucleotidase CysQ)"
+NC_003450.3,900042,905799,1,"NCgl0812, NCgl0813, NCgl0814","NCgl0812 (Lhr-like helicase), NCgl0813 (formamidopyrimidine-DNA glycosylase), NCgl0814 (hypothetical protein)"
+NC_003450.3,910851,911157,-1,NCgl0819,NCgl0819 (hypothetical protein)
+NC_003450.3,911225,913517,1,NCgl0820,NCgl0820 (helicase)
+NC_003450.3,913473,917680,-1,"NCgl0821, NCgl0822, NCgl0823, NCgl0824","NCgl0821 (ABC transporter permease), NCgl0822 (ABC transporter ATPase), NCgl0823 (transcriptional regulator), NCgl0824 (metalloendopeptidase-like membrane protein)"
+NC_003450.3,918035,922415,1,"NCgl0825, NCgl0826, NCgl0827, NCgl0828","NCgl0825 (hypothetical protein), NCgl0826 (phosphoribosylglycinamide formyltransferase), NCgl0827 (bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/IMP cyclohydrolase), NCgl0828 (citrate lyase beta subunit)"
+NC_003450.3,925321,927242,-1,"NCgl0835, NCgl0836","NCgl0835 (sulfate permease), NCgl0836 (transcriptional regulator)"
+NC_003450.3,927473,927925,1,"NCgl0837, NCgl0838","NCgl0837 (50S ribosomal protein L31 type B), NCgl0838 (50S ribosomal protein L32)"
+NC_003450.3,933729,934302,-1,NCgl0845,NCgl0845 (5-formyltetrahydrofolate cyclo-ligase)
+NC_003450.3,934374,941928,1,"NCgl0846, NCgl0847, NCgl0848, NCgl0849, NCgl0850, NCgl0851, NCgl0852, NCgl0853","NCgl0846 (UDP-glucose pyrophosphorylase), NCgl0847 (molybdopterin biosynthesis enzyme), NCgl0848 (acetyltransferase), NCgl0849 (hypothetical protein), NCgl0850 (cyanate permease), NCgl0851 (hypothetical protein), NCgl0852 (hypothetical protein), NCgl0853 (glycosidase)"
+NC_003450.3,942377,943940,-1,NCgl0854,NCgl0854 (dolichyl-phosphate-mannose--protein O-mannosyl transferase PMT1)
+NC_003450.3,943987,944836,1,NCgl0855,NCgl0855 (methyltransferase)
+NC_003450.3,951830,953549,-1,"NCgl0860, NCgl0861","NCgl0860 (hypothetical protein), NCgl0861 (hypothetical protein)"
+NC_003450.3,953972,954756,1,"NCgl0862, NCgl0863","NCgl0862 (hypothetical protein), NCgl0863 (hypothetical protein)"
+NC_003450.3,957840,958998,-1,NCgl0866,NCgl0866 (adenine-specific DNA methylase)
+NC_003450.3,960080,960377,1,NCgl0867,NCgl0867 (hypothetical protein)
+NC_003450.3,969457,969940,-1,NCgl0877,NCgl0877 (hypothetical protein)
+NC_003450.3,970019,970741,1,"NCgl0878, NCgl0879","NCgl0878 (hypothetical protein), NCgl0879 (hypothetical protein)"
+NC_003450.3,972240,973035,-1,NCgl0881,NCgl0881 (hypothetical protein)
+NC_003450.3,973138,974965,1,"NCgl0882, NCgl0883","NCgl0882 (3-hydroxyisobutyryl-CoA hydrolase), NCgl0883 (hypothetical protein)"
+NC_003450.3,974961,976158,-1,NCgl0884,NCgl0884 (hypothetical protein)
+NC_003450.3,976285,977737,1,NCgl0885,NCgl0885 (hypothetical protein)
+NC_003450.3,977796,980740,-1,"NCgl0886, NCgl0887","NCgl0886 (transcriptional regulator), NCgl0887 (RND superfamily drug exporter)"
+NC_003450.3,980986,981493,1,NCgl0888,NCgl0888 (ribonuclease activity regulator protein RraA)
+NC_003450.3,982290,982674,-1,NCgl0890,NCgl0890 (hypothetical protein)
+NC_003450.3,983099,984653,1,NCgl0891,NCgl0891 (hypothetical protein)
+NC_003450.3,984860,986510,-1,NCgl0892,NCgl0892 (peptide chain release factor 3)
+NC_003450.3,986738,991417,1,"NCgl0893, NCgl0894, NCgl0895, NCgl0896, NCgl0897","NCgl0893 (ABC transporter periplasmic component), NCgl0894 (ABC transporter permease), NCgl0895 (ABC transporter permease), NCgl0896 (ABC transporter ATP-binding protein), NCgl0897 (ABC transporter ATP-binding protein)"
+NC_003450.3,991413,992028,-1,NCgl0898,NCgl0898 (peptidyl-tRNA hydrolase)
+NC_003450.3,992057,994616,1,"NCgl0899, NCgl0900","NCgl0899 (dioxygenase), NCgl0900 (glyceraldehyde-3-phosphate dehydrogenase)"
+NC_003450.3,995523,996126,-1,NCgl0902,NCgl0902 (50S ribosomal protein L25/general stress protein Ctc)
+NC_003450.3,996401,996833,1,NCgl0903,NCgl0903 (lactoylglutathione lyase)
+NC_003450.3,996829,1001242,-1,"NCgl0904, NCgl0905, NCgl0906, NCgl0907","NCgl0904 (hypothetical protein), NCgl0905 (ribose-phosphate pyrophosphokinase), NCgl0906 (bifunctional N-acetylglucosamine-1-phosphate uridyltransferase/glucosamine-1-phosphate acetyltransferase), NCgl0907 (hypothetical protein)"
+NC_003450.3,1001325,1002867,1,NCgl0908,NCgl0908 (multicopper oxidase)
+NC_003450.3,1011793,1013767,-1,NCgl0916,NCgl0916 (gamma-glutamyltranspeptidase)
+NC_003450.3,1014015,1014267,1,NCgl0917,NCgl0917 (hypothetical protein)
+NC_003450.3,1015141,1015852,-1,NCgl0919,NCgl0919 (transposase)
+NC_003450.3,1015651,1017021,1,"NCgl0920, NCgl0921","NCgl0920 (hypothetical protein), NCgl0921 (hypothetical protein)"
+NC_003450.3,1018250,1018325,-1,NCg1t23,NCg1t23 (tRNA-Gln)
+NC_003450.3,1018415,1022719,1,"NCgl0923, NCgl0924","NCgl0923 (transcriptional regulator), NCgl0924 (transcription-repair coupling factor)"
+NC_003450.3,1022695,1031871,-1,"NCgl0925, NCgl0926, NCgl0927, NCgl0928, NCgl0929","NCgl0925 (ABC transporter ATP-binding component), NCgl0926 (ABC transporter ATPase), NCgl0927 (hypothetical protein), NCgl0928 (hypothetical protein), NCgl0929 (amino acid permease)"
+NC_003450.3,1031971,1032783,1,"NCgl0930, NCgl0931","NCgl0930 (hypothetical protein), NCgl0931 (hypothetical protein)"
+NC_003450.3,1033265,1033646,-1,NCgl0933,NCgl0933 (hypothetical protein)
+NC_003450.3,1033977,1034742,1,NCgl0934,NCgl0934 (hypothetical protein)
+NC_003450.3,1038717,1039650,-1,NCgl0939,NCgl0939 (threonine dehydratase)
+NC_003450.3,1039782,1040328,1,"NCgl0940, NCgl0941","NCgl0940 (hypothetical protein), NCgl0941 (pyrimidine reductase)"
+NC_003450.3,1044473,1044959,-1,NCgl0947,NCgl0947 (hypothetical protein)
+NC_003450.3,1045157,1046393,1,"NCgl0948, NCgl0949","NCgl0948 (hypothetical protein), NCgl0949 (hypothetical protein)"
+NC_003450.3,1049423,1050395,-1,NCgl0953,NCgl0953 (pantothenate kinase)
+NC_003450.3,1050623,1054605,1,"NCgl0954, NCgl0955, NCgl0956","NCgl0954 (serine hydroxymethyltransferase), NCgl0955 (anthranilate/para-aminobenzoate synthase I), NCgl0956 (hypothetical protein)"
+NC_003450.3,1054636,1055032,-1,NCgl0957,NCgl0957 (hypothetical protein)
+NC_003450.3,1055050,1056322,1,"NCgl0958, NCgl0959","NCgl0958 (hypothetical protein), NCgl0959 (sortase or related acyltransferase)"
+NC_003450.3,1056318,1059931,-1,"NCgl0960, NCgl0961, NCgl0962, NCgl0963","NCgl0960 (allophanate hydrolase subunit 2), NCgl0961 (allophanate hydrolase subunit 1), NCgl0962 (LamB/YcsF family protein), NCgl0963 (hypothetical protein)"
+NC_003450.3,1059359,1059965,1,NCgl0964,NCgl0964 (hypothetical protein)
+NC_003450.3,1062207,1063617,-1,NCgl0967,NCgl0967 (fumarate hydratase)
+NC_003450.3,1063935,1064427,1,NCgl0968,NCgl0968 (hypothetical protein)
+NC_003450.3,1064474,1065867,-1,"NCgl0969, NCgl0970, NCgl0971","NCgl0969 (hypothetical protein), NCgl0970 (hypothetical protein), NCgl0971 (hypothetical protein)"
+NC_003450.3,1066109,1069848,1,"NCgl0972, NCgl0973, NCgl0974","NCgl0972 (reductase), NCgl0973 (acyl-CoA dehydrogenase), NCgl0974 (acyl-CoA dehydrogenase)"
+NC_003450.3,1071475,1072483,-1,NCgl0976,"NCgl0976 (fructose 1,6-bisphosphatase II)"
+NC_003450.3,1072717,1073248,1,NCgl0977,NCgl0977 (hypothetical protein)
+NC_003450.3,1075325,1077183,-1,"NCgl0979, NCgl0980, NCgl0981","NCgl0979 (hypothetical protein), NCgl0980 (exodeoxyribonuclease VII small subunit), NCgl0981 (exodeoxyribonuclease VII large subunit)"
+NC_003450.3,1077296,1078274,1,NCgl0982,NCgl0982 (4-hydroxy-3-methylbut-2-enyl diphosphate reductase)
+NC_003450.3,1082947,1084183,-1,NCgl0987,NCgl0987 (hypothetical protein)
+NC_003450.3,1084379,1086920,1,"NCgl0988, NCgl0989a, NCgl0989, NCgl0990","NCgl0988 (GTP-dependent nucleic acid-binding protein EngD), NCgl0989a (plasmid maintenance system killer protein), NCgl0989 (plasmid maintenance system antidote protein), NCgl0990 (ornithine carbamoyltransferase)"
+NC_003450.3,1088531,1089740,-1,NCgl0993,NCgl0993 (transposase)
+NC_003450.3,1090162,1094914,1,"NCgl0994, NCgl0995, NCgl0996","NCgl0994 (diguanylate cyclase), NCgl0995 (hypothetical protein), NCgl0996 (hypothetical protein)"
+NC_003450.3,1096742,1097111,-1,NCgl1001,NCgl1001 (hypothetical protein)
+NC_003450.3,1097228,1098932,1,"NCgl1002, NCgl1003, NCgl1004","NCgl1002 (hypothetical protein), NCgl1003 (aldo/keto reductase), NCgl1004 (hypothetical protein)"
+NC_003450.3,1099111,1099768,-1,NCgl1005,NCgl1005 (nucleoside-diphosphate-sugar epimerase)
+NC_003450.3,1099916,1101656,1,NCgl1006,NCgl1006 (sulfate permease)
+NC_003450.3,1104099,1107456,-1,"NCgl1011, NCgl1012","NCgl1011 (hypothetical protein), NCgl1012 (Mg-chelatase subunit ChlI)"
+NC_003450.3,1107502,1111435,1,"NCgl1013, NCgl1014, NCgl1015, NCgl1016","NCgl1013 (phosphoglycerate mutase), NCgl1014 (hypothetical protein), NCgl1015 (PEP phosphonomutase), NCgl1016 (ABC transporter duplicated ATPase)"
+NC_003450.3,1111421,1111820,-1,NCgl1017,NCgl1017 (hypothetical protein)
+NC_003450.3,1111888,1112233,1,NCgl1018,NCgl1018 (hypothetical protein)
+NC_003450.3,1112480,1112957,-1,NCgl1019,NCgl1019 (transcriptional regulator)
+NC_003450.3,1113101,1114322,1,NCgl1020,NCgl1020 (major facilitator superfamily permease)
+NC_003450.3,1115828,1119727,-1,"NCgl1022, NCgl1023, NCgl1024, NCgl1025","NCgl1022 (cysteine sulfinate desulfinase), NCgl1023 (nicotinate-nucleotide pyrophosphorylase), NCgl1024 (quinolinate synthetase), NCgl1025 (ADP-ribose pyrophosphatase)"
+NC_003450.3,1119883,1120807,1,NCgl1026,NCgl1026 (hypothetical protein)
+NC_003450.3,1120829,1122873,-1,"NCgl1027, NCgl1028, NCgl1029","NCgl1027 (hypothetical protein), NCgl1028 (hypothetical protein), NCgl1029 (lipoate-protein ligase A)"
+NC_003450.3,1123050,1123464,1,NCgl1030,NCgl1030 (hypothetical protein)
+NC_003450.3,1123530,1126020,-1,"NCgl1031, NCgl1032","NCgl1031 (major facilitator superfamily permease), NCgl1032 (4-hydroxybenzoate 3-monooxygenase)"
+NC_003450.3,1126406,1131431,1,"NCgl1033, NCgl1034, NCgl1035, NCgl1036, NCgl1037, NCgl1038","NCgl1033 (hypothetical protein), NCgl1034 (ABC transporter duplicated ATPase), NCgl1035 (ABC transporter permease), NCgl1036 (hypothetical protein), NCgl1037 (Ca2+/H+ antiporter), NCgl1038 (hypothetical protein)"
+NC_003450.3,1131397,1134472,-1,"NCgl1039, NCgl1040","NCgl1039 (hypothetical protein), NCgl1040 (excinuclease ATPase subunit)"
+NC_003450.3,1134551,1135058,1,NCgl1041,NCgl1041 (2-Cys peroxiredoxin)
+NC_003450.3,1135054,1137891,-1,"NCgl1042, NCgl1043","NCgl1042 (hypothetical protein), NCgl1043 (hypothetical protein)"
+NC_003450.3,1137959,1139495,1,"NCgl1044, NCgl1045, NCgl1046","NCgl1044 (2-dehydropantoate 2-reductase), NCgl1045 (hypothetical protein), NCgl1046 (hypothetical protein)"
+NC_003450.3,1139631,1141245,-1,"NCgl1047, NCgl1048, NCgl1049","NCgl1047 (hypothetical protein), NCgl1048 (hypothetical protein), NCgl1049 (arsenate reductase)"
+NC_003450.3,1141272,1142475,1,NCgl1050,NCgl1050 (hypothetical protein)
+NC_003450.3,1142475,1143739,-1,"NCgl1051, NCgl1052","NCgl1051 (hypothetical protein), NCgl1052 (hypothetical protein)"
+NC_003450.3,1144117,1148464,1,"NCgl1053, NCgl1054, NCgl1055","NCgl1053 (stress response membrane GTPase), NCgl1054 (ABC transporter periplasmic component), NCgl1055 (hypothetical protein)"
+NC_003450.3,1152369,1155676,-1,"NCgl1061, NCgl1062, NCgl1063","NCgl1061 (2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase), NCgl1062 (gamma-aminobutyrate permease), NCgl1063 (tetrahydrodipicolinate N-succinyltransferase)"
+NC_003450.3,1155730,1159802,1,"NCgl1064, NCgl1065, NCgl1066, NCgl1067, NCgl1068, NCgl1069","NCgl1064 (succinyl-diaminopimelate desuccinylase), NCgl1065 (Rossmann fold nucleotide-binding protein), NCgl1066 (dihydropteroate synthase), NCgl1067 (glucosyl-3-phosphoglycerate synthase), NCgl1068 (hypothetical protein), NCgl1069 (hypothetical protein)"
+NC_003450.3,1162375,1163605,-1,NCgl1072,NCgl1072 (glycosyltransferase)
+NC_003450.3,1163689,1164919,1,NCgl1073,NCgl1073 (glucose-1-phosphate adenylyltransferase)
+NC_003450.3,1164970,1165612,-1,NCgl1074,NCgl1074 (hypothetical protein)
+NC_003450.3,1165745,1166387,1,NCgl1075,NCgl1075 (RNA polymerase sigma factor SigE)
+NC_003450.3,1167583,1170610,-1,"NCgl1078, NCgl1079, NCgl1080","NCgl1078 (ATPase), NCgl1079 (hypothetical protein), NCgl1080 (Mg/Co/Ni transporter MgtE)"
+NC_003450.3,1170692,1171874,1,"NCgl1081, NCgl1082","NCgl1081 (hypothetical protein), NCgl1082 (hypothetical protein)"
+NC_003450.3,1176304,1181675,-1,"NCgl1085, NCgl1086, NCgl1087","NCgl1085 (ABC transporter duplicated ATPase), NCgl1086 (hypothetical protein), NCgl1087 (shikimate 5-dehydrogenase)"
+NC_003450.3,1181992,1184260,1,"NCgl1088, NCgl1089","NCgl1088 (carboxylesterase type B), NCgl1089 (hypothetical protein)"
+NC_003450.3,1185214,1185712,-1,NCgl1091,NCgl1091 (hypothetical protein)
+NC_003450.3,1185824,1188392,1,"NCgl1092, NCgl1093","NCgl1092 (major facilitator superfamily permease), NCgl1093 (major facilitator superfamily permease)"
+NC_003450.3,1188384,1190622,-1,NCgl1094,NCgl1094 (5-methyltetrahydropteroyltriglutamate-- homocysteine S-methyltransferase)
+NC_003450.3,1191086,1191545,1,NCgl1095,NCgl1095 (hypothetical protein)
+NC_003450.3,1195121,1195916,-1,NCgl1099,NCgl1099 (hydrolase)
+NC_003450.3,1195973,1197623,1,NCgl1100,NCgl1100 (non-ribosomal peptide synthetase modules and related proteins)
+NC_003450.3,1203912,1207223,-1,"NCgl1105, NCgl1106","NCgl1105 (helicase), NCgl1106 (mutT-like protein)"
+NC_003450.3,1207373,1208141,1,NCgl1107,NCgl1107 (hypothetical protein)
+NC_003450.3,1208208,1209615,-1,NCgl1108,NCgl1108 (gamma-aminobutyrate permease)
+NC_003450.3,1209933,1212132,1,NCgl1109,NCgl1109 (helicase)
+NC_003450.3,1212425,1213115,-1,NCgl1110,NCgl1110 (transcriptional regulator)
+NC_003450.3,1213268,1216839,1,"NCgl1111, NCgl1112, NCgl1113","NCgl1111 (3-(3-hydroxyphenyl)propionate hydroxylase), NCgl1112 (alcohol dehydrogenase), NCgl1113 (protocatechuate 3,4-dioxygenase subunit beta)"
+NC_003450.3,1216900,1219602,-1,"NCgl1114, NCgl1115, NCgl1116","NCgl1114 (hypothetical protein), NCgl1115 (hypothetical protein), NCgl1116 (Na+/proline, Na+/panthothenate symporter)"
+NC_003450.3,1219894,1227696,1,"NCgl1117, NCgl1118, NCgl1119, NCgl1120","NCgl1117 (helicase), NCgl1118 (hypothetical protein), NCgl1119 (DNA repair exonuclease), NCgl1120 (DNA repair ATPase)"
+NC_003450.3,1229176,1229716,-1,NCgl1123,NCgl1123 (hypothetical protein)
+NC_003450.3,1229994,1230483,1,NCgl1124,NCgl1124 (transcriptional regulator)
+NC_003450.3,1230910,1231333,-1,NCgl1126,NCgl1126 (hypothetical protein)
+NC_003450.3,1231810,1232482,1,NCgl1127,NCgl1127 (catabolite gene activator)
+NC_003450.3,1236395,1238050,-1,"NCg1t25, NCgl1131","NCg1t25 (tRNA-Arg), NCgl1131 (hydrolase or acyltransferase)"
+NC_003450.3,1238273,1241266,1,"NCgl1132, NCgl1133","NCgl1132 (arginyl-tRNA synthetase), NCgl1133 (diaminopimelate decarboxylase)"
+NC_003450.3,1241550,1242275,-1,"NCgl1134, NCgl1135","NCgl1134 (hypothetical protein), NCgl1135 (hypothetical protein)"
+NC_003450.3,1242506,1244784,1,"NCgl1136, NCgl1137","NCgl1136 (homoserine dehydrogenase), NCgl1137 (homoserine kinase)"
+NC_003450.3,1245716,1253891,-1,"NCgl1139, NCgl1140, NCgl1141, NCgl1142, NCgl1143","NCgl1139 (nitrate reductase gamma subunit), NCgl1140 (nitrate reductase delta subunit), NCgl1141 (nitrate reductase beta chain), NCgl1142 (anaerobic dehydrogenase), NCgl1143 (nitrate/nitrite transporter)"
+NC_003450.3,1254148,1254637,1,NCgl1144,NCgl1144 (molybdopterin biosynthesis enzyme)
+NC_003450.3,1261684,1264640,-1,"NCgl1150, NCgl1151","NCgl1150 (molybdenum cofactor biosynthesis protein A), NCgl1151 (long-chain-fatty-acid--CoA ligase)"
+NC_003450.3,1265141,1271701,1,"NCgl1152, NCgl1153, NCgl1154, NCgl1155, NCgl1156, NCgl1157","NCgl1152 (transcription termination factor Rho), NCgl1153 (peptide chain release factor 1), NCgl1154 (rRNA or tRNA methylase), NCgl1155 (translation factor (SUA5)), NCgl1156 (UDP-N-acetylmuramyl pentapeptide phosphotransferase), NCgl1157 (hypothetical protein)"
+NC_003450.3,1281258,1281714,-1,NCgl1170,NCgl1170 (lactoylglutathione lyase)
+NC_003450.3,1281754,1283117,1,"NCgl1171, NCgl1172","NCgl1171 (hypothetical protein), NCgl1172 (thioredoxin domain-containing protein)"
+NC_003450.3,1287277,1291538,-1,"NCgl1177, NCgl1178","NCgl1177 (glycogen branching enzyme), NCgl1178 (glycosidase)"
+NC_003450.3,1291698,1292580,1,NCgl1179,NCgl1179 (ABC transporter ATPase)
+NC_003450.3,1298996,1300369,-1,"NCgl1186, NCgl1187","NCgl1186 (uncharacterized protein related to capsule biosynthesis enzyme), NCgl1187 (transcriptional regulator)"
+NC_003450.3,1300551,1301058,1,NCgl1188,NCgl1188 (acetyltransferase)
+NC_003450.3,1301971,1303114,-1,NCgl1190,NCgl1190 (hypothetical protein)
+NC_003450.3,1303298,1303697,1,NCgl1191,NCgl1191 (hypothetical protein)
+NC_003450.3,1305920,1308172,-1,"NCgl1194, NCgl1195","NCgl1194 (major facilitator superfamily permease), NCgl1195 (DNA polymerase III subunit epsilon)"
+NC_003450.3,1308329,1310372,1,NCgl1196,NCgl1196 (NAD-dependent DNA ligase LigA)
+NC_003450.3,1310431,1311097,-1,NCgl1197,NCgl1197 (hypothetical protein)
+NC_003450.3,1311319,1313118,1,"NCgl1198, NCgl1199","NCgl1198 (aspartyl/glutamyl-tRNA amidotransferase subunit C), NCgl1199 (aspartyl/glutamyl-tRNA amidotransferase subunit A)"
+NC_003450.3,1314466,1314787,-1,NCgl1201,NCgl1201 (hypothetical protein)
+NC_003450.3,1315045,1316086,1,NCgl1202,NCgl1202 (6-phosphofructokinase)
+NC_003450.3,1328242,1328953,-1,NCgl1214,NCgl1214 (lysine efflux permease)
+NC_003450.3,1329014,1329887,1,NCgl1215,NCgl1215 (chromosome replication initiation inhibitor protein)
+NC_003450.3,1329887,1330967,-1,NCgl1216,NCgl1216 (glutathione S-transferase)
+NC_003450.3,1331185,1333011,1,"NCgl1217, NCgl1218","NCgl1217 (hypothetical protein), NCgl1218 (hypothetical protein)"
+NC_003450.3,1335408,1337693,-1,"NCgl1220, NCgl1221","NCgl1220 (hypothetical protein), NCgl1221 (small-conductance mechanosensitive channel)"
+NC_003450.3,1338130,1340543,1,"NCgl1222, NCgl1223","NCgl1222 (acetolactate synthase large subunit), NCgl1223 (acetolactate synthase small subunit)"
+NC_003450.3,1342790,1343675,-1,NCgl1228,NCgl1228 (ABC-type transport system periplasmic component)
+NC_003450.3,1344032,1344811,1,"NCgl1229, NCgl1230","NCgl1229 (hypothetical protein), NCgl1230 (hypothetical protein)"
+NC_003450.3,1354536,1355568,-1,NCgl1238,NCgl1238 (ABC-type transport system periplasmic component)
+NC_003450.3,1355688,1359672,1,"NCgl1239, NCgl1240, NCgl1241, NCgl1242","NCgl1239 (signal-transduction protein), NCgl1240 (DNA polymerase III epsilon subunit), NCgl1241 (2-keto-4-pentenoate hydratase), NCgl1242 (SAM-dependent methyltransferase)"
+NC_003450.3,1360164,1361295,-1,NCgl1243,NCgl1243 (isochorismate synthase)
+NC_003450.3,1361369,1362851,1,NCgl1244,NCgl1244 (glutamyl-tRNA synthetase)
+NC_003450.3,1362922,1365396,-1,"NCgl1245, NCgl1246, NCgl1247, NCgl1248, NCgl1249, NCgl1250","NCgl1245 (transcriptional regulator), NCgl1246 (hypothetical protein), NCgl1247 (hypothetical protein), NCgl1248 (transcriptional regulator), NCgl1249 (hypothetical protein), NCgl1250 (hypothetical protein)"
+NC_003450.3,1365592,1365913,1,"NCg1t26, NCg1t27, NCg1t28","NCg1t26 (tRNA-Gln), NCg1t27 (tRNA-Glu), NCg1t28 (tRNA-Gln)"
+NC_003450.3,1369873,1371637,-1,NCgl1253,NCgl1253 (thiamine biosynthesis protein ThiC)
+NC_003450.3,1372804,1373134,1,NCgl1254,NCgl1254 (hypothetical protein)
+NC_003450.3,1377662,1378942,-1,"NCgl1258, NCgl1259","NCgl1258 (hypothetical protein), NCgl1259 (hypothetical protein)"
+NC_003450.3,1379002,1379569,1,NCgl1260,NCgl1260 (guanosine polyphosphate pyrophosphohydrolase/synthetase)
+NC_003450.3,1379551,1380259,-1,NCgl1261,NCgl1261 (transcriptional regulator)
+NC_003450.3,1380439,1382495,1,"NCgl1262, NCgl1263","NCgl1262 (3-isopropylmalate dehydratase large subunit), NCgl1263 (3-isopropylmalate dehydratase small subunit)"
+NC_003450.3,1382841,1383921,-1,NCgl1264,NCgl1264 (NTP pyrophosphohydrolase)
+NC_003450.3,1383929,1386235,1,"NCgl1265, NCgl1266, NCgl1267","NCgl1265 (hypothetical protein), NCgl1266 (NAD(P)H-dependent glycerol-3-phosphate dehydrogenase), NCgl1267 (D-alanyl-alanine synthetase A)"
+NC_003450.3,1386289,1387270,-1,NCgl1268,NCgl1268 (hypothetical protein)
+NC_003450.3,1387337,1389076,1,"NCgl1269, NCgl1270","NCgl1269 (thiamine monophosphate kinase), NCgl1270 (uracil-DNA glycosylase)"
+NC_003450.3,1394796,1397562,-1,"NCgl1276, NCgl1277, NCgl1278","NCgl1276 (ABC transporter ATPase), NCgl1277 (ABC transporter permease), NCgl1278 (ABC transporter periplasmic component)"
+NC_003450.3,1397661,1398471,1,NCgl1279,NCgl1279 (hypothetical protein)
+NC_003450.3,1400181,1400940,-1,NCgl1281,NCgl1281 (integrase)
+NC_003450.3,1400925,1402079,1,"NCgl1282, NCgl1283","NCgl1282 (hypothetical protein), NCgl1283 (hypothetical protein)"
+NC_003450.3,1407163,1407873,-1,"NCgl1290, NCgl1291","NCgl1290 (hypothetical protein), NCgl1291 (hypothetical protein)"
+NC_003450.3,1408249,1408453,1,NCgl1292,NCgl1292 (hypothetical protein)
+NC_003450.3,1413564,1413641,-1,NCg1t31,NCg1t31 (tRNA-Leu)
+NC_003450.3,1413819,1416462,1,NCgl1299,NCgl1299 (DNA polymerase I)
+NC_003450.3,1416458,1417859,-1,NCgl1300,NCgl1300 (major facilitator superfamily permease)
+NC_003450.3,1417895,1419751,1,"NCgl1301, NCgl1302","NCgl1301 (transcriptional regulator), NCgl1302 (aldo/keto reductase)"
+NC_003450.3,1420067,1420847,-1,NCgl1303,NCgl1303 (SAM-dependent methyltransferase)
+NC_003450.3,1421098,1422559,1,NCgl1304,NCgl1304 (30S ribosomal protein S1)
+NC_003450.3,1428220,1432612,-1,"NCgl1309, NCgl1310, NCgl1311, NCgl1312","NCgl1309 (inosine-uridine nucleoside N-ribohydrolase), NCgl1310 (major facilitator superfamily permease), NCgl1311 (sugar kinase), NCgl1312 (transcriptional regulator)"
+NC_003450.3,1432749,1433932,1,"NCgl1313, NCgl1314","NCgl1313 (hypothetical protein), NCgl1314 (hypothetical protein)"
+NC_003450.3,1436865,1437249,-1,NCgl1317,NCgl1317 (transcriptional regulator)
+NC_003450.3,1437343,1438204,1,NCgl1318,NCgl1318 (nucleoside-diphosphate-sugar epimerase)
+NC_003450.3,1441789,1442392,-1,NCgl1321,NCgl1321 (hypothetical protein)
+NC_003450.3,1442486,1445336,1,NCgl1322,NCgl1322 (excinuclease ABC subunit A)
+NC_003450.3,1445319,1447446,-1,NCgl1323,NCgl1323 (hypothetical protein)
+NC_003450.3,1447791,1449028,1,"NCgl1324, NCgl1325, NCgl1326","NCgl1324 (translation initiation factor IF-3), NCgl1325 (50S ribosomal protein L35), NCgl1326 (50S ribosomal protein L20)"
+NC_003450.3,1449115,1449928,-1,NCgl1327,NCgl1327 (hypothetical protein)
+NC_003450.3,1450209,1450695,1,NCgl1328,NCgl1328 (hypothetical protein)
+NC_003450.3,1455346,1456054,-1,NCgl1333,NCgl1333 (glycerophosphoryl diester phosphodiesterase)
+NC_003450.3,1456102,1460619,1,"NCgl1334, NCgl1335, NCgl1336","NCgl1334 (rRNA methylase), NCgl1335 (phenylalanyl-tRNA synthetase subunit alpha), NCgl1336 (phenylalanyl-tRNA synthetase subunit beta)"
+NC_003450.3,1477925,1478889,-1,"NCgl1353, NCgl1354a","NCgl1353 (universal stress protein UspA), NCgl1354a (hypothetical protein)"
+NC_003450.3,1479363,1480887,1,NCg1r08,NCg1r08 (16S ribosomal RNA)
+NC_003450.3,1496791,1498324,-1,NCgl1365,NCgl1365 (ABC transporter duplicated ATPase)
+NC_003450.3,1498775,1499648,1,NCgl1366,NCgl1366 (chromosome partitioning ATPase)
+NC_003450.3,1500907,1501471,-1,NCgl1368,NCgl1368 (acetyltransferase)
+NC_003450.3,1501709,1506576,1,"NCgl1369, NCgl1370, NCgl1371, NCgl1372, NCgl1373","NCgl1369 (rhodanese-related sulfurtransferase), NCgl1370 (hypothetical protein), NCgl1371 (16S rRNA uridine-516 pseudouridylate synthase), NCgl1372 (cytidylate kinase), NCgl1373 (GTP-binding protein EngA)"
+NC_003450.3,1506658,1508729,-1,"NCgl1374, NCgl1375, NCgl1376","NCgl1374 (hypothetical protein), NCgl1375 (hypothetical protein), NCgl1376 (SAM-dependent methyltransferase)"
+NC_003450.3,1509001,1512980,1,"NCgl1377, NCgl1378, NCgl1379","NCgl1377 (ABC transporter ATPase), NCgl1378 (ABC-type transport system ATPase), NCgl1379 (zinc transporter ZupT)"
+NC_003450.3,1514970,1516932,-1,"NCgl1381, NCg1t32, NCgl1382, NCgl1383","NCgl1381 (hypothetical protein), NCg1t32 (tRNA-Pro), NCgl1382 (hypothetical protein), NCgl1383 (alpha/beta hydrolase)"
+NC_003450.3,1517169,1519461,1,NCgl1384,NCgl1384 (accessory Sec system translocase SecA2)
+NC_003450.3,1524564,1529330,-1,"NCgl1391, NCgl1392, NCgl1393, NCgl1394","NCgl1391 (hypothetical protein), NCgl1392 (hypothetical protein), NCgl1393 (hypothetical protein), NCgl1394 (helicase)"
+NC_003450.3,1529485,1530223,1,NCgl1395,NCgl1395 (siderophore-interacting protein)
+NC_003450.3,1530337,1531792,-1,NCgl1396,NCgl1396 (6-phosphogluconate dehydrogenase)
+NC_003450.3,1531932,1534524,1,"NCgl1397, NCgl1398, NCgl1399, NCgl1400","NCgl1397 (hypothetical protein), NCgl1398 (SAM-dependent methyltransferase), NCgl1399 (ABC transporter ATPase), NCgl1400 (ABC transporter permease)"
+NC_003450.3,1543150,1544554,-1,NCgl1409,"NCgl1409 (NADH dehydrogenase, FAD-containing subunit)"
+NC_003450.3,1544975,1546292,1,NCgl1410,NCgl1410 (cyclopropane fatty acid synthase)
+NC_003450.3,1547963,1548440,-1,NCgl1412,NCgl1412 (phosphoribosyltransferase)
+NC_003450.3,1548779,1550954,1,"NCgl1413, NCgl1414, NCgl1415","NCgl1413 (hypothetical protein), NCgl1414 (arsenite efflux pump ACR3), NCgl1415 (hypothetical protein)"
+NC_003450.3,1554887,1555999,-1,"NCgl1419, NCgl1420, NCgl1421","NCgl1419 (hypothetical protein), NCgl1420 (hypothetical protein), NCgl1421 (hypothetical protein)"
+NC_003450.3,1556375,1556774,1,NCgl1422,NCgl1422 (hypothetical protein)
+NC_003450.3,1560433,1561750,-1,NCgl1426,NCgl1426 (hypothetical protein)
+NC_003450.3,1561779,1562556,1,NCgl1427,NCgl1427 (hypothetical protein)
+NC_003450.3,1564561,1566438,-1,"NCgl1429, NCgl1430","NCgl1429 (hypothetical protein), NCgl1430 (Xaa-Pro aminopeptidase)"
+NC_003450.3,1566467,1567109,1,NCgl1431,NCgl1431 (hypothetical protein)
+NC_003450.3,1575402,1580708,-1,"NCgl1439, NCgl1440, NCgl1441, NCgl1442","NCgl1439 (hypothetical protein), NCgl1440 (ATPase of the AAA+ class), NCgl1441 (SAM-dependent methyltransferase involved in tRNA-Met maturation), NCgl1442 (aminopeptidase)"
+NC_003450.3,1580806,1581643,1,NCgl1443,NCgl1443 (endonuclease)
+NC_003450.3,1583909,1591235,-1,"NCgl1446, NCgl1447, NCgl1448, NCgl1449, NCgl1450","NCgl1446 (aspartate ammonia-lyase), NCgl1447 (ATP phosphoribosyltransferase), NCgl1448 (phosphoribosyl-ATP pyrophosphatase), NCgl1449 (phosphatase/phosphohexomutase), NCgl1450 (methionine synthase I cobalamin-binding subunit)"
+NC_003450.3,1591342,1591915,1,NCgl1451,NCgl1451 (hypothetical protein)
+NC_003450.3,1591937,1592966,-1,NCgl1452,NCgl1452 (K+ transport flavoprotein)
+NC_003450.3,1593336,1594515,1,NCgl1453,NCgl1453 (arsenite efflux pump ACR3)
+NC_003450.3,1597741,1598623,-1,NCgl1458,NCgl1458 (undecaprenyl pyrophosphate phosphatase)
+NC_003450.3,1598666,1601807,1,"NCgl1459, NCgl1460, NCgl1461","NCgl1459 (oxidoreductase), NCgl1460 (hypothetical protein), NCgl1461 (dihydroorotate dehydrogenase 2)"
+NC_003450.3,1601927,1602185,-1,NCgl1462,NCgl1462 (hypothetical protein)
+NC_003450.3,1602659,1604632,1,"NCgl1463, NCgl1464","NCgl1463 (hypothetical protein), NCgl1464 (transposase)"
+NC_003450.3,1604826,1609247,-1,"NCgl1465, NCgl1466, NCgl1467, NCgl1468","NCgl1465 (hypothetical protein), NCgl1466 (phospholipid-binding protein), NCgl1467 (ABC transporter ATPase and permease), NCgl1468 (ABC transporter ATPase and permease)"
+NC_003450.3,1609421,1609682,1,"NCg1t33, NCg1t34","NCg1t33 (tRNA-Leu), NCg1t34 (tRNA-Leu)"
+NC_003450.3,1611146,1616298,-1,"NCgl1470, NCgl1471, NCgl1472","NCgl1470 (arginine/ornithine transport system ATPase), NCgl1471 (methylmalonyl-CoA mutase), NCgl1472 (methylmalonyl-CoA mutase N-terminal domain-containing protein)"
+NC_003450.3,1616526,1617997,1,"NCgl1473, NCgl1474","NCgl1473 (hypothetical protein), NCgl1474 (hypothetical protein)"
+NC_003450.3,1620163,1621009,-1,NCgl1477,NCgl1477 (hypothetical protein)
+NC_003450.3,1621055,1621841,1,NCgl1478,NCgl1478 (hypothetical protein)
+NC_003450.3,1625424,1625925,-1,NCgl1481,NCgl1481 (hypothetical protein)
+NC_003450.3,1626278,1629110,1,NCgl1482,NCgl1482 (aconitate hydratase)
+NC_003450.3,1630663,1631338,-1,NCgl1485,NCgl1485 (nucleoside-diphosphate-sugar epimerase)
+NC_003450.3,1631659,1633327,1,"NCgl1486, NCgl1487","NCgl1486 (hypothetical protein), NCgl1487 (hypothetical protein)"
+NC_003450.3,1636240,1636717,-1,NCgl1489,NCgl1489 (hypothetical protein)
+NC_003450.3,1637080,1638445,1,NCgl1490,NCgl1490 (hypothetical protein)
+NC_003450.3,1641042,1645514,-1,"NCgl1493, NCgl1494a","NCgl1493 (ABC transporter duplicated ATPase), NCgl1494a ()"
+NC_003450.3,1645660,1646371,1,NCgl1496,NCgl1496 (transposase)
+NC_003450.3,1650245,1653577,-1,"NCgl1502, NCgl1503, NCgl1504","NCgl1502 (iron-regulated ABC transporter SufB), NCgl1503 (iron-regulated ABC transporter SufB), NCgl1504 (transcriptional regulator)"
+NC_003450.3,1653997,1657518,1,"NCgl1505, NCgl1506, NCgl1507","NCgl1505 (hypothetical protein), NCgl1506 (ABC transporter ATPase), NCgl1507 (ABC transporter permease)"
+NC_003450.3,1662626,1663598,-1,NCgl1511,NCgl1511 (protoheme IX farnesyltransferase)
+NC_003450.3,1664402,1666505,1,NCgl1512,NCgl1512 (transketolase)
+NC_003450.3,1671269,1671677,-1,NCgl1517,NCgl1517 (hypothetical protein)
+NC_003450.3,1671749,1673126,1,NCgl1518,NCgl1518 (hypothetical protein)
+NC_003450.3,1709013,1711927,-1,"NCgl1549, NCgl1550, NCgl1551","NCgl1549 (dihydroorotase), NCgl1550 (aspartate carbamoyltransferase), NCgl1551 (bifunctional pyrimidine regulatory protein PyrR uracil phosphoribosyltransferase)"
+NC_003450.3,1712235,1714953,1,"NCgl1552, NCgl1553, NCgl1554, NCgl1555","NCgl1552 (oxidoreductase), NCgl1553 (hypothetical protein), NCgl1554 (hypothetical protein), NCgl1555 (hypothetical protein)"
+NC_003450.3,1715378,1721725,-1,"NCgl1556, NCgl1557, NCgl1558, NCgl1559, NCgl1560, NCgl1561, NCgl1562, NCgl1563","NCgl1556 (transcription antitermination protein NusB), NCgl1557 (elongation factor P), NCgl1558 (Xaa-Pro aminopeptidase), NCgl1559 (3-dehydroquinate synthase), NCgl1560 (shikimate kinase), NCgl1561 (chorismate synthase), NCgl1562 (signal peptidase), NCgl1563 (transcriptional regulator)"
+NC_003450.3,1721779,1724581,1,"NCgl1564, NCgl1565, NCgl1566","NCgl1564 (ABC transporter permease), NCgl1565 (ABC transporter periplasmic component), NCgl1566 (ABC transporter ATPase)"
+NC_003450.3,1732984,1734811,-1,NCgl1573,NCgl1573 (aspartyl-tRNA synthetase)
+NC_003450.3,1735043,1735949,1,NCgl1574,NCgl1574 (metalloprotease)
+NC_003450.3,1736000,1741219,-1,"NCgl1575, NCgl1576, NCgl1577","NCgl1575 (helicase), NCgl1576 (hypothetical protein), NCgl1577 (hypothetical protein)"
+NC_003450.3,1741312,1744522,1,"NCgl1578, NCgl1579, NCgl1580, NCgl1581a","NCgl1578 (transcriptional regulator), NCgl1579 (hypothetical protein), NCgl1580 (coenzyme F420-dependent N5,N10-methylene tetrahydromethanopterin reductase), NCgl1581a ()"
+NC_003450.3,1746229,1749963,-1,"NCgl1584, NCgl1585, NCgl1586","NCgl1584 (glycerol-3-phosphate dehydrogenase), NCgl1585 (histidyl-tRNA synthetase), NCgl1586 (Zn-dependent hydrolase)"
+NC_003450.3,1750093,1750936,1,NCgl1587,NCgl1587 (peptidyl-prolyl cis-trans isomerase (rotamase))
+NC_003450.3,1765011,1765860,-1,NCgl1600,NCgl1600 (acyl-CoA thioesterase II)
+NC_003450.3,1765968,1766445,1,NCgl1601,NCgl1601 (hypothetical protein)
+NC_003450.3,1775672,1776265,-1,"NCg1t35, NCg1t36, NCg1t37, NCg1t38, NCg1t39, NCg1t40","NCg1t35 (tRNA-Gly), NCg1t36 (tRNA-Val), NCg1t37 (tRNA-Cys), NCg1t38 (tRNA-Gly), NCg1t39 (tRNA-Val), NCg1t40 (tRNA-Gly)"
+NC_003450.3,1776612,1776684,1,NCg1t41,NCg1t41 (tRNA-Val)
+NC_003450.3,1781015,1781585,-1,NCgl1614,NCgl1614 (histone acetyltransferase HPA2)
+NC_003450.3,1781923,1782793,1,NCgl1615,NCgl1615 (hypothetical protein)
+NC_003450.3,1785728,1788829,-1,"NCgl1617, NCgl1618","NCgl1617 (hypothetical protein), NCgl1618 (hypothetical protein)"
+NC_003450.3,1789079,1790060,1,"NCgl1619, NCgl1620, NCgl1621","NCgl1619 (hypothetical protein), NCgl1620 (hypothetical protein), NCgl1621 (hypothetical protein)"
+NC_003450.3,1790457,1790802,-1,NCgl1622,NCgl1622 (hypothetical protein)
+NC_003450.3,1791841,1793429,1,"NCgl1623, NCgl1624","NCgl1623 (ABC transporter ATPase), NCgl1624 (ABC transporter permease)"
+NC_003450.3,1798019,1798757,-1,NCgl1629,NCgl1629 (hypothetical protein)
+NC_003450.3,1799181,1799409,1,NCgl1630,NCgl1630 (hypothetical protein)
+NC_003450.3,1802151,1802577,-1,NCgl1634,NCgl1634 (hypothetical protein)
+NC_003450.3,1802888,1803422,1,NCgl1635,NCgl1635 (hypothetical protein)
+NC_003450.3,1820177,1822391,-1,NCgl1658,NCgl1658 (hypothetical protein)
+NC_003450.3,1822627,1824592,1,"NCgl1659, NCgl1660","NCgl1659 (hypothetical protein), NCgl1660 (hypothetical protein)"
+NC_003450.3,1825747,1826644,-1,NCgl1662,NCgl1662 (transposase)
+NC_003450.3,1826023,1826560,1,NCgl1663,NCgl1663 (hypothetical protein)
+NC_003450.3,1829684,1829900,-1,NCgl1665,NCgl1665 (hypothetical protein)
+NC_003450.3,1830764,1832066,1,NCgl1666,NCgl1666 (hypothetical protein)
+NC_003450.3,1834145,1834928,-1,NCgl1668,NCgl1668 (hypothetical protein)
+NC_003450.3,1836551,1842140,1,"NCgl1669, NCgl1670","NCgl1669 (ATPase), NCgl1670 (hypothetical protein)"
+NC_003450.3,1846329,1846680,-1,NCgl1676,NCgl1676 (hypothetical protein)
+NC_003450.3,1847326,1849969,1,"NCgl1677, NCgl1678, NCgl1679, NCgl1680, NCgl1681","NCgl1677 (hypothetical protein), NCgl1678 (hypothetical protein), NCgl1679 (hypothetical protein), NCgl1680 (hypothetical protein), NCgl1681 (hypothetical protein)"
+NC_003450.3,1850470,1851049,-1,NCgl1682,NCgl1682 (hypothetical protein)
+NC_003450.3,1851219,1852443,1,NCgl1683,NCgl1683 (hypothetical protein)
+NC_003450.3,1868667,1877886,-1,"NCgl1699, NCgl1700, NCgl1701, NCgl1702","NCgl1699 (hypothetical protein), NCgl1700 (hypothetical protein), NCgl1701 (hypothetical protein), NCgl1702 (hypothetical protein)"
+NC_003450.3,1878332,1882388,1,"NCgl1703, NCgl1704, NCgl1705","NCgl1703 (site-specific DNA methylase or), NCgl1704 (stress-sensitive restriction system protein 1), NCgl1705 (stress-sensitive restriction system protein 2)"
+NC_003450.3,1884216,1884888,-1,NCgl1707,NCgl1707 (hypothetical protein)
+NC_003450.3,1885229,1887050,1,NCgl1708,NCgl1708 (hypothetical protein)
+NC_003450.3,1914721,1916233,-1,NCgl1730,NCgl1730 (hypothetical protein)
+NC_003450.3,1916427,1916736,1,NCgl1731,NCgl1731 (hypothetical protein)
+NC_003450.3,1927241,1928189,-1,NCgl1739,NCgl1739 (hypothetical protein)
+NC_003450.3,1928210,1928384,1,NCgl1740,NCgl1740 (hypothetical protein)
+NC_003450.3,1934967,1935912,-1,NCgl1748,NCgl1748 (periplasmic serine protease)
+NC_003450.3,1936282,1936852,1,NCgl1749,NCgl1749 (hypothetical protein)
+NC_003450.3,1938527,1939010,-1,NCgl1752,NCgl1752 (hypothetical protein)
+NC_003450.3,1939145,1940138,1,NCgl1753,NCgl1753 (hypothetical protein)
+NC_003450.3,1941728,1942430,-1,NCgl1756,NCgl1756 (hypothetical protein)
+NC_003450.3,1942518,1942815,1,NCgl1757,NCgl1757 (hypothetical protein)
+NC_003450.3,1963135,1966240,-1,"NCgl1775, NCgl1776, NCgl1777, NCgl1778","NCgl1775 (hypothetical protein), NCgl1776 (hypothetical protein), NCgl1777 (hypothetical protein), NCgl1778 (hypothetical protein)"
+NC_003450.3,1966348,1966987,1,NCgl1779,NCgl1779 (micrococcal nuclease-like protein)
+NC_003450.3,1995779,1996088,-1,NCgl1817,NCgl1817 (di- and tricarboxylate transporter)
+NC_003450.3,1996105,1996540,1,NCgl1818,NCgl1818 (hypothetical protein)
+NC_003450.3,2000517,2001216,-1,NCgl1824,NCgl1824 (hypothetical protein)
+NC_003450.3,2001488,2003337,1,"NCgl1825, NCgl1826","NCgl1825 (hypothetical protein), NCgl1826 (ribonuclease D)"
+NC_003450.3,2005458,2008184,-1,"NCgl1828, NCgl1829, NCgl1830","NCgl1828 (SAM-dependent methyltransferase), NCgl1829 (hypothetical protein), NCgl1830 (deoxyuridine 5'-triphosphate nucleotidohydrolase)"
+NC_003450.3,2008249,2008801,1,NCgl1831,NCgl1831 (hypothetical protein)
+NC_003450.3,2009720,2010563,-1,NCgl1834,"NCgl1834 (fructose-1,6-bisphosphatase)"
+NC_003450.3,2010554,2013359,1,"NCgl1835, NCgl1836","NCgl1835 (), NCgl1836 ()"
+NC_003450.3,2016253,2018202,-1,"NCgl1839, NCgl1840","NCgl1839 (hypothetical protein), NCgl1840 (hypothetical protein)"
+NC_003450.3,2018259,2020727,1,"NCgl1841, NCgl1842, NCgl1843","NCgl1841 (hypothetical protein), NCgl1842 (rRNA or tRNA methylase), NCgl1843 (D-tyrosyl-tRNA(Tyr) deacylase)"
+NC_003450.3,2023944,2025270,-1,NCgl1847,NCgl1847 (hypothetical protein)
+NC_003450.3,2025422,2029046,1,"NCgl1848, NCgl1849","NCgl1848 (hypothetical protein), NCgl1849 (helicase)"
+NC_003450.3,2030273,2031365,-1,NCgl1851,NCgl1851 (hypothetical protein)
+NC_003450.3,2031477,2035386,1,NCgl1852,NCgl1852 (HrpA-like helicase)
+NC_003450.3,2035427,2036187,-1,"NCgl1853, NCgl1854","NCgl1853 (transcriptional regulator NrdR), NCgl1854 (hypothetical protein)"
+NC_003450.3,2036748,2037510,1,NCgl1855,NCgl1855 (LexA repressor)
+NC_003450.3,2039614,2041321,-1,NCgl1858,NCgl1858 (phosphoenolpyruvate-protein kinase)
+NC_003450.3,2041727,2045574,1,"NCgl1859, NCgl1860, NCgl1861","NCgl1859 (transcriptional regulator of sugar metabolism), NCgl1860 (fructose-1-phosphate kinase), NCgl1861 (phosphotransferase system, fructose-specific IIC component)"
+NC_003450.3,2046710,2050107,-1,"NCgl1863, NCgl1864, NCgl1865","NCgl1863 (hypothetical protein), NCgl1864 (xanthine/uracil permeases), NCgl1865 (GTPase)"
+NC_003450.3,2050350,2051109,1,NCgl1866,NCgl1866 (hypothetical protein)
+NC_003450.3,2051841,2054226,-1,"NCgl1868, NCgl1869, NCgl1870","NCgl1868 (diaminopimelate epimerase), NCgl1869 (tRNA delta(2)-isopentenylpyrophosphate transferase), NCgl1870 (hypothetical protein)"
+NC_003450.3,2054402,2056790,1,"NCgl1871, NCgl1872","NCgl1871 (hypothetical protein), NCgl1872 (hypothetical protein)"
+NC_003450.3,2057851,2059432,-1,NCgl1874,NCgl1874 ((dimethylallyl)adenosine tRNA methylthiotransferase)
+NC_003450.3,2059749,2061507,1,"NCgl1875, NCgl1876","NCgl1875 (glutamate ABC transporter ATPase), NCgl1876 (glutamate ABC transporter periplasmic component)"
+NC_003450.3,2065390,2066344,-1,"NCgl1881, NCgl1882","NCgl1881 (hypothetical protein), NCgl1882 (hypothetical protein)"
+NC_003450.3,2066505,2068477,1,"NCgl1883, NCgl1884, NCgl1885","NCgl1883 (hypothetical protein), NCgl1884 (ABC transporter ATPase), NCgl1885 (ABC transporter permease)"
+NC_003450.3,2069993,2071142,-1,"NCgl1888, NCgl1889","NCgl1888 (competence- and mitomycin-induced protein), NCgl1889 (phosphatidylglycerophosphate synthase)"
+NC_003450.3,2071314,2071602,1,NCgl1890,NCgl1890 (hypothetical protein)
+NC_003450.3,2080383,2081934,-1,"NCgl1897, NCgl1898","NCgl1897 (FAD-dependent thymidylate synthase), NCgl1898 (4-hydroxy-tetrahydrodipicolinate reductase)"
+NC_003450.3,2082249,2082816,1,NCgl1899,NCgl1899 (hypothetical protein)
+NC_003450.3,2085875,2087941,-1,"NCgl1902, NCgl1903","NCgl1902 (inosine-uridine nucleoside N-ribohydrolase), NCgl1903 (bifunctional riboflavin kinase/FMN adenylyltransferase)"
+NC_003450.3,2087972,2088866,1,NCgl1904,NCgl1904 (tRNA pseudouridine synthase B)
+NC_003450.3,2097376,2098945,-1,"NCgl1912, NCgl1913","NCgl1912 (transcription elongation factor NusA), NCgl1913 (hypothetical protein)"
+NC_003450.3,2098999,2099818,1,NCgl1914,NCgl1914 (hypothetical protein)
+NC_003450.3,2105797,2107564,-1,NCgl1919,NCgl1919 (prolyl-tRNA synthetase)
+NC_003450.3,2107651,2108389,1,NCgl1920,NCgl1920 (hypothetical protein)
+NC_003450.3,2110430,2111183,-1,NCgl1923,NCgl1923 (uroporphyrinogen-III methylase)
+NC_003450.3,2111237,2112662,1,NCgl1924,NCgl1924 (hypothetical protein)
+NC_003450.3,2113860,2115363,-1,NCgl1926,NCgl1926 (malate:quinone oxidoreductase)
+NC_003450.3,2115751,2116777,1,NCgl1927,NCgl1927 (hypothetical protein)
+NC_003450.3,2120355,2124978,-1,"NCgl1932, NCgl1933, NCgl1934, NCgl1935","NCgl1932 (methionine aminopeptidase), NCgl1933 (cell division protein FtsI), NCgl1934 (two-component system, response regulator), NCgl1935 (two-component system, sensory transduction histidine kinase)"
+NC_003450.3,2125088,2126756,1,"NCgl1936, NCgl1937","NCgl1936 (ABC transporter permease), NCgl1937 (ABC transporter ATPase)"
+NC_003450.3,2128665,2131078,-1,"NCgl1939, NCgl1940","NCgl1939 (membrane-associated Zn-dependent protease 1), NCgl1940 (1-deoxy-D-xylulose 5-phosphate reductoisomerase)"
+NC_003450.3,2131321,2131765,1,NCgl1941,NCgl1941 (hypothetical protein)
+NC_003450.3,2134450,2135551,-1,NCgl1944,NCgl1944 (23S rRNA (adenine(2503)-C(2))-methyltransferase RlmN)
+NC_003450.3,2135883,2136144,1,NCgl1945,NCgl1945 (hypothetical protein)
+NC_003450.3,2140067,2140886,-1,NCgl1950,NCgl1950 (30S ribosomal protein S2)
+NC_003450.3,2141268,2141763,1,NCgl1951,NCgl1951 (membrane metalloendopeptidase)
+NC_003450.3,2146260,2148046,-1,"NCgl1956, NCgl1957, NCgl1958","NCgl1956 (hypothetical protein), NCgl1957 (ribonuclease HII), NCgl1958 (signal peptidase I)"
+NC_003450.3,2148230,2149169,1,NCgl1959,NCgl1959 (ABC transporter periplasmic component)
+NC_003450.3,2149630,2149972,-1,NCgl1960,NCgl1960 (50S ribosomal protein L19)
+NC_003450.3,2150334,2154194,1,"NCgl1961, NCgl1962, NCgl1963, NCgl1964, NCgl1965","NCgl1961 (thiamine-phosphate pyrophosphorylase), NCgl1962 (glycine/D-amino acid oxidase), NCgl1963 (sulfur transfer protein), NCgl1964 (thiazole synthase), NCgl1965 (thiamine biosynthesis protein ThiF)"
+NC_003450.3,2161107,2163071,-1,"NCgl1970, NCgl1971, NCgl1972","NCgl1970 (hypothetical protein), NCgl1971 (hypothetical protein), NCgl1972 (tRNA (guanine-N(1)-)-methyltransferase)"
+NC_003450.3,2163097,2163748,1,NCgl1973,NCgl1973 (hypothetical protein)
+NC_003450.3,2163744,2164260,-1,NCgl1974,NCgl1974 (16S rRNA-processing protein RimM)
+NC_003450.3,2164389,2164740,1,NCgl1975,NCgl1975 (hypothetical protein)
+NC_003450.3,2164811,2165309,-1,NCgl1976,NCgl1976 (30S ribosomal protein S16)
+NC_003450.3,2165624,2166101,1,NCgl1977,NCgl1977 (ankyrin repeat-containing protein)
+NC_003450.3,2185347,2186208,-1,NCgl1989,NCgl1989 (transcriptional regulator)
+NC_003450.3,2186322,2187132,1,NCgl1990,NCgl1990 (permease)
+NC_003450.3,2187229,2191328,-1,"NCgl1991, NCgl1992, NCgl1993, NCgl1994, NCgl1995, NCgl1996","NCgl1991 (hypothetical protein), NCgl1992 (Co/Zn/Cd efflux system component), NCgl1993 (formamidopyrimidine-DNA glycosylase), NCgl1994 (ribonuclease III), NCgl1995 (hypothetical protein), NCgl1996 (hypothetical protein)"
+NC_003450.3,2191521,2194697,1,"NCgl1997, NCgl1998","NCgl1997 (ABC transporter ATPase and permease), NCgl1998 (ABC transporter ATPase and permease)"
+NC_003450.3,2194738,2196082,-1,NCgl1999,NCgl1999 (glutamate dehydrogenase)
+NC_003450.3,2196882,2198007,1,NCgl2000,NCgl2000 (glycerate kinase)
+NC_003450.3,2198003,2198402,-1,NCgl2001,NCgl2001 (hypothetical protein)
+NC_003450.3,2198432,2201073,1,"NCgl2002, NCgl2003","NCgl2002 (hypothetical protein), NCgl2003 (metal-dependent amidase/aminoacylase/carboxypeptidase)"
+NC_003450.3,2214317,2218925,-1,"NCgl2017, NCgl2018, NCgl2019, NCgl2020, NCgl2021","NCgl2017 (major facilitator superfamily permease), NCgl2018 (hypothetical protein), NCgl2019 (imidazoleglycerol-phosphate dehydratase), NCgl2020 (histidinol-phosphate aminotransferase), NCgl2021 (histidinol dehydrogenase)"
+NC_003450.3,2219158,2220361,1,NCgl2022,NCgl2022 (hypothetical protein)
+NC_003450.3,2220455,2221828,-1,"NCgl2023, NCgl2024","NCgl2023 (hypothetical protein), NCgl2024 (hypothetical protein)"
+NC_003450.3,2221945,2225952,1,"NCgl2025, NCgl2026, NCgl2027","NCgl2025 (transcriptional regulator), NCgl2026 (pullulanase), NCgl2027 (SAM-dependent methyltransferase)"
+NC_003450.3,2225986,2227779,-1,"NCgl2028, NCgl2029","NCgl2028 (hydroxypyruvate isomerase), NCgl2029 (dehydrogenase)"
+NC_003450.3,2227905,2228904,1,NCgl2030,NCgl2030 (transcriptional regulator)
+NC_003450.3,2229095,2232457,-1,"NCgl2031, NCgl2032, NCgl2033, NCgl2034","NCgl2031 (ABC transporter ATPase), NCgl2032 (ABC transporter permease), NCgl2033 (ABC transporter periplasmic component), NCgl2034 (transcriptional regulator)"
+NC_003450.3,2232928,2234074,1,NCgl2035,NCgl2035 (DNA polymerase III epsilon subunit)
+NC_003450.3,2239505,2240555,-1,NCgl2040,NCgl2040 (hypothetical protein)
+NC_003450.3,2240681,2241728,1,NCgl2041,"NCgl2041 (coenzyme F420-dependent N5,N10-methylene tetrahydromethanopterin reductase)"
+NC_003450.3,2241735,2243044,-1,"NCgl2042, NCgl2043, NCgl2044","NCgl2042 (ribosome-associated heat shock protein), NCgl2043 (hypothetical protein), NCgl2044 (hypothetical protein)"
+NC_003450.3,2243035,2244823,1,NCgl2045,"NCgl2045 (1,4-alpha-glucan-branching protein)"
+NC_003450.3,2244861,2246172,-1,NCgl2046,NCgl2046 (threonine dehydratase)
+NC_003450.3,2246407,2246896,1,NCgl2047,NCgl2047 (hypothetical protein)
+NC_003450.3,2248355,2251940,-1,NCgl2049,NCgl2049 (DNA polymerase III subunit alpha)
+NC_003450.3,2252017,2252860,1,NCgl2050,NCgl2050 (permease)
+NC_003450.3,2259418,2261513,-1,"NCgl2056, NCgl2057, NCgl2058","NCgl2056 (hypothetical protein), NCgl2057 (23S RNA-specific pseudouridylate synthase), NCgl2058 (lipoprotein signal peptidase)"
+NC_003450.3,2261688,2262693,1,NCgl2059,NCgl2059 (hypothetical protein)
+NC_003450.3,2264506,2265109,-1,NCgl2061,NCgl2061 (hypothetical protein)
+NC_003450.3,2265420,2266698,1,"NCgl2062, NCgl2063","NCgl2062 (L-asparaginase), NCgl2063 (hypothetical protein)"
+NC_003450.3,2297228,2297654,-1,NCgl2089,NCgl2089 (hypothetical protein)
+NC_003450.3,2297878,2298442,1,NCgl2090,NCgl2090 (hypothetical protein)
+NC_003450.3,2298448,2299429,-1,NCgl2091,"NCgl2091 (5,10-methylenetetrahydrofolate reductase)"
+NC_003450.3,2299524,2302179,1,"NCgl2092, NCgl2093","NCgl2092 (geranylgeranyl pyrophosphate synthase), NCgl2093 (hypothetical protein)"
+NC_003450.3,2302248,2302620,-1,NCgl2094,NCgl2094 (hypothetical protein)
+NC_003450.3,2302761,2307625,1,"NCgl2095, NCgl2096, NCgl2097","NCgl2095 (serine/threonine protein kinase), NCgl2096 (hypothetical protein), NCgl2097 (hypothetical protein)"
+NC_003450.3,2307694,2309677,-1,"NCgl2098, NCgl2099","NCgl2098 (3-deoxy-7-phosphoheptulonate synthase), NCgl2099 (hypothetical protein)"
+NC_003450.3,2309817,2313812,1,"NCgl2100, NCgl2101","NCgl2100 (hypothetical protein), NCgl2101 (hypothetical protein)"
+NC_003450.3,2326469,2327998,-1,"NCgl2114, NCgl2115","NCgl2114 (hypothetical protein), NCgl2115 (cytochrome C oxidase subunit II)"
+NC_003450.3,2328516,2330439,1,NCgl2116,NCgl2116 (asparagine synthase)
+NC_003450.3,2330583,2330928,-1,NCgl2117,NCgl2117 (hypothetical protein)
+NC_003450.3,2331170,2331971,1,NCgl2118,NCgl2118 (hypothetical protein)
+NC_003450.3,2335912,2337016,-1,NCgl2123,NCgl2123 (branched-chain amino acid aminotransferase)
+NC_003450.3,2337235,2338738,1,NCgl2124,NCgl2124 (leucyl aminopeptidase)
+NC_003450.3,2338745,2339141,-1,NCgl2125,NCgl2125 (hypothetical protein)
+NC_003450.3,2339269,2342168,1,"NCgl2126, NCgl2127","NCgl2126 (dihydrolipoamide acetyltransferase), NCgl2127 (lipoate-protein ligase B)"
+NC_003450.3,2348075,2348567,-1,NCgl2132,NCgl2132 (hypothetical protein)
+NC_003450.3,2348829,2350263,1,NCgl2133,NCgl2133 (glutamine synthase)
+NC_003450.3,2350909,2351844,-1,"NCgl2135, NCgl2136","NCgl2135 (hypothetical protein), NCgl2136 (NTP pyrophosphohydrolase)"
+NC_003450.3,2351923,2353229,1,"NCgl2137, NCgl2138","NCgl2137 (coenzyme F420-dependent N5,N10-methylene tetrahydromethanopterin reductase), NCgl2138 (translation initiation inhibitor)"
+NC_003450.3,2353597,2355043,-1,NCgl2139,NCgl2139 (threonine synthase)
+NC_003450.3,2355183,2355402,1,NCgl2140,NCgl2140 (hypothetical protein)
+NC_003450.3,2359611,2364156,-1,"NCgl2147, NCgl2148","NCgl2147 (bifunctional glutamine-synthetase adenylyltransferase/deadenyltransferase), NCgl2148 (glutamine synthase)"
+NC_003450.3,2364352,2365459,1,NCgl2149,NCgl2149 (hypothetical protein)
+NC_003450.3,2367470,2367653,-1,NCgl2151,NCgl2151 (hypothetical protein)
+NC_003450.3,2367791,2369087,1,NCgl2152,NCgl2152 (galactokinase)
+NC_003450.3,2369113,2370541,-1,NCgl2153,NCgl2153 (exoribonuclease)
+NC_003450.3,2370423,2370912,1,NCgl2154,NCgl2154 (hypothetical protein)
+NC_003450.3,2370919,2374463,-1,"NcG10s02, NCgl2155, NCgl2156, NCgl2157","NcG10s02 (Rnase P, RNA component), NCgl2155 (bifunctional RNase H/acid phosphatase), NCgl2156 (Zn-ribbon protein), NCgl2157 (hypothetical protein)"
+NC_003450.3,2374544,2375201,1,NCgl2158,NCgl2158 (phosphatase)
+NC_003450.3,2376995,2377727,-1,"NCgl2161, NCgl2162","NCgl2161 (hypothetical protein), NCgl2162 (hypothetical protein)"
+NC_003450.3,2377767,2378493,1,"NCgl2163, NCgl2164","NCgl2163 (transcriptional regulator), NCgl2164 (hypothetical protein)"
+NC_003450.3,2378692,2379313,-1,"NCg1t42, NCgl2165","NCg1t42 (tRNA-Val), NCgl2165 (hypothetical protein)"
+NC_003450.3,2379426,2379774,1,NCgl2166,NCgl2166 (hypothetical protein)
+NC_003450.3,2385910,2386192,-1,NCgl2171,NCgl2171 (hypothetical protein)
+NC_003450.3,2386209,2386584,1,NCgl2172,NCgl2172 (hypothetical protein)
+NC_003450.3,2386611,2387628,-1,NCgl2173,NCgl2173 (hydrolase/acyltransferase)
+NC_003450.3,2387667,2389873,1,"NCgl2174, NCgl2175, NCgl2176","NCgl2174 (acyl carrier protein), NCgl2175 (HAD family sugar phosphatase), NCgl2176 (hypothetical protein)"
+NC_003450.3,2391181,2393140,-1,"NCgl2178, NCgl2179, NCgl2180","NCgl2178 (beta-lactamase class C), NCgl2179 (hypothetical protein), NCgl2180 (hypothetical protein)"
+NC_003450.3,2393164,2393974,1,"NCgl2181, NCgl2182","NCgl2181 (hypothetical protein), NCgl2182 (hypothetical protein)"
+NC_003450.3,2393970,2394399,-1,NCgl2183,NCgl2183 (hypothetical protein)
+NC_003450.3,2394594,2394939,1,NCgl2184,NCgl2184 (hypothetical protein)
+NC_003450.3,2394988,2395065,-1,NCg1t43,NCg1t43 (tRNA-Met)
+NC_003450.3,2395216,2396922,1,"NCgl2185, NCg1t44","NCgl2185 (phosphodiesterase/alkaline phosphatase D), NCg1t44 (tRNA-Asn)"
+NC_003450.3,2399402,2401304,-1,NCgl2188,NCgl2188 (DNA primase)
+NC_003450.3,2401373,2402084,1,"NCgl2189, NCgl2190","NCgl2189 (hypothetical protein), NCgl2190 (hypothetical protein)"
+NC_003450.3,2402141,2404013,-1,NCgl2191,NCgl2191 (glucosamine--fructose-6-phosphate aminotransferase)
+NC_003450.3,2404523,2404850,1,NCgl2192,NCgl2192 (hypothetical protein)
+NC_003450.3,2404984,2406937,-1,"NCgl2193, NCgl2194","NCgl2193 (deoxyguanosinetriphosphate triphosphohydrolase-like protein), NCgl2194 (hypothetical protein)"
+NC_003450.3,2406978,2409033,1,NCgl2195,NCgl2195 (chromosome segregation ATPase)
+NC_003450.3,2409776,2412339,-1,"NCgl2196, NCgl2197, NCgl2198","NCgl2196 (hypothetical protein), NCgl2197 (hypothetical protein), NCgl2198 (glycyl-tRNA synthetase)"
+NC_003450.3,2412580,2413427,1,"NCgl2199, NCgl2200","NCgl2199 (transcriptional regulator), NCgl2200 (Fe2+/Zn2+ uptake regulation protein)"
+NC_003450.3,2417219,2426105,-1,"NCgl2204, NCgl2205, NCgl2206, NCgl2207, NCgl2208, NCgl2209, NCgl2210, NCgl2211, NCgl2212","NCgl2204 (DNA repair protein RecO), NCgl2205 (GTP-binding protein Era), NCgl2206 (hypothetical protein), NCgl2207 (metalloprotease), NCgl2208 (phosphate starvation-inducible protein PhoH), NCgl2209 (16S rRNA (uracil(1498)-N(3))-methyltransferase), NCgl2210 (molecular chaperone DnaJ), NCgl2211 (heat-inducible transcription repressor), NCgl2212 (coproporphyrinogen III oxidase)"
+NC_003450.3,2426190,2426703,1,NCgl2213,NCgl2213 (hypothetical protein)
+NC_003450.3,2427804,2430029,-1,"NCgl2215, NCgl2216","NCgl2215 (hypothetical protein), NCgl2216 (long-chain acyl-CoA synthetase (AMP-forming))"
+NC_003450.3,2430296,2432417,1,NCgl2217,NCgl2217 (4-alpha-glucanotransferase)
+NC_003450.3,2434802,2436839,-1,NCgl2219,NCgl2219 (Zn-dependent oligopeptidase)
+NC_003450.3,2436871,2440998,1,"NCgl2220, NCgl2221, NCgl2222","NCgl2220 (carboxylesterase type B), NCgl2221 (trehalose synthase), NCgl2222 (hypothetical protein)"
+NC_003450.3,2441002,2444552,-1,"NCgl2223, NCgl2224, NCgl2225, NCgl2226","NCgl2223 (isopentenyl-diphosphate delta-isomerase), NCgl2224 (hypothetical protein), NCgl2225 (hypothetical protein), NCgl2226 (hypothetical protein)"
+NC_003450.3,2444606,2448002,1,"NCgl2227, NCgl2228, NCgl2229","NCgl2227 (PLP-dependent aminotransferase), NCgl2228 (branched-chain amino acid ABC transporter permease), NCgl2229 (coenzyme F420-dependent N5,N10-methylene tetrahydromethanopterin reductase)"
+NC_003450.3,2450320,2454638,-1,"NCgl2231, NCgl2232, NCgl2233","NCgl2231 (hypothetical protein), NCgl2232 (permease), NCgl2233 (FAD/FMN-containing dehydrogenase)"
+NC_003450.3,2454725,2455439,1,NCgl2234,NCgl2234 (transcriptional regulator)
+NC_003450.3,2457334,2457760,-1,NCgl2237,NCgl2237 (hypothetical protein)
+NC_003450.3,2457863,2462603,1,"NCgl2238, NCgl2239, NCgl2240, NCgl2241","NCgl2238 (ABC transporter periplasmic component), NCgl2239 (ABC transporter permease), NCgl2240 (ABC transporter permease), NCgl2241 (ABC transporter duplicated ATPase)"
+NC_003450.3,2462599,2463151,-1,NCgl2242,NCgl2242 (2'-5' RNA ligase)
+NC_003450.3,2463241,2464147,1,NCgl2243,NCgl2243 (sugar kinase)
+NC_003450.3,2466035,2467010,-1,NCgl2245,NCgl2245 (Na+-dependent transporter)
+NC_003450.3,2467077,2467926,1,NCgl2246,NCgl2246 (hypothetical protein)
+NC_003450.3,2467922,2470142,-1,NCgl2247,NCgl2247 (malate synthase G)
+NC_003450.3,2470740,2472039,1,NCgl2248,NCgl2248 (isocitrate lyase)
+NC_003450.3,2472890,2473553,-1,NCgl2250,NCgl2250 (hypothetical protein)
+NC_003450.3,2473653,2475546,1,NCgl2251,NCgl2251 (choline-glycine betaine transporter)
+NC_003450.3,2475837,2476119,-1,NCgl2252,NCgl2252 (hypothetical protein)
+NC_003450.3,2476497,2477496,1,NCgl2253,NCgl2253 (hypothetical protein)
+NC_003450.3,2479895,2484393,-1,"NCgl2256, NCgl2257, NCgl2258, NCgl2259","NCgl2256 (hypothetical protein), NCgl2257 (hypothetical protein), NCgl2258 (dicarboxylate-binding periplasmic protein), NCgl2259 (GTP-binding protein LepA)"
+NC_003450.3,2484661,2485273,1,NCgl2260,NCgl2260 (hypothetical protein)
+NC_003450.3,2498006,2499512,-1,NCgl2275,NCgl2275 (GTPase ObgE)
+NC_003450.3,2499693,2501673,1,NCgl2276,NCgl2276 (xanthine/uracil permease)
+NC_003450.3,2501732,2502578,-1,NCgl2277,NCgl2277 (aldo/keto reductase)
+NC_003450.3,2502735,2503359,1,NCgl2278,NCgl2278 (hypothetical protein)
+NC_003450.3,2504828,2507894,-1,NCgl2281,NCgl2281 (ribonuclease E)
+NC_003450.3,2508106,2509534,1,"NCgl2282, NCgl2283","NCgl2282 (hypothetical protein), NCgl2283 (pirin)"
+NC_003450.3,2509520,2510831,-1,NCgl2284,NCgl2284 (transposase)
+NC_003450.3,2511046,2511880,1,"NCgl2285, NCgl2286","NCgl2285 (pirin), NCgl2286 (hypothetical protein)"
+NC_003450.3,2511946,2512727,-1,"NCgl2287, NCgl2288","NCgl2287 (nucleoside diphosphate kinase), NCgl2288 (hypothetical protein)"
+NC_003450.3,2512803,2513148,1,NCgl2289,NCgl2289 (acetyltransferase)
+NC_003450.3,2515634,2519973,-1,"NCgl2293, NCgl2294","NCgl2293 (valyl-tRNA synthetase), NCgl2294 (ABC transporter periplasmic components)"
+NC_003450.3,2520209,2521664,1,NCgl2295,NCgl2295 (molecular chaperone)
+NC_003450.3,2521664,2523249,-1,"NCgl2296, NCgl2297","NCgl2296 (Rossmann fold nucleotide-binding protein), NCgl2297 (malate dehydrogenase)"
+NC_003450.3,2523561,2524341,1,NCgl2298,NCgl2298 (transcriptional regulator)
+NC_003450.3,2524337,2524916,-1,NCgl2299,NCgl2299 (transcriptional regulator)
+NC_003450.3,2525099,2528563,1,"NCgl2300, NCgl2301, NCgl2302","NCgl2300 (ferredoxin subunits of nitrite reductase and ring-hydroxylating dioxygenase), NCgl2301 (flavodoxin reductase 1), NCgl2302 (major facilitator superfamily permease)"
+NC_003450.3,2528548,2530762,-1,"NCgl2303, NCgl2304","NCgl2303 (permease), NCgl2304 (ATP-dependent protease ATP-binding subunit ClpX)"
+NC_003450.3,2530891,2531980,1,NCgl2305,NCgl2305 (hypothetical protein)
+NC_003450.3,2531966,2533354,-1,"NCgl2306, NCgl2307","NCgl2306 (acyl-CoA:acetate CoA transferase beta subunit), NCgl2307 (acyl-CoA:acetate CoA transferase alpha subunit)"
+NC_003450.3,2533418,2538260,1,"NCgl2308, NCgl2309, NCgl2310, NCgl2311","NCgl2308 (transcriptional regulator), NCgl2309 (acetyl-CoA acetyltransferase), NCgl2310 (3-oxoadipate enol-lactonase), NCgl2311 (DNA-binding HTH domain-containing protein)"
+NC_003450.3,2544019,2544877,-1,NCgl2319,"NCgl2319 (protocatechuate 3,4-dioxygenase subunit beta)"
+NC_003450.3,2545294,2549699,1,"NCgl2320, NCgl2321, NCgl2322, NCgl2323","NCgl2320 (benzoate dioxygenase large subunit), NCgl2321 (benzoate dioxygenase small subunit), NCgl2322 (benzoate 1,2-dioxygenase ferredoxin reductase subunit), NCgl2323 (1,6-dihydroxycyclohexa-2,4-diene-1-carboxylate dehydrogenase)"
+NC_003450.3,2556757,2558296,-1,"NCgl2329, NCg1t46","NCgl2329 (trigger factor), NCg1t46 (tRNA-Pro)"
+NC_003450.3,2558609,2560590,1,"NCgl2330, NCgl2331, NCgl2332","NCgl2330 (hypothetical protein), NCgl2331 (beta-lactamase class C), NCgl2332 (hypothetical protein)"
+NC_003450.3,2560604,2560679,-1,NCg1t47,NCg1t47 (tRNA-Gly)
+NC_003450.3,2561115,2561367,1,NCgl2333,NCgl2333 (hypothetical protein)
+NC_003450.3,2562075,2562342,-1,NCgl2335,NCgl2335 (hypothetical protein)
+NC_003450.3,2562963,2563851,1,NCgl2336,NCgl2336 (hypothetical protein)
+NC_003450.3,2565620,2566232,-1,NCgl2339,NCgl2339 (hypothetical protein)
+NC_003450.3,2566345,2568949,1,NCgl2340,NCgl2340 (aminopeptidase)
+NC_003450.3,2570306,2571347,-1,NCgl2342,NCgl2342 (hypothetical protein)
+NC_003450.3,2571510,2572352,1,"NCgl2343, NCgl2344","NCgl2343 (hypothetical protein), NCgl2344 (hypothetical protein)"
+NC_003450.3,2572348,2582418,-1,"NCgl2345a, NCgl2347, NCgl2348, NCgl2349, NCgl2350, NCgl2351, NCgl2352, NCgl2353","NCgl2345a (), NCgl2347 (phytoene synthase), NCgl2348 (major facilitator superfamily permease), NCgl2349 (hypothetical protein), NCgl2350 (ABC transporter duplicated ATPase), NCgl2351 (ABC transporter permease), NCgl2352 (ABC transporter permease), NCgl2353 (ABC transporter periplasmic component)"
+NC_003450.3,2582564,2585930,1,"NCgl2354, NCgl2355","NCgl2354 (hypothetical protein), NCgl2355 (hypothetical protein)"
+NC_003450.3,2588722,2589433,-1,NCgl2358,NCgl2358 (short chain dehydrogenase)
+NC_003450.3,2589565,2590306,1,NCgl2359,NCgl2359 (transcriptional regulator)
+NC_003450.3,2590309,2592366,-1,"NCgl2360, NCgl2361","NCgl2360 (cystathionine gamma-synthase), NCgl2361 (ABC transporter ATPase)"
+NC_003450.3,2592402,2592798,1,NCgl2362,NCgl2362 (hemoglobin-like protein)
+NC_003450.3,2598659,2600813,-1,NCgl2370,NCgl2370 (hypothetical protein)
+NC_003450.3,2601020,2601097,1,NCg1t48,NCg1t48 (tRNA-Arg)
+NC_003450.3,2610845,2611532,-1,NCgl2378,NCgl2378 (glycosyltransferase)
+NC_003450.3,2611532,2612276,1,NCgl2379,NCgl2379 (hypothetical protein)
+NC_003450.3,2613073,2613637,-1,NCgl2380,NCgl2380 (AraC family transcriptional regulator)
+NC_003450.3,2613877,2615414,1,"NCgl2381, NCgl2382","NCgl2381 (hypothetical protein), NCgl2382 (hypothetical protein)"
+NC_003450.3,2615936,2617121,-1,NCgl2383,NCgl2383 (hypothetical protein)
+NC_003450.3,2617246,2619542,1,"NCgl2384, NCgl2385, NCgl2386","NCgl2384 (hydroxypyruvate isomerase), NCgl2385 (short-chain dehydrogenase), NCgl2386 (oligoribonuclease)"
+NC_003450.3,2620970,2622182,-1,NCgl2388,NCgl2388 (hypothetical protein)
+NC_003450.3,2622647,2623609,1,"NCg1t50, NCg1t51, NCgl2389","NCg1t50 (tRNA-Lys), NCg1t51 (tRNA-Lys), NCgl2389 (hypothetical protein)"
+NC_003450.3,2623618,2623771,-1,NCgl2390,NCgl2390 (hypothetical protein)
+NC_003450.3,2623803,2624052,1,NCgl2391,NCgl2391 (hypothetical protein)
+NC_003450.3,2624048,2625359,-1,NCgl2392,NCgl2392 (transposase)
+NC_003450.3,2625600,2625810,1,NCgl2393,NCgl2393 (hypothetical protein)
+NC_003450.3,2625806,2627732,-1,"NCgl2394, NCgl2395","NCgl2394 (hypothetical protein), NCgl2395 (glutaminase)"
+NC_003450.3,2627924,2630483,1,"NCgl2396a, NCgl2398","NCgl2396a (), NCgl2398 (glucuronate isomerase)"
+NC_003450.3,2633143,2633419,-1,NCgl2402,NCgl2402 (hypothetical protein)
+NC_003450.3,2633591,2634755,1,"NCgl2403, NCgl2404","NCgl2403 (bacterioferritin comigratory protein), NCgl2404 (transcriptional regulator)"
+NC_003450.3,2634744,2636497,-1,"NCgl2405, NCgl2406","NCgl2405 (4'-phosphopantetheinyl transferase), NCgl2406 (major facilitator superfamily permease)"
+NC_003450.3,2636866,2637172,1,NCgl2407,NCgl2407 (hypothetical protein)
+NC_003450.3,2648232,2649417,-1,NCgl2410,NCgl2410 (regulator of polyketide synthase expression)
+NC_003450.3,2649592,2650168,1,NCgl2411,NCgl2411 (metalloendopeptidase-like protein)
+NC_003450.3,2650243,2650328,-1,NCg1t52,NCg1t52 (tRNA-Leu)
+NC_003450.3,2650441,2651343,1,"NCgl2412, NCgl2413","NCgl2412 (hypothetical protein), NCgl2413 (hypothetical protein)"
+NC_003450.3,2654872,2656201,-1,NCgl2419,NCgl2419 (hypothetical protein)
+NC_003450.3,2656452,2656989,1,NCgl2420,NCgl2420 (transposase)
+NC_003450.3,2656971,2659458,-1,"NCgl2421, NCgl2422, NCgl2423","NCgl2421 (hypothetical protein), NCgl2422 (metal-dependent hydrolase), NCgl2423 (glutamate racemase)"
+NC_003450.3,2659508,2660135,1,NCgl2424,NCgl2424 (hypothetical protein)
+NC_003450.3,2660144,2663255,-1,"NCgl2425, NCgl2426, NCgl2427, NCgl2428, NCgl2429","NCgl2425 (transcriptional regulator), NCgl2426 (hypothetical protein), NCgl2427 (L-aminopeptidase/D-esterase), NCgl2428 (hypothetical protein), NCgl2429 (ATP-dependent Clp protease adaptor protein ClpS)"
+NC_003450.3,2663512,2665401,1,"NCgl2430, NCgl2431","NCgl2430 (hypothetical protein), NCgl2431 (nicotinate phosphoribosyltransferase)"
+NC_003450.3,2673335,2674340,-1,NCgl2438,NCgl2438 (ribonucleotide-diphosphate reductase subunit beta)
+NC_003450.3,2674804,2675293,1,NCgl2439,NCgl2439 (ferritin)
+NC_003450.3,2681220,2681343,-1,NCgl2446a,NCgl2446a (50S ribosomal protein L36)
+NC_003450.3,2681546,2682380,1,NCgl2446,NCgl2446 (NAD synthetase)
+NC_003450.3,2682376,2684647,-1,"NCgl2447, NCgl2448, NCgl2449","NCgl2447 (hypothetical protein), NCgl2448 (hypothetical protein), NCgl2449 (Zn-NADPH:quinone dehydrogenase)"
+NC_003450.3,2684919,2687152,1,"NCgl2450, NCgl2451","NCgl2450 (hypothetical protein), NCgl2451 (hypothetical protein)"
+NC_003450.3,2688386,2690051,-1,NCgl2453,NCgl2453 (phosphoglucomutase)
+NC_003450.3,2690150,2691568,1,"NCgl2454, NCgl2455, NCgl2456","NCgl2454 (camphor resistance protein CrcB), NCgl2455 (hypothetical protein), NCgl2456 (hypothetical protein)"
+NC_003450.3,2695317,2695767,-1,NCgl2460,NCgl2460 (transposase)
+NC_003450.3,2695839,2697216,1,NCgl2461,NCgl2461 (hypothetical protein)
+NC_003450.3,2707424,2708948,-1,NCg1r13,NCg1r13 (16S ribosomal RNA)
+NC_003450.3,2709878,2711312,1,"NCgl2466, NCgl2467","NCgl2466 (hypothetical protein), NCgl2467 (dehydrogenase)"
+NC_003450.3,2718433,2719690,-1,NCgl2470,NCgl2470 (UDP-N-acetylglucosamine 1-carboxyvinyltransferase)
+NC_003450.3,2719750,2720323,1,NCgl2471,NCgl2471 (hypothetical protein)
+NC_003450.3,2720382,2721228,-1,NCgl2472,NCgl2472 (regulatory-like protein)
+NC_003450.3,2721904,2722861,1,NCgl2473,NCgl2473 (cysteine synthase)
+NC_003450.3,2729375,2730884,-1,NCgl2480,NCgl2480 (acetyl-CoA hydrolase)
+NC_003450.3,2731376,2733371,1,"NCgl2481, NCgl2482","NCgl2481 (TIM-barrel containing enzyme), NCgl2482 (phosphate uptake regulator)"
+NC_003450.3,2737833,2738712,-1,NCgl2487,NCgl2487 (histone acetyltransferase HPA2-like protein)
+NC_003450.3,2738795,2739557,1,NCgl2488,NCgl2488 (hypothetical protein)
+NC_003450.3,2739553,2740672,-1,NCgl2489,NCgl2489 (hypothetical protein)
+NC_003450.3,2740670,2741360,1,NCgl2490,NCgl2490 (hypothetical protein)
+NC_003450.3,2741633,2742578,-1,NCgl2491,NCgl2491 (4-amino-4-deoxychorismate lyase)
+NC_003450.3,2742667,2743789,1,NCgl2492,NCgl2492 (glycine cleavage system protein T)
+NC_003450.3,2746080,2748058,-1,"NCgl2495, NCgl2496","NCgl2495 (amidophosphoribosyltransferase), NCgl2496 (hypothetical protein)"
+NC_003450.3,2748095,2749115,1,NCgl2497,NCgl2497 (acyl-CoA thioesterase)
+NC_003450.3,2749159,2753805,-1,"NCgl2498, NCgl2499, NCgl2500, NCgl2501, NCgl2502","NCgl2498 (membrane proteins), NCgl2499 (phosphoribosylformylglycinamidine synthase II), NCgl2500 (phosphoribosylformylglycinamidine synthase I), NCgl2501 (phosphoribosylformylglycinamidine synthase subunit PurS), NCgl2502 (glutathione peroxidase)"
+NC_003450.3,2753992,2756743,1,NCgl2503,NCgl2503 (extracellular nuclease)
+NC_003450.3,2763501,2767421,-1,"NCgl2509, NCgl2510, NCgl2511","NCgl2509 (adenylosuccinate lyase), NCgl2510 (PLP-dependent aminotransferase), NCgl2511 (phosphoribosylamine--glycine ligase)"
+NC_003450.3,2767586,2767997,1,NCgl2512,NCgl2512 (diadenosine tetraphosphate (Ap4A) hydrolase)
+NC_003450.3,2768340,2770539,-1,"NCgl2513, NCgl2514","NCgl2513 (SAM-dependent methyltransferase), NCgl2514 (dipeptide/tripeptide permease)"
+NC_003450.3,2770714,2772664,1,"NCgl2515, NCgl2516","NCgl2515 (adenosylmethionine--8-amino-7-oxononanoate aminotransferase BioA), NCgl2516 (dithiobiotin synthetase)"
+NC_003450.3,2774934,2778505,-1,"NCgl2519, NCgl2520, NCgl2521","NCgl2519 (transcriptional regulator), NCgl2520 (hypothetical protein), NCgl2521 (pyruvate dehydrogenase)"
+NC_003450.3,2778965,2782319,1,"NCgl2522, NCgl2523, NCgl2524","NCgl2522 (major facilitator superfamily permease), NCgl2523 (transcriptional regulator), NCgl2524 (major facilitator superfamily permease)"
+NC_003450.3,2786753,2787716,-1,NCgl2528,NCgl2528 (D-2-hydroxyisocaproate dehydrogenase)
+NC_003450.3,2787782,2788598,1,NCgl2529,NCgl2529 (hypothetical protein)
+NC_003450.3,2788584,2789936,-1,"NCgl2530, NCgl2531","NCgl2530 (HAD superfamily hydrolase), NCgl2531 (hypothetical protein)"
+NC_003450.3,2790218,2790554,1,NCgl2532,NCgl2532 (hypothetical protein)
+NC_003450.3,2790758,2790834,-1,NCg1t59,NCg1t59 (tRNA-Thr)
+NC_003450.3,2790982,2794816,1,"NCgl2533, NCgl2534, NCgl2535, NCgl2536","NCgl2533 (hypothetical protein), NCgl2534 (hypothetical protein), NCgl2535 (trehalose-6-phosphate synthase), NCgl2536 (hypothetical protein)"
+NC_003450.3,2795673,2796756,-1,NCgl2538,NCgl2538 (transcriptional regulator)
+NC_003450.3,2796856,2799395,1,"NCgl2539, NCgl2540, NCgl2541","NCgl2539 (ABC transporter periplasmic component), NCgl2540 (ABC transporter ATPase), NCgl2541 (ABC transporter permease)"
+NC_003450.3,2811957,2815233,-1,"NCgl2554, NCgl2555, NCgl2556","NCgl2554 (beta-fructosidase), NCgl2555 (glucosamine-6-phosphate isomerase), NCgl2556 (N-acetylglucosamine-6-phosphate deacetylase)"
+NC_003450.3,2815458,2818062,1,"NCgl2557, NCgl2558, NCgl2559","NCgl2557 (dihydrodipicolinate synthase), NCgl2558 (transcriptional regulator), NCgl2559 (N-acetylmannosamine-6-phosphate 2-epimerase)"
+NC_003450.3,2818347,2820277,-1,"NCgl2560, NCgl2561","NCgl2560 (hypothetical protein), NCgl2561 (transcriptional regulator)"
+NC_003450.3,2820575,2822195,1,NCgl2562,NCgl2562 (ABC transporter periplasmic component)
+NC_003450.3,2826212,2826836,-1,NCgl2566,NCgl2566 (threonine efflux protein)
+NC_003450.3,2826907,2827408,1,NCgl2567,NCgl2567 (transcriptional regulator)
+NC_003450.3,2827455,2829750,-1,"NCgl2568, NCgl2569, NCgl2570, NCgl2571","NCgl2568 (hypothetical protein), NCgl2569 (2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase), NCgl2570 (2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase), NCgl2571 (transcriptional regulator)"
+NC_003450.3,2830057,2831898,1,"NCgl2572, NCgl2573","NCgl2572 (two-component system, response regulator), NCgl2573 (two-component system, sensory transduction histidine kinase)"
+NC_003450.3,2837953,2838577,-1,NCgl2579,NCgl2579 (carbonic anhydrase)
+NC_003450.3,2838643,2840720,1,"NCgl2580, NCgl2581","NCgl2580 (A/G-specific adenine glycosylase), NCgl2581 (hypothetical protein)"
+NC_003450.3,2844163,2846941,-1,NCgl2585,"NCgl2585 (ATPase with chaperone activity, ATP-binding subunit)"
+NC_003450.3,2847229,2849783,1,"NCgl2586, NCgl2587","NCgl2586 (inosine 5-monophosphate dehydrogenase), NCgl2587 (AraC family transcriptional regulator)"
+NC_003450.3,2869860,2872726,-1,"NCgl2604, NCgl2605, NCgl2606","NCgl2604 (hypoxanthine-guanine phosphoribosyltransferase), NCgl2605 (ATPase), NCgl2606 (D-alanyl-D-alanine carboxypeptidase)"
+NC_003450.3,2872926,2873403,1,NCgl2607,NCgl2607 (inorganic pyrophosphatase)
+NC_003450.3,2878475,2879711,-1,NCgl2615,NCgl2615 (uncharacterized NAD(FAD)-dependent dehydrogenase)
+NC_003450.3,2879965,2880256,1,NCgl2616,NCgl2616 (rhodanese-related sulfurtransferase)
+NC_003450.3,2890748,2907251,-1,"NCgl2622, NCgl2623, NCgl2624, NCgl2625, NCgl2626, NCgl2627, NCgl2628, NCgl2629, NCgl2630","NCgl2622 (hypothetical protein), NCgl2623 (hypothetical protein), NCgl2624 (hypothetical protein), NCgl2625 (hypothetical protein), NCgl2626 (hypothetical protein), NCgl2627 (hypothetical protein), NCgl2628 (hypothetical protein), NCgl2629 (hypothetical protein), NCgl2630 (hypothetical protein)"
+NC_003450.3,2907515,2908889,1,NCgl2631,NCgl2631 (hypothetical protein)
+NC_003450.3,2917021,2919700,-1,"NCgl2639, NCgl2640, NCgl2641, NCgl2642","NCgl2639 (hypothetical protein), NCgl2640 (carboxylate-amine ligase), NCgl2641 (hypothetical protein), NCgl2642 (hypothetical protein)"
+NC_003450.3,2919715,2923621,1,"NCgl2643, NCgl2644, NCgl2645, NCgl2646","NCgl2643 (peptide deformylase), NCgl2644 (histone acetyltransferase HPA2-like protein), NCgl2645 (exonuclease III), NCgl2646 (cardiolipin synthase)"
+NC_003450.3,2923951,2925148,-1,NCgl2647,NCgl2647 (major facilitator superfamily permease)
+NC_003450.3,2925541,2926708,1,NCgl2648,NCgl2648 (Na+/phosphate symporter)
+NC_003450.3,2926704,2929757,-1,"NCgl2649, NCgl2650, NCgl2651, NCgl2652","NCgl2649 (epimerase), NCgl2650 (ABC transporter permease), NCgl2651 (ABC transporter ATPase), NCgl2652 (NTP pyrophosphohydrolase)"
+NC_003450.3,2929951,2934833,1,"NCgl2653, NCgl2654, NCgl2655","NCgl2653 (hypothetical protein), NCgl2654 (ABC transporter periplasmic component), NCgl2655 (serine/threonine protein kinase)"
+NC_003450.3,2935312,2937891,-1,"NCgl2656, NCgl2657","NCgl2656 (acetate kinase), NCgl2657 (phosphotransacetylase)"
+NC_003450.3,2938403,2939771,1,NCgl2658,NCgl2658 (ferredoxin/ferredoxin-NADP reductase)
+NC_003450.3,2950431,2951724,-1,NCgl2669,NCgl2669 (adenylosuccinate synthetase)
+NC_003450.3,2951933,2952976,1,"NCgl2670, NCgl2671","NCgl2670 (hypothetical protein), NCgl2671 (hypothetical protein)"
+NC_003450.3,2960465,2961188,-1,NCgl2679,NCgl2679 (hypothetical protein)
+NC_003450.3,2961342,2962722,1,NCgl2680,NCgl2680 (multidrug resistance protein)
+NC_003450.3,2966455,2967805,-1,NCgl2683,NCgl2683 (sodium/glutamate symport carrier protein)
+NC_003450.3,2968403,2972061,1,"NCgl2684, NCgl2685, NCgl2686, NCgl2687","NCgl2684 (transcriptional regulator), NCgl2685 (Co/Zn/Cd cation transporter), NCgl2686 (K+ transport flavoprotein), NCgl2687 (alkanal monooxygenase)"
+NC_003450.3,2972057,2973797,-1,"NCgl2688, NCgl2689","NCgl2688 (cystathionine gamma-synthase), NCgl2689 (transcriptional regulator)"
+NC_003450.3,2973961,2976364,1,"NCgl2690a, NCgl2692, NCgl2693","NCgl2690a (), NCgl2692 (hypothetical protein), NCgl2693 (hypothetical protein)"
+NC_003450.3,2977844,2978645,-1,NCgl2695,NCgl2695 (amidohydrolase)
+NC_003450.3,2978737,2980119,1,"NCgl2696, NCgl2697","NCgl2696 (hypothetical protein), NCgl2697 (hypothetical protein)"
+NC_003450.3,2983884,2986398,-1,"NCgl2701, NCgl2702","NCgl2701 (heat shock protein GrpE), NCgl2702 (molecular chaperone DnaK)"
+NC_003450.3,2986737,2988168,1,NCgl2703,NCgl2703 (permease)
+NC_003450.3,2995744,2996782,-1,NCgl2709,NCgl2709 (Zn-dependent alcohol dehydrogenase)
+NC_003450.3,2997151,2997370,1,NCgl2710,NCgl2710 (hypothetical protein)
+NC_003450.3,2997478,2997688,-1,NCgl2711,NCgl2711 (hypothetical protein)
+NC_003450.3,2997688,2997880,1,NCgl2712,NCgl2712 (hypothetical protein)
+NC_003450.3,3003477,3005163,-1,NCgl2718,NCgl2718 (nitrite reductase)
+NC_003450.3,3005545,3008380,1,"NCgl2719, NCgl2720","NCgl2719 (ferredoxin/ferredoxin-NADP reductase), NCgl2720 (hypothetical protein)"
+NC_003450.3,3008450,3009163,-1,"NCgl2721, NCgl2722","NCgl2721 (hypothetical protein), NCgl2722 (hypothetical protein)"
+NC_003450.3,3009242,3009611,1,NCgl2723,NCgl2723 (hypothetical protein)
+NC_003450.3,3013103,3014557,-1,"NCgl2727, NCgl2728","NCgl2727 (ABC transporter ATPase), NCgl2728 (ABC transporter ATPase)"
+NC_003450.3,3014616,3015828,1,NCgl2729,NCgl2729 (ABC transporter permease)
+NC_003450.3,3015824,3017150,-1,NCgl2730,NCgl2730 (peptidase)
+NC_003450.3,3017484,3019224,1,NCgl2731,NCgl2731 (hypothetical protein)
+NC_003450.3,3022110,3023901,-1,"NCgl2735, NCgl2736","NCgl2735 (nitroreductase), NCgl2736 (inosine-uridine nucleoside N-ribohydrolase)"
+NC_003450.3,3024379,3026143,1,"NCgl2737, NCgl2738, NCgl2739","NCgl2737 (membrane protease subunit), NCgl2738 (hypothetical protein), NCgl2739 (3-methyladenine DNA glycosylase)"
+NC_003450.3,3026139,3027300,-1,NCgl2740,NCgl2740 (hemoglobin-like flavoprotein)
+NC_003450.3,3027561,3028895,1,"NCgl2741, NCgl2742","NCgl2741 (hypothetical protein), NCgl2742 (hypothetical protein)"
+NC_003450.3,3028881,3029475,-1,NCgl2743,NCgl2743 (hypothetical protein)
+NC_003450.3,3029504,3029786,1,NCgl2744,NCgl2744 (hypothetical protein)
+NC_003450.3,3029699,3030062,-1,NCgl2745,NCgl2745 (hypothetical protein)
+NC_003450.3,3030155,3030539,1,NCgl2746,NCgl2746 (ABC transporter ATPase)
+NC_003450.3,3035437,3037412,-1,"NCgl2750, NCgl2751","NCgl2750 (UDP-glucose 6-dehydrogenase), NCgl2751 (deoxycytidine triphosphate deaminase)"
+NC_003450.3,3037550,3037624,1,NCg1t60,NCg1t60 (tRNA-Gly)
+NC_003450.3,3038990,3041933,-1,"NCgl2753, NCgl2754","NCgl2753 (hypothetical protein), NCgl2754 (beta-N-acetylglucosaminidase-like protein)"
+NC_003450.3,3041994,3045994,1,"NCgl2755, NCgl2756, NCgl2757, NCgl2758","NCgl2755 (hypothetical protein), NCgl2756 (hypothetical protein), NCgl2757 (hypothetical protein), NCgl2758 (hypothetical protein)"
+NC_003450.3,3046119,3047190,-1,NCgl2759,NCgl2759 (acyltransferase)
+NC_003450.3,3047233,3049483,1,"NCgl2760, NCgl2761","NCgl2760 (hypothetical protein), NCgl2761 (hypothetical protein)"
+NC_003450.3,3049453,3050557,-1,NCgl2762,NCgl2762 (glycosyltransferase)
+NC_003450.3,3050594,3051968,1,"NCgl2763, NCgl2764","NCgl2763 (hypothetical protein), NCgl2764 (SAM-dependent methyltransferase)"
+NC_003450.3,3052059,3053892,-1,NCgl2765,NCgl2765 (phosphoenolpyruvate carboxykinase)
+NC_003450.3,3054753,3061099,1,"NCgl2766, NCgl2767, NCgl2768, NCgl2769, NCgl2770, NCgl2771","NCgl2766 (hypothetical protein), NCgl2767 (tRNA (guanine-N(7)-)-methyltransferase), NCgl2768 (hypothetical protein), NCgl2769 (hypothetical protein), NCgl2770 (hypothetical protein), NCgl2771 (hypothetical protein)"
+NC_003450.3,3070211,3073621,-1,"NCgl2775, NCgl2776, NCgl2777","NCgl2775 (hypothetical protein), NCgl2776 (hypothetical protein), NCgl2777 (esterase)"
+NC_003450.3,3074077,3075451,1,NCgl2778,NCgl2778 (hypothetical protein)
+NC_003450.3,3076712,3082333,-1,"NCgl2780, NCgl2781, NCgl2782, NCgl2783","NCgl2780 (hypothetical protein), NCgl2781 (phosphoribose diphosphate:decaprenyl-phosphate phosphoribosyltransferase), NCgl2782 (membrane-associated phospholipid phosphatase), NCgl2783 (hypothetical protein)"
+NC_003450.3,3082563,3083964,1,NCgl2784,NCgl2784 (hypothetical protein)
+NC_003450.3,3083932,3085096,-1,"NCgl2785, NCgl2786","NCgl2785 (membrane-associated phospholipid phosphatase), NCgl2786 (hypothetical protein)"
+NC_003450.3,3085261,3087052,1,NCgl2787,NCgl2787 (K+ transport flavoprotein)
+NC_003450.3,3087098,3088304,-1,NCgl2788,NCgl2788 (UDP-galactopyranose mutase)
+NC_003450.3,3088589,3090668,1,NCgl2789,NCgl2789 (hypothetical protein)
+NC_003450.3,3090757,3095344,-1,"NCgl2790, NCgl2791, NCgl2792, NCgl2793","NCgl2790 (glycerol kinase), NCgl2791 (hypothetical protein), NCgl2792 (1-acyl-sn-glycerol-3-phosphate acyltransferase), NCgl2793 (seryl-tRNA synthetase)"
+NC_003450.3,3095490,3097768,1,"NCgl2794, NCgl2795, NCgl2796","NCgl2794 (transcriptional regulator), NCgl2795 (hypothetical protein), NCgl2796 (hypothetical protein)"
+NC_003450.3,3097901,3099523,-1,"NCgl2798, NCgl2799","NCgl2798 (phosphoglycerate mutase), NCgl2799 (prephenate dehydratase)"
+NC_003450.3,3099556,3101430,1,"NCgl2800, NCgl2801","NCgl2800 (amidase), NCgl2801 (hypothetical protein)"
+NC_003450.3,3106050,3107770,-1,"NCgl2806, NCgl2807","NCgl2806 (hypothetical protein), NCgl2807 (glycerophosphoryl diester phosphodiesterase)"
+NC_003450.3,3108131,3109523,1,NCgl2808,NCgl2808 (gluconate permease)
+NC_003450.3,3112446,3113391,-1,NCgl2810,NCgl2810 (L-lactate dehydrogenase)
+NC_003450.3,3113619,3118125,1,"NCgl2811, NCgl2812, NCgl2813, NCgl2814, NCgl2815","NCgl2811 (hypothetical protein), NCgl2812 (HAD superfamily hydrolase), NCgl2813 (flavoprotein), NCgl2814 (transcriptional regulator), NCgl2815 (hypothetical protein)"
+NC_003450.3,3125492,3126146,-1,NCgl2825,NCgl2825 (methionine sulfoxide reductase A)
+NC_003450.3,3126392,3126995,1,NCgl2826,NCgl2826 (superoxide dismutase)
+NC_003450.3,3127491,3128418,-1,NCgl2827,NCgl2827 (hypothetical protein)
+NC_003450.3,3128492,3131399,1,"NCgl2828, NCgl2829","NCgl2828 (transporter), NCgl2829 (hypothetical protein)"
+NC_003450.3,3131505,3132921,-1,NCgl2830,NCgl2830 (hypothetical protein)
+NC_003450.3,3133115,3133751,1,NCgl2831,NCgl2831 (hypothetical protein)
+NC_003450.3,3133775,3135242,-1,NCgl2832,NCgl2832 (membrane transport protein)
+NC_003450.3,3135297,3135756,1,NCgl2833,NCgl2833 (transcriptional regulator)
+NC_003450.3,3136590,3137925,-1,NCgl2835,"NCgl2835 (two-component system, sensory transduction histidine kinase)"
+NC_003450.3,3137923,3138475,1,NCgl2836,NCgl2836 (hypothetical protein)
+NC_003450.3,3138478,3139456,-1,"NCgl2837, NCgl2838","NCgl2837 (hypothetical protein), NCgl2838 (hypothetical protein)"
+NC_003450.3,3139687,3140956,1,NCgl2839,NCgl2839 (inner membrane protein translocase YidC)
+NC_003450.3,3143493,3144483,-1,NCgl2843,NCgl2843 (alkanal monooxygenase-like protein)
+NC_003450.3,3144661,3145630,1,NCgl2844,NCgl2844 (23S RNA-specific pseudouridylate synthase)
+NC_003450.3,3151839,3152205,-1,NCgl2846,NCgl2846 (transcriptional regulator)
+NC_003450.3,3152413,3153832,1,NCgl2847,NCgl2847 (hypothetical protein)
+NC_003450.3,3157476,3157731,-1,NCgl2852,NCgl2852 (hypothetical protein)
+NC_003450.3,3158124,3158838,1,NCgl2853,NCgl2853 (methyltransferase)
+NC_003450.3,3163071,3168366,-1,"NCgl2858, NCgl2859, NCgl2860, NCgl2861, NCgl2862, NCgl2863","NCgl2858 (hypothetical protein), NCgl2859 (cation transport ATPase), NCgl2860 (hypothetical protein), NCgl2861 (hypothetical protein), NCgl2862 (two-component system, sensory transduction histidine kinase), NCgl2863 (two-component system, response regulator)"
+NC_003450.3,3168768,3170896,1,"NCgl2864, NCgl2865","NCgl2864 (hypothetical protein), NCgl2865 (multicopper oxidase)"
+NC_003450.3,3171616,3172537,-1,NCgl2867,NCgl2867 (NADPH:quinone reductase)
+NC_003450.3,3172995,3173469,1,NCgl2868,NCgl2868 (hypothetical protein)
+NC_003450.3,3178109,3178484,-1,NCgl2874,NCgl2874 (thioredoxin)
+NC_003450.3,3178669,3178876,1,NCgl2875,NCgl2875 (copper chaperone)
+NC_003450.3,3185345,3189686,-1,"NCgl2882, NCgl2883, NCgl2884, NCgl2885","NCgl2882 (hypothetical protein), NCgl2883 (hypothetical protein), NCgl2884 (penicillin-binding protein), NCgl2885 (hypothetical protein)"
+NC_003450.3,3189877,3191852,1,"NCgl2886, NCgl2887, NCgl2888","NCgl2886 (transcriptional regulator), NCgl2887 (hypothetical protein), NCgl2888 (hypothetical protein)"
+NC_003450.3,3191919,3197046,-1,"NCgl2889, NCgl2890, NCgl2891, NCgl2892, NCgl2893","NCgl2889 (hypothetical protein), NCgl2890 (hypothetical protein), NCgl2891 (ABC transporter permease), NCgl2892 (ABC transporter ATPase), NCgl2893 (efflux system protein)"
+NC_003450.3,3197412,3198504,1,NCgl2894,NCgl2894 (myo-inositol-1-phosphate synthase)
+NC_003450.3,3201257,3201755,-1,NCgl2897,NCgl2897 (starvation-inducible DNA-binding protein)
+NC_003450.3,3201900,3202716,1,NCgl2898,NCgl2898 (formamidopyrimidine-DNA glycosylase)
+NC_003450.3,3204728,3206233,-1,"NCgl2901, NCgl2902","NCgl2901 (methylated DNA-protein cysteine methyltransferase), NCgl2902 (hypothetical protein)"
+NC_003450.3,3206849,3208028,1,NCgl2903,NCgl2903 (sugar transporter family protein)
+NC_003450.3,3209702,3212513,-1,"NCgl2905, NCgl2906, NCgl2907","NCgl2905 (sugar kinase), NCgl2906 (hypothetical protein), NCgl2907 (hypothetical protein)"
+NC_003450.3,3212612,3213935,1,NCgl2908,NCgl2908 (mercuric reductase)
+NC_003450.3,3217454,3217778,-1,NCgl2912,NCgl2912 (hypothetical protein)
+NC_003450.3,3217993,3218605,1,NCgl2913,NCgl2913 (hypothetical protein)
+NC_003450.3,3219775,3222634,-1,NCgl2915,NCgl2915 (leucyl-tRNA synthetase)
+NC_003450.3,3222722,3223154,1,NCgl2916,NCgl2916 (hypothetical protein)
+NC_003450.3,3226907,3227684,-1,NCgl2921,NCgl2921 (hypothetical protein)
+NC_003450.3,3227748,3230448,1,"NCgl2922, NCgl2923","NCgl2922 (benzoate transporter), NCgl2923 (hydroxylase/monooxygenase)"
+NC_003450.3,3231051,3232290,-1,NCgl2924,NCgl2924 (transmembrane symporter)
+NC_003450.3,3232596,3233109,1,NCgl2925,NCgl2925 (hypothetical protein)
+NC_003450.3,3233247,3233421,-1,NCgl2926,NCgl2926 (hypothetical protein)
+NC_003450.3,3233403,3238066,1,"NCgl2927, NCgl2928, NCgl2929, NCgl2930","NCgl2927 (anthranilate synthase I), NCgl2928 (anthranilate synthase II), NCgl2929 (anthranilate phosphoribosyltransferase), NCgl2930 (bifunctional indole-3-glycerol phosphate synthase/phosphoribosylanthranilate isomerase)"
+NC_003450.3,3240310,3242689,-1,"NCgl2933, NCgl2934","NCgl2933 (PTS system ascorbate-specific transporter subunit IIC), NCgl2934 (hypothetical protein)"
+NC_003450.3,3242854,3245770,1,"NCgl2935, NCgl2936, NCgl2937","NCgl2935 (ABC transporter ATPase), NCgl2936 (ABC transporter permease), NCgl2937 (hypothetical protein)"
+NC_003450.3,3245819,3246932,-1,NCgl2938,NCgl2938 (NADH:flavin oxidoreductase)
+NC_003450.3,3247228,3248209,1,NCgl2939,NCgl2939 (hypothetical protein)
+NC_003450.3,3249184,3249523,-1,NCgl2941,NCgl2941 (transcriptional regulator)
+NC_003450.3,3249624,3251409,1,"NCgl2942, NCgl2943","NCgl2942 (NADH:flavin oxidoreductase), NCgl2943 (hypothetical protein)"
+NC_003450.3,3252130,3252301,-1,NCgl2946,NCgl2946 (hypothetical protein)
+NC_003450.3,3252728,3253743,1,"NCgl2947, NCgl2948","NCgl2947 (short chain dehydrogenase), NCgl2948 (hypothetical protein)"
+NC_003450.3,3256468,3260085,-1,"NCgl2951, NCgl2952, NCgl2953","NCgl2951 (hydroxyquinol/catechol 1,2-dioxygenase), NCgl2952 (maleylacetate reductase), NCgl2953 (sugar permease)"
+NC_003450.3,3260508,3261993,1,NCgl2954,NCgl2954 (IcIR family transcriptional regulator)
+NC_003450.3,3282344,3282947,-1,NCgl2966,NCgl2966 (hydroxymethylpyrimidine/phosphomethylpyrimidine kinase)
+NC_003450.3,3282742,3283387,1,"NCgl2967, NCgl2968","NCgl2967 (hypothetical protein), NCgl2968 (metal associated protein)"
+NC_003450.3,3284396,3285425,-1,NCgl2970,NCgl2970 (ABC transporter periplasmic component)
+NC_003450.3,3285602,3287009,1,"NCgl2971, NCgl2972","NCgl2971 (oxidoreductase/dehydrogenase), NCgl2972 (hypothetical protein)"
+NC_003450.3,3287390,3288191,-1,NCgl2973,NCgl2973 (phosphomethylpyrimidine kinase)
+NC_003450.3,3288265,3288889,1,"NCgl2974, NCgl2975","NCgl2974 (hypothetical protein), NCgl2975 (copper chaperone)"
+NC_003450.3,3288968,3292105,-1,"NCgl2976, NCgl2977, NCgl2978, NCgl2979","NCgl2976 (hypothetical protein), NCgl2977 (branched-chain amino acid ABC transporter permease), NCgl2978 (hypothetical protein), NCgl2979 (polynucleotide polymerase)"
+NC_003450.3,3292532,3299408,1,"NCgl2980, NCgl2981, NCgl2982","NCgl2980 (hypothetical protein), NCgl2981 (hypothetical protein), NCgl2982 (virulence factor)"
+NC_003450.3,3307968,3308553,-1,"NCgl2992, NCgl2993","NCgl2992 (ribonuclease P), NCgl2993 (50S ribosomal protein L34)"
+NC_003450.3,2291,5302,1,"NCgl0002, NCgl0003, NCgl0004","NCgl0002 (DNA polymerase III subunit beta), NCgl0003 (recombination protein F), NCgl0004 (hypothetical protein)"
+NC_003450.3,10103,11177,-1,NCgl0009,NCgl0009 (transcriptional regulator)
+NC_003450.3,21596,23572,1,"NCgl0021a, NCg1t03","NCgl0021a (), NCg1t03 (tRNA-Ala)"
+NC_003450.3,26818,29117,-1,"NCgl0025, NCgl0026","NCgl0025 (hypothetical protein), NCgl0026 (ABC transporter periplasmic component)"
+NC_003450.3,50962,51436,-1,NCgl0048,NCgl0048 (hypothetical protein)
+NC_003450.3,54178,55549,1,NCgl0051,NCgl0051 (Zn-dependent hydrolase)
+NC_003450.3,58086,58944,1,NCgl0056,NCgl0056 (hypothetical protein)
+NC_003450.3,74489,76038,1,"NCgl0071, NCgl0072, NCgl0073","NCgl0071 (biotin synthase), NCgl0072 (hypothetical protein), NCgl0073 (hypothetical protein)"
+NC_003450.3,85094,85403,-1,NCgl0076,NCgl0076 (hypothetical protein)
+NC_003450.3,97315,98470,-1,NCgl0091,NCgl0091 (permease)
+NC_003450.3,105169,106392,-1,"NCgl0095, NCgl0096","NCgl0095 (hypothetical protein), NCgl0096 (thiamine pyrophosphate-requiring enzyme)"
+NC_003450.3,111373,112321,1,NCgl0099,NCgl0099 (oxidoreductase)
+NC_003450.3,116544,118089,-1,NCgl0104,NCgl0104 (acyl-CoA synthetase)
+NC_003450.3,126349,128860,-1,"NCgl0112, NCgl0113, NCgl0114","NCgl0112 (pantoate--beta-alanine ligase), NCgl0113 (3-methyl-2-oxobutanoate hydroxymethyltransferase), NCgl0114 (hypothetical protein)"
+NC_003450.3,153222,155613,-1,NCgl0139,NCgl0139 (HrpA-like helicase)
+NC_003450.3,157739,161363,1,"NCgl0142, NCgl0143, NCgl0144, NCgl0145, NCgl0146, NCgl0147","NCgl0142 (3-methyladenine DNA glycosylase), NCgl0143 (threonine efflux protein), NCgl0144 (hypothetical protein), NCgl0145 (lactoylglutathione lyase-like protein), NCgl0146 (methylated DNA-protein cysteine methyltransferase), NCgl0147 (hypothetical protein)"
+NC_003450.3,180841,181300,1,NCgl0165,NCgl0165 (hypothetical protein)
+NC_003450.3,185213,185645,1,NCgl0170,NCgl0170 (hypothetical protein)
+NC_003450.3,203537,209037,-1,"NCgl0184, NCgl0185","NCgl0184 (arabinosyl transferase), NCgl0185 (hypothetical protein)"
+NC_003450.3,215158,216712,-1,"NCgl0195, NCgl0196","NCgl0195 (glycosyltransferase), NCgl0196 (hypothetical protein)"
+NC_003450.3,233912,234821,1,NCgl0216,NCgl0216 (hypothetical protein)
+NC_003450.3,234906,235191,-1,NCgl0217,NCgl0217 (hypothetical protein)
+NC_003450.3,239934,241518,1,NCgl0222,NCgl0222 (di- and tricarboxylate transporter)
+NC_003450.3,254325,255794,-1,"NCgl0235, NCgl0236","NCgl0235 (transposase), NCgl0236 (hypothetical protein)"
+NC_003450.3,266150,267896,-1,NCgl0245,NCgl0245 (2-isopropylmalate synthase)
+NC_003450.3,287962,288829,-1,NCgl0267,NCgl0267 (hypothetical protein)
+NC_003450.3,297621,298253,1,"NCgl0276, NCgl0277","NCgl0276 (hypothetical protein), NCgl0277 (translation initiation inhibitor)"
+NC_003450.3,298328,301261,-1,"NCgl0278, NCgl0279","NCgl0278 (major facilitator superfamily permease), NCgl0279 (acyl-CoA synthetase)"
+NC_003450.3,306778,307462,-1,NCgl0286,NCgl0286 (cAMP-binding domain-containing protein)
+NC_003450.3,311895,313457,-1,"NCgl0292, NCgl0293","NCgl0292 (hydrolase or acyltransferase), NCgl0293 (hypothetical protein)"
+NC_003450.3,317892,319338,1,"NCgl0298, NCgl0299, NCgl0300, NCgl0301","NCgl0298 (hypothetical protein), NCgl0299 (hypothetical protein), NCgl0300 (hypothetical protein), NCgl0301 (hypothetical protein)"
+NC_003450.3,322909,326617,1,"NCgl0304, NCgl0305","NCgl0304 (DNA topoisomerase I), NCgl0305 (hypothetical protein)"
+NC_003450.3,329932,330379,1,NCgl0308,NCgl0308 (uncharacterized phage-associated protein)
+NC_003450.3,343635,345720,1,NCgl0322,NCgl0322 (5'-nucleotidase)
+NC_003450.3,346106,346460,-1,NCgl0323,NCgl0323 (hypothetical protein)
+NC_003450.3,360810,361881,-1,NCgl0335,NCgl0335 (hypothetical protein)
+NC_003450.3,368646,369804,1,NCgl0341,NCgl0341 (pyridoxal phosphate-dependent enzyme)
+NC_003450.3,383978,385190,-1,NCgl0352,NCgl0352 (hypothetical protein)
+NC_003450.3,387691,389101,1,NCgl0355,NCgl0355 (dihydrolipoamide dehydrogenase)
+NC_003450.3,400544,404433,1,"NCgl0368, NCgl0369, NCgl0370","NCgl0368 (transcriptional regulator), NCgl0369 (major facilitator superfamily permease), NCgl0370 (major facilitator superfamily permease)"
+NC_003450.3,406549,407419,1,NCgl0373,NCgl0373 (hypothetical protein)
+NC_003450.3,417541,418354,-1,NCgl0383,NCgl0383 (hypothetical protein)
+NC_003450.3,425176,427870,1,"NCgl0390, NCgl0391, NCgl0392","NCgl0390 (2,3-bisphosphoglycerate-dependent phosphoglycerate mutase), NCgl0391 (signal transduction histidine kinase), NCgl0392 (two-component system, response regulators)"
+NC_003450.3,435948,436140,1,NCgl0399,NCgl0399 (hypothetical protein)
+NC_003450.3,441309,441594,1,NCgl0404,NCgl0404 (hypothetical protein)
+NC_003450.3,447394,447670,-1,NCgl0410,NCgl0410 (hypothetical protein)
+NC_003450.3,469369,470657,1,"NCgl0428, NCgl0429","NCgl0428 (hypothetical protein), NCgl0429 (YjgF translation initiation inhibitor)"
+NC_003450.3,481127,482776,-1,"NCgl0444, NCgl0445","NCgl0444 (hypothetical protein), NCgl0445 (phosphate/sulphate permease)"
+NC_003450.3,489226,490450,1,NCgl0452,NCgl0452 (group 1 glycosyltransferase)
+NC_003450.3,495903,495976,1,NCg1t16,NCg1t16 (tRNA-Thr)
+NC_003450.3,505697,509699,1,"NCgl0465, NCgl0466, NCgl0467","NCgl0465 (cation transport ATPase), NCgl0466 (hypothetical protein), NCgl0467 (hypothetical protein)"
+NC_003450.3,523883,526013,1,NCgl0478,NCgl0478 (elongation factor G)
+NC_003450.3,528069,528771,1,NCgl0481,NCgl0481 (hypothetical protein)
+NC_003450.3,533098,538255,1,"NCgl0486, NCgl0487, NCgl0488, NCgl0489, NCgl0490, NCgl0491, NCgl0492, NCgl0493, NCgl0494, NCgl0495, NCgl0496","NCgl0486 (30S ribosomal protein S10), NCgl0487 (50S ribosomal protein L3), NCgl0488 (50S ribosomal protein L4), NCgl0489 (50S ribosomal protein L23), NCgl0490 (50S ribosomal protein L2), NCgl0491 (30S ribosomal protein S19), NCgl0492 (50S ribosomal protein L22), NCgl0493 (30S ribosomal protein S3), NCgl0494 (50S ribosomal protein L16), NCgl0495 (50S ribosomal protein L29), NCgl0496 (30S ribosomal protein S17)"
+NC_003450.3,538377,538647,-1,NCgl0497,NCgl0497 (hypothetical protein)
+NC_003450.3,541107,542082,1,NCgl0502,NCgl0502 (hypothetical protein)
+NC_003450.3,548183,554129,-1,"NCgl0509, NCgl0510, NCgl0511, NCgl0512, NCgl0513","NCgl0509 (hypothetical protein), NCgl0510 (ABC-type cobalt transport system, ATPase), NCgl0511 (ABC-type cobalt transport system, permease), NCgl0512 (hypothetical protein), NCgl0513 (hypothetical protein)"
+NC_003450.3,559140,568082,-1,"NCgl0523, NCgl0524, NCgl0525, NCgl0526, NCgl0527, NCgl0528, NCgl0529, NCgl0530","NCgl0523 (NAD-dependent aldehyde dehydrogenase), NCgl0524 (hypothetical protein), NCgl0525 (reductase), NCgl0526 (ferredoxin), NCgl0527 (dehydrogenase), NCgl0528 (hypothetical protein), NCgl0529 (phosphoenolpyruvate synthase), NCgl0530 (cytochrome P450)"
+NC_003450.3,571475,572270,1,NCgl0534,NCgl0534 (methionine aminopeptidase)
+NC_003450.3,585822,586251,1,NCgl0549,NCgl0549 (hypothetical protein)
+NC_003450.3,593934,594583,1,"NCgl0554, NCgl0555","NCgl0554 (hypothetical protein), NCgl0555 (hypothetical protein)"
+NC_003450.3,602810,610178,1,"NCgl0565, NCgl0566, NCgl0567, NCgl0568, NCgl0569, NCgl0570, NCgl0571","NCgl0565 (hypothetical protein), NCgl0566 (aminopeptidase), NCgl0567 (hypothetical protein), NCgl0568 (acetyltransferase), NCgl0569 (DNA-binding/iron metalloprotein/AP endonuclease), NCgl0570 (hypothetical protein), NCgl0571 (hypothetical protein)"
+NC_003450.3,621716,622160,1,NCgl0583,NCgl0583 (hypothetical protein)
+NC_003450.3,648436,650193,-1,"NCgl0608, NCgl0609","NCgl0608 (ABC transporter permease), NCgl0609 (ABC transporter ATPase)"
+NC_003450.3,665179,666313,-1,NCgl0624,NCgl0624 (homoserine O-acetyltransferase)
+NC_003450.3,671140,674759,1,"NCgl0627a, NCgl0629, NCgl0630","NCgl0627a (), NCgl0629 (PEP phosphonomutase or related enzyme), NCgl0630 (citrate synthase)"
+NC_003450.3,675078,677748,-1,"NCgl0631, NCgl0632, NCgl0633","NCgl0631 (malate/L-lactate dehydrogenase), NCgl0632 (transcriptional regulator), NCgl0633 (hypothetical protein)"
+NC_003450.3,688146,688338,1,NCgl0643,NCgl0643 (hypothetical protein)
+NC_003450.3,695073,696384,-1,NCgl0650,NCgl0650 (D-alanyl-D-alanine carboxypeptidase)
+NC_003450.3,703404,704814,1,NCgl0658,NCgl0658 (flavoprotein disulfide reductase)
+NC_003450.3,718576,720352,-1,NCgl0670,NCgl0670 (acyl-CoA carboxylase)
+NC_003450.3,725868,728352,-1,"NCgl0675, NCgl0676, NCgl0677","NCgl0675 (Maf-like protein), NCgl0676 (hypothetical protein), NCgl0677 (detergent sensitivity rescuer dtsR2)"
+NC_003450.3,735401,737207,1,"NCgl0684, NCgl0685, NCgl0686","NCgl0684 (5-(carboxyamino)imidazole ribonucleotide mutase), NCgl0685 (hypothetical protein), NCgl0686 (hypothetical protein)"
+NC_003450.3,737212,738529,-1,NCgl0687,NCgl0687 (nitrilotriacetate monooxygenase)
+NC_003450.3,745618,746893,-1,NCgl0697,NCgl0697 (ABC transporter periplasmic component)
+NC_003450.3,763233,777035,-1,"NCgl0705, NCgl0706, NCgl0707","NCgl0705 (helicase), NCgl0706 (type II restriction enzyme, methylase subunits), NCgl0707 (SNF2 family helicase)"
+NC_003450.3,780085,781174,1,NCgl0710,NCgl0710 (nucleoside-diphosphate-sugar pyrophosphorylase)
+NC_003450.3,795447,796113,1,NCgl0725,NCgl0725 (ribosome-associated protein Y)
+NC_003450.3,825238,825658,-1,NCgl0750,NCgl0750 (hypothetical protein)
+NC_003450.3,834926,835840,1,"NCgl0758, NCgl0759","NCgl0758 (hypothetical protein), NCgl0759 (hypothetical protein)"
+NC_003450.3,840433,840745,-1,NCgl0764,NCgl0764 (hypothetical protein)
+NC_003450.3,844494,847449,1,"NCgl0768, NCgl0769, NCgl0770, NCgl0771, NcG10s01","NCgl0768 (cell-division ATP-binding protein), NCgl0769 (cell division protein), NCgl0770 (SsrA-binding protein), NCgl0771 (hypothetical protein), NcG10s01 (10Sa RNA (tmRNA))"
+NC_003450.3,848495,850243,-1,"NCgl0773, NCgl0774","NCgl0773 (siderophore-interacting protein), NCgl0774 (ABC-type cobalamin/Fe3+-siderophore transport system, periplasmic component)"
+NC_003450.3,852617,855479,1,"NCgl0777, NCgl0778, NCgl0779","NCgl0777 (ABC-type cobalamin/Fe3+-siderophore transport system, permease), NCgl0778 (ABC-type cobalamin/Fe3+-siderophore transport system, permease), NCgl0779 (ABC-type cobalamin/Fe3+-siderophore transport system, ATPase)"
+NC_003450.3,879275,879632,1,NCgl0796,NCgl0796 (FKBP-type peptidylprolyl isomerase)
+NC_003450.3,894702,895194,1,NCgl0803,NCgl0803 (hypothetical protein)
+NC_003450.3,909517,910696,-1,NCgl0818,NCgl0818 (hypothetical protein)
+NC_003450.3,924155,925134,-1,"NCgl0831, NCgl0832, NCgl0833, NCgl0834","NCgl0831 (30S ribosomal protein S18), NCgl0832 (30S ribosomal protein S14), NCgl0833 (50S ribosomal protein L33), NCgl0834 (50S ribosomal protein L28)"
+NC_003450.3,928116,932293,1,"NCgl0839, NCgl0840, NCgl0841, NCgl0842","NCgl0839 (two-component system, response regulator), NCgl0840 (two-component system, sensory transduction histidine kinase), NCgl0841 (trypsin-like serine protease), NCgl0842 (molybdopterin biosynthesis enzyme)"
+NC_003450.3,932566,933611,-1,"NCgl0843, NCgl0844","NCgl0843 (large-conductance mechanosensitive channel), NCgl0844 (hypothetical protein)"
+NC_003450.3,945028,948672,1,"NCgl0856, NCgl0857","NCgl0856 (choline-glycine betaine transporter), NCgl0857 (methionyl-tRNA synthetase)"
+NC_003450.3,950824,951460,-1,NCgl0859,NCgl0859 (hypothetical protein)
+NC_003450.3,954940,955357,1,NCgl0864,NCgl0864 (hypothetical protein)
+NC_003450.3,955682,957398,-1,NCgl0865,NCgl0865 (D-lactate dehydrogenase)
+NC_003450.3,960462,960864,1,NCgl0868,NCgl0868 (hypothetical protein)
+NC_003450.3,970863,971826,1,NCgl0880,NCgl0880 (hypothetical protein)
+NC_003450.3,981657,982290,1,NCgl0889,NCgl0889 (hypothetical protein)
+NC_003450.3,994841,995384,-1,NCgl0901,NCgl0901 (peptidyl-tRNA hydrolase)
+NC_003450.3,1003012,1006700,1,"NCgl0909, NCgl0910, NCgl0911, NCgl0912","NCgl0909 (ABC transporter ATPase), NCgl0910 (hypothetical protein), NCgl0911 (two-component system sensory transduction histidine kinase), NCgl0912 (two-component system, response regulator)"
+NC_003450.3,1014339,1014765,-1,NCgl0918,NCgl0918 (hypothetical protein)
+NC_003450.3,1017270,1017870,-1,NCgl0922,NCgl0922 (hypothetical protein)
+NC_003450.3,1032756,1033128,-1,NCgl0932,NCgl0932 (hypothetical protein)
+NC_003450.3,1034948,1038589,1,"NCgl0935, NCgl0936, NCgl0937, NCgl0938, NCg1t24","NCgl0935 (phosphopyruvate hydratase), NCgl0936 (hypothetical protein), NCgl0937 (hypothetical protein), NCgl0938 (exopolyphosphatase), NCg1t24 (tRNA-Leu)"
+NC_003450.3,1040493,1040685,1,NCgl0942,NCgl0942 (stress-responsive transcriptional regulator)
+NC_003450.3,1043294,1044295,-1,"NCgl0945, NCgl0946","NCgl0945 (hypothetical protein), NCgl0946 (transcription elongation factor GreA)"
+NC_003450.3,1046609,1049046,1,"NCgl0950, NCgl0951, NCgl0952","NCgl0950 (phospho-2-dehydro-3-deoxyheptonate aldolase), NCgl0951 (undecaprenyl pyrophosphate synthase), NCgl0952 (hypothetical protein)"
+NC_003450.3,1060141,1062149,1,"NCgl0965, NCgl0966","NCgl0965 (GntR family transcriptional regulator), NCgl0966 (hypothetical protein)"
+NC_003450.3,1069958,1071137,1,NCgl0975,"NCgl0975 (coenzyme F420-dependent N5,N10-methylene tetrahydromethanopterin reductase)"
+NC_003450.3,1073336,1075121,-1,NCgl0978,NCgl0978 (hypothetical protein)
+NC_003450.3,1079217,1082660,-1,"NCgl0984, NCgl0985, NCgl0986","NCgl0984 (hypothetical protein), NCgl0985 (hypothetical protein), NCgl0986 (SNF family Na(+)-dependent transporter)"
+NC_003450.3,1087040,1088218,-1,"NCgl0991, NCgl0992","NCgl0991 (acetyltransferase), NCgl0992 (dehydrogenase)"
+NC_003450.3,1095051,1095387,1,NCgl0997,NCgl0997 (hypothetical protein)
+NC_003450.3,1095383,1096331,-1,NCgl0998a,NCgl0998a ()
+NC_003450.3,1102042,1103527,1,"NCgl1007a, NCgl1009","NCgl1007a (), NCgl1009 (hypothetical protein)"
+NC_003450.3,1114485,1115796,1,NCgl1021,NCgl1021 (transposase)
+NC_003450.3,1148471,1151031,1,"NCgl1056, NCgl1057, NCgl1058, NCgl1059","NCgl1056 (hypothetical protein), NCgl1057 (ferredoxin 3), NCgl1058 (N-succinyldiaminopimelate aminotransferase), NCgl1059 (hypothetical protein)"
+NC_003450.3,1159864,1160731,1,NCgl1070,NCgl1070 (SAM-dependent methyltransferase)
+NC_003450.3,1160734,1162231,-1,NCgl1071,NCgl1071 (beta-fructosidase)
+NC_003450.3,1166575,1167580,1,"NCgl1076, NCgl1077","NCgl1076 (hypothetical protein), NCgl1077 (sec-independent translocase)"
+NC_003450.3,1171865,1176163,-1,"NCgl1083, NCgl1084","NCgl1083 (hypothetical protein), NCgl1084 (alpha-ketoglutarate decarboxylase)"
+NC_003450.3,1184354,1185158,1,NCgl1090,NCgl1090 (hypothetical protein)
+NC_003450.3,1192397,1195112,1,"NCgl1096, NCgl1097, NCgl1098","NCgl1096 (K+ transport flavoprotein), NCgl1097 (hypothetical protein), NCgl1098 (alpha-beta hydrolase esterase)"
+NC_003450.3,1197986,1203632,-1,"NCgl1101, NCgl1102, NCgl1103, NCgl1104","NCgl1101 (ABC transporter ATPase and permease), NCgl1102 (ABC transporter ATPase and permease), NCgl1103 (cytochrome bd-type quinol oxidase, subunit 2), NCgl1104 (cytochrome bd-type quinol oxidase, subunit 1)"
+NC_003450.3,1227889,1228639,1,NCgl1121,NCgl1121 (esterase/lipase)
+NC_003450.3,1230618,1230834,1,NCgl1125,NCgl1125 (hypothetical protein)
+NC_003450.3,1232602,1232839,1,NCgl1128,NCgl1128 (copper chaperone)
+NC_003450.3,1244839,1245532,-1,NCgl1138,NCgl1138 (hypothetical protein)
+NC_003450.3,1259425,1261201,-1,"NCgl1148, NCgl1149","NCgl1148 (molybdopterin-guanine dinucleotide biosynthesis protein A), NCgl1149 (molybdopterin biosynthesis enzyme)"
+NC_003450.3,1271870,1272122,1,NCgl1158,NCgl1158 (hypothetical protein)
+NC_003450.3,1283323,1287002,1,"NCgl1173, NCgl1174, NCgl1175, NCgl1176","NCgl1173 (coenzyme F420-dependent N5,N10-methylene tetrahydromethanopterin reductase), NCgl1174 (ABC transporter permease), NCgl1175 (ABC transporter ATPase), NCgl1176 (ABC transporter periplasmic component)"
+NC_003450.3,1293227,1295209,1,"NCgl1180, NCgl1181","NCgl1180 (hypothetical protein), NCgl1181 (hypothetical protein)"
+NC_003450.3,1298338,1298653,-1,NCgl1185,NCgl1185 (hypothetical protein)
+NC_003450.3,1300984,1301929,-1,NCgl1189,NCgl1189 (spermidine synthase)
+NC_003450.3,1303828,1305924,1,"NCgl1192, NCgl1193","NCgl1192 (tRNA-specific 2-thiouridylase MnmA), NCgl1193 (hypothetical protein)"
+NC_003450.3,1313269,1314121,1,NCgl1200,NCgl1200 (siderophore-interacting protein)
+NC_003450.3,1316337,1321323,1,"NCgl1203, NCgl1204, NCgl1205, NCgl1206, NCgl1207","NCgl1203 (transcriptional regulator), NCgl1204 (ABC transporter duplicated ATPase), NCgl1205 (ABC transporter permease), NCgl1206 (ABC transporter periplasmic component), NCgl1207 (D-ribose pyranase)"
+NC_003450.3,1333438,1335280,-1,NCgl1219,NCgl1219 (dihydroxy-acid dehydratase)
+NC_003450.3,1340723,1341740,1,NCgl1224,NCgl1224 (ketol-acid reductoisomerase)
+NC_003450.3,1344934,1350079,1,"NCgl1231, NCgl1232, NCgl1233, NCgl1234","NCgl1231 (hypothetical protein), NCgl1232 (Co/Zn/Cd efflux system component), NCgl1233 (hypothetical protein), NCgl1234 (hypothetical protein)"
+NC_003450.3,1365950,1366023,1,NCg1t29,NCg1t29 (tRNA-Glu)
+NC_003450.3,1375929,1377555,-1,"NCgl1256, NCgl1257","NCgl1256 (hypothetical protein), NCgl1257 (Zn-dependent hydrolase)"
+NC_003450.3,1389207,1394224,1,"NCgl1271, NCgl1272, NCgl1273, NCgl1274, NCgl1275","NCgl1271 (kinase), NCgl1272 (RecG-like helicase), NCgl1273 (acetyl-CoA carboxylase biotin carboxyl carrier protein subunit), NCgl1274 (N6-adenine-specific methylase), NCgl1275 (phosphopantetheine adenylyltransferase)"
+NC_003450.3,1398553,1399534,-1,NCgl1280,NCgl1280 (hypothetical protein)
+NC_003450.3,1402271,1402706,1,NCgl1284,NCgl1284 (hypothetical protein)
+NC_003450.3,1404690,1406174,-1,"NCgl1287, NCgl1288, NCgl1289","NCgl1287 (hypothetical protein), NCgl1288 (hypothetical protein), NCgl1289 (hypothetical protein)"
+NC_003450.3,1412622,1412916,-1,NCgl1298,NCgl1298 (hypothetical protein)
+NC_003450.3,1423216,1425881,1,"NCgl1305, NCgl1306","NCgl1305 (phosphotransferase system IIC component, glucose/maltose/N-acetylglucosamine-specific), NCgl1306 (dephospho-CoA kinase)"
+NC_003450.3,1427372,1427810,-1,NCgl1308,NCgl1308 (hypothetical protein)
+NC_003450.3,1434041,1436204,1,NCgl1315,NCgl1315 (excinuclease ABC subunit B)
+NC_003450.3,1440671,1441586,-1,NCgl1320,NCgl1320 (hypothetical protein)
+NC_003450.3,1450917,1455341,1,"NCgl1329, NCgl1330, NCgl1331, NCgl1332","NCgl1329 (ABC transporter permease), NCgl1330 (ABC transporter permease), NCgl1331 (ABC transporter periplasmic component), NCgl1332 (ABC transporter ATPase)"
+NC_003450.3,1461156,1468551,1,"NCgl1337, NCgl1338, NCgl1339, NCgl1340, NCgl1341, NCgl1342, NCgl1343","NCgl1337 (hypothetical protein), NCgl1338 (acyltransferase), NCgl1339 (hypothetical protein), NCgl1340 (N-acetyl-gamma-glutamyl-phosphate reductase), NCgl1341 (bifunctional ornithine acetyltransferase/N-acetylglutamate synthase), NCgl1342 (acetylglutamate kinase), NCgl1343 (acetylornithine aminotransferase)"
+NC_003450.3,1481277,1484595,1,"NCg1r09, NCg1r10","NCg1r09 (23S ribosomal RNA), NCg1r10 (5S ribosomal RNA)"
+NC_003450.3,1499930,1500698,1,NCgl1367,NCgl1367 (hypothetical protein)
+NC_003450.3,1512976,1514527,-1,NCgl1380,NCgl1380 (NhaP-type Na+/H+ and K+/H+ antiporter)
+NC_003450.3,1519600,1520032,1,NCgl1385,NCgl1385 (FHA-domain-containing protein)
+NC_003450.3,1523048,1524440,-1,NCgl1390,NCgl1390 (hypothetical protein)
+NC_003450.3,1539816,1542922,-1,"NCgl1407, NCgl1408","NCgl1407 (multifunctional thiamine-phosphate pyrophosphorylase/synthase/phosphomethylpyrimidine kinase), NCgl1408 (hydroxyethylthiazole kinase)"
+NC_003450.3,1546303,1547692,-1,NCgl1411,NCgl1411 (major facilitator superfamily permease)
+NC_003450.3,1551544,1552240,1,NCgl1416,NCgl1416 (hypothetical protein)
+NC_003450.3,1554066,1554684,-1,NCgl1418,NCgl1418 (hypothetical protein)
+NC_003450.3,1557010,1560069,-1,"NCgl1423, NCgl1424, NCgl1425","NCgl1423 (glycosyltransferase), NCgl1424 (apolipoprotein N-acyltransferase), NCgl1425 (FxsA)"
+NC_003450.3,1562521,1563802,-1,NCgl1428,NCgl1428 (precorrin-6B methylase 1)
+NC_003450.3,1571502,1575136,-1,"NCgl1435, NCgl1436, NCgl1437, NCgl1438","NCgl1435 (transcriptional regulator), NCgl1436 (transcriptional regulator), NCgl1437 (hypothetical protein), NCgl1438 (hypothetical protein)"
+NC_003450.3,1581850,1582117,1,NCgl1444,NCgl1444 (plasmid maintenance system antidote protein)
+NC_003450.3,1582269,1583481,-1,NCgl1445,NCgl1445 (major facilitator superfamily permease)
+NC_003450.3,1594531,1595671,1,"NCgl1454, NCgl1455","NCgl1454 (protein-tyrosine-phosphatase), NCgl1455 (protein-tyrosine-phosphatase)"
+NC_003450.3,1595840,1597508,-1,"NCgl1456, NCgl1457","NCgl1456 (hypothetical protein), NCgl1457 (cysteinyl-tRNA synthetase)"
+NC_003450.3,1610235,1610847,1,NCgl1469,NCgl1469 (histone acetyltransferase HPA2 and related acetyltransferase)
+NC_003450.3,1618317,1620097,-1,"NCgl1475, NCgl1476","NCgl1475 (membrane protease subunit), NCgl1476 (membrane protein)"
+NC_003450.3,1621837,1624838,-1,"NCgl1479, NCgl1480","NCgl1479 (ferrochelatase), NCgl1480 (cell wall-associated hydrolase)"
+NC_003450.3,1629297,1630671,1,"NCgl1483, NCgl1484","NCgl1483 (transcriptional regulator), NCgl1484 (glutamine amidotransferase)"
+NC_003450.3,1633565,1636244,1,NCgl1488,NCgl1488 (cation transport ATPase)
+NC_003450.3,1639915,1640158,1,NCgl1491,NCgl1491 (hypothetical protein)
+NC_003450.3,1646548,1647136,1,NCgl1497,NCgl1497 (hypothetical protein)
+NC_003450.3,1647208,1650122,-1,"NCgl1498, NCgl1499, NCgl1500, NCgl1501","NCgl1498 (aromatic ring hydroxylating enzyme), NCgl1499 (NifU-like protein), NCgl1500 (selenocysteine lyase), NCgl1501 (ABC transporter ATP-binding protein)"
+NC_003450.3,1657637,1658678,1,NCgl1508,NCgl1508 (cytochrome oxidase assembly protein)
+NC_003450.3,1666672,1671102,1,"NCgl1513, NCgl1514, NCgl1515, NCgl1516","NCgl1513 (transaldolase), NCgl1514 (glucose-6-phosphate 1-dehydrogenase), NCgl1515 (hypothetical protein), NCgl1516 (6-phosphogluconolactonase)"
+NC_003450.3,1703513,1708884,-1,"NCgl1546, NCgl1547, NCgl1548","NCgl1546 (orotidine 5'-phosphate decarboxylase), NCgl1547 (carbamoyl phosphate synthase large subunit), NCgl1548 (carbamoyl phosphate synthase small subunit)"
+NC_003450.3,1727381,1732795,-1,"NCgl1570, NCgl1571, NCgl1572","NCgl1570 (alanyl-tRNA synthetase), NCgl1571 (recombination factor protein RarA), NCgl1572 (hypothetical protein)"
+NC_003450.3,1744883,1746233,1,NCgl1583,NCgl1583 (L-serine deaminase)
+NC_003450.3,1751496,1752054,1,NCgl1588,NCgl1588 (hypothetical protein)
+NC_003450.3,1763986,1764742,-1,NCgl1599,NCgl1599 (hypothetical protein)
+NC_003450.3,1772654,1775068,-1,"NCgl1608, NCgl1609, NCgl1610","NCgl1608 (iron-dependent peroxidase), NCgl1609 (hypothetical protein), NCgl1610 (hypothetical protein)"
+NC_003450.3,1780503,1780830,-1,NCgl1613,NCgl1613 (hypothetical protein)
+NC_003450.3,1782890,1785473,-1,NCgl1616,NCgl1616 (hypothetical protein)
+NC_003450.3,1793713,1794823,1,NCgl1625,NCgl1625 (hypothetical protein)
+NC_003450.3,1799703,1800369,1,NCgl1631,NCgl1631 (hypothetical protein)
+NC_003450.3,1803629,1803896,1,NCgl1636,NCgl1636 (hypothetical protein)
+NC_003450.3,1825174,1825606,-1,NCgl1661,NCgl1661 (hypothetical protein)
+NC_003450.3,1826640,1826937,-1,NCgl1664,NCgl1664 (transposase)
+NC_003450.3,1832184,1834047,1,NCgl1667,NCgl1667 (single-stranded DNA-specific exonuclease)
+NC_003450.3,1842234,1842684,1,NCgl1671,NCgl1671 (hypothetical protein)
+NC_003450.3,1852595,1853876,1,NCgl1684,NCgl1684 (hypothetical protein)
+NC_003450.3,1882466,1883990,-1,NCgl1706,NCgl1706 (hypothetical protein)
+NC_003450.3,1887404,1887593,1,NCgl1709,NCgl1709 (hypothetical protein)
+NC_003450.3,1913969,1914329,-1,NCgl1729,NCgl1729 (hypothetical protein)
+NC_003450.3,1916943,1917168,1,NCgl1732,NCgl1732 (hypothetical protein)
+NC_003450.3,1926255,1926837,-1,NCgl1738,NCgl1738 (hypothetical protein)
+NC_003450.3,1928533,1928911,1,NCgl1741,NCgl1741 (hypothetical protein)
+NC_003450.3,1933518,1934250,-1,NCgl1747,NCgl1747 (hypothetical protein)
+NC_003450.3,1937201,1937414,1,NCgl1750,NCgl1750 (hypothetical protein)
+NC_003450.3,1937482,1937737,-1,NCgl1751,NCgl1751 (hypothetical protein)
+NC_003450.3,1940256,1940847,1,NCgl1754,NCgl1754 (hypothetical protein)
+NC_003450.3,1943094,1943656,1,"NCgl1758, NCgl1759","NCgl1758 (hypothetical protein), NCgl1759 (hypothetical protein)"
+NC_003450.3,1960367,1962967,-1,"NCgl1773, NCgl1774","NCgl1773 (hypothetical protein), NCgl1774 (hypothetical protein)"
+NC_003450.3,1967603,1970206,1,"NCgl1780, NCgl1781, NCgl1782","NCgl1780 (hypothetical protein), NCgl1781 (hypothetical protein), NCgl1782 (hypothetical protein)"
+NC_003450.3,1994604,1995294,-1,NCgl1816,NCgl1816 (hypothetical protein)
+NC_003450.3,1996767,1998243,1,"NCgl1819, NCgl1820, NCgl1821","NCgl1819 (hypothetical protein), NCgl1820 (hypothetical protein), NCgl1821 (hypothetical protein)"
+NC_003450.3,2003398,2005309,-1,NCgl1827,NCgl1827 (1-deoxy-D-xylulose-5-phosphate synthase)
+NC_003450.3,2009276,2009570,-1,NCgl1833,NCgl1833 (hypothetical protein)
+NC_003450.3,2015581,2016121,-1,NCgl1838,NCgl1838 (hypothetical protein)
+NC_003450.3,2020853,2021849,1,NCgl1844,NCgl1844 (RNA polymerase sigma factor SigB)
+NC_003450.3,2029176,2030160,1,NCgl1850,NCgl1850 (transcriptional regulator)
+NC_003450.3,2037814,2039553,1,"NCgl1856, NCgl1857","NCgl1856 (transcriptional regulator of sugar metabolism), NCgl1857 (fructose-1-phosphate kinase)"
+NC_003450.3,2045761,2046031,1,NCgl1862,NCgl1862 (hypothetical protein)
+NC_003450.3,2051305,2051845,1,NCgl1867,NCgl1867 (hypothetical protein)
+NC_003450.3,2057116,2057788,-1,NCgl1873,NCgl1873 (hypothetical protein)
+NC_003450.3,2061628,2062315,1,NCgl1877,NCgl1877 (glutamate ABC transporter permease)
+NC_003450.3,2063294,2065116,-1,"NCgl1879, NCgl1880","NCgl1879 (recombination regulator RecX), NCgl1880 (recombinase A)"
+NC_003450.3,2069612,2069936,-1,NCgl1887,NCgl1887 (transcriptional regulator)
+NC_003450.3,2076388,2080183,-1,"NCgl1894, NCgl1895, NCgl1896","NCgl1894 (hypothetical protein), NCgl1895 (metallo-beta-lactamase superfamily hydrolase), NCgl1896 (4-hydroxy-tetrahydrodipicolinate synthase)"
+NC_003450.3,2085432,2085702,-1,NCgl1901,NCgl1901 (30S ribosomal protein S15)
+NC_003450.3,2093708,2097179,-1,"NCgl1910, NCgl1911","NCgl1910 (translation initiation factor IF-2), NCgl1911 (nucleic-acid-binding protein)"
+NC_003450.3,2100239,2101844,1,NCgl1915,NCgl1915 (ABC transporter periplasmic component)
+NC_003450.3,2108385,2110255,-1,"NCgl1921, NCgl1922","NCgl1921 (Mg-chelatase subunit ChlD), NCgl1922 (Mg-chelatase subunit ChlI)"
+NC_003450.3,2112713,2113634,-1,NCgl1925,NCgl1925 (hypothetical protein)
+NC_003450.3,2116915,2118313,1,NCgl1928,NCgl1928 (mycothione reductase)
+NC_003450.3,2127346,2128528,-1,NCgl1938,NCgl1938 (4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase)
+NC_003450.3,2131821,2134260,-1,"NCgl1942, NCgl1943","NCgl1942 (hypothetical protein), NCgl1943 (ABC transporter ATPase)"
+NC_003450.3,2138999,2139827,-1,NCgl1949,NCgl1949 (elongation factor Ts)
+NC_003450.3,2142881,2145941,-1,"NCgl1953, NCgl1954, NCgl1955","NCgl1953 (Rossmann-fold nucleotide-binding protein), NCgl1954 (ATPase with chaperone activity), NCgl1955 (hypothetical protein)"
+NC_003450.3,2156743,2160537,-1,"NCgl1967, NCgl1968, NCgl1969","NCgl1967 (transcriptional regulator), NCgl1968 (di- and tricarboxylate transporters), NCgl1969 (adenylosuccinate lyase)"
+NC_003450.3,2179624,2185207,-1,"NCgl1986, NCgl1987, NCgl1988","NCgl1986 (chromosome segregation ATPase), NCgl1987 (acylphosphatase), NCgl1988 (hypothetical protein)"
+NC_003450.3,2207298,2213273,-1,"NCgl2009, NCgl2010, NCgl2011, NCgl2012, NCgl2013, NCgl2014, NCgl2015, NCgl2016","NCgl2009 (prolipoprotein diacylglyceryl transferase), NCgl2010 (indole-3-glycerol phosphate synthase), NCgl2011 (hypothetical protein), NCgl2012 (phosphoribosyl-AMP cyclohydrolase), NCgl2013 (imidazole glycerol phosphate synthase subunit HisF), NCgl2014 (fructose-1,6-bisphosphatase), NCgl2015 (phosphoribosyl isomerase A), NCgl2016 (imidazole glycerol phosphate synthase subunit HisH)"
+NC_003450.3,2234158,2238357,1,"NCgl2036, NCgl2037, NCgl2038","NCgl2036 (hypothetical protein), NCgl2037 (maltooligosyl trehalose synthase), NCgl2038 (hypothetical protein)"
+NC_003450.3,2238691,2239078,-1,NCgl2039,NCgl2039 (hypothetical protein)
+NC_003450.3,2247003,2248209,-1,NCgl2048,NCgl2048 (methionine synthase II)
+NC_003450.3,2253192,2254646,1,"NCgl2051, NCgl2052","NCgl2051 (hypothetical protein), NCgl2052 (Co/Zn/Cd cation transporter)"
+NC_003450.3,2258359,2259313,-1,NCgl2055,NCgl2055 (cysteine synthase)
+NC_003450.3,2262850,2264503,1,NCgl2060,NCgl2060 (ABC transporter ATPase)
+NC_003450.3,2296509,2296899,-1,NCgl2088,NCgl2088 (hypothetical protein)
+NC_003450.3,2326118,2326274,-1,NCgl2113,NCgl2113 (hypothetical protein)
+NC_003450.3,2331974,2334539,1,"NCgl2119, NCgl2120, NCgl2121","NCgl2119 (adenosylcobinamide kinase/adenosylcobinamide phosphate guanyltransferase), NCgl2120 (nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase), NCgl2121 (adenosylcobinamide-GDP ribazoletransferase)"
+NC_003450.3,2335025,2335787,-1,NCgl2122,NCgl2122 (short-chain dehydrogenase)
+NC_003450.3,2342304,2343351,1,NCgl2128,NCgl2128 (lipoyl synthase)
+NC_003450.3,2346286,2347897,-1,NCgl2131,NCgl2131 (transposase)
+NC_003450.3,2350405,2350621,-1,NCgl2134,NCgl2134 (hypothetical protein)
+NC_003450.3,2355521,2358134,1,"NCgl2141, NCgl2142, NCgl2143, NCgl2144","NCgl2141 (major facilitator superfamily permease), NCgl2142 (hypothetical protein), NCgl2143 (hypothetical protein), NCgl2144 (hypothetical protein)"
+NC_003450.3,2358769,2359417,-1,NCgl2146,NCgl2146 (hypothetical protein)
+NC_003450.3,2365587,2367417,1,NCgl2150,NCgl2150 (hypothetical protein)
+NC_003450.3,2375214,2376724,1,"NCgl2159, NCgl2160","NCgl2159 (protein-tyrosine-phosphatase), NCgl2160 (hypothetical protein)"
+NC_003450.3,2379979,2382748,1,NCgl2167,NCgl2167 (pyruvate dehydrogenase subunit E1)
+NC_003450.3,2382824,2385499,-1,"NCgl2168, NCgl2169, NCgl2170","NCgl2168 (ABC transporter ATPase), NCgl2169 (ABC transporter permease), NCgl2170 (hypothetical protein)"
+NC_003450.3,2390431,2390860,-1,NCgl2177,NCgl2177 (hypothetical protein)
+NC_003450.3,2397057,2397133,1,NCg1t45,NCg1t45 (tRNA-Asn)
+NC_003450.3,2413568,2415122,1,NCgl2201,NCgl2201 (hypothetical protein)
+NC_003450.3,2416368,2417100,-1,NCgl2203,NCgl2203 (undecaprenyl pyrophosphate synthase)
+NC_003450.3,2426773,2427454,-1,NCgl2214,NCgl2214 (hypothetical protein)
+NC_003450.3,2432508,2434374,1,NCgl2218,NCgl2218 (ABC transporter ATPase and permease)
+NC_003450.3,2434437,2434578,-1,NCgl2219a,NCgl2219a (hypothetical protein)
+NC_003450.3,2448325,2450173,-1,NCgl2230,NCgl2230 (EctP protein)
+NC_003450.3,2455449,2457067,-1,"NCgl2235, NCgl2236","NCgl2235 (hypothetical protein), NCgl2236 (hypothetical protein)"
+NC_003450.3,2464344,2465772,1,NCgl2244,NCgl2244 (uncharacterized iron-regulated membrane protein)
+NC_003450.3,2472250,2472823,1,NCgl2249,NCgl2249 (thiamine biosynthesis protein x)
+NC_003450.3,2477650,2479255,1,NCgl2254,NCgl2254 (hypothetical protein)
+NC_003450.3,2485473,2485737,1,NCgl2261,NCgl2261 (30S ribosomal protein S20)
+NC_003450.3,2492498,2497777,-1,"NCgl2270, NCgl2271, NCgl2272, NCgl2273, NCgl2274","NCgl2270 (nicotinic acid mononucleotide adenylyltransferase), NCgl2271 (hypothetical protein), NCgl2272 (gamma-glutamyl phosphate reductase), NCgl2273 (phosphoglycerate dehydrogenase), NCgl2274 (gamma-glutamyl kinase)"
+NC_003450.3,2503981,2504603,-1,"NCgl2279, NCgl2280","NCgl2279 (50S ribosomal protein L27), NCgl2280 (50S ribosomal protein L21)"
+NC_003450.3,2513151,2515488,-1,"NCgl2290, NCgl2291, NCgl2292","NCgl2290 (hypothetical protein), NCgl2291 (hypothetical protein), NCgl2292 (folylpolyglutamate synthase)"
+NC_003450.3,2542509,2543937,-1,"NCgl2317, NCgl2318","NCgl2317 (hypothetical protein), NCgl2318 (chloromuconate cycloisomerase)"
+NC_003450.3,2549837,2552459,1,NCgl2324,NCgl2324 (DNA-binding HTH domain-containing protein)
+NC_003450.3,2555314,2556569,-1,"NCgl2327, NCgl2328","NCgl2327 (ATP-dependent Clp protease proteolytic subunit), NCgl2328 (ATP-dependent Clp protease proteolytic subunit)"
+NC_003450.3,2561480,2561921,-1,NCgl2334,NCgl2334 (hypothetical protein)
+NC_003450.3,2564547,2565246,-1,NCgl2338,NCgl2338 (hypothetical protein)
+NC_003450.3,2569211,2570297,1,NCgl2341,NCgl2341 (type IV restriction endonuclease)
+NC_003450.3,2586213,2587767,1,NCgl2356,NCgl2356 (hypothetical protein)
+NC_003450.3,2592838,2593969,1,NCgl2363,NCgl2363 (chromate transport protein ChrA)
+NC_003450.3,2597866,2598484,-1,NCgl2369,NCgl2369 (single-stranded DNA-binding protein)
+NC_003450.3,2601461,2603033,1,"NCgl2371, NCg1t49","NCgl2371 (alkaline phosphatase), NCg1t49 (tRNA-His)"
+NC_003450.3,2608182,2610640,-1,"NCgl2376, NCgl2377","NCgl2376 (hypothetical protein), NCgl2377 (ABC transporter ATPase)"
+NC_003450.3,2612627,2612897,-1,NCgl2380a,NCgl2380a (hypothetical protein)
+NC_003450.3,2619538,2620729,-1,NCgl2387,NCgl2387 (hypothetical protein)
+NC_003450.3,2630636,2631140,1,NCgl2399,NCgl2399 (gluconate kinase)
+NC_003450.3,2638646,2647637,-1,NCgl2409,NCgl2409 (3-oxoacyl-ACP synthase)
+NC_003450.3,2653006,2654658,-1,"NCgl2416, NCgl2417, NCgl2418","NCgl2416 (hypothetical protein), NCgl2417 (hypothetical protein), NCgl2418 (transposase)"
+NC_003450.3,2665687,2667858,1,"NCgl2432, NCgl2433","NCgl2432 (hypothetical protein), NCgl2433 (Rad3-related DNA helicase)"
+NC_003450.3,2671060,2672815,-1,NCgl2437,"NCgl2437 (heme/copper-type cytochrome/quinol oxidase, subunit 1)"
+NC_003450.3,2675491,2676244,1,NCgl2440,NCgl2440 (transcriptional regulator)
+NC_003450.3,2680416,2680650,-1,NCgl2445,NCgl2445 (glutaredoxin-like protein)
+NC_003450.3,2687446,2688241,-1,NCgl2452,NCgl2452 (hypothetical protein)
+NC_003450.3,2691689,2693057,1,NCgl2457,NCgl2457 (hypothetical protein)
+NC_003450.3,2703711,2707035,-1,"NCg1r11, NCg1r12","NCg1r11 (5S ribosomal RNA), NCg1r12 (23S ribosomal RNA)"
+NC_003450.3,2711850,2712378,1,NCgl2468,NCgl2468 (hypothetical protein)
+NC_003450.3,2716291,2717815,-1,NCg1r16,NCg1r16 (16S ribosomal RNA)
+NC_003450.3,2723064,2723613,1,NCgl2474,NCgl2474 (serine acetyltransferase)
+NC_003450.3,2729134,2729207,-1,NCg1t58,NCg1t58 (tRNA-Lys)
+NC_003450.3,2736411,2737539,-1,NCgl2486,NCgl2486 (ABC transporter periplasmic component)
+NC_003450.3,2744010,2744226,1,NCgl2493,NCgl2493 (hypothetical protein)
+NC_003450.3,2744878,2745955,-1,NCgl2494,NCgl2494 (phosphoribosylaminoimidazole synthetase)
+NC_003450.3,2756956,2757130,1,NCgl2504,NCgl2504 (hypothetical protein)
+NC_003450.3,2761782,2762676,-1,NCgl2508,NCgl2508 (phosphoribosylaminoimidazole-succinocarboxamide synthase)
+NC_003450.3,2772641,2774815,-1,"NCgl2517, NCgl2518","NCgl2517 (two-component system, sensory transduction histidine kinase), NCgl2518 (two-component system, response regulator)"
+NC_003450.3,2784653,2786356,-1,"NCgl2526, NCgl2527","NCgl2526 (succinate dehydrogenase/fumarate reductase, flavoprotein subunit), NCgl2527 (transcriptional regulator)"
+NC_003450.3,2794870,2795641,1,NCgl2537,NCgl2537 (trehalose-6-phosphatase)
+NC_003450.3,2799592,2801317,1,"NCgl2542, NCgl2543","NCgl2542 (transposase), NCgl2543 (hypothetical protein)"
+NC_003450.3,2809821,2811807,-1,NCgl2553,NCgl2553 (phosphotransferase system IIC component)
+NC_003450.3,2822387,2823341,1,NCgl2563,NCgl2563 (ABC transporter permease)
+NC_003450.3,2832085,2832670,1,NCgl2574,NCgl2574 (hypothetical protein)
+NC_003450.3,2835280,2837500,-1,"NCgl2577, NCgl2578","NCgl2577 (hypothetical protein), NCgl2578 (NAD-dependent aldehyde dehydrogenase)"
+NC_003450.3,2841075,2841852,1,NCgl2582,"NCgl2582 (L-2,3-butanediol dehydrogenase)"
+NC_003450.3,2843429,2843723,-1,NCgl2584,NCgl2584 (hypothetical protein)
+NC_003450.3,2849935,2851819,1,NCgl2588,NCgl2588 (phenol 2-monooxygenase)
+NC_003450.3,2860502,2869728,-1,"NCgl2594, NCgl2595, NCgl2596, NCgl2597, NCgl2598, NCgl2599, NCgl2600, NCgl2601, NCgl2602, NCgl2603","NCgl2594 (lysyl-tRNA synthetase), NCgl2595 (pantoate--beta-alanine ligase), NCgl2596 (hypothetical protein), NCgl2597 (hypothetical protein), NCgl2598 (hypothetical protein), NCgl2599 (2-amino-4-hydroxy-6- hydroxymethyldihydropteridine diphosphokinase), NCgl2600 (dihydroneopterin aldolase), NCgl2601 (dihydropteroate synthase), NCgl2602 (GTP cyclohydrolase I), NCgl2603 (cell division protein)"
+NC_003450.3,2873902,2877859,-1,"NCgl2608, NCgl2609, NCgl2610, NCgl2611, NCgl2612, NCgl2613, NCgl2614","NCgl2608 (spermidine synthase), NCgl2609 (hypothetical protein), NCgl2610 (hypothetical protein), NCgl2611 (hypothetical protein), NCgl2612 (hypothetical protein), NCgl2613 (hypothetical protein), NCgl2614 (hypothetical protein)"
+NC_003450.3,2880544,2884886,1,"NCgl2617, NCgl2618","NCgl2617 (hypothetical protein), NCgl2618 (non-ribosomal peptide synthetase)"
+NC_003450.3,2888894,2890541,-1,NCgl2621,NCgl2621 (molecular chaperone GroEL)
+NC_003450.3,2909231,2909792,1,NCgl2632,NCgl2632 (hypothetical protein)
+NC_003450.3,2939907,2940456,1,NCgl2659,NCgl2659 (acyltransferase)
+NC_003450.3,2948046,2949883,-1,"NCgl2667, NCgl2668","NCgl2667 (two-component system, sensory transduction histidine kinase), NCgl2668 (two-component system, response regulator)"
+NC_003450.3,2956827,2960342,-1,"NCgl2675, NCgl2676, NCgl2677, NCgl2678","NCgl2675 (rRNA methylase), NCgl2676 (orotate phosphoribosyltransferase), NCgl2677 (hypothetical protein), NCgl2678 (thiosulfate sulfurtransferase)"
+NC_003450.3,2963195,2966162,-1,"NCgl2681, NCgl2682","NCgl2681 (hypothetical protein), NCgl2682 (ATPase with chaperone activity, ATP-binding subunit)"
+NC_003450.3,2976620,2977778,1,NCgl2694,NCgl2694 (hypothetical protein)
+NC_003450.3,2982020,2983680,-1,"NCgl2699, NCgl2700","NCgl2699 (transcriptional regulator), NCgl2700 (molecular chaperone DnaJ)"
+NC_003450.3,2988211,2995406,-1,"NCgl2704, NCgl2705, NCgl2706, NCgl2707, NCgl2708","NCgl2704 (nucleosidase), NCgl2705 (hypothetical protein), NCgl2706 (hypothetical protein), NCgl2707 (hypothetical protein), NCgl2708 (hypothetical protein)"
+NC_003450.3,2998525,3003146,-1,"NCgl2713, NCgl2714, NCgl2715, NCgl2716, NCgl2717","NCgl2713 (permease), NCgl2714 (hypothetical protein), NCgl2715 (sulfate adenylyltransferase), NCgl2716 (sulfate adenylyltransferase), NCgl2717 (phosphoadenosine phosphosulfate reductase)"
+NC_003450.3,3009707,3012810,-1,"NCgl2724, NCgl2725, NCgl2726","NCgl2724 (hypothetical protein), NCgl2725 (hypothetical protein), NCgl2726 (hypothetical protein)"
+NC_003450.3,3019539,3021958,-1,"NCgl2732, NCgl2733, NCgl2734","NCgl2732 (ABC transporter duplicated ATPase), NCgl2733 (ABC transporter permease), NCgl2734 (hypothetical protein)"
+NC_003450.3,3030669,3031983,1,NCgl2747,NCgl2747 (aminotransferase)
+NC_003450.3,3038172,3038946,1,NCgl2752,NCgl2752 (hypothetical protein)
+NC_003450.3,3068140,3070003,-1,NCgl2774,NCgl2774 (acyl-CoA synthetase)
+NC_003450.3,3075537,3076563,-1,NCgl2779,NCgl2779 (esterase)
+NC_003450.3,3101734,3102772,1,NCgl2802,NCgl2802 (transcriptional regulator)
+NC_003450.3,3110461,3112321,-1,NCgl2809,NCgl2809 (pyruvate kinase)
+NC_003450.3,3118284,3120883,1,"NCgl2816, NCgl2817","NCgl2816 (integral membrane transport protein), NCgl2817 (L-lactate dehydrogenase)"
+NC_003450.3,3124338,3125299,-1,"NCgl2822, NCgl2823","NCgl2822 (hypothetical protein), NCgl2823 (metal-dependent hydrolase/carboxypeptidase)"
+NC_003450.3,3135853,3136492,-1,NCgl2834,"NCgl2834 (two-component system, response regulator)"
+NC_003450.3,3142451,3143357,-1,NCgl2842,NCgl2842 (hypothetical protein)
+NC_003450.3,3151366,3151576,-1,NCgl2845,NCgl2845 (hypothetical protein)
+NC_003450.3,3155243,3157248,-1,NCgl2850a,NCgl2850a ()
+NC_003450.3,3162385,3162613,-1,NCgl2858a,NCgl2858a (hypothetical protein)
+NC_003450.3,3171046,3171620,1,NCgl2866a,NCgl2866a ()
+NC_003450.3,3173624,3173861,1,NCgl2869,NCgl2869 (copper chaperone)
+NC_003450.3,3177086,3177684,-1,NCgl2872a,NCgl2872a ()
+NC_003450.3,3179049,3180396,1,NCgl2876,NCgl2876 (transmembrane transport protein)
+NC_003450.3,3183475,3184986,-1,"NCgl2879, NCgl2880, NCgl2881","NCgl2879 (50S ribosomal protein L9), NCgl2880 (single-stranded DNA-binding protein), NCgl2881 (30S ribosomal protein S6)"
+NC_003450.3,3198579,3200687,-1,"NCgl2895, NCgl2896","NCgl2895 (hypothetical protein), NCgl2896 (hypothetical protein)"
+NC_003450.3,3202952,3204732,1,"NCgl2899, NCgl2900","NCgl2899 (hypothetical protein), NCgl2900 (hypothetical protein)"
+NC_003450.3,3208279,3209458,1,NCgl2904,NCgl2904 (malic enzyme)
+NC_003450.3,3216883,3217216,-1,NCgl2911,NCgl2911 (hypothetical protein)
+NC_003450.3,3218777,3219704,1,NCgl2914,NCgl2914 (hypothetical protein)
+NC_003450.3,3223989,3226688,-1,"NCgl2918, NCgl2919, NCgl2920","NCgl2918 (mycothiol-dependent maleylpyruvate isomerase), NCgl2919 (2-hydroxyhepta-2,4-diene-1,7-dioatesomerase), NCgl2920 (gentisate 1,2-dioxygenase)"
+NC_003450.3,3238082,3240175,1,"NCgl2931, NCgl2932","NCgl2931 (tryptophan synthase subunit beta), NCgl2932 (tryptophan synthase subunit alpha)"
+NC_003450.3,3248392,3249169,1,NCgl2940,NCgl2940 (hypothetical protein)
+NC_003450.3,3251740,3251899,-1,NCgl2945,NCgl2945 (hypothetical protein)
+NC_003450.3,3255741,3256299,-1,NCgl2950,NCgl2950 (transcriptional regulator)
+NC_003450.3,3262145,3266270,1,"NCgl2955, NCgl2956, NCgl2957, NCgl2958","NCgl2955 (oxidoreductase), NCgl2956 (hypothetical protein), NCgl2957 (myo-inositol dehydrogenase), NCgl2958 (dehydrogenase)"
+NC_003450.3,3275599,3282173,-1,"NCgl2963, NCgl2964, NCgl2965","NCgl2963 (hypothetical protein), NCgl2964 (helicase), NCgl2965 (hypothetical protein)"
+NC_003450.3,3283470,3284238,-1,NCgl2969,NCgl2969 (membrane transport protein)
+NC_003450.3,3299661,3303000,1,"NCgl2983, NCgl2984, NCgl2985, NCgl2986","NCgl2983 (RNA polymerase sigma factor), NCgl2984 (thioredoxin reductase), NCgl2985 (thioredoxin), NCgl2986 (N-acetylmuramoyl-L-alanine amidase)"
+NC_003450.3,3306679,3307633,-1,NCgl2991,NCgl2991 (inner membrane protein translocase YidC)
+NC_003450.3,5434,7489,1,NCgl0005,NCgl0005 (DNA gyrase subunit B)
+NC_003450.3,9470,9914,-1,NCgl0008,NCgl0008 (hypothetical protein)
+NC_003450.3,23902,24063,1,"NCg1t04, NCg1t05","NCg1t04 (tRNA-Ile), NCg1t05 (tRNA-Ala)"
+NC_003450.3,24881,26573,-1,NCgl0024,NCgl0024 (transcriptional regulator)
+NC_003450.3,49893,50616,-1,NCgl0047,NCgl0047 (hypothetical protein)
+NC_003450.3,59090,62324,1,"NCgl0057, NCgl0058, NCgl0059","NCgl0057 (hypothetical protein), NCgl0058 (hypothetical protein), NCgl0059 (hypothetical protein)"
+NC_003450.3,76642,78166,1,NCg1r01,NCg1r01 (16S ribosomal RNA)
+NC_003450.3,83687,84935,-1,NCgl0075,NCgl0075 (cytosine deaminase or related metal-dependent hydrolase)
+NC_003450.3,96364,97144,-1,NCgl0090,NCgl0090 (hydrolase or acyltransferase)
+NC_003450.3,112469,116266,1,"NCgl0100, NCgl0101, NCgl0102, NCgl0103","NCgl0100 (p-aminobenzoyl-glutamate transporter), NCgl0101 (metal-dependent enzyme), NCgl0102 (hypothetical protein), NCgl0103 (hypothetical protein)"
+NC_003450.3,181425,181650,1,NCgl0166,NCgl0166 (hypothetical protein)
+NC_003450.3,186507,186711,1,NCgl0171,NCgl0171 (cold shock protein)
+NC_003450.3,201756,203178,-1,NCgl0183,NCgl0183 (hypothetical protein)
+NC_003450.3,241636,241709,1,NCg1t10,NCg1t10 (tRNA-Arg)
+NC_003450.3,252826,253819,-1,NCgl0234,NCgl0234 (dioxygenase)
+NC_003450.3,262542,265678,-1,"NCgl0242, NCgl0243, NCgl0244","NCgl0242 (glutamine amidotransferase), NCgl0243 (UDP-N-acetylmuramyl tripeptide synthase), NCgl0244 (DNA polymerase III subunit epsilon)"
+NC_003450.3,330972,332436,1,"NCgl0309, NCgl0310","NCgl0309 (adenylate kinase), NCgl0310 (23S RNA-specific pseudouridylate synthase)"
+NC_003450.3,359758,360316,-1,NCgl0334,NCgl0334 (hypothetical protein)
+NC_003450.3,369793,370408,1,NCgl0342,NCgl0342 (lipopolysaccharide synthesis sugar transferase)
+NC_003450.3,389292,390733,1,"NCgl0356, NCgl0357","NCgl0356 (UDP-glucose pyrophosphorylase), NCgl0357 (hypothetical protein)"
+NC_003450.3,428560,429442,1,NCgl0393,NCgl0393 (hypothetical protein)
+NC_003450.3,479448,481001,-1,"NCgl0441, NCgl0442, NCgl0443","NCgl0441 (hypothetical protein), NCgl0442 (hypothetical protein), NCgl0443 (hypothetical protein)"
+NC_003450.3,490579,492658,1,"NCgl0453, NCgl0454","NCgl0453 (gamma-aminobutyrate permease or related permease), NCgl0454 (ubiquinone/menaquinone biosynthesis methyltransferase)"
+NC_003450.3,496228,496583,1,"NCg1t17, NCg1t18, NCg1t19","NCg1t17 (tRNA-Thr), NCg1t18 (tRNA-Met), NCg1t19 (tRNA-Trp)"
+NC_003450.3,509997,510977,1,"NCgl0468, NCgl0469","NCgl0468 (50S ribosomal protein L10), NCgl0469 (50S ribosomal protein L7/L12)"
+NC_003450.3,558193,558969,-1,"NCgl0521, NCgl0522","NCgl0521 (NAD-dependent aldehyde dehydrogenase), NCgl0522 (hypothetical protein)"
+NC_003450.3,572429,573179,1,NCgl0535,NCgl0535 (hypothetical protein)
+NC_003450.3,594938,595930,1,"NCgl0556, NCgl0557","NCgl0556 (50S ribosomal protein L13), NCgl0557 (30S ribosomal protein S9)"
+NC_003450.3,610347,612275,1,"NCgl0572, NCgl0573","NCgl0572 (co-chaperonin GroES), NCgl0573 (molecular chaperone GroEL)"
+NC_003450.3,645172,648309,-1,"NCgl0606, NCgl0607","NCgl0606 (ABC transporter permease), NCgl0607 (ABC transporter ATPase)"
+NC_003450.3,664122,664947,-1,NCgl0623,NCgl0623 (hypothetical protein)
+NC_003450.3,705210,708633,1,NCgl0659,NCgl0659 (pyruvate carboxylase)
+NC_003450.3,743896,745498,-1,"NCgl0695, NCgl0696","NCgl0695 (ABC transporter permease), NCgl0696 (hypothetical protein)"
+NC_003450.3,760902,763203,-1,NCgl0704,NCgl0704 (helicase)
+NC_003450.3,781563,781878,1,NCgl0711,NCgl0711 (hypothetical protein)
+NC_003450.3,796249,798787,1,NCgl0726,NCgl0726 (preprotein translocase subunit SecA)
+NC_003450.3,837311,840142,1,"NCgl0760, NCgl0761, NCgl0762, NCgl0763","NCgl0760 (hypothetical protein), NCgl0761 (hypothetical protein), NCgl0762 (hypothetical protein), NCgl0763 (hypothetical protein)"
+NC_003450.3,847726,848029,1,NCgl0772,NCgl0772 (hypothetical protein)
+NC_003450.3,856118,857643,1,NCg1r04,NCg1r04 (16S ribosomal RNA)
+NC_003450.3,895440,895596,1,NCgl0804,NCgl0804 (hypothetical protein)
+NC_003450.3,906555,909378,-1,"NCgl0816, NCgl0817","NCgl0816 (cyanate permease), NCgl0817 (glucose-6-phosphate isomerase)"
+NC_003450.3,922392,923989,-1,"NCgl0829, NCgl0830","NCgl0829 (transcriptional regulator), NCgl0830 (hypothetical protein)"
+NC_003450.3,948790,950842,1,NCgl0858,NCgl0858 (helicase)
+NC_003450.3,961296,962252,1,"NCgl0869, NCgl0870","NCgl0869 (ArsR family transcriptional regulator), NCgl0870 (hypothetical protein)"
+NC_003450.3,1007048,1008155,1,NCgl0913,NCgl0913 (hypothetical protein)
+NC_003450.3,1040924,1042845,1,"NCgl0943, NCgl0944","NCgl0943 (AraC family transcriptional regulator), NCgl0944 (hypothetical protein)"
+NC_003450.3,1078315,1079080,-1,NCgl0983,NCgl0983 (hypothetical protein)
+NC_003450.3,1103950,1104106,1,NCgl1010,NCgl1010 (hypothetical protein)
+NC_003450.3,1151206,1152373,1,NCgl1060,NCgl1060 (hypothetical protein)
+NC_003450.3,1228717,1229098,1,NCgl1122,NCgl1122 (short chain fatty acids transporter)
+NC_003450.3,1233006,1235615,1,"NCgl1129, NCgl1130","NCgl1129 (cation transport ATPase), NCgl1130 (hypothetical protein)"
+NC_003450.3,1256847,1259265,-1,"NCgl1146, NCgl1147","NCgl1146 (hypothetical protein), NCgl1147 (hypothetical protein)"
+NC_003450.3,1272339,1273152,1,NCgl1159,NCgl1159 (ATP synthase F0F1 subunit A)
+NC_003450.3,1295434,1298342,1,"NCgl1182, NCgl1183, NCgl1184","NCgl1182 (electron transfer flavoprotein beta-subunit), NCgl1183 (electron transfer flavoprotein alpha-subunit), NCgl1184 (cysteine sulfinate desulfinase)"
+NC_003450.3,1321475,1322114,1,NCgl1208,NCgl1208 (acetyltransferase)
+NC_003450.3,1341956,1342727,1,NCgl1225a,NCgl1225a ()
+NC_003450.3,1350854,1352447,1,NCgl1235,NCgl1235 (D-3-phosphoglycerate dehydrogenase)
+NC_003450.3,1367572,1367648,1,NCg1t30,NCg1t30 (tRNA-Glu)
+NC_003450.3,1373346,1375734,-1,NCgl1255,NCgl1255 (glucan phosphorylase)
+NC_003450.3,1403127,1404218,1,"NCgl1285, NCgl1286","NCgl1285 (hypothetical protein), NCgl1286 (hypothetical protein)"
+NC_003450.3,1410060,1412000,-1,"NCgl1294, NCgl1295, NCgl1296","NCgl1294 (hypothetical protein), NCgl1295 (hypothetical protein), NCgl1296 (hypothetical protein)"
+NC_003450.3,1426256,1427357,1,NCgl1307,NCgl1307 (hypothetical protein)
+NC_003450.3,1436334,1436778,1,NCgl1316,NCgl1316 (universal stress protein UspA)
+NC_003450.3,1438208,1440476,-1,NCgl1319,NCgl1319 (hypothetical protein)
+NC_003450.3,1468564,1470043,1,"NCgl1344, NCgl1345","NCgl1344 (ornithine carbamoyltransferase), NCgl1345 (arginine repressor ArgR)"
+NC_003450.3,1484725,1489021,1,"NCgl1354, NCgl1355, NCgl1356, NCgl1357, NCgl1358","NCgl1354 (TPR repeat-containing protein), NCgl1355 (HAD family sugar phosphatase), NCgl1356 (hypothetical protein), NCgl1357 (rRNA methylase), NCgl1358 (inorganic polyphosphate/ATP-NAD kinase)"
+NC_003450.3,1520189,1521592,1,"NCgl1386, NCgl1387","NCgl1386 (hypothetical protein), NCgl1387 (hypothetical protein)"
+NC_003450.3,1522428,1522941,-1,NCgl1389,NCgl1389 (hypothetical protein)
+NC_003450.3,1538959,1539664,-1,NCgl1406,NCgl1406 (hypothetical protein)
+NC_003450.3,1552586,1553975,1,NCgl1417,NCgl1417 (sulfate permease)
+NC_003450.3,1571064,1571382,-1,NCgl1434,NCgl1434 (twin arginine translocase A)
+NC_003450.3,1640566,1641004,1,NCgl1492,NCgl1492 (integrase)
+NC_003450.3,1658787,1661139,1,NCgl1509,NCgl1509 (helicase)
+NC_003450.3,1702028,1703308,-1,"NCgl1543, NCgl1544, NCgl1545","NCgl1543 (DNA-directed RNA polymerase subunit omega), NCgl1544 (guanylate kinase), NCgl1545 (hypothetical protein)"
+NC_003450.3,1724608,1727170,-1,"NCgl1567, NCgl1568, NCgl1569","NCgl1567 (shikimate 5-dehydrogenase), NCgl1568 (periplasmic solute-binding protein), NCgl1569 (Holliday junction resolvase-like protein)"
+NC_003450.3,1752254,1752530,1,NCgl1589,NCgl1589 (hypothetical protein)
+NC_003450.3,1761001,1763839,-1,"NCgl1595, NCgl1596, NCgl1597, NCgl1598","NCgl1595 (preprotein translocase subunit YajC), NCgl1596 (Holliday junction DNA helicase RuvB), NCgl1597 (Holliday junction DNA helicase RuvA), NCgl1598 (Holliday junction resolvase)"
+NC_003450.3,1766483,1772384,-1,"NCgl1602, NCgl1603, NCgl1604, NCgl1605, NCgl1606, NCgl1607","NCgl1602 (hypothetical protein), NCgl1603 (glycosyltransferase), NCgl1604 (lipid A biosynthesis lauroyl acyltransferase), NCgl1605 (phosphatidylglycerophosphate synthase), NCgl1606 (diadenosine tetraphosphate (Ap4A) hydrolase), NCgl1607 (threonyl-tRNA synthetase)"
+NC_003450.3,1778098,1780051,-1,"NCgl1611, NCgl1612","NCgl1611 (hypothetical protein), NCgl1612 (hypothetical protein)"
+NC_003450.3,1795590,1797052,1,"NCgl1626, NCgl1627","NCgl1626 (phosphopantothenoylcysteine synthetase/decarboxylase), NCgl1627 (hypothetical protein)"
+NC_003450.3,1800872,1801310,1,NCgl1632,NCgl1632 (hypothetical protein)
+NC_003450.3,1804133,1804868,1,"NCgl1637, NCgl1638","NCgl1637 (hypothetical protein), NCgl1638 (hypothetical protein)"
+NC_003450.3,1842920,1843340,1,NCgl1672,NCgl1672 (hypothetical protein)
+NC_003450.3,1854281,1854857,1,NCgl1685,NCgl1685 (hypothetical protein)
+NC_003450.3,1910638,1913733,-1,"NCgl1727, NCgl1728","NCgl1727 (hypothetical protein), NCgl1728 (hypothetical protein)"
+NC_003450.3,1921543,1926010,-1,NCgl1737,NCgl1737 (hypothetical protein)
+NC_003450.3,1931417,1932777,-1,"NCgl1744, NCgl1745, NCgl1746","NCgl1744 (hypothetical protein), NCgl1745 (transcriptional regulator), NCgl1746 (hypothetical protein)"
+NC_003450.3,1941106,1941553,1,NCgl1755,NCgl1755 (hypothetical protein)
+NC_003450.3,1944126,1944567,1,NCgl1760,NCgl1760 (hypothetical protein)
+NC_003450.3,1959761,1960196,-1,NCgl1772,NCgl1772 (hypothetical protein)
+NC_003450.3,1970334,1971477,1,NCgl1783,NCgl1783 (hypothetical protein)
+NC_003450.3,1991791,1994121,-1,"NCgl1814, NCgl1815","NCgl1814 (hypothetical protein), NCgl1815 (hypothetical protein)"
+NC_003450.3,1998384,1999952,1,"NCgl1822, NCgl1823","NCgl1822 (hypothetical protein), NCgl1823 (hypothetical protein)"
+NC_003450.3,2008872,2009082,-1,NCgl1832,NCgl1832 (hypothetical protein)
+NC_003450.3,2014158,2015496,-1,NCgl1837,NCgl1837 (hypothetical protein)
+NC_003450.3,2022265,2023948,1,"NCgl1845, NCgl1846","NCgl1845 (Mn-dependent transcriptional regulator), NCgl1846 (UDP-glucose 4-epimerase)"
+NC_003450.3,2062440,2063262,1,NCgl1878,NCgl1878 (glutamate ABC transporter permease)
+NC_003450.3,2068552,2069383,-1,NCgl1886,NCgl1886 (phage shock protein A (IM30))
+NC_003450.3,2073290,2076170,-1,NCgl1893,NCgl1893 (DNA translocase SpoIIIE-like protein)
+NC_003450.3,2082928,2085190,-1,NCgl1900,NCgl1900 (polynucleotide phosphorylase)
+NC_003450.3,2089214,2093501,-1,"NCgl1905, NCgl1906, NCgl1907, NCgl1908, NCgl1909","NCgl1905 (phosphopantetheinyl transferase of siderophore synthetase), NCgl1906 (hypothetical protein), NCgl1907 (Na+-driven multidrug efflux pump), NCgl1908 (exopolyphosphatase), NCgl1909 (ribosome-binding factor A)"
+NC_003450.3,2102022,2105706,1,"NCgl1916, NCgl1917, NCgl1918","NCgl1916 (ABC transporter permease), NCgl1917 (ABC transporter permease), NCgl1918 (ABC transporter duplicated ATPase)"
+NC_003450.3,2118735,2119498,1,"NCgl1929, NCgl1930","NCgl1929 (hypothetical protein), NCgl1930 (hypothetical protein)"
+NC_003450.3,2137932,2138664,-1,NCgl1948,NCgl1948 (uridylate kinase)
+NC_003450.3,2141759,2142707,-1,NCgl1952,NCgl1952 (site-specific tyrosine recombinase XerC)
+NC_003450.3,2154456,2156733,-1,NCgl1966,NCgl1966 (RNA binding protein)
+NC_003450.3,2176106,2179481,-1,NCgl1985,NCgl1985 (hypothetical protein)
+NC_003450.3,2205664,2207092,-1,NCgl2008,NCgl2008 (pyruvate kinase)
+NC_003450.3,2255735,2257025,-1,NCgl2054,NCgl2054 (diaminopimelate decarboxylase)
+NC_003450.3,2295373,2295805,-1,NCgl2087,NCgl2087 (cell division protein MraZ)
+NC_003450.3,2321469,2325888,-1,"NCgl2109, NCgl2110, NCgl2111, NCgl2112","NCgl2109 (cytochrome b subunit of the bc complex), NCgl2110 (Rieske Fe-S protein), NCgl2111 (cytochrome C), NCgl2112 (cytochrome C oxidase subunit III)"
+NC_003450.3,2343479,2344262,1,NCgl2129,NCgl2129 (hypothetical protein)
+NC_003450.3,2358150,2358633,-1,NCgl2145,NCgl2145 (hypothetical protein)
+NC_003450.3,2397264,2399103,1,NCgl2186,NCgl2186 (hypothetical protein)
+NC_003450.3,2415295,2416369,-1,NCgl2202,NCgl2202 (hypothetical protein)
+NC_003450.3,2479379,2479766,1,NCgl2255,NCgl2255 (hypothetical protein)
+NC_003450.3,2485798,2492344,-1,"NCgl2262, NCgl2263, NCgl2264, NCgl2265, NCgl2266, NCgl2267, NCgl2268, NCgl2269","NCgl2262 (threonine efflux protein), NCgl2263 (ankyrin repeat-containing protein), NCgl2264 (hypothetical protein), NCgl2265 (competence protein ComE-like protein), NCgl2266 (DNA uptake protein), NCgl2267 (hypothetical protein), NCgl2268 (fructose-2,6-bisphosphatase), NCgl2269 (hypothetical protein)"
+NC_003450.3,2541184,2542351,-1,NCgl2316,NCgl2316 (hypothetical protein)
+NC_003450.3,2552605,2555271,1,"NCgl2325, NCgl2326","NCgl2325 (benzoate transporter), NCgl2326 (benzoate membrane transport protein)"
+NC_003450.3,2563929,2564403,-1,NCgl2337,NCgl2337 (ribose-5-phosphate isomerase B)
+NC_003450.3,2587976,2588726,1,NCgl2357,NCgl2357 (hypothetical protein)
+NC_003450.3,2595819,2597716,-1,"NCgl2367, NCgl2368","NCgl2367 (hypothetical protein), NCgl2368 (ABC transporter ATP-binding protein)"
+NC_003450.3,2606558,2607890,-1,NCgl2375,NCgl2375 (ABC transporter periplasmic component)
+NC_003450.3,2631303,2633104,1,"NCgl2400, NCgl2401","NCgl2400 (hypothetical protein), NCgl2401 (amidase)"
+NC_003450.3,2637237,2637654,-1,NCgl2408,NCgl2408 (hypothetical protein)
+NC_003450.3,2651417,2652802,-1,"NCgl2414, NCgl2415","NCgl2414 (deoxyribonucleotide triphosphate pyrophosphatase), NCgl2415 (ribonuclease PH)"
+NC_003450.3,2669554,2670856,-1,NCgl2436,NCgl2436 (phosphoserine phosphatase)
+NC_003450.3,2677475,2680128,-1,"NCgl2443, NCgl2444","NCgl2443 (ribonucleotide-diphosphate reductase subunit alpha), NCgl2444 (ribonucleotide reductase stimulatory protein)"
+NC_003450.3,2687224,2687300,-1,NCg1t53,NCg1t53 (tRNA-Ala)
+NC_003450.3,2693299,2695283,1,"NCgl2458, NCgl2459","NCgl2458 (hypothetical protein), NCgl2459 (hypothetical protein)"
+NC_003450.3,2699923,2703339,-1,"NCgl2464, NCgl2465","NCgl2464 (ABC transporter permease), NCgl2465 (ABC transporter ATPase)"
+NC_003450.3,2712578,2715902,-1,"NCg1r14, NCg1r15","NCg1r14 (5S ribosomal RNA), NCg1r15 (23S ribosomal RNA)"
+NC_003450.3,2727396,2728891,-1,"NCgl2478, NCgl2479","NCgl2478 (dithiol-disulfide isomerase), NCgl2479 (hypothetical protein)"
+NC_003450.3,2733452,2736216,-1,"NCgl2483, NCgl2484, NCgl2485","NCgl2483 (phosphate transporter ATP-binding protein), NCgl2484 (ABC transporter permease), NCgl2485 (ABC transporter permease)"
+NC_003450.3,2759529,2761650,-1,NCgl2507,NCgl2507 (protease II)
+NC_003450.3,2782337,2784470,-1,NCgl2525,NCgl2525 (hypothetical protein)
+NC_003450.3,2807423,2809779,-1,"NCgl2551, NCgl2552","NCgl2551 (23S rRNA (guanosine(2251)-2'-O)-methyltransferase RlmB), NCgl2552 (cysteinyl-tRNA synthetase)"
+NC_003450.3,2824274,2826160,1,"NCgl2564, NCgl2565","NCgl2564 (ABC transporter ATPase), NCgl2565 (ABC transporter ATPase)"
+NC_003450.3,2832790,2835289,1,"NCgl2575, NCgl2576","NCgl2575 (DNA repair protein RadA), NCgl2576 (DNA integrity scanning protein DisA)"
+NC_003450.3,2842493,2843237,1,NCgl2583,NCgl2583 (hypothetical protein)
+NC_003450.3,2852017,2857520,1,"NCgl2589, NCgl2590, NCgl2591","NCgl2589 (hypothetical protein), NCgl2590 (hypothetical protein), NCgl2591 (hypothetical protein)"
+NC_003450.3,2859192,2860146,-1,NCgl2593,NCgl2593 (hypothetical protein)
+NC_003450.3,2886913,2887834,-1,NCgl2620,NCgl2620 (hypothetical protein)
+NC_003450.3,2910172,2916586,1,"NCgl2633, NCgl2634, NCgl2635, NCgl2636, NCgl2637, NCgl2638","NCgl2633 (monovalent cation/H+ antiporter subunit A), NCgl2634 (monovalent cation/H+ antiporter subunit C), NCgl2635 (monovalent cation/H+ antiporter subunit D), NCgl2636 (monovalent cation/H+ antiporter subunit E), NCgl2637 (monovalent cation/H+ antiporter subunit F), NCgl2638 (monovalent cation/H+ antiporter subunit G)"
+NC_003450.3,2946695,2947887,-1,"NCgl2665, NCgl2666","NCgl2665 (transposase), NCgl2666 (hypothetical protein)"
+NC_003450.3,2955520,2956636,-1,NCgl2674,NCgl2674 (hypothetical protein)
+NC_003450.3,2980178,2981699,-1,NCgl2698,NCgl2698 (NAD-dependent aldehyde dehydrogenase)
+NC_003450.3,3032661,3033867,1,NCgl2748,NCgl2748 (transposase)
+NC_003450.3,3061377,3067781,-1,"NCgl2772, NCgl2773","NCgl2772 (acetyl-CoA carboxylase beta subunit), NCgl2773 (polyketide synthase)"
+NC_003450.3,3102909,3103767,1,NCgl2803,NCgl2803 (hypothetical protein)
+NC_003450.3,3121080,3121317,1,NCgl2818,NCgl2818 (hypothetical protein)
+NC_003450.3,3122553,3124173,-1,NCgl2821,NCgl2821 (hypothetical protein)
+NC_003450.3,3141706,3141970,-1,NCgl2841,NCgl2841 (hypothetical protein)
+NC_003450.3,3149678,3151202,-1,NCg1r19,NCg1r19 (16S ribosomal RNA)
+NC_003450.3,3153891,3154767,-1,NCgl2848,NCgl2848 (hypothetical protein)
+NC_003450.3,3161679,3162015,-1,NCgl2857,NCgl2857 (hypothetical protein)
+NC_003450.3,3174066,3174384,1,NCgl2870,NCgl2870 (hypothetical protein)
+NC_003450.3,3181334,3182867,-1,NCgl2878,NCgl2878 (replicative DNA helicase)
+NC_003450.3,3213931,3216760,-1,"NCgl2909, NCgl2910","NCgl2909 (D-amino acid dehydrogenase subunit), NCgl2910 (hypothetical protein)"
+NC_003450.3,3223086,3223452,-1,NCgl2917,NCgl2917 (virulence associated protein)
+NC_003450.3,3251463,3251619,-1,NCgl2944,NCgl2944 (hypothetical protein)
+NC_003450.3,3253821,3255348,-1,NCgl2949,NCgl2949 (dipeptide/tripeptide permease)
+NC_003450.3,3266603,3271097,1,NCgl2959,NCgl2959 (hypothetical protein)
+NC_003450.3,3274485,3275190,-1,NCgl2962,NCgl2962 (hypothetical protein)
+NC_003450.3,3304832,3306533,-1,"NCgl2989, NCgl2990","NCgl2989 (cell division protein ParA), NCgl2990 (16S rRNA methyltransferase GidB)"
+NC_003450.3,7829,8798,1,NCgl0006,NCgl0006 (hypothetical protein)
+NC_003450.3,8794,9400,-1,NCgl0007,NCgl0007 (hypothetical protein)
+NC_003450.3,24294,24732,1,NCgl0023,NCgl0023 (stress-induced protein)
+NC_003450.3,78553,81641,1,NCg1r02,NCg1r02 (23S ribosomal RNA)
+NC_003450.3,82116,83568,-1,NCgl0074,NCgl0074 (permease)
+NC_003450.3,186876,188259,1,"NCgl0172, NCgl0173, NCgl0174a","NCgl0172 (hypothetical protein), NCgl0173 (transcriptional regulator), NCgl0174a ()"
+NC_003450.3,332918,339728,1,"NCgl0311, NCgl0312, NCgl0313, NCgl0314, NCgl0315, NCgl0316, NCgl0317","NCgl0311 (beta-glucosidase-related glycosidase), NCgl0312 (hypothetical protein), NCgl0313 (class III Zn-dependent alcohol dehydrogenase), NCgl0314 (Zn-dependent hydrolase or glyoxylase), NCgl0315 (dehydrogenase), NCgl0316 (major facilitator superfamily permease), NCgl0317 (nucleoside-diphosphate-sugar epimerase)"
+NC_003450.3,354595,359240,-1,"NCgl0331, NCgl0332, NCgl0333","NCgl0331 (hypothetical protein), NCgl0332 (aminopeptidase), NCgl0333 (serine protease)"
+NC_003450.3,370891,371776,1,NCgl0343,NCgl0343 (glycosyltransferase)
+NC_003450.3,473810,479303,-1,"NCgl0435, NCgl0436, NCgl0437, NCgl0438, NCgl0439, NCgl0440","NCgl0435 (O-succinylbenzoic acid--CoA ligase), NCgl0436 (hypothetical protein), NCgl0437 (ketoglutarate semialdehyde dehydrogenase), NCgl0438 (5-dehydro-4-deoxyglucarate dehydratase), NCgl0439 (transcriptional regulator), NCgl0440 (hypothetical protein)"
+NC_003450.3,496809,497145,1,NCgl0457,NCgl0457 (preprotein translocase subunit SecE)
+NC_003450.3,511502,512510,1,NCgl0470,NCgl0470 (hypothetical protein)
+NC_003450.3,573406,573625,1,NCgl0536,NCgl0536 (translation initiation factor IF-1)
+NC_003450.3,596108,597452,1,NCgl0558,NCgl0558 (phosphoglucosamine mutase)
+NC_003450.3,662378,663761,-1,NCgl0622,NCgl0622 (flotillin-like protein)
+NC_003450.3,708838,710281,1,"NCgl0660, NCgl0661","NCgl0660 (hypothetical protein), NCgl0661 (hypothetical protein)"
+NC_003450.3,742827,743900,-1,"NCgl0693, NCgl0694","NCgl0693 (hypothetical protein), NCgl0694 (ABC transporter permease)"
+NC_003450.3,757626,760796,-1,"NCgl0702, NCgl0703","NCgl0702 (hypothetical protein), NCgl0703 (hypothetical protein)"
+NC_003450.3,848351,848428,1,NCg1t21,NCg1t21 (tRNA-Met)
+NC_003450.3,858032,861112,1,NCg1r05,NCg1r05 (23S ribosomal RNA)
+NC_003450.3,905788,906391,-1,NCgl0815,NCgl0815 (hypothetical protein)
+NC_003450.3,962808,963642,1,NCgl0871,NCgl0871 (Mg-dependent DNase)
+NC_003450.3,1008663,1010064,1,NCgl0914,NCgl0914 (ABC transporter ATPase)
+NC_003450.3,1254733,1256674,-1,NCgl1145,NCgl1145 (serine protease)
+NC_003450.3,1273285,1279525,1,"NCgl1160, NCgl1161, NCgl1162, NCgl1163, NCgl1164, NCgl1165, NCgl1166","NCgl1160 (ATP synthase F0F1 subunit C), NCgl1161 (ATP synthase F0F1 subunit B), NCgl1162 (ATP synthase F0F1 subunit delta), NCgl1163 (ATP synthase F0F1 subunit alpha), NCgl1164 (ATP synthase F0F1 subunit gamma), NCgl1165 (ATP synthase F0F1 subunit beta), NCgl1166 (ATP synthase F0F1 subunit epsilon)"
+NC_003450.3,1322392,1323409,1,NCgl1209,NCgl1209 (ABC transporter periplasmic component)
+NC_003450.3,1352584,1354511,1,"NCgl1236, NCgl1237","NCgl1236 (hypothetical protein), NCgl1237 (3-isopropylmalate dehydrogenase)"
+NC_003450.3,1368399,1369877,1,"NCgl1251, NCgl1252","NCgl1251 (hypothetical protein), NCgl1252 (hypothetical protein)"
+NC_003450.3,1409424,1409802,-1,NCgl1293,NCgl1293 (hypothetical protein)
+NC_003450.3,1470210,1477812,1,"NCgl1346, NCgl1347, NCgl1348, NCgl1349, NCgl1350, NCgl1351, NCgl1352","NCgl1346 (argininosuccinate synthase), NCgl1347 (argininosuccinate lyase), NCgl1348 (hypothetical protein), NCgl1349 (hypothetical protein), NCgl1350 (hypothetical protein), NCgl1351 (hypothetical protein), NCgl1352 (tyrosyl-tRNA synthetase)"
+NC_003450.3,1489102,1493112,1,"NCgl1359, NCgl1360, NCgl1361","NCgl1359 (DNA repair ATPase), NCgl1360 (hypothetical protein), NCgl1361 (hypothetical protein)"
+NC_003450.3,1521770,1522346,1,NCgl1388,NCgl1388 (transcriptional regulator)
+NC_003450.3,1534525,1538919,-1,"NCgl1401, NCgl1402, NCgl1403, NCgl1404, NCgl1405","NCgl1401 (transcriptional regulator), NCgl1402 (ABC transporter permease), NCgl1403 (ABC transporter permease), NCgl1404 (ABC transporter ATPase), NCgl1405 (ABC transporter periplasmic component)"
+NC_003450.3,1567113,1570873,-1,"NCgl1432, NCgl1433","NCgl1432 (helicase), NCgl1433 (Sec-independent protein secretion pathway component TatC)"
+NC_003450.3,1661568,1662555,1,NCgl1510,NCgl1510 (NADPH:quinone reductase)
+NC_003450.3,1695495,1701767,-1,"NCgl1538, NCgl1539, NCgl1540, NCgl1541, NCgl1542","NCgl1538 (methionyl-tRNA formyltransferase), NCgl1539 (peptide deformylase), NCgl1540 (primosome assembly protein PriA), NCgl1541 (S-adenosylmethionine synthetase), NCgl1542 (bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate synthase)"
+NC_003450.3,1757585,1760734,-1,"NCgl1593, NCgl1594","NCgl1593 (preprotein translocase subunit SecF), NCgl1594 (preprotein translocase subunit SecD)"
+NC_003450.3,1797349,1797772,1,NCgl1628,NCgl1628 (hypothetical protein)
+NC_003450.3,1801493,1802099,1,NCgl1633,NCgl1633 (hypothetical protein)
+NC_003450.3,1804987,1805602,1,NCgl1639,NCgl1639 (hypothetical protein)
+NC_003450.3,1843517,1845359,1,NCgl1673,NCgl1673 (helicase)
+NC_003450.3,1855057,1855240,1,NCgl1686,NCgl1686 (hypothetical protein)
+NC_003450.3,1908781,1910508,-1,"NCgl1725, NCgl1726","NCgl1725 (hypothetical protein), NCgl1726 (hypothetical protein)"
+NC_003450.3,1920343,1921276,-1,NCgl1736,NCgl1736 (hypothetical protein)
+NC_003450.3,1930986,1931190,-1,NCgl1743,NCgl1743 (hypothetical protein)
+NC_003450.3,1958446,1959340,-1,NCgl1771,NCgl1771 (hypothetical protein)
+NC_003450.3,1971671,1974506,1,"NCgl1784, NCgl1785, NCgl1786, NCgl1787","NCgl1784 (hypothetical protein), NCgl1785 (hypothetical protein), NCgl1786 (hypothetical protein), NCgl1787 (hypothetical protein)"
+NC_003450.3,1991185,1991620,-1,NCgl1813,NCgl1813 (hypothetical protein)
+NC_003450.3,2071795,2072905,-1,NCgl1892,NCgl1892 (membrane protein TerC)
+NC_003450.3,2119714,2120359,1,NCgl1931,NCgl1931 (hypothetical protein)
+NC_003450.3,2137282,2137840,-1,NCgl1947,NCgl1947 (ribosome recycling factor)
+NC_003450.3,2173755,2175504,-1,NCgl1984,NCgl1984 (signal recognition particle GTPase)
+NC_003450.3,2201988,2205490,-1,"NCgl2006, NCgl2007","NCgl2006 (glucan phosphorylase), NCgl2007 (ring-cleavage extradiol dioxygenase)"
+NC_003450.3,2254680,2255568,-1,NCgl2053,NCgl2053 (dehydrogenase)
+NC_003450.3,2293320,2295128,-1,"NCgl2085, NCgl2086","NCgl2085 (hypothetical protein), NCgl2086 (S-adenosyl-methyltransferase MraW)"
+NC_003450.3,2316579,2320595,-1,"NCgl2105, NCgl2106, NCgl2107, NCgl2108","NCgl2105 (glucose kinase), NCgl2106 (glycosyltransferase), NCgl2107 (cell wall-associated hydrolase), NCgl2108 (cell wall-associated hydrolase)"
+NC_003450.3,2344431,2346051,1,NCgl2130,NCgl2130 (permease)
+NC_003450.3,2399158,2399401,1,NCgl2187,NCgl2187 (hypothetical protein)
+NC_003450.3,2538245,2541025,-1,"NCgl2312, NCgl2313, NCgl2314, NCgl2315","NCgl2312 (4-carboxymuconolactone decarboxylase), NCgl2313 (3-carboxy-cis,cis-muconate cycloisomerase), NCgl2314 (protocatechuate 3,4-dioxygenase subunit beta), NCgl2315 (protocatechuate 3,4-dioxygenase subunit beta)"
+NC_003450.3,2595185,2595653,-1,NCgl2366,NCgl2366 (hypothetical protein)
+NC_003450.3,2603942,2606370,-1,"NCgl2372, NCgl2373, NCgl2374","NCgl2372 (hypothetical protein), NCgl2373 (ABC transporter permease), NCgl2374 (ABC transporter permease)"
+NC_003450.3,2667867,2669385,-1,"NCgl2434, NCgl2435","NCgl2434 (hypothetical protein), NCgl2435 (hypothetical protein)"
+NC_003450.3,2676240,2677194,-1,"NCgl2441, NCgl2442","NCgl2441 (Mn-dependent transcriptional regulator), NCgl2442 (hypothetical protein)"
+NC_003450.3,2697380,2699580,-1,"NCgl2462, NCgl2463","NCgl2462 (hypothetical protein), NCgl2463 (Na+/H+-dicarboxylate symporter)"
+NC_003450.3,2727077,2727265,-1,"NCg1t56, NCg1t57","NCg1t56 (tRNA-Asp), NCg1t57 (tRNA-Glu)"
+NC_003450.3,2757126,2759201,-1,"NCgl2505, NCgl2506","NCgl2505 (deacetylase), NCgl2506 (Na+/H+-dicarboxylate symporter)"
+NC_003450.3,2806596,2807253,-1,NCgl2550,NCgl2550 (transcriptional regulator)
+NC_003450.3,2857610,2859056,-1,NCgl2592,NCgl2592 (major facilitator superfamily permease)
+NC_003450.3,2884932,2886498,-1,NCgl2619,NCgl2619 (succinic semialdehyde dehydrogenase)
+NC_003450.3,2945636,2946527,-1,NCgl2664,NCgl2664 (hypothetical protein)
+NC_003450.3,2952972,2955273,-1,"NCgl2672, NCgl2673","NCgl2672 (hypothetical protein), NCgl2673 (fructose-bisphosphate aldolase)"
+NC_003450.3,3034181,3035441,1,NCgl2749,NCgl2749 (hypothetical protein)
+NC_003450.3,3103926,3104256,1,NCgl2804,NCgl2804 (hypothetical protein)
+NC_003450.3,3121529,3121913,1,NCgl2819,NCgl2819 (hypothetical protein)
+NC_003450.3,3140882,3141524,-1,NCgl2840,NCgl2840 (transcriptional regulator)
+NC_003450.3,3146202,3149289,-1,NCg1r18,NCg1r18 (23S ribosomal RNA)
+NC_003450.3,3161084,3161408,-1,NCgl2856,NCgl2856 (ferredoxin 3)
+NC_003450.3,3175027,3176905,1,NCgl2871,NCgl2871 (cation transport ATPase)
+NC_003450.3,3180548,3181127,-1,NCgl2877,NCgl2877 (hypothetical protein)
+NC_003450.3,3271464,3272481,1,NCgl2960,NCgl2960 (hypothetical protein)
+NC_003450.3,3272560,3274075,-1,NCgl2961,NCgl2961 (proline-betaine transporter)
+NC_003450.3,3302996,3304773,-1,"NCgl2987, NCgl2988","NCgl2987 (hypothetical protein), NCgl2988 (cell division protein ParB)"
+NC_003450.3,81753,81873,1,NCg1r03,NCg1r03 (5S ribosomal RNA)
+NC_003450.3,353745,354387,-1,NCgl0330,NCgl0330 (hypothetical protein)
+NC_003450.3,371928,376879,1,"NCgl0344, NCgl0345, NCgl0346, NCgl0347","NCgl0344 (O-antigen and teichoic acid membrane export protein), NCgl0345 (UDP-N-acetylglucosamine enolpyruvyl transferase), NCgl0346 (UDP-N-acetylmuramate dehydrogenase), NCgl0347 (cell wall biogenesis glycosyltransferase)"
+NC_003450.3,497373,498330,1,NCgl0458,NCgl0458 (transcription antitermination protein NusG)
+NC_003450.3,512930,516410,1,NCgl0471,NCgl0471 (DNA-directed RNA polymerase subunit beta)
+NC_003450.3,573815,576901,1,"NCgl0537, NCgl0538, NCgl0539, NCgl0540, NCgl0541","NCgl0537 (30S ribosomal protein S13), NCgl0538 (30S ribosomal protein S11), NCgl0539 (30S ribosomal protein S4), NCgl0540 (DNA-directed RNA polymerase subunit alpha), NCgl0541 (50S ribosomal protein L17)"
+NC_003450.3,597891,599935,1,"NCgl0559, NCgl0560, NCgl0561","NCgl0559 (hypothetical protein), NCgl0560 (hypothetical protein), NCgl0561 (hypothetical protein)"
+NC_003450.3,748882,757395,-1,"NCgl0700, NCgl0701","NCgl0700 (helicase), NCgl0701 (hypothetical protein)"
+NC_003450.3,861222,861342,1,NCg1r07,NCg1r07 (5S ribosomal RNA)
+NC_003450.3,963812,969461,1,"NCgl0872, NCgl0873, NCgl0874, NCgl0875, NCgl0876","NCgl0872 (hypothetical protein), NCgl0873 (dimethyladenosine transferase), NCgl0874 (4-diphosphocytidyl-2C-methyl-D-erythritol kinase), NCgl0875 (ABC transporter), NCgl0876 (pyridoxal/pyridoxine/pyridoxamine kinase)"
+NC_003450.3,1010200,1011793,1,NCgl0915,NCgl0915 (ABC transporter ATPase and permease)
+NC_003450.3,1279769,1280962,1,"NCgl1167, NCgl1168","NCgl1167 (hypothetical protein), NCgl1168 (hypothetical protein)"
+NC_003450.3,1323532,1324540,1,NCgl1210,NCgl1210 (Na+-dependent transporter)
+NC_003450.3,1493512,1495177,1,NCgl1362,NCgl1362 (CTP synthetase)
+NC_003450.3,1684113,1695298,-1,"NCgl1527, NCgl1528, NCgl1529, NCgl1530, NCgl1531, NCgl1532, NCgl1533, NCgl1534, NCgl1535, NCgl1536, NCgl1537","NCgl1527 (hypothetical protein), NCgl1528 (hypothetical protein), NCgl1529 (hypothetical protein), NCgl1530 (excinuclease ABC subunit C), NCgl1531 (hypothetical protein), NCgl1532 (6,7-dimethyl-8-ribityllumazine synthase), NCgl1533 (bifunctional 3,4-dihydroxy-2-butanone 4-phosphate synthase/GTP cyclohydrolase II protein), NCgl1534 (riboflavin synthase subunit alpha), NCgl1535 (pyrimidine reductase), NCgl1536 (ribulose-phosphate 3-epimerase), NCgl1537 (tRNA and rRNA cytosine-C5-methylase)"
+NC_003450.3,1752611,1757084,-1,"NCgl1590, NCgl1591, NCgl1592","NCgl1590 (guanosine polyphosphate pyrophosphohydrolase/synthetase), NCgl1591 (adenine phosphoribosyltransferase), NCgl1592 (dipeptide-binding protein DciAE)"
+NC_003450.3,1805774,1806689,1,NCgl1640,NCgl1640 (hypothetical protein)
+NC_003450.3,1845482,1846210,1,"NCgl1674, NCgl1675","NCgl1674 (hypothetical protein), NCgl1675 (hypothetical protein)"
+NC_003450.3,1855531,1856791,1,NCgl1687,NCgl1687 (hypothetical protein)
+NC_003450.3,1906660,1908660,-1,"NCgl1723, NCgl1724","NCgl1723 (hypothetical protein), NCgl1724 (hypothetical protein)"
+NC_003450.3,1919642,1920161,-1,NCgl1735,NCgl1735 (hypothetical protein)
+NC_003450.3,1929055,1930879,-1,NCgl1742,NCgl1742 (hypothetical protein)
+NC_003450.3,1956199,1958278,-1,NCgl1770,NCgl1770 (hypothetical protein)
+NC_003450.3,1975170,1975797,1,NCgl1788,NCgl1788 (single-stranded DNA-binding protein)
+NC_003450.3,1989870,1990764,-1,NCgl1812,NCgl1812 (hypothetical protein)
+NC_003450.3,2136231,2137089,-1,NCgl1946,NCgl1946 (CDP-diglyceride synthetase)
+NC_003450.3,2166120,2173467,-1,"NCgl1978, NCgl1979, NCgl1980, NCgl1981, NCgl1982, NCgl1983","NCgl1978 (ABC transporter permease), NCgl1979 (ABC transporter ATPase), NCgl1980 (signal recognition particle GTPase), NCgl1981 (PII uridylyl-transferase), NCgl1982 (nitrogen regulatory protein PII), NCgl1983 (ammonia permease)"
+NC_003450.3,2201590,2201869,-1,NCgl2005,NCgl2005 (hypothetical protein)
+NC_003450.3,2291209,2293165,-1,NCgl2084,NCgl2084 (cell division protein FtsI)
+NC_003450.3,2315675,2316413,-1,NCgl2104,NCgl2104 (1-acyl-sn-glycerol-3-phosphate acyltransferase)
+NC_003450.3,2593965,2595062,-1,"NCgl2364, NCgl2365","NCgl2364 (hypothetical protein), NCgl2365 (thioesterase)"
+NC_003450.3,2725381,2726578,-1,NCgl2477,NCgl2477 (succinyl-CoA synthetase subunit beta)
+NC_003450.3,2801555,2806442,-1,"NCgl2544, NCgl2545, NCgl2546a, NCgl2548a","NCgl2544 (hypothetical protein), NCgl2545 (hypothetical protein), NCgl2546a (), NCgl2548a ()"
+NC_003450.3,2942606,2944236,-1,"NCgl2662, NCgl2663","NCgl2662 (hypothetical protein), NCgl2663 (phosphoribosylglycinamide formyltransferase 2)"
+NC_003450.3,3104436,3105723,1,NCgl2805,NCgl2805 (hypothetical protein)
+NC_003450.3,3145970,3146090,-1,NCg1r17,NCg1r17 (5S ribosomal RNA)
+NC_003450.3,3160628,3160939,-1,NCgl2855a,NCgl2855a ()
+NC_003450.3,377682,377835,1,NCgl0348,NCgl0348 (transposase)
+NC_003450.3,498597,499035,1,NCgl0459,NCgl0459 (50S ribosomal protein L11)
+NC_003450.3,516493,520495,1,NCgl0472,NCgl0472 (DNA-directed RNA polymerase subunit beta')
+NC_003450.3,577041,580432,1,"NCgl0542, NCgl0543","NCgl0542 (tRNA pseudouridine synthase A), NCgl0543 (hypothetical protein)"
+NC_003450.3,861591,862755,1,NCgl0780,NCgl0780 (aminotransferase)
+NC_003450.3,1280966,1281254,1,NCgl1169,NCgl1169 (hypothetical protein)
+NC_003450.3,1324753,1328246,1,"NCgl1211, NCgl1212, NCgl1213","NCgl1211 (aspartyl/glutamyl-tRNA amidotransferase subunit B), NCgl1212 (dinucleotide-binding protein), NCgl1213 (oxidoreductase)"
+NC_003450.3,1495192,1496775,1,"NCgl1363, NCgl1364","NCgl1363 (NTP pyrophosphohydrolase), NCgl1364 (site-specific tyrosine recombinase XerD)"
+NC_003450.3,1682620,1683625,-1,NCgl1526,NCgl1526 (glyceraldehyde-3-phosphate dehydrogenase)
+NC_003450.3,1806940,1807399,1,NCgl1641,NCgl1641 (hypothetical protein)
+NC_003450.3,1856914,1861228,1,"NCgl1688, NCgl1689, NCgl1690","NCgl1688 (hypothetical protein), NCgl1689 (ATPase with chaperone activity, ATP-binding subunit), NCgl1690 (hypothetical protein)"
+NC_003450.3,1903109,1906572,-1,"NCgl1721, NCgl1722","NCgl1721 (hypothetical protein), NCgl1722 (hypothetical protein)"
+NC_003450.3,1917560,1918070,-1,NCgl1734,NCgl1734 (hypothetical protein)
+NC_003450.3,1951615,1954822,-1,"NCgl1768, NCgl1769","NCgl1768 (hypothetical protein), NCgl1769 (topoisomerase IA)"
+NC_003450.3,1975915,1977552,1,"NCgl1789, NCgl1790, NCgl1791","NCgl1789 (hypothetical protein), NCgl1790 (hypothetical protein), NCgl1791 (hypothetical protein)"
+NC_003450.3,1987503,1989605,-1,"NCgl1807, NCgl1808, NCgl1809a, NCgl1811","NCgl1807 (hypothetical protein), NCgl1808 (hypothetical protein), NCgl1809a (), NCgl1811 (hypothetical protein)"
+NC_003450.3,2201069,2201408,-1,NCgl2004,NCgl2004 (hypothetical protein)
+NC_003450.3,2280467,2291086,-1,"NCgl2076, NCgl2077, NCgl2078, NCgl2079, NCgl2080, NCgl2081, NCgl2082, NCgl2083","NCgl2076 (cell division septal protein), NCgl2077 (UDP-N-acetylmuramate--L-alanine ligase), NCgl2078 (undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase), NCgl2079 (cell division membrane protein), NCgl2080 (UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase), NCgl2081 (phospho-N-acetylmuramoyl-pentapeptide- transferase), NCgl2082 (UDP-N-acetylmuramyl pentapeptide synthase), NCgl2083 (UDP-N-acetylmuramoylalanyl-D-glutamate--2, 6-diaminopimelate ligase)"
+NC_003450.3,2314233,2315487,-1,NCgl2103,NCgl2103 (hypothetical protein)
+NC_003450.3,2724475,2725360,-1,NCgl2476,NCgl2476 (succinyl-CoA synthetase subunit alpha)
+NC_003450.3,2940444,2942468,-1,"NCgl2660, NCgl2661","NCgl2660 (hypothetical protein), NCgl2661 (hypothetical protein)"
+NC_003450.3,3159078,3159801,-1,NCgl2854,NCgl2854 (hypothetical protein)
+NC_003450.3,499161,499872,1,NCgl0460,NCgl0460 (50S ribosomal protein L1)
+NC_003450.3,520670,521647,1,"NCgl0473, NCgl0474","NCgl0473 (hypothetical protein), NCgl0474 (transcriptional regulator)"
+NC_003450.3,1680328,1682404,-1,"NCgl1524, NCgl1525","NCgl1524 (triosephosphate isomerase), NCgl1525 (phosphoglycerate kinase)"
+NC_003450.3,1807546,1808835,1,"NCgl1642, NCgl1643, NCgl1644","NCgl1642 (hypothetical protein), NCgl1643 (hypothetical protein), NCgl1644 (hypothetical protein)"
+NC_003450.3,1861319,1861478,1,NCgl1691,NCgl1691 (hypothetical protein)
+NC_003450.3,1902001,1902883,-1,NCgl1720,NCgl1720 (hypothetical protein)
+NC_003450.3,1917325,1917514,-1,NCgl1733,NCgl1733 (hypothetical protein)
+NC_003450.3,1949017,1951450,-1,NCgl1767,NCgl1767 (hypothetical protein)
+NC_003450.3,1977771,1978332,1,NCgl1792,NCgl1792 (hypothetical protein)
+NC_003450.3,1985438,1986590,-1,NCgl1806,NCgl1806 (integrase)
+NC_003450.3,2276878,2280216,-1,"NCgl2072, NCgl2073, NCgl2074, NCgl2075","NCgl2072 (hypothetical protein), NCgl2073 (TIM-barrel fold family protein), NCgl2074 (hypothetical protein), NCgl2075 (cell division protein FtsZ)"
+NC_003450.3,2313913,2314093,-1,NCgl2102,NCgl2102 (hypothetical protein)
+NC_003450.3,2724173,2724355,-1,"NCg1t54, NCg1t55","NCg1t54 (tRNA-Phe), NCg1t55 (tRNA-Asp)"
+NC_003450.3,1677045,1680143,-1,"NCgl1522, NCgl1523","NCgl1522 (preprotein translocase subunit SecG), NCgl1523 (phosphoenolpyruvate carboxylase)"
+NC_003450.3,1809760,1810375,1,NCgl1645,NCgl1645 (site-specific recombinase)
+NC_003450.3,1862944,1865302,1,NCgl1692,NCgl1692 (helicase)
+NC_003450.3,1901062,1901911,-1,NCgl1719,NCgl1719 (hypothetical protein)
+NC_003450.3,1945591,1948650,-1,"NCgl1762, NCgl1763, NCgl1764, NCgl1765, NCgl1766","NCgl1762 (hypothetical protein), NCgl1763 (hypothetical protein), NCgl1764 (hypothetical protein), NCgl1765 (hypothetical protein), NCgl1766 (hypothetical protein)"
+NC_003450.3,1978451,1979811,1,"NCgl1793, NCgl1794, NCgl1795","NCgl1793 (hypothetical protein), NCgl1794 (hypothetical protein), NCgl1795 (hypothetical protein)"
+NC_003450.3,2276350,2276638,-1,NCgl2071,NCgl2071 (hypothetical protein)
+NC_003450.3,2723767,2724058,-1,NCgl2475,NCgl2475 (acetyltransferase)
+NC_003450.3,1673262,1676623,-1,"NCgl1519, NCgl1520, NCgl1521","NCgl1519 (glycine/D-amino acid oxidase), NCgl1520 (ornithine cyclodeaminase), NCgl1521 (ammonia permease)"
+NC_003450.3,1810636,1811941,1,"NCgl1646, NCgl1647","NCgl1646 (hypothetical protein), NCgl1647 (hypothetical protein)"
+NC_003450.3,1865618,1868590,1,"NCgl1693, NCgl1694, NCgl1695, NCgl1696, NCgl1697, NCgl1698","NCgl1693 (hypothetical protein), NCgl1694 (hypothetical protein), NCgl1695 (ribosomal protein S13), NCgl1696 (hypothetical protein), NCgl1697 (hypothetical protein), NCgl1698 (hypothetical protein)"
+NC_003450.3,1897370,1900775,-1,"NCgl1716, NCgl1717, NCgl1718","NCgl1716 (ATPase with chaperone activity, ATP-binding subunit), NCgl1717 (hypothetical protein), NCgl1718 (hypothetical protein)"
+NC_003450.3,1944604,1945435,-1,NCgl1761,NCgl1761 (hypothetical protein)
+NC_003450.3,1979973,1982031,1,"NCgl1796, NCgl1797, NCgl1798","NCgl1796 (membrane-associated Zn-dependent protease 1), NCgl1797 (hypothetical protein), NCgl1798 (hypothetical protein)"
+NC_003450.3,2274764,2275862,-1,NCgl2070,NCgl2070 (cell division initiation protein)
+NC_003450.3,1812214,1812694,1,NCgl1648,NCgl1648 (protein-tyrosine-phosphatase)
+NC_003450.3,1893384,1897231,-1,"NCgl1714, NCgl1715","NCgl1714 (hypothetical protein), NCgl1715 (hypothetical protein)"
+NC_003450.3,1982175,1982820,1,NCgl1799,NCgl1799 (hypothetical protein)
+NC_003450.3,2274470,2274632,-1,NCgl2069,NCgl2069 (hypothetical protein)
+NC_003450.3,1812880,1813609,1,NCgl1649,NCgl1649 (hypothetical protein)
+NC_003450.3,1891828,1893037,-1,NCgl1713,NCgl1713 (hypothetical protein)
+NC_003450.3,1983185,1983886,1,"NCgl1800, NCgl1801","NCgl1800 (hypothetical protein), NCgl1801 (hypothetical protein)"
+NC_003450.3,2268385,2274150,-1,"NCgl2065, NCgl2066, NCgl2067, NCgl2068","NCgl2065 (DMT family permease), NCgl2066 (transcriptional regulator), NCgl2067 (hypothetical protein), NCgl2068 (isoleucyl-tRNA synthetase)"
+NC_003450.3,1813779,1814520,1,NCgl1650,NCgl1650 (transcriptional regulator)
+NC_003450.3,1890024,1891617,-1,NCgl1712,NCgl1712 (hypothetical protein)
+NC_003450.3,1983980,1984731,1,"NCgl1802, NCgl1803, NCgl1804","NCgl1802 (hypothetical protein), NCgl1803 (hypothetical protein), NCgl1804 (hypothetical protein)"
+NC_003450.3,2266894,2268298,-1,NCgl2064,NCgl2064 (DNA polymerase IV)
+NC_003450.3,1814886,1816131,1,"NCgl1651, NCgl1652","NCgl1651 (hypothetical protein), NCgl1652 (hypothetical protein)"
+NC_003450.3,1888227,1889094,-1,NCgl1711,NCgl1711 (hypothetical protein)
+NC_003450.3,1985091,1985367,1,NCgl1805,NCgl1805 (hypothetical protein)
+NC_003450.3,1816450,1816639,1,NCgl1653,NCgl1653 (hypothetical protein)
+NC_003450.3,1887684,1888002,-1,NCgl1710,NCgl1710 (helicase)
+NC_003450.3,1817131,1818222,1,"NCgl1654, NCgl1655","NCgl1654 (hypothetical protein), NCgl1655 (hypothetical protein)"
+NC_003450.3,1818459,1819169,1,"NCgl1656, NCgl1657","NCgl1656 (hypothetical protein), NCgl1657 (hypothetical protein)"

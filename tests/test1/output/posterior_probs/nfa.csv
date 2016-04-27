@@ -1,0 +1,128 @@
+probability,operon_start,operon_end,operon_strand,genes,products
+1.000,1636910,1637528,-1,NFA_RS07395,NFA_RS07395 (transcriptional regulator)
+1.000,1637629,1638607,1,NFA_RS07400,NFA_RS07400 (hypothetical protein)
+1.000,4022331,4022724,-1,NFA_RS18975,NFA_RS18975 (hypothetical protein)
+1.000,4023049,4025358,1,"NFA_RS18980, NFA_RS18985, NFA_RS18990","NFA_RS18980 (repressor LexA), NFA_RS18985 (hypothetical protein), NFA_RS18990 (RNA polymerase sigma factor SigF)"
+1.000,4809669,4809978,1,NFA_RS22920,NFA_RS22920 (transcriptional regulator)
+1.000,4806391,4809257,-1,"NFA_RS22905, NFA_RS22910, NFA_RS22915","NFA_RS22905 (NUDIX hydrolase), NFA_RS22910 (F420-0--gamma-glutamyl ligase), NFA_RS22915 (2-phospho-L-lactate transferase)"
+1.000,1016112,1022167,1,"NFA_RS04640, NFA_RS04645, NFA_RS29550, NFA_RS04655, NFA_RS04660","NFA_RS04640 (hypothetical protein), NFA_RS04645 (error-prone DNA polymerase), NFA_RS29550 (hypothetical protein), NFA_RS04655 (hypothetical protein), NFA_RS04660 (hypothetical protein)"
+1.000,1015035,1015989,-1,NFA_RS04635,NFA_RS04635 (short-chain dehydrogenase)
+1.000,1496897,1497212,1,NFA_RS06790,NFA_RS06790 (hypothetical protein)
+1.000,1006059,1007184,-1,NFA_RS04595,NFA_RS04595 (serine/threonine protein kinase)
+1.000,1007429,1011433,1,"NFA_RS04600, NFA_RS04605, NFA_RS04610, NFA_RS04615","NFA_RS04600 (hypothetical protein), NFA_RS04605 (hypothetical protein), NFA_RS04610 (hydrolase), NFA_RS04615 (sucrase)"
+1.000,4108627,4109308,-1,"NFA_RS19475, NFA_RS19480","NFA_RS19475 (hypothetical protein), NFA_RS19480 (hypothetical protein)"
+1.000,4109481,4109664,1,NFA_RS19485,NFA_RS19485 (hypothetical protein)
+1.000,1590978,1593294,1,"NFA_RS07185, NFA_RS07190","NFA_RS07185 (transcriptional regulator), NFA_RS07190 (solute:proton antiporter)"
+1.000,2836800,2838984,-1,"NFA_RS13350, NFA_RS13355, NFA_RS13360","NFA_RS13350 (hypothetical protein), NFA_RS13355 (membrane protein), NFA_RS13360 (DNA polymerase IV)"
+1.000,1588764,1590872,-1,"NFA_RS07175, NFA_RS07180","NFA_RS07175 (hypothetical protein), NFA_RS07180 (transporter)"
+1.000,3091157,3091781,-1,NFA_RS14525,NFA_RS14525 (lysine transporter LysE)
+1.000,3091947,3092271,1,NFA_RS14530,NFA_RS14530 (hypothetical protein)
+1.000,13976,15692,-1,"NFA_RS00060, NFA_RS00065","NFA_RS00060 (integrase), NFA_RS00065 (hypothetical protein)"
+1.000,1466818,1467843,-1,"NFA_RS06635, NFA_RS06640","NFA_RS06635 (branched-chain amino acid transporter), NFA_RS06640 (branched-chain amino acid ABC transporter permease)"
+1.000,1467919,1468483,1,NFA_RS06645,NFA_RS06645 (DNA-binding protein)
+1.000,5989064,5989496,-1,NFA_RS28040,NFA_RS28040 (hypothetical protein)
+1.000,5989590,5990088,1,NFA_RS28045,NFA_RS28045 (MarR family transcriptional regulator)
+1.000,1556649,1556832,1,NFA_RS07045,NFA_RS07045 (hypothetical protein)
+1.000,3912624,3915439,-1,"NFA_RS18435, NFA_RS18440, NFA_RS18445, NFA_RS18450","NFA_RS18435 (sugar translocase), NFA_RS18440 (Holliday junction DNA helicase RuvB), NFA_RS18445 (Holliday junction ATP-dependent DNA helicase RuvA), NFA_RS18450 (crossover junction endodeoxyribonuclease RuvC)"
+1.000,85134,86532,1,NFA_RS29920,NFA_RS29920 (hypothetical protein)
+1.000,2749790,2756173,1,"NFA_RS12920, NFA_RS12925, NFA_RS12930, NFA_RS12935, NFA_RS12940, NFA_RS12945, NFA_RS12950","NFA_RS12920 (cytochrome P450), NFA_RS12925 (short-chain dehydrogenase), NFA_RS12930 (ferredoxin), NFA_RS12935 (hypothetical protein), NFA_RS12940 (hypothetical protein), NFA_RS12945 (dihydrodipicolinate reductase), NFA_RS12950 (cytochrome P450 steroid C27-monooxygenase)"
+0.999,4062241,4063285,-1,NFA_RS19185,NFA_RS19185 (DNA recombination/repair protein RecA)
+0.999,1496067,1496448,-1,NFA_RS06785,NFA_RS06785 (steroid Delta-isomerase)
+0.999,16898,17261,1,NFA_RS29125,NFA_RS29125 (hypothetical protein)
+0.999,16206,16635,-1,NFA_RS29120,NFA_RS29120 (hypothetical protein)
+0.999,622299,622962,-1,NFA_RS03060,NFA_RS03060 (phosphate transport system regulatory protein PhoU)
+0.998,5393707,5397661,-1,NFA_RS25260,NFA_RS25260 (DNA-directed RNA polymerase subunit beta')
+0.998,3873429,3874470,1,NFA_RS18260,NFA_RS18260 (radical SAM protein)
+0.998,3732828,3736899,1,"NFA_RS17575, NFA_RS17580, NFA_RS17585, NFA_RS17590, NFA_RS17595","NFA_RS17575 (LysR family transcriptional regulator), NFA_RS17580 (mandelate racemase), NFA_RS17585 (catechol 1,2-dioxygenase), NFA_RS17590 (muconolactone delta-isomerase), NFA_RS17595 (hydrolase)"
+0.998,3729858,3732637,-1,"NFA_RS17560, NFA_RS17565, NFA_RS17570","NFA_RS17560 (acetyl-CoA acetyltransferase), NFA_RS17565 (3-oxoadipate--succinyl-CoA transferase subunit B), NFA_RS17570 (3-oxoadipate--succinyl-CoA transferase subunit A)"
+0.997,1863573,1864296,-1,NFA_RS08625,NFA_RS08625 (1-acyl-sn-glycerol-3-phosphate acyltransferase)
+0.996,2639092,2641024,1,NFA_RS12420,NFA_RS12420 (acyl-CoA oxidase)
+0.996,2635813,2639015,-1,"NFA_RS12405, NFA_RS12410, NFA_RS12415","NFA_RS12405 (ABC transporter permease), NFA_RS12410 (tetronasin ABC transporter ATP-binding protein), NFA_RS12415 (TetR family transcriptional regulator)"
+0.993,2011650,2012829,-1,NFA_RS09280,NFA_RS09280 (hypothetical protein)
+0.993,153374,153701,-1,NFA_RS28895,NFA_RS28895 (hypothetical protein)
+0.989,2165522,2168910,1,"NFA_RS10030, NFA_RS10035","NFA_RS10030 (23S ribosomal RNA), NFA_RS10035 (5S ribosomal RNA)"
+0.987,3010187,3010379,-1,NFA_RS14105,NFA_RS14105 (DUF3072 domain-containing protein)
+0.987,2745112,2749420,-1,"NFA_RS12895, NFA_RS12900, NFA_RS12905, NFA_RS12910, NFA_RS12915","NFA_RS12895 (prenyltransferase), NFA_RS12900 (methyltransferase), NFA_RS12905 (glycosyl transferase family 1), NFA_RS12910 (LLM class F420-dependent oxidoreductase), NFA_RS12915 (hypothetical protein)"
+0.983,3839120,3840240,1,"NFA_RS18100, NFA_RS18105","NFA_RS18100 (DNA repair protein), NFA_RS18105 (hypothetical protein)"
+0.983,3838141,3838987,-1,NFA_RS18095,NFA_RS18095 (methyltransferase)
+0.978,961529,962969,-1,NFA_RS04390,NFA_RS04390 (metallopeptidase)
+0.976,2672059,2673316,1,NFA_RS12565,NFA_RS12565 (transcriptional regulator)
+0.974,1700446,1700728,1,NFA_RS07820,NFA_RS07820 (hypothetical protein)
+0.970,5675,6245,1,NFA_RS00020,NFA_RS00020 (hypothetical protein)
+0.966,2819260,2820634,1,"NFA_RS13275, NFA_RS13280","NFA_RS13275 (GNAT family N-acetyltransferase), NFA_RS13280 (hydrolase)"
+0.964,3546977,3549113,-1,"NFA_RS16700, NFA_RS16705, NFA_RS16710","NFA_RS16700 (short-chain dehydrogenase), NFA_RS16705 (hypothetical protein), NFA_RS16710 (hypothetical protein)"
+0.964,109963,110782,-1,NFA_RS00600,NFA_RS00600 (hypothetical protein)
+0.960,5925238,5926810,-1,NFA_RS27750,NFA_RS27750 (long-chain-fatty-acid--CoA ligase)
+0.960,5927150,5928125,1,NFA_RS27755,NFA_RS27755 (nitronate monooxygenase)
+0.958,2667389,2668133,-1,NFA_RS12545,NFA_RS12545 (hypothetical protein)
+0.954,478395,480120,-1,NFA_RS02340,NFA_RS02340 (3-ketosteroid-delta-1-dehydrogenase)
+0.954,480219,484611,1,"NFA_RS02345, NFA_RS02350, NFA_RS02355, NFA_RS02360","NFA_RS02345 (23S rRNA methyltransferase), NFA_RS02350 (2-keto-4-pentenoate hydratase), NFA_RS02355 (acetaldehyde dehydrogenase), NFA_RS02360 (4-hydroxy-2-oxovalerate aldolase)"
+0.949,54705,56555,1,"NFA_RS00355, NFA_RS00360","NFA_RS00355 (daunorubicin resistance protein DrrA family ABC transporter ATP-binding protein), NFA_RS00360 (ABC transporter)"
+0.943,5421724,5422216,1,NFA_RS25390,NFA_RS25390 (YajQ family cyclic di-GMP-binding protein)
+0.936,4583197,4583914,1,NFA_RS21935,NFA_RS21935 (NUDIX hydrolase)
+0.933,5963971,5964998,1,"NFA_RS27915, NFA_RS27920","NFA_RS27915 (hypothetical protein), NFA_RS27920 (ribonuclease HI)"
+0.928,543716,544499,-1,NFA_RS02685,NFA_RS02685 (enoyl-CoA hydratase)
+0.928,2325065,2327897,-1,"NFA_RS10820, NFA_RS10825, NFA_RS10830","NFA_RS10820 (phenylacetic acid degradation protein PaaD), NFA_RS10825 (ethyl tert-butyl ether degradation protein EthD), NFA_RS10830 (bifunctional aldehyde dehydrogenase/enoyl-CoA hydratase)"
+0.927,544568,547124,1,"NFA_RS02690, NFA_RS02695","NFA_RS02690 (acyl-CoA synthetase), NFA_RS02695 (TesB-like acyl-CoA thioesterase 4)"
+0.923,804421,806152,-1,NFA_RS29535,NFA_RS29535 (hypothetical protein)
+0.922,2328709,2337512,1,"NFA_RS10840, NFA_RS10845, NFA_RS10850, NFA_RS10855, NFA_RS10860, NFA_RS10865, NFA_RS10870, NFA_RS10875, NFA_RS10880, NFA_RS10885","NFA_RS10840 (beta-ketoadipyl CoA thiolase), NFA_RS10845 (enoyl-CoA hydratase), NFA_RS10850 (3-hydroxyacyl-CoA dehydrogenase), NFA_RS10855 (enoyl-CoA hydratase), NFA_RS10860 (phenylacetate-CoA oxygenase subunit PaaA), NFA_RS10865 (phenylacetate-CoA oxygenase subunit PaaB), NFA_RS10870 (phenylacetate-CoA oxygenase subunit PaaI), NFA_RS10875 (phenylacetate-CoA oxygenase subunit PaaJ), NFA_RS10880 (phenylacetic acid degradation protein), NFA_RS10885 (phenylacetate-CoA ligase)"
+0.922,2327971,2328598,-1,NFA_RS10835,NFA_RS10835 (TetR family transcriptional regulator)
+0.905,1770180,1772191,1,"NFA_RS08170, NFA_RS08175","NFA_RS08170 (propionyl-CoA carboxylase subunit beta), NFA_RS08175 (HxlR family transcriptional regulator)"
+0.899,3442462,3442999,1,NFA_RS16185,NFA_RS16185 (hypothetical protein)
+0.894,644415,644889,1,NFA_RS03170,NFA_RS03170 (alkylhydroperoxidase)
+0.887,968416,970580,1,"NFA_RS04415, NFA_RS04420","NFA_RS04415 (phosphoglucosamine mutase), NFA_RS04420 (hypothetical protein)"
+0.885,4152713,4154596,-1,"NFA_RS19785, NFA_RS19790","NFA_RS19785 (hypothetical protein), NFA_RS19790 (TROVE domain-containing protein)"
+0.884,1098593,1099358,1,NFA_RS05020,NFA_RS05020 (transcriptional regulator)
+0.884,1097515,1098430,-1,NFA_RS05015,NFA_RS05015 (thiosulfate sulfurtransferase)
+0.867,1724559,1725978,-1,NFA_RS07940,NFA_RS07940 (diacylglycerol O-acyltransferase)
+0.859,4142894,4143101,-1,NFA_RS19695,NFA_RS19695 (hypothetical protein)
+0.856,3175094,3175394,1,NFA_RS14935,NFA_RS14935 (hypothetical protein)
+0.855,5987078,5989068,1,"NFA_RS28030, NFA_RS28035","NFA_RS28030 (DNA mismatch repair protein MutT), NFA_RS28035 (membrane protein)"
+0.841,5527005,5529160,1,"NFA_RS25945, NFA_RS25950","NFA_RS25945 (cation transporter), NFA_RS25950 (lipase)"
+0.834,2230401,2231076,1,NFA_RS29645,NFA_RS29645 (hypothetical protein)
+0.827,4752496,4753177,1,NFA_RS22660,NFA_RS22660 (TetR family transcriptional regulator)
+0.827,4748813,4752305,-1,"NFA_RS22645, NFA_RS22650, NFA_RS22655","NFA_RS22645 (TIGR02569 family protein), NFA_RS22650 (adenylyltransferase/sulfurtransferase MoeZ), NFA_RS22655 (hypothetical protein)"
+0.826,2641070,2642616,-1,"NFA_RS12425, NFA_RS12430","NFA_RS12425 (hypothetical protein), NFA_RS12430 (hypothetical protein)"
+0.806,2908209,2909172,1,NFA_RS13710,NFA_RS13710 (DNA-binding transcriptional regulator)
+0.806,2907009,2908146,-1,NFA_RS13705,NFA_RS13705 (hydrolase)
+0.804,1809684,1814057,1,"NFA_RS08375, NFA_RS08380","NFA_RS08375 (type I glutamate--ammonia ligase), NFA_RS08380 ([glutamate--ammonia-ligase] adenylyltransferase)"
+0.800,5243443,5244657,1,"NFA_RS24940, NFA_RS24945","NFA_RS24940 (alkyl hydroperoxide reductase), NFA_RS24945 (ATPase)"
+0.788,3186279,3186873,1,NFA_RS15005,NFA_RS15005 (tRNA-specific adenosine deaminase)
+0.783,45389,47368,-1,"NFA_RS29905, NFA_RS29910","NFA_RS29905 (hypothetical protein), NFA_RS29910 (hypothetical protein)"
+0.751,5668006,5668867,1,NFA_RS26620,"NFA_RS26620 (2-pyrone-4,6-dicarboxylate hydrolase)"
+0.750,3258840,3260393,1,"NFA_RS15345, NFA_RS15350","NFA_RS15345 (ABC transporter permease), NFA_RS15350 (NADH-flavin reductase)"
+0.744,3257865,3258762,-1,NFA_RS15340,NFA_RS15340 (LysR family transcriptional regulator)
+0.727,2200957,2201992,-1,NFA_RS10180,NFA_RS10180 (ABC transporter ATP-binding protein)
+0.725,309322,310948,-1,NFA_RS01520,NFA_RS01520 (ATP-dependent DNA helicase RecQ)
+0.721,4520182,4521079,-1,NFA_RS21645,NFA_RS21645 (3-beta hydroxysteroid dehydrogenase)
+0.696,2107947,2108487,-1,NFA_RS09725,NFA_RS09725 (transcriptional regulator)
+0.696,2108587,2109679,1,NFA_RS09730,NFA_RS09730 (monooxygenase)
+0.690,7140,12784,1,"NFA_RS29090, NFA_RS29970, NFA_RS29975","NFA_RS29090 (hypothetical protein), NFA_RS29970 (hypothetical protein), NFA_RS29975 (hypothetical protein)"
+0.688,3872393,3873398,1,NFA_RS18255,NFA_RS18255 (epimerase)
+0.688,3870084,3872113,-1,"NFA_RS18245, NFA_RS18250","NFA_RS18245 (hypothetical protein), NFA_RS18250 (hypothetical protein)"
+0.686,2769529,2770327,-1,NFA_RS13010,NFA_RS13010 (hypothetical protein)
+0.679,1217099,1217753,1,NFA_RS05605,NFA_RS05605 (PadR family transcriptional regulator)
+0.677,2895027,2895345,-1,NFA_RS13635,NFA_RS13635 (hypothetical protein)
+0.668,2895497,2897190,1,"NFA_RS13640, NFA_RS13645","NFA_RS13640 (flavoprotein oxidoreductase), NFA_RS13645 (hypothetical protein)"
+0.662,4376274,4376544,1,NFA_RS21000,NFA_RS21000 (hypothetical protein)
+0.652,2209139,2209625,1,NFA_RS10215,NFA_RS10215 (thioesterase)
+0.652,2207748,2209077,-1,NFA_RS10210,NFA_RS10210 (transcriptional regulator)
+0.640,5569685,5571734,1,NFA_RS26145,NFA_RS26145 (prolyl oligopeptidase)
+0.640,5568548,5569526,-1,NFA_RS26140,NFA_RS26140 (membrane dipeptidase)
+0.628,2616127,2618898,-1,"NFA_RS12295, NFA_RS12300","NFA_RS12295 (adenylyl-sulfate kinase), NFA_RS12300 (sulfate adenylyltransferase subunit 2)"
+0.614,2163721,2165238,1,NFA_RS10025,NFA_RS10025 (16S ribosomal RNA)
+0.602,1179559,1181077,1,NFA_RS05430,NFA_RS05430 (16S ribosomal RNA)
+0.587,4189190,4190469,-1,"NFA_RS20080, NFA_RS20085, NFA_RS20090","NFA_RS20080 (hypothetical protein), NFA_RS20085 (hypothetical protein), NFA_RS20090 (hypothetical protein)"
+0.587,5418774,5419279,-1,"NFA_RS25355, NFA_RS25360","NFA_RS25355 (preprotein translocase subunit SecE), NFA_RS25360 (tRNA-Trp)"
+0.580,3678330,3678990,1,NFA_RS17315,NFA_RS17315 (membrane protein)
+0.580,3672925,3678119,-1,"NFA_RS17300, NFA_RS17305, NFA_RS17310","NFA_RS17300 (ATPase/protein kinase), NFA_RS17305 (methylmalonyl-CoA mutase), NFA_RS17310 (methylmalonyl-CoA mutase)"
+0.570,24348,26138,1,"NFA_RS29490, NFA_RS00155, NFA_RS00160, NFA_RS00165, NFA_RS00170","NFA_RS29490 (hypothetical protein), NFA_RS00155 (hypothetical protein), NFA_RS00160 (hypothetical protein), NFA_RS00165 (hypothetical protein), NFA_RS00170 (hypothetical protein)"
+0.556,3220267,3221128,-1,"NFA_RS15140, NFA_RS15145","NFA_RS15140 (hypothetical protein), NFA_RS15145 (TetR family transcriptional regulator)"
+0.555,2653830,2656150,1,"NFA_RS12485, NFA_RS12490","NFA_RS12485 (ABC transporter ATP-binding protein), NFA_RS12490 (virginiamycin B lyase)"
+0.532,2653161,2653788,-1,NFA_RS12480,NFA_RS12480 (TetR family transcriptional regulator)
+0.519,3123036,3125212,-1,"NFA_RS14695, NFA_RS14700, NFA_RS14705","NFA_RS14695 (enoyl-CoA hydratase), NFA_RS14700 (enoyl-CoA hydratase), NFA_RS14705 (TetR family transcriptional regulator)"
+0.514,551264,561509,1,"NFA_RS02720, NFA_RS02725, NFA_RS02730, NFA_RS02735, NFA_RS02740, NFA_RS02745, NFA_RS02750, NFA_RS02755, NFA_RS29520, NFA_RS02765","NFA_RS02720 (ABC transporter permease), NFA_RS02725 (ABC transporter permease), NFA_RS02730 (Mce family protein), NFA_RS02735 (mammalian cell entry protein), NFA_RS02740 (mammalian cell entry protein), NFA_RS02745 (mammalian cell entry protein), NFA_RS02750 (mammalian cell entry protein), NFA_RS02755 (mammalian cell entry protein), NFA_RS29520 (hypothetical protein), NFA_RS02765 (hypothetical protein)"
+0.513,2741766,2743794,1,NFA_RS12880,NFA_RS12880 (hypothetical protein)
+0.510,3125395,3125944,1,NFA_RS14710,NFA_RS14710 (TetR family transcriptional regulator)
+0.510,153771,154794,-1,NFA_RS28900,NFA_RS28900 (hypothetical protein)
+0.503,877959,902096,1,"NFA_RS04120, NFA_RS04125, NFA_RS04130, NFA_RS04135","NFA_RS04120 (hypothetical protein), NFA_RS04125 (hypothetical protein), NFA_RS04130 (hypothetical protein), NFA_RS04135 (hypothetical protein)"

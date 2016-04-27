@@ -1,0 +1,92 @@
+probability,operon_start,operon_end,operon_strand,genes,products
+1.000,7471257,7476503,1,"SGR_RS31460, SGR_RS31465, SGR_RS31470, SGR_RS31475, SGR_RS31480, SGR_RS31485, SGR_RS31490","SGR_RS31460 (TetR family transcriptional regulator), SGR_RS31465 (urease subunit gamma), SGR_RS31470 (urease subunit beta), SGR_RS31475 (urease subunit alpha), SGR_RS31480 (urease accessory protein UreF), SGR_RS31485 (urease accessory protein UreG), SGR_RS31490 (Urease accessory protein UreD 3)"
+1.000,7470142,7471132,-1,SGR_RS31455,SGR_RS31455 (membrane protein)
+1.000,8185676,8188296,1,"SGR_RS34000, SGR_RS34005","SGR_RS34000 (hypothetical protein), SGR_RS34005 (hypothetical protein)"
+1.000,8183652,8185289,-1,"SGR_RS33990, SGR_RS33995","SGR_RS33990 (hypothetical protein), SGR_RS33995 (hypothetical protein)"
+1.000,5031307,5032694,1,"SGR_RS21370, SGR_RS21375","SGR_RS21370 (membrane protein), SGR_RS21375 (tRNA-Ala)"
+1.000,3580979,3581846,-1,SGR_RS15195,SGR_RS15195 (hydrolase)
+1.000,1374003,1374396,-1,SGR_RS05660,SGR_RS05660 (glyoxalase)
+1.000,1374527,1375559,1,SGR_RS05665,SGR_RS05665 (radical SAM protein)
+1.000,1803446,1806752,1,"SGR_RS07515, SGR_RS07520","SGR_RS07515 (alkylated DNA repair protein), SGR_RS07520 (protein phosphatase)"
+0.999,3891223,3893039,1,"SGR_RS16410, SGR_RS16415","SGR_RS16410 (hypothetical protein), SGR_RS16415 (DNA-binding protein)"
+0.999,2061053,2062916,-1,"SGR_RS08535, SGR_RS08540","SGR_RS08535 (recombination regulator RecX), SGR_RS08540 (DNA recombination/repair protein RecA)"
+0.999,1250005,1253013,-1,"SGR_RS05145, SGR_RS05150, SGR_RS05155, SGR_RS05160","SGR_RS05145 (ATP-binding protein), SGR_RS05150 (DUF742 domain-containing protein), SGR_RS05155 (dynein regulation protein LC7), SGR_RS05160 (ATPase)"
+0.998,4037559,4039299,-1,SGR_RS17075,SGR_RS17075 (hypothetical protein)
+0.998,3679862,3680609,-1,SGR_RS15680,SGR_RS15680 (hypothetical protein)
+0.996,1266006,1271790,1,"SGR_RS05220, SGR_RS05225, SGR_RS05230, SGR_RS05235, SGR_RS05240","SGR_RS05220 (hypothetical protein), SGR_RS05225 (hypothetical protein), SGR_RS05230 (transporter), SGR_RS05235 (hypothetical protein), SGR_RS05240 (cytochrome P450)"
+0.996,4220356,4221316,1,SGR_RS17870,SGR_RS17870 (DNA primase)
+0.996,8222488,8224364,1,"SGR_RS34150, SGR_RS34155","SGR_RS34150 (MFS transporter), SGR_RS34155 (TetR family transcriptional regulator)"
+0.996,2154139,2154373,-1,SGR_RS08885,SGR_RS08885 (hypothetical protein)
+0.995,7862670,7864812,-1,"SGR_RS32910, SGR_RS32915","SGR_RS32910 (sulfate transporter), SGR_RS32915 (carbonic anhydrase)"
+0.993,36706,37474,-1,SGR_RS00165,SGR_RS00165 (hypothetical protein)
+0.993,8508455,8509223,1,SGR_RS35430,SGR_RS35430 (hypothetical protein)
+0.992,2001928,2004055,-1,SGR_RS08300,SGR_RS08300 (DNA topoisomerase IV subunit B)
+0.990,7987586,7992058,1,"SGR_RS33425, SGR_RS33430","SGR_RS33425 (DNA polymerase III subunit alpha), SGR_RS33430 (hypothetical protein)"
+0.989,6095000,6096694,1,"SGR_RS25820, SGR_RS25825","SGR_RS25820 (aldehyde dehydrogenase), SGR_RS25825 (ferredoxin)"
+0.989,6093742,6094789,-1,SGR_RS25815,SGR_RS25815 (hydrolase)
+0.986,6538676,6541757,1,SGR_RS27750,SGR_RS27750 (excinuclease ABC subunit A)
+0.985,6491787,6492207,-1,SGR_RS27560,SGR_RS27560 (hypothetical protein)
+0.972,5210500,5214076,1,SGR_RS22135,SGR_RS22135 (hypothetical protein)
+0.971,3353332,3353638,-1,SGR_RS14085,SGR_RS14085 (hypothetical protein)
+0.971,3353941,3355843,1,"SGR_RS14090, SGR_RS14095, SGR_RS14100, SGR_RS14105","SGR_RS14090 (hypothetical protein), SGR_RS14095 (phage tail protein), SGR_RS14100 (hypothetical protein), SGR_RS14105 (hypothetical protein)"
+0.968,2689373,2689631,1,SGR_RS11185,SGR_RS11185 (WhiB family transcriptional regulator)
+0.964,6537144,6538501,-1,"SGR_RS27740, SGR_RS27745","SGR_RS27740 (Zn-dependent hydrolase), SGR_RS27745 (maleylpyruvate isomerase)"
+0.950,1735339,1736350,-1,SGR_RS07260,SGR_RS07260 (UDP-glucose 4-epimerase GalE)
+0.950,1736531,1738046,1,"SGR_RS07265, SGR_RS07270","SGR_RS07265 (transcriptional regulator), SGR_RS07270 (hypothetical protein)"
+0.948,1720936,1721599,1,SGR_RS07215,SGR_RS07215 (DNA-binding response regulator)
+0.928,2616357,2617209,-1,SGR_RS10840,SGR_RS10840 (hypothetical protein)
+0.927,2027432,2028230,1,SGR_RS08395,SGR_RS08395 (repressor LexA)
+0.916,5090857,5092201,1,SGR_RS21650,SGR_RS21650 (acyltransferase)
+0.900,2465863,2468865,-1,"SGR_RS10230, SGR_RS10235, SGR_RS10240, SGR_RS10245","SGR_RS10230 (gamma-butyrolactone-binding protein), SGR_RS10235 (hypothetical protein), SGR_RS10240 (hypothetical protein), SGR_RS10245 (polysaccharide deacetylase)"
+0.900,6948804,6951001,1,"SGR_RS29635, SGR_RS29640","SGR_RS29635 (N-methyl-L-glucosamine biosynthetic aminotransferase), SGR_RS29640 (oxidoreductase)"
+0.885,5744531,5745068,1,SGR_RS24285,SGR_RS24285 (HNH endonuclease)
+0.885,5743152,5744217,-1,SGR_RS24280,SGR_RS24280 (mechanosensitive ion channel protein MscS)
+0.880,7385096,7385312,-1,SGR_RS31040,SGR_RS31040 (hypothetical protein)
+0.879,7385770,7388218,1,"SGR_RS31045, SGR_RS31050, SGR_RS31055","SGR_RS31045 (sigma factor sigB regulation protein rsbQ), SGR_RS31050 (histidine kinase), SGR_RS31055 (anti-anti-sigma factor)"
+0.865,4190953,4191982,1,SGR_RS17740,SGR_RS17740 (DNA processing protein DprA)
+0.860,7330734,7352684,1,"SGR_RS30900, SGR_RS30905","SGR_RS30900 (6-deoxyerythronolide-B synthase), SGR_RS30905 (type I polyketide synthase)"
+0.846,6048274,6048712,1,SGR_RS25590,SGR_RS25590 (hypothetical protein)
+0.845,7825693,7828857,-1,"SGR_RS32765, SGR_RS32770, SGR_RS32775","SGR_RS32765 (multidrug ABC transporter permease), SGR_RS32770 (hypothetical protein), SGR_RS32775 (hypothetical protein)"
+0.842,1092222,1093794,-1,SGR_RS04445,SGR_RS04445 (hypothetical protein)
+0.838,1723272,1726628,1,"SGR_RS07225, SGR_RS07230","SGR_RS07225 (acetyl-CoA acetyltransferase), SGR_RS07230 (3-hydroxyacyl-CoA dehydrogenase)"
+0.834,7368060,7368771,1,"SGR_RS30975, SGR_RS30980","SGR_RS30975 (QacE family quaternary ammonium compound efflux SMR transporter), SGR_RS30980 (QacE family quaternary ammonium compound efflux SMR transporter)"
+0.834,7367374,7367977,-1,SGR_RS30970,SGR_RS30970 (TetR family transcriptional regulator)
+0.822,5450799,5452296,-1,SGR_RS23095,SGR_RS23095 (MFS transporter)
+0.788,6804557,6805895,1,SGR_RS28980,SGR_RS28980 (aminopeptidase S)
+0.752,909399,911127,1,"SGR_RS03730, SGR_RS03735","SGR_RS03730 (dihydroxyacetone kinase), SGR_RS03735 (dihydroxyacetone kinase)"
+0.748,6762942,6764028,1,SGR_RS28785,SGR_RS28785 (streptogrisin)
+0.732,7691083,7692871,-1,"SGR_RS32160, SGR_RS32165","SGR_RS32160 (membrane protein), SGR_RS32165 (TetR family transcriptional regulator)"
+0.732,7693064,7697920,1,"SGR_RS32170, SGR_RS32175, SGR_RS32180, SGR_RS32185","SGR_RS32170 (oxidoreductase), SGR_RS32175 (oxidoreductase), SGR_RS32180 (oxidoreductase), SGR_RS32185 (hypothetical protein)"
+0.722,2546478,2546808,-1,SGR_RS10545,SGR_RS10545 (ATP/GTP-binding protein)
+0.722,2547019,2548069,1,SGR_RS10550,SGR_RS10550 (alkanal monooxygenase)
+0.715,1157190,1157955,1,SGR_RS04750,SGR_RS04750 (enoyl-CoA hydratase)
+0.715,1156486,1157110,-1,SGR_RS04745,SGR_RS04745 (hypothetical protein)
+0.701,5131084,5132236,1,SGR_RS21815,SGR_RS21815 (cytochrome P450)
+0.691,7568668,7574762,-1,"SGR_RS31780, SGR_RS31785, SGR_RS31790, SGR_RS31795, SGR_RS31800, SGR_RS31805, SGR_RS31810","SGR_RS31780 (hypothetical protein), SGR_RS31785 (ABC transporter ATP-binding protein), SGR_RS31790 (methyltransferase), SGR_RS31795 (flavoprotein), SGR_RS31800 (hypothetical protein), SGR_RS31805 (hypothetical protein), SGR_RS31810 (hypothetical protein)"
+0.662,1964044,1964503,1,SGR_RS08145,SGR_RS08145 (membrane protein)
+0.648,6459252,6462744,-1,"SGR_RS27415, SGR_RS27420, SGR_RS27425, SGR_RS27430","SGR_RS27415 (2-nitropropane dioxygenase), SGR_RS27420 (CoA-transferase), SGR_RS27425 (CoA-transferase), SGR_RS27430 (enoyl-CoA hydratase)"
+0.648,6462840,6463773,1,SGR_RS27435,SGR_RS27435 (short-chain dehydrogenase)
+0.636,282683,283175,-1,SGR_RS01220,SGR_RS01220 (hypothetical protein)
+0.636,283259,285089,1,"SGR_RS01225, SGR_RS01230","SGR_RS01225 (TetR family transcriptional regulator), SGR_RS01230 (lipase)"
+0.608,5533431,5534392,-1,"SGR_RS23435, SGR_RS23440","SGR_RS23435 (tRNA-Lys), SGR_RS23440 (IclR family transcriptional regulator)"
+0.608,4682446,4683253,1,SGR_RS19830,SGR_RS19830 (hypothetical protein)
+0.608,4681168,4682203,-1,SGR_RS19825,SGR_RS19825 (phosphotransferase)
+0.593,6454132,6456757,1,"SGR_RS27390, SGR_RS27395, SGR_RS27400","SGR_RS27390 (short chain dehydrogenase), SGR_RS27395 (TetR family transcriptional regulator), SGR_RS27400 (acetyl-CoA acetyltransferase)"
+0.593,6451889,6454021,-1,"SGR_RS27380, SGR_RS27385","SGR_RS27380 (acyl-CoA dehydrogenase), SGR_RS27385 (acyl-CoA dehydrogenase)"
+0.586,2004502,2004736,1,SGR_RS08305,SGR_RS08305 (hypothetical protein)
+0.586,6184896,6186117,1,SGR_RS26220,SGR_RS26220 (MFS transporter)
+0.585,7513517,7514378,1,SGR_RS31640,SGR_RS31640 (aminodeoxychorismate lyase)
+0.582,7226082,7230569,1,"SGR_RS30605, SGR_RS30610, SGR_RS30615, SGR_RS30620","SGR_RS30605 (histidine kinase), SGR_RS30610 (dynein regulation protein LC7), SGR_RS30615 (DUF742 domain-containing protein), SGR_RS30620 (ATP-binding protein)"
+0.571,1845519,1852042,-1,"SGR_RS07690, SGR_RS07695, SGR_RS07700, SGR_RS07705","SGR_RS07690 (ornithine carbamoyltransferase), SGR_RS07695 (arginine deiminase), SGR_RS07700 (polynucleotide kinase-phosphatase), SGR_RS07705 (3' terminal RNA ribose 2'-O-methyltransferase Hen1)"
+0.566,3526886,3527696,-1,SGR_RS14940,SGR_RS14940 (hydrolase)
+0.566,3528026,3528674,1,SGR_RS14945,SGR_RS14945 (TetR family transcriptional regulator)
+0.553,6624603,6626106,-1,"SGR_RS28160, SGR_RS28165","SGR_RS28160 (membrane protein), SGR_RS28165 (phosphate transporter)"
+0.553,6626383,6628238,1,"SGR_RS28170, SGR_RS28175","SGR_RS28170 (fuculose phosphate aldolase), SGR_RS28175 (hypothetical protein)"
+0.549,5705057,5705130,-1,SGR_RS24140,SGR_RS24140 (tRNA-Arg)
+0.549,5705436,5709545,1,"SGR_RS24145, SGR_RS24150, SGR_RS24155","SGR_RS24145 (ATP-binding protein), SGR_RS24150 (ATP-binding protein), SGR_RS24155 (single-stranded DNA-binding protein)"
+0.534,3572848,3574120,1,SGR_RS15165,SGR_RS15165 (hypothetical protein)
+0.526,2581554,2582472,-1,SGR_RS10715,SGR_RS10715 (homoserine kinase)
+0.520,3571302,3572674,-1,"SGR_RS15155, SGR_RS15160","SGR_RS15155 (formyltetrahydrofolate deformylase), SGR_RS15160 (hypothetical protein)"
+0.510,4542452,4545113,1,"SGR_RS19190, SGR_RS19195","SGR_RS19190 (amidophosphoribosyltransferase), SGR_RS19195 (phosphoribosylformylglycinamidine cyclo-ligase)"
+0.501,5586809,5587253,1,SGR_RS23665,SGR_RS23665 (transcriptional regulator)
+0.501,5585136,5586594,-1,SGR_RS23660,SGR_RS23660 (MFS transporter)
