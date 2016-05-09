@@ -3,3 +3,5 @@
 \#*
 tests/*
 entrez/*
+BayesTraitsV2
+*.pkl
