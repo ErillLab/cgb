@@ -26,9 +26,15 @@ def weighted_choice(xs, weights, count=1):
 
 
 def unique(xs, f):
-    """Makes the list xs unique by comparing elements with f(x)."""
-    d = {f(x): x for x in xs}
-    return d.values()
+    """Makes the list xs unique by comparing elements with f(x).
+
+    Keeps the first occurrence of each element.
+    """
+    unique_list = []
+    for x in xs:
+        if not f(x) in map(f, unique_list):
+            unique_list.append(x)
+    return unique_list
 
 
 def temp_file_name(dir=tempfile.gettempdir(), prefix='', suffix=''):

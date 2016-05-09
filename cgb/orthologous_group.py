@@ -24,7 +24,14 @@ class OrthologousGroup:
         """Returns the list of orthologous genes."""
         return self._genes
 
+    @property
+    def description(self):
+        """Returns the description for the genes in the group."""
+        gene_descs = [gene.product for gene in self.genes if gene.product]
+        return gene_descs[0] if gene_descs else ""
+
     def member_from_genome(self, genome_name):
+
         """Returns the member of the group from the given genome.
 
         Returns None if the specified genome has no genes in the group.
@@ -105,7 +112,23 @@ class OrthologousGroup:
                               for (k, v) in bootstrap_inferred_states.items()}
         all_states = dict(self.get_terminal_states(phylo).items() +
                           nonterminal_states.items())
+        # Store the ancestral states
         self._regulation_states = all_states
+
+    @property
+    def regulation_states(self):
+        """Gets the field _regulation_states"""
+        return self._regulation_states
+
+    @property
+    def prob_regulation_at_root(self):
+        """Returns the probability of regulation at the root of the tree."""
+        return self.regulation_states[('Root', '1')]
+
+    def most_likely_state_at(self, node_name):
+        """Returns the most likely state at the given node."""
+        return max(['1', '0', 'A'],
+                   key=lambda x: self.regulation_states[(node_name, x)])
 
     def __repr__(self):
         return str(self.genes)
@@ -126,7 +149,7 @@ def construct_orthologous_groups(genes, genomes):
 
     This constructor function receives the genome objects and the list
     of genes from each of these genomes on which reciprocal BLAST will be
-    applied to infer orhtologs.
+    applied to infer orthologs.
 
     For each gene, it identifies the reciprocal best BLAST hits in other
     genomes and adds the gene and its orthologs to the orthologous group.
@@ -136,8 +159,7 @@ def construct_orthologous_groups(genes, genomes):
     The function returns a list of orthologous groups
     """
     groups = []
-    for i, gene in enumerate(genes, start=1):
-        my_logger.debug("Constructing orthologous [%d/%d]" % (i, len(genes)))
+    for gene in tqdm(genes):
         # Check whether gene is already in a group, if it is, it skips the gene
         # (continue goes back to for loop beginning)
         if any(gene in grp.genes for grp in groups):

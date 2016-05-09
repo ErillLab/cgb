@@ -8,10 +8,12 @@ from Bio.motifs import jaspar
 
 from chromid import Chromid
 from blast import BLAST
-from pssm_model import PSSMModel
+from PSSM_model import PSSMModel
 from misc import weighted_choice
+from misc import temp_file_name
 from my_logger import my_logger
 from bio_utils import reverse_complement
+from bio_utils import weblogo
 
 
 Site = namedtuple('Site', 'chromid start end strand score gene')
@@ -40,8 +42,8 @@ class Genome:
             accession_numbers (list): List of corresponding accession numbers.
         """
 
-        logging.debug('Creating genome: %s %s' %
-                      (strain_name, str(accession_numbers)))
+        logging.info('Creating genome: %s %s' %
+                     (strain_name, str(accession_numbers)))
         self._strain_name = strain_name
         self._chromids = [Chromid(acc, self) for acc in accession_numbers]
         self._TF_instance = None   # TF-instance in this genome
@@ -66,6 +68,11 @@ class Genome:
     def operons(self):
         """Returns all operons of the genome."""
         return [opr for chromid in self.chromids for opr in chromid.operons]
+
+    @cached_property
+    def length(self):
+        """Returns the total length of the genome."""
+        return sum(c.length for c in self.chromids)
 
     @property
     def num_operons(self):
@@ -154,13 +161,10 @@ class Genome:
         """
         # Create a PSSM model using site collections and associated weights.
         model = PSSMModel(collections, weights)
-        # Generate and PSSM-score random sequences to estimate background
-        # PSSM-score distribution.
-        random_seqs = self.random_seqs(length=model.length, count=100)
-        bg_scores = [model.score_seq(random_seq) for random_seq in random_seqs]
+        random_seqs = self.random_seqs(length=model.length, count=100000)
         # Create a Bayesian estimator which is used to compute the probability
         # of TF-binding of any given sequence.
-        model.build_bayesian_estimator(bg_scores)
+        model.build_bayesian_estimator(random_seqs)
         self._TF_binding_model = model
 
     def random_seqs(self, length, count):
@@ -247,12 +251,14 @@ class Genome:
         if blast_hits:
             # If there are BLAST hits, return the one with the best e-value.
             TF, _ = min(blast_hits, key=lambda x: x[1])
+            my_logger.info("%s" % TF.accession_number)
         else:
             # Otherwise, set the TF-instance to None.
             # The genome will be dropped from the analysis.
             TF = None
             my_logger.warning("No TF-instance found for %s. " %
                               self.strain_name)
+
         self._TF_instance = TF
 
     def infer_regulation(self, prior, threshold=0.5, filename=None):
@@ -307,11 +313,24 @@ class Genome:
 
     @property
     def putative_sites(self):
-        """Returns the lsit of putative sites in non-coding regions."""
+        """Returns the list of putative sites in non-coding regions."""
         return self._putative_sites
 
+    @property
+    def has_putative_sites(self):
+        """Returns true if the putative binding sites are identified."""
+        return hasattr(self, '_putative_sites')
+
+    @property
+    def weblogo_from_putative_sites(self):
+        """Returns the file of sequence logo built using putative sites."""
+        filename = temp_file_name()
+        weblogo([site.chromid.subsequence(site.start, site.end, site.strand)
+                 for site in self.putative_sites], filename)
+        return filename
+
     def identify_sites(self, promoter_up=300, filename=None):
-        """Returns the list of sites in non-coding regions..
+        """Returns the list of sites in non-coding regions.
 
         It searches exclusively the [-promoter_up, +50] for all genes in the
         genome. It returns all sites with a score over threshold, and tags the
@@ -331,7 +350,7 @@ class Genome:
             filename (string): the CSV file to report putative binding sites.
         """
         # If already computed, return the stored results.
-        if hasattr(self, '_putative_sites' ):
+        if hasattr(self, '_putative_sites'):
             return self._putative_sites
 
         threshold = self.TF_binding_model.threshold()  # score threshold

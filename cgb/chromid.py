@@ -29,7 +29,8 @@ class Chromid:
     """
 
     def __init__(self, accession_number, genome):
-        self._record = entrez_utils.get_genome_record(accession_number)
+        raw_record = entrez_utils.get_genome_record(accession_number)
+        self._record = SeqIO.read(cStringIO.StringIO(raw_record), 'gb')
         self._genome = genome
 
     @property
@@ -40,7 +41,7 @@ class Chromid:
     @cached_property
     def record(self):
         """Returns the Biopython SeqRecord created from a GenBank file."""
-        return SeqIO.read(cStringIO.StringIO(self._record), 'gb')
+        return self._record
 
     @property
     def accession_number(self):
@@ -127,7 +128,7 @@ class Chromid:
         return [directon if directon[0].is_forward_strand else directon[::-1]
                 for directon in directons]
 
-    def _operon_prediction(self, use_binding_sites=True):
+    def _operon_prediction(self):
         """Identifies all operons of the chromosome/plasmid.
 
         Two neighboring genes in the same strand are considered to be in the
@@ -138,11 +139,10 @@ class Chromid:
         This provides an adaptive threshold that takes into account the
         intergenic compression of different genomes.
 
-        Args:
-            use_binding_sites (bool): If true, the binding site predictions are
-            used to improve the operon predictions. If a gene with a putative
-            binding site in its promoter is in the middle of an operon, the
-            operon is split.
+        If putative binding sites are identified for the genome, they are used
+        to improve the operon predictions. If a gene with a putative
+        binding site in its promoter is in the middle of an operon, the
+        operon is split.
         """
         my_logger.info("Predicting operons - %s (%s)" %
                        (self.accession_number, self.genome.strain_name))
@@ -151,8 +151,11 @@ class Chromid:
         # Compute the mean intergenic distance of directons' first two genes.
         mean_dist = mean([directon[0].distance(directon[1])
                           for directon in directons if len(directon) > 1])
+
         # Find genes with binding sites in their promoters
-        genes_to_split = set(site.gene for site in self.genome.putative_sites)
+        genes_to_split = (set(site.gene for site in self.genome.putative_sites)
+                          if self.genome.has_putative_sites
+                          else [])
 
         directons_rest = self._directons()
         while directons_rest:
@@ -161,16 +164,18 @@ class Chromid:
             for directon in processing:
                 operon = [directon[0]]
                 i = 1
-                while (i < len(directon) and
-                       directon[i-1].distance(directon[i]) < mean_dist):
-                    if use_binding_sites and directon[i] in genes_to_split:
+                while i < len(directon):
+                    if directon[i-1].distance(directon[i]) >= mean_dist:
+                        break
+                    if directon[i] in genes_to_split:
                         break
                     operon.append(directon[i])
                     i += 1
                 operons.append(operon)
                 if i < len(directon):
                     directons_rest.append(directon[i:])
-
+        my_logger.info("Number of operons in %s: %d" %
+                       (self.accession_number, len(operons)))
         return [Operon(opr) for opr in operons]
 
     def find_closest_gene(self, pos):

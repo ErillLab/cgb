@@ -83,7 +83,7 @@ class Gene:
             if up:
                 loc_start = max(0, self.start-up)
             elif self.upstream_gene:
-                loc_start = min(self.upstream_gene.end, self.start)
+                loc_start = min(self.upstream_gene.end-50, self.start)
             else:
                 loc_start = 0
             loc_end = self.start + down
@@ -94,7 +94,7 @@ class Gene:
             if up:
                 loc_end = min(self.chromid.length, self.end+up)
             elif self.upstream_gene:
-                loc_end = max(self.upstream_gene.start, self.end)
+                loc_end = max(self.upstream_gene.start+50, self.end)
             else:
                 loc_end = self.chromid.length
             loc_start = self.end - down

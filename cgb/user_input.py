@@ -48,9 +48,9 @@ class UserInput:
         return [m['sites'] for m in self._input['motifs']]
 
     @property
-    def log_dir(self):
+    def output_dir(self):
         """Returns the directory to be used for logging."""
-        directory = self._input['config']['log_dir']
+        directory = self._input['config']['output_dir']
         return directory
 
     @property

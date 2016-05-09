@@ -1,9 +1,0 @@
-probability,operon_start,operon_end,operon_strand,genes,products
-0.990,507139,507436,1,CA_C0439,CA_C0439 (hypothetical protein)
-0.805,3535179,3535542,1,CA_C3356,CA_C3356 (lactoylglutathione lyase (LGUL) family protein)
-0.782,384803,385259,1,CA_C0327,CA_C0327 (hypothetical protein)
-0.634,574222,575047,-1,CA_C0501,CA_C0501 (undecaprenyl pyrophosphate phosphatase)
-0.634,575259,577260,1,CA_C0502,CA_C0502 (excinuclease ABC subunit B)
-0.627,1570323,1571517,1,CA_C1426,CA_C1426 (transcriptional regulator)
-0.589,382647,384661,-1,"CA_C0325, CA_C0326","CA_C0325 (hypothetical protein), CA_C0326 (recombination factor protein RarA)"
-0.509,3515856,3520074,1,"CA_C3343, CA_C3344, CA_C3345, CA_C3346","CA_C3343 (biotin synthase), CA_C3344 (hypothetical protein), CA_C3345 (AcrR family transcriptional regulator), CA_C3346 (MDR-type permease)"

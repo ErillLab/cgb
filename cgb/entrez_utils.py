@@ -13,7 +13,7 @@ from Bio import Entrez
 Entrez.email = 'sefa1@umbc.edu'
 
 # The directory used to save NCBI records for later use.
-ENTREZ_DIRECTORY = tempfile.gettempdir()
+ENTREZ_DIRECTORY = '../entrez'
 
 
 def get_genome_record(accession):
@@ -23,8 +23,9 @@ def get_genome_record(accession):
         # Download and save Genbank record
         handle = Entrez.efetch(db='nuccore', id=accession,
                                retmode='gbwithparts', rettype='text')
+        record = handle.read()
         with open(genbank_file, 'w') as f:
-            f.write(handle.read())
+            f.write(record)
 
     handle = open(genbank_file)
     return handle.read()
@@ -32,6 +33,14 @@ def get_genome_record(accession):
 
 def get_protein_record(accession):
     """Fetches the protein record from NCBI Protein database."""
-    handle = Entrez.efetch(db='protein', id=accession,
-                           rettype='gb', retmode='text')
+    protein_file = os.path.join(ENTREZ_DIRECTORY, accession+'.gb')
+    if not os.path.isfile(protein_file):
+        # Download and save file
+        handle = Entrez.efetch(db='protein', id=accession,
+                               rettype='gb', retmode='text')
+        record = handle.read()
+        with open(protein_file, 'w') as f:
+            f.write(record)
+
+    handle = open(protein_file)
     return handle.read()

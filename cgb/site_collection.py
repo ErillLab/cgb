@@ -30,6 +30,11 @@ class SiteCollection:
         return self._motif.pwm
 
     @property
+    def IC(self):
+        """Returns the information content of the binding motif."""
+        return self._motif.pssm.mean()
+
+    @property
     def sites(self):
         """Returns the binding sites in the collection."""
         return [str(instance) for instance in self._motif.instances]

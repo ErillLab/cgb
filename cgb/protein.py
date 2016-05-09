@@ -7,6 +7,7 @@ from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 
 import entrez_utils
+from my_logger import my_logger
 
 
 class Protein:
@@ -20,12 +21,13 @@ class Protein:
 
     def __init__(self, accession_number, name):
         self._name = name
-        self._record = entrez_utils.get_protein_record(accession_number)
+        raw_record = entrez_utils.get_protein_record(accession_number)
+        self._record = SeqIO.read(cStringIO.StringIO(raw_record), 'gb')
 
     @cached_property
     def record(self):
         """Returns the Biopython SeqRecord created from the NCBI record."""
-        return SeqIO.read(cStringIO.StringIO(self._record), 'gb')
+        return self._record
 
     @property
     def accession_number(self):

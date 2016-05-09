@@ -79,6 +79,9 @@ class TFBindingModel():
         # Estimate the mean/std of the background scores.
         self._mu_bg, self._std_bg = np.mean(bg_scores), np.std(bg_scores)
 
+        print 'regulation parameters:', self._mu_m, self._std_m
+        print 'background parameters:', self._mu_bg, self._std_bg
+
     def binding_probability(self, seq, p_motif, alpha=1/350.0):
         """Returns the probability of binding to the given seq.
 
@@ -90,7 +93,6 @@ class TFBindingModel():
             float: the probability of TF-binding to the sequence.
         """
         pssm_scores = self.score_seq(seq)
-        p_bg = 1.0 - p_motif
         # Probability density functions
         pdf_m = scipy.stats.distributions.norm(self._mu_m, self._std_m).pdf
         pdf_bg = scipy.stats.distributions.norm(self._mu_bg, self._std_bg).pdf
@@ -99,7 +101,7 @@ class TFBindingModel():
         lh_bg = pdf_bg(pssm_scores)
         # Compute the likelihood ratio
         lh_ratio = np.exp(np.sum(np.log(lh_bg) - np.log(lh_m)))
-        return 1 / (1 + lh_ratio * p_bg / p_motif)
+        return 1 / (1 + lh_ratio * (1-p_motif) / p_motif)
 
     # All of the following methods should be overridden in the subclass.
     @abstractmethod
