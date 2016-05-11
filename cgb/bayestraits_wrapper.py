@@ -5,20 +5,17 @@ import sys
 
 from .misc import temp_file_name
 
-# Path to BayesTraits executable
-BAYES_TRAITS = os.path.join(os.path.dirname(__file__), 'BayesTraitsV2')
-
 
 def path_to_exe():
     """Returns the path to the platform-specific executable."""
-    bin_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'bin')
+    bindir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'bin')
     if sys.platform == 'linux2':
         exe = 'BayesTraitsV2_linux'
     elif sys.platform == 'darwin':
         exe = 'BayesTraitsV2_macosx'
     else:
         raise RuntimeError('Platform not recognized: %s' % sys.platform)
-    return exe
+    return os.path.join(bindir, exe)
 
 def generate_tree_file(phylo):
     """Generates the tree file that BayesTraits uses.

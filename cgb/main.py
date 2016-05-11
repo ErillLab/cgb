@@ -367,7 +367,7 @@ def perform_ancestral_state_reconstruction(user_input, genomes,
     ancestral_states_to_csv(orthologous_grps, phylo,
                             os.path.join(OUTPUT_DIR, 'ancestral_states.csv'))
     # Save phylogeny
-    phylo.draw(os.path.join(output_dir, "phylogeny.png"))
+    phylo.draw(os.path.join(OUTPUT_DIR, "phylogeny.png"))
 
 
 def run(input_file, config_file):
