@@ -5,6 +5,7 @@ from .genome import Genome
 from .protein import Protein
 from .site_collection import SiteCollection
 from .my_logger import my_logger
+from .misc import directory
 from .phylo import Phylo
 from .user_input import UserInput
 from .orthologous_group import construct_orthologous_groups
@@ -14,20 +15,12 @@ from .orthologous_group import ancestral_states_to_csv
 from .visualization import all_plots
 
 
-def directory(*paths):
-    """Makes a directory specified by one or more args.
+PICKLE_DIR = directory('pickles')
+OUTPUT_DIR = directory('output')
 
-    Creates the directory if it doesn't exist.
 
-    Args:
-        paths ([string]): the full path for the directory
-    Returns:
-        string: the full path for the directory
-    """
-    d = os.path.join(*paths)
-    if not os.path.exists(d):
-        os.makedirs(d)
-    return d
+def pickle_dump(obj, filename):
+    pickle.dump(obj, open(os.path.join(PICKLE_DIR, filename), 'w'))
 
 
 def create_genomes(user_input):
@@ -55,7 +48,7 @@ def output_operons(user_input, genome):
         user_input (UserInput): the parameters provided by the user.
         genome (Genome): the genome the operons of which are written to file.
     """
-    output_dir = directory(user_input.output_dir, 'operons')
+    output_dir = directory(OUTPUT_DIR, 'operons')
     genome.operons_to_csv(
         os.path.join(output_dir, genome.strain_name+'_operons.csv'))
 
@@ -94,7 +87,7 @@ def set_TF_binding_model(user_input, genome, site_collections, weights):
         weights ([float]): weights used for combining evidence
     """
     genome.build_PSSM_model(site_collections, weights)
-    output_dir = directory(user_input.output_dir, 'derived_PSWM')
+    output_dir = directory(OUTPUT_DIR, 'derived_PSWM')
     genome.output_TF_binding_model(
         os.path.join(output_dir, genome.strain_name+'.jaspar'))
 
@@ -131,7 +124,7 @@ def create_site_collections(user_input, proteins):
     collections = [SiteCollection(sites, protein)
                    for sites, protein in zip(user_input.sites_list, proteins)]
     my_logger.debug("Writing site collections.")
-    output_dir = directory(user_input.output_dir, 'user_PSWM')
+    output_dir = directory(OUTPUT_DIR, 'user_PSWM')
     for collection in collections:
         collection.to_jaspar(
             os.path.join(output_dir, collection.TF.accession_number+'.jaspar'))
@@ -269,7 +262,7 @@ def infer_regulations(user_input, genome, prior):
        [Gene]: list of regulated genes
 
     """
-    output_dir = directory(user_input.output_dir, 'posterior_probs')
+    output_dir = directory(OUTPUT_DIR, 'posterior_probs')
     # Get the probability threshold
     threshold = user_input.probability_threshold
     my_logger.info("Regulation probability threshold: %.2f" % threshold)
@@ -292,7 +285,7 @@ def search_sites(user_input, genome):
         user_input (UserInput): the user-provided input
         genome (Genome): genome of interest
     """
-    output_dir = directory(user_input.output_dir, 'identified_sites')
+    output_dir = directory(OUTPUT_DIR, 'identified_sites')
     my_logger.info("Scoring genome /%s/." % genome.strain_name)
     my_logger.info(
         "Site score threshold: %.2f" % genome.TF_binding_model.threshold())
@@ -317,8 +310,7 @@ def create_orthologous_groups(user_input, genes, genomes):
     my_logger.info("Creating orthologous groups")
     groups = construct_orthologous_groups(genes, genomes)
     # Write groups to file
-    output_dir = directory(user_input.output_dir)
-    orthologous_groups_to_csv(groups, os.path.join(output_dir, 'orthologs.csv'))
+    orthologous_groups_to_csv(groups, os.path.join(OUTPUT_DIR, 'orthologs.csv'))
     return groups
 
 
@@ -339,8 +331,8 @@ def create_phylogeny(genomes, proteins, user_input):
     phylo = Phylo(proteins + [g.TF_instance for g in genomes])
     print phylo.tree
     # Output the phylogenetic tree in newick and nexus formats.
-    phylo.to_newick(os.path.join(user_input.output_dir, 'phylogeny.nwk'))
-    phylo.to_nexus(os.path.join(user_input.output_dir, 'phylogeny.nex'))
+    phylo.to_newick(os.path.join(OUTPUT_DIR, 'phylogeny.nwk'))
+    phylo.to_nexus(os.path.join(OUTPUT_DIR, 'phylogeny.nex'))
     phylo.draw_ascii()
     return phylo
 
@@ -370,27 +362,26 @@ def perform_ancestral_state_reconstruction(user_input, genomes,
     # Perform ancestral state reconstruction
     ancestral_state_reconstruction(orthologous_grps, phylo)
 
-    output_dir = directory(user_input.output_dir)
+
     # Write ancestral state reconstruction to a csv file
     ancestral_states_to_csv(orthologous_grps, phylo,
-                            os.path.join(output_dir, 'ancestral_states.csv'))
+                            os.path.join(OUTPUT_DIR, 'ancestral_states.csv'))
     # Save phylogeny
     phylo.draw(os.path.join(output_dir, "phylogeny.png"))
 
 
-def run_analysis():
+def run(input_file, config_file):
     """The entry-point for the pipeline."""
     # Read user input and configuration from two files
-    user_input = UserInput('./tests/test4/input.json',
-                           './tests/test4/config.json')
-    pickle.dump(user_input, open('user_input.pkl', 'w'))
+    user_input = UserInput(input_file, config_file)
+    pickle_dump(user_input, 'user_input.pkl')
 
     # Make output directory
-    directory(user_input.output_dir)
+    directory(OUTPUT_DIR)
 
     # Create proteins
     proteins = create_proteins(user_input)
-    pickle.dump(proteins, open('proteins.pkl', 'w'))
+    pickle_dump(proteins, 'proteins.pkl')
 
     # Create genomes
     genomes = create_genomes(user_input)
@@ -421,31 +412,21 @@ def run_analysis():
         all_regulated_genes.extend(regulated_genes)
         # Output operons
         output_operons(user_input, genome)
-    pickle.dump(genomes, open('genomes.pkl', 'w'))
+    pickle_dump(genomes, 'genomes.pkl')
 
     # Create orthologous groups
     ortholog_groups = create_orthologous_groups(
         user_input, all_regulated_genes, genomes)
-    pickle.dump(ortholog_groups, open('orthos.pkl', 'w'))
+    pickle_dump(ortholog_groups, 'orthos.pkl')
 
     # Ancestral state reconstruction step
     perform_ancestral_state_reconstruction(
         user_input, genomes, ortholog_groups)
 
-    pickle.dump(ortholog_groups, open('orthos2.pkl', 'w'))
+    pickle_dump(ortholog_groups, 'orthos2.pkl')
 
     # Create phylogenetic tree of target genomes only
     phylo_target_genomes = Phylo([g.TF_instance for g in genomes],
                                  names=[g.strain_name for g in genomes])
     all_plots(phylo_target_genomes, ortholog_groups, genomes,
-              directory(user_input.output_dir, 'plots'))
-
-
-def vis():
-    print "loading genomes"
-    genomes = pickle.load(open('genome.pkl'))
-    print "loading orthologous groups"
-    orthologous_grps = pickle.load(open('orthos2.pkl'))
-    phylo = Phylo([g.TF_instance for g in genomes],
-                  names=[g.strain_name for g in genomes])
-    return genomes, phylo, orthologous_grps
+              directory(OUTPUT_DIR, 'plots'))

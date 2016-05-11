@@ -1,5 +1,6 @@
 """The module for miscellaneous functions."""
 
+import os
 import math
 import numpy as np
 import tempfile
@@ -44,3 +45,19 @@ def temp_file_name(dir=tempfile.gettempdir(), prefix='', suffix=''):
     name = tmpfile.name
     tmpfile.close()
     return name
+
+
+def directory(*paths):
+    """Makes a directory specified by one or more args.
+
+    Creates the directory if it doesn't exist.
+
+    Args:
+        paths ([string]): the full path for the directory
+    Returns:
+        string: the full path for the directory
+    """
+    d = os.path.join(*paths)
+    if not os.path.exists(d):
+        os.makedirs(d)
+    return d

@@ -8,11 +8,12 @@ information.
 import os
 
 from Bio import Entrez
+from misc import directory
 
 Entrez.email = 'sefa1@umbc.edu'
 
 # The directory used to save NCBI records for later use.
-ENTREZ_DIRECTORY = os.path.join(os.path.dirname(__file__), 'entrez_cache')
+ENTREZ_DIRECTORY = directory('entrez_cache')
 
 
 def get_genome_record(accession):
