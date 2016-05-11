@@ -1,3 +1,2 @@
-from cgb.main import run
-
-run('test_input.json')
+import cgb
+cgb.go('test_input.json')
