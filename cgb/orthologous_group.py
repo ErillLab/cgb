@@ -4,9 +4,10 @@ import csv
 
 from tqdm import tqdm
 
-from misc import weighted_choice
-import bayestraits_wrapper
-from my_logger import my_logger
+from . import misc
+from . import visualization
+from . import bayestraits_wrapper
+from .my_logger import my_logger
 
 
 class OrthologousGroup:
@@ -61,7 +62,7 @@ class OrthologousGroup:
             states = ['1', '0', 'A']
             probabilities = [terminal_states[(node.name, state)]
                              for state in states]
-            trait[node.name], = weighted_choice(states, probabilities)
+            trait[node.name], = misc.weighted_choice(states, probabilities)
         return trait
 
     def bootstrap_traits(self, phylo, sample_size):
@@ -130,6 +131,14 @@ class OrthologousGroup:
         return max(['1', '0', 'A'],
                    key=lambda x: self.regulation_states[(node_name, x)])
 
+    def ancestral_state_reconstruction_svg_view(self, phylo):
+        temp_file = misc.temp_file_name(suffix='.svg')
+        t = visualization.biopython_to_ete3(phylo.tree)
+        visualization.view_by_gene(t, self, temp_file)
+        with open(temp_file) as f:
+            contents = f.read()
+        return contents
+
     def __repr__(self):
         return str(self.genes)
 
@@ -172,6 +181,9 @@ def construct_orthologous_groups(genes, genomes):
         # Create the orthologous group with gene + orthologs on all other
         # genomes [if there are orthologs in the respective genomes]
         groups.append(OrthologousGroup([gene] + [rbh for rbh in rbhs if rbh]))
+
+        if len(groups) > 10:
+            break
     return groups
 
 

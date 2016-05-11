@@ -6,14 +6,14 @@ from cached_property import cached_property
 from tqdm import tqdm
 from Bio.motifs import jaspar
 
-from chromid import Chromid
-from blast import BLAST
-from PSSM_model import PSSMModel
-from misc import weighted_choice
-from misc import temp_file_name
-from my_logger import my_logger
-from bio_utils import reverse_complement
-from bio_utils import weblogo
+from .chromid import Chromid
+from .blast import BLAST
+from .pssm_model import PSSMModel
+from .misc import weighted_choice
+from .misc import temp_file_name
+from .my_logger import my_logger
+from .bio_utils import reverse_complement
+from .bio_utils import weblogo
 
 
 Site = namedtuple('Site', 'chromid start end strand score gene')
@@ -161,10 +161,11 @@ class Genome:
         """
         # Create a PSSM model using site collections and associated weights.
         model = PSSMModel(collections, weights)
-        random_seqs = self.random_seqs(length=model.length, count=100000)
+        bg_seq = ''.join(self.random_seqs(model.length, 100000/model.length))
+        bg_scores = model.score_seq(bg_seq)
         # Create a Bayesian estimator which is used to compute the probability
         # of TF-binding of any given sequence.
-        model.build_bayesian_estimator(random_seqs)
+        model.build_bayesian_estimator(bg_scores)
         self._TF_binding_model = model
 
     def random_seqs(self, length, count):

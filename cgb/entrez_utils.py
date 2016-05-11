@@ -6,14 +6,13 @@ information.
 """
 
 import os
-import tempfile
 
 from Bio import Entrez
 
 Entrez.email = 'sefa1@umbc.edu'
 
 # The directory used to save NCBI records for later use.
-ENTREZ_DIRECTORY = '../entrez'
+ENTREZ_DIRECTORY = os.path.join(os.path.dirname(__file__), 'entrez_cache')
 
 
 def get_genome_record(accession):

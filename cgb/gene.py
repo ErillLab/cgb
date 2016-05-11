@@ -1,8 +1,8 @@
 from cached_property import cached_property
 
-from my_logger import my_logger
-from protein import Protein
-from blast import BlastNoHitFoundException
+from .my_logger import my_logger
+from .protein import Protein
+from .blast import BlastNoHitFoundException
 
 
 class Gene:

@@ -6,8 +6,7 @@ from cached_property import cached_property
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 
-import entrez_utils
-from my_logger import my_logger
+from . import entrez_utils
 
 
 class Protein:

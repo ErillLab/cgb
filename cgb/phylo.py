@@ -10,7 +10,8 @@ from Bio.Phylo.TreeConstruction import DistanceCalculator
 from Bio.Phylo.TreeConstruction import DistanceTreeConstructor
 from cached_property import cached_property
 
-from misc import unique
+from . import visualization
+from . import misc
 
 # Structure of a Nexus tree-only file
 NEX_TEMPLATE = """\
@@ -53,7 +54,7 @@ class Phylo:
             distance_model (string): see DistanceCalculator.protein_models
             tree_algorithm (string): 'nj' or 'upgma'
         """
-        self._proteins = unique(proteins, lambda p: p.accession_number)
+        self._proteins = misc.unique(proteins, lambda p: p.accession_number)
         self._names = names
         if names:
             assert len(proteins) == len(names)
@@ -167,3 +168,14 @@ class Phylo:
         """Draws tree and saves it into the given file."""
         BioPhylo.draw(self.tree, do_show=False)
         pylab.savefig(filename)
+
+    @property
+    def svg_view(self):
+        """Draws the tree in SVG format."""
+        # Convert the tree from Biopython's Bio.Phylo.Tree to ETE3 Treenode
+        t = visualization.biopython_to_ete3(self.tree)
+        temp_file = misc.temp_file_name(suffix='.svg')
+        visualization.tree_svg_plot(t, temp_file)
+        with open(temp_file) as f:
+            contents = f.read()
+        return contents

@@ -4,7 +4,6 @@ from subprocess import PIPE, Popen
 
 from Bio.Seq import Seq
 from Bio.Alphabet import generic_dna
-from Bio import motifs
 
 
 def complement(seq):

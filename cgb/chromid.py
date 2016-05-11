@@ -4,12 +4,12 @@ import random
 from Bio import SeqIO
 from cached_property import cached_property
 
-import entrez_utils
-import bio_utils
-from gene import Gene
-from operon import Operon
-from misc import mean
-from my_logger import my_logger
+from . import entrez_utils
+from . import bio_utils
+from .gene import Gene
+from .operon import Operon
+from .misc import mean
+from .my_logger import my_logger
 
 
 class Chromid:

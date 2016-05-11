@@ -1,17 +1,17 @@
 import os
 import pickle
 
-from genome import Genome
-from protein import Protein
-from site_collection import SiteCollection
-from my_logger import my_logger
-from phylo import Phylo
-from user_input import UserInput
-from orthologous_group import construct_orthologous_groups
-from orthologous_group import orthologous_groups_to_csv
-from orthologous_group import ancestral_state_reconstruction
-from orthologous_group import ancestral_states_to_csv
-from visualization import all_plots
+from .genome import Genome
+from .protein import Protein
+from .site_collection import SiteCollection
+from .my_logger import my_logger
+from .phylo import Phylo
+from .user_input import UserInput
+from .orthologous_group import construct_orthologous_groups
+from .orthologous_group import orthologous_groups_to_csv
+from .orthologous_group import ancestral_state_reconstruction
+from .orthologous_group import ancestral_states_to_csv
+from .visualization import all_plots
 
 
 def directory(*paths):
@@ -249,7 +249,7 @@ def get_prior(genome, user_input, weights):
 
     print genome.TF_binding_model.IC
     prior = (genome.length /
-             2**genome.TF_binding_model.IC /
+             2**genome.TF_binding_model.IC / 10 /
              genome.num_operons)
     my_logger.info("Prior for %s: %f" % (genome.strain_name, prior))
     return prior
@@ -378,16 +378,19 @@ def perform_ancestral_state_reconstruction(user_input, genomes,
     phylo.draw(os.path.join(output_dir, "phylogeny.png"))
 
 
-def main():
+def run_analysis():
     """The entry-point for the pipeline."""
     # Read user input and configuration from two files
-    user_input = UserInput('../tests/test6/input.json',
-                           '../tests/test6/config.json')
+    user_input = UserInput('./tests/test4/input.json',
+                           './tests/test4/config.json')
+    pickle.dump(user_input, open('user_input.pkl', 'w'))
+
     # Make output directory
     directory(user_input.output_dir)
 
     # Create proteins
     proteins = create_proteins(user_input)
+    pickle.dump(proteins, open('proteins.pkl', 'w'))
 
     # Create genomes
     genomes = create_genomes(user_input)
@@ -418,13 +421,11 @@ def main():
         all_regulated_genes.extend(regulated_genes)
         # Output operons
         output_operons(user_input, genome)
-
-    pickle.dump(genomes, open('genome.pkl', 'w'))
+    pickle.dump(genomes, open('genomes.pkl', 'w'))
 
     # Create orthologous groups
     ortholog_groups = create_orthologous_groups(
         user_input, all_regulated_genes, genomes)
-
     pickle.dump(ortholog_groups, open('orthos.pkl', 'w'))
 
     # Ancestral state reconstruction step

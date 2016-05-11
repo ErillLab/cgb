@@ -2,10 +2,10 @@ import subprocess
 import os
 import re
 
-from misc import temp_file_name
+from .misc import temp_file_name
 
 # Path to BayesTraits executable
-BAYES_TRAITS = './BayesTraitsV2'
+BAYES_TRAITS = os.path.join(os.path.dirname(__file__), 'BayesTraitsV2')
 
 
 def generate_tree_file(phylo):

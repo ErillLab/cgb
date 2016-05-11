@@ -48,6 +48,11 @@ class UserInput:
         return [m['sites'] for m in self._input['motifs']]
 
     @property
+    def protein_accessions_and_sites(self):
+        """Zips protein accessions and binding sites."""
+        return zip(self.protein_accessions, self.sites_list)
+
+    @property
     def output_dir(self):
         """Returns the directory to be used for logging."""
         directory = self._input['config']['output_dir']

@@ -3,10 +3,10 @@ from Bio.Seq import Seq
 from Bio.motifs.matrix import PositionWeightMatrix
 
 
-from binding_model import TFBindingModel
-from misc import log2
-from misc import temp_file_name
-from bio_utils import weblogo
+from .binding_model import TFBindingModel
+from .misc import log2
+from .misc import temp_file_name
+from .bio_utils import weblogo
 
 
 class PSSMModel(TFBindingModel):
@@ -31,8 +31,6 @@ class PSSMModel(TFBindingModel):
         """Constructor for the PSSMModel class."""
         super(PSSMModel, self).__init__(collections, background)
         self._pwm = self._combine_pwms([c.pwm for c in collections], weights)
-        self._collections = collections
-        self._weights = weights
 
     @cached_property
     def pwm(self):
@@ -111,6 +109,7 @@ class PSSMModel(TFBindingModel):
         if both:
             scores = [log2(2**score + 2**rc_score)
                       for score, rc_score in zip(scores, rc_scores)]
+
         return scores
 
     @property

@@ -1,7 +1,6 @@
 
 import os
 import copy
-import math
 
 from ete3 import Tree
 from ete3 import TreeStyle, NodeStyle
@@ -11,7 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from tqdm import tqdm
 
-from my_logger import my_logger
+from .my_logger import my_logger
 
 
 def biopython_to_ete3(biopython_tree):
@@ -23,6 +22,11 @@ def biopython_to_ete3(biopython_tree):
     """
     t = Tree(biopython_tree.format('newick'), format=1)
     return t
+
+
+def tree_svg_plot(tree, file, **kwargs):
+    ts = TreeStyle()
+    tree.render(file, tree_style=ts)
 
 
 def rgb2hex(red, green, blue):

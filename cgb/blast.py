@@ -5,7 +5,7 @@ import logging
 
 from Bio.Blast import NCBIXML
 
-from misc import temp_file_name
+from .misc import temp_file_name
 
 
 class BLAST:
