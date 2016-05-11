@@ -132,7 +132,7 @@ def create_site_collections(user_input, proteins):
     return collections
 
 
-def simple_motif_weighting(site_collections):
+def site_count_weighting(site_collections):
     """Weights collections according to collection sizes.
 
     Args:
@@ -159,56 +159,44 @@ def phylogenetic_weighting(site_collections, genome, phylogeny):
     Returns:
         [float]: list of weights, not normalized.
     """
-    if len(site_collections) == 1:
-        # Single collection, no need to compute weights
-        return [1]
     dists = [phylogeny.distance(collection.TF, genome.TF_instance)
              for collection in site_collections]
-    eps = 10**-5
-    similarities = [1/(d+eps) for d in dists]
-    weights = [s/sum(similarities) for s in similarities]
-    return weights
+    return [1-d/sum(dists) for d in dists]
 
 
-def uniform_weighting(site_collections):
-    """Returns the uniform weights."""
-    return [1 for _ in site_collections]
-
-
-def compute_motif_weights(genome, site_collections, weighting_scheme,
-                          phylogeny):
-    """Compute motif weights for given genome.
-
-    Two weighting schemes are supported:
-    - simple: the weights are computed as proportional to the site collection
-      sites.
-    - phylogenetic: the weights are genome specific. They are inversely
-      proportional to the phylogenetic distance between the genome of interest
-      and each protein provided along with the binding evidence.
+def compute_weights(genome, site_collections, phylogeny=None,
+                    site_counts=False):
+    """Computes weights of each binding evidence for the target genome.
 
     Args:
-        genome (Genome): the genome the weights for which are computed
+        genome (Genome): the target genome that the weights are for
         site_collections ([SiteCollection]): list of binding site collections
-        weighting_scheme (string): simple or phylogenetic.
-        phylogeny (Phylo): the phylogeny to be used to compute the
-            weighting. Used only if phylogenetic weighting scheme is set.
-    Returns:
-        [float]: weights of the site collections
+        phylogeny (Phylo): the phylogeny to be used for phylogenetic
+            weighting. If none, no phylogenetic weighting is applied.
+        site_counts (bool): if true, evidence is weighted by the number of
+            sites in each collection
     """
-    my_logger.info("TF-binding evidence weighting scheme: %s" %
-                   weighting_scheme)
-    assert weighting_scheme in ['simple', 'phylogenetic']
-    # Compute genome-specific weights of each site collection.
-    if weighting_scheme == 'simple':
-        weights = simple_motif_weighting(site_collections)
-    elif weighting_scheme == 'phylogenetic':
-        weights = phylogenetic_weighting(site_collections, genome, phylogeny)
-    else:
-        weights = uniform_weighting(site_collections)
+    my_logger.info("Computing weights for %s..." % genome.strain_name)
+    my_logger.info("Use phylogeny: %s" % bool(phylogeny))
+    my_logger.info("Use site counts: %s" % bool(site_counts))
+
+    weights = [1.0 for _ in site_collections]  # Equal weights by default
+    if phylogeny:
+        phylo_ws = phylogenetic_weighting(site_collections, genome, phylogeny)
+        my_logger.info(['%.2f' % w for w in phylo_ws])
+        # Update weights
+        weights = [w*pw for w, pw in zip(weights, phylo_ws)]
+    if site_counts:
+        site_count_ws = site_count_weighting(site_collections)
+        my_logger.info(['%.2f' % w for w in site_count_ws])
+        # Update weights
+        weights = [w*cw for w, cw in zip(weights, site_count_ws)]
+
     # Normalize weights
-    weights = [float(w)/sum(weights) for w in weights]
+    weights = [w/sum(weights) for w in weights]
     my_logger.info("Binding evidence weights for /%s/: %s" %
-                   (genome.strain_name, ', '.join("%.2f" % w for w in weights)))
+                   (genome.strain_name, map(lambda x: '%.2f' % x, weights)))
+
     return weights
 
 
@@ -370,10 +358,10 @@ def perform_ancestral_state_reconstruction(user_input, genomes,
     phylo.draw(os.path.join(OUTPUT_DIR, "phylogeny.png"))
 
 
-def run(input_file, config_file):
+def run(input_file):
     """The entry-point for the pipeline."""
     # Read user input and configuration from two files
-    user_input = UserInput(input_file, config_file)
+    user_input = UserInput(input_file)
     pickle_dump(user_input, 'user_input.pkl')
 
     # Make output directory
@@ -400,8 +388,11 @@ def run(input_file, config_file):
     all_regulated_genes = []
     for genome in genomes:
         # Create weights for combining motifs and inferring priors, if not set
-        weights = compute_motif_weights(genome, site_collections,
-                                        user_input.weighting_scheme, phylogeny)
+        phylo_weighting = (phylogeny if user_input.phylogenetic_weighting
+                           else None)
+        site_count_weighting = user_input.site_count_weighting
+        weights = compute_weights(genome, site_collections,
+                                  phylo_weighting, site_count_weighting)
         # Set TF-binding model for each genome.
         set_TF_binding_model(user_input, genome, site_collections, weights)
         # Score genome

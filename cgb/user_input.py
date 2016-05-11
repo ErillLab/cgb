@@ -8,23 +8,13 @@ class UserInput:
     the user. It allows us to make changes in the input format (currently,
     JSON) relatively easily. It also checks the content of the input and sets
     default values for parameters not specified by the user.
-
-    The user specifies the parameters via two files:
-    - the required input file which contains
-      - the names and accession numbers for the analyzed genomes
-      - the TF protein accession number and the collection of its binding sites
-    - the optional configuration file that specifies other parameters.
     """
-    def __init__(self, input_filename, config_filename=None):
+    def __init__(self, input_filename):
         """Constructs Input object using the input file."""
         self._input = {}
         with open(input_filename) as f:
             for k, v in json.load(f).items():
                 self._input[k] = v
-        with open(config_filename) as f:
-            self._input['config'] = {}
-            for k, v in json.load(f).items():
-                self._input['config'][k] = v
 
     @property
     def genome_name_and_accessions(self):
@@ -53,12 +43,6 @@ class UserInput:
         return zip(self.protein_accessions, self.sites_list)
 
     @property
-    def output_dir(self):
-        """Returns the directory to be used for logging."""
-        directory = self._input['config']['output_dir']
-        return directory
-
-    @property
     def prior_regulation_probability(self):
         """Returns the prior probability of regulation.
 
@@ -73,7 +57,7 @@ class UserInput:
         30/~2300 operons. See "get_prior" in "main.py" for implementation.
         """
         try:
-            value = self._input['config']['prior_regulation_probability']
+            value = self._input['prior_regulation_probability']
         except KeyError:
             value = None
         return value
@@ -81,7 +65,7 @@ class UserInput:
     @property
     def has_prior_probability_set(self):
         """Returns true if the prior probability of regulation is provided."""
-        return 'prior_regulation_probability' in self._input['config']
+        return 'prior_regulation_probability' in self._input
 
     @property
     def probability_threshold(self):
@@ -93,26 +77,25 @@ class UserInput:
         The default value for the probability threshold is 0.5
         """
         try:
-            value = self._input['config']['probability_threshold']
+            value = self._input['posterior_probability_threshold']
         except KeyError:
             value = 0.5
         return value
 
     @property
-    def weighting_scheme(self):
-        """Returns the option for motif combining.
-
-        Options are
-        - simple concatenation, "simple": Two collections will simply be
-          combined. That is the more sites a motif has, the more its
-          contribution to the final PSFM.
-        - phylogenetic weighting, "phylogenetic". The weight of each motif will
-          be determined by its phylogenetic distance to target species' TFs.
-
-        The default value is 'simple'.
-        """
+    def phylogenetic_weighting(self):
+        """Returns if the phylogenetic-weighting option is on."""
         try:
-            value = self._input['config']['weighting_scheme']
+            value = self._input['phylogenetic_weighting']
         except KeyError:
-            value = 'simple'
+            value = False
+        return value
+
+    @property
+    def site_count_weighting(self):
+        """Returns if the site count-weighting option is on."""
+        try:
+            value = self._input['site_count_weighting']
+        except KeyError:
+            value = False
         return value
