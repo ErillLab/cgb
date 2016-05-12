@@ -1,5 +1,6 @@
 import os
 import pickle
+import copy
 
 from .genome import Genome
 from .protein import Protein
@@ -143,7 +144,8 @@ def site_count_weighting(site_collections):
     return [collection.site_count for collection in site_collections]
 
 
-def phylogenetic_weighting(site_collections, genome, phylogeny):
+def phylogenetic_weighting(site_collections, genome, phylogeny,
+                           clustalesque_weighting=True):
     """Computes weights of collections based on the phylogeny.
 
     The weights are inversely proportional to the phylogenetic distances the
@@ -156,11 +158,38 @@ def phylogenetic_weighting(site_collections, genome, phylogeny):
         genome (Genome): the genome of interest
         phylogeny (Phylo): the phlogenetic tree of the instances of the TF of
             interest.
+        clustalesque_weighting (bool): if true, the weights are still computed
+        based on the phylogenetic distance, but branch lengths are inflated
+        proportional to the number of terminal nodes in each branch. Doing so
+        would down-weight the evidence from closer species and up-weight the
+        evidence from the most divergent ones.
     Returns:
         [float]: list of weights, not normalized.
     """
-    dists = [phylogeny.distance(collection.TF, genome.TF_instance)
-             for collection in site_collections]
+
+    if not clustalesque_weighting:
+        # Phylogenetic weighting using the distances as they are
+        tree = phylogeny.tree
+        dists = []
+        node = tree.find_any(name=genome.TF_instance.accession_number)
+        for collection in site_collections:
+            other = tree.find_any(name=collection.TF.accession_number)
+            dists.append(tree.distance(node, other))
+
+    else:
+        # Weight distances like CLUSTAL does for MSA.
+        tree = copy.deepcopy(phylogeny.tree)  # modify the copy.
+        # Root the tree with the reference TF.
+        node = tree.find_any(name=genome.TF_instance.accession_number)
+        tree.root_with_outgroup(node)
+        dists = []
+        for collection in site_collections:
+            other = tree.find_any(name=collection.TF.accession_number)
+            # Multiply each branch length by the number of terminal nodes
+            # in that branch.
+            dists.append(sum(c.branch_length * c.count_terminals()
+                             for c in tree.get_path(other)))
+
     return [1-d/sum(dists) for d in dists]
 
 
@@ -321,7 +350,6 @@ def create_phylogeny(genomes, proteins, user_input):
     # Output the phylogenetic tree in newick and nexus formats.
     phylo.to_newick(os.path.join(OUTPUT_DIR, 'phylogeny.nwk'))
     phylo.to_nexus(os.path.join(OUTPUT_DIR, 'phylogeny.nex'))
-    phylo.draw_ascii()
     return phylo
 
 
@@ -349,7 +377,6 @@ def perform_ancestral_state_reconstruction(user_input, genomes,
                   names=[g.strain_name for g in genomes])
     # Perform ancestral state reconstruction
     ancestral_state_reconstruction(orthologous_grps, phylo)
-
 
     # Write ancestral state reconstruction to a csv file
     ancestral_states_to_csv(orthologous_grps, phylo,
@@ -381,6 +408,7 @@ def go(input_file):
 
     # Create phylogeny
     phylogeny = create_phylogeny(genomes, proteins, user_input)
+    pickle_dump(phylogeny, 'phylogeny.pkl')
 
     # Create binding evidence
     site_collections = create_site_collections(user_input, proteins)
