@@ -1,10 +1,12 @@
+===
+cgb
+===
+
 .. contents::
     :backlinks: none
 
 .. sectnum::
 
-cgb
-===
 
 ``cgb`` is a Python library for comparative genomics of transcriptional
 regulation in Bacteria.
