@@ -1,3 +1,5 @@
+.. sectnum::
+
 cgb
 ===
 
@@ -29,6 +31,10 @@ Get started
 
 Input format
 ------------
+
+``cgb`` expects the input in JSON format. Below is a sample input file followed
+by descriptions for each field.
+
 
 .. code-block:: json
 
@@ -82,4 +88,50 @@ Input format
     "posterior_probability_threshold": 0.5
     }
 
--
+Two mandatory input parameters are the list of reference motifs and target
+genomes.
+
+- The field ``motifs`` contains one or more motifs. Each motif is described by
+  two sub-fields: ``protein_accession`` and ``sites``.
+
+- The ``genomes`` field contains the list of target genomes to be used in the
+  analysis. Each genome is described by two fields: ``name`` and
+  ``accession_numbers``. The field ``accession_numbers`` could have multiple
+  accession numbers, one for each chromosome/plasmid.
+
+Other input parameters are optional.
+
+- ``prior_regulation_probability``, the prior probability of regulation. Used
+  by Bayesian estimation of probability of regulation.
+- ``phylogenetic_weighting``. If true, the binding evidence from multiple
+  reference organisms are weighted according to their phylogenetic distances to
+  each target genome.
+- ``site_count_weighting``. If true, the binding evidence from each reference
+  organism is weighted by the binding site collection size.
+- ``posterior_probability_threshold``. The genes/operons with posterior
+  probability of regulation less than provided value are not reported.
+
+
+The process
+-----------
+
+Input processing
+################
+
+Genome preprocessing
+####################
+
+Phylogeny
+#########
+
+Binding site search
+###################
+
+Bayesian estimation of regulation probabilities
+###############################################
+
+Ancestral state reconstruction
+##############################
+
+Outputs
+#######
