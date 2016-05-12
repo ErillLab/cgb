@@ -159,10 +159,10 @@ def phylogenetic_weighting(site_collections, genome, phylogeny,
         phylogeny (Phylo): the phlogenetic tree of the instances of the TF of
             interest.
         clustalesque_weighting (bool): if true, the weights are still computed
-        based on the phylogenetic distance, but branch lengths are inflated
-        proportional to the number of terminal nodes in each branch. Doing so
-        would down-weight the evidence from closer species and up-weight the
-        evidence from the most divergent ones.
+            based on the phylogenetic distance, but branch lengths are inflated
+            proportional to the number of terminal nodes in each branch. Doing
+            so would down-weight the evidence from closer species and up-weight
+            the evidence from the most divergent ones.
     Returns:
         [float]: list of weights, not normalized.
     """
