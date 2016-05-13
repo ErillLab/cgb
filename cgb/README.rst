@@ -34,8 +34,8 @@ Get started
    json_input_file = 'test_input.json'  # See below for the format
    cgb.go(json_input_file)
 
-Input format
-------------
+Input
+-----
 
 ``cgb`` expects the input in JSON format. Below is a sample input file followed
 by descriptions for each field.
@@ -117,26 +117,36 @@ Other input parameters are optional.
   probability of regulation less than provided value are not reported.
 
 
-The process
------------
+Output
+------
 
-Input processing
-################
+``cgb`` saves all the output in the folder ``output`` created on the working
+directory.
 
-Genome preprocessing
-####################
+- ``user_PSWM/`` contains the user-provided binding motifs in JASPAR format.
 
-Phylogeny
-#########
+- ``derived_PSWM/`` contains binding motifs in JASPAR format, tailored for each
+  target genome combining all the evidence from each reference motif.
 
-Binding site search
-###################
+- ``identified_sites/`` contains identified binding sites and information such
+  as their genomic locations, downstram regulated genes and their
+  functions. Predicted binding site data is saved into CSV files, one for each
+  target genome.
 
-Bayesian estimation of regulation probabilities
-###############################################
+- ``operons/`` contains the operon predictions of each target genome, saved as
+  CSV files.
 
-Ancestral state reconstruction
-##############################
+- ``orthologs.csv`` contains the groups of orthologous genes and their
+  probabilities of regulation.
 
-Outputs
-#######
+- ``phylogeny.png`` is plot of the phylogenetic tree.
+
+- ``ancestral_states.csv`` has the reconstructed state of each gene in all
+  ancestral clades. For each target species and ancestral clades, the states
+  are
+
+  - ``P(1)``, the probability of TF *binding*
+  - ``P(0)``, the probability of TF *not binding*
+  - ``P(A)``, the probability of *absence* of the gene.
+
+- ``plots/`` folder contains the visualization of the results.
