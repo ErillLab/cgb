@@ -5,9 +5,6 @@ cgb
 ``cgb`` is a Python library for comparative genomics of transcriptional
 regulation in Bacteria.
 
-.. contents::
-    :backlinks: none
-
 .. sectnum::
 
 
