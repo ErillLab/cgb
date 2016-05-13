@@ -167,30 +167,40 @@ def phylogenetic_weighting(site_collections, genome, phylogeny,
         [float]: list of weights, not normalized.
     """
 
-    if not clustalesque_weighting:
-        # Phylogenetic weighting using the distances as they are
-        tree = phylogeny.tree
-        dists = []
-        node = tree.find_any(name=genome.TF_instance.accession_number)
-        for collection in site_collections:
-            other = tree.find_any(name=collection.TF.accession_number)
-            dists.append(tree.distance(node, other))
+    # Collect the protein accession numbers with binding evidence.
+    reference_proteins = [collection.TF.accession_number
+                          for collection in site_collections]
+    # Don't modify the original tree
+    tree = copy.deepcopy(phylogeny.tree)
+    # Prune nodes except the target species and the species with evidence
+    for c in tree.get_terminals():
+        if not (c.name == genome.TF_instance.accession_number or
+                c.name in reference_proteins):
+            tree.prune(c)
 
-    else:
-        # Weight distances like CLUSTAL does for MSA.
-        tree = copy.deepcopy(phylogeny.tree)  # modify the copy.
-        # Root the tree with the reference TF.
-        node = tree.find_any(name=genome.TF_instance.accession_number)
-        tree.root_with_outgroup(node)
-        dists = []
-        for collection in site_collections:
-            other = tree.find_any(name=collection.TF.accession_number)
-            # Multiply each branch length by the number of terminal nodes
-            # in that branch.
-            dists.append(sum(c.branch_length * c.count_terminals()
-                             for c in tree.get_path(other)))
+    # Convert phylogenetic distances to similarities
+    total_branch_length = tree.total_branch_length()
+    for c in tree.find_clades():
+        c.branch_length = 1.0 - c.branch_length / total_branch_length
 
-    return [1-d/sum(dists) for d in dists]
+    if clustalesque_weighting:
+        # Weight similarities like CLUSTAL does for multiple sequence alignment
+        # Root the tree using the reference TF as outgroup
+        outgroup = tree.find_any(name=genome.TF_instance.accession_number)
+        tree.root_with_outgroup(outgroup)
+        # Down-weight all branches with multiple species with evidence
+        for protein in reference_proteins:
+            node = tree.find_any(name=protein)
+            for c in tree.get_path(node):
+                c.branch_length /= c.count_terminals()
+
+    node = tree.find_any(name=genome.TF_instance.accession_number)
+    weights = []
+    for acc in reference_proteins:
+        other = tree.find_any(name=acc)
+        weights.append(tree.distance(node, other))
+
+    return weights
 
 
 def compute_weights(genome, site_collections, phylogeny=None,
@@ -209,22 +219,25 @@ def compute_weights(genome, site_collections, phylogeny=None,
     my_logger.info("Use phylogeny: %s" % bool(phylogeny))
     my_logger.info("Use site counts: %s" % bool(site_counts))
 
+    my_logger.info('Site collections from %s' %
+                   [c.TF.accession_number for c in site_collections])
     weights = [1.0 for _ in site_collections]  # Equal weights by default
     if phylogeny:
         phylo_ws = phylogenetic_weighting(site_collections, genome, phylogeny)
-        my_logger.info(['%.2f' % w for w in phylo_ws])
+        my_logger.info('Phylogeny weights: %s' %
+                       ['%.2f' % w for w in phylo_ws])
         # Update weights
         weights = [w*pw for w, pw in zip(weights, phylo_ws)]
     if site_counts:
         site_count_ws = site_count_weighting(site_collections)
-        my_logger.info(['%.2f' % w for w in site_count_ws])
+        my_logger.info('Site count weights: %s' %
+                       ['%.2f' % w for w in site_count_ws])
         # Update weights
         weights = [w*cw for w, cw in zip(weights, site_count_ws)]
 
     # Normalize weights
     weights = [w/sum(weights) for w in weights]
-    my_logger.info("Binding evidence weights for /%s/: %s" %
-                   (genome.strain_name, map(lambda x: '%.2f' % x, weights)))
+    my_logger.info('Final weights: %s' % ['%.2f' % w for w in weights])
 
     return weights
 
