@@ -5,7 +5,6 @@ import copy
 from ete3 import Tree
 from ete3 import TreeStyle, NodeStyle
 from ete3 import RectFace, TextFace, CircleFace, StackedBarFace, ImgFace
-import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
 from tqdm import tqdm
