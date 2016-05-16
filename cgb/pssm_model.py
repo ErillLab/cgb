@@ -1,3 +1,5 @@
+import math
+
 from cached_property import cached_property
 from Bio.Seq import Seq
 from Bio.motifs.matrix import PositionWeightMatrix
@@ -105,6 +107,13 @@ class PSSMModel(TFBindingModel):
         if self.length == len(seq):
             # Biopython returns single number if len(seq)==len(pssm)
             scores, rc_scores = [scores], [rc_scores]
+
+        # Biopython handles ambiguous bases by returning NaN for sites that
+        # have any. Replace any with the minimum PSSM score possible
+        isnum = lambda x: not math.isnan(x)
+        scores = [scr if isnum(scr) else self.pssm.min for scr in scores]
+        rc_scores = [scr if isnum(scr) else self.reverse_complement_pssm.min
+                     for scr in rc_scores]
 
         if both:
             scores = [log2(2**score + 2**rc_score)
