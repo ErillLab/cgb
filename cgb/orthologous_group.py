@@ -187,7 +187,7 @@ def construct_orthologous_groups(genes, genomes):
     return groups
 
 
-def orthologous_groups_to_csv(groups, filename):
+def orthologous_grps_to_csv(groups, filename):
     genomes = list(set(g.genome for grp in groups for g in grp.genes))
     with open(filename, 'w') as csvfile:
         csv_writer = csv.writer(csvfile)

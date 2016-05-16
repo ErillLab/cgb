@@ -17,6 +17,7 @@ def path_to_exe():
         raise RuntimeError('Platform not recognized: %s' % sys.platform)
     return os.path.join(bindir, exe)
 
+
 def generate_tree_file(phylo):
     """Generates the tree file that BayesTraits uses.
     Args:
