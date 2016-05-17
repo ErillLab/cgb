@@ -1,0 +1,55 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+download error, happened several times for species with large number of associated contigs in the assembly
+likely caused by NCBI overload
+--> might want to include a 3 second delay
+--> might want to include the user email address as a parameter, so that it can be provided to BioPython NCBI
+
+ u'NZ_HF539355.1', u'NZ_HF539354.1', u'NZ_HF539353.1', u'NZ_HF539352.1', u'NZ_HF539351.1', u'NZ_HF539350.1', u'NZ_HF539349.1', u'NZ_HF539348.1', u'NZ_HF539347.1', u'NZ_HF539346.1', u'NZ_HF539345.1', u'NZ_HF539344.1', u'NZ_HF539343.1', u'NZ_HF539342.1', u'NZ_HF539341.1', u'NZ_HF539340.1', u'NZ_HF539339.1', u'NZ_HF539338.1', u'NZ_HF539337.1', u'NZ_HF539336.1', u'NZ_HF539335.1', u'NZ_HF539334.1', u'NZ_HF539333.1', u'NZ_HF539332.1', u'NZ_HF539331.1', u'NZ_HF539330.1', u'NZ_HF539329.1', u'NZ_HF539328.1', u'NZ_HF539327.1']
+Traceback (most recent call last):
+  File "verruco_run.py", line 2, in <module>
+    cgb.go('verruco_input.json')
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/__init__.py", line 415, in go
+    genomes = create_genomes(user_input)
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/__init__.py", line 40, in create_genomes
+    for name, accessions in user_input.genome_name_and_accessions]
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/genome.py", line 48, in __init__
+    self._chromids = [Chromid(acc, self) for acc in accession_numbers]
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/chromid.py", line 32, in __init__
+    raw_record = entrez_utils.get_genome_record(accession_number)
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/entrez_utils.py", line 25, in get_genome_record
+    retmode='gbwithparts', rettype='text')
+  File "/home/k7n7vi/miniconda2/envs/CGB_env/lib/python2.7/site-packages/Bio/Entrez/__init__.py", line 155, in efetch
+    return _open(cgi, variables, post)
+  File "/home/k7n7vi/miniconda2/envs/CGB_env/lib/python2.7/site-packages/Bio/Entrez/__init__.py", line 518, in _open
+    raise exception
+urllib2.HTTPError: HTTP Error 400: Bad Request
+(CGB_env)k7n7vi@k7n7vi-desktop:~/Dropbox/PyProX/CGB/cgb$ python verruco_run.py
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+crashed retrieving a protein ID for Ver_SCGC_AAA168-F10. LexA in this organism is annotated as a pseudogene, likely due to assembly error
+--> not much we can do here, except capture the exception and exclude the organism from analysis
+--> notice that this is different from not getting BLAST result for the TF; here, because we are using BLASTX, we get translated DNA BLAST hit, but there is no
+    protein record associated with it
+
+~ INFO     Identifying TF instance for /Ver_SCGC_AAA164-L15/
+~ INFO     WP_019111580.1
+~ INFO     Identifying TF instance for /Ver_SCGC_AAA168-F10/
+Traceback (most recent call last):
+  File "verruco_run.py", line 2, in <module>
+    cgb.go('verruco_input.json')
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/__init__.py", line 418, in go
+    identify_TF_instance_in_genomes(genomes, proteins)
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/__init__.py", line 67, in identify_TF_instance_in_genomes
+    g.identify_TF_instance(proteins)
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/genome.py", line 251, in identify_TF_instance
+    blast_hits = [self.find_protein_homolog(p) for p in proteins]
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/genome.py", line 230, in find_protein_homolog
+    return gene.to_protein(), evalue
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/gene.py", line 169, in to_protein
+    return Protein(self.protein_accession_number, self.name)
+  File "/home/k7n7vi/miniconda2/envs/CGB_env/lib/python2.7/site-packages/cached_property.py", line 26, in __get__
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/gene.py", line 165, in protein_accession_number
+    return self._product_feature.qualifiers['protein_id'][0]
+KeyError: 'protein_id'
+
