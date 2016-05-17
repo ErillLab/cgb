@@ -181,9 +181,6 @@ def construct_orthologous_groups(genes, genomes):
         # Create the orthologous group with gene + orthologs on all other
         # genomes [if there are orthologs in the respective genomes]
         groups.append(OrthologousGroup([gene] + [rbh for rbh in rbhs if rbh]))
-
-        if len(groups) > 10:
-            break
     return groups
 
 
