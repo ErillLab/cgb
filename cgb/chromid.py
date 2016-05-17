@@ -112,6 +112,10 @@ class Chromid:
 
         A directon is a set of consecutive genes on the same DNA strand.
         """
+        # If the chromid doesn't have any gene, return empty list
+        if not self.genes:
+            return []
+
         genes = sorted(self.genes, key=lambda g: g.start)
         directons = []
         cur_directon = [genes[0]]
@@ -149,8 +153,9 @@ class Chromid:
         operons = []
         directons = self._directons()
         # Compute the mean intergenic distance of directons' first two genes.
-        mean_dist = mean([directon[0].distance(directon[1])
-                          for directon in directons if len(directon) > 1])
+        intergenic_dists = [directon[0].distance(directon[1])
+                            for directon in directons if len(directon) > 1]
+        mean_dist = mean(intergenic_dists) if intergenic_dists else 0
 
         # Find genes with binding sites in their promoters
         genes_to_split = (set(site.gene for site in self.genome.putative_sites)
