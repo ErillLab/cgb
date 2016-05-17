@@ -23,7 +23,6 @@ Traceback (most recent call last):
   File "/home/k7n7vi/miniconda2/envs/CGB_env/lib/python2.7/site-packages/Bio/Entrez/__init__.py", line 518, in _open
     raise exception
 urllib2.HTTPError: HTTP Error 400: Bad Request
-(CGB_env)k7n7vi@k7n7vi-desktop:~/Dropbox/PyProX/CGB/cgb$ python verruco_run.py
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 crashed retrieving a protein ID for Ver_SCGC_AAA168-F10. LexA in this organism is annotated as a pseudogene, likely due to assembly error
@@ -82,5 +81,50 @@ Traceback (most recent call last):
   File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/blast.py", line 111, in get_best_hit
     raise BlastNoHitFoundException
 cgb.blast.BlastNoHitFoundException
-(CGB_env)k7n7vi@k7n7vi-desktop:~/Dropbox/PyProX/CGB/cgb$ 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+the NZ_ABVL01000059.1 contig has only one CDS (I believe there may be contigs with no CDS at all), so that might be tripping it off
+
+~ INFO     Computing weights for C_flavus...
+~ INFO     Use phylogeny: False
+~ INFO     Use site counts: False
+~ INFO     Site collections from ['WP_009959117.1']
+~ INFO     Final weights: ['1.00']
+regulation parameters: 18.8578604415 5.38455125735
+background parameters: -25.5531880176 8.30230780061
+~ INFO     Scoring genome /C_flavus/.
+~ INFO     Site score threshold: 12.97
+100%|██████████████████████████████████████████████████████████████████████████████████████████| 6565/6565 [00:41<00:00, 156.54it/s]
+~ INFO     Regulation probability threshold: 0.50
+~ INFO     Inferring regulations for /C_flavus/.
+~ INFO     Prior probability of regulation: 0.030000
+~ INFO     Predicting operons - NZ_ABVL01000062.1 (C_flavus)
+~ INFO     Number of operons in NZ_ABVL01000062.1: 6
+~ INFO     Predicting operons - NZ_ABVL01000061.1 (C_flavus)
+~ INFO     Number of operons in NZ_ABVL01000061.1: 4
+~ INFO     Predicting operons - NZ_ABVL01000060.1 (C_flavus)
+~ INFO     Number of operons in NZ_ABVL01000060.1: 4
+~ INFO     Predicting operons - NZ_ABVL01000059.1 (C_flavus)
+Traceback (most recent call last):
+  File "verruco_run.py", line 2, in <module>
+    cgb.go('verruco_input.json')
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/__init__.py", line 443, in go
+    regulated_genes = infer_regulations(user_input, genome, prior)
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/__init__.py", line 303, in infer_regulations
+    genome_scan = genome.infer_regulation(prior, threshold, report_filename)
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/genome.py", line 284, in infer_regulation
+    for opr in tqdm(self.operons):
+  File "/home/k7n7vi/miniconda2/envs/CGB_env/lib/python2.7/site-packages/cached_property.py", line 26, in __get__
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/genome.py", line 70, in operons
+    return [opr for chromid in self.chromids for opr in chromid.operons]
+  File "/home/k7n7vi/miniconda2/envs/CGB_env/lib/python2.7/site-packages/cached_property.py", line 26, in __get__
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/chromid.py", line 104, in operons
+    return self._operon_prediction()
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/chromid.py", line 153, in _operon_prediction
+    for directon in directons if len(directon) > 1])
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/misc.py", line 11, in mean
+    return sum(xs) / float(len(xs))
+ZeroDivisionError: float division by zero
 
