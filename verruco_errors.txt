@@ -53,3 +53,34 @@ Traceback (most recent call last):
     return self._product_feature.qualifiers['protein_id'][0]
 KeyError: 'protein_id'
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+M kamchatense has no lexA homologs (although there is a protein annotated as LexA, go figure)
+--> this error should be caught and the species excluded from analysis
+
+~ INFO     Identifying TF instance for /Ver_SCGC_AAA164-O14/
+~ INFO     WP_041874764.1
+~ INFO     Identifying TF instance for /Ver_sp_BvORR106/
+~ INFO     WP_038163953.1
+~ INFO     Identifying TF instance for /Ver_SCGC_AAA164-L15/
+~ INFO     WP_019111580.1
+~ INFO     Identifying TF instance for /Ver_sp_3C/
+~ INFO     WP_018291001.1
+~ INFO     Identifying TF instance for /Ver_LP2A/
+~ INFO     WP_024808067.1
+~ INFO     Identifying TF instance for /M_kamchatkense/
+Traceback (most recent call last):
+  File "verruco_run.py", line 2, in <module>
+    cgb.go('verruco_input.json')
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/__init__.py", line 418, in go
+    identify_TF_instance_in_genomes(genomes, proteins)
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/__init__.py", line 67, in identify_TF_instance_in_genomes
+    g.identify_TF_instance(proteins)
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/genome.py", line 251, in identify_TF_instance
+    blast_hits = [self.find_protein_homolog(p) for p in proteins]
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/genome.py", line 227, in find_protein_homolog
+    locus_tag = self.blast_client.get_best_hit(blast_record)
+  File "/home/k7n7vi/Dropbox/PyProX/CGB/cgb/cgb/blast.py", line 111, in get_best_hit
+    raise BlastNoHitFoundException
+cgb.blast.BlastNoHitFoundException
+(CGB_env)k7n7vi@k7n7vi-desktop:~/Dropbox/PyProX/CGB/cgb$ 
+
