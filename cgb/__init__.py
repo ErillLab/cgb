@@ -63,7 +63,7 @@ def identify_TF_instance_in_genomes(genomes, proteins):
             along its binding motifs.
     """
     for g in genomes:
-        my_logger.info("Identifying TF instance for /%s/" % g.strain_name)
+        my_logger.info("Identifying TF instance for (%s)" % g.strain_name)
         g.identify_TF_instance(proteins)
 
 
@@ -267,7 +267,7 @@ def get_prior(genome, user_input, weights):
         return user_input.prior_regulation_probability
     # Otherwise, infer the prior probability.
     my_logger.info("Prior probability not provided, "
-                   "inferring from the provided motifs. /%s"
+                   "inferring from the provided motifs. (%s)"
                    % genome.strain_name)
 
     print genome.TF_binding_model.IC
@@ -296,7 +296,7 @@ def infer_regulations(user_input, genome, prior):
     # Get the probability threshold
     threshold = user_input.probability_threshold
     my_logger.info("Regulation probability threshold: %.2f" % threshold)
-    my_logger.info("Inferring regulations for /%s/." % genome.strain_name)
+    my_logger.info("Inferring regulations for (%s)." % genome.strain_name)
     my_logger.info("Prior probability of regulation: %f" % prior)
     report_filename = os.path.join(output_dir, genome.strain_name+'.csv')
     # Scan the genome to compute binding probability for each promoter.
@@ -316,7 +316,7 @@ def search_sites(user_input, genome):
         genome (Genome): genome of interest
     """
     output_dir = directory(OUTPUT_DIR, 'identified_sites')
-    my_logger.info("Scoring genome /%s/." % genome.strain_name)
+    my_logger.info("Scoring genome (%s)." % genome.strain_name)
     my_logger.info(
         "Site score threshold: %.2f" % genome.TF_binding_model.threshold())
     report_filename = os.path.join(output_dir, genome.strain_name+'.csv')
