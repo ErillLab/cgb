@@ -11,6 +11,7 @@ from .blast import BLAST, BlastNoHitFoundException
 from .pssm_model import PSSMModel
 from .misc import weighted_choice
 from .misc import temp_file_name
+from .misc import mean
 from .my_logger import my_logger
 from .bio_utils import reverse_complement
 from .bio_utils import weblogo
@@ -64,6 +65,21 @@ class Genome:
     def num_chromids(self):
         """Returns the number of chromosome/plasmid objects."""
         return len(self.chromids)
+
+    @cached_property
+    def directons(self):
+        """Returns the list of directons in all chromids."""
+        return [d for chromid in self.chromids for d in chromid.directons]
+
+    @cached_property
+    def intergenic_distance_threshold(self):
+        """The intergenic distance threshold used for operon prediction.
+
+        Two adjacent genes on the same strand belong to the same operon if
+        the distance between them is less than the determined threshold.
+        """
+        dists = [d[0].distance(d[1]) for d in self.directons if len(d) > 1]
+        return mean(dists)
 
     @cached_property
     def operons(self):

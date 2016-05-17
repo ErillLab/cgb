@@ -8,7 +8,6 @@ from . import entrez_utils
 from . import bio_utils
 from .gene import Gene
 from .operon import Operon
-from .misc import mean
 from .my_logger import my_logger
 
 
@@ -107,7 +106,8 @@ class Chromid:
         """Returns the sequences of all genes in FASTA format."""
         return '\n'.join(g.to_fasta() for g in self.genes)
 
-    def _directons(self):
+    @cached_property
+    def directons(self):
         """Returns the list of directons.
 
         A directon is a set of consecutive genes on the same DNA strand.
@@ -151,18 +151,14 @@ class Chromid:
         my_logger.info("Predicting operons - %s (%s)" %
                        (self.accession_number, self.genome.strain_name))
         operons = []
-        directons = self._directons()
-        # Compute the mean intergenic distance of directons' first two genes.
-        intergenic_dists = [directon[0].distance(directon[1])
-                            for directon in directons if len(directon) > 1]
-        mean_dist = mean(intergenic_dists) if intergenic_dists else 0
+        threshold = self.genome.intergenic_distance_threshold
 
         # Find genes with binding sites in their promoters
         genes_to_split = (set(site.gene for site in self.genome.putative_sites)
                           if self.genome.has_putative_sites
                           else [])
 
-        directons_rest = self._directons()
+        directons_rest = self.directons
         while directons_rest:
             processing = directons_rest
             directons_rest = []
@@ -170,7 +166,7 @@ class Chromid:
                 operon = [directon[0]]
                 i = 1
                 while i < len(directon):
-                    if directon[i-1].distance(directon[i]) >= mean_dist:
+                    if directon[i-1].distance(directon[i]) >= threshold:
                         break
                     if directon[i] in genes_to_split:
                         break
