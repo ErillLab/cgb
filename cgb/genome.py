@@ -7,13 +7,14 @@ from tqdm import tqdm
 from Bio.motifs import jaspar
 
 from .chromid import Chromid
-from .blast import BLAST
+from .blast import BLAST, BlastNoHitFoundException
 from .pssm_model import PSSMModel
 from .misc import weighted_choice
 from .misc import temp_file_name
 from .my_logger import my_logger
 from .bio_utils import reverse_complement
 from .bio_utils import weblogo
+from .gene import NotProteinCodingGeneException
 
 
 Site = namedtuple('Site', 'chromid start end strand score gene')
@@ -222,12 +223,13 @@ class Genome:
         # Perform a tblastn search with the given protein against the genome.
         # The blast_client returns a Biopython blast_record.
         blast_record = self.blast_client.tblastn(protein.to_fasta())
-        # Get the best hit to get the locus_tag and e-value of the first BLAST
-        # hit.
+        # Get the best hit to get the locus_tag and e-value of the first
+        # BLAST hit.
         locus_tag = self.blast_client.get_best_hit(blast_record)
         gene = self.get_gene_by_locus_tag(locus_tag)
         evalue = self.blast_client.get_e_value(blast_record)
-        return gene.to_protein(), evalue
+        protein = gene.to_protein()
+        return protein, evalue
 
     def identify_TF_instance(self, proteins):
         """Finds the instance of the transcription factor of interest.
@@ -248,7 +250,14 @@ class Genome:
 
         """
         # Find best BLAST hit for each given protein.
-        blast_hits = [self.find_protein_homolog(p) for p in proteins]
+        blast_hits = []
+        for p in proteins:
+            # Identify the protein of the genome that is homologous to p.
+            try:
+                homolog_protein = self.find_protein_homolog(p)
+                blast_hits.append(homolog_protein)
+            except (BlastNoHitFoundException, NotProteinCodingGeneException):
+                pass
         if blast_hits:
             # If there are BLAST hits, return the one with the best e-value.
             TF, _ = min(blast_hits, key=lambda x: x[1])

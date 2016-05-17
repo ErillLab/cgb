@@ -161,8 +161,10 @@ class Gene:
     @cached_property
     def protein_accession_number(self):
         """Returns the accession number of the protein coded by this gene."""
-        # TODO(sefa): throw execption if not protein coding gene
-        return self._product_feature.qualifiers['protein_id'][0]
+        try:
+            return self._product_feature.qualifiers['protein_id'][0]
+        except KeyError:
+            raise NotProteinCodingGeneException
 
     def to_protein(self):
         """Returns the protein object for the gene."""
@@ -214,3 +216,7 @@ class Gene:
 
     def __repr__(self):
         return self.locus_tag
+
+
+class NotProteinCodingGeneException:
+    pass

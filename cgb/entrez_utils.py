@@ -9,6 +9,7 @@ import os
 
 from Bio import Entrez
 from misc import directory
+from my_logger import my_logger
 
 Entrez.email = 'sefa1@umbc.edu'
 
@@ -21,6 +22,7 @@ def get_genome_record(accession):
     genbank_file = os.path.join(ENTREZ_DIRECTORY, accession+'.gb')
     if not os.path.isfile(genbank_file):
         # Download and save Genbank record
+        my_logger.info("Downloading %s" % accession)
         handle = Entrez.efetch(db='nuccore', id=accession,
                                retmode='gbwithparts', rettype='text')
         record = handle.read()
