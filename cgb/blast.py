@@ -39,7 +39,7 @@ class BLAST:
         # temporary files in temp directory, automatically named.
         self._in_file = temp_file_name(prefix=prefix, suffix='_input.fasta')
         self._db_file = temp_file_name(prefix=prefix, suffix='_blast.db')
-        self._log_file = temp_file_name(prefix=prefix, suffix='_makeblastdb.log')
+        self._log_file = temp_file_name(prefix=prefix, suffix='_mkblastdb.log')
         self._seq_fasta = seq_fasta
         self._db_type = db_type
         self.makeblastdb()      # Create BLAST database.

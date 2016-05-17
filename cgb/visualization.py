@@ -69,7 +69,8 @@ def heatmap_view(tree, orthologous_groups, save_dir):
             p_notregulation = reg_states[(node.name, '0')]
             p_absence = reg_states[(node.name, 'A')]
             # Color of the rectangle is based on probabilities
-            rect_face_bgcolor = rgb2hex(p_notregulation, p_regulation, p_absence)
+            rect_face_bgcolor = rgb2hex(
+                p_notregulation, p_regulation, p_absence)
             # Check if this species have a gene in this orthologous group
             gene = orthologous_grp.member_from_genome(node.name)
             rect_face_text = gene.locus_tag if gene else ''
@@ -121,7 +122,7 @@ def view_by_gene(tree, orthologous_grp, save_file):
         stacked_bar_face.margin_left = 5
         stacked_bar_face.margin_right = 5
         node.add_face(stacked_bar_face, column=1)
-         # Add locus tag if the genome has the gene from this orthologous group
+        # Add locus tag if the genome has the gene from this orthologous group
         if node.is_leaf():
             # Check if the orthologous group contains any gene of the genome
             gene = orthologous_grp.member_from_genome(node.name)
@@ -140,38 +141,6 @@ def view_all_genes(tree, orthologous_groups, save_dir):
                      os.path.join(save_dir, 'ortho_%04d.svg' % i))
 
 
-def view_by_taxon_(tree, orthologous_groups, node_name, display_threshold=0.95):
-    graph = nx.DiGraph()
-    graph.add_node(0, color='yellow', label='TF')
-
-    for i, orthologous_grp in enumerate(orthologous_groups, 1):
-        p_reg = orthologous_grp.regulation_states[(node_name, '1')]
-        p_not_reg = orthologous_grp.regulation_states[(node_name, '0')]
-        p_absence = orthologous_grp.regulation_states[(node_name, 'A')]
-        if p_reg <= display_threshold:
-            continue
-        description = (orthologous_grp.member_from_genome(node_name).product
-                       if orthologous_grp.member_from_genome(node_name)
-                       else orthologous_grp.description)
-        graph.add_node(i, fillcolor=rgb2hex(p_not_reg, p_reg, p_absence),
-                       label=description)
-        graph.add_edge(0, i, weight=p_reg)
-
-    graph.add_edge(0, 0, weight=1)
-
-    #print graph.nodes()
-    #pos = nx.drawing.nx_agraph.graphviz_layout(graph)
-    #nx.draw_networkx_nodes(graph, pos=pos, node_color=colors, alpha=0.8)
-    #nx.draw_networkx_edges(graph, pos=pos, alpha=0.2)
-    #nx.draw_networkx_labels(graph, pos=pos)
-    #nx.draw_networkx_labels(graph, pos=pos, labels=labels)
-
-    agraph = nx.nx_agraph.to_agraph(graph)
-    agraph.node_attr['style'] = 'filled'
-    agraph.node_attr['shape'] = 'rectangle'
-    agraph.draw('file.png', prog='circo')
-
-
 def view_by_taxon(node_name, orthologous_groups, save_file):
     # Find the orthologous groups that contains or are likely to contain a gene
     # of the taxon.
@@ -181,7 +150,8 @@ def view_by_taxon(node_name, orthologous_groups, save_file):
     locus_tags = []
     products = []
     # Sort orthologous groups by regulation probability at the taxon
-    orthologous_groups.sort(key=lambda grp: grp.regulation_states[(node_name, '1')])
+    orthologous_groups.sort(
+        key=lambda grp: grp.regulation_states[(node_name, '1')])
     for ortho_grp in orthologous_groups:
         reg_prob = ortho_grp.regulation_states[(node_name, '1')]
         not_reg_prob = ortho_grp.regulation_states[(node_name, '0')]
@@ -275,7 +245,8 @@ def all_plots(phylo, orthologous_groups, genomes, save_dir):
     view_all_taxa(biopython_to_ete3(phylo.tree), orthologous_groups, save_dir)
 
     # Network size plot
-    network_size_view(biopython_to_ete3(phylo.tree), orthologous_groups, save_dir)
+    network_size_view(
+        biopython_to_ete3(phylo.tree), orthologous_groups,  save_dir)
 
     # Motif phylogeny plot
     motif_view(biopython_to_ete3(phylo.tree), genomes, save_dir)

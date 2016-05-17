@@ -10,7 +10,7 @@ from .misc import directory
 from .phylo import Phylo
 from .user_input import UserInput
 from .orthologous_group import construct_orthologous_groups
-from .orthologous_group import orthologous_groups_to_csv
+from .orthologous_group import orthologous_grps_to_csv
 from .orthologous_group import ancestral_state_reconstruction
 from .orthologous_group import ancestral_states_to_csv
 from .visualization import all_plots
@@ -340,7 +340,7 @@ def create_orthologous_groups(user_input, genes, genomes):
     my_logger.info("Creating orthologous groups")
     groups = construct_orthologous_groups(genes, genomes)
     # Write groups to file
-    orthologous_groups_to_csv(groups, os.path.join(OUTPUT_DIR, 'orthologs.csv'))
+    orthologous_grps_to_csv(groups, os.path.join(OUTPUT_DIR, 'orthologs.csv'))
     return groups
 
 
