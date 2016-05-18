@@ -1,6 +1,7 @@
 import logging
 import csv
 from collections import namedtuple
+import random
 
 from cached_property import cached_property
 from tqdm import tqdm
@@ -178,8 +179,15 @@ class Genome:
         """
         # Create a PSSM model using site collections and associated weights.
         model = PSSMModel(collections, weights)
-        bg_seq = ''.join(self.random_seqs(model.length, 100000/model.length))
-        bg_scores = model.score_seq(bg_seq)
+        # Randomly select sites from promoter regions
+        promoters = [p for c in self.chromids for p in c.promoter_regions]
+        seqs = [p[start:start+model.length] for p in promoters
+                for start in xrange(len(p)-model.length)]
+        sampled_seqs = random.sample(seqs, min(100000, len(seqs)))
+        # Score randomly selected sites to estimate the bg distribution
+        bg_scores = []
+        for seq in tqdm(sampled_seqs):
+            bg_scores.append(model.score_seq(seq))
         # Create a Bayesian estimator which is used to compute the probability
         # of TF-binding of any given sequence.
         model.build_bayesian_estimator(bg_scores)
@@ -308,14 +316,15 @@ class Genome:
         regulons = []
         for opr in tqdm(self.operons):
             p = opr.calculate_regulation_probability(prior)
-            if p >= threshold:
-                regulons.append((opr, p))
+            regulons.append((opr, p))
         # Sort regulons by their posterior TF-binding probabilities.
         regulons.sort(key=lambda x: x[1], reverse=True)
         # Output results to the CSV file, if filename is provided.
         if filename:
             self._output_posterior_probabilities(regulons, filename)
-        return regulons
+
+        # filter regulons by the probability threshold
+        return [(opr, p) for (opr, p) in regulons if p >= threshold]
 
     def _output_posterior_probabilities(self, scan_results, filename):
         """Outputs posterior probabilities to a csv file.

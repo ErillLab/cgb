@@ -9,6 +9,7 @@ from . import bio_utils
 from .gene import Gene
 from .operon import Operon
 from .my_logger import my_logger
+from .misc import weighted_choice
 
 
 class Chromid:
@@ -65,6 +66,17 @@ class Chromid:
     def random_seqs(self, length, count):
         """Returns random sequences drawn from the chromid."""
         return [self.random_seq(length) for _ in xrange(count)]
+
+    @cached_property
+    def promoter_regions(self, up=-300, down=+50):
+        """Returns the list of all intergenic regions."""
+        return [opr.promoter_region(up, down) for opr in self.operons[1:-1]]
+
+    def random_seq_from_promoters(self, length):
+        promoters = self.promoter_regions
+        random_promoter = weighted_choice(promoters, map(len, promoters))
+        start = random.randint(0, len(random_promoter)-length)
+        return random_promoter[start:start+length]
 
     @cached_property
     def length(self):

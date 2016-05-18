@@ -50,7 +50,7 @@ class PSSMModel(TFBindingModel):
         return self._pwm.log_odds(self.background)
 
     @cached_property
-    def reverse_complement_pssm(self):
+    def rev_comp_pssm(self):
         """Returns the reverse complement of the PSSM."""
         return self.pssm.reverse_complement()
 
@@ -90,7 +90,23 @@ class PSSMModel(TFBindingModel):
         """Returns the list of scores of the sites that the model has."""
         return [self.score_seq(site) for site in self.sites]
 
+    def _calculate(self, pssm, sequence):
+        """Calculates the PSSM score of the sequence with ambiguous letters.
+
+        By default, Biopython's C module is used for scoring. This method is
+        called only for sequences that have ambiguous characters.
+        """
+        score = 0.0
+        for pos in xrange(len(sequence)):
+            try:
+                score += pssm[sequence[pos]][pos]
+            except KeyError:
+                # TODO(sefa): Handle ambiguous letters other than 'N'
+                score += sum(pssm[l][pos] for l in 'ACGT') / 4
+        return score
+
     def score_seq(self, seq, both=True):
+
         """Returns the PSSM score for a given sequence for all positions.
 
         The scores from both strands are combined with the soft-max function.
@@ -102,18 +118,19 @@ class PSSMModel(TFBindingModel):
         """
         seq = Seq(seq, self.alphabet)
         scores = self.pssm.calculate(seq)
-        rc_scores = self.reverse_complement_pssm.calculate(seq)
+        rc_scores = self.rev_comp_pssm.calculate(seq)
 
         if self.length == len(seq):
             # Biopython returns single number if len(seq)==len(pssm)
             scores, rc_scores = [scores], [rc_scores]
 
-        # Biopython handles ambiguous bases by returning NaN for sites that
-        # have any. Replace any with the minimum PSSM score possible
-        isnum = lambda x: not math.isnan(x)
-        scores = [scr if isnum(scr) else self.pssm.min for scr in scores]
-        rc_scores = [scr if isnum(scr) else self.reverse_complement_pssm.min
-                     for scr in rc_scores]
+        # Biopython doesn't handle ambiguous bases well. Calculate score for
+        # sites with ambiguous letters.
+        for i in xrange(len(scores)):
+            if math.isnan(scores[i]):
+                site = seq[i:i+self.length]
+                scores[i] = self._calculate(self.pssm, site)
+                rc_scores[i] = self._calculate(self.rev_comp_pssm, site)
 
         if both:
             scores = [log2(2**score + 2**rc_score)
