@@ -106,7 +106,6 @@ class PSSMModel(TFBindingModel):
         return score
 
     def score_seq(self, seq, both=True):
-
         """Returns the PSSM score for a given sequence for all positions.
 
         The scores from both strands are combined with the soft-max function.

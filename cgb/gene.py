@@ -69,7 +69,7 @@ class Gene:
             return genes[self._index+1]
         return None
 
-    def upstream_noncoding_region(self, up=None, down=50):
+    def upstream_noncoding_region_location(self, up=None, down=50):
         """Returns the upstream non-coding region.
 
         Args:
@@ -102,6 +102,11 @@ class Gene:
 
         return (upstream_forward_strand_gene() if self.is_forward_strand
                 else upstream_reverse_strand_gene())
+
+    def upstream_noncoding_region_sequence(self, up=None, down=50):
+        """Returns the sequence of the upstream region of the gene."""
+        start, end = self.upstream_noncoding_region_location(up, down)
+        return self.chromid.subsequence(start, end)
 
     @property
     def chromid(self):

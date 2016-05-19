@@ -166,9 +166,7 @@ class Chromid:
         threshold = self.genome.intergenic_distance_threshold
 
         # Find genes with binding sites in their promoters
-        genes_to_split = (set(site.gene for site in self.genome.putative_sites)
-                          if self.genome.has_putative_sites
-                          else [])
+        genes_to_split = [site.gene for site in self.genome.putative_sites]
 
         directons_rest = self.directons
         while directons_rest:

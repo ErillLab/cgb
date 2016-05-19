@@ -180,9 +180,10 @@ class Genome:
         # Create a PSSM model using site collections and associated weights.
         model = PSSMModel(collections, weights)
         # Randomly select sites from promoter regions
-        promoters = [p for c in self.chromids for p in c.promoter_regions]
-        seqs = [p[start:start+model.length] for p in promoters
-                for start in xrange(len(p)-model.length)]
+        noncoding_regions = [g.upstream_noncoding_region_sequence()
+                             for g in self.genes]
+        seqs = [seq[start:start+model.length] for seq in noncoding_regions
+                for start in xrange(len(seq)-model.length)]
         sampled_seqs = random.sample(seqs, min(100000, len(seqs)))
         # Score randomly selected sites to estimate the bg distribution
         bg_scores = []
@@ -349,12 +350,8 @@ class Genome:
     @property
     def putative_sites(self):
         """Returns the list of putative sites in non-coding regions."""
+        # 'identify_sites' method should be called before.
         return self._putative_sites
-
-    @property
-    def has_putative_sites(self):
-        """Returns true if the putative binding sites are identified."""
-        return hasattr(self, '_putative_sites')
 
     @property
     def weblogo_from_putative_sites(self):
@@ -384,17 +381,13 @@ class Genome:
                 report binding sites.
             filename (string): the CSV file to report putative binding sites.
         """
-        # If already computed, return the stored results.
-        if hasattr(self, '_putative_sites'):
-            return self._putative_sites
-
         threshold = self.TF_binding_model.threshold()  # score threshold
         site_len = self.TF_binding_model.length  # Length of the binding sites
         sites = []
         my_logger.debug("Identifying sites in %s" % self.strain_name)
         for gene in tqdm(self.genes):
             # Locate the upstream non-coding region.
-            start, end = gene.upstream_noncoding_region()
+            start, end = gene.upstream_noncoding_region_location()
             # Score forward strand
             seq = gene.chromid.subsequence(start, end)
             scores = self.TF_binding_model.score_seq(seq, both=False)
