@@ -243,7 +243,7 @@ def ancestral_states_to_csv(ortho_grps, phylo, filename):
                              for node in phylo.tree.find_clades()
                              for state in ['1', '0', 'A']])
         for ortho_grp in ortho_grps:
-            states = ortho_grp._regulation_states
+            states = ortho_grp.regulation_states
             csv_writer.writerow(
                 [', '.join(g.locus_tag for g in ortho_grp.genes),
                  ortho_grp.genes[0].product] +

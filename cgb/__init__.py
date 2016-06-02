@@ -273,7 +273,7 @@ def get_prior(genome, user_input, weights):
 
     print genome.TF_binding_model.IC
     prior = (genome.length /
-             2**genome.TF_binding_model.IC / 10 /
+             2**genome.TF_binding_model.IC /
              genome.num_operons)
     my_logger.info("Prior for %s: %f" % (genome.strain_name, prior))
     return prior
