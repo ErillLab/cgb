@@ -2,6 +2,7 @@ import cStringIO
 import random
 
 from Bio import SeqIO
+from Bio.SeqFeature import FeatureLocation
 from cached_property import cached_property
 
 from . import entrez_utils
@@ -100,6 +101,17 @@ class Chromid:
                 locus_tag = f.qualifiers['locus_tag']
                 next_locus_tag = next_f.qualifiers.get('locus_tag')
                 product_f = next_f if locus_tag == next_locus_tag else None
+                if type(f.location) != FeatureLocation:
+                    # FeatureLocation specifies the location of a feature along
+                    # a sequence. Other possible type is CompoundLocation which
+                    # is for handling joins etc where a feature location has
+                    # several parts. For now, skip if the gene is not
+                    # continuous.
+                    # TODO: Support for compound locations.
+                    my_logger.warning("Excluding %s [compound location]" %
+                                      locus_tag)
+                    index += 1
+                    continue
                 gene_list.append(Gene(index, self, f, product_f))
                 index += 1
         return gene_list
