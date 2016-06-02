@@ -181,7 +181,8 @@ def phylogenetic_weighting(site_collections, genome, phylogeny,
     # Convert phylogenetic distances to similarities
     total_branch_length = tree.total_branch_length()
     for c in tree.find_clades():
-        c.branch_length = 1.0 - c.branch_length / total_branch_length
+        if c.branch_length:
+            c.branch_length = 1.0 - c.branch_length / total_branch_length
 
     if clustalesque_weighting:
         # Weight similarities like CLUSTAL does for multiple sequence alignment
