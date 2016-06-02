@@ -177,6 +177,7 @@ class Genome:
             weights ([float]): list of weights, one per site collection
         Returns: None. Sets the _TF_binding_model attribute to the built model.
         """
+        my_logger.info("Building PSSM model (%s)" % self.strain_name)
         # Create a PSSM model using site collections and associated weights.
         model = PSSMModel(collections, weights)
         # Randomly select sites from promoter regions
@@ -313,6 +314,7 @@ class Genome:
             [(Operon, float)]: List of operons and their regulation
             probabilities, sorted by the probability.
         """
+        my_logger.info("Identifying putative regulons (%s)" % self.strain_name)
         # Find regulated operons
         regulons = []
         for opr in tqdm(self.operons):
@@ -384,7 +386,7 @@ class Genome:
         threshold = self.TF_binding_model.threshold()  # score threshold
         site_len = self.TF_binding_model.length  # Length of the binding sites
         sites = []
-        my_logger.debug("Identifying sites in %s" % self.strain_name)
+        my_logger.info("Identifying sites in %s" % self.strain_name)
         for gene in tqdm(self.genes):
             # Locate the upstream non-coding region.
             start, end = gene.upstream_noncoding_region_location()

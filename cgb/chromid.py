@@ -197,8 +197,8 @@ class Chromid:
                 operons.append(operon)
                 if i < len(directon):
                     directons_rest.append(directon[i:])
-        my_logger.info("Number of operons in %s: %d" %
-                       (self.accession_number, len(operons)))
+        my_logger.debug("Number of operons in %s: %d" %
+                        (self.accession_number, len(operons)))
         return [Operon(opr) for opr in operons]
 
     def find_closest_gene(self, pos):
