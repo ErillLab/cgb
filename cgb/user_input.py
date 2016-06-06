@@ -23,6 +23,11 @@ class UserInput:
                 for g in self._input['genomes']]
 
     @property
+    def genome_names(self):
+        """Returns the list of genome names used."""
+        return [g['name'] for g in self._input['genomes']]
+
+    @property
     def protein_accessions(self):
         """Returns the protein accession numbers."""
         return [p['protein_accession'] for p in self._input['motifs']]
