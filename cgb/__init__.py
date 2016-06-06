@@ -35,6 +35,11 @@ def create_genomes(user_input):
         [Genome]: list of created genomes
     """
     my_logger.info("Started: create genomes")
+    # Check for duplicates
+    if len(user_input.genome_names) != len(set(user_input.genome_names)):
+        my_logger.error("Duplicate in genomes. Exiting...")
+        raise SystemExit
+
     # Create genomes with given names and accession numbers.
     genomes = [Genome(name, accessions)
                for name, accessions in user_input.genome_name_and_accessions]
