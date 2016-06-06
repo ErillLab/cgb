@@ -54,10 +54,13 @@ class Phylo:
             distance_model (string): see DistanceCalculator.protein_models
             tree_algorithm (string): 'nj' or 'upgma'
         """
-        self._proteins = misc.unique(proteins, lambda p: p.accession_number)
-        self._names = names
+
         if names:
+            self._proteins = proteins
             assert len(proteins) == len(names)
+        else:
+            self._proteins = misc.unique(proteins, lambda p: p.accession_number)
+        self._names = names
         self._distance_model = distance_model
         self._tree_algorithm = tree_algorithm
 
