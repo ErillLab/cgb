@@ -37,7 +37,9 @@ def create_genomes(user_input):
     my_logger.info("Started: create genomes")
     # Check for duplicates
     if len(user_input.genome_names) != len(set(user_input.genome_names)):
-        my_logger.error("Duplicate in genomes. Exiting...")
+        duplicates = [name for name in set(user_input.genome_names)
+                      if user_input.genome_names.count(name) > 1]
+        my_logger.error("Duplicate in genomes. %s Exiting..." % duplicates)
         raise SystemExit
 
     # Create genomes with given names and accession numbers.
