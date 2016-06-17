@@ -188,21 +188,39 @@ def orthologous_grps_to_csv(groups, filename):
     genomes = list(set(g.genome for grp in groups for g in grp.genes))
     with open(filename, 'w') as csvfile:
         csv_writer = csv.writer(csvfile)
-        header_row = [field for genome in genomes
-                      for field in ['probability (%s)' % genome.strain_name,
-                                    'locus_tag (%s)' % genome.strain_name,
-                                    'product (%s)' % genome.strain_name]]
+        header_row = (['average_probability',
+                       'average_probability_all',
+                       'ortholog_group_size'] +
+                      [field for genome in genomes
+                       for field in ['probability (%s)' % genome.strain_name,
+                                     'locus_tag (%s)' % genome.strain_name,
+                                     'product (%s)' % genome.strain_name]])
         csv_writer.writerow(header_row)
+        csv_rows = []
         for group in groups:
-            row = []
-            for genome in genomes:
-                gene = group.member_from_genome(genome.strain_name)
+            genes = [group.member_from_genome(genome.strain_name)
+                     for genome in genomes]
+            # Average regulation probability
+            avg_p = mean([gene.operon.regulation_probability
+                          for gene in genes if gene])
+            # Average regulation probability (p=0 for absent genes in the grp)
+            avg_p_all = mean([gene.operon.regulation_probability
+                              if gene else 0
+                              for gene in genes])
+            # Orthologous group size
+            grp_size = len([gene for gene in genes if gene])
+            row = [avg_p, avg_p_all, grp_size]
+            for gene in genes:
                 if gene:
                     row.extend(['%.3f' % gene.operon.regulation_probability,
                                 gene.locus_tag, gene.product])
                 else:
                     row.extend(['', '', ''])
-            csv_writer.writerow(row)
+            csv_rows.append(row)
+
+        # Sort rows by average probability
+        csv_rows.sort(key=lambda row: row[1], reverse=True)
+        csv_writer.writerows(csv_rows)
 
 
 def ancestral_state_reconstruction(ortho_grps, phylo):
