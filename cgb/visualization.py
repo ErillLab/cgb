@@ -38,12 +38,11 @@ def rgb2hex(red, green, blue):
 
 def filter_and_sort_orthologous_grps(orthologous_groups, min_size=2):
     orthos = [grp for grp in orthologous_groups if len(grp.genes) >= min_size]
-
-    orthos.sort(
-        key=lambda grp:
-        len([gene for gene in grp.genes
-             if grp.most_likely_state_at(gene.genome.strain_name) == '1']),
-        reverse=True)
+    num_genomes = max(len(grp) for grp in orthos)
+    # Sort by average regulation probability
+    sort_fn = lambda grp: (sum(g.regulation_probability for g in grp) /
+                           num_genomes)
+    orthos.sort(key=sort_fn, reverse=True)
     return orthos
 
 
