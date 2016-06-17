@@ -16,6 +16,11 @@ def log2(x):
     return math.log(x, 2)
 
 
+def normalize(xs):
+    """Normalize the given list of values."""
+    return [float(x)/sum(xs) for x in xs]
+
+
 def weighted_choice(xs, weights, count=1):
     """Given a list of elements, randomly selects one based on weights.
     Args:

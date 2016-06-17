@@ -6,7 +6,7 @@ from .genome import Genome
 from .protein import Protein
 from .site_collection import SiteCollection
 from .my_logger import my_logger
-from .misc import directory
+from .misc import directory, normalize
 from .phylo import Phylo
 from .user_input import UserInput
 from .orthologous_group import construct_orthologous_groups
@@ -148,7 +148,8 @@ def site_count_weighting(site_collections):
     Returns:
         [float]: list of weights, not normalized
     """
-    return [collection.site_count for collection in site_collections]
+    weights = [collection.site_count for collection in site_collections]
+    return normalize(weights)
 
 
 def phylogenetic_weighting(site_collections, genome, phylogeny,
@@ -199,9 +200,10 @@ def phylogenetic_weighting(site_collections, genome, phylogeny,
     weights = []
     for acc in reference_proteins:
         other = tree.find_any(name=acc)
-        weights.append(1.0 - tree.distance(node, other) / tree.total_branch_length())
+        weight = 1.0 - tree.distance(node, other) / tree.total_branch_length()
+        weights.append(weight)
 
-    return weights
+    return normalize(weights)
 
 
 def compute_weights(genome, site_collections, phylogeny=None,
