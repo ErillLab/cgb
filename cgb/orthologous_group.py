@@ -8,6 +8,7 @@ from . import misc
 from . import visualization
 from . import bayestraits_wrapper
 from .my_logger import my_logger
+from .misc import mean
 
 
 class OrthologousGroup:
@@ -169,6 +170,8 @@ def construct_orthologous_groups(genes, genomes):
     """
     groups = []
     for gene in tqdm(genes):
+        if len(groups) > 5:
+            return groups
         # Check whether gene is already in a group, if it is, it skips the gene
         # (continue goes back to for loop beginning)
         if any(gene in grp.genes for grp in groups):
