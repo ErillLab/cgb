@@ -167,9 +167,10 @@ def phylogenetic_weighting(site_collections, genome, phylogeny,
             interest.
         clustalesque_weighting (bool): if true, the weights are still computed
             based on the phylogenetic distance, but branch lengths are inflated
-            proportional to the number of terminal nodes in each branch. Doing
-            so would down-weight the evidence from closer species and up-weight
-            the evidence from the most divergent ones.
+            proportional to the number of terminal nodes with experimental
+            evidence in each branch. Doing so would down-weight the evidence
+            from closer species and up-weight the evidence from the most
+            divergent ones.
     Returns:
         [float]: list of weights, not normalized.
     """
@@ -179,17 +180,6 @@ def phylogenetic_weighting(site_collections, genome, phylogeny,
                           for collection in site_collections]
     # Don't modify the original tree
     tree = copy.deepcopy(phylogeny.tree)
-    # Prune nodes except the target species and the species with evidence
-    for c in tree.get_terminals():
-        if not (c.name == genome.TF_instance.accession_number or
-                c.name in reference_proteins):
-            tree.prune(c)
-
-    # Convert phylogenetic distances to similarities
-    total_branch_length = tree.total_branch_length()
-    for c in tree.find_clades():
-        if c.branch_length:
-            c.branch_length = 1.0 - c.branch_length / total_branch_length
 
     if clustalesque_weighting:
         # Weight similarities like CLUSTAL does for multiple sequence alignment
@@ -197,16 +187,19 @@ def phylogenetic_weighting(site_collections, genome, phylogeny,
         outgroup = tree.find_any(name=genome.TF_instance.accession_number)
         tree.root_with_outgroup(outgroup)
         # Down-weight all branches with multiple species with evidence
-        for protein in reference_proteins:
-            node = tree.find_any(name=protein)
-            for c in tree.get_path(node):
-                c.branch_length /= c.count_terminals()
+        for c in tree.find_clades():
+            if not c.branch_length:
+                continue
+            # Count the number of species with evidence under this clade
+            cnt = len([p for p in reference_proteins if c.find_any(name=p)])
+            if cnt > 0:
+                c.branch_length *= cnt
 
     node = tree.find_any(name=genome.TF_instance.accession_number)
     weights = []
     for acc in reference_proteins:
         other = tree.find_any(name=acc)
-        weights.append(tree.distance(node, other))
+        weights.append(1.0 - tree.distance(node, other) / tree.total_branch_length())
 
     return weights
 
