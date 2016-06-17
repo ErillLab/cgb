@@ -1,6 +1,8 @@
 import os
 import pickle
 import copy
+import glob
+import shutil
 
 from .genome import Genome
 from .protein import Protein
@@ -399,6 +401,22 @@ def perform_ancestral_state_reconstruction(user_input, genomes,
     phylo.draw(os.path.join(OUTPUT_DIR, "phylogeny.png"))
 
 
+def create_output_directory():
+    # Create if it does not exist
+    wd = directory(OUTPUT_DIR)
+    my_logger.info("Output directory: %s" % wd)
+
+    # Delete everything
+    choice = raw_input("Removing following files:\n" +
+                       ', '.join(os.listdir(wd)) + '\n' +
+                       "Are you sure? (y:yes, n:no) ")
+    if choice == 'y':
+        for x in glob.glob(os.path.join(wd, '*')):
+            if os.path.isfile(x):
+                os.remove(x)
+            else:
+                shutil.rmtree(os.path.join(x))
+
 def go(input_file):
     """The entry-point for the pipeline."""
     # Read user input and configuration from two files
@@ -406,7 +424,7 @@ def go(input_file):
     pickle_dump(user_input, 'user_input.pkl')
 
     # Make output directory
-    directory(OUTPUT_DIR)
+    create_output_directory()
 
     # Create proteins
     proteins = create_proteins(user_input)
