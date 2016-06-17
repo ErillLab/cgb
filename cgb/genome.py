@@ -87,6 +87,14 @@ class Genome:
         """Returns all operons of the genome."""
         return [opr for chromid in self.chromids for opr in chromid.operons]
 
+    def operon_prediction(self, *args, **kwargs):
+        """Predicts operons for each chromid.
+
+        See chromid.operon_prediction for details.
+        """
+        for chromid in self.chromids:
+            chromid.operon_prediction(*args, **kwargs)
+
     @cached_property
     def length(self):
         """Returns the total length of the genome."""
@@ -297,13 +305,15 @@ class Genome:
 
         self._TF_instance = TF
 
-    def infer_regulation(self, prior, threshold=0.5, filename=None):
+    def calculate_regulation_probabilities(self, prior):
+        """Calculates posterior probability of regulation for _all_ genes."""
+        for gene in tqdm(self.genes):
+            gene.calculate_regulation_probability(prior)
+
+    def infer_regulons(self, threshold=0.5, filename=None):
         """Scans upstream regions of all operons for binding sites.
 
         Args:
-            prior (float): The prior probability of TF-binding to any promoter
-                region. It is set by the user or estimated based on the number
-                of operons and the size of the provided TF-binding motif.
             threshold (float): The threshold for posterior probability of
                 binding. Only the operons with a TF-binding probability higher
                 than the threshold are reported.
@@ -316,20 +326,16 @@ class Genome:
         """
         my_logger.info("Identifying putative regulons (%s)" % self.strain_name)
         # Find regulated operons
-        regulons = []
-        for opr in tqdm(self.operons):
-            p = opr.calculate_regulation_probability(prior)
-            regulons.append((opr, p))
-        # Sort regulons by their posterior TF-binding probabilities.
-        regulons.sort(key=lambda x: x[1], reverse=True)
+        results = [(opr, opr.regulation_probability) for opr in self.operons]
+        # Sort results by posterior probability.
+        results.sort(key=lambda x: x[1], reverse=True)
         # Output results to the CSV file, if filename is provided.
         if filename:
-            self._output_posterior_probabilities(regulons, filename)
-
+            self._output_posterior_probabilities(results, filename)
         # filter regulons by the probability threshold
-        return [(opr, p) for (opr, p) in regulons if p >= threshold]
+        return [opr for (opr, p) in results if p >= threshold]
 
-    def _output_posterior_probabilities(self, scan_results, filename):
+    def _output_posterior_probabilities(self, results, filename):
         """Outputs posterior probabilities to a csv file.
 
         Args:
@@ -341,7 +347,7 @@ class Genome:
             header_row = ['probability', 'operon_start', 'operon_end',
                           'operon_strand', 'genes', 'products']
             csv_writer.writerow(header_row)
-            for opr, prob in scan_results:
+            for opr, prob in results:
                 gene_names = ', '.join(g.locus_tag for g in opr.genes)
                 products = ', '.join(g.locus_tag + ' (%s)' % g.product
                                      for g in opr.genes)

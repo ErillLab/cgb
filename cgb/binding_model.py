@@ -1,11 +1,12 @@
-import logging
-
 # Enforces the definition of virtual methods in derived classes
 from abc import ABCMeta, abstractmethod, abstractproperty
 
 import numpy as np
 import scipy.stats
 from cached_property import cached_property
+
+from .my_logger import my_logger
+
 
 
 class TFBindingModel():
@@ -72,15 +73,17 @@ class TFBindingModel():
         Args:
             bg_scores (list): List of PSSM scores of sequences from background.
         """
-        logging.debug("Building Bayesian estimator.")
+        my_logger.debug("Building Bayesian estimator.")
         # Estimate the mean/std of functional site scores.
         pssm_scores = self.score_self()
         self._mu_m, self._std_m = np.mean(pssm_scores), np.std(pssm_scores)
         # Estimate the mean/std of the background scores.
         self._mu_bg, self._std_bg = np.mean(bg_scores), np.std(bg_scores)
 
-        print 'regulation parameters:', self._mu_m, self._std_m
-        print 'background parameters:', self._mu_bg, self._std_bg
+        my_logger.info("Regulation parameters: %.2f %.2f" %
+                       (self._mu_m, self._std_m))
+        my_logger.info("Background parameters: %.2f %.2f" %
+                       (self._mu_bg, self._std_bg))
 
     def binding_probability(self, seq, p_motif, alpha=1/350.0):
         """Returns the probability of binding to the given seq.

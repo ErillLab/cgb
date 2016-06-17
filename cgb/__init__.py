@@ -128,7 +128,7 @@ def create_site_collections(user_input, proteins):
     Returns:
         [SiteCollection]: the list of SiteCollection objects, one per protein.
     """
-    my_logger.info("Started: create site collections")
+    my_logger.debug("Started: create site collections")
     collections = [SiteCollection(sites, protein)
                    for sites, protein in zip(user_input.sites_list, proteins)]
     my_logger.debug("Writing site collections.")
@@ -136,7 +136,7 @@ def create_site_collections(user_input, proteins):
     for collection in collections:
         collection.to_jaspar(
             os.path.join(output_dir, collection.TF.accession_number+'.jaspar'))
-    my_logger.info("Finished: create site collections")
+    my_logger.debug("Finished: create site collections")
     return collections
 
 
@@ -216,11 +216,11 @@ def compute_weights(genome, site_collections, phylogeny=None,
         site_counts (bool): if true, evidence is weighted by the number of
             sites in each collection
     """
-    my_logger.info("Computing weights for %s..." % genome.strain_name)
-    my_logger.info("Use phylogeny: %s" % bool(phylogeny))
-    my_logger.info("Use site counts: %s" % bool(site_counts))
+    my_logger.debug("Computing weights for %s..." % genome.strain_name)
+    my_logger.debug("Use phylogeny: %s" % bool(phylogeny))
+    my_logger.debug("Use site counts: %s" % bool(site_counts))
 
-    my_logger.info('Site collections from %s' %
+    my_logger.debug('Site collections from %s' %
                    [c.TF.accession_number for c in site_collections])
     weights = [1.0 for _ in site_collections]  # Equal weights by default
     if phylogeny:
@@ -279,8 +279,8 @@ def get_prior(genome, user_input, weights):
     return prior
 
 
-def infer_regulations(user_input, genome, prior):
-    """Scans the given for TF-binding sites and writes results to csv files.
+def infer_regulons(user_input, genome):
+    """Identifies regulons and writes results to csv files.
 
     The operons with a promoter that has TF-binding probability larger than the
     defined threshold (default 0.5) are reported.
@@ -288,22 +288,19 @@ def infer_regulations(user_input, genome, prior):
     Args:
        user_input (UserInput): the user-provided options
        genome (Genome): the genome of interest
-       prior (float): the prior probability of binding to a promoter
     Returns:
-       [Gene]: list of regulated genes
+       [Operon]: list of regulated operons
 
     """
     output_dir = directory(OUTPUT_DIR, 'posterior_probs')
-    # Get the probability threshold
+    # Get the posterior probability threshold used for reporting
     threshold = user_input.probability_threshold
     my_logger.info("Regulation probability threshold: %.2f" % threshold)
     my_logger.info("Inferring regulations for (%s)." % genome.strain_name)
-    my_logger.info("Prior probability of regulation: %f" % prior)
     report_filename = os.path.join(output_dir, genome.strain_name+'.csv')
-    # Scan the genome to compute binding probability for each promoter.
-    genome_scan = genome.infer_regulation(prior, threshold, report_filename)
-    # Return the list of regulated genes.
-    return [g for opr, _ in genome_scan for g in opr.genes]
+    # Return the regulons with posterior probability of regulation higher than
+    # the given threshold.
+    return genome.infer_regulons(threshold, report_filename)
 
 
 def search_sites(user_input, genome):
@@ -324,7 +321,7 @@ def search_sites(user_input, genome):
     genome.identify_sites(filename=report_filename)
 
 
-def create_orthologous_groups(user_input, genes, genomes):
+def create_orthologous_groups(user_input, regulons, genomes):
     """Creates orthologous groups from the given list of genes.
 
     For each gene in the list, it searches for orthologs in other genomes and
@@ -339,6 +336,7 @@ def create_orthologous_groups(user_input, genes, genomes):
         [OrthologousGroup]: the list of orthologous groups.
     """
     my_logger.info("Creating orthologous groups")
+    genes = [g for regulon in regulons for g in regulon.genes]
     groups = construct_orthologous_groups(genes, genomes)
     # Write groups to file
     orthologous_grps_to_csv(groups, os.path.join(OUTPUT_DIR, 'orthologs.csv'))
@@ -427,8 +425,10 @@ def go(input_file):
     # Create binding evidence
     site_collections = create_site_collections(user_input, proteins)
 
-    all_regulated_genes = []
+    all_regulons = []
     for genome in genomes:
+        my_logger.info("-" * 80)
+        my_logger.info("Processing %s" % genome.strain_name)
         # Create weights for combining motifs and inferring priors, if not set
         phylo_weighting = (phylogeny if user_input.phylogenetic_weighting
                            else None)
@@ -436,20 +436,27 @@ def go(input_file):
         weights = compute_weights(genome, site_collections,
                                   phylo_weighting, site_count_weighting)
         # Set TF-binding model for each genome.
+        my_logger.info("Setting TF-binding model (%s)" % genome.strain_name)
         set_TF_binding_model(user_input, genome, site_collections, weights)
-        # Score genome
-        search_sites(user_input, genome)
-        # Infer regulons
+        # Infer prior probabilities of regulation
         prior = get_prior(genome, user_input, weights)
-        regulated_genes = infer_regulations(user_input, genome, prior)
-        all_regulated_genes.extend(regulated_genes)
+        my_logger.info("Prior(regulation; %s): %.2f" % (genome.strain_name, prior))
+        # Calculate posterior probabilities of regulation
+        my_logger.info("Calculating regulation probabilities (%s)" %
+                       genome.strain_name)
+        genome.calculate_regulation_probabilities(prior)
+        # Predict operons
+        my_logger.info("Predicting operons (%s)" % genome.strain_name)
+        genome.operon_prediction(user_input.operon_prediction_probability_threshold)
+        # Infer regulons
+        regulons = infer_regulons(user_input, genome)
+        all_regulons.extend(regulons)
         # Output operons
         output_operons(user_input, genome)
     pickle_dump(genomes, 'genomes.pkl')
 
     # Create orthologous groups
-    ortholog_groups = create_orthologous_groups(
-        user_input, all_regulated_genes, genomes)
+    ortholog_groups = create_orthologous_groups(user_input, all_regulons, genomes)
     pickle_dump(ortholog_groups, 'orthos.pkl')
 
     # Ancestral state reconstruction step

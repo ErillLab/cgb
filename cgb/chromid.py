@@ -124,7 +124,7 @@ class Chromid:
     @cached_property
     def operons(self):
         """Returns the list of operons of the chromosome/plasmid."""
-        return self._operon_prediction()
+        return self._operons
 
     def genes_to_fasta(self):
         """Returns the sequences of all genes in FASTA format."""
@@ -156,7 +156,7 @@ class Chromid:
         return [directon if directon[0].is_forward_strand else directon[::-1]
                 for directon in directons]
 
-    def _operon_prediction(self):
+    def operon_prediction(self, probability_th):
         """Identifies all operons of the chromosome/plasmid.
 
         Two neighboring genes in the same strand are considered to be in the
@@ -171,14 +171,21 @@ class Chromid:
         to improve the operon predictions. If a gene with a putative
         binding site in its promoter is in the middle of an operon, the
         operon is split.
+
+        probability_th (float): The posterior probability of threshold
+        for post-hoc operon splitting. If an intermediate gene has an
+        associated posterior probability of regulation (TF-binding to its
+        upstream) higher than the threshold, the operon is split and the gene
+        becomes the first gene of the split operon.
         """
         my_logger.info("Predicting operons - %s (%s)" %
                        (self.accession_number, self.genome.strain_name))
         operons = []
-        threshold = self.genome.intergenic_distance_threshold
+        distance_th = self.genome.intergenic_distance_threshold
 
-        # Find genes with binding sites in their promoters
-        genes_to_split = [site.gene for site in self.genome.putative_sites]
+        # Find regulated genes by TF-binding to their promoter regions
+        genes_to_split = [gene for gene in self.genes
+                          if gene.regulation_probability > probability_th]
 
         directons_rest = self.directons
         while directons_rest:
@@ -188,7 +195,7 @@ class Chromid:
                 operon = [directon[0]]
                 i = 1
                 while i < len(directon):
-                    if directon[i-1].distance(directon[i]) >= threshold:
+                    if directon[i-1].distance(directon[i]) >= distance_th:
                         break
                     if directon[i] in genes_to_split:
                         break
@@ -199,7 +206,7 @@ class Chromid:
                     directons_rest.append(directon[i:])
         my_logger.debug("Number of operons in %s: %d" %
                         (self.accession_number, len(operons)))
-        return [Operon(opr) for opr in operons]
+        self._operons = [Operon(opr) for opr in operons]
 
     def find_closest_gene(self, pos):
         """Returns the closest gene and its distance to the pos.

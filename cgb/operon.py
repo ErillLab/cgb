@@ -67,40 +67,9 @@ class Operon:
         else:
             return self._genes[-1]
 
-    def promoter_region(self, up=-300, down=+50):
-        """Returns the promoter region of the operon."""
-        if self.is_forward_strand:
-            loc_start = max(0, self.first_gene.start+up)
-            loc_end = self.first_gene.start+down
-        else:
-            loc_start = self.first_gene.end-down
-            loc_end = min(self.chromid.length, self.first_gene.end-up)
-
-        return self.chromid.subsequence(loc_start, loc_end)
-
-    def calculate_regulation_probability(self, prior_regulation):
-        """Returns the probability of regulation of the operon.  This is the
-        posterior probability of regulation given the string of TF-binding
-        model scores along the promoter region mapping to the operon.
-
-        Args:
-            prior_regulation (float): the prior probability of regulation
-
-        """
-        # Get the TF-binding model adapted to the genome to which the operon
-        # belongs.
-        binding_model = self.genome.TF_binding_model
-        # Invoke the binding_model method that returns the binding probability
-        # for promoter regions assigned to this operon, using the provided
-        # prior
-        self._regulation_probability = binding_model.binding_probability(
-            self.promoter_region(), prior_regulation)
-        return self._regulation_probability
-
     @property
     def regulation_probability(self):
-        """Returns the regulation probability of the operon."""
-        return self._regulation_probability
+        return self.first_gene.regulation_probability
 
     @property
     def is_probably_regulated(self):

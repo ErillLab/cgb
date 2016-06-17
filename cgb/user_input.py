@@ -82,7 +82,7 @@ class UserInput:
         The default value for the probability threshold is 0.5
         """
         try:
-            value = self._input['posterior_probability_threshold']
+            value = self._input['posterior_probability_threshold_for_reporting']
         except KeyError:
             value = 0.5
         return value
@@ -103,4 +103,15 @@ class UserInput:
             value = self._input['site_count_weighting']
         except KeyError:
             value = False
+        return value
+
+    @property
+    def operon_prediction_probability_threshold(self):
+        """Returns the threshold for posterior probability of regulation used
+        for operon prediction. The default value is 0.5.
+        """
+        try:
+            value = self._input['posterior_probability_threshold_for_operon_prediction']
+        except KeyError:
+            value = 0.5
         return value

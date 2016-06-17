@@ -108,6 +108,39 @@ class Gene:
         start, end = self.upstream_noncoding_region_location(up, down)
         return self.chromid.subsequence(start, end)
 
+    def promoter_region(self, up=-300, down=+50):
+        """Returns the promoter region of the gene."""
+        if self.is_forward_strand:
+            loc_start = max(0, self.start+up)
+            loc_end = self.start+down
+        else:
+            loc_start = self.end-down
+            loc_end = min(self.chromid.length, self.end-up)
+
+        return self.chromid.subsequence(loc_start, loc_end)
+
+    def calculate_regulation_probability(self, prior_regulation):
+        """Returns the posterior probability of regulation given the TF-binding
+        model scores along the gene promoter region.
+
+        Args:
+            prior_regulation (float): the prior probability of regulation
+        """
+        # Get the TF-binding model adapted to the genome to which the operon
+        # belongs.
+        binding_model = self.genome.TF_binding_model
+        # Invoke the binding_model method that returns the binding probability
+        # for promoter regions assigned to this operon, using the provided
+        # prior
+        self._regulation_probability = binding_model.binding_probability(
+            self.promoter_region(), prior_regulation)
+        return self._regulation_probability
+
+    @property
+    def regulation_probability(self):
+        """Returns the regulation probability of the operon."""
+        return self._regulation_probability
+
     @property
     def chromid(self):
         """Returns the Chromid that the gene belongs to."""
