@@ -115,3 +115,14 @@ class UserInput:
         except KeyError:
             value = 0.5
         return value
+
+    @property
+    def ancestral_state_reconstruction(self):
+        """Returns True/False which specifies whether ancestral state reconstruction
+        will be performed or not.
+        """
+        try:
+            value = self._input['ancestral_state_reconstruction']
+        except:
+            value = False
+        return value

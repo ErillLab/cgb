@@ -496,9 +496,9 @@ def go(input_file):
     #pickle_dump(ortholog_groups, 'orthos.pkl')
 
     # Ancestral state reconstruction step
-    perform_ancestral_state_reconstruction(
-        user_input, genomes, ortholog_groups)
-
+    if user_input.ancestral_state_reconstruction:
+        perform_ancestral_state_reconstruction(
+            user_input, genomes, ortholog_groups)
     #pickle_dump(ortholog_groups, 'orthos2.pkl')
 
     # Create phylogenetic tree of target genomes only

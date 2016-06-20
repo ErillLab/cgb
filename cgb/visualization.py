@@ -60,18 +60,27 @@ def heatmap_view(tree, orthologous_groups, save_dir):
     # Sort orthologous groups by the number of regulated genes in each group
     orthologous_groups = filter_and_sort_orthologous_grps(orthologous_groups)
 
+    genome_names = [node.name for node in tree.get_leaves()]
     # For each species and its gene in each orthologous group, draw a rectangle
-    for node in tree.get_leaves():
+    for genome_name in genome_names:
         for i, orthologous_grp in enumerate(orthologous_groups, start=1):
-            reg_states = orthologous_grp.regulation_states
-            p_regulation = reg_states[(node.name, '1')]
-            p_notregulation = reg_states[(node.name, '0')]
-            p_absence = reg_states[(node.name, 'A')]
+            try:
+                # Find the ortholog from the genome in the group
+                gene, = [g for g in orthologous_grp.genes
+                         if g.genome.strain_name == genome_name]
+                print gene
+                p_regulation = gene.operon.regulation_probability
+                p_notregulation = 1.0 - p_regulation
+                p_absence = 0
+            except ValueError:  # No ortholog from this genome
+                gene = None
+                p_regulation = 0
+                p_notregulation = 0
+                p_absence = 1
+
             # Color of the rectangle is based on probabilities
             rect_face_bgcolor = rgb2hex(
                 p_notregulation, p_regulation, p_absence)
-            # Check if this species have a gene in this orthologous group
-            gene = orthologous_grp.member_from_genome(node.name)
             rect_face_text = gene.locus_tag if gene else ''
             rect_face_label = {'text': rect_face_text,
                                'font': 'Courier',
@@ -93,8 +102,6 @@ def heatmap_view(tree, orthologous_groups, save_dir):
     descriptions = [
         '(%d) ' % i + description + ' '*(max_description_len-len(description))
         for i, description in enumerate(descriptions, start=1)]
-    # Append space to make descriptions look nicer
-
     for i, description in enumerate(descriptions, start=1):
         text_face = TextFace(description, ftype='Courier')
         text_face.hz_align = 1
