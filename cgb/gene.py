@@ -212,12 +212,20 @@ class Gene:
         """Returns the homologous gene in the given genome."""
         return genome.find_gene_homolog(self)
 
-    def reciprocal_blast_hit(self, genome):
+    def reciprocal_blast_hit(self, genome, cache):
         """Returns the reciprocal best hit against a provided genome.
 
         The function uses "find_homolog_in_genome", which calls the
         "find_gene_homolog" in the respective genome to search using BLAST.
         """
+        # Check if the cache contains the reciprocal BLAST hit
+        key = (self.locus_tag,
+               tuple([c.accession_number for c in genome.chromids]))
+        if key in cache.keys():
+            return cache[key]
+
+        # Search for reciprocal best BLAST hit
+        cache[key] = None
         try:
             # Find the best hit in the other genome
             best_hit, _ = self.find_homolog_in_genome(genome)
@@ -226,12 +234,12 @@ class Gene:
             # If the reciprocal hit is the very own gene, return the target
             # genome hit as the best_reciprocal BLAST hit for the gene
             if self == reciprocal_hit:
-                return best_hit
+                cache[key] = best_hit
         # Handle lack of significant results from the BLAST search (in either
         # direction)
         except BlastNoHitFoundException:
             my_logger.debug("No reciprocal BLAST hit for %s." % self.locus_tag)
-            return None
+        return cache[key]
 
     def distance(self, other):
         """Returns the distance between two genes.

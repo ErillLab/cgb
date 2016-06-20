@@ -151,7 +151,7 @@ class OrthologousGroup:
 # export them in CSV format.
 
 
-def construct_orthologous_groups(genes, genomes):
+def construct_orthologous_groups(genes, genomes, cache):
     """Constructs orthologous groups starting with the given list of genes.
 
     For each genome, candidate genes that are identified as likely to be
@@ -166,7 +166,7 @@ def construct_orthologous_groups(genes, genomes):
     Each orthologous group is a list of gene objects that have been found
     to be best-reciprocal BLAST hits.
 
-    The function returns a list of orthologous groups
+    The function returns a list of orthologous groups.
     """
     groups = []
     for gene in tqdm(genes):
@@ -179,7 +179,7 @@ def construct_orthologous_groups(genes, genomes):
         # If gene not in any group, create list of orthologous genes by
         # performing reciprocal BLAST against all genomes that are not the
         # gene's own genome
-        rbhs = [gene.reciprocal_blast_hit(other_genome)
+        rbhs = [gene.reciprocal_blast_hit(other_genome, cache)
                 for other_genome in genomes if gene.genome != other_genome]
         # Create the orthologous group with gene + orthologs on all other
         # genomes [if there are orthologs in the respective genomes]

@@ -26,6 +26,15 @@ def pickle_dump(obj, filename):
     pickle.dump(obj, open(os.path.join(PICKLE_DIR, filename), 'w'))
 
 
+def pickle_load(filename):
+    file_path = os.path.join(PICKLE_DIR, filename)
+    if os.path.isfile(file_path):
+        obj = pickle.load(open(file_path))
+    else:
+        obj = None
+    return obj
+
+
 def create_genomes(user_input):
     """Creates all genomes used in the analysis.
 
@@ -341,7 +350,14 @@ def create_orthologous_groups(user_input, regulons, genomes):
     """
     my_logger.info("Creating orthologous groups")
     genes = [g for regulon in regulons for g in regulon.genes]
-    groups = construct_orthologous_groups(genes, genomes)
+    # Load cache
+    cache_file = "rbh_cache.pkl"
+    my_logger.info("Loading orthologs cache.")
+    cache = pickle_load(cache_file) or dict()
+    # Construct orthologous groups
+    groups = construct_orthologous_groups(genes, genomes, cache)
+    # Update cache
+    pickle_dump(cache, cache_file)
     # Write groups to file
     orthologous_grps_to_csv(groups, os.path.join(OUTPUT_DIR, 'orthologs.csv'))
     return groups
@@ -421,14 +437,14 @@ def go(input_file):
     """The entry-point for the pipeline."""
     # Read user input and configuration from two files
     user_input = UserInput(input_file)
-    pickle_dump(user_input, 'user_input.pkl')
+    #pickle_dump(user_input, 'user_input.pkl')
 
     # Make output directory
     create_output_directory()
 
     # Create proteins
     proteins = create_proteins(user_input)
-    pickle_dump(proteins, 'proteins.pkl')
+    #pickle_dump(proteins, 'proteins.pkl')
 
     # Create genomes
     genomes = create_genomes(user_input)
@@ -440,7 +456,7 @@ def go(input_file):
 
     # Create phylogeny
     phylogeny = create_phylogeny(genomes, proteins, user_input)
-    pickle_dump(phylogeny, 'phylogeny.pkl')
+    #pickle_dump(phylogeny, 'phylogeny.pkl')
 
     # Create binding evidence
     site_collections = create_site_collections(user_input, proteins)
@@ -473,17 +489,17 @@ def go(input_file):
         all_regulons.extend(regulons)
         # Output operons
         output_operons(user_input, genome)
-    pickle_dump(genomes, 'genomes.pkl')
+    #pickle_dump(genomes, 'genomes.pkl')
 
     # Create orthologous groups
     ortholog_groups = create_orthologous_groups(user_input, all_regulons, genomes)
-    pickle_dump(ortholog_groups, 'orthos.pkl')
+    #pickle_dump(ortholog_groups, 'orthos.pkl')
 
     # Ancestral state reconstruction step
     perform_ancestral_state_reconstruction(
         user_input, genomes, ortholog_groups)
 
-    pickle_dump(ortholog_groups, 'orthos2.pkl')
+    #pickle_dump(ortholog_groups, 'orthos2.pkl')
 
     # Create phylogenetic tree of target genomes only
     phylo_target_genomes = Phylo([g.TF_instance for g in genomes],
