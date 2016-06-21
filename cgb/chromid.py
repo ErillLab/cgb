@@ -156,7 +156,7 @@ class Chromid:
         return [directon if directon[0].is_forward_strand else directon[::-1]
                 for directon in directons]
 
-    def operon_prediction(self, probability_th):
+    def operon_prediction(self, probability_th, sigma):
         """Identifies all operons of the chromosome/plasmid.
 
         Two neighboring genes in the same strand are considered to be in the
@@ -177,11 +177,13 @@ class Chromid:
         associated posterior probability of regulation (TF-binding to its
         upstream) higher than the threshold, the operon is split and the gene
         becomes the first gene of the split operon.
+
+        sigma (float): The intergenic distance tuning parameter.
         """
         my_logger.info("Predicting operons - %s (%s)" %
                        (self.accession_number, self.genome.strain_name))
         operons = []
-        distance_th = self.genome.intergenic_distance_threshold
+        distance_th = self.genome.intergenic_distance_threshold(sigma)
 
         # Find regulated genes by TF-binding to their promoter regions
         genes_to_split = [gene for gene in self.genes

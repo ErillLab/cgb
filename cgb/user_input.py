@@ -111,13 +111,27 @@ class UserInput:
         for operon prediction. The default value is 0.5.
         """
         try:
-            value = self._input['posterior_probability_threshold_for_operon_prediction']
+            value = self._input['operon_prediction_probability_threshold']
         except KeyError:
             value = 0.5
         return value
 
     @property
+    def operon_prediction_distance_tuning_parameter(self):
+        """Returns the sigma value used to calibrate distance threshold used
+        for operon prediction. The value should be positive. The default value
+        is 1.0. Values greater than 1.0 results in higher intergenic distance
+        threshold, therefore, less number of operons.
+        """
+        try:
+            value = self._input['operon_prediction_distance_tuning_parameter']
+        except KeyError:
+            value = 1.0
+        return value
+
+    @property
     def ancestral_state_reconstruction(self):
+
         """Returns True/False which specifies whether ancestral state reconstruction
         will be performed or not.
         """

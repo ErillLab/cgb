@@ -72,15 +72,17 @@ class Genome:
         """Returns the list of directons in all chromids."""
         return [d for chromid in self.chromids for d in chromid.directons]
 
-    @cached_property
-    def intergenic_distance_threshold(self):
+    def intergenic_distance_threshold(self, sigma=1.0):
         """The intergenic distance threshold used for operon prediction.
 
         Two adjacent genes on the same strand belong to the same operon if
         the distance between them is less than the determined threshold.
+
+        Args: sigma (float): scale factor to calibrate the operon prediction
+            distance threshold.
         """
         dists = [d[0].distance(d[1]) for d in self.directons if len(d) > 1]
-        return mean(dists)
+        return sigma * mean(dists)
 
     @cached_property
     def operons(self):

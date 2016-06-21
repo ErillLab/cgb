@@ -483,7 +483,12 @@ def go(input_file):
         genome.calculate_regulation_probabilities(prior)
         # Predict operons
         my_logger.info("Predicting operons (%s)" % genome.strain_name)
-        genome.operon_prediction(user_input.operon_prediction_probability_threshold)
+        genome.operon_prediction(
+            user_input.operon_prediction_probability_threshold,
+            user_input.operon_prediction_distance_tuning_parameter)
+        my_logger.info("Number of operons (%s): %d" %
+                       (genome.strain_name, genome.num_operons))
+
         # Infer regulons
         regulons = infer_regulons(user_input, genome)
         all_regulons.extend(regulons)
