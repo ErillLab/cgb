@@ -9,6 +9,7 @@ from . import visualization
 from . import bayestraits_wrapper
 from .my_logger import my_logger
 from .misc import mean
+from .blast import BLAST
 
 
 class OrthologousGroup:
@@ -33,7 +34,6 @@ class OrthologousGroup:
         return gene_descs[0] if gene_descs else ""
 
     def member_from_genome(self, genome_name):
-
         """Returns the member of the group from the given genome.
 
         Returns None if the specified genome has no genes in the group.
@@ -43,6 +43,12 @@ class OrthologousGroup:
         if genes:
             return genes[0]
         return None
+
+    def blast_eggnog_database(self, eggnog_blast_database):
+        """BLAST against eggNOG database."""
+        for gene in self.genes:
+            blast_record = eggnog_blast_database.blastx(gene.to_fasta())
+            print eggnog_blast_database.get_best_hit(blast_record)
 
     def discretize_regulation_states(self, phylo):
         """Discretizes the trait of regulation for all genes in the group.
@@ -168,10 +174,14 @@ def construct_orthologous_groups(genes, genomes, cache):
 
     The function returns a list of orthologous groups.
     """
+
+    #my_logger.info("Creating eggNOG database to BLAST.")
+    #with open("/Users/sefa/Desktop/eggnog4.proteins.core_periphery.fa") as f:
+    #    seq_fasta = f.read()
+    #eggnog_blast_database = BLAST(seq_fasta, 'prot')
+
     groups = []
     for gene in tqdm(genes):
-        if len(groups) > 5:
-            return groups
         # Check whether gene is already in a group, if it is, it skips the gene
         # (continue goes back to for loop beginning)
         if any(gene in grp.genes for grp in groups):
@@ -183,7 +193,9 @@ def construct_orthologous_groups(genes, genomes, cache):
                 for other_genome in genomes if gene.genome != other_genome]
         # Create the orthologous group with gene + orthologs on all other
         # genomes [if there are orthologs in the respective genomes]
-        groups.append(OrthologousGroup([gene] + [rbh for rbh in rbhs if rbh]))
+        grp = OrthologousGroup([gene] + [rbh for rbh in rbhs if rbh])
+        #grp.blast_eggnog_database(eggnog_blast_database)
+        groups.append(grp)
     return groups
 
 

@@ -67,7 +67,7 @@ class BLAST:
         Returns:
             Bio.Blast.Record.Blast object
         """
-        assert blast_program in ['tblastn', 'tblastx']
+        assert blast_program in ['tblastn', 'tblastx', 'blastx']
         # temporary file in temp directory, automatically named
         output_file = temp_file_name()
         # temporary file in temp directory, automatically named
@@ -88,6 +88,10 @@ class BLAST:
     def tblastx(self, query, eval=10**-3):
         """Runs tblastx."""
         return self.search('tblastx', query, eval)
+
+    def blastx(self, query, eval=10**-3):
+        """Runs blastx."""
+        return self.search('blastx', query, eval)
 
     def tblastn(self, query, eval=10**-3):
         """Runs tblastn."""

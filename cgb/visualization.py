@@ -68,7 +68,6 @@ def heatmap_view(tree, orthologous_groups, save_dir):
                 # Find the ortholog from the genome in the group
                 gene, = [g for g in orthologous_grp.genes
                          if g.genome.strain_name == genome_name]
-                print gene
                 p_regulation = gene.operon.regulation_probability
                 p_notregulation = 1.0 - p_regulation
                 p_absence = 0
