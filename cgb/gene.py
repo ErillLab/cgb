@@ -221,25 +221,24 @@ class Gene:
         # Check if the cache contains the reciprocal BLAST hit
         key = (self.locus_tag,
                tuple([c.accession_number for c in genome.chromids]))
-        if key in cache.keys():
-            return cache[key]
-
-        # Search for reciprocal best BLAST hit
-        cache[key] = None
-        try:
-            # Find the best hit in the other genome
-            best_hit, _ = self.find_homolog_in_genome(genome)
-            # Check if it is the best reciprocal hit
-            reciprocal_hit, _ = best_hit.find_homolog_in_genome(self.genome)
-            # If the reciprocal hit is the very own gene, return the target
-            # genome hit as the best_reciprocal BLAST hit for the gene
-            if self == reciprocal_hit:
-                cache[key] = best_hit
-        # Handle lack of significant results from the BLAST search (in either
-        # direction)
-        except BlastNoHitFoundException:
-            my_logger.debug("No reciprocal BLAST hit for %s." % self.locus_tag)
-        return cache[key]
+        if key not in cache.keys():
+            print key
+            # Search for reciprocal best BLAST hit
+            cache[key] = None
+            try:
+                # Find the best hit in the other genome
+                best_hit, _ = self.find_homolog_in_genome(genome)
+                # Check if it is the best reciprocal hit
+                reciprocal_hit, _ = best_hit.find_homolog_in_genome(self.genome)
+                # If the reciprocal hit is the very own gene, return the target
+                # genome hit as the best_reciprocal BLAST hit for the gene
+                if self == reciprocal_hit:
+                    cache[key] = best_hit.locus_tag
+            # Handle lack of significant results from the BLAST search (in
+            # either direction)
+            except BlastNoHitFoundException:
+                my_logger.debug("No reciprocal BLAST hit for %s." % self.locus_tag)
+        return genome.get_gene_by_locus_tag(cache[key]) if cache[key] else None
 
     def distance(self, other):
         """Returns the distance between two genes.
