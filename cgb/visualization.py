@@ -60,14 +60,13 @@ def heatmap_view(tree, orthologous_groups, save_dir):
     # Sort orthologous groups by the number of regulated genes in each group
     orthologous_groups = filter_and_sort_orthologous_grps(orthologous_groups)
 
-    genome_names = [node.name for node in tree.get_leaves()]
     # For each species and its gene in each orthologous group, draw a rectangle
-    for genome_name in genome_names:
+    for node in tree.get_leaves():
         for i, orthologous_grp in enumerate(orthologous_groups, start=1):
             try:
                 # Find the ortholog from the genome in the group
                 gene, = [g for g in orthologous_grp.genes
-                         if g.genome.strain_name == genome_name]
+                         if g.genome.strain_name == node.name]
                 p_regulation = gene.operon.regulation_probability
                 p_notregulation = 1.0 - p_regulation
                 p_absence = 0
@@ -112,6 +111,7 @@ def heatmap_view(tree, orthologous_groups, save_dir):
     ts.margin_left = 10
     ts.margin_top = 20
     ts.rotation = rotation
+    ts.show_scale = False
     # For some reason, it can't render to PDF in color
     tree.render(os.path.join(save_dir, 'heatmap.svg'), tree_style=ts)
 
