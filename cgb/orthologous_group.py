@@ -18,9 +18,14 @@ class OrthologousGroup:
     The OrthologousGroup class holds a group of genes which are orthologous to
     each other. Two genes are determined as orthologs if they are best BLAST
     hits for each other (reciprocal best BLAST hits).
+
+    The genes in the orthologous group are sorted by their posterior
+    probabilities of regulation.
+
     """
-    def __init__(self, gene):
-        self._genes = gene
+    def __init__(self, genes):
+        self._genes = genes
+        self._genes.sort(key=lambda g: g.regulation_probability, reverse=True)
 
     @property
     def genes(self):
@@ -36,13 +41,25 @@ class OrthologousGroup:
     def member_from_genome(self, genome_name):
         """Returns the member of the group from the given genome.
 
+        If there are multiple genes in the group from the given genome, the one
+        with the maximum posterior probability of regulation is selected.
+
         Returns None if the specified genome has no genes in the group.
+
         """
         genes = [g for g in self.genes
                  if g.genome.strain_name == genome_name]
         if genes:
             return genes[0]
         return None
+
+    def all_genes_from_genome(self, genome_name):
+        """Returns all genes of the group from the given genome.
+
+        Returns empty list if the given genome has no genes in the group.
+        """
+        genes = [g for g in self.genes if g.genome.strain_name == genome_name]
+        return genes
 
     def blast_eggnog_database(self, eggnog_blast_database):
         """BLAST against eggNOG database."""
@@ -210,30 +227,41 @@ def orthologous_grps_to_csv(groups, filename):
                        for field in ['probability (%s)' % genome.strain_name,
                                      'locus_tag (%s)' % genome.strain_name,
                                      'product (%s)' % genome.strain_name,
-                                     'operon id (%s)' % genome.strain_name]])
+                                     'operon id (%s)' % genome.strain_name,
+                                     'paralogs (%s)' % genome.strain_name]])
         csv_writer.writerow(header_row)
         csv_rows = []
         for group in groups:
             genes = [group.member_from_genome(genome.strain_name)
                      for genome in genomes]
             # Average regulation probability
-            avg_p = mean([gene.operon.regulation_probability
-                          for gene in genes if gene])
+            avg_p = mean([g.operon.regulation_probability
+                          for g in genes if g])
             # Average regulation probability (p=0 for absent genes in the grp)
-            avg_p_all = mean([gene.operon.regulation_probability
-                              if gene else 0
-                              for gene in genes])
+            avg_p_all = mean([g.operon.regulation_probability if g else 0
+                              for g in genes])
             # Orthologous group size
-            grp_size = len([gene for gene in genes if gene])
+            grp_size = len([g for g in genes if g])
             row = [avg_p, avg_p_all, grp_size]
-            for gene in genes:
-                if gene:
+            for genome in genomes:
+                all_genes = group.all_genes_from_genome(genome.strain_name)
+                # Write info on the gene of the genome
+                if all_genes:
+                    gene = all_genes[0]
                     row.extend(['%.3f' % gene.operon.regulation_probability,
                                 gene.locus_tag,
                                 gene.product,
                                 gene.operon.operon_id])
                 else:
                     row.extend(['', '', '', ''])
+                # Write all paralogs into a cell
+                paralogs = [':'.join(('%.3f' % g.operon.regulation_probability,
+                                      g.locus_tag,
+                                      g.product,
+                                      str(g.operon.operon_id)))
+                            for g in all_genes[1:]]
+                row.append('|'.join(paralogs))
+
             csv_rows.append(row)
 
         # Sort rows by average probability
