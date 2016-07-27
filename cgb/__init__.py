@@ -358,8 +358,12 @@ def create_orthologous_groups(user_input, regulons, genomes):
     groups = construct_orthologous_groups(genes, genomes, cache)
     # Update cache
     pickle_dump(cache, cache_file)
+    # Create phylogenetic tree of target genomes only.
+    phylo = Phylo([g.TF_instance for g in genomes],
+                  names=[g.strain_name for g in genomes])
     # Write groups to file
-    orthologous_grps_to_csv(groups, os.path.join(OUTPUT_DIR, 'orthologs.csv'))
+    orthologous_grps_to_csv(groups, phylo,
+                            os.path.join(OUTPUT_DIR, 'orthologs.csv'))
     return groups
 
 

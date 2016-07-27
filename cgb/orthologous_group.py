@@ -219,24 +219,25 @@ def construct_orthologous_groups(genes, genomes, cache):
     return ortho_grps
 
 
-def orthologous_grps_to_csv(groups, filename):
-    genomes = list(set(g.genome for grp in groups for g in grp.genes))
+def orthologous_grps_to_csv(groups, phylogeny, filename):
+    species = phylogeny.tree.find_elements(terminal=True, order='postorder')
+    genome_names = [node.name for node in species]
     with open(filename, 'w') as csvfile:
         csv_writer = csv.writer(csvfile)
         header_row = (['average_probability',
                        'average_probability_all',
                        'ortholog_group_size'] +
-                      [field for genome in genomes
-                       for field in ['probability (%s)' % genome.strain_name,
-                                     'locus_tag (%s)' % genome.strain_name,
-                                     'product (%s)' % genome.strain_name,
-                                     'operon id (%s)' % genome.strain_name,
-                                     'paralogs (%s)' % genome.strain_name]])
+                      [field for genome_name in genome_names
+                       for field in ['probability (%s)' % genome_name,
+                                     'locus_tag (%s)' % genome_name,
+                                     'product (%s)' % genome_name,
+                                     'operon id (%s)' % genome_name,
+                                     'paralogs (%s)' % genome_name]])
         csv_writer.writerow(header_row)
         csv_rows = []
         for group in groups:
-            genes = [group.member_from_genome(genome.strain_name)
-                     for genome in genomes]
+            genes = [group.member_from_genome(genome_name)
+                     for genome_name in genome_names]
             # Average regulation probability
             avg_p = mean([g.operon.regulation_probability
                           for g in genes if g])
@@ -246,8 +247,8 @@ def orthologous_grps_to_csv(groups, filename):
             # Orthologous group size
             grp_size = len([g for g in genes if g])
             row = [avg_p, avg_p_all, grp_size]
-            for genome in genomes:
-                all_genes = group.all_genes_from_genome(genome.strain_name)
+            for genome_name in genome_names:
+                all_genes = group.all_genes_from_genome(genome_name)
                 # Write info on the gene of the genome
                 if all_genes:
                     gene = all_genes[0]
