@@ -48,12 +48,14 @@ def filter_and_sort_orthologous_grps(orthologous_groups, min_size=2):
 
 def heatmap_view(tree, orthologous_groups, save_dir):
     """Generates a heatmap of regulation states in all species."""
+    light_tree = copy.deepcopy(tree)  # Tree copy for the light heatmap
     # Heat map settings
     rect_face_fgcolor = 'black'
-    locus_tag_len = max(len(gene.locus_tag)
+    locus_tag_len = max(len(gene.locus_tag) + 5
                         for ortho_grp in orthologous_groups
                         for gene in ortho_grp.genes)
     rect_face_width = locus_tag_len * 8
+    light_rect_face_width = 20
     rect_face_height = 20
     rotation = 90
 
@@ -61,7 +63,7 @@ def heatmap_view(tree, orthologous_groups, save_dir):
     orthologous_groups = filter_and_sort_orthologous_grps(orthologous_groups)
 
     # For each species and its gene in each orthologous group, draw a rectangle
-    for node in tree.get_leaves():
+    for node, light_node in zip(tree.get_leaves(), light_tree.get_leaves()):
         for i, orthologous_grp in enumerate(orthologous_groups, start=1):
             try:
                 # Find the ortholog from the genome in the group
@@ -79,7 +81,8 @@ def heatmap_view(tree, orthologous_groups, save_dir):
             # Color of the rectangle is based on probabilities
             rect_face_bgcolor = rgb2hex(
                 p_notregulation, p_regulation, p_absence)
-            rect_face_text = gene.locus_tag if gene else ''
+            rect_face_text = ('%s [%d]' % (gene.locus_tag, gene.operon.operon_id)
+                              if gene else '')
             rect_face_label = {'text': rect_face_text,
                                'font': 'Courier',
                                'fontsize': 8,
@@ -88,17 +91,21 @@ def heatmap_view(tree, orthologous_groups, save_dir):
             rect_face = RectFace(rect_face_width, rect_face_height,
                                  rect_face_fgcolor, rect_face_bgcolor,
                                  label=rect_face_label)
-
+            light_rect_face = RectFace(light_rect_face_width, rect_face_height,
+                                       rect_face_fgcolor, rect_face_bgcolor,
+                                       label='')
             rect_face.rotation = -rotation
+            light_rect_face.rotation = -rotation
             # Add the rectangle to the corresponding column
             node.add_face(rect_face, column=i, position='aligned')
+            light_node.add_face(light_rect_face, column=i, position='aligned')
 
     ts = TreeStyle()
     # Add orthologous group descriptions
     descriptions = [grp.description for grp in orthologous_groups]
     max_description_len = max(map(len, descriptions))
     descriptions = [
-        '(%d) ' % i + description + ' '*(max_description_len-len(description))
+        '[%d]' % i + description + ' '*(max_description_len-len(description))
         for i, description in enumerate(descriptions, start=1)]
     for i, description in enumerate(descriptions, start=1):
         text_face = TextFace(description, ftype='Courier')
@@ -114,6 +121,7 @@ def heatmap_view(tree, orthologous_groups, save_dir):
     ts.show_scale = False
     # For some reason, it can't render to PDF in color
     tree.render(os.path.join(save_dir, 'heatmap.svg'), tree_style=ts)
+    light_tree.render(os.path.join(save_dir, 'heatmap_light.svg'), tree_style=ts)
 
 
 def view_by_gene(tree, orthologous_grp, save_file):
