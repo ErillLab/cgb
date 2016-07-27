@@ -3,6 +3,7 @@
 import csv
 
 from tqdm import tqdm
+import networkx as nx
 
 from . import misc
 from . import visualization
@@ -191,29 +192,31 @@ def construct_orthologous_groups(genes, genomes, cache):
 
     The function returns a list of orthologous groups.
     """
-
-    #my_logger.info("Creating eggNOG database to BLAST.")
-    #with open("/Users/sefa/Desktop/eggnog4.proteins.core_periphery.fa") as f:
-    #    seq_fasta = f.read()
-    #eggnog_blast_database = BLAST(seq_fasta, 'prot')
-
-    groups = []
-    for gene in tqdm(genes):
-        # Check whether gene is already in a group, if it is, it skips the gene
-        # (continue goes back to for loop beginning)
-        if any(gene in grp.genes for grp in groups):
+    ortho_graph = nx.Graph()
+    ortho_graph.add_nodes_from(genes)  # Add genes to the graph
+    gene_list = genes[:]
+    visited = []
+    # Go through the list of genes and find their orthologs in other genomes
+    while gene_list:
+        gene = gene_list.pop()
+        if gene in visited:         # Skip if the gene is already processed
             continue
-        # If gene not in any group, create list of orthologous genes by
-        # performing reciprocal BLAST against all genomes that are not the
-        # gene's own genome
-        rbhs = [gene.reciprocal_blast_hit(other_genome, cache)
-                for other_genome in genomes if gene.genome != other_genome]
-        # Create the orthologous group with gene + orthologs on all other
-        # genomes [if there are orthologs in the respective genomes]
-        grp = OrthologousGroup([gene] + [rbh for rbh in rbhs if rbh])
-        #grp.blast_eggnog_database(eggnog_blast_database)
-        groups.append(grp)
-    return groups
+        # Find reciprocal BLAST hits of the gene
+        rbh_results = [gene.reciprocal_blast_hit(other_genome, cache)
+                       for other_genome in genomes
+                       if gene.genome != other_genome]
+        rbhs = filter(None, rbh_results)
+        for rbh in rbhs:
+            ortho_graph.add_node(rbh)
+            ortho_graph.add_edge(gene, rbh)
+            gene_list.append(rbh)
+        visited.append(gene)
+
+    # Find connected components in the graph. Each connected component is an
+    # orthologous group.
+    groups = nx.connected_components(ortho_graph)
+    ortho_grps = [OrthologousGroup(list(grp)) for grp in groups]
+    return ortho_grps
 
 
 def orthologous_grps_to_csv(groups, filename):

@@ -222,7 +222,7 @@ class Gene:
         key = (self.locus_tag,
                tuple([c.accession_number for c in genome.chromids]))
         if key not in cache.keys():
-            print key
+            my_logger.debug("Key not found in BLAST cache: %s" % str(key))
             # Search for reciprocal best BLAST hit
             cache[key] = None
             try:
