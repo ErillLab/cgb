@@ -120,11 +120,12 @@ class Genome:
         """
         with open(filename, 'w') as csvfile:
             csv_writer = csv.writer(csvfile)
-            header_row = ['chromid', 'start', 'end', 'strand', 'locus_tags',
-                          'products']
+            header_row = ['operon_id', 'chromid', 'start', 'end', 'strand',
+                          'locus_tags', 'products']
             csv_writer.writerow(header_row)
             for opr in self.operons:
-                row = [opr.chromid.accession_number,
+                row = [opr.operon_id,
+                       opr.chromid.accession_number,
                        opr.start,
                        opr.end,
                        opr.strand,
