@@ -18,11 +18,12 @@ class Operon:
     TF to the promoter region. See binding_model.py for details on the Bayesian
     estimator the regulation probability.
     """
-    def __init__(self, genes):
+    def __init__(self, genes, operon_id):
         assert len(genes) > 0
         assert all(gene.strand == genes[0].strand for gene in genes)
         assert all(gene.chromid == genes[0].chromid for gene in genes)
         self._genes = sorted(genes, key=lambda g: g.start)
+        self._operon_id = operon_id
 
     @property
     def chromid(self):
@@ -33,6 +34,11 @@ class Operon:
     def genes(self):
         """Returns the list of genes of the operon."""
         return self._genes
+
+    @property
+    def operon_id(self):
+        """Returns the operon id"""
+        return self._operon_id
 
     @property
     def genome(self):

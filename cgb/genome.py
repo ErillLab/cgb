@@ -87,15 +87,20 @@ class Genome:
     @cached_property
     def operons(self):
         """Returns all operons of the genome."""
-        return [opr for chromid in self.chromids for opr in chromid.operons]
+        oprs = [opr for chromid in self.chromids for opr in chromid.operons]
+        for i, opr in enumerate(oprs, start=1):
+            opr.set_operon_id = i
+        return oprs
 
-    def operon_prediction(self, *args, **kwargs):
+    def operon_prediction(self, *args):
         """Predicts operons for each chromid.
 
         See chromid.operon_prediction for details.
         """
+        start_id = 1            # The id for the first operon
         for chromid in self.chromids:
-            chromid.operon_prediction(*args, **kwargs)
+            chromid.operon_prediction(start_id, *args)
+            start_id = chromid.operons[-1].operon_id + 1
 
     @cached_property
     def length(self):

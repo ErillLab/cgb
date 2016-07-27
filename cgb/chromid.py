@@ -156,7 +156,7 @@ class Chromid:
         return [directon if directon[0].is_forward_strand else directon[::-1]
                 for directon in directons]
 
-    def operon_prediction(self, probability_th, sigma):
+    def operon_prediction(self, start_id, probability_th, sigma):
         """Identifies all operons of the chromosome/plasmid.
 
         Two neighboring genes in the same strand are considered to be in the
@@ -179,6 +179,10 @@ class Chromid:
         becomes the first gene of the split operon.
 
         sigma (float): The intergenic distance tuning parameter.
+
+        start_id (int): The operon id to be assigned to the first operon
+        in the chromid. All the rest are numbered incrementally.
+
         """
         my_logger.info("Predicting operons - %s (%s)" %
                        (self.accession_number, self.genome.strain_name))
@@ -208,7 +212,8 @@ class Chromid:
                     directons_rest.append(directon[i:])
         my_logger.debug("Number of operons in %s: %d" %
                         (self.accession_number, len(operons)))
-        self._operons = [Operon(opr) for opr in operons]
+        self._operons = [Operon(opr, id)
+                         for id, opr in enumerate(operons, start=start_id)]
 
     def find_closest_gene(self, pos):
         """Returns the closest gene and its distance to the pos.

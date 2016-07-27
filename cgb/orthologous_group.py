@@ -209,7 +209,8 @@ def orthologous_grps_to_csv(groups, filename):
                       [field for genome in genomes
                        for field in ['probability (%s)' % genome.strain_name,
                                      'locus_tag (%s)' % genome.strain_name,
-                                     'product (%s)' % genome.strain_name]])
+                                     'product (%s)' % genome.strain_name,
+                                     'operon id (%s)' % genome.strain_name]])
         csv_writer.writerow(header_row)
         csv_rows = []
         for group in groups:
@@ -228,9 +229,11 @@ def orthologous_grps_to_csv(groups, filename):
             for gene in genes:
                 if gene:
                     row.extend(['%.3f' % gene.operon.regulation_probability,
-                                gene.locus_tag, gene.product])
+                                gene.locus_tag,
+                                gene.product,
+                                gene.operon.operon_id])
                 else:
-                    row.extend(['', '', ''])
+                    row.extend(['', '', '', ''])
             csv_rows.append(row)
 
         # Sort rows by average probability
