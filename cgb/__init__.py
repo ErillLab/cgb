@@ -208,11 +208,11 @@ def phylogenetic_weighting(site_collections, genome, phylogeny,
                 c.branch_length *= cnt
 
     node = tree.find_any(name=genome.TF_instance.accession_number)
-    weights = []
-    for acc in reference_proteins:
-        other = tree.find_any(name=acc)
-        weight = 1.0 - tree.distance(node, other) / tree.total_branch_length()
-        weights.append(weight)
+    distances = [tree.distance(node, tree.find_any(name=acc))
+                 for acc in reference_proteins]
+    weights = [1.0 - (dist-min(distances)) / max(distances)
+               for dist in distances]
+    print weights
 
     return normalize(weights)
 
