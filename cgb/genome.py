@@ -201,10 +201,10 @@ class Genome:
                              for g in self.genes]
         seqs = [seq[start:start+model.length] for seq in noncoding_regions
                 for start in xrange(len(seq)-model.length)]
-        sampled_seqs = random.sample(seqs, min(100000, len(seqs)))
+        sampled_seqs = random.sample(seqs, min(10000, len(seqs)))
         # Score randomly selected sites to estimate the bg distribution
         bg_scores = []
-        for seq in tqdm(sampled_seqs):
+        for seq in sampled_seqs:
             bg_scores.append(model.score_seq(seq))
         # Create a Bayesian estimator which is used to compute the probability
         # of TF-binding of any given sequence.
