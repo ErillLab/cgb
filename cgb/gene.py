@@ -206,7 +206,7 @@ class Gene:
 
     def to_protein(self):
         """Returns the protein object for the gene."""
-        return Protein(self.protein_accession_number, self.name)
+        return Protein(self.protein_accession_number)
 
     def find_homolog_in_genome(self, genome):
         """Returns the homologous gene in the given genome."""

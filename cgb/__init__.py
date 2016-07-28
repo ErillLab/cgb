@@ -123,7 +123,7 @@ def create_proteins(user_input):
     proteins = []
     for accession in user_input.protein_accessions:
         my_logger.info("Initializing %s." % accession)
-        proteins.append(Protein(accession, user_input.TF_name))
+        proteins.append(Protein(accession))
     my_logger.info("Finished: create proteins")
     return proteins
 

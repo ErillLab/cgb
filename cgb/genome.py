@@ -459,8 +459,7 @@ class Genome:
 
     def _PSSM_model_to_jaspar(self, filename):
         """Writes the PSSM to the given file in jaspar format."""
-        header = "genome: %s, TF: %s" % (self.strain_name,
-                                         self.TF_instance.name)
+        header = self.strain_name
         jaspar_motif = jaspar.Motif(matrix_id='', name=header,
                                     counts=self.TF_binding_model.pwm)
         with open(filename, 'w') as f:
