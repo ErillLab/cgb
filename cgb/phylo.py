@@ -42,24 +42,19 @@ class Phylo:
     The class also provides methods for outputting the built phylogenetic tree,
     such as drawing it as a string as well as exporting it to a Newick file.
     """
-    def __init__(self, proteins, names=None, distance_model='identity',
+    def __init__(self, proteins, names, distance_model='identity',
                  tree_algorithm='nj'):
         """Initializes a Phylo object.
 
         Args:
             proteins ([Protein]): list of Protein objects
             names ([String]): list of names to be used for each species on the
-                tree. By default, its value is None. If not provided, the
-                protein accession numbers are used.
+                tree.
             distance_model (string): see DistanceCalculator.protein_models
             tree_algorithm (string): 'nj' or 'upgma'
         """
 
-        if names:
-            self._proteins = proteins
-            assert len(proteins) == len(names)
-        else:
-            self._proteins = misc.unique(proteins, lambda p: p.accession_number)
+        self._proteins = proteins
         self._names = names
         self._distance_model = distance_model
         self._tree_algorithm = tree_algorithm
@@ -78,8 +73,7 @@ class Phylo:
         """Writes proteins to a temporary FASTA file."""
         with open(filename, 'w') as f:
             for i, protein in enumerate(self.proteins):
-                prot_desc = self._names[i] if self._names else None
-                f.write(protein.to_fasta(prot_desc))
+                f.write(protein.to_fasta(self._names[i]))
 
     def _clustalo(self):
         """Performs Clustal-Omega multiple sequence alignment.

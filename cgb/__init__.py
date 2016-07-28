@@ -140,13 +140,14 @@ def create_site_collections(user_input, proteins):
         [SiteCollection]: the list of SiteCollection objects, one per protein.
     """
     my_logger.debug("Started: create site collections")
-    collections = [SiteCollection(sites, protein)
-                   for sites, protein in zip(user_input.sites_list, proteins)]
+    collections = [SiteCollection(sites, protein, name)
+                   for sites, protein, name in
+                   zip(user_input.sites_list, proteins, user_input.protein_names)]
     my_logger.debug("Writing site collections.")
     output_dir = directory(OUTPUT_DIR, 'user_PSWM')
     for collection in collections:
         collection.to_jaspar(
-            os.path.join(output_dir, collection.TF.accession_number+'.jaspar'))
+            os.path.join(output_dir, collection.name+'.jaspar'))
     my_logger.debug("Finished: create site collections")
     return collections
 
@@ -187,29 +188,27 @@ def phylogenetic_weighting(site_collections, genome, phylogeny,
         [float]: list of weights, not normalized.
     """
 
-    # Collect the protein accession numbers with binding evidence.
-    reference_proteins = [collection.TF.accession_number
-                          for collection in site_collections]
     # Don't modify the original tree
     tree = copy.deepcopy(phylogeny.tree)
 
     if clustalesque_weighting:
         # Weight similarities like CLUSTAL does for multiple sequence alignment
         # Root the tree using the reference TF as outgroup
-        outgroup = tree.find_any(name=genome.TF_instance.accession_number)
+        outgroup = tree.find_any(name=genome.strain_name)
         tree.root_with_outgroup(outgroup)
         # Down-weight all branches with multiple species with evidence
         for c in tree.find_clades():
             if not c.branch_length:
                 continue
             # Count the number of species with evidence under this clade
-            cnt = len([p for p in reference_proteins if c.find_any(name=p)])
+            cnt = len([col for col in site_collections
+                       if c.find_any(name=col.name)])
             if cnt > 0:
                 c.branch_length *= cnt
 
-    node = tree.find_any(name=genome.TF_instance.accession_number)
-    distances = [tree.distance(node, tree.find_any(name=acc))
-                 for acc in reference_proteins]
+    node = tree.find_any(name=genome.strain_name)
+    distances = [tree.distance(node, tree.find_any(name=col.name))
+                 for col in site_collections]
     weights = [1.0 - (dist-min(distances)) / max(distances)
                for dist in distances]
     print weights
@@ -360,7 +359,7 @@ def create_orthologous_groups(user_input, regulons, genomes):
     pickle_dump(cache, cache_file)
     # Create phylogenetic tree of target genomes only.
     phylo = Phylo([g.TF_instance for g in genomes],
-                  names=[g.strain_name for g in genomes])
+                  [g.strain_name for g in genomes])
     # Write groups to file
     orthologous_grps_to_csv(groups, phylo,
                             os.path.join(OUTPUT_DIR, 'orthologs.csv'))
@@ -381,7 +380,8 @@ def create_phylogeny(genomes, proteins, user_input):
     Returns:
         Phylo: the phylogeny object. See phylo.py
     """
-    phylo = Phylo(proteins + [g.TF_instance for g in genomes])
+    phylo = Phylo(proteins + [g.TF_instance for g in genomes],
+                  user_input.protein_names + user_input.genome_names)
     print phylo.tree
     # Output the phylogenetic tree in newick and nexus formats.
     phylo.to_newick(os.path.join(OUTPUT_DIR, 'phylogeny.nwk'))
@@ -410,7 +410,7 @@ def perform_ancestral_state_reconstruction(user_input, genomes,
     """
     # Create a phylogeny using target genomes only.
     phylo = Phylo([g.TF_instance for g in genomes],
-                  names=[g.strain_name for g in genomes])
+                  [g.strain_name for g in genomes])
     # Perform ancestral state reconstruction
     ancestral_state_reconstruction(orthologous_grps, phylo)
 
@@ -498,20 +498,17 @@ def go(input_file):
         all_regulons.extend(regulons)
         # Output operons
         output_operons(user_input, genome)
-    #pickle_dump(genomes, 'genomes.pkl')
 
     # Create orthologous groups
     ortholog_groups = create_orthologous_groups(user_input, all_regulons, genomes)
-    #pickle_dump(ortholog_groups, 'orthos.pkl')
 
     # Ancestral state reconstruction step
     if user_input.ancestral_state_reconstruction:
         perform_ancestral_state_reconstruction(
             user_input, genomes, ortholog_groups)
-    #pickle_dump(ortholog_groups, 'orthos2.pkl')
 
     # Create phylogenetic tree of target genomes only
     phylo_target_genomes = Phylo([g.TF_instance for g in genomes],
-                                 names=[g.strain_name for g in genomes])
+                                 [g.strain_name for g in genomes])
     all_plots(phylo_target_genomes, ortholog_groups, genomes,
               directory(OUTPUT_DIR, 'plots'))

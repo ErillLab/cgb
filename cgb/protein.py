@@ -33,11 +33,6 @@ class Protein:
         return self.record.id
 
     @property
-    def name(self):
-        """Returns the name of the protein."""
-        return self._name
-
-    @property
     def description(self):
         """Returns the description of the protein."""
         return self.record.description

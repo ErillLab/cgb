@@ -12,17 +12,23 @@ class SiteCollection:
     to build the TF binding model (see binding_model.py)
 
     """
-    def __init__(self, sites, TF, pseudocounts=1):
+    def __init__(self, sites, TF, name, pseudocounts=1):
         self._TF = TF
+        self._name = name
         instances = [Seq(site, unambiguous_dna) for site in sites]
         self._motif = motifs.create(instances)
         self._motif.pseudocounts = pseudocounts
-        self._motif.name = self.TF.accession_number
+        self._motif.name = self.TF.accession_number + '(%s)' % self.name
 
     @property
     def TF(self):
         """Returns the TF object that the evidence is for."""
         return self._TF
+
+    @property
+    def name(self):
+        """Returns the species name that the collection belongs to."""
+        return self._name
 
     @property
     def pwm(self):
@@ -52,7 +58,7 @@ class SiteCollection:
     def to_jaspar(self, filename):
         """Writes the PWM to the given file in JASPAR format."""
         jaspar_motif = jaspar.Motif(matrix_id=self.TF.accession_number,
-                                    name=self.TF.description,
+                                    name=self.name,
                                     instances=self._motif.instances)
         with open(filename, 'w') as f:
             f.write(jaspar.write([jaspar_motif], 'jaspar'))

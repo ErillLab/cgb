@@ -33,9 +33,9 @@ class UserInput:
         return [p['protein_accession'] for p in self._input['motifs']]
 
     @property
-    def TF_name(self):
-        """Returns the TF of interest."""
-        return self._input['TF']
+    def protein_names(self):
+        """Returns the species names for reference proteins."""
+        return [p['name'] for p in self._input['motifs']]
 
     @property
     def sites_list(self):
