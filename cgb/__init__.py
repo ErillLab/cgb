@@ -441,14 +441,12 @@ def go(input_file):
     """The entry-point for the pipeline."""
     # Read user input and configuration from two files
     user_input = UserInput(input_file)
-    #pickle_dump(user_input, 'user_input.pkl')
 
     # Make output directory
     create_output_directory()
 
     # Create proteins
     proteins = create_proteins(user_input)
-    #pickle_dump(proteins, 'proteins.pkl')
 
     # Create genomes
     genomes = create_genomes(user_input)
@@ -460,7 +458,6 @@ def go(input_file):
 
     # Create phylogeny
     phylogeny = create_phylogeny(genomes, proteins, user_input)
-    #pickle_dump(phylogeny, 'phylogeny.pkl')
 
     # Create binding evidence
     site_collections = create_site_collections(user_input, proteins)

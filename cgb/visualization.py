@@ -252,14 +252,14 @@ def all_plots(phylo, orthologous_groups, genomes, save_dir):
     heatmap_view(biopython_to_ete3(phylo.tree), orthologous_groups, save_dir)
 
     # Orthologous group-centric view
-    view_all_genes(biopython_to_ete3(phylo.tree), orthologous_groups, save_dir)
+    #view_all_genes(biopython_to_ete3(phylo.tree), orthologous_groups, save_dir)
 
     # Taxa-centric view
-    view_all_taxa(biopython_to_ete3(phylo.tree), orthologous_groups, save_dir)
+    #view_all_taxa(biopython_to_ete3(phylo.tree), orthologous_groups, save_dir)
 
     # Network size plot
-    network_size_view(
-        biopython_to_ete3(phylo.tree), orthologous_groups,  save_dir)
+    #network_size_view(
+    #    biopython_to_ete3(phylo.tree), orthologous_groups,  save_dir)
 
     # Motif phylogeny plot
     motif_view(biopython_to_ete3(phylo.tree), genomes, save_dir)
