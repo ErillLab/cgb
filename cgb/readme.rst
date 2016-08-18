@@ -45,3 +45,7 @@ ________________
 
 Next, the pipeline creates the motifs (i.e. site collections) for the TF instances provided by the user, using **create_site_collections**. Site collections are stored in the **collections** object. Each site collection has an associated TF, the site instances, and a BioPython motifs object.
 
+Regulon prediction 
+------------------
+The main part of the CGB pipeline is devoted to identifying putative TF-binding sites in all genomes, thus inferring a putative regulon for the TF of interest. This involves some complex operations, having to do mainly with two things: how to define the TF-binding model in each genome (i.e. combining experimental models) and how to define operons.
+
