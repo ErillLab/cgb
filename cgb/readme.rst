@@ -3,10 +3,10 @@ CGB outline
 
 The overall structure of CGB is a fairly linear pipeline: reading input files and preprocessing, performing actual search & applying comparative genomics filtering to them.
 
-Input reading and preprocessing
--------------------------------
+Input reading 
+-------------
 
-Input is entered via a JSON file, sitting on the root folder of the repo, which defines the following (as lists of dictionaries):
+Input is entered via a **JSON file**, sitting on the root folder of the repo, which defines the following (as lists of dictionaries):
 
 * motifs: a number of experimentally-determined TF-binding sites, together with the protein accession for the TF and the spcecies name (used for the tree)
 * genomes: all the genomes to be analyzed, composed of a name and a bunch of accession numbers (can be draft/incomplete genomes)
@@ -21,4 +21,17 @@ Input is entered via a JSON file, sitting on the root folder of the repo, which 
   * operon_prediction_distance_tuning_parameter: used to increase/decrease the computed mean intergenic distance
   
 
+The JSON file input is saved onto a **UserInput** Python object, which essentially provides get methods.
 
+After reading the JSON input, the pipeline calls **create_proteins**, which creates protein objects containing the NCBI protein record, and **create_genomes** which does the same thing for genomes. The are stored in the *proteins* and *genomes* objects.
+
+Preprocessing
+-------------
+
+TF detection
+____________
+
+Next, the pipeline invokes **identify_TF_instance_in_genomes**, which will use BLAST to identify instances of each TF in each of the genomes for analysis. To do this, the system uses the **genome** class method **identify_TF_instance**, which takes protein objects (all the TF instances provided) and tries to identify them through BLAST (with eval=10**-3) in each genome. If there are any genomes with no orthologs of the TF, they will be dropped from the analysis through **remove_genomes_with_no_TF_instance**, which essentially removes them from the *genomes* list.
+
+Phylogeny
+_________
