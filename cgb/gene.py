@@ -221,8 +221,10 @@ class Gene:
         # Check if the cache contains the reciprocal BLAST hit
         key = (self.locus_tag,
                tuple([c.accession_number for c in genome.chromids]))
+        if key in cache.keys():
+            my_logger.debug("Key found in BLAST cache: %s" % str(key))
         if key not in cache.keys():
-            my_logger.debug("Key not found in BLAST cache: %s" % str(key))
+            my_logger.debug("Key NOT found in BLAST cache: %s" % str(key))
             # Search for reciprocal best BLAST hit
             cache[key] = None
             try:
@@ -234,6 +236,10 @@ class Gene:
                 # genome hit as the best_reciprocal BLAST hit for the gene
                 if self == reciprocal_hit:
                     cache[key] = best_hit.locus_tag
+                    other_key = (best_hit.locus_tag,
+                                 tuple([c.accession_number
+                                        for c in best_hit.genome.chromids]))
+                    cache[other_key] = self.locus_tag
             # Handle lack of significant results from the BLAST search (in
             # either direction)
             except BlastNoHitFoundException:

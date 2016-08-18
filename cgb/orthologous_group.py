@@ -26,7 +26,8 @@ class OrthologousGroup:
     """
     def __init__(self, genes):
         self._genes = genes
-        self._genes.sort(key=lambda g: g.regulation_probability, reverse=True)
+        self._genes.sort(key=lambda g: g.operon.regulation_probability,
+                         reverse=True)
 
     @property
     def genes(self):
@@ -192,31 +193,36 @@ def construct_orthologous_groups(genes, genomes, cache):
 
     The function returns a list of orthologous groups.
     """
-    ortho_graph = nx.Graph()
-    ortho_graph.add_nodes_from(genes)  # Add genes to the graph
-    gene_list = genes[:]
-    visited = []
-    # Go through the list of genes and find their orthologs in other genomes
-    while gene_list:
-        gene = gene_list.pop()
-        if gene in visited:         # Skip if the gene is already processed
+    my_logger.info("Constructing orthologous groups.")
+    groups = []
+    for gene in tqdm(genes):
+        # Check whether gene is already in a group; if it is, it skips the gene
+        if any(gene in grp.genes for grp in groups):
             continue
-        # Find reciprocal BLAST hits of the gene
-        rbh_results = [gene.reciprocal_blast_hit(other_genome, cache)
-                       for other_genome in genomes
-                       if gene.genome != other_genome]
-        rbhs = filter(None, rbh_results)
-        for rbh in rbhs:
-            ortho_graph.add_node(rbh)
-            ortho_graph.add_edge(gene, rbh)
-            gene_list.append(rbh)
-        visited.append(gene)
+        # If the gene is not in any group, create list of orthologous genes by
+        # performing reciprocal BLAST against all other genomes.
+        rbhs = [gene.reciprocal_blast_hit(other_genome, cache)
+                for other_genome in genomes if gene.genome != other_genome]
+        # Create the orthologous group
+        grp = OrthologousGroup([gene] + [rbh for rbh in rbhs if rbh])
+        groups.append(grp)
 
-    # Find connected components in the graph. Each connected component is an
-    # orthologous group.
-    groups = nx.connected_components(ortho_graph)
-    ortho_grps = [OrthologousGroup(list(grp)) for grp in groups]
-    return ortho_grps
+    # Collapse groups that contains a same gene.
+    my_logger.info("Collapsing orthologous groups.")
+    return merge_orthologous_groups(groups)
+
+
+def merge_orthologous_groups(groups):
+    """Merges intersecting orthologous groups."""
+    G = nx.Graph()
+    for grp in groups:
+        G.add_nodes_from(grp.genes)
+        G.add_edges_from(zip(grp.genes, grp.genes[1:]))
+
+    merged_grps = []
+    for cc in nx.connected_components(G):
+        merged_grps.append(OrthologousGroup(list(cc)))
+    return merged_grps
 
 
 def orthologous_grps_to_csv(groups, phylogeny, filename):
