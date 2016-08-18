@@ -32,10 +32,13 @@ def get_genome_record(accession):
     handle = open(genbank_file)
     return handle.read()
 
-
+#takes an accession number for the protein, gets the record from NCBI
+#(unless it is already stored locally) and saves it to file locally
+#returns the object in the local file
 def get_protein_record(accession):
     """Fetches the protein record from NCBI Protein database."""
     protein_file = os.path.join(ENTREZ_DIRECTORY, accession+'.gb')
+    #if file not locally available, fetch and save locally (in ENTREZ_DIRECTORY cache)
     if not os.path.isfile(protein_file):
         # Download and save file
         handle = Entrez.efetch(db='protein', id=accession,
@@ -44,5 +47,6 @@ def get_protein_record(accession):
         with open(protein_file, 'w') as f:
             f.write(record)
 
+    #read file and return object
     handle = open(protein_file)
     return handle.read()
