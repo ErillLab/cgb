@@ -38,4 +38,10 @@ _________
 
 A phylogeny including the mapped TFs and the reference ones is created by **create_phylogeny(genomes, proteins, user_input)**, which uses methods from the CGB phylo.py module. The phylo.py module is a wrapper around the BioPython Phylo and Align libs.
 
-The main function in phylo.py is tree, which computes the phylogenetic tree. To do so, it computes all the pair-wise protein distances (as %identities), invokes the NJ method from the BioPhylo library and roots it at mid-poiint.
+The main function in phylo.py is **tree**, which computes the phylogenetic tree. To do so, it computes all the pair-wise protein distances (as %identities), invokes the NJ method from the BioPhylo library and roots it at mid-poiint.
+
+Site collections
+________________
+
+Next, the pipeline creates the motifs (i.e. site collections) for the TF instances provided by the user, using **create_site_collections**. Site collections are stored in the **collections** object. Each site collection has an associated TF, the site instances, and a BioPython motifs object.
+
