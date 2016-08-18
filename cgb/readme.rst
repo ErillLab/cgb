@@ -35,3 +35,7 @@ Next, the pipeline invokes **identify_TF_instance_in_genomes**, which will use B
 
 Phylogeny
 _________
+
+A phylogeny including the mapped TFs and the reference ones is created by **create_phylogeny(genomes, proteins, user_input)**, which uses methods from the CGB phylo.py module. The phylo.py module is a wrapper around the BioPython Phylo and Align libs.
+
+The main function in phylo.py is tree, which computes the phylogenetic tree. To do so, it computes all the pair-wise protein distances (as %identities), invokes the NJ method from the BioPhylo library and roots it at mid-poiint.
