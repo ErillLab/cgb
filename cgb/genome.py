@@ -291,7 +291,7 @@ class Genome:
             None: if there are no homologs.
 
         """
-        # Find best BLAST hit for each given protein.
+        # Find best BLAST hit for each instance of the TF provided by user (p)
         blast_hits = []
         for p in proteins:
             # Identify the protein of the genome that is homologous to p.
