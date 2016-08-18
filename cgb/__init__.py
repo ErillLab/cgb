@@ -437,6 +437,23 @@ def create_output_directory():
             else:
                 shutil.rmtree(os.path.join(x))
 
+#acts as the "main" for the library (called as cgb.go from run.py file (in CGB root folder)
+#it first reads and parses the input file, stores it in memory in "user_input", then initializes directories for output
+#downloads and stores genomes locally
+#identifies TF instances in each genome (and removes genomes with no TF)
+#creates the working phylogeny (and gets pairwise distances)
+#assigns provided binding motif to reference proteins
+#starts main loop
+##for each genome
+###compute weights for combining motifs and inferring priors
+###defines the TF binding model in each genome
+###define prior probabilities in each genome
+###compute posterior probability of regulation (for all putative promoters)
+###predict operons (splitting operons if posterior > threshold1)
+###output operons with posterior > threhold2 (i.e. putative regulon)
+#for all members of putative regulons, compute orthologs (and paralogs)
+#for (some) regulated genes, compute ancestral state
+#plot out results
 def go(input_file):
     """The entry-point for the pipeline."""
     # Read user input and configuration from two files
