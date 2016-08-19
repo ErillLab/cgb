@@ -75,3 +75,15 @@ Prior computation
 _________________
 
 CGB allows a unique, non-reference-associated prior for regulation to be provided by the user. If this is not done, then the regulation prior P(R) is computed at each reference genome as #sites_in_collection / #operons_in_genome. These reference priors are then propagated to target genomes using the phylogenetic weighting scheme.
+
+Compute probabilities
+---------------------
+
+After "transporting" models and priors to target genomes, the **genome.calculate_regulation_probabilities** method is called. This uses the Bayesian estimator to compute the posterior probability of regulation, given the model, for each *gene* in the genome. The posteriors are stored in the gene objects.
+
+Operon prediction
+-----------------
+
+After the initial computation of posterior probabilities, the pipeline calls the prediction of operons in the current genome. The **genome.operon_prediction** (which calls **chromid.operon_prediction**) takes the probability threshold and the distance tuning parameter as inputs. The function first identifies all directons, then computes the mean intergenic distance between the first two genes in each directon that has more than one gene. This mean can be scaled up or down by a sigma user parameter. The rationale is to be able to use relatively large sigmas, since the main problem is not joining non-operons (because they can be split by good sites), but splitting true operons.
+
+The function identifies the genes that appear to be regulated (this will be used to split putative operon calls if necessary). 
