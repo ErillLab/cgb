@@ -62,8 +62,16 @@ In the case of **phylogenetic_weighting**, the tree is first rerooted using the 
 
 After this is done (if option enabled), weighting ensues. The target genome is identified on the tree, and for each site collection, we find its node on the tree and measure the distance between the target genome and the site collection node. These distances are then transformed to weights, by computing [1.0 - (dist - min(distances))/max(distances). Weights are then normalized to add up to one. The (1-min)/max seeks to get a 1 (maximal) contribution if the distance between target and refernece is small (min), or a very small contribution (max-min)/max if the reference is very far away (max).
 
-For **site_count_weighting**, the weights are literally the number of sites available in each reference collection, normalized posthoc. This allows larger collections to dominate, but still takes into account the contribution of small collections if they are close by. If this is off, then collections are mixed according to a 1:1 ratio, working directly on the PSWM.
+For **site_count_weighting**, the weights are literally the number of sites available in each reference collection, normalized posthoc. This allows larger collections to dominate, but still takes into account the contribution of small collections if they are close by. If this is off, then collections are mixed according to a 1:1 ratio, working directly on the PSWM. The rationale behind this approach is that we are considering site collections as "approximations" to TF-binding models. Ideally, site collections would be complete. In such a case, if a TF binds only one site in the genome, *that* is your binding model. However, in real life most collections are going to be incomplete (especially those with only one site), and you don't want the incomplete model to dominate its phylogenetic neighborhood. With the non-absurd assumption that the number of genes regulated by a TF is order-of-magnitude-invariant, using the number of sites in the reference collections to weight up or down their contribution to targets (modulated by phylogeny) makes quite a lot of sense.
 
 Phylogenetic weighting and site count weighting weights are combined by multiplying them (for each reference, multiply its phylo and sitecount weight to target).
 
+PSWM model generation
+_____________________
+
 The function **set_TF_binding_model** takes genomes, site collections and computed weights, then computes a PSSM model (**PSSM_model**) that essentially takes the orginal PSWM, and for each frequency it computes its weighted average. Then, it calls genome.build_PSSM_model, which computes the PSWM model and its associated Bayesian estimator. The PSSM model is saved locally ('derived_PSSM') in jaspar format.
+
+Prior computation
+_________________
+
+CGB allows a unique, non-reference-associated prior for regulation to be provided by the user. If this is not done, then the regulation prior P(R) is computed at each reference genome as #sites_in_collection / #operons_in_genome. These reference priors are then propagated to target genomes using the phylogenetic weighting scheme.
