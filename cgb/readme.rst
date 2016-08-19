@@ -47,5 +47,13 @@ Next, the pipeline creates the motifs (i.e. site collections) for the TF instanc
 
 Regulon prediction 
 ------------------
-The main part of the CGB pipeline is devoted to identifying putative TF-binding sites in all genomes, thus inferring a putative regulon for the TF of interest. This involves some complex operations, having to do mainly with two things: how to define the TF-binding model in each genome (i.e. combining experimental models) and how to define operons.
+The main part of the CGB pipeline is devoted to identifying putative TF-binding sites in all genomes, thus inferring a putative regulon for the TF of interest. This s done in a loop (one genome at a time) and involves some complex operations, having to do mainly with two things: how to define the TF-binding model in each genome (i.e. combining experimental models) and how to define operons.
 
+Weight computation
+__________________
+
+The first step in the main pipeline loop is to compute the weighting scheme to transfer information into the genome. This information is, essentially, the TF-binding model and the prior for regulation.
+
+The function that computes the weights is **compute_weights**. It takes in the genome, all site collections, the phylogeny (or none if not used) and a boolean indicator for site count weighting. For phylogeny weighting, the function calls **phylogenetic_weighting** and returns a set of weights for each site collection. The same process is used for collection size, using **site_count_weighting**. If no weighting scheme is used, the weights will be one by default. The weights are multiplicative factors on the additive normalized sum of the contributions to the TF-model or prior probabilty for that genome.
+
+The **phylogenetic_weighting** function incorporates a *"clustalesque"* weighting scheme. The idea here is the same as in CLUSTALW. If a branch of the tree has a lot of evidence, and another only a bit, the "populated" branch is going to dominate, and set all motifs and priors according to that side of the tree (even in spite of contradictory evidence somewhere else on the tree). To counteract this, the *clustalesque* approach dillutes the contribution of a populated branch 
