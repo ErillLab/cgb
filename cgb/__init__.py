@@ -158,7 +158,7 @@ def site_count_weighting(site_collections):
     Args:
         [SiteCollection]: list of SiteCollection objects.
     Returns:
-        [float]: list of weights, not normalized
+        [float]: list of weights
     """
     weights = [collection.site_count for collection in site_collections]
     return normalize(weights)
@@ -185,7 +185,7 @@ def phylogenetic_weighting(site_collections, genome, phylogeny,
             from closer species and up-weight the evidence from the most
             divergent ones.
     Returns:
-        [float]: list of weights, not normalized.
+        [float]: list of weights.
     """
 
     # Don't modify the original tree
