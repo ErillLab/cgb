@@ -170,8 +170,6 @@ class PSSMModel(TFBindingModel):
         assert all(len == pwm.length for pwm in pwms)
         # Check if all PWMs have the same alphabet -- 'ACGT'
         assert all(alphabet == pwm.alphabet for pwm in pwms)
-        # Normalize weights
-        weights = [float(weight)/sum(weights) for weight in weights]
         # Combine all PWMs according to given weights
         pwm_vals = {let: [sum(pwm[let][i]*w for pwm, w in zip(pwms, weights))
                           for i in xrange(len)]
