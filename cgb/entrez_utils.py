@@ -24,13 +24,14 @@ def get_genome_record(accession):
         # Download and save Genbank record
         my_logger.info("Downloading %s" % accession)
         handle = Entrez.efetch(db='nuccore', id=accession,
-                               retmode='gbwithparts', rettype='text')
+                               rettype='gbwithparts', retmode='text')
         record = handle.read()
         with open(genbank_file, 'w') as f:
             f.write(record)
 
     handle = open(genbank_file)
     return handle.read()
+
 
 #takes an accession number for the protein, gets the record from NCBI
 #(unless it is already stored locally) and saves it to file locally
