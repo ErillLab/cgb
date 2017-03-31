@@ -2,7 +2,7 @@
     "TF": "LexA",
     "motifs": [
         {
-	    "name": "Mycobacterium tuberculosis H37Rv",
+	    "name": "LexA_Mtu",
             "genome_accessions": ["NC_000962.3"],
             "protein_accession": "NP_217236.2",
             "sites": [
@@ -58,7 +58,7 @@
             ]
         },
         {
-	    "name": "Corynebacterium glutamicum ATCC 13032",
+	    "name": "LexA_Cgl",
             "genome_accessions": ["NC_006958.1"],
             "protein_accession": "WP_003857389.1",
             "sites": [
@@ -97,7 +97,7 @@
             ]
         },
         {
-	    "name": "Listeria monocytogenes EGD-e",
+	    "name": "LexA_Lmo",
             "genome_accessions": ["NC_003210.1"],
             "protein_accession": "NP_464827.1",
             "sites": [
@@ -121,7 +121,7 @@
             ]
         },
         {
-	    "name": "Staphylococcus aureus subsp. aureus NCTC 8325",
+	    "name": "LexA_Sau",
             "genome_accessions": ["NC_007795.1"],
             "protein_accession": "WP_001208760.1",
             "sites": [
@@ -138,7 +138,7 @@
             ]
         },
         {
-	    "name": "Bacillus subtilis subsp. subtilis str. 168",
+	    "name": "LexA_Bsu",
             "genome_accessions": ["NC_000964.3"],
             "protein_accession": "NP_389668.1",
             "sites": [
@@ -185,7 +185,7 @@
             ]
         },
         {
-	    "name": "Clostridioides difficile 630",
+	    "name": "LexA_Cdi",
             "genome_accessions": ["NC_009089.1", "NC_008226.1"],
             "protein_accession": "WP_003433043.1",
             "sites": [
