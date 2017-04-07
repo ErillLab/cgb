@@ -100,7 +100,9 @@ class Genome:
         start_id = 1            # The id for the first operon
         for chromid in self.chromids:
             chromid.operon_prediction(start_id, *args)
-            start_id = chromid.operons[-1].operon_id + 1
+            #if at least one operon has been predicted in chromid
+            if len(chromid.operons)>0:
+                start_id = chromid.operons[-1].operon_id + 1
 
     @cached_property
     def length(self):
