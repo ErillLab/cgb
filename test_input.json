@@ -227,5 +227,6 @@
     "prior_regulation_probability": 0.03,
     "phylogenetic_weighting": true,
     "site_count_weighting": true,
-    "posterior_probability_threshold": 0.5
+    "posterior_probability_threshold": 0.5,
+    "ancestral_state_reconstruction" : false
 }

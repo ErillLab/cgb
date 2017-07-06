@@ -468,11 +468,10 @@ def go(input_file):
     # Create genomes
     genomes = create_genomes(user_input)
 
-    # Identify TF instances for each genome.
+    # Identify TF instances for each genome
     identify_TF_instance_in_genomes(genomes, proteins)
     # Remove genomes with no TF-instance from the analysis.
     genomes = remove_genomes_with_no_TF_instance(genomes)
-
     # Create phylogeny
     phylogeny = create_phylogeny(genomes, proteins, user_input)
 
@@ -483,22 +482,27 @@ def go(input_file):
     for genome in genomes:
         my_logger.info("-" * 80)
         my_logger.info("Processing %s" % genome.strain_name)
+        
         # Create weights for combining motifs and inferring priors, if not set
         phylo_weighting = (phylogeny if user_input.phylogenetic_weighting
                            else None)
         site_count_weighting = user_input.site_count_weighting
         weights = compute_weights(genome, site_collections,
                                   phylo_weighting, site_count_weighting)
+        
         # Set TF-binding model for each genome.
         my_logger.info("Setting TF-binding model (%s)" % genome.strain_name)
         set_TF_binding_model(user_input, genome, site_collections, weights)
+        
         # Infer prior probabilities of regulation
         prior = get_prior(genome, user_input, weights)
         my_logger.info("Prior(regulation; %s): %.2f" % (genome.strain_name, prior))
-        # Calculate posterior probabilities of regulation
+        
+        # Calculate posterior probabilities of regulation for each gene
         my_logger.info("Calculating regulation probabilities (%s)" %
                        genome.strain_name)
         genome.calculate_regulation_probabilities(prior)
+        
         # Predict operons
         my_logger.info("Predicting operons (%s)" % genome.strain_name)
         genome.operon_prediction(
@@ -507,10 +511,11 @@ def go(input_file):
         my_logger.info("Number of operons (%s): %d" %
                        (genome.strain_name, genome.num_operons))
 
-        # Infer regulons
+        # Infer regulon in current genome and add it to regulon list
         regulons = infer_regulons(user_input, genome)
         all_regulons.extend(regulons)
-        # Output operons
+        
+        # Output current genome operons
         output_operons(user_input, genome)
 
     # Create orthologous groups
