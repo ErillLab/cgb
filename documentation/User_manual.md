@@ -1,0 +1,214 @@
+CGB user manual
+===============
+
+Introduction
+------------
+
+### What is CGB?
+
+CGB is a client-based application for comparative genomics analyses of transcriptional regulatory networks in Bacteria (and Archaea). Using multiple sources of information on the reported binding specificity of a transcription
+factor (TF), CGB scans bacterial genomes looking for putative regulated operons, assesses their probability of regulation and analyzes its conservation across species using ancestral state reconstruction, providing an easily interpretable overview of a transcriptional regulatory network across multiple bacteria.
+
+### Why CGB?
+
+Genomics data is probably the most abundant resource in microbial bioinformatics, and it can be effectively leveraged to reconstruct transcriptional regulatory networks across multiple bacterial genomes, providing an evolutionary outline of the conservation and changes in a bacterial transcriptional regulatory network. A few tools for comparative genomics of regulatory networks in Bacteria are available, but they are server-oriented, limiting the extent of the analysis to preprocessed genomes and constraining the fine-tuning of analysis parameters and the availability of raw output data for analysis.
+
+CGB provides a fully-customizable, open-source scalable solution for comparative genomics of transcriptional regulatory networks in Bacteria. By applying well-justified heuristics, CGB speeds up computation time, enabling customized analyses to be performed on the client side. Furthermore, CGB uses a rigorous, generalizable Bayesian framework to compute regulation probabilities and reconstruct ancestral regulation state, enabling users to draw informed conclusions on the evolutionary history of a regulatory network and the likelihood and relevance of the regulation of certain elements therein.
+
+### Main features
+
+CGB introduces a plethora of innovative features that enable fast, personalized and easily interpretable comparative analyses of transcriptional regulatory networks in Bacteria.
+
+-   Open source code, fully customizable
+
+-   Client based, runs locally on a modest desktop setup
+
+-   Can use any genome (complete or incomplete) available on the NCBI repository
+
+-   Automatic handling of composite (multiple chromosomes, plasmids) genomes
+
+-   Allows integrating multiple sources of evidence on TF-binding specificity
+
+-   Generalizable TF-binding model
+
+-   Integrated operon prediction with smart operon-splitting
+
+-   Computes easily interpretable Bayesian posterior probability of regulation
+
+-   Gene-based integration of analysis results
+
+-   Integrated ancestral state reconstruction for gene regulation
+
+-   Graphical and complete raw data (csv) output on all aspects of the analysis
+
+Basic operation
+---------------
+
+### Dependencies
+
+Apart from the python 2.7 libraries listed on *requirements.txt*, CGB makes use of three external programs:
+
+-   NCBI BLAST
+
+-   ClustalO
+
+-   BayesTraits
+
+### Outline
+
+CGB takes as input three main elements: (1) a set of genomes to be analyzed and (2) a set of proteins (transcription factor instances) for which (3) experimental evidence of binding (a binding site collection) is available. CGB then integrates the available experimental data into TF-binding models adapted to each target species under analysis, and uses these TF-binding models to analyze the probability of regulation of each gene. It then predicts operons in each genome and splits them if an internal gene is likely regulated. Orthologs for likely-regulated genes are detected across all target genomes, and the evidence of regulation for any given gene is assessed using ancestral state reconstruction on the posterior probability of regulation of the operon harboring the gene in each species.
+
+### Pipeline
+
+CGB implements a fairly linear comparative genomics pipeline that can be summarized as follows:
+
+-   Input processing
+
+-   Protein & genome fetch and instantiation
+
+-   Automated detection of TF in target genomes
+
+-   TF-based phylogeny generation
+
+-   Site collection instantiation (experimental data)
+
+-   Computation of evidence transfer weights
+
+-   Generation of species-specific TF-binding models
+
+-   Prior estimation
+
+-   Gene-wise analysis of posterior probability of regulation
+
+-   Operon prediction and split
+
+-   Ancestral state reconstruction
+
+-   Output generation
+
+Pipeline rationale and details
+------------------------------
+
+### Assumptions
+
+CGB assumes that on the species under analysis:
+
+-   The TF is conserved
+
+-   The TF-binding specificity is conserved to some extent [i.e. shared compatible motif]
+
+-   There are no close paralogs of the TF or, if there are, they share a conserved motif
+
+CGB will run if these assumptions do not hold, but caution should be applied when analyzing genomes in which the user suspects that TF gene duplication has occurred.
+
+### Input processing
+
+To facilitate interoperability, all required inputs are encoded in a JSON file (as lists of dictionaries). The JSON file input is saved onto a UserInput Python object, which essentially provides get methods.
+
+### Protein & genome fetch and instantiation
+
+After reading the JSON input, the pipeline instantiates the protein and genome records. For all TF instances associated with experimental support, the protein record for the accession is fetched from NCBI. For all the chromids (chromosomes or plasmids) listed as components of a target genome, their NCBI GenBank record is retrieved and integrated into a *genome* object.
+
+### Automated detection of TF in target genomes
+
+Using the provided TF instances with experimental support, a BLAST search with 10\^{-3} e-value limit is performed against each target genome. The best first hit (from any reference TF) is considered the TF homolog in each genome [Note: this assumes no close TF paralogs are present or relevant]. Genomes not containing a TF homolog are dropped from the analysis.
+
+### TF-based phylogeny generation
+
+A phylogeny of the species under analysis (and species with reference information) is generated using the protein sequence of the TF homologs detected in each target genome. This phylogeny is used to perform ancestral state reconstruction and to weight the contribution of each reference binding site collection to create species-specific TF-binding models and set species-specific priors for regulation.
+
+The rationale for choosing the TF as the element to perform phylogenetic inference on is two-fold. On the one hand, it is by construction the only gene known to be preserved in all species under analysis. On the other hand, for the purposes of inferring TF-binding models and priors, and making inferences on regulatory network evolution, it is the most relevant protein. While other phylogenetic makers can conceivably be used, their presence in all genomes is not guaranteed and the relevance of their particular phylogenetic inference to the evolution of the regulatory network is not necessarily warranted.
+
+### Site collection instantiation (experimental data)
+
+Every reference TF provided in the input file is associated with a collection of *aligned* experimental TF-binding sites. For each TF, the site list is parsed and associated with the TF in a *collection* object. 
+
+### Computation of evidence transfer weights
+
+The first step in the main pipeline loop is to compute the weighting scheme to transfer information into the genome. This information is, essentially, the TF-binding model and the prior for regulation used in Bayesian estimation. Weights are multiplicative factors on the additive normalized sum of the contributions to the TF-model or prior probability for that genome.
+
+Experimental binding site information from reference genomes can be transferred to a given target genome in three different ways:
+
+-   Unweighted: all information is transferred using a simple arithmetic mean (all weights set to 1)
+
+-   Phylogenetic weighting: information is transferred using a weighted mean, with phylogenetic distance *decreasing* the contribution of a reference to a target
+
+-   Phylogenetic weighting with site-count weights: information is transferred using a weighted mean that combines (as a product) the phylogenetic and site count weights; the number of sites in a given collection *increases* the contribution of that reference to target genomes, modulated by the phylogenetic distance
+
+The estimation of priors for regulation can use the unweighted approach or phylogenetic weighting.
+
+#### Phylogenetic weighting
+
+Phylogenetic weighting is performed using a "*clustalesque*" weighting scheme. The idea here is the same as in CLUSTALW. If a branch of the tree has a lot of experimental evidence, and another only a bit, the "populated" branch is going to dominate, and set all motifs and priors according to that side of the tree (even in spite of contradictory evidence somewhere else on the tree). To counteract this, the *clustalesque* approach dilutes the contribution of a populated branch by recomputing the distance of the elements in that branch to the target genome, essentially making them "more distant" (proportionally to how many informative elements lie below the branch).
+
+If *clustalesque* weighting is activated, the TF-based tree is first re-rooted using the genome of interest as the outgroup. The branch length of each clade (what connects it to the upper part of the tree) is multiplied by the number of informative elements within the clade (this pushes the clade away proportionally to how much information-bearing species it contains) and this is done for all clades.
+
+Weights are then computed as follows. The target genome is identified on the tree, and for each site collection, we find its corresponding node on the tree and measure the distance (*clustalesque* modified or not) between the target genome and the site collection node. These distances are then transformed to weights, by computing [1.0 - (dist - min(distances))/max(distances). After all weights have been computed for that target species, weights are normalized to add up to one.
+
+The use of (1-(dist-min))/max to estimate weights from distances seeks to get a 1 (maximal) contribution if the distance between target and reference is small (min), or a very small contribution (max-min)/max if the reference is very far away (max).
+
+#### Site count weighting
+
+For site count weighting, the weights are literally the number of sites available in each reference collection, normalized (after all reference collections have been assessed) to add up to 1. This allows larger collections to dominate (i.e contribute more to targets), but still takes into account the contribution of small collections if they are close to the target.
+
+The rationale behind this approach is that we are considering site collections as "approximations" to TF-binding models. Ideally, site collections would be complete. In such a case, if a TF binds only one site in the genome, that is essentially your binding model. However, in real life most collections are going to be incomplete (especially those with only one site), and you don't want the incomplete model to dominate its phylogenetic neighborhood. With the non-absurd assumption that the number of genes regulated by a TF will be roughly similar (same order-of-magnitude) across species, using the number of sites in the reference collections to weight up or down their contribution to targets (modulated by phylogeny) corrects naturally for the assumption that provided models are complete (i.e. it assumes that smaller collection are most likely due to experimental undersampling).
+
+Phylogenetic weighting and site count weighting weights are combined by multiplying them (for each reference, multiply its phylogenetic and site-count weight to target).
+
+### Generation of species-specific TF-binding models
+
+Once weights have been computed (or with the default weights set to one), the pipeline computes the TF-binding model (PSSM model) of each target genome. These models are computed by obtaining the PSWM (Position-Specific Weight Matrix) stemming from each reference collection, multiplying the frequencies for each base in each column with the computed weights between the reference and the target, and creating the target PSWM as the weighted average of each frequency. Once the target PSWM is generated, the PSSM model is computed (using homogeneous 0.25 base frequencies by default) and its background and foreground score distribution is estimated on a randomly selected set of promoter regions from the target genome and the PSWM itself, respectively. These two score distributions are used in the computation of the posterior probability of binding to a given sequence.
+
+### Prior estimation
+
+The user can define an analysis-wide prior for regulation. The prior for regulation is used on the computation of the probability of regulation of any given sequence. Essentially, P(R\|S)=P(S\|R)·P(R)/(P(S\|R)·P(R)+P(S\|B)·P(B)). The conditional probabilities can be estimated from the background/foreground score distributions, but the priors P(R) and P(B) represent our belief that an operon might (or not) be regulated a priori. P(B) is by definition 1-P(R). If an overarching P(R) prior is not provided by the user, the pipeline estimates the prior for each reference species as the ratio between reported binding sites (assuming one site per regulatory region) and the number of operons in a species. Thus, if 10 sites are reported for a TF in a species with a 1,000 operons, the prior for regulation on any given operon is P(R)=10/1,000=0.01, and P(B)=0.99.
+
+The priors for all different reference species are first computed and then merged into priors for target genomes through the same weighting approach used to generate the TF-binding models, but including only the phylogenetic component (not site counts; XXX verify). It is worth noting that this method will tend to underestimate the prior probability of regulation, because reported collections are not complete. This will in turn bias the inferred posterior probability of regulation P(R\|S), making it less responsive (XXX check?). The user can adjust the inferred ratios globally through a tuning parameter (XXX; ToDo)
+
+### Gene-wise analysis of posterior probability of regulation
+
+### Operon prediction and split
+
+### Ancestral state reconstruction
+
+### Output generation
+
+Input
+-----
+
+-   motifs: a number of experimentally-determined TF-binding sites, together
+    with the protein accession for the TF and the species name (used for the
+    tree visualization)
+
+-   genomes: all the genomes to be analyzed, composed of a name and a list of
+    accession numbers (can be draft/incomplete genomes)
+
+-   parameters:
+
+    -   prior\_regulation\_probability: genomic prior for *operon* regulation
+
+    -   phylogenetic\_weighting: ON/OFF
+
+    -   site\_count\_weighting: ON/OFF
+
+    -   posterior\_probability\_threshold: posterior cut for regulation
+        assignment
+
+    -   posterior\_probability\_threshold\_for\_operon\_prediction: posterior
+        cut for splitting operons
+
+    -   ancestral\_state\_reconstruction: ON/OFF
+
+    -   operon\_prediction\_distance\_tuning\_parameter: used to
+        increase/decrease the computed mean intergenic distance
+
+a BLAST search with 10\^{-3} TF homolog detection
+
+modulator for prior estimation?
+
+Number of sites from promoter regions used to estimate background?
+
+Background frequencies for TF-model log-likelihood?
+
+Output
+------
