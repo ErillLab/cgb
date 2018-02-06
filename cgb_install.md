@@ -23,33 +23,34 @@ Any changes made from now on (while environment is active) will be made only to 
 
 ## Setting up the conda environment
 Install packages:
-`conda install biopython`
-`conda install cached-property==1.3.0`
-`conda install cycler==0.10.0`
-`conda install scipy==0.17.1`
-`conda install matplotlib==1.5.1`
-`conda install pyparsing==2.1.4`
-`conda install python-dateutil==2.5.3`
-`conda install six==1.10.0`
-`conda install pytz==2016.4`
-`conda install -c conda-forge tqdm`
-`conda install --channel https://conda.anaconda.org/etetoolkit ete3==3.0.0b35`
- conda install -c bioconda weblogo
- conda install networkx
+- `conda install biopython`
+- `conda install cached-property==1.3.0`
+- `conda install cycler==0.10.0`
+- `conda install scipy==0.17.1`
+- `conda install matplotlib==1.5.1`
+- `conda install pyparsing==2.1.4`
+- `conda install python-dateutil==2.5.3`
+- `conda install six==1.10.0`
+- `conda install pytz==2016.4`
+- `conda install -c conda-forge tqdm`
+- `conda install --channel https://conda.anaconda.org/etetoolkit ete3==3.0.0b35`
+- `conda install -c bioconda weblogo`
+- `conda install networkx`
 
 ## Installing git
 If you have not installed `git` in your system, install git
 `sudo apt-get install git`
 
 Link to your [github](http://www.github.com) account:
-`git config --global user.name "yourusername"`
-`git config --global user.email "youremailaddress"`
+- `git config --global user.name "yourusername"`
+- `git config --global user.email "youremailaddress"`
+
 
 ### Creating keys
-`mkdir .ssh`
-`ssh-keygen -t rsa -C "youremailaddress"`
-`eval "$(ssh-agent -s)"`
-`ssh-add ~/.ssh/id_rsa`
+- `mkdir .ssh`
+- `ssh-keygen -t rsa -C "youremailaddress"`
+- `eval "$(ssh-agent -s)"`
+- `ssh-add ~/.ssh/id_rsa`
 
 Open `~/.ssh/id_rsa.pub` file with a text editor and copy the contents of the file manually into [GitHub](https://github.com/settings/keys) --> Account settings --> SSH Keys --> New SSH Key
 
@@ -57,9 +58,9 @@ Test the key:
 `ssh -T git@github.com`
 
 Make folder for repo and move there. Then, initialize git and link to and clone GitHub repo:
-`git init`
-`git remote add origin https://github.com/ErillLab/cgb.git`
-`git clone https://github.com/ErillLab/cgb.git`
+- `git init`
+- `git remote add origin https://github.com/ErillLab/cgb.git`
+- `git clone https://github.com/ErillLab/cgb.git`
 
 ## Dependencies
 CGB requires three external programs to be installed: BLAST, CLUSTALO and BayesTraits. The following instructions are for installing these on Linux.
