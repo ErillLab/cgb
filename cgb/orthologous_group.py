@@ -70,7 +70,8 @@ class OrthologousGroup:
             print eggnog_blast_database.get_best_hit(blast_record)
 
     def discretize_regulation_states(self, phylo):
-        """Discretizes the trait of regulation for all genes in the group.
+        """Discretizes the trait of regulation for all genes in the orthologous 
+           group.
 
         Each gene in the orthologous group has a posterior probability of
         regulation that is computed using the binding model. For each gene in
@@ -79,40 +80,77 @@ class OrthologousGroup:
         the posterior probability of the regulation of the gene.
 
         Returns: {string: int}: the dictionary containing (key, value) pairs
-            where key is the TF accession number of the regulated gene, and the
-            value is 0/1 indicating the regulation trait.
+            where key is the accession number of the regulated gene, and the
+            value is 0/1 indicating the regulation trait (or absence A).
         """
-        terminal_states = self.get_terminal_states(phylo)
+
+		#define the probabilities for each state on terminal nodes
+		#(where prob of regulation is known)
+        terminal_states = self.get_terminal_states_probs(phylo)
+		#initialize discrete trait dictionary
         trait = {}
+		#for each terminal node in the phylogeny
         for node in phylo.tree.get_terminals():
             states = ['1', '0', 'A']
+			#grab the node probabilities for each of the 3 states into a vector
             probabilities = [terminal_states[(node.name, state)]
                              for state in states]
+			#sample the vector of states using their associated probablities
+			#and assign the sampled discrete state (1, 0 or A) to the trait 
+			#dictionary entry for that node [i.e. species]
             trait[node.name], = misc.weighted_choice(states, probabilities)
+
+		#at the end of the process, we obtain a dictionary in which we have
+		#sampled, for each species, one of the three possible states according
+		#to the probability of regulation by the TF in that species, for the
+		#gene instances belonging to this orthologous group
         return trait
 
     def bootstrap_traits(self, phylo, sample_size):
-        """Sample discrete traits for each gene in the group.
+        """Sample discrete traits for each gene in the ortho_group, as a list.
+		Calls 'sample_size' times the 'discretize_regulation_states(phylo)' 
+		method, generating 'sample_size' samples of the discretized states of
+		each terminal node in the tree.
+
+		This is returned as a list of dictionaries, where each dictionary 
+		contains entries for each terminal node in the tree and its discrete
+		state.
 
         Each instance of the sample contains the discrete traits of regulation
         associated with each gene.
         """
         return [self.discretize_regulation_states(phylo)
                 for _ in range(sample_size)]
+	
 
-    def get_terminal_states(self, phylo):
+	"""For a given phylogeny and set of orthologous genes [ortho_group], it
+       returns a dictionary, indexed by genome_name and the three possible
+       states: "1" for regulation, "0" for non-regulation and "A" for absent,
+       encoding the probability of each state in each species.
+
+	   For each genome, the code looks at the member in the orthologous group.
+       If the genome does not have an instance of the gene, it assigns 1 to
+       absent ("A"), and 0 to states "1" and "0".
+	   If the genome does have an instance of the gene, it assigns to "1" the 
+       probability of regulation in that species, to "0" 1-prob and to "A" 0.
+	"""
+    def get_terminal_states_probs(self, phylo):
         states = {}
         genome_names = [node.name for node in phylo.tree.get_terminals()]
+		#for each genome in the analysis (looking at this [self] ortho_group
         for genome_name in genome_names:
             # Check if the group contains a gene from the current genome
             gene = self.member_from_genome(genome_name)
             if gene:
+    			#if so, assign the corresponding probabilities of regulation
+				#and zero probability for absence
                 p_reg = gene.operon.regulation_probability
                 states[(genome_name, '1')] = p_reg
                 states[(genome_name, '0')] = 1 - p_reg
                 states[(genome_name, 'A')] = 0
             else:
-                # No gene in this orthologous group from the genome
+                #No gene in this orthologous group from the genome
+				#Assign zero prob to both regulation states, and 1 to Absent
                 states[(genome_name, '1')] = 0
                 states[(genome_name, '0')] = 0
                 states[(genome_name, 'A')] = 1
@@ -124,22 +162,38 @@ class OrthologousGroup:
         It estimates whether the gene is likely to be present in ancestral
         nodes, as well as its regulation, if the gene is present.
         """
+		#define possible state list
         states = ['1', '0', 'A']
+		#define dictionary with dimensions [states]x[non_terminal_nodes], 
+		#initialized to zeroes
         bootstrap_inferred_states = {(node.name, state): 0
                                      for state in states
                                      for node in phylo.tree.get_nonterminals()}
+
+		#generate 'sample_size' replicates of the bootstrapped discretized
+		#states for the terminal nodes in the tree
         for trait in self.bootstrap_traits(phylo, sample_size):
+			#for each of those replicates, call bayestraits and infer ancestral
+			#states
             inferred_states = bayestraits_wrapper.bayes_traits(phylo, trait)
             for node in phylo.tree.get_nonterminals():
+				#for each non-terminal node, get the probability assigned by
+				#BayesTraits to each state, and add it to that state/node tally
                 for state in states:
                     k = (node.name, state)
                     bootstrap_inferred_states[k] += inferred_states.get(k, 0)
-        # Normalize
+        #Normalize the added probabilities for the non-terminal states
+		#by dividing by the sample_size (number of boostrap replicates)
         nonterminal_states = {k: v/sample_size
                               for (k, v) in bootstrap_inferred_states.items()}
-        all_states = dict(self.get_terminal_states(phylo).items() +
+		#join the terminal and non-terminal states into a single dictionary
+		#indexed by genome_name and state, and containing the observed (for
+		#terminal) and inferred (for non-terminal, coming from boostrap) probab
+		#of regulation [and absence]
+        all_states = dict(self.get_terminal_states_probs(phylo).items() +
                           nonterminal_states.items())
-        # Store the ancestral states
+        # Store these reconstructed+observed ancestral states into the ortholog
+		#group '_regulation_states' field, as a dictionary
         self._regulation_states = all_states
 
     @property
@@ -149,15 +203,25 @@ class OrthologousGroup:
 
     @property
     def prob_regulation_at_root(self):
-        """Returns the probability of regulation at the root of the tree."""
+        """Returns the probability of regulation at the root of the tree.
+		   'Root' here standing for the 'genome_name' and '1' for the prob of
+		   regulation state.
+		"""
         return self.regulation_states[('Root', '1')]
 
     def most_likely_state_at(self, node_name):
-        """Returns the most likely state at the given node."""
+        """Returns the most likely state at the given node.
+		   The function calls 'max' using the 'regulation_states' value for each
+		   state in that node as the 'key' for sorting [and inferring the max] 
+		"""
         return max(['1', '0', 'A'],
                    key=lambda x: self.regulation_states[(node_name, x)])
 
     def ancestral_state_reconstruction_svg_view(self, phylo):
+		"""Returns an SVG-parsed view of the reconstructed ancestral states
+		   using ete3 visualization options to generate a temp SVG file and
+		   then read it back to return the SVG parse
+		"""
         temp_file = misc.temp_file_name(suffix='.svg')
         t = visualization.biopython_to_ete3(phylo.tree)
         visualization.view_by_gene(t, self, temp_file)
