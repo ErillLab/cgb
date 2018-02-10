@@ -43,9 +43,19 @@ class UserInput:
         return [m['sites'] for m in self._input['motifs']]
 
     @property
+    def genomes_acc_list(self):
+        """Returns the lists of reference genome accessions."""
+        return [g['genome_accessions'] for g in self._input['motifs']]
+
+    @property
     def protein_accessions_and_sites(self):
         """Zips protein accessions and binding sites."""
         return zip(self.protein_accessions, self.sites_list)
+
+    @property
+    def protein_names_and_genome_accessions(self):
+        """Zips protein names and genome accessions for motifs."""
+        return zip(self.protein_names, self.genomes_acc_list)
 
     @property
     def prior_regulation_probability(self):
@@ -62,8 +72,10 @@ class UserInput:
         30/~2300 operons. See "get_prior" in "main.py" for implementation.
         """
         try:
-            value = self._input['prior_regulation_probability']
+            value = float(self._input['prior_regulation_probability'])
         except KeyError:
+            value = None
+        except ValueError:
             value = None
         return value
 
@@ -139,4 +151,15 @@ class UserInput:
             value = self._input['ancestral_state_reconstruction']
         except:
             value = False
+        return value
+
+    @property
+    def bootstrap_replicates(self):
+        """Returns the number of bootstrap replicates to be performed for
+           ancestral state reconstruction. Defaults to 100.
+        """
+        try:
+            value = self._input['bootstrap_replicates']
+        except:
+            value = 100
         return value

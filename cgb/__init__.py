@@ -36,7 +36,7 @@ def pickle_load(filename):
 
 
 def create_genomes(user_input):
-    """Creates all genomes used in the analysis.
+    """Creates all target genomes used in the analysis.
 
     For each genome, it writes operons to csv files.
 
@@ -59,6 +59,24 @@ def create_genomes(user_input):
     my_logger.info("Finished: create genomes")
     return genomes
 
+def create_refgenomes(user_input):
+    """Creates all reference genomes used in the analysis.
+
+    For each genome, it writes operons to csv files.
+
+    Args:
+        user_input (UserInput): a UserInput object keeping the user input
+    Returns:
+        [Genome]: list of created genomes
+    """
+    my_logger.info("Started: create reference genomes")
+
+    # Create genomes with given names and accession numbers
+    refgenomes = [Genome(motif[0], motif[1])
+                  for motif in user_input.protein_names_and_genome_accessions]
+
+    my_logger.info("Finished: create reference genomes")
+    return refgenomes
 
 def output_operons(user_input, genome):
     """Writes operons of the genome to its corresponding CSV file.
@@ -136,6 +154,7 @@ def create_site_collections(user_input, proteins):
     Args:
         user_input (UserInput): parameters provided by the user
         proteins ([Protein]): list of proteins associated with the collections
+        refgenomes ([Genome]): list of genomes associated with the collections
     Returns:
         [SiteCollection]: the list of SiteCollection objects, one per protein.
     """
@@ -256,17 +275,29 @@ def compute_weights(genome, site_collections, phylogeny=None,
 
 
 def get_prior(genome, user_input, weights):
-    """Infers the prior probability of binding.
+    """Infers the prior probability of binding (as opposed to it being set by
+       a global parameter).
 
-    This is done by predicting operons in the genome of the TF for which the
-    motif is provided and dividing the number of sites in the motif (assuming
-    that there is one site per operon) by the number of operons. For instance,
-    if 30 sites are available for LexA in E. coli, then the prior for
-    regulation is 30/~2300 operons.
+    The primary idea here was to use the number of observed sites (assuming one
+    per operon) and divide by the total number of predicted operons to obtain
+    a prior for regulation (per operon). For instance, if 30 sites are available
+    for LexA in E. coli, then the prior for regulation is 30/~2300 operons.
 
-    Then it is assigned to genome using the same strategy defined for mixing
-    the TF-binding models. That is, simple combination (arithmetic mean of
-    priors) or weighted combination (with phylogenetic distances).
+    Since most site collections are far from complete, the above approach would
+    tend to underestimate the prior. Hence, the alternative approach taken here
+    is to define the <expected> number of sites in a genome, using the
+    Rfrequency/Rsequence equation as: G/2^Rsequence, where G is the
+    size of the genome, then infer the prior as the predicted number of 
+    regulated operons (assuming one site per operon) divided by the total number
+    of operons.
+
+    If it were inferred directly, the prior for regulation would need to be
+    then assigned to the target genome using the same strategy defined for
+    mixing the TF-binding models. That is, simple combination (arithmetic mean
+    of priors) or weighted combination (with phylogenetic distances). But
+    because it is inferred using the "expected" number of regulated operons,
+    which is obtained using the already "weighted" TF-binding model for this
+    genome, this is not necessary.
 
     Args:
         genome (Genome): the genome of interest
@@ -278,17 +309,20 @@ def get_prior(genome, user_input, weights):
     # If the prior regulation probability is set by the user, use that value.
     if user_input.prior_regulation_probability:
         return user_input.prior_regulation_probability
-    # Otherwise, infer the prior probability.
-    my_logger.info("Prior probability not provided, "
-                   "inferring from the provided motifs. (%s)"
-                   % genome.strain_name)
+    else:
+        # Otherwise, infer the prior probability.
+        my_logger.info("Prior probability not provided, "
+                       "inferring from the provided motifs. (%s) "
+                       % genome.strain_name)
 
-    print genome.TF_binding_model.IC
-    prior = (genome.length /
-             2**genome.TF_binding_model.IC /
-             genome.num_operons)
-    my_logger.info("Prior for %s: %f" % (genome.strain_name, prior))
-    return prior
+        #IC-inferred prior
+        print genome.TF_binding_model.IC
+        prior = (genome.length /
+                 2**genome.TF_binding_model.IC /
+                 genome.num_operons)
+
+        my_logger.info("Prior for %s: %f" % (genome.strain_name, prior))
+        return prior
 
 
 def infer_regulons(user_input, genome):
@@ -412,7 +446,7 @@ def perform_ancestral_state_reconstruction(user_input, genomes,
     phylo = Phylo([g.TF_instance for g in genomes],
                   [g.strain_name for g in genomes])
     # Perform ancestral state reconstruction
-    ancestral_state_reconstruction(orthologous_grps, phylo)
+    ancestral_state_reconstruction(orthologous_grps, phylo, user_input)
 
     # Write ancestral state reconstruction to a csv file
     ancestral_states_to_csv(orthologous_grps, phylo,
@@ -493,7 +527,7 @@ def go(input_file):
         # Set TF-binding model for each genome.
         my_logger.info("Setting TF-binding model (%s)" % genome.strain_name)
         set_TF_binding_model(user_input, genome, site_collections, weights)
-        
+
         # Infer prior probabilities of regulation
         prior = get_prior(genome, user_input, weights)
         my_logger.info("Prior(regulation; %s): %.2f" % (genome.strain_name, prior))
@@ -529,5 +563,5 @@ def go(input_file):
     # Create phylogenetic tree of target genomes only
     phylo_target_genomes = Phylo([g.TF_instance for g in genomes],
                                  [g.strain_name for g in genomes])
-    all_plots(phylo_target_genomes, ortholog_groups, genomes,
-              directory(OUTPUT_DIR, 'plots'))
+#    all_plots(phylo_target_genomes, ortholog_groups, genomes,
+#              directory(OUTPUT_DIR, 'plots'))

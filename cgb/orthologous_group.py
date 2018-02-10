@@ -156,7 +156,7 @@ class OrthologousGroup:
                 states[(genome_name, 'A')] = 1
         return states
 
-    def ancestral_state_reconstruction(self, phylo, sample_size=100):
+    def ancestral_state_reconstruction(self, phylo, user_input):
         """Runs BayesTraits for ancestral state reconstruction.
 
         It estimates whether the gene is likely to be present in ancestral
@@ -169,6 +169,9 @@ class OrthologousGroup:
         bootstrap_inferred_states = {(node.name, state): 0
                                      for state in states
                                      for node in phylo.tree.get_nonterminals()}
+
+        #read sample size from options
+        sample_size=user_input.bootstrap_replicates
 
         #generate 'sample_size' replicates of the bootstrapped discretized
         #states for the terminal nodes in the tree
@@ -343,7 +346,7 @@ def orthologous_grps_to_csv(groups, phylogeny, filename):
         csv_writer.writerows(csv_rows)
 
 
-def ancestral_state_reconstruction(ortho_grps, phylo):
+def ancestral_state_reconstruction(ortho_grps, phylo, user_input):
     """Performs ancestral state reconstruction for all orthologous groups.
 
     Each orthologous group consists of genes (one from each genome) and
@@ -368,8 +371,9 @@ def ancestral_state_reconstruction(ortho_grps, phylo):
     Returns:
     """
     my_logger.info("Ancestral state reconstruction")
+    #for each orthologous group
     for ortho_grp in tqdm(ortho_grps):
-        ortho_grp.ancestral_state_reconstruction(phylo)
+        ortho_grp.ancestral_state_reconstruction(phylo, user_input)
     my_logger.info("Ancestral state reconstruction [DONE]")
 
 
