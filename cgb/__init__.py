@@ -273,6 +273,16 @@ def compute_weights(genome, site_collections, phylogeny=None,
 
     return weights
 
+def remove_operons(genome, user_input):
+    """Eliminates the operon list from the genome. This is used to reset operons
+       when they have been preliminary predicted for the purposes of obtaining
+       genome-specific priors
+    """
+    # If the prior regulation probability is not set by the user
+    if not(user_input.prior_regulation_probability):
+        #remove the operons in genome
+        genome.remove_operons()
+
 
 def get_prior(genome, user_input, weights):
     """Infers the prior probability of binding (as opposed to it being set by
@@ -317,6 +327,16 @@ def get_prior(genome, user_input, weights):
 
         #IC-inferred prior
         print genome.TF_binding_model.IC
+
+        # first infer operons, with operon-split deactivated (so no need to
+        # compute site scores, which require operons to be predicted)
+        my_logger.info("Initial operon prediction (%s)" % genome.strain_name)
+        genome.operon_prediction(1.0, 
+                        user_input.operon_prediction_distance_tuning_parameter)
+        my_logger.info("Number of operons (%s): %d" %
+                       (genome.strain_name, genome.num_operons))
+
+        # then compute prior
         prior = (genome.length /
                  2**genome.TF_binding_model.IC /
                  genome.num_operons)

@@ -104,6 +104,14 @@ class Genome:
             if len(chromid.operons)>0:
                 start_id = chromid.operons[-1].operon_id + 1
 
+    def remove_operons(self, *args):
+        """Removes predicted operons for each chromid.
+        """
+        for chromid in self.chromids:
+            #if at least one operon has been predicted in chromid
+            if len(chromid.operons)>0:
+                chromid.remove_operons(*args)
+
     @cached_property
     def length(self):
         """Returns the total length of the genome."""
