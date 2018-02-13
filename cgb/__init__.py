@@ -326,20 +326,25 @@ def get_prior(genome, user_input, weights):
                        % genome.strain_name)
 
         #IC-inferred prior
-        print genome.TF_binding_model.IC
+        my_logger.info("Motif IC for %s : %d bits" % (genome.strain_name, 
+                                            genome.TF_binding_model.IC))
 
         # first infer operons, with operon-split deactivated (so no need to
         # compute site scores, which require operons to be predicted)
         my_logger.info("Initial operon prediction (%s)" % genome.strain_name)
         genome.operon_prediction(1.0, 
                         user_input.operon_prediction_distance_tuning_parameter)
-        my_logger.info("Number of operons (%s): %d" %
-                       (genome.strain_name, genome.num_operons))
 
         # then compute prior
         prior = (genome.length /
                  2**genome.TF_binding_model.IC /
                  genome.num_operons)
+
+        # then remove operons
+        genome.remove_operons()
+
+        my_logger.info("Number of operons (%s) [after clearing them]: %d" %
+                       (genome.strain_name, genome.num_operons))
 
         my_logger.info("Prior for %s: %f" % (genome.strain_name, prior))
         return prior

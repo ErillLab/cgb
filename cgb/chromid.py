@@ -156,13 +156,13 @@ class Chromid:
         return [directon if directon[0].is_forward_strand else directon[::-1]
                 for directon in directons]
 
-    def remove_operons(self, start_id, probability_th, sigma):
+    def remove_operons(self):
         """Removes predicted operons from the chromosome/plasmid.
         
         """
-        my_logger.info("Predicting operons - %s (%s)" %
+        my_logger.info("Removing operons - %s (%s)" %
                        (self.accession_number, self.genome.strain_name))
-        self._operons = []
+        del self._operons[:]
 
 
     def operon_prediction(self, start_id, probability_th, sigma):
@@ -197,6 +197,7 @@ class Chromid:
                        (self.accession_number, self.genome.strain_name))
         operons = []
         distance_th = self.genome.intergenic_distance_threshold(sigma)
+        splits=0
 
         # Find regulated genes by TF-binding to their promoter regions
         # (unless probability_th is set to 1.0; i.e. splitting is off)
@@ -217,14 +218,22 @@ class Chromid:
                     if directon[i-1].distance(directon[i]) >= distance_th:
                         break
                     if directon[i] in genes_to_split:
+                        splits=splits + 1
                         break
                     operon.append(directon[i])
                     i += 1
                 operons.append(operon)
                 if i < len(directon):
                     directons_rest.append(directon[i:])
+
+        
+        if (probability_th!=1.0): 
+            my_logger.info("%d operons split in %s" %
+                          (splits, self.accession_number))
+
         my_logger.debug("Number of operons in %s: %d" %
                         (self.accession_number, len(operons)))
+
         self._operons = [Operon(opr, id)
                          for id, opr in enumerate(operons, start=start_id)]
 

@@ -92,6 +92,15 @@ class Genome:
             opr.set_operon_id = i
         return oprs
 
+    def remove_operons(self):
+        """Removes predicted operons for each chromid.
+        """
+        for chromid in self.chromids:
+            #if at least one operon has been predicted in chromid
+            if len(chromid.operons)>0:
+                chromid.remove_operons()
+                del self.operons[:]
+
     def operon_prediction(self, *args):
         """Predicts operons for each chromid.
 
@@ -104,13 +113,9 @@ class Genome:
             if len(chromid.operons)>0:
                 start_id = chromid.operons[-1].operon_id + 1
 
-    def remove_operons(self, *args):
-        """Removes predicted operons for each chromid.
-        """
-        for chromid in self.chromids:
-            #if at least one operon has been predicted in chromid
-            if len(chromid.operons)>0:
-                chromid.remove_operons(*args)
+            my_logger.info("Number of operons (%s): %d" %
+                          (self.strain_name, self.num_operons))
+
 
     @cached_property
     def length(self):
