@@ -108,8 +108,15 @@ class Gene:
         start, end = self.upstream_noncoding_region_location(up, down)
         return self.chromid.subsequence(start, end)
 
-    def promoter_region(self, up=-300, down=+50):
-        """Returns the promoter region of the gene."""
+    def promoter_region(self, up=300, down=50):
+        """Returns the promoter region of the gene.
+           The promoter region is defined as the region -UP bp upstream from the
+           gene TLS, to +DW bp downstream
+        """
+        #flip up relative coordinate into a negative number (e.g. -300 for 300)
+        up=-up
+        
+        #determine promoter_region coordinates based on relative up/dw coords
         if self.is_forward_strand:
             loc_start = max(0, self.start+up)
             loc_end = self.start+down
@@ -119,7 +126,7 @@ class Gene:
 
         return self.chromid.subsequence(loc_start, loc_end)
 
-    def calculate_regulation_probability(self, prior_regulation):
+    def calculate_regulation_probability(self, prior_regulation, user_input):
         """Returns the posterior probability of regulation given the TF-binding
         model scores along the gene promoter region.
 
@@ -133,7 +140,9 @@ class Gene:
         # for promoter regions assigned to this operon, using the provided
         # prior
         self._regulation_probability = binding_model.binding_probability(
-            self.promoter_region(), prior_regulation)
+            self.promoter_region(user_input.promoter_up_distance,
+                                 user_input.promoter_dw_distance), 
+                                 prior_regulation, user_input.alpha)
         return self._regulation_probability
 
     @property

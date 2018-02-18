@@ -1,5 +1,6 @@
 import json
-
+from .my_logger import my_logger
+from cached_property import cached_property
 
 class UserInput:
     """Class definition for UserInput.
@@ -57,7 +58,7 @@ class UserInput:
         """Zips protein names and genome accessions for motifs."""
         return zip(self.protein_names, self.genomes_acc_list)
 
-    @property
+    @cached_property
     def prior_regulation_probability(self):
         """Returns the prior probability of regulation.
 
@@ -84,8 +85,8 @@ class UserInput:
         """Returns true if the prior probability of regulation is provided."""
         return 'prior_regulation_probability' in self._input
 
-    @property
-    def probability_threshold(self):
+    @cached_property
+    def posterior_probability_threshold_for_reporting(self):
         """Returns the threshold for regulation probabilities.
 
         Only the operons with a regulation probability above the threshold will
@@ -95,40 +96,81 @@ class UserInput:
         """
         try:
             value = self._input['posterior_probability_threshold_for_reporting']
+            #limit range
+            if value < 0.0:
+                my_logger.info("WARNING: "\
+                               "posterior_probability_threshold_for_reporting "\
+                               "(%d) out"\
+                               "of range in input file; will be reset to %d" %
+                              (value, 0.0))
+                value=0.0
+            if value > 1.0:
+                my_logger.info("WARNING: "\
+                               "posterior_probability_threshold_for_reporting "\
+                               "(%d) out"\
+                               "of range in input file; will be reset to %d" %
+                              (value, 1.0))
+                value=1.0
         except KeyError:
             value = 0.5
         return value
 
-    @property
+    @cached_property
     def phylogenetic_weighting(self):
         """Returns if the phylogenetic-weighting option is on."""
         try:
             value = self._input['phylogenetic_weighting']
+            #test value
+            if not(isinstance(value, bool)):
+                my_logger.info("WARNING: "\
+                               "phylogenetic_weighting (%s) not properly "\
+                               "defined in input file; will be reset to %d" %
+                              (str(value), False))
         except KeyError:
             value = False
         return value
 
-    @property
+    @cached_property
     def site_count_weighting(self):
         """Returns if the site count-weighting option is on."""
         try:
             value = self._input['site_count_weighting']
+            #test value
+            if not(isinstance(value, bool)):
+                my_logger.info("WARNING: "\
+                               "site_count_weighting (%s) not properly defined; "\
+                               "will be reset to %d" %
+                              (str(value), False))
+                value=False
         except KeyError:
             value = False
         return value
 
-    @property
+    @cached_property
     def operon_prediction_probability_threshold(self):
         """Returns the threshold for posterior probability of regulation used
         for operon prediction. The default value is 0.5.
         """
         try:
             value = self._input['operon_prediction_probability_threshold']
+            #limit range
+            if value < 0.0:
+                my_logger.info("WARNING: "\
+                               "operon_prediction_probability_threshold (%d) "\
+                               "out of range in input file; will be reset to %d" 
+                               % (value, 0.0))
+                value=0.0
+            if value > 1.0:
+                my_logger.info("WARNING: "\
+                               "operon_prediction_probability_threshold (%d) "\
+                               "out of range in input file; will be reset to %d" 
+                               % (value, 1.0))
+                value=1.0
         except KeyError:
             value = 0.5
         return value
 
-    @property
+    @cached_property
     def operon_prediction_distance_tuning_parameter(self):
         """Returns the sigma value used to calibrate distance threshold used
         for operon prediction. The value should be positive. The default value
@@ -137,11 +179,26 @@ class UserInput:
         """
         try:
             value = self._input['operon_prediction_distance_tuning_parameter']
+            #limit range
+            if value < 0.5:
+                my_logger.info("WARNING: "\
+                               "operon_prediction_distance_tuning_parameter "\
+                               "(%d) out "\
+                               "of range in input file; will be reset to %d" %
+                              (value, 0.5))
+                value=0.5
+            if value > 5.0:
+                my_logger.info("WARNING: "\
+                               "operon_prediction_distance_tuning_parameter "\
+                               "(%d) out "\
+                               "of range in input file; will be reset to %d" %
+                              (value, 5.0))
+                value=5.0
         except KeyError:
             value = 1.0
         return value
 
-    @property
+    @cached_property
     def ancestral_state_reconstruction(self):
 
         """Returns True/False which specifies whether ancestral state reconstruction
@@ -149,17 +206,231 @@ class UserInput:
         """
         try:
             value = self._input['ancestral_state_reconstruction']
+            #test value
+            if not(isinstance(value, bool)):
+                my_logger.info("WARNING: "\
+                               "ancestral_state_reconstruction (%s) not "\
+                               "properly defined in input file; "\
+                               "will be reset to %d" %
+                              (str(value), False))
+                value=False
         except:
             value = False
         return value
 
-    @property
+    @cached_property
     def bootstrap_replicates(self):
         """Returns the number of bootstrap replicates to be performed for
            ancestral state reconstruction. Defaults to 100.
         """
         try:
             value = self._input['bootstrap_replicates']
+            #limit range
+            if value < 0:
+                my_logger.info("WARNING: "\
+                               "mixing rate alpha (%d) out"\
+                               "of range in input file; will be reset to %d" %
+                              (value, 0))
+                value=0.0
+            if value > 10000:
+                my_logger.info("WARNING: "\
+                               "mixing rate alpha (%d) out"\
+                               "of range in input file; will be reset to %d" %
+                              (value, 10000))
+                value=10000
         except:
             value = 100
         return value
+
+    @cached_property
+    def alpha(self):
+        """Returns the alpha mixing rate parameter for the mixture distribution
+           of scores in regulated promoters. Defaults to 0.03 [1/300].
+        """
+        try:
+            value = self._input['alpha']
+            #limit range
+            if value < 0.0:
+                my_logger.info("WARNING: "\
+                               "mixing rate alpha (%d) out"\
+                               "of range in input file; will be reset to %d" %
+                              (value, 0.0))
+                value=0.0
+            if value > 1.0:
+                my_logger.info("WARNING: "\
+                               "mixing rate alpha (%d) out"\
+                               "of range in input file; will be reset to %d" %
+                              (value, 1.0))
+                value=1.0
+        except:
+            value = 0.03
+        return value
+
+    @cached_property
+    def promoter_up_distance(self):
+        """Returns the maximum distance upstream of a gene predicted TLS to
+           search for putative TF-binding sites. Defaults to 300 bp.
+        """
+        try:
+            value = self._input['promoter_up_distance']
+            #limit range
+            if value < 0:
+                my_logger.info("WARNING: "\
+                               "promoter_up_distance (%d) out"\
+                               "of range in input file; will be reset to %d" %
+                              (value, 0))
+                value=0
+            if value > 1000:
+                my_logger.info("WARNING: "\
+                               "promoter_up_distance (%d) out"\
+                               "of range in input file; will be reset to %d" %
+                              (value, 1000))
+                value=1000
+        except:
+            value = 300
+        return value
+
+    @cached_property
+    def promoter_dw_distance(self):
+        """Returns the maximum distance downstream of a gene predicted TLS to
+           search for putative TF-binding sites. Defaults to 50 bp.
+        """
+        try:
+            value = self._input['promoter_dw_distance']
+            #limit range
+            if value < 0:
+                my_logger.info("WARNING: "\
+                               "promoter_dw_distance (%d) out"\
+                               "of range in input file; will be reset to %d" %
+                              (value, 0))
+                value=0
+            if value > 1000:
+                my_logger.info("WARNING: "\
+                               "promoter_dw_distance (%d) out"\
+                               "of range in input file; will be reset to %d" %
+                              (value, 1000))
+                value=1000
+        except:
+            value = 50
+        return value
+
+    @cached_property
+    def heatmap_plot(self):
+
+        """Returns True/False which specifies whether a heatmap plot will be
+           generated or not.
+        """
+        try:
+            value = self._input['heatmap_plot']
+            #test value
+            if not(isinstance(value, bool)):
+                my_logger.info("WARNING: "\
+                               "heatmap_plot (%s) not "\
+                               "properly defined in input file; "\
+                               "will be reset to %d" %
+                              (str(value), True))
+                value=True
+        except:
+            value = True
+        return value
+
+    @cached_property
+    def motif_plot(self):
+
+        """Returns True/False which specifies whether a motif plot will be
+           generated or not.
+        """
+        try:
+            value = self._input['motif_plot']
+            #test value
+            if not(isinstance(value, bool)):
+                my_logger.info("WARNING: "\
+                               "motif_plot (%s) not "\
+                               "properly defined in input file; "\
+                               "will be reset to %d" %
+                              (str(value), True))
+                value=True
+        except:
+            value = True
+        return value
+
+    @cached_property
+    def gene_regulation_plot(self):
+
+        """Returns True/False which specifies whether a gene regulation plot
+           will be generated or not.
+        """
+        try:
+            value = self._input['gene_regulation_plot']
+            #test value
+            if not(isinstance(value, bool)):
+                my_logger.info("WARNING: "\
+                               "gene_regulation_plot (%s) not "\
+                               "properly defined in input file; "\
+                               "will be reset to %d" %
+                              (str(value), False))
+                value=False
+        except:
+            value = False
+        return value
+
+    @cached_property
+    def taxon_regulation_plot(self):
+
+        """Returns True/False which specifies whether a taxon regulation plot
+           will be generated or not.
+        """
+        try:
+            value = self._input['taxon_regulation_plot']
+            #test value
+            if not(isinstance(value, bool)):
+                my_logger.info("WARNING: "\
+                               "taxon_regulation_plot (%s) not "\
+                               "properly defined in input file; "\
+                               "will be reset to %d" %
+                              (str(value), False))
+                value=False
+        except:
+            value = False
+        return value
+
+    @cached_property
+    def network_size_plot(self):
+
+        """Returns True/False which specifies whether a network size plot will 
+           be generated or not.
+        """
+        try:
+            value = self._input['network_size_plot']
+            #test value
+            if not(isinstance(value, bool)):
+                my_logger.info("WARNING: "\
+                               "network_size_plot (%s) not "\
+                               "properly defined in input file; "\
+                               "will be reset to %d" %
+                              (str(value), False))
+                value=False
+        except:
+            value = False
+        return value
+
+    @cached_property
+    def site_printout(self):
+
+        """Returns True/False which specifies whether a a printout of predicted
+           sites will be generated or not.
+        """
+        try:
+            value = self._input['site_printout']
+            #test value
+            if not(isinstance(value, bool)):
+                my_logger.info("WARNING: "\
+                               "site_printout (%s) not "\
+                               "properly defined in input file; "\
+                               "will be reset to %d" %
+                              (str(value), True))
+                value=True
+        except:
+            value = True
+        return value
+

@@ -329,10 +329,11 @@ def get_prior(genome, user_input, weights):
         my_logger.info("Motif IC for %s : %d bits" % (genome.strain_name, 
                                             genome.TF_binding_model.IC))
 
-        # first infer operons, with operon-split deactivated (so no need to
+        # first infer operons, with operon-split deactivated (by forcing 
+        # operon_prediction_probability_threshold to 1, so there is no need to
         # compute site scores, which require operons to be predicted)
         my_logger.info("Initial operon prediction (%s)" % genome.strain_name)
-        genome.operon_prediction(1.0, 
+        genome.operon_prediction(1, 
                         user_input.operon_prediction_distance_tuning_parameter)
 
         # then compute prior
@@ -342,9 +343,6 @@ def get_prior(genome, user_input, weights):
 
         # then remove operons
         genome.remove_operons()
-
-        my_logger.info("Number of operons (%s) [after clearing them]: %d" %
-                       (genome.strain_name, genome.num_operons))
 
         my_logger.info("Prior for %s: %f" % (genome.strain_name, prior))
         return prior
@@ -365,9 +363,9 @@ def infer_regulons(user_input, genome):
     """
     output_dir = directory(OUTPUT_DIR, 'posterior_probs')
     # Get the posterior probability threshold used for reporting
-    threshold = user_input.probability_threshold
+    threshold = user_input.posterior_probability_threshold_for_reporting
     my_logger.info("Regulation probability threshold: %.2f" % threshold)
-    my_logger.info("Inferring regulations for (%s)." % genome.strain_name)
+    my_logger.info("Inferring regulated operons in (%s)." % genome.strain_name)
     report_filename = os.path.join(output_dir, genome.strain_name+'.csv')
     # Return the regulons with posterior probability of regulation higher than
     # the given threshold.
@@ -483,7 +481,7 @@ def perform_ancestral_state_reconstruction(user_input, genomes,
 def create_output_directory():
     # Create if it does not exist
     wd = directory(OUTPUT_DIR)
-    my_logger.info("Output directory: %s" % wd)
+    my_logger.info("Setting output directory: %s" % wd)
 
     # Delete everything
     choice = raw_input("Removing following files:\n" +
@@ -495,6 +493,27 @@ def create_output_directory():
                 os.remove(x)
             else:
                 shutil.rmtree(os.path.join(x))
+
+#calls all input methods, setting them to accepted values
+def TestInput(user_input):
+    my_logger.info("Checking input file")
+    tmp = user_input.prior_regulation_probability
+    tmp = user_input.posterior_probability_threshold_for_reporting
+    tmp = user_input.phylogenetic_weighting
+    tmp = user_input.site_count_weighting
+    tmp = user_input.operon_prediction_probability_threshold
+    tmp = user_input.operon_prediction_distance_tuning_parameter
+    tmp = user_input.ancestral_state_reconstruction
+    tmp = user_input.bootstrap_replicates
+    tmp = user_input.alpha
+    tmp = user_input.promoter_up_distance
+    tmp = user_input.promoter_dw_distance
+    tmp = user_input.heatmap_plot
+    tmp = user_input.motif_plot
+    tmp = user_input.gene_regulation_plot
+    tmp = user_input.taxon_regulation_plot
+    tmp = user_input.network_size_plot
+    tmp = user_input.site_printout
 
 #acts as the "main" for the library (called as cgb.go from run.py file (in CGB root folder)
 #it first reads and parses the input file, stores it in memory in "user_input", then initializes directories for output
@@ -517,6 +536,9 @@ def go(input_file):
     """The entry-point for the pipeline."""
     # Read user input and configuration from two files
     user_input = UserInput(input_file)
+
+    # Test and cache input parameters
+    TestInput(user_input)
 
     # Make output directory
     create_output_directory()
@@ -560,15 +582,12 @@ def go(input_file):
         # Calculate posterior probabilities of regulation for each gene
         my_logger.info("Calculating regulation probabilities (%s)" %
                        genome.strain_name)
-        genome.calculate_regulation_probabilities(prior)
+        genome.calculate_regulation_probabilities(prior, user_input)
         
         # Predict operons
-        my_logger.info("Predicting operons (%s)" % genome.strain_name)
         genome.operon_prediction(
             user_input.operon_prediction_probability_threshold,
             user_input.operon_prediction_distance_tuning_parameter)
-        my_logger.info("Number of operons (%s): %d" %
-                       (genome.strain_name, genome.num_operons))
 
         # Infer regulon in current genome and add it to regulon list
         regulons = infer_regulons(user_input, genome)
@@ -588,5 +607,6 @@ def go(input_file):
     # Create phylogenetic tree of target genomes only
     phylo_target_genomes = Phylo([g.TF_instance for g in genomes],
                                  [g.strain_name for g in genomes])
-#    all_plots(phylo_target_genomes, ortholog_groups, genomes,
-#              directory(OUTPUT_DIR, 'plots'))
+    # Generate plots
+    all_plots(phylo_target_genomes, ortholog_groups, genomes,
+              directory(OUTPUT_DIR, 'plots'),user_input)

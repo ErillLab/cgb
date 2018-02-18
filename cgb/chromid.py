@@ -68,10 +68,15 @@ class Chromid:
         """Returns random sequences drawn from the chromid."""
         return [self.random_seq(length) for _ in xrange(count)]
 
-    @cached_property
-    def promoter_regions(self, up=-300, down=+50):
-        """Returns the list of all intergenic regions."""
-        return [opr.promoter_region(up, down) for opr in self.operons[1:-1]]
+    @property
+    def promoter_regions(self, user_input):
+        """Returns the list of all intergenic regions.
+           For each operon in chromid, this is the promoter region of its
+           lead gene.
+        """
+        return [opr.promoter_region(user_input.promoter_up_distance, 
+                                    user_input.promoter_dw_distance) 
+                                    for opr in self.operons[1:-1]]
 
     def random_seq_from_promoters(self, length):
         promoters = self.promoter_regions
@@ -121,7 +126,7 @@ class Chromid:
         """Returns the protein coding genes of the chromosome/plasmid."""
         return [g for g in self.genes if g.product_type == 'CDS']
 
-    @cached_property
+    @property
     def operons(self):
         """Returns the list of operons of the chromosome/plasmid."""
         return self._operons

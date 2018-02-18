@@ -84,7 +84,7 @@ class Genome:
         dists = [d[0].distance(d[1]) for d in self.directons if len(d) > 1]
         return sigma * mean(dists)
 
-    @cached_property
+    @property
     def operons(self):
         """Returns all operons of the genome."""
         oprs = [opr for chromid in self.chromids for opr in chromid.operons]
@@ -328,10 +328,10 @@ class Genome:
 
         self._TF_instance = TF
 
-    def calculate_regulation_probabilities(self, prior):
+    def calculate_regulation_probabilities(self, prior,user_input):
         """Calculates posterior probability of regulation for _all_ genes."""
         for gene in tqdm(self.genes):
-            gene.calculate_regulation_probability(prior)
+            gene.calculate_regulation_probability(prior,user_input)
 
     def infer_regulons(self, threshold=0.5, filename=None):
         """Scans upstream regions of all operons for binding sites.
@@ -392,24 +392,25 @@ class Genome:
                  for site in self.putative_sites], filename)
         return filename
 
-    def identify_sites(self, promoter_up=300, filename=None):
+    def identify_sites(self, user_input, filename=None):
         """Returns the list of sites in non-coding regions.
 
-        It searches exclusively the [-promoter_up, +50] for all genes in the
-        genome. It returns all sites with a score over threshold, and tags the
+        It searches exclusively the [-promoter_up, promoter_dw] for all genes
+        in the genome. It returns all sites with a score over threshold, tags
         found sites as operator or intergenic (if distance is >300, or whatever
         the user specifies). Finally, it reports identified sites to a CSV file
         if filename is provided.
 
-        The reason to identify binding sites upstream of all genes, rather than
-        only of operons, is that the binding site predictions are used to
+        The reason for identifying binding sites upstream of all genes, rather
+        than only for operons, is that the binding site predictions are used to
         improve the operon prediction. That is, if there is a putative binding
         site upstream of an in-between gene in an operon, the operon is split
         into two by the gene.
 
         Args:
-            promoter_up (int): the max-distance from the start of the gene to
-                report binding sites.
+            user_input: to get the promoter_up and promoter_dw max-distances
+            from the start of the gene to report binding sites.
+
             filename (string): the CSV file to report putative binding sites.
         """
         threshold = self.TF_binding_model.threshold()  # score threshold
@@ -418,7 +419,10 @@ class Genome:
         my_logger.info("Identifying sites in %s" % self.strain_name)
         for gene in tqdm(self.genes):
             # Locate the upstream non-coding region.
-            start, end = gene.upstream_noncoding_region_location()
+            # Provide None as promoter_up_distance, so that the whole intergenic
+            # region up the next gene TLS is scanned
+            start, end = gene.upstream_noncoding_region_location(None,
+                                                user_input.promoter_dw_distance)
             # Score forward strand
             seq = gene.chromid.subsequence(start, end)
             scores = self.TF_binding_model.score_seq(seq, both=False)
@@ -433,13 +437,15 @@ class Genome:
                 if score >= threshold:
                     sites.append(
                         Site(gene.chromid, i, i+site_len, -1, score, gene))
+
         # Sort the identified sites by their scores.
         sites.sort(key=lambda site: site.score, reverse=True)
         # Store the results in a private attribute.
         self._putative_sites = sites
 
         if filename:
-            self._output_identified_sites(sites, promoter_up, filename)
+            self._output_identified_sites(sites, 
+                                      user_input.promoter_up_distance, filename)
 
     def _output_identified_sites(self, sites, promoter_up, filename):
         """Reports the idenitied sites to a CSV file.

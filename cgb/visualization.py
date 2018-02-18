@@ -246,20 +246,31 @@ def motif_view(tree, genomes, save_dir):
     tree.render(os.path.join(save_dir, 'binding_motif.svg'), tree_style=ts)
 
 
-def all_plots(phylo, orthologous_groups, genomes, save_dir):
+def all_plots(phylo, orthologous_groups, genomes, save_dir, user_input):
     """Draw all plots and save them in save_dir."""
+    mylogger.info("Generating plots")
     # Heat map
-    heatmap_view(biopython_to_ete3(phylo.tree), orthologous_groups, save_dir)
+    if user_input.heatmap_plot:
+        heatmap_view(biopython_to_ete3(phylo.tree), orthologous_groups, 
+                     save_dir)
+    
+    # Motif phylogeny plot
+    if user_input.motif_plot:
+        motif_view(biopython_to_ete3(phylo.tree), genomes, save_dir)
 
     # Orthologous group-centric view
-    view_all_genes(biopython_to_ete3(phylo.tree), orthologous_groups, save_dir)
+    if user_input.gene_regulation_plot:
+        view_all_genes(biopython_to_ete3(phylo.tree), orthologous_groups,
+                       save_dir)
 
     # Taxa-centric view
-    #view_all_taxa(biopython_to_ete3(phylo.tree), orthologous_groups, save_dir)
+    if user_input.taxon_regulation_plot:
+        view_all_taxa(biopython_to_ete3(phylo.tree), orthologous_groups,
+                      save_dir)
 
     # Network size plot
-    #network_size_view(
-    #    biopython_to_ete3(phylo.tree), orthologous_groups,  save_dir)
+    if user_input.network_size_plot:
+        network_size_view(
+                   biopython_to_ete3(phylo.tree), orthologous_groups,  save_dir)
 
-    # Motif phylogeny plot
-    motif_view(biopython_to_ete3(phylo.tree), genomes, save_dir)
+
