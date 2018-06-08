@@ -434,3 +434,20 @@ class UserInput:
             value = True
         return value
 
+    @cached_property
+    def entrez_email(self):
+        """Returns the email address used for entrez.
+
+        It is used by the entrez library to fetch genome records, and NCBI to
+        warn users of API over-use.
+
+        If not provided by the user, the program halts.
+        """
+        try:
+            value = self._input['entrez_email']
+        except KeyError:
+            value = None
+        except ValueError:
+            value = None
+        return value
+
