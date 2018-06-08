@@ -248,7 +248,7 @@ def motif_view(tree, genomes, save_dir):
 
 def all_plots(phylo, orthologous_groups, genomes, save_dir, user_input):
     """Draw all plots and save them in save_dir."""
-    mylogger.info("Generating plots")
+    my_logger.info("Generating plots")
     # Heat map
     if user_input.heatmap_plot:
         heatmap_view(biopython_to_ete3(phylo.tree), orthologous_groups, 
