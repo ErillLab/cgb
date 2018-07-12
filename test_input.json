@@ -224,7 +224,7 @@
         }
     ],
 
-    "prior_regulation_probability" : "No",
+    "prior_regulation_probability" : 0.03,
     "alpha" : 0.00285714285714,
     "promoter_up_distance" : 300,
     "promoter_dw_distance" : 50,
@@ -233,12 +233,13 @@
     "posterior_probability_threshold_for_reporting": 0.5,
     "operon_prediction_probability_threshold": 0.5,
     "operon_prediction_distance_tuning_parameter" : 1.0, 
-    "ancestral_state_reconstruction" : true,
+    "ancestral_state_reconstruction" : false,
     "bootstrap_replicates" : 10,
     "heatmap_plot" : true,
     "motif_plot" : false,
     "gene_regulation_plot" : false,
     "taxon_regulation_plot" : false,
     "network_size_plot" : false,
-    "site_printout" : true
+    "site_printout" : true,
+    "entrez_email" : "erill@umbc.edu"
 }

@@ -16,6 +16,7 @@ from .orthologous_group import orthologous_grps_to_csv
 from .orthologous_group import ancestral_state_reconstruction
 from .orthologous_group import ancestral_states_to_csv
 from .visualization import all_plots
+from .entrez_utils import set_entrez_parameters
 
 
 PICKLE_DIR = directory('pickles')
@@ -387,7 +388,7 @@ def search_sites(user_input, genome):
     my_logger.info(
         "Site score threshold: %.2f" % genome.TF_binding_model.threshold())
     report_filename = os.path.join(output_dir, genome.strain_name+'.csv')
-    genome.identify_sites(filename=report_filename)
+    genome.identify_sites(user_input,filename=report_filename)
 
 
 def create_orthologous_groups(user_input, regulons, genomes):
@@ -514,6 +515,7 @@ def TestInput(user_input):
     tmp = user_input.taxon_regulation_plot
     tmp = user_input.network_size_plot
     tmp = user_input.site_printout
+    tmp = user_input.entrez_email
 
 #acts as the "main" for the library (called as cgb.go from run.py file (in CGB root folder)
 #it first reads and parses the input file, stores it in memory in "user_input", then initializes directories for output
@@ -543,6 +545,15 @@ def go(input_file):
     # Make output directory
     create_output_directory()
 
+    # Set Entrez parameters
+    if user_input.entrez_email==None:
+        my_logger.info("No email address provided. Revise input file")        
+        exit()
+    else:
+        my_logger.info("Using %s as Entrez email address" 
+                        % user_input.entrez_email)
+        set_entrez_parameters(user_input.entrez_email)
+
     # Create proteins
     proteins = create_proteins(user_input)
 
@@ -551,8 +562,10 @@ def go(input_file):
 
     # Identify TF instances for each genome
     identify_TF_instance_in_genomes(genomes, proteins)
+
     # Remove genomes with no TF-instance from the analysis.
     genomes = remove_genomes_with_no_TF_instance(genomes)
+
     # Create phylogeny
     phylogeny = create_phylogeny(genomes, proteins, user_input)
 
@@ -595,6 +608,11 @@ def go(input_file):
         
         # Output current genome operons
         output_operons(user_input, genome)
+
+        # Output current genome TF-binding sites
+        if user_input.site_printout:
+            my_logger.info("Searching and reporting sites")
+            search_sites(user_input, genome)
 
     # Create orthologous groups
     ortholog_groups = create_orthologous_groups(user_input, all_regulons, genomes)

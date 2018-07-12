@@ -11,11 +11,14 @@ from Bio import Entrez
 from misc import directory
 from my_logger import my_logger
 
-Entrez.email = 'sefa1@umbc.edu'
+#Entrez.email = 'sefa1@umbc.edu'
 
 # The directory used to save NCBI records for later use.
 ENTREZ_DIRECTORY = directory('entrez_cache')
 
+
+def set_entrez_parameters(email_address):
+    Entrez.email = email_address
 
 def get_genome_record(accession):
     """Gets the genome record from NCBI RefSeq."""

@@ -113,8 +113,8 @@ class Genome:
             if len(chromid.operons)>0:
                 start_id = chromid.operons[-1].operon_id + 1
 
-            my_logger.info("Number of operons (%s): %d" %
-                          (self.strain_name, self.num_operons))
+        my_logger.info("Number of operons (%s): %d" %
+                      (self.strain_name, self.num_operons))
 
 
     @cached_property
