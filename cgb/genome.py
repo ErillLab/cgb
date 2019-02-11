@@ -240,8 +240,7 @@ class Genome:
         Args:
             locus_tag (string): the locus_tag of the gene.
         """
-        gene, = [g for g in self.genes if g.locus_tag == locus_tag]
-        return gene
+        return [g for g in self.genes if g.locus_tag == locus_tag][0]
 
     def find_gene_homolog(self, gene):
         """Returns the Gene object that is homologous to the given gene.
