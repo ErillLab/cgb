@@ -21,6 +21,7 @@ class Gene:
         self._chromid = chromid
         self._user_input = user_input
 
+    @cached_property
     def user_input(self):
         """Returns the user_input stored in gene"""
         return (self._user_input)

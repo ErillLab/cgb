@@ -85,6 +85,7 @@ class Chromid:
         start = random.randint(0, len(random_promoter)-length)
         return random_promoter[start:start+length]
     
+    @cached_property
     def user_input(self):
         """Returns the user_input stored in chromid"""
         return (self._user_input)
