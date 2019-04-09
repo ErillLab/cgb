@@ -29,8 +29,8 @@ class Chromid:
     for more details.
     """
 
-    def __init__(self, accession_number, genome):
-        raw_record = entrez_utils.get_genome_record(accession_number)
+    def __init__(self, accession_number, genome, user_input):
+        raw_record = entrez_utils.get_genome_record(accession_number, user_input)
         self._record = SeqIO.read(cStringIO.StringIO(raw_record), 'gb')
         self._genome = genome
 

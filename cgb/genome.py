@@ -37,7 +37,7 @@ class Genome:
     methods to output predicted binding sites and posterior probability
     estimations to corresponding comma separated value (CSV) files.
     """
-    def __init__(self, strain_name, accession_numbers):
+    def __init__(self, strain_name, accession_numbers, user_input):
         """Initializes the Genome object.
 
         Args:
@@ -48,7 +48,7 @@ class Genome:
         logging.info('Creating genome: %s %s' %
                      (strain_name, str(accession_numbers)))
         self._strain_name = strain_name
-        self._chromids = [Chromid(acc, self) for acc in accession_numbers]
+        self._chromids = [Chromid(acc, self, user_input) for acc in accession_numbers]
         self._TF_instance = None   # TF-instance in this genome
         self._TF_binding_model = None  # binding model tailored for the genome
 

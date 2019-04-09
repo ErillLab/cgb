@@ -231,7 +231,7 @@
     "phylogenetic_weighting": true,
     "site_count_weighting": true,
     "posterior_probability_threshold_for_reporting": 0.5,
-    "operon_prediction_probability_threshold": 0.5,
+    "operon_prediction_probability_threshold": 0.85,
     "operon_prediction_distance_tuning_parameter" : 1.0, 
     "ancestral_state_reconstruction" : false,
     "bootstrap_replicates" : 10,
@@ -240,6 +240,8 @@
     "gene_regulation_plot" : false,
     "taxon_regulation_plot" : false,
     "network_size_plot" : false,
-    "site_printout" : true,
-    "entrez_email" : "erill@umbc.edu"
+    "site_printout" : false,
+    "entrez_email" : "erill@umbc.edu",
+	"entrez_apikey" : "f87b172711faa816dce1073945384c090107",
+	"sleep" : 1.5
 }

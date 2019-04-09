@@ -10,8 +10,8 @@ import os
 from Bio import Entrez
 from misc import directory
 from my_logger import my_logger
+import time
 
-#Entrez.email = 'sefa1@umbc.edu'
 
 # The directory used to save NCBI records for later use.
 ENTREZ_DIRECTORY = directory('entrez_cache')
@@ -20,7 +20,7 @@ ENTREZ_DIRECTORY = directory('entrez_cache')
 def set_entrez_parameters(email_address):
     Entrez.email = email_address
 
-def get_genome_record(accession):
+def get_genome_record(accession, user_input):
     """Gets the genome record from NCBI RefSeq."""
     genbank_file = os.path.join(ENTREZ_DIRECTORY, accession+'.gb')
     if not os.path.isfile(genbank_file):
@@ -29,6 +29,9 @@ def get_genome_record(accession):
         handle = Entrez.efetch(db='nuccore', id=accession,
                                rettype='gbwithparts', retmode='text')
         record = handle.read()
+        # add further delay if NCBI traffic is high and 
+        # "HTTP Error 429: Too Many Requests" is received
+        time.sleep(user_input.sleep)
         with open(genbank_file, 'w') as f:
             f.write(record)
 
@@ -39,7 +42,7 @@ def get_genome_record(accession):
 #takes an accession number for the protein, gets the record from NCBI
 #(unless it is already stored locally) and saves it to file locally
 #returns the object in the local file
-def get_protein_record(accession):
+def get_protein_record(accession, user_input):
     """Fetches the protein record from NCBI Protein database."""
     protein_file = os.path.join(ENTREZ_DIRECTORY, accession+'.gb')
     #if file not locally available, fetch and save locally (in ENTREZ_DIRECTORY cache)
@@ -48,6 +51,9 @@ def get_protein_record(accession):
         handle = Entrez.efetch(db='protein', id=accession,
                                rettype='gb', retmode='text')
         record = handle.read()
+        # add further delay if NCBI traffic is high and 
+        # "HTTP Error 429: Too Many Requests" is received
+        time.sleep(user_input.sleep)
         with open(protein_file, 'w') as f:
             f.write(record)
 

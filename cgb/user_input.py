@@ -451,3 +451,41 @@ class UserInput:
             value = None
         return value
 
+    @cached_property
+    def entrez_apikey(self):
+        """Returns the API key address used for entrez.
+
+        It is used by the enable more requests per second on NCBI's API
+
+        If not provided by the user, it's set by default to none.
+        """
+        try:
+            value = self._input['entrez_apikey']
+        except:
+            value = None
+        return value
+
+    @cached_property
+    def sleep(self):
+        """Returns the time set for sleep after NCBI queries
+           in case  "HTTP Error 429: Too Many Requests" are received.
+           Defaults to 0 s.
+        """
+        try:
+            value = self._input['sleep']
+            #limit range
+            if value < 0:
+                my_logger.info("WARNING: "\
+                               "Sleep time (%d) out"\
+                               "of range in input file; will be reset to %d" %
+                              (value, 0))
+                value=0
+            if value > 1000:
+                my_logger.info("WARNING: "\
+                               "Sleep time (%d) out"\
+                               "of range in input file; will be reset to %d" %
+                              (value, 10))
+                value=1000
+        except:
+            value = 0
+        return value

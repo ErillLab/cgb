@@ -55,7 +55,7 @@ def create_genomes(user_input):
         raise SystemExit
 
     # Create genomes with given names and accession numbers.
-    genomes = [Genome(name, accessions)
+    genomes = [Genome(name, accessions, user_input)
                for name, accessions in user_input.genome_name_and_accessions]
     my_logger.info("Finished: create genomes")
     return genomes
@@ -73,7 +73,7 @@ def create_refgenomes(user_input):
     my_logger.info("Started: create reference genomes")
 
     # Create genomes with given names and accession numbers
-    refgenomes = [Genome(motif[0], motif[1])
+    refgenomes = [Genome(motif[0], motif[1], user_input)
                   for motif in user_input.protein_names_and_genome_accessions]
 
     my_logger.info("Finished: create reference genomes")
@@ -142,7 +142,7 @@ def create_proteins(user_input):
     proteins = []
     for accession in user_input.protein_accessions:
         my_logger.info("Initializing %s." % accession)
-        proteins.append(Protein(accession))
+        proteins.append(Protein(accession, user_input))
     my_logger.info("Finished: create proteins")
     return proteins
 
@@ -516,6 +516,8 @@ def TestInput(user_input):
     tmp = user_input.network_size_plot
     tmp = user_input.site_printout
     tmp = user_input.entrez_email
+    tmp = user_input.entrez_apikey
+    tmp = user_input.sleep
 
 #acts as the "main" for the library (called as cgb.go from run.py file (in CGB root folder)
 #it first reads and parses the input file, stores it in memory in "user_input", then initializes directories for output
@@ -552,6 +554,15 @@ def go(input_file):
     else:
         my_logger.info("Using %s as Entrez email address" 
                         % user_input.entrez_email)
+        set_entrez_parameters(user_input.entrez_email)
+
+    # Set Entrez parameters
+    if user_input.entrez_apikey==None:
+        my_logger.info("No API key address provided.")        
+
+    else:
+        my_logger.info("Using %s as Entrez API key" 
+                        % user_input.entrez_apikey)
         set_entrez_parameters(user_input.entrez_email)
 
     # Create proteins
