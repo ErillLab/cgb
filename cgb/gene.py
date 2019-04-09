@@ -13,18 +13,12 @@ class Gene:
     and end position, the strand that it is lying on.
     """
 
-    def __init__(self, index, chromid, seq_feature, user_input, product_feature=None):
+    def __init__(self, index, chromid, seq_feature, product_feature=None):
         """Initializes Gene instance with the given Biopython SeqFeature."""
         self._index = index
         self._seq_feature = seq_feature
         self._product_feature = product_feature
         self._chromid = chromid
-        self._user_input = user_input
-
-    @cached_property
-    def user_input(self):
-        """Returns the user_input stored in gene"""
-        return (self._user_input)
 
     @cached_property
     def start(self):
@@ -221,7 +215,7 @@ class Gene:
 
     def to_protein(self):
         """Returns the protein object for the gene."""
-        return Protein(self.protein_accession_number,self.user_input)
+        return Protein(self.protein_accession_number)
 
     def find_homolog_in_genome(self, genome):
         """Returns the homologous gene in the given genome."""

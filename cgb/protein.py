@@ -18,8 +18,8 @@ class Protein:
     features such as its description and amino acid sequence.
     """
 
-    def __init__(self, accession_number, user_input):
-        raw_record = entrez_utils.get_protein_record(accession_number, user_input)
+    def __init__(self, accession_number):
+        raw_record = entrez_utils.get_protein_record(accession_number)
         self._record = SeqIO.read(cStringIO.StringIO(raw_record), 'gb')
 
     @cached_property

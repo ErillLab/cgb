@@ -29,11 +29,10 @@ class Chromid:
     for more details.
     """
 
-    def __init__(self, accession_number, genome, user_input):
-        raw_record = entrez_utils.get_genome_record(accession_number, user_input)
+    def __init__(self, accession_number, genome):
+        raw_record = entrez_utils.get_genome_record(accession_number)
         self._record = SeqIO.read(cStringIO.StringIO(raw_record), 'gb')
         self._genome = genome
-        self._user_input = user_input
 
     @property
     def genome(self):
@@ -86,11 +85,6 @@ class Chromid:
         return random_promoter[start:start+length]
     
     @cached_property
-    def user_input(self):
-        """Returns the user_input stored in chromid"""
-        return (self._user_input)
-
-    @cached_property
     def length(self):
         """Returns the length of the genome sequence."""
         return len(self.sequence)
@@ -123,7 +117,7 @@ class Chromid:
                                       locus_tag)
                     index += 1
                     continue
-                gene_list.append(Gene(index, self, f, self.user_input, product_f))
+                gene_list.append(Gene(index, self, f, product_f))
                 index += 1
         return gene_list
 

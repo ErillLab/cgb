@@ -16,7 +16,7 @@ from .orthologous_group import orthologous_grps_to_csv
 from .orthologous_group import ancestral_state_reconstruction
 from .orthologous_group import ancestral_states_to_csv
 from .visualization import all_plots
-from .entrez_utils import set_entrez_parameters
+from .entrez_utils import set_entrez_email, set_entrez_apikey, set_entrez_delay
 
 
 PICKLE_DIR = directory('pickles')
@@ -55,7 +55,7 @@ def create_genomes(user_input):
         raise SystemExit
 
     # Create genomes with given names and accession numbers.
-    genomes = [Genome(name, accessions, user_input)
+    genomes = [Genome(name, accessions)
                for name, accessions in user_input.genome_name_and_accessions]
     my_logger.info("Finished: create genomes")
     return genomes
@@ -73,7 +73,7 @@ def create_refgenomes(user_input):
     my_logger.info("Started: create reference genomes")
 
     # Create genomes with given names and accession numbers
-    refgenomes = [Genome(motif[0], motif[1], user_input)
+    refgenomes = [Genome(motif[0], motif[1])
                   for motif in user_input.protein_names_and_genome_accessions]
 
     my_logger.info("Finished: create reference genomes")
@@ -142,7 +142,7 @@ def create_proteins(user_input):
     proteins = []
     for accession in user_input.protein_accessions:
         my_logger.info("Initializing %s." % accession)
-        proteins.append(Protein(accession, user_input))
+        proteins.append(Protein(accession))
     my_logger.info("Finished: create proteins")
     return proteins
 
@@ -554,16 +554,25 @@ def go(input_file):
     else:
         my_logger.info("Using %s as Entrez email address" 
                         % user_input.entrez_email)
-        set_entrez_parameters(user_input.entrez_email)
+        set_entrez_email(user_input.entrez_email)
 
-    # Set Entrez parameters
     if user_input.entrez_apikey==None:
         my_logger.info("No API key address provided.")        
 
     else:
         my_logger.info("Using %s as Entrez API key" 
                         % user_input.entrez_apikey)
-        set_entrez_parameters(user_input.entrez_email)
+        set_entrez_apikey(user_input.entrez_apikey)
+
+    if user_input.sleep==None:
+        my_logger.info("No sleep time provided for NCBI API.")        
+        user_input.sleep=0
+
+    else:
+        my_logger.info("Using %f as additional delay for NCBI API" 
+                        % user_input.sleep)
+        set_entrez_delay(user_input.sleep)
+
 
     # Create proteins
     proteins = create_proteins(user_input)
