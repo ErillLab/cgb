@@ -231,7 +231,6 @@ def phylogenetic_weighting(site_collections, genome, phylogeny,
                  for col in site_collections]
     weights = [1.0 - (dist-min(distances)) / max(distances)
                for dist in distances]
-    print weights
 
     return normalize(weights)
 

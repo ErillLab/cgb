@@ -303,6 +303,7 @@ def orthologous_grps_to_csv(groups, phylogeny, filename):
                       [field for genome_name in genome_names
                        for field in ['probability (%s)' % genome_name,
                                      'locus_tag (%s)' % genome_name,
+                                     'protein_id (%s)' % genome_name,
                                      'product (%s)' % genome_name,
                                      'operon id (%s)' % genome_name,
                                      'paralogs (%s)' % genome_name]])
@@ -327,13 +328,17 @@ def orthologous_grps_to_csv(groups, phylogeny, filename):
                     gene = all_genes[0]
                     row.extend(['%.3f' % gene.operon.regulation_probability,
                                 gene.locus_tag,
+                                gene.protein_accession_number \
+                                if gene.is_protein_coding_gene else ' ',
                                 gene.product,
                                 gene.operon.operon_id])
                 else:
-                    row.extend(['', '', '', ''])
+                    row.extend(['', '', '', '', ''])
                 # Write all paralogs into a cell
                 paralogs = [':'.join(('%.3f' % g.operon.regulation_probability,
                                       g.locus_tag,
+                                      gene.protein_accession_number \
+                                      if gene.is_protein_coding_gene else ' ',
                                       g.product,
                                       str(g.operon.operon_id)))
                             for g in all_genes[1:]]

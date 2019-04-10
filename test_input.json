@@ -231,7 +231,7 @@
     "phylogenetic_weighting": true,
     "site_count_weighting": true,
     "posterior_probability_threshold_for_reporting": 0.5,
-    "operon_prediction_probability_threshold": 0.85,
+    "operon_prediction_probability_threshold": 0.5,
     "operon_prediction_distance_tuning_parameter" : 1.0, 
     "ancestral_state_reconstruction" : false,
     "bootstrap_replicates" : 10,

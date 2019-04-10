@@ -36,6 +36,7 @@ class BLAST:
             db_type (string): 'nucl' or 'prot'
         """
         prefix = prefix + '_'
+
         # temporary files in temp directory, automatically named.
         self._in_file = temp_file_name(prefix=prefix, suffix='_input.fasta')
         self._db_file = temp_file_name(prefix=prefix, suffix='_blast.db')
@@ -43,6 +44,7 @@ class BLAST:
         self._seq_fasta = seq_fasta
         self._db_type = db_type
         self.makeblastdb()      # Create BLAST database.
+        
 
     def makeblastdb(self):
         """Creates a BLAST database.
