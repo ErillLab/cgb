@@ -274,8 +274,10 @@ def construct_orthologous_groups(genes, genomes, cache,h_eval):
         # Check whether gene is already in a group; if it is, it skips the gene
         if any(gene in grp.genes for grp in groups):
             continue
-        # If the gene is not in any group, create list of orthologous genes by
-        # performing reciprocal BLAST against all other genomes.
+        # If the gene is not in any group, create list of orthologous genes (group)
+        # by performing reciprocal BLAST against all other genomes.
+        # We will end up with a group for each gene (except those that were 
+        # picked up by a previous group
         rbhs = [gene.reciprocal_blast_hit(other_genome, cache,h_eval)
                 for other_genome in genomes if gene.genome != other_genome]
         # Create the orthologous group
@@ -284,18 +286,24 @@ def construct_orthologous_groups(genes, genomes, cache,h_eval):
 
     # Collapse groups that contains a same gene.
     my_logger.info("Collapsing orthologous groups.")
-    return merge_orthologous_groups(groups)
+    return merge_orthologous_groups(groups) #call merge function
 
 
 def merge_orthologous_groups(groups):
     """Merges intersecting orthologous groups."""
     G = nx.Graph()
     for grp in groups:
+        #all genes in group become nodes
         G.add_nodes_from(grp.genes)
+        #all genes in group get connected (straight neighbor connectivity)
         G.add_edges_from(zip(grp.genes, grp.genes[1:]))
 
     merged_grps = []
-    for cc in nx.connected_components(G):
+    #for each list of neighbor connections, including any overlaps
+    #note that the connectivity might travel backwards to a genome, detecting
+    #paralogs through connections in other genomes
+    for cc in nx.connected_components(G):   
+        #create a new orthologous group, based on that connectivity
         merged_grps.append(OrthologousGroup(list(cc)))
     return merged_grps
 
