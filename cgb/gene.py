@@ -211,8 +211,10 @@ class Gene:
         try:
             return self._product_feature.qualifiers['protein_id'][0]
         except KeyError:
-            my_logger("Error for gene %s" %self.locus_tag)
-            raise NotProteinCodingGeneException
+            my_logger.info("Error for gene %s. Missing protein ID" %self.locus_tag)
+            my_logger.info("Missing protein ID in %s genome. Revise your input file"\
+                           %self.genome.strain_name)
+            return ''
 
     def to_protein(self):
         """Returns the protein object for the gene."""
@@ -229,6 +231,8 @@ class Gene:
         "find_gene_homolog" in the respective genome to search using BLAST.
         """
         # Check if the cache contains the reciprocal BLAST hit
+        # Key contains the originating locus_tag and the ID for the target genome
+        # where we are looking for a homolog
         key = (self.locus_tag,
                tuple([c.accession_number for c in genome.chromids]))
         if key in cache.keys():
@@ -245,15 +249,19 @@ class Gene:
                 # If the reciprocal hit is the very own gene, return the target
                 # genome hit as the best_reciprocal BLAST hit for the gene
                 if self == reciprocal_hit:
+                    #cache reciprocal BLAST hit result, both for this genome and
+                    #and for the genome that got the hit
                     cache[key] = best_hit.locus_tag
                     other_key = (best_hit.locus_tag,
                                  tuple([c.accession_number
                                         for c in best_hit.genome.chromids]))
                     cache[other_key] = self.locus_tag
             # Handle lack of significant results from the BLAST search (in
-            # either direction)
+            # either direction). BLAST did not find anything, in either direction
+            # cache key will be empty
             except BlastNoHitFoundException:
                 my_logger.debug("No reciprocal BLAST hit for %s." % self.locus_tag)
+        #return the cache for this gene    
         return genome.get_gene_by_locus_tag(cache[key]) if cache[key] else None
 
     def distance(self, other):
