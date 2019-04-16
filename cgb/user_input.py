@@ -489,3 +489,54 @@ class UserInput:
         except:
             value = 0
         return value
+
+
+    @cached_property
+    def TF_eval(self):
+        """Returns the e-value used for identifying TF instances in target
+           genomes.
+           Defaults to 10**-3.
+        """
+        try:
+            value = self._input['TF_eval']
+            #limit range
+            if value < 0:
+                my_logger.info("WARNING: "\
+                               "E-value (%d) must be positive;"\
+                               "will be reset to %d" %
+                              (value, 0.001))
+                value=0.001
+            if value > 1:
+                my_logger.info("WARNING: "\
+                               "e-value (%d) too large for meaningful results"\
+                               "; will be reset to %d" %
+                              (value, 0.001))
+                value=0.001
+        except:
+            value = 0.001
+        return value
+
+    @cached_property
+    def homolog_eval(self):
+        """Returns the e-value used for identifying homologs among target
+           genomes.
+           Defaults to 10**-3.
+        """
+        try:
+            value = self._input['homolog_eval']
+            #limit range
+            if value < 0:
+                my_logger.info("WARNING: "\
+                               "E-value (%d) must be positive;"\
+                               "will be reset to %d" %
+                              (value, 0.001))
+                value=0.001
+            if value > 1:
+                my_logger.info("WARNING: "\
+                               "e-value (%d) too large for meaningful results"\
+                               "; will be reset to %d" %
+                              (value, 0.001))
+                value=0.001
+        except:
+            value = 0.001
+        return value

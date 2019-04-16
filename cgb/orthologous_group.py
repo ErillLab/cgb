@@ -38,7 +38,15 @@ class OrthologousGroup:
     def description(self):
         """Returns the description for the genes in the group."""
         gene_descs = [gene.product for gene in self.genes if gene.product]
-        return gene_descs[0] if gene_descs else ""
+        #default to first description, if any
+        ret_desc = gene_descs[0] if gene_descs else ""
+
+        #try to return a meaningful description
+        for desc in gene_descs:
+            if not(('hypothetical' in desc) or ('hypothetical' in desc)):
+                ret_desc = desc
+                break
+        return ret_desc
 
     def member_from_genome(self, genome_name):
         """Returns the member of the group from the given genome.
@@ -243,7 +251,7 @@ class OrthologousGroup:
 # export them in CSV format.
 
 
-def construct_orthologous_groups(genes, genomes, cache):
+def construct_orthologous_groups(genes, genomes, cache,h_eval):
     """Constructs orthologous groups starting with the given list of genes.
 
     For each genome, candidate genes that are identified as likely to be
@@ -268,7 +276,7 @@ def construct_orthologous_groups(genes, genomes, cache):
             continue
         # If the gene is not in any group, create list of orthologous genes by
         # performing reciprocal BLAST against all other genomes.
-        rbhs = [gene.reciprocal_blast_hit(other_genome, cache)
+        rbhs = [gene.reciprocal_blast_hit(other_genome, cache,h_eval)
                 for other_genome in genomes if gene.genome != other_genome]
         # Create the orthologous group
         grp = OrthologousGroup([gene] + [rbh for rbh in rbhs if rbh])
@@ -322,6 +330,7 @@ def orthologous_grps_to_csv(groups, phylogeny, filename):
             grp_size = len([g for g in genes if g])
             row = [avg_p, avg_p_all, grp_size]
             for genome_name in genome_names:
+                #my_logger.info("Writing orthologs for genome:  (%s)" % genome_name)
                 all_genes = group.all_genes_from_genome(genome_name)
                 # Write info on the gene of the genome
                 if all_genes:

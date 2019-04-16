@@ -59,7 +59,7 @@ class BLAST:
         logging.debug(cmd)
         os.system(cmd)
 
-    def search(self, blast_program, query, eval):
+    def search(self, blast_program, query, e_val):
         """Runs BLAST to search query sequence in the target database.
 
         Args:
@@ -77,7 +77,7 @@ class BLAST:
         with open(query_file, 'w') as f:
             f.write(query)
         cmd = '{prog} -query {q} -db {db} -evalue {e} -out {out} -outfmt 5'.format(
-            prog=blast_program, q=query_file, db=self._db_file, e=eval,
+            prog=blast_program, q=query_file, db=self._db_file, e=e_val,
             out=output_file)
         logging.debug(cmd)
         os.system(cmd)
@@ -87,17 +87,17 @@ class BLAST:
             blast_record = NCBIXML.read(results_handle)
         return blast_record
 
-    def tblastx(self, query, eval=10**-3):
+    def tblastx(self, query, e_val=10**-3):
         """Runs tblastx."""
-        return self.search('tblastx', query, eval)
+        return self.search('tblastx', query, e_val)
 
-    def blastx(self, query, eval=10**-3):
+    def blastx(self, query, e_val=10**-3):
         """Runs blastx."""
-        return self.search('blastx', query, eval)
+        return self.search('blastx', query, e_val)
 
-    def tblastn(self, query, eval=10**-3):
+    def tblastn(self, query, e_val=10**-3):
         """Runs tblastn."""
-        return self.search('tblastn', query, eval)
+        return self.search('tblastn', query, e_val)
 
     @staticmethod
     def get_best_hit(blast_record):

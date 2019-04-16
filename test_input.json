@@ -243,5 +243,7 @@
     "site_printout" : false,
     "entrez_email" : "erill@umbc.edu",
 	"entrez_apikey" : "f87b172711faa816dce1073945384c090107",
-	"sleep" : 1.5
+	"sleep" : 1.5,
+    "TF_eval" : 0.00000000001,
+    "homolog_eval" : 0.1
 }

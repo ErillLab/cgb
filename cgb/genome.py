@@ -242,7 +242,7 @@ class Genome:
         """
         return [g for g in self.genes if g.locus_tag == locus_tag][0]
 
-    def find_gene_homolog(self, gene):
+    def find_gene_homolog(self, gene,h_eval=0.001):
         """Returns the Gene object that is homologous to the given gene.
 
         Invokes TBLASTX to identify the best hit of the query gene in the
@@ -257,14 +257,14 @@ class Genome:
         """
         # Perform a tblastx search with the given gene against the genome.
         # The blast_client returns a Biopython blast_record.
-        blast_record = self.blast_client.tblastx(gene.to_fasta())
+        blast_record = self.blast_client.tblastx(gene.to_fasta(),h_eval)
         # Call the get_best_hit method to get the locus_tag and e-value of the
         # first BLAST hit.
         locus_tag = self.blast_client.get_best_hit(blast_record)
         evalue = self.blast_client.get_e_value(blast_record)
         return self.get_gene_by_locus_tag(locus_tag), evalue
 
-    def find_protein_homolog(self, protein):
+    def find_protein_homolog(self, protein,TF_eval=0.001):
         """Returns the homolog protein of the query protein in this genome.
 
         Invokes TBLASTN to identify the best hit of the query protein in the
@@ -278,7 +278,7 @@ class Genome:
         """
         # Perform a tblastn search with the given protein against the genome.
         # The blast_client returns a Biopython blast_record.
-        blast_record = self.blast_client.tblastn(protein.to_fasta())
+        blast_record = self.blast_client.tblastn(protein.to_fasta(),TF_eval)
         # Get the best hit to get the locus_tag and e-value of the first
         # BLAST hit.
         locus_tag = self.blast_client.get_best_hit(blast_record)
@@ -287,7 +287,7 @@ class Genome:
         protein = gene.to_protein()
         return protein, evalue
 
-    def identify_TF_instance(self, proteins):
+    def identify_TF_instance(self, proteins,TF_eval=0.001):
         """Finds the instance of the transcription factor of interest.
 
         Given a list of proteins corresponding to the TF of interest (provided
@@ -310,7 +310,7 @@ class Genome:
         for p in proteins:
             # Identify the protein of the genome that is homologous to p.
             try:
-                homolog_protein = self.find_protein_homolog(p)
+                homolog_protein = self.find_protein_homolog(p,TF_eval)
                 blast_hits.append(homolog_protein)
             except (BlastNoHitFoundException, NotProteinCodingGeneException):
                 pass

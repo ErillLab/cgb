@@ -91,7 +91,7 @@ def output_operons(user_input, genome):
         os.path.join(output_dir, genome.strain_name+'_operons.csv'))
 
 
-def identify_TF_instance_in_genomes(genomes, proteins):
+def identify_TF_instance_in_genomes(genomes, proteins,TF_eval):
     """Identifies TF instance for each genome based on given proteins.
 
     Args:
@@ -101,7 +101,7 @@ def identify_TF_instance_in_genomes(genomes, proteins):
     """
     for g in genomes:
         my_logger.info("Identifying TF instance for (%s)" % g.strain_name)
-        g.identify_TF_instance(proteins)
+        g.identify_TF_instance(proteins,TF_eval)
 
 
 def remove_genomes_with_no_TF_instance(genomes):
@@ -411,7 +411,9 @@ def create_orthologous_groups(user_input, regulons, genomes):
     my_logger.info("Loading orthologs cache.")
     cache = pickle_load(cache_file) or dict()
     # Construct orthologous groups
-    groups = construct_orthologous_groups(genes, genomes, cache)
+    print "Here e-value: ", user_input.homolog_eval
+    groups = construct_orthologous_groups(genes, genomes, cache,\
+                                          user_input.homolog_eval)
     # Update cache
     pickle_dump(cache, cache_file)
     # Create phylogenetic tree of target genomes only.
@@ -517,9 +519,13 @@ def TestInput(user_input):
     tmp = user_input.entrez_email
     tmp = user_input.entrez_apikey
     tmp = user_input.sleep
+    tmp = user_input.TF_eval
+    tmp = user_input.homolog_eval
 
-#acts as the "main" for the library (called as cgb.go from run.py file (in CGB root folder)
-#it first reads and parses the input file, stores it in memory in "user_input", then initializes directories for output
+#acts as the "main" for the library (called as cgb.go from run.py file 
+#(in CGB root folder)
+#it first reads and parses the input file, stores it in memory in "user_input", 
+#then initializes directories for output
 #downloads and stores genomes locally
 #identifies TF instances in each genome (and removes genomes with no TF)
 #creates the working phylogeny (and gets pairwise distances)
@@ -580,7 +586,7 @@ def go(input_file):
     genomes = create_genomes(user_input)
 
     # Identify TF instances for each genome
-    identify_TF_instance_in_genomes(genomes, proteins)
+    identify_TF_instance_in_genomes(genomes, proteins,user_input.TF_eval)
 
     # Remove genomes with no TF-instance from the analysis.
     genomes = remove_genomes_with_no_TF_instance(genomes)

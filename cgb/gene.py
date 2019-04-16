@@ -217,11 +217,11 @@ class Gene:
         """Returns the protein object for the gene."""
         return Protein(self.protein_accession_number)
 
-    def find_homolog_in_genome(self, genome):
+    def find_homolog_in_genome(self, genome,h_eval=0.001):
         """Returns the homologous gene in the given genome."""
-        return genome.find_gene_homolog(self)
+        return genome.find_gene_homolog(self,h_eval)
 
-    def reciprocal_blast_hit(self, genome, cache):
+    def reciprocal_blast_hit(self, genome, cache,h_eval=0.001):
         """Returns the reciprocal best hit against a provided genome.
 
         The function uses "find_homolog_in_genome", which calls the
@@ -238,9 +238,9 @@ class Gene:
             cache[key] = None
             try:
                 # Find the best hit in the other genome
-                best_hit, _ = self.find_homolog_in_genome(genome)
+                best_hit, _ = self.find_homolog_in_genome(genome,h_eval)
                 # Check if it is the best reciprocal hit
-                reciprocal_hit, _ = best_hit.find_homolog_in_genome(self.genome)
+                reciprocal_hit, _ = best_hit.find_homolog_in_genome(self.genome,h_eval)
                 # If the reciprocal hit is the very own gene, return the target
                 # genome hit as the best_reciprocal BLAST hit for the gene
                 if self == reciprocal_hit:
