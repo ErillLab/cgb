@@ -307,7 +307,7 @@ def orthologous_grps_to_csv(groups, phylogeny, filename):
         csv_writer = csv.writer(csvfile)
         header_row = (['average_probability',
                        'average_probability_all',
-                       'ortholog_group_size'] +
+                       'ortholog_group_size', 'description'] +
                       [field for genome_name in genome_names
                        for field in ['probability (%s)' % genome_name,
                                      'locus_tag (%s)' % genome_name,
@@ -328,9 +328,8 @@ def orthologous_grps_to_csv(groups, phylogeny, filename):
                               for g in genes])
             # Orthologous group size
             grp_size = len([g for g in genes if g])
-            row = [avg_p, avg_p_all, grp_size]
+            row = [avg_p, avg_p_all, grp_size,group.description]
             for genome_name in genome_names:
-                #my_logger.info("Writing orthologs for genome:  (%s)" % genome_name)
                 all_genes = group.all_genes_from_genome(genome_name)
                 # Write info on the gene of the genome
                 if all_genes:
@@ -342,7 +341,7 @@ def orthologous_grps_to_csv(groups, phylogeny, filename):
                                 gene.product,
                                 gene.operon.operon_id])
                 else:
-                    row.extend(['', '', '', '', '', ''])
+                    row.extend(['', '', '', '', ''])
                 # Write all paralogs into a cell
                 paralogs = [':'.join(('%.3f' % g.operon.regulation_probability,
                                       g.locus_tag,

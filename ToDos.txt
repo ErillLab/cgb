@@ -2,3 +2,4 @@
 - protein ID bug
 - [DONE] tunable e-value for TF BLAST and for ortholog BLAST
 - remove genome with no TF bug
+- BLAST not grouping right bug

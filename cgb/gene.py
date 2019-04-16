@@ -211,6 +211,7 @@ class Gene:
         try:
             return self._product_feature.qualifiers['protein_id'][0]
         except KeyError:
+            my_logger("Error for gene %s" %self.locus_tag)
             raise NotProteinCodingGeneException
 
     def to_protein(self):

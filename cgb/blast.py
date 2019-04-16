@@ -7,7 +7,6 @@ from Bio.Blast import NCBIXML
 
 from .misc import temp_file_name
 
-
 class BLAST:
     """Definition for BLAST class.
 

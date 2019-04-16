@@ -411,7 +411,6 @@ def create_orthologous_groups(user_input, regulons, genomes):
     my_logger.info("Loading orthologs cache.")
     cache = pickle_load(cache_file) or dict()
     # Construct orthologous groups
-    print "Here e-value: ", user_input.homolog_eval
     groups = construct_orthologous_groups(genes, genomes, cache,\
                                           user_input.homolog_eval)
     # Update cache
@@ -644,8 +643,8 @@ def go(input_file):
 
     # Ancestral state reconstruction step
     if user_input.ancestral_state_reconstruction:
-        perform_ancestral_state_reconstruction(
-            user_input, genomes, ortholog_groups)
+        perform_ancestral_state_reconstruction(user_input, genomes, \
+                                               ortholog_groups)
 
     # Create phylogenetic tree of target genomes only
     phylo_target_genomes = Phylo([g.TF_instance for g in genomes],
