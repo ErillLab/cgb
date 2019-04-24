@@ -263,10 +263,22 @@ def construct_orthologous_groups(genes, genomes, cache,h_eval):
 
     For each gene, it identifies the reciprocal best BLAST hits in other
     genomes and adds the gene and its orthologs to the orthologous group.
-    Each orthologous group is a list of gene objects that have been found
-    to be best-reciprocal BLAST hits.
+	This is done in a serial manner, going through each gene in each
+	genome and adding its rbbh's as orthologs (except for those that have
+	already been incorporated to another group).
+	At the end of this process "each gene" will have spawned an orthologous
+	group (or it wil have been incoroporated into a preexisting one).
+	These are "primordial" orthologous groups.
+	
+	The function merge_orthologous_groups is then called.
+	This function takes all these "primordial" orthologous groups and 
+	generates an interconnection graph with them. If two groups intersect at
+	any node, they are collapsed into a bigger group.
+	
+    Each orthologous group is hence a list of gene objects that have 
+	been found to be connected via best-reciprocal BLAST hit relationships.
 
-    The function returns a list of orthologous groups.
+    The function returns a list of such orthologous groups.
     """
     my_logger.info("Constructing orthologous groups.")
     groups = []
