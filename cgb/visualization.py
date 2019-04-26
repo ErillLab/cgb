@@ -65,14 +65,21 @@ def heatmap_view(tree, orthologous_groups, save_dir):
     # For each species and its gene in each orthologous group, draw a rectangle
     for node, light_node in zip(tree.get_leaves(), light_tree.get_leaves()):
         for i, orthologous_grp in enumerate(orthologous_groups, start=1):
-            try:
-                # Find the ortholog from the genome in the group
-                gene, = [g for g in orthologous_grp.genes
-                         if g.genome.strain_name == node.name]
+            #get all orthologs in group
+            matching_genes = [[g for g in orthologous_grp.genes \
+            if g.genome.strain_name == node.name]
+
+            #if there is ortholog
+            if len(genes) > 0:
+                # Get the first ortholog from the genome in the group
+                #this is the one with higher probability of regulation.
+                #so this probability will be displayed for the group
+                gene = genes[0]
                 p_regulation = gene.operon.regulation_probability
                 p_notregulation = 1.0 - p_regulation
                 p_absence = 0
-            except ValueError:  # No ortholog from this genome
+            # No ortholog from this genome
+            else:  
                 gene = None
                 p_regulation = 0
                 p_notregulation = 0
@@ -251,9 +258,9 @@ def all_plots(phylo, orthologous_groups, genomes, save_dir, user_input):
     my_logger.info("Generating plots")
     # Heat map
     if user_input.heatmap_plot:
-        heatmap_view(biopython_to_ete3(phylo.tree), orthologous_groups, 
+        heatmap_view(biopython_to_ete3(phylo.tree), orthologous_groups,
                      save_dir)
-    
+
     # Motif phylogeny plot
     if user_input.motif_plot:
         motif_view(biopython_to_ete3(phylo.tree), genomes, save_dir)
@@ -272,5 +279,3 @@ def all_plots(phylo, orthologous_groups, genomes, save_dir, user_input):
     if user_input.network_size_plot:
         network_size_view(
                    biopython_to_ete3(phylo.tree), orthologous_groups,  save_dir)
-
-
