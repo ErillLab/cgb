@@ -245,5 +245,12 @@
 	"entrez_apikey" : "f87b172711faa816dce1073945384c090107",
 	"sleep" : 1.5,
     "TF_eval" : 0.00000000001,
-    "homolog_eval" : 0.1
+    "homolog_eval" : 0.1,
+    "hmmer_eval" : 0.0000001,
+    "eggNOG_dbname" : "/home/ivan/HHMERdbs/bact.hmmer",
+    "PFAM_dbname" : "/home/ivan/HHMERdbs/PFAM.hmmer",
+    "NOG_search" : true,
+    "PFAM_search" : false,
+    "NOGejump" : 5,
+    "maxNOG" : 2
 }

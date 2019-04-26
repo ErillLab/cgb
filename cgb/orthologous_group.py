@@ -5,12 +5,18 @@ import csv
 from tqdm import tqdm
 import networkx as nx
 
+from Bio.Seq import Seq
+from Bio.SeqRecord import SeqRecord
+from Bio.Alphabet import IUPAC
+
 from . import misc
 from . import visualization
 from . import bayestraits_wrapper
 from .my_logger import my_logger
 from .misc import mean
 from .blast import BLAST
+from .user_input import UserInput
+from .hmmer import run_eggNOG_hmmscan, process_eggNOG_hmmscan
 
 
 class OrthologousGroup:
@@ -28,6 +34,7 @@ class OrthologousGroup:
         self._genes = genes
         self._genes.sort(key=lambda g: g.operon.regulation_probability,
                          reverse=True)
+        self._NOGs = []
 
     @property
     def genes(self):
@@ -47,6 +54,11 @@ class OrthologousGroup:
                 ret_desc = desc
                 break
         return ret_desc
+
+    @property
+    def NOGs(self):
+        """Returns the list of NOG IDs assigned to this group."""
+        return self._NOGs
 
     def member_from_genome(self, genome_name):
         """Returns the member of the group from the given genome.
@@ -71,14 +83,28 @@ class OrthologousGroup:
         genes = [g for g in self.genes if g.genome.strain_name == genome_name]
         return genes
 
-    def blast_eggnog_database(self, eggnog_blast_database):
-        """BLAST against eggNOG database."""
-        for gene in self.genes:
-            blast_record = eggnog_blast_database.blastx(gene.to_fasta())
-            print eggnog_blast_database.get_best_hit(blast_record)
+    def assign_NOGs(self,userin):
+        """Calls hmmscan to obtain matches for first protein in the group.
+           Invokes process_hmmscan to obtain a list of NOGs according to user
+           input preferences (maxNOG number, e-value jump), and assings the
+           resulting list to the groups' NOG property.
+        """
+        #take first gene as query
+        query=self.genes[0]
+
+        #obtain protein sequence and generate seq object
+        query_record=SeqRecord(Seq(query.translate, IUPAC.protein),\
+                     id=query.protein_accession_number,name=query.name,\
+                     description=query.product)
+
+        #invoke hmmscan
+        run_eggNOG_hmmscan(query_record,userin)
+
+        #process result from hmmscan and assign NOGs to orthologous group
+        self._NOGs=process_eggNOG_hmmscan(userin)
 
     def discretize_regulation_states(self, phylo):
-        """Discretizes the trait of regulation for all genes in the orthologous 
+        """Discretizes the trait of regulation for all genes in the orthologous
            group.
 
         Each gene in the orthologous group has a posterior probability of
@@ -104,7 +130,7 @@ class OrthologousGroup:
             probabilities = [terminal_states[(node.name, state)]
                              for state in states]
         	#sample the vector of states using their associated probablities
-        	#and assign the sampled discrete state (1, 0 or A) to the trait 
+        	#and assign the sampled discrete state (1, 0 or A) to the trait
         	#dictionary entry for that node [i.e. species]
             trait[node.name], = misc.weighted_choice(states, probabilities)
 
@@ -116,11 +142,11 @@ class OrthologousGroup:
 
     def bootstrap_traits(self, phylo, sample_size):
         """Sample discrete traits for each gene in the ortho_group, as a list.
-        Calls 'sample_size' times the 'discretize_regulation_states(phylo)' 
+        Calls 'sample_size' times the 'discretize_regulation_states(phylo)'
         method, generating 'sample_size' samples of the discretized states of
         each terminal node in the tree.
 
-        This is returned as a list of dictionaries, where each dictionary 
+        This is returned as a list of dictionaries, where each dictionary
         contains entries for each terminal node in the tree and its discrete
         state.
 
@@ -129,7 +155,7 @@ class OrthologousGroup:
         """
         return [self.discretize_regulation_states(phylo)
                 for _ in range(sample_size)]
-	
+
 
 	"""For a given phylogeny and set of orthologous genes [ortho_group], it
        returns a dictionary, indexed by genome_name and the three possible
@@ -139,7 +165,7 @@ class OrthologousGroup:
 	   For each genome, the code looks at the member in the orthologous group.
        If the genome does not have an instance of the gene, it assigns 1 to
        absent ("A"), and 0 to states "1" and "0".
-	   If the genome does have an instance of the gene, it assigns to "1" the 
+	   If the genome does have an instance of the gene, it assigns to "1" the
        probability of regulation in that species, to "0" 1-prob and to "A" 0.
 	"""
     def get_terminal_states_probs(self, phylo):
@@ -172,7 +198,7 @@ class OrthologousGroup:
         """
         #define possible state list
         states = ['1', '0', 'A']
-        #define dictionary with dimensions [states]x[non_terminal_nodes], 
+        #define dictionary with dimensions [states]x[non_terminal_nodes],
         #initialized to zeroes
         bootstrap_inferred_states = {(node.name, state): 0
                                      for state in states
@@ -223,7 +249,7 @@ class OrthologousGroup:
     def most_likely_state_at(self, node_name):
         """Returns the most likely state at the given node.
            The function calls 'max' using the 'regulation_states' value for each
-           state in that node as the 'key' for sorting [and inferring the max] 
+           state in that node as the 'key' for sorting [and inferring the max]
         """
         return max(['1', '0', 'A'],
                    key=lambda x: self.regulation_states[(node_name, x)])
@@ -269,13 +295,13 @@ def construct_orthologous_groups(genes, genomes, cache,h_eval):
 	At the end of this process "each gene" will have spawned an orthologous
 	group (or it wil have been incoroporated into a preexisting one).
 	These are "primordial" orthologous groups.
-	
+
 	The function merge_orthologous_groups is then called.
-	This function takes all these "primordial" orthologous groups and 
+	This function takes all these "primordial" orthologous groups and
 	generates an interconnection graph with them. If two groups intersect at
 	any node, they are collapsed into a bigger group.
-	
-    Each orthologous group is hence a list of gene objects that have 
+
+    Each orthologous group is hence a list of gene objects that have
 	been found to be connected via best-reciprocal BLAST hit relationships.
 
     The function returns a list of such orthologous groups.
@@ -288,7 +314,7 @@ def construct_orthologous_groups(genes, genomes, cache,h_eval):
             continue
         # If the gene is not in any group, create list of orthologous genes (group)
         # by performing reciprocal BLAST against all other genomes.
-        # We will end up with a group for each gene (except those that were 
+        # We will end up with a group for each gene (except those that were
         # picked up by a previous group
         rbhs = [gene.reciprocal_blast_hit(other_genome, cache,h_eval)
                 for other_genome in genomes if gene.genome != other_genome]
@@ -314,7 +340,7 @@ def merge_orthologous_groups(groups):
     #for each list of neighbor connections, including any overlaps
     #note that the connectivity might travel backwards to a genome, detecting
     #paralogs through connections in other genomes
-    for cc in nx.connected_components(G):   
+    for cc in nx.connected_components(G):
         #create a new orthologous group, based on that connectivity
         merged_grps.append(OrthologousGroup(list(cc)))
     return merged_grps
@@ -327,7 +353,7 @@ def orthologous_grps_to_csv(groups, phylogeny, filename):
         csv_writer = csv.writer(csvfile)
         header_row = (['average_probability',
                        'average_probability_all',
-                       'ortholog_group_size', 'description'] +
+                       'ortholog_group_size', 'description', 'NOGs'] +
                       [field for genome_name in genome_names
                        for field in ['probability (%s)' % genome_name,
                                      'locus_tag (%s)' % genome_name,
@@ -348,7 +374,10 @@ def orthologous_grps_to_csv(groups, phylogeny, filename):
                               for g in genes])
             # Orthologous group size
             grp_size = len([g for g in genes if g])
-            row = [avg_p, avg_p_all, grp_size,group.description]
+            #NOGs
+            NOGs='|'.join(group.NOGs)
+            row = [avg_p, avg_p_all, grp_size,group.description,NOGs]
+
             for genome_name in genome_names:
                 all_genes = group.all_genes_from_genome(genome_name)
                 # Write info on the gene of the genome

@@ -63,7 +63,7 @@ Make folder for repo and move there. Then, initialize git and link to and clone 
 - `git clone https://github.com/ErillLab/cgb.git`
 
 ## Dependencies
-CGB requires three external programs to be installed: BLAST, CLUSTALO and BayesTraits. The following instructions are for installing these on Linux.
+CGB requires three external programs to be installed: BLAST, CLUSTALO and BayesTraits. Optionally, HMMER can also be installed to enable querying of the eggNOG database. The following instructions are for installing these programs on Linux.
 
 ### BLAST
 On a terminal:
@@ -83,6 +83,46 @@ and export the environment variable
 Install simply through:
 `sudo apt-get install clustalo`
 
+Check that CLUSTALO is properly installed by asking:
+`which clustalo`
+which should return:
+`/usr/bin/clustalo`
+
 ### BayesTrait
 BayesTrait should be already present in the `cgb/bin` folder after cloning. If using a 32-bit machine, [download](http://www.evolution.rdg.ac.uk/BayesTraitsV2Beta.html) the BayesTrait 32-bit executable and replace the file `BayesTraitsV2_linux` in `cgb/bin` with the donwloaded executable.
 
+### HMMER
+Install simply through:
+`sudo apt-get install hmmer`
+
+Check that HMMER is properly installed by asking:
+`which hmmsearch`
+which should return:
+`/usr/bin/hmmsearch`
+
+#### eggNOG
+In order to query eggNOG with HMMER to assign NOGs to orthologous groups, you'll need to first download the current version of the [eggNOG database](http://eggnogdb.embl.de/#/app/downloads). You can download any NOG compilation that you deem applicable to your analyses, but for generality the [BactNog](http://eggnogdb.embl.de/download/eggnog_4.5/data/bactNOG/bactNOG.hmm.tar.gz) compilation is recommended.
+
+Donwload and uncompress the ~3 Gb BactNog tarball containing the bacterial NOG Hiden Markov Models (.hmm).
+`tar xvzf bactNOG.hmm.tar.gz`
+(this can take a while)
+(you can remove the bactNOG.hmm.tar.gz file after this)
+
+Then concatenate the extracted files into a single file with:
+`for f in *.hmm; do cat "$f" >> bact.hmmer; done`
+(this can take _quite_ a while)
+(you can delete all  the .hmm files after this)
+
+And use this file to create a HMMER database with:
+`hmmpress bact.hmmer`
+(this can take a while)
+(you can delete the bact.hmmer file after this)
+
+#### PFAM
+In order to query PFAM with HMMER to assign PFAM IDs to orthologous groups, you'll need to first download the current version of the [PFAM database](ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/). You can download any PFAM compilation that you deem applicable to your analyses, but the latest [PFAM full database](ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam32.0/Pfam-A.full.gz) is recommended.
+
+Donwload and uncompress the ~10 Gb PFAM zip file containing the bacterial NOG Hiden Markov Models (.hmm).
+`gzip -d Pfam-A.full.gz`
+
+And use this file to create a HMMER database with:
+`hmmpress Pfam-A.full`

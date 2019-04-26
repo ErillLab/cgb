@@ -115,7 +115,7 @@ class Gene:
         """
         #flip up relative coordinate into a negative number (e.g. -300 for 300)
         up=-up
-        
+
         #determine promoter_region coordinates based on relative up/dw coords
         if self.is_forward_strand:
             loc_start = max(0, self.start+up)
@@ -141,7 +141,7 @@ class Gene:
         # prior
         self._regulation_probability = binding_model.binding_probability(
             self.promoter_region(user_input.promoter_up_distance,
-                                 user_input.promoter_dw_distance), 
+                                 user_input.promoter_dw_distance),
                                  prior_regulation, user_input.alpha)
         return self._regulation_probability
 
@@ -216,6 +216,18 @@ class Gene:
                            %self.genome.strain_name)
             return ''
 
+    @cached_property
+    def translate(self):
+        """Returns the amino acid translation for the gene
+        """
+        try:
+            return self._product_feature.qualifiers['translation'][0]
+        except KeyError:
+            my_logger.info("Error for gene %s. No trasnlation available" %self.locus_tag)
+            my_logger.info("Missing gene translation in %s genome. Revise your input file"\
+                           %self.genome.strain_name)
+            return ''
+
     def to_protein(self):
         """Returns the protein object for the gene."""
         return Protein(self.protein_accession_number)
@@ -261,7 +273,7 @@ class Gene:
             # cache key will be empty
             except BlastNoHitFoundException:
                 my_logger.debug("No reciprocal BLAST hit for %s." % self.locus_tag)
-        #return the cache for this gene    
+        #return the cache for this gene
         return genome.get_gene_by_locus_tag(cache[key]) if cache[key] else None
 
     def distance(self, other):

@@ -66,20 +66,20 @@ def heatmap_view(tree, orthologous_groups, save_dir):
     for node, light_node in zip(tree.get_leaves(), light_tree.get_leaves()):
         for i, orthologous_grp in enumerate(orthologous_groups, start=1):
             #get all orthologs in group
-            matching_genes = [[g for g in orthologous_grp.genes \
+            matching_genes = [g for g in orthologous_grp.genes \
             if g.genome.strain_name == node.name]
 
             #if there is ortholog
-            if len(genes) > 0:
+            if len(matching_genes) > 0:
                 # Get the first ortholog from the genome in the group
                 #this is the one with higher probability of regulation.
                 #so this probability will be displayed for the group
-                gene = genes[0]
+                gene = matching_genes[0]
                 p_regulation = gene.operon.regulation_probability
                 p_notregulation = 1.0 - p_regulation
                 p_absence = 0
             # No ortholog from this genome
-            else:  
+            else:
                 gene = None
                 p_regulation = 0
                 p_notregulation = 0
@@ -109,7 +109,7 @@ def heatmap_view(tree, orthologous_groups, save_dir):
 
     ts = TreeStyle()
     # Add orthologous group descriptions
-    descriptions = [grp.description for grp in orthologous_groups]
+    descriptions = ['-'.join([grp.description, str(grp.NOGs)]) for grp in orthologous_groups]
     max_description_len = max(map(len, descriptions))
     descriptions = [
         '[%d]' % i + description + ' '*(max_description_len-len(description))

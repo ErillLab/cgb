@@ -157,13 +157,13 @@ class UserInput:
             if value < 0.0:
                 my_logger.info("WARNING: "\
                                "operon_prediction_probability_threshold (%d) "\
-                               "out of range in input file; will be reset to %d" 
+                               "out of range in input file; will be reset to %d"
                                % (value, 0.0))
                 value=0.0
             if value > 1.0:
                 my_logger.info("WARNING: "\
                                "operon_prediction_probability_threshold (%d) "\
-                               "out of range in input file; will be reset to %d" 
+                               "out of range in input file; will be reset to %d"
                                % (value, 1.0))
                 value=1.0
         except KeyError:
@@ -397,7 +397,7 @@ class UserInput:
     @cached_property
     def network_size_plot(self):
 
-        """Returns True/False which specifies whether a network size plot will 
+        """Returns True/False which specifies whether a network size plot will
            be generated or not.
         """
         try:
@@ -539,4 +539,131 @@ class UserInput:
                 value=0.001
         except:
             value = 0.001
+        return value
+
+    @cached_property
+    def hmmer_eval(self):
+        """Returns the e-value used for identifying homologs in the eggNOG or
+           PFAM databases.
+           Defaults to 10**-5.
+        """
+        try:
+            value = self._input['hmmer_eval']
+            #limit range
+            if value < 0:
+                my_logger.info("WARNING: "\
+                               "E-value (%d) must be positive;"\
+                               "will be reset to %d" %
+                              (value, 0.00001))
+                value=0.00001
+            if value > 1:
+                my_logger.info("WARNING: "\
+                               "e-value (%d) too large for meaningful results"\
+                               "; will be reset to %d" %
+                              (value, 0.00001))
+                value=0.00001
+        except:
+            value = 0.00001
+        return value
+
+    @cached_property
+    def NOG_search(self):
+        """Returns True/False which specifies whether a HMMER eggNOG search
+           will be run or not.
+        """
+        try:
+            value = self._input['NOG_search']
+            #test value
+            if not(isinstance(value, bool)):
+                my_logger.info("WARNING: "\
+                               "NOG_search (%s) not "\
+                               "properly defined in input file; "\
+                               "will be reset to %d" %
+                              (str(value), False))
+                value=False
+        except:
+            value = False
+        return value
+
+    @cached_property
+    def PFAM_search(self):
+        """Returns True/False which specifies whether a HMMER PFAM search
+           will be run or not.
+        """
+        try:
+            value = self._input['PFAM_search']
+            #test value
+            if not(isinstance(value, bool)):
+                my_logger.info("WARNING: "\
+                               "PFAM_search (%s) not "\
+                               "properly defined in input file; "\
+                               "will be reset to %d" %
+                              (str(value), False))
+                value=False
+        except:
+            value = False
+        return value
+
+    @cached_property
+    def eggNOG_dbname(self):
+        """Returns the path (full or relative, including file name) to
+           the eggNOG database.
+
+           If not provided by the user, it's set by default to none.
+        """
+        try:
+            value = self._input['eggNOG_dbname']
+        except:
+            value = None
+        return value
+
+    @cached_property
+    def PFAM_dbname(self):
+        """Returns the path (full or relative, including file name) to
+           the eggNOG database.
+
+           If not provided by the user, it's set by default to none.
+        """
+        try:
+            value = self._input['PFAM_dbname']
+        except:
+            value = None
+        return value
+
+
+    @cached_property
+    def NOGejump(self):
+        """Returns the exponent difference in e-value used filter eggNOG hits.
+           Defaults to 5 (e.g. allows jump from 1e-15 to 1e-10).
+        """
+        try:
+            value = self._input['NOGejump']
+            #limit range
+            if value < 0:
+                my_logger.info("WARNING: "\
+                               "E-value jump (%d) must be positive;"\
+                               "will be reset to %d" %
+                              (value, 5))
+                value=5
+        except:
+            value = 5
+        return value
+
+    @cached_property
+    def maxNOG(self):
+        """Returns the maximum number of NOGs to be reported for any given
+           ortholog group.
+           Defaults to 1.
+        """
+        try:
+            value = self._input['maxNOG']
+            #limit range
+            if value < 0:
+                my_logger.info("WARNING: "\
+                               "Max number of NOGs (%d) must be positive;"\
+                               "will be reset to %d" %
+                              (value, 1))
+                value=1
+        except:
+            value = 1
         return value

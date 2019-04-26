@@ -3,6 +3,7 @@ import pickle
 import copy
 import glob
 import shutil
+from tqdm import tqdm
 
 from .genome import Genome
 from .protein import Protein
@@ -17,6 +18,7 @@ from .orthologous_group import ancestral_state_reconstruction
 from .orthologous_group import ancestral_states_to_csv
 from .visualization import all_plots
 from .entrez_utils import set_entrez_email, set_entrez_apikey, set_entrez_delay
+from .hmmer import run_eggNOG_hmmscan, process_eggNOG_hmmscan
 
 
 PICKLE_DIR = directory('pickles')
@@ -297,7 +299,7 @@ def get_prior(genome, user_input, weights):
     tend to underestimate the prior. Hence, the alternative approach taken here
     is to define the <expected> number of sites in a genome, using the
     Rfrequency/Rsequence equation as: G/2^Rsequence, where G is the
-    size of the genome, then infer the prior as the predicted number of 
+    size of the genome, then infer the prior as the predicted number of
     regulated operons (assuming one site per operon) divided by the total number
     of operons.
 
@@ -326,14 +328,14 @@ def get_prior(genome, user_input, weights):
                        % genome.strain_name)
 
         #IC-inferred prior
-        my_logger.info("Motif IC for %s : %d bits" % (genome.strain_name, 
+        my_logger.info("Motif IC for %s : %d bits" % (genome.strain_name,
                                             genome.TF_binding_model.IC))
 
-        # first infer operons, with operon-split deactivated (by forcing 
+        # first infer operons, with operon-split deactivated (by forcing
         # operon_prediction_probability_threshold to 1, so there is no need to
         # compute site scores, which require operons to be predicted)
         my_logger.info("Initial operon prediction (%s)" % genome.strain_name)
-        genome.operon_prediction(1, 
+        genome.operon_prediction(1,
                         user_input.operon_prediction_distance_tuning_parameter)
 
         # then compute prior
@@ -415,13 +417,22 @@ def create_orthologous_groups(user_input, regulons, genomes):
                                           user_input.homolog_eval)
     # Update cache
     pickle_dump(cache, cache_file)
+    
+    return groups
+
+def write_orthologous_groups(orthologous_grps, genomes):
+    """ writes out the list of orthologous groups
+    """
+
+
     # Create phylogenetic tree of target genomes only.
     phylo = Phylo([g.TF_instance for g in genomes],
                   [g.strain_name for g in genomes])
+
+    my_logger.info("Writing out orthologous groups")
     # Write groups to file
-    orthologous_grps_to_csv(groups, phylo,
+    orthologous_grps_to_csv(orthologous_grps, phylo,
                             os.path.join(OUTPUT_DIR, 'orthologs.csv'))
-    return groups
 
 
 def create_phylogeny(genomes, proteins, user_input):
@@ -446,6 +457,23 @@ def create_phylogeny(genomes, proteins, user_input):
     phylo.to_nexus(os.path.join(OUTPUT_DIR, 'phylogeny.nex'))
     return phylo
 
+def assign_NOGs_to_orthologous_groups(user_input, orthologous_grps):
+    """Assigns list of NOGs to each ortologous group
+       For each orthologous group, it invokes hmmscan (from the HMMER3
+       package) to query the eggNOG database. It processes the output
+       and assigns the resulting NOG ID list to the orthologous group
+       NOG property.
+
+    Args:
+        user_input (UserInput): the parameters provided by the user
+        orthologous_grps ([OrthologousGroup]): the list of orthologous groups.
+            Each group consists of genes that are orthologous to each other.
+    """
+
+    my_logger.info("Assigning NOGs to orthologous groups")
+    #for each orthologous group
+    for grp in tqdm(orthologous_grps):
+        grp.assign_NOGs(user_input)
 
 def perform_ancestral_state_reconstruction(user_input, genomes,
                                            orthologous_grps):
@@ -520,10 +548,15 @@ def TestInput(user_input):
     tmp = user_input.sleep
     tmp = user_input.TF_eval
     tmp = user_input.homolog_eval
+    tmp = user_input.hmmer_eval
+    tmp = user_input.eggNOG_dbname
+    tmp = user_input.PFAM_dbname
+    tmp = user_input.NOG_search
+    tmp = user_input.PFAM_search
 
-#acts as the "main" for the library (called as cgb.go from run.py file 
+#acts as the "main" for the library (called as cgb.go from run.py file
 #(in CGB root folder)
-#it first reads and parses the input file, stores it in memory in "user_input", 
+#it first reads and parses the input file, stores it in memory in "user_input",
 #then initializes directories for output
 #downloads and stores genomes locally
 #identifies TF instances in each genome (and removes genomes with no TF)
@@ -553,30 +586,29 @@ def go(input_file):
 
     # Set Entrez parameters
     if user_input.entrez_email==None:
-        my_logger.info("No email address provided. Revise input file")        
+        my_logger.info("No email address provided. Revise input file")
         exit()
     else:
-        my_logger.info("Using %s as Entrez email address" 
+        my_logger.info("Using %s as Entrez email address"
                         % user_input.entrez_email)
         set_entrez_email(user_input.entrez_email)
 
     if user_input.entrez_apikey==None:
-        my_logger.info("No API key address provided.")        
+        my_logger.info("No API key address provided.")
 
     else:
-        my_logger.info("Using %s as Entrez API key" 
+        my_logger.info("Using %s as Entrez API key"
                         % user_input.entrez_apikey)
         set_entrez_apikey(user_input.entrez_apikey)
 
     if user_input.sleep==None:
-        my_logger.info("No sleep time provided for NCBI API.")        
+        my_logger.info("No sleep time provided for NCBI API.")
         user_input.sleep=0
 
     else:
-        my_logger.info("Using %f as additional delay for NCBI API" 
+        my_logger.info("Using %f as additional delay for NCBI API"
                         % user_input.sleep)
         set_entrez_delay(user_input.sleep)
-
 
     # Create proteins
     proteins = create_proteins(user_input)
@@ -600,14 +632,14 @@ def go(input_file):
     for genome in genomes:
         my_logger.info("-" * 80)
         my_logger.info("Processing %s" % genome.strain_name)
-        
+
         # Create weights for combining motifs and inferring priors, if not set
         phylo_weighting = (phylogeny if user_input.phylogenetic_weighting
                            else None)
         site_count_weighting = user_input.site_count_weighting
         weights = compute_weights(genome, site_collections,
                                   phylo_weighting, site_count_weighting)
-        
+
         # Set TF-binding model for each genome.
         my_logger.info("Setting TF-binding model (%s)" % genome.strain_name)
         set_TF_binding_model(user_input, genome, site_collections, weights)
@@ -615,12 +647,12 @@ def go(input_file):
         # Infer prior probabilities of regulation
         prior = get_prior(genome, user_input, weights)
         my_logger.info("Prior(regulation; %s): %.2f" % (genome.strain_name, prior))
-        
+
         # Calculate posterior probabilities of regulation for each gene
         my_logger.info("Calculating regulation probabilities (%s)" %
                        genome.strain_name)
         genome.calculate_regulation_probabilities(prior, user_input)
-        
+
         # Predict operons
         genome.operon_prediction(
             user_input.operon_prediction_probability_threshold,
@@ -629,7 +661,7 @@ def go(input_file):
         # Infer regulon in current genome and add it to regulon list
         regulons = infer_regulons(user_input, genome)
         all_regulons.extend(regulons)
-        
+
         # Output current genome operons
         output_operons(user_input, genome)
 
@@ -640,6 +672,13 @@ def go(input_file):
 
     # Create orthologous groups
     ortholog_groups = create_orthologous_groups(user_input, all_regulons, genomes)
+
+    # Assign NOGs
+    if user_input.NOG_search:
+        assign_NOGs_to_orthologous_groups(user_input, ortholog_groups)
+
+    #Write orthologous groups
+    write_orthologous_groups(ortholog_groups, genomes)
 
     # Ancestral state reconstruction step
     if user_input.ancestral_state_reconstruction:
