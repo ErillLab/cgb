@@ -457,6 +457,24 @@ def create_phylogeny(genomes, proteins, user_input):
     phylo.to_nexus(os.path.join(OUTPUT_DIR, 'phylogeny.nex'))
     return phylo
 
+def assign_COGs_to_orthologous_groups(user_input, orthologous_grps):
+    """Assigns list of COGs to each ortologous group
+       For each orthologous group, it invokes hmmscan (from the HMMER3
+       package) to query the COG database. It processes the output
+       and assigns the resulting COG ID list to the orthologous group
+       COG property.
+
+    Args:
+        user_input (UserInput): the parameters provided by the user
+        orthologous_grps ([OrthologousGroup]): the list of orthologous groups.
+            Each group consists of genes that are orthologous to each other.
+    """
+
+    my_logger.info("Assigning COGs to orthologous groups")
+    #for each orthologous group
+    for grp in tqdm(orthologous_grps):
+        grp.assign_COGs(user_input)
+        
 def assign_NOGs_to_orthologous_groups(user_input, orthologous_grps):
     """Assigns list of NOGs to each ortologous group
        For each orthologous group, it invokes hmmscan (from the HMMER3
@@ -475,6 +493,24 @@ def assign_NOGs_to_orthologous_groups(user_input, orthologous_grps):
     for grp in tqdm(orthologous_grps):
         grp.assign_NOGs(user_input)
 
+def assign_PFAMs_to_orthologous_groups(user_input, orthologous_grps):
+    """Assigns list of PFAMs to each ortologous group
+       For each orthologous group, it invokes hmmscan (from the HMMER3
+       package) to query the PFAM database. It processes the output
+       and assigns the resulting PFAM ID list to the orthologous group
+       PFAM property.
+
+    Args:
+        user_input (UserInput): the parameters provided by the user
+        orthologous_grps ([OrthologousGroup]): the list of orthologous groups.
+            Each group consists of genes that are orthologous to each other.
+    """
+
+    my_logger.info("Assigning PFAMs to orthologous groups")
+    #for each orthologous group
+    for grp in tqdm(orthologous_grps):
+        grp.assign_PFAMs(user_input)
+        
 def perform_ancestral_state_reconstruction(user_input, genomes,
                                            orthologous_grps):
     """Performs ancestral state reconstruction
@@ -673,10 +709,18 @@ def go(input_file):
     # Create orthologous groups
     ortholog_groups = create_orthologous_groups(user_input, all_regulons, genomes)
 
+    # Assign COGs
+    if user_input.COG_search:
+        assign_COGs_to_orthologous_groups(user_input, ortholog_groups)
+        
     # Assign NOGs
     if user_input.NOG_search:
         assign_NOGs_to_orthologous_groups(user_input, ortholog_groups)
 
+    # Assign PFAMs
+    if user_input.PFAM_search:
+        assign_PFAMs_to_orthologous_groups(user_input, ortholog_groups)
+        
     #Write orthologous groups
     write_orthologous_groups(ortholog_groups, genomes)
 

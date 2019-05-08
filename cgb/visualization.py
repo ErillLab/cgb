@@ -109,7 +109,11 @@ def heatmap_view(tree, orthologous_groups, save_dir):
 
     ts = TreeStyle()
     # Add orthologous group descriptions
-    descriptions = ['-'.join([grp.description, str(grp.NOGs)]) for grp in orthologous_groups]
+    descriptions = ['-'.join([grp.description, \
+        str([item['ID'] for item in grp.COGs]) if len(grp.COGs)>0 else '', \
+        str([item['ID'] for item in grp.NOGs]) if len(grp.NOGs)>0 else '', \
+        str([item['ID'] for item in grp.PFAMs])] if len(grp.PFAMs)>0 else '')\
+                    for grp in orthologous_groups]
     max_description_len = max(map(len, descriptions))
     descriptions = [
         '[%d]' % i + description + ' '*(max_description_len-len(description))

@@ -567,6 +567,25 @@ class UserInput:
         return value
 
     @cached_property
+    def COG_search(self):
+        """Returns True/False which specifies whether a HMMER COG search
+           will be run or not.
+        """
+        try:
+            value = self._input['COG_search']
+            #test value
+            if not(isinstance(value, bool)):
+                my_logger.info("WARNING: "\
+                               "COG_search (%s) not "\
+                               "properly defined in input file; "\
+                               "will be reset to %d" %
+                              (str(value), False))
+                value=False
+        except:
+            value = False
+        return value
+    
+    @cached_property
     def NOG_search(self):
         """Returns True/False which specifies whether a HMMER eggNOG search
            will be run or not.
@@ -605,6 +624,19 @@ class UserInput:
         return value
 
     @cached_property
+    def COG_dbname(self):
+        """Returns the path (full or relative, including file name) to
+           the COG database.
+
+           If not provided by the user, it's set by default to none.
+        """
+        try:
+            value = self._input['COG_dbname']
+        except:
+            value = None
+        return value
+    
+    @cached_property
     def eggNOG_dbname(self):
         """Returns the path (full or relative, including file name) to
            the eggNOG database.
@@ -632,12 +664,12 @@ class UserInput:
 
 
     @cached_property
-    def NOGejump(self):
-        """Returns the exponent difference in e-value used filter eggNOG hits.
+    def OGejump(self):
+        """Returns the exponent difference in e-value used filter COG/NOG hits.
            Defaults to 5 (e.g. allows jump from 1e-15 to 1e-10).
         """
         try:
-            value = self._input['NOGejump']
+            value = self._input['OGejump']
             #limit range
             if value < 0:
                 my_logger.info("WARNING: "\
@@ -647,6 +679,25 @@ class UserInput:
                 value=5
         except:
             value = 5
+        return value
+
+    @cached_property
+    def maxCOG(self):
+        """Returns the maximum number of COGs to be reported for any given
+           ortholog group.
+           Defaults to 1.
+        """
+        try:
+            value = self._input['maxCOG']
+            #limit range
+            if value < 0:
+                my_logger.info("WARNING: "\
+                               "Max number of COGs (%d) must be positive;"\
+                               "will be reset to %d" %
+                              (value, 1))
+                value=1
+        except:
+            value = 1
         return value
 
     @cached_property
@@ -661,6 +712,26 @@ class UserInput:
             if value < 0:
                 my_logger.info("WARNING: "\
                                "Max number of NOGs (%d) must be positive;"\
+                               "will be reset to %d" %
+                              (value, 1))
+                value=1
+        except:
+            value = 1
+        return value
+
+
+    @cached_property
+    def maxPFAM(self):
+        """Returns the maximum number of PFAMs to be reported for any given
+           ortholog group.
+           Defaults to 1.
+        """
+        try:
+            value = self._input['maxPFAM']
+            #limit range
+            if value < 0:
+                my_logger.info("WARNING: "\
+                               "Max number of PFAMs (%d) must be positive;"\
                                "will be reset to %d" %
                               (value, 1))
                 value=1
