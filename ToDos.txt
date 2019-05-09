@@ -1,5 +1,5 @@
-- hmmer - eggNOG support
+- [DONE] hmmer - eggNOG support
 - [DONE] protein ID bug
 - [DONE] tunable e-value for TF BLAST and for ortholog BLAST
 - remove genome with no TF bug
-- [~DONE] BLAST not grouping right bug
+- [DONE] BLAST not grouping right bug

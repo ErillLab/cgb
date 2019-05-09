@@ -14,9 +14,10 @@ from . import visualization
 from . import bayestraits_wrapper
 from .my_logger import my_logger
 from .misc import mean
-from .blast import BLAST
-from .user_input import UserInput
-from .hmmer import run_eggNOG_hmmscan, process_eggNOG_hmmscan
+
+from .hmmer import run_COG_hmmscan, process_COG_hmmscan, \
+                   run_eggNOG_hmmscan, process_eggNOG_hmmscan, \
+                   run_PFAM_hmmscan, process_PFAM_hmmscan
 
 
 class OrthologousGroup:
@@ -34,7 +35,9 @@ class OrthologousGroup:
         self._genes = genes
         self._genes.sort(key=lambda g: g.operon.regulation_probability,
                          reverse=True)
+        self._COGs = []
         self._NOGs = []
+        self._PFAMs = []
 
     @property
     def genes(self):
@@ -56,10 +59,20 @@ class OrthologousGroup:
         return ret_desc
 
     @property
+    def COGs(self):
+        """Returns the list of NOG IDs assigned to this group."""
+        return self._COGs
+
+    @property
     def NOGs(self):
         """Returns the list of NOG IDs assigned to this group."""
         return self._NOGs
 
+    @property
+    def PFAMs(self):
+        """Returns the list of NOG IDs assigned to this group."""
+        return self._PFAMs
+    
     def member_from_genome(self, genome_name):
         """Returns the member of the group from the given genome.
 
@@ -89,20 +102,87 @@ class OrthologousGroup:
            input preferences (maxNOG number, e-value jump), and assings the
            resulting list to the groups' NOG property.
         """
-        #take first gene as query
-        query=self.genes[0]
 
-        #obtain protein sequence and generate seq object
-        query_record=SeqRecord(Seq(query.translate, IUPAC.protein),\
-                     id=query.protein_accession_number,name=query.name,\
-                     description=query.product)
+        #take first proper (protein coding) gene as query
+        query=None
+        for g in self.genes:
+            if g.is_protein_coding_gene:
+                query=g
+                break
+		
+		#if the group contains at least a valid protein coding gene
+        if query:
+			#obtain protein sequence and generate seq object
+            query_record=SeqRecord(Seq(query.translate, IUPAC.protein),\
+						 id=query.protein_accession_number,name=query.name,\
+						 description=query.product)
 
-        #invoke hmmscan
-        run_eggNOG_hmmscan(query_record,userin)
+            #invoke hmmscan
+            run_eggNOG_hmmscan(query_record,userin)
 
-        #process result from hmmscan and assign NOGs to orthologous group
-        self._NOGs=process_eggNOG_hmmscan(userin)
+            #process result from hmmscan and assign NOGs to orthologous group
+            self._NOGs=process_eggNOG_hmmscan(userin)
+        else:
+            self._NOGs=[]
+            
+    def assign_PFAMs(self,userin):
+        """Calls hmmscan to obtain matches for first protein in the group.
+           Invokes process_hmmscan to obtain a list of NOGs according to user
+           input preferences (maxNOG number, e-value jump), and assings the
+           resulting list to the groups' NOG property.
+        """
 
+        #take first proper (protein coding) gene as query
+        query=None
+        for g in self.genes:
+            if g.is_protein_coding_gene:
+                query=g
+                break
+		
+		#if the group contains at least a valid protein coding gene
+        if query:
+			#obtain protein sequence and generate seq object
+            query_record=SeqRecord(Seq(query.translate, IUPAC.protein),\
+						 id=query.protein_accession_number,name=query.name,\
+						 description=query.product)
+
+            #invoke hmmscan
+            run_PFAM_hmmscan(query_record,userin)
+
+            #process result from hmmscan and assign NOGs to orthologous group
+            self._PFAMs=process_PFAM_hmmscan(userin)
+        else:
+            self._PFAMs=[]            
+            
+    def assign_COGs(self,userin):
+        """Calls hmmscan to obtain matches for first protein in the group.
+           Invokes process_hmmscan to obtain a list of NOGs according to user
+           input preferences (maxNOG number, e-value jump), and assings the
+           resulting list to the groups' NOG property.
+        """
+
+        #take first proper (protein coding) gene as query
+        query=None
+        for g in self.genes:
+            if g.is_protein_coding_gene:
+                query=g
+                break
+		
+		#if the group contains at least a valid protein coding gene
+        if query:
+			#obtain protein sequence and generate seq object
+            query_record=SeqRecord(Seq(query.translate, IUPAC.protein),\
+						 id=query.protein_accession_number,name=query.name,\
+						 description=query.product)
+
+            #invoke hmmscan
+            run_COG_hmmscan(query_record,userin)
+
+            #process result from hmmscan and assign NOGs to orthologous group
+            self._COGs=process_COG_hmmscan(userin)
+        else:
+            self._COGs=[]                        
+            
     def discretize_regulation_states(self, phylo):
         """Discretizes the trait of regulation for all genes in the orthologous
            group.
@@ -353,7 +433,8 @@ def orthologous_grps_to_csv(groups, phylogeny, filename):
         csv_writer = csv.writer(csvfile)
         header_row = (['average_probability',
                        'average_probability_all',
-                       'ortholog_group_size', 'description', 'NOGs'] +
+                       'ortholog_group_size', 'description', 'COGs', 'eval', \
+                       'NOGs', 'eval', 'PFAMs', 'eval'] +
                       [field for genome_name in genome_names
                        for field in ['probability (%s)' % genome_name,
                                      'locus_tag (%s)' % genome_name,
@@ -374,9 +455,19 @@ def orthologous_grps_to_csv(groups, phylogeny, filename):
                               for g in genes])
             # Orthologous group size
             grp_size = len([g for g in genes if g])
+            #COGs and evalues
+            COGs=' | '.join([item['ID'] for item in group.COGs])
+            COGes=' | '.join([str(item['eval']) for item in group.COGs])            
             #NOGs
-            NOGs='|'.join(group.NOGs)
-            row = [avg_p, avg_p_all, grp_size,group.description,NOGs]
+            NOGs=' | '.join([item['ID'] for item in group.NOGs])
+            NOGes=' | '.join([str(item['eval']) for item in group.NOGs])
+            #PFAMs
+            PFAMs=' | '.join([item['ID'] for item in group.PFAMs])
+            PFAMes=' | '.join([str(item['eval']) for item in group.PFAMs])
+            
+            #row start
+            row = [avg_p, avg_p_all, grp_size,group.description,\
+                   COGs,COGes,NOGs,NOGes,PFAMs,PFAMes]
 
             for genome_name in genome_names:
                 all_genes = group.all_genes_from_genome(genome_name)
