@@ -128,7 +128,7 @@ And use this file to create a HMMER database with:
 #### PFAM
 In order to query PFAM with HMMER to assign PFAM IDs to orthologous groups, you'll need to first download the current version of the [PFAM database](ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/). See ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/. You can download any PFAM compilation that you deem applicable to your analyses, but the latest [PFAM full database](ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam32.0/Pfam-A.hmm.gz) is recommended.
 
-Donwload and uncompress the ~10 Gb PFAM zip file containing the bacterial NOG Hiden Markov Models (.hmm).
+Donwload and uncompress the PFAM zip file containing the bacterial NOG Hiden Markov Models (.hmm).
 `gzip -d Pfam-A.hmm.gz`
 
 And use this file to create a HMMER database with:
