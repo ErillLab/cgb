@@ -651,16 +651,16 @@ def go(input_file):
 
     # Create genomes
     genomes = create_genomes(user_input)
-    for g in genomes:
-        my_logger.info("Pre - genome: %s" % g.strain_name )
+#    for g in genomes:
+#        my_logger.info("Pre - genome: %s" % g.strain_name )
     # Identify TF instances for each genome
     identify_TF_instance_in_genomes(genomes, proteins,user_input.TF_eval)
 
     # Remove genomes with no TF-instance from the analysis.
     genomes = remove_genomes_with_no_TF_instance(genomes)
 
-    for g in genomes:
-        my_logger.info("Post - genome: %s" % g.strain_name)
+#    for g in genomes:
+#        my_logger.info("Post - genome: %s" % g.strain_name)
     
     # Create phylogeny
     phylogeny = create_phylogeny(genomes, proteins, user_input)

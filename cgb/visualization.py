@@ -109,11 +109,35 @@ def heatmap_view(tree, orthologous_groups, save_dir):
 
     ts = TreeStyle()
     # Add orthologous group descriptions
-    descriptions = ['-'.join([grp.description, \
-        str([item['ID'] for item in grp.COGs]) if len(grp.COGs)>0 else '', \
-        str([item['ID'] for item in grp.NOGs]) if len(grp.NOGs)>0 else '', \
-        str([item['ID'] for item in grp.PFAMs])] if len(grp.PFAMs)>0 else '')\
-                    for grp in orthologous_groups]
+    descriptions = []
+    for grp in orthologous_groups:
+        descript = grp.description
+        if grp.COGs or grp.NOGs or grp.PFAMs:
+            descript = descript + ' || '
+        COG_IDs = ''
+        if grp.COGs:
+            COG_IDs = str([item['ID'] for item in grp.COGs])
+            descript = descript + COG_IDs
+            if grp.NOGs or grp.PFAMs:
+                descript = descript + ' - ' 
+        NOG_IDs = ''
+        if grp.NOGs:
+            NOG_IDs = str([item['ID'] for item in grp.NOGs])           
+            descript = descript + NOG_IDs
+            if grp.PFAMs:
+                descript = descript + ' - ' 
+        PFAM_IDs = ''
+        if grp.PFAMs:
+            PFAM_IDs = str([item['ID'] for item in grp.PFAMs])
+            descript = descript + PFAM_IDs
+     
+        descriptions.append(descript)
+            
+#    descriptions = ['-'.join([grp.description, \
+#        str([item['ID'] for item in grp.COGs]) if len(grp.COGs)>0 else '', \
+#        str([item['ID'] for item in grp.NOGs]) if len(grp.NOGs)>0 else '', \
+#        str([item['ID'] for item in grp.PFAMs])] if len(grp.PFAMs)>0 else '')\
+#                    for grp in orthologous_groups]
     max_description_len = max(map(len, descriptions))
     descriptions = [
         '[%d]' % i + description + ' '*(max_description_len-len(description))

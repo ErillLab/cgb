@@ -58,9 +58,12 @@ def get_protein_record(accession):
     #if file not locally available, fetch and save locally (in ENTREZ_DIRECTORY cache)
     if not os.path.isfile(protein_file):
         # Download and save file
-        handle = Entrez.efetch(db='protein', id=accession,
-                               rettype='gb', retmode='text')
-        record = handle.read()
+        try:
+            handle = Entrez.efetch(db='protein', id=accession,
+                                   rettype='gb', retmode='text')
+            record = handle.read()
+        except Exception as e:
+            my_logger.info("Unable to access %s" % e.geturl())
         # add further delay if NCBI traffic is high and 
         # "HTTP Error 429: Too Many Requests" is received
         time.sleep(sleep_time)
