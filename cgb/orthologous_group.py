@@ -485,8 +485,8 @@ def orthologous_grps_to_csv(groups, phylogeny, filename):
                 # Write all paralogs into a cell
                 paralogs = [':'.join(('%.3f' % g.operon.regulation_probability,
                                       g.locus_tag,
-                                      gene.protein_accession_number \
-                                      if gene.is_protein_coding_gene else ' ',
+                                      g.protein_accession_number \
+                                      if g.is_protein_coding_gene else ' ',
                                       g.product,
                                       str(g.operon.operon_id)))
                             for g in all_genes[1:]]
