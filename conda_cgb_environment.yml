@@ -1,0 +1,27 @@
+# This file can be used to create a conda environment using:
+# $ conda env create -f conda_cgb_environment.yml
+# platform: linux-64
+name: cgb
+channels:
+  - conda-forge
+dependencies:
+  - python=2.7
+  - numpy=1.16.5 
+  - scipy=1.2.1
+  - matplotlib=2.2.5
+  - pyparsing=2.4.7
+  - biopython=1.73
+  - pyzmq=19.0.0
+  - ipython=5.8.0
+  - spyder=4.1.1
+  - lxml=4.5.0
+  - pyqt=5.12.3
+  - networkx=2.2
+  - cached-property=1.5.1
+  - pip
+  - pip:
+    # works for regular pip packages
+    - ete3=3.1.1
+    - tqdm=4.47.0
+    - weblogo==3.4
+
