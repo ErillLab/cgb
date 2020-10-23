@@ -738,3 +738,25 @@ class UserInput:
         except:
             value = 1
         return value
+
+    @cached_property
+    def use_up_dist_site_scan(self):
+        """Returns True/False which specifies whether the promoter up distance
+           will be used during the site scan.
+           If the promoter up distance is not used, the site scan will run up
+           to the preceding gene end/start. If it is used, it will run up to
+           that distance, regardless of any annotated features.
+        """
+        try:
+            value = self._input['use_up_dist_site_scan']
+            #test value
+            if not(isinstance(value, bool)):
+                my_logger.info("WARNING: "\
+                               "use_up_dist_site_scan (%s) not "\
+                               "properly defined in input file; "\
+                               "will be reset to %d" %
+                              (str(value), False))
+                value=False
+        except:
+            value = False
+        return value

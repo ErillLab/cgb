@@ -579,6 +579,7 @@ def TestInput(user_input):
     tmp = user_input.taxon_regulation_plot
     tmp = user_input.network_size_plot
     tmp = user_input.site_printout
+    tmp = user_input.use_up_dist_site_scan
     tmp = user_input.entrez_email
     tmp = user_input.entrez_apikey
     tmp = user_input.sleep
@@ -589,7 +590,7 @@ def TestInput(user_input):
     tmp = user_input.PFAM_dbname
     tmp = user_input.NOG_search
     tmp = user_input.PFAM_search
-
+    return(tmp)
 #acts as the "main" for the library (called as cgb.go from run.py file
 #(in CGB root folder)
 #it first reads and parses the input file, stores it in memory in "user_input",

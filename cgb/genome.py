@@ -420,8 +420,15 @@ class Genome:
             # Locate the upstream non-coding region.
             # Provide None as promoter_up_distance, so that the whole intergenic
             # region up the next gene TLS is scanned
-            start, end = gene.upstream_noncoding_region_location(None,
-                                                user_input.promoter_dw_distance)
+            # or the promoter_up_distance if the user has specified that they
+            # want to do so
+            if user_input.use_up_dist_site_scan:
+                start, end = gene.upstream_noncoding_region_location(
+                                               user_input.promoter_up_distance,
+                                               user_input.promoter_dw_distance)
+            else:
+                start, end = gene.upstream_noncoding_region_location(None,
+                                               user_input.promoter_dw_distance)
             # Score forward strand
             seq = gene.chromid.subsequence(start, end)
             scores = self.TF_binding_model.score_seq(seq, both=False)
@@ -444,7 +451,8 @@ class Genome:
 
         if filename:
             self._output_identified_sites(sites, 
-                                      user_input.promoter_up_distance, filename)
+                                      user_input.promoter_up_distance,
+                                      filename)
 
     def _output_identified_sites(self, sites, promoter_up, filename):
         """Reports the idenitied sites to a CSV file.
@@ -459,17 +467,29 @@ class Genome:
             csv_writer = csv.writer(csvfile)
             header_row = ['score', 'site', 'chromid', 'start', 'end', 'strand',
                           'distance', 'category', 'gene_strand', 'gene_start',
-                          'gene_end', 'gene_locus_tag', 'gene_product']
+                          'gene_end', 'gene_locus_tag', 'protein_id',
+                          'gene_product']
             csv_writer.writerow(header_row)
             for site in sites:
-                dist = site.gene.distance_to_region(site.start, site.end)
-                category = 'operator' if dist < promoter_up else 'intergenic'
+                dist = site.gene.relative_distance_to_start(site.start, site.end)
+                #define category: scan has been either within promoter_up
+                #and promoter_dw distances, or up to next gene boundary
+                #hence, all downstream sites are operator
+                #for upstream (negative distance) sites, they are intergenic
+                #if distance is over promoter_up
+                category = 'operator'
+                if dist < 0:
+                    if abs(dist) > promoter_up:
+                        category = 'intergenic'
                 site_seq = site.chromid.subsequence(
                     site.start, site.end, site.strand)
+                prot_id= site.gene.protein_accession_number if \
+                         site.gene.is_protein_coding_gene else ''
                 row = [site.score, site_seq, site.chromid.accession_number,
                        site.start, site.end, site.strand, dist, category,
                        site.gene.strand, site.gene.start,
                        site.gene.end, site.gene.locus_tag,
+                       prot_id,
                        site.gene.product]
                 csv_writer.writerow(row)
 

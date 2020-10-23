@@ -286,6 +286,35 @@ class Gene:
     def distance_to_region(self, region_start, region_end):
         """Returns the distance to the region given its location."""
         return max(self.start, region_start) - min(self.end, region_end)
+    
+    def relative_distance_to_start(self, site_start, site_end):
+        """Returns the relative distance of a site to the gene start
+           position. This is always the distance from the distal coordinate of
+           the site, since the idea is that the _entire_ site has to be within 
+           whatever up/down limits have been specified and it is given relative
+           to the gene start.
+           A positive distance denotes that the site is downstream of the
+           gene start. A negative distance specifies that the site is upstream
+           of the gene start.
+        """
+        dist=0
+        #if gene is in the forward strand
+        if self.is_forward_strand:
+            #if site is upstream of gene start
+            if site_start <= self.start:
+                dist = site_start - self.start
+            else:
+                dist = site_end - self.start
+        #gene is in reverse strand
+        else:
+            #if site is upstream of gene start
+            if site_end >= self.end:
+                dist = self.end - site_end
+            else:
+                dist = self.end - site_start
+            
+        return(dist)
+            
 
     def to_fasta(self):
         """Returns the gene sequence as a string in FASTA format."""
