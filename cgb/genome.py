@@ -419,7 +419,7 @@ class Genome:
         for gene in tqdm(self.genes):
             # Locate the upstream non-coding region.
             # Provide None as promoter_up_distance, so that the whole intergenic
-            # region up the next gene TLS is scanned
+            # region up the next gene TLS is scanned,
             # or the promoter_up_distance if the user has specified that they
             # want to do so
             if user_input.use_up_dist_site_scan:
