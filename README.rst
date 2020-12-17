@@ -6,6 +6,11 @@ cgb: Comparative genomics of transcriptional regulation in Bacteria
 regulation in Bacteria. This repository contains the core library and the
 graphical interface code for the comparative genomics platform.
 
+If using CGB in your research, please cite:
+Kılıç, S., Sánchez-Osuna, M., Collado-Padilla, A., Barbé, J. and Erill, I.
+Flexible comparative genomics of prokaryotic transcriptional regulatory networks. 
+BMC Genomics 21, 466 (2020). https://doi.org/10.1186/s12864-020-06838-x
+
 .. sectnum::
 
 About
