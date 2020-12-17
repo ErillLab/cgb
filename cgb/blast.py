@@ -84,6 +84,10 @@ class BLAST:
         # Parse results
         with open(output_file) as results_handle:
             blast_record = NCBIXML.read(results_handle)
+
+        #remove temporary files
+        os.remove(output_file)
+        os.remove(query_file)
         return blast_record
 
     def tblastx(self, query, e_val=10**-3):
