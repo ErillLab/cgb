@@ -29,10 +29,10 @@ class PSSMModel(TFBindingModel):
     target species.
     """
     def __init__(self, collections, weights,
-                 background={'A': 0.25, 'C': 0.25, 'G': 0.25, 'T': 0.25}):
+                 background={'A': 0.25, 'C': 0.25, 'G': 0.25, 'T': 0.25}, alphabet="ACGT"):
         """Constructor for the PSSMModel class."""
-        super(PSSMModel, self).__init__(collections, background)
-        self._pwm = self._combine_pwms([c.pwm for c in collections], weights)
+        super(PSSMModel, self).__init__(collections, background, alphabet)
+        self._pwm = self._combine_pwms([c.pwm for c in collections], weights, alphabet)
 
     @cached_property
     def pwm(self):
@@ -53,12 +53,7 @@ class PSSMModel(TFBindingModel):
     def rev_comp_pssm(self):
         """Returns the reverse complement of the PSSM."""
         return self.pssm.reverse_complement()
-
-    @property
-    def alphabet(self):
-        """Returns the alphabet of the motif."""
-        return self.pwm.alphabet
-
+    
     @cached_property
     def IC(self):
         """Returns the information content of the PSSM."""
@@ -140,7 +135,7 @@ class PSSMModel(TFBindingModel):
     @property
     def weblogo_from_pwm(self):
         s = len(self.sites)
-        alpha = self.alphabet.letters
+        alpha = self._alphabet
         cols = []
         for i in range(self.length):
             cols.append("")
@@ -162,16 +157,13 @@ class PSSMModel(TFBindingModel):
         return filename
 
     @staticmethod
-    def _combine_pwms(pwms, weights):
+    def _combine_pwms(pwms, weights, alphabet):
         """Combines the given PWMs according to the given weights."""
         len = pwms[0].length
-        alphabet = pwms[0].alphabet
         # Check if all PWMs are of the same length.
         assert all(len == pwm.length for pwm in pwms)
-        # Check if all PWMs have the same alphabet -- 'ACGT'
-        assert all(alphabet == pwm.alphabet for pwm in pwms)
         # Combine all PWMs according to given weights
         pwm_vals = {let: [sum(pwm[let][i]*w for pwm, w in zip(pwms, weights))
                           for i in xrange(len)]
-                    for let in alphabet.letters}
+                    for let in alphabet}  
         return PositionWeightMatrix(alphabet, pwm_vals)

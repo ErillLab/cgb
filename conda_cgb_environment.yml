@@ -10,7 +10,7 @@ dependencies:
   - scipy=1.2.1
   - matplotlib=2.2.5
   - pyparsing=2.4.7
-  - biopython=1.73
+  - biopython=1.76
   - pyzmq=19.0.0
   - ipython=5.8.0
   - spyder=4.1.1
@@ -21,7 +21,7 @@ dependencies:
   - pip
   - pip:
     # works for regular pip packages
-    - ete3=3.1.1
-    - tqdm=4.47.0
+    - ete3==3.1.1
+    - tqdm==4.47.0
     - weblogo==3.4
 

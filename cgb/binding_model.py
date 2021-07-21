@@ -33,7 +33,7 @@ class TFBindingModel():
     __metaclass__ = ABCMeta
 
     def __init__(self, collections,
-                 background={'A': 0.25, 'C': 0.25, 'G': 0.25, 'T': 0.25}):
+                 background={'A': 0.25, 'C': 0.25, 'G': 0.25, 'T': 0.25}, alphabet="ACGT"):
         """Constructor for the TFBindingModel class.
 
         Combines multiple PSWMs using phylogenetic weighting to derive a
@@ -41,7 +41,13 @@ class TFBindingModel():
         """
         self._background = background
         self._collection_set = collections
-
+        self._alphabet = alphabet
+        
+    @cached_property
+    def alphabet(self):
+        """Returns the DNA alphabet to be used by pssm_model.py"""
+        return self._alphabet
+        
     @cached_property
     def background(self):
         """Returns the background distribution of the model."""
